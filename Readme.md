@@ -1,4 +1,4 @@
-# Dokumentation zur Anbindung an den OZG-Vermittlungsdienst und den Systemverbund
+# Dokumentation zur Anbindung an den OZG-Vermittlungsdienst und des Systemverbunds
 
 ```mermaid
 graph LR; 
