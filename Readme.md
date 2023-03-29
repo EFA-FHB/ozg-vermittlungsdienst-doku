@@ -1,4 +1,5 @@
-# Dokumentation zur Anbindung an den OZG-Vermittlungsdienst und des Systemverbunds
+## EfA-Umsetzungsprojekt Vergabe
+# Dokumentation zur Anbindung einer Vergabeplattform an den Vermittlungsdienst
 
 ```mermaid
 graph LR; 
