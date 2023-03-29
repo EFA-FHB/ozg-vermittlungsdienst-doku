@@ -1,6 +1,5 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 ## Dokumentation Vermittlungsdienst
----
 [Startseite](Readme.md)
 # Verfügbare Entwicklungsumgebungen
 ## Welche Produktiv- und Testumgebungen sind verfügbar?
