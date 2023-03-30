@@ -13,7 +13,7 @@
 - ...
 <br /><br />
 
-## Einführung {#einfuehrung} 
+## Einführung
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen
 und den Wettbewerb bei öffentlichen Aufträgen stärken? Dann binden Sie sich mit Ihrer Vergabeplattform gerne an den von der Freien
 Hansestadt Bremen bereitgestellten Vermittlungsdienst an. Der Dienst ist Teil des Bremer EfA-Projektes „Zugang zur öffentlichen Vergabe“,
@@ -22,7 +22,7 @@ Mit Hilfe des Vermittlungsdiensts können Vergabesysteme Bekanntmachungen an den
 bundesweite Ausschreiben für Unternehmen leicht zugänglich machen. Wie Sie sich anbinden können, erfahren Sie in dieser Dokumentation.
 <br/><br/>
 
-## Die Aufgaben des Vermittlungsdiensts auf einen Blick {#}
+## Die Aufgaben des Vermittlungsdiensts auf einen Blick
 - Validierung aller eingehenden Bekanntmachungen nach
 Schema- sowie Schematron-Regeln 
 - Prüfung: Ist die Bekanntmachungen bereits im Bekanntmachungsservice
