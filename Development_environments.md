@@ -124,7 +124,3 @@ Vermittlungsdienst-System in der Lage, Bekanntmachungen auch an das entsprechend
     </tr>
   </tbody>
 </table>
-<br><br>
-
-## Validator
-*In Bearbeitung ...*
