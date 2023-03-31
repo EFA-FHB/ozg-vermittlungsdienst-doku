@@ -8,7 +8,8 @@ Es gibt zwei Möglichkeiten Bekanntmachungen an den Vermittlungsdienst zu überm
 <br><br>
 
 ## Anbindung per REST API
-Der Vermittlungsdienst stellt eine REST API zur Verfügung, die von jeder Vergabeplattform genutzt werden kann, um Bekanntmachungen an den Vermittlungsdienst zu übermitteln.
+Der Vermittlungsdienst stellt eine REST API zur Verfügung, die von jeder Vergabeplattform genutzt werden kann, um Bekanntmachungen an den Vermittlungsdienst zu übermitteln.<br>
+Zur Authentifizierung wird ein entsprechender Token benötigt, welcher mit Hilfe Ihrer Zugangsdaten über unsere API generiert werden kann.
 <br><br>
 
 ## Anbindung per PEPPOL (in der Umsetzung)
@@ -29,6 +30,8 @@ Nach der Erstellung des Benutzer wird zur Überprüfung an die angegebene Benutz
 Der Link ist 24 Stunden lang gültig.<br>
 Das Passwort muss aus mindestens 8 Zeichen bestehen, 1 Großbuchstaben und 1 Zahl enthalten.<br>
 Das Passwort muss in der FVH-Software hinterlegt werden um sicher zu gehen, dass die Verbindung mit dem Vermittlungsdienst funktioniert.
+<br><br>
+Mit dem erstellten Zugangsdaten können Sie nun eine entsprechenden Token über unsere API generieren.
 <br><br>
 
 ## Wie setzt man ein Benutzer Passwort zurück?
