@@ -20,9 +20,9 @@ Die folgenden Statuswerte existieren für nationale Bekanntmachungen:
 | processing       | Die Bekanntmachung wird vom BKMS verarbeitet.                                                                  |
 | accepted         | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert.                                                |
 | rejected         | Die Bekanntmachung wurde von BKMS abgelehnt.                                                                   |
-| *published*      | *Die Bekanntmachung wurde im BKMS veröffentlicht.*                                                             |
+| ⚠️*published*      | *Die Bekanntmachung wurde im BKMS veröffentlicht.*                                                             |
 
-**Anmerkung:** Die in rot markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS noch nicht zwischen accepted und published unterscheidet. 
+**Anmerkung:** Die kursiv markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS noch nicht zwischen accepted und published unterscheidet. 
 
 ![national notices diagramm](images/natinal_notices_diagramm.png)
 <br><br>
@@ -41,22 +41,22 @@ Die folgenden Statuswerte existieren für eu-weite Bekanntmachungen:
 | notSend                 | internalError                                         | Ein interner Fehler ist aufgetreten. Ein entsprechendes Support-Ticket wird ggf. erstellt.                                                                               |
 | rejected                | internalError                                         | Ein interner Fehler ist aufgetreten. Ein entsprechendes Support-Ticket wird ggf. erstellt.                                                                               |
 | stopped                 | notSend                                               | Die Bekanntmachung wurde in TED gestoppt und wird nicht zum Bekanntmachungsservice gesendet.                                                                             |
-| *stopped*               | *accepted/ published/ noResponse*                     | *Die Bekanntmachung wurde in TED gestoppt und wird in Kürze auch im Bekanntmachungsservice gestoppt werden.*                                                             |
-| *stopped*               | *stopped*                                             | *Die Bekanntmachung wurde sowohl in TED als auch im Bekanntmachungsservice gestoppt.*                                                                                    |
+| ⚠️*stopped*               | ⚠️*accepted/ published/ noResponse*                     | *Die Bekanntmachung wurde in TED gestoppt und wird in Kürze auch im Bekanntmachungsservice gestoppt werden.*                                                             |
+| ⚠️*stopped*               | ⚠️*stopped*                                             | *Die Bekanntmachung wurde sowohl in TED als auch im Bekanntmachungsservice gestoppt.*                                                                                    |
 | accepted                | pending                                               | Die Bekanntmachung wurde von TED akzeptiert, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                              |
 | accepted                | noResponse                                            | Die Bekanntmachung wurde von TED akzeptiert, aber noch nicht veröffentlicht. Die Übermittlung an den Bekanntmachungsservice wird erneut versucht.                         |
-| *accepted*              | *accepted*                                            | *Die Bekanntmachung wurde von TED und dem Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.*                                                            |
-| *accepted*              | *published*                                           | *Die Bekanntmachung wurde von TED akzeptiertt, aber noch nicht veröffentlicht. Die Bekanntmachung wurde bereits im Bekanntmachungsservice veröffentlicht.*               |
+| ⚠️*accepted*              | ⚠️*accepted*                                            | *Die Bekanntmachung wurde von TED und dem Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.*                                                            |
+| ⚠️*accepted*              | ⚠️*published*                                           | *Die Bekanntmachung wurde von TED akzeptiertt, aber noch nicht veröffentlicht. Die Bekanntmachung wurde bereits im Bekanntmachungsservice veröffentlicht.*               |
 | published               | pending                                               | Die Bekanntmachung wurde in TED veröffentlicht, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                           |
 | published               | noResponse                                            | Die Bekanntmachung wurde in TED veröffentlicht, die Übermittlung an den Bekanntmachungsservice wird erneut versucht.                                                     |
-| *published*             | *accepted*                                            | *Die Bekanntmachung wurde in TED veröffentlicht und vom Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.*                                              |
-| *published*             | *published*                                           | *Die Bekanntmachung wurde in TED und im Bekanntmachungsservice veröffentlicht.*                                                                                          |
+| ⚠️*published*             | ⚠️*accepted*                                            | *Die Bekanntmachung wurde in TED veröffentlicht und vom Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.*                                              |
+| ⚠️*published*             | ⚠️*published*                                           | *Die Bekanntmachung wurde in TED und im Bekanntmachungsservice veröffentlicht.*                                                                                          |
 | manuallyRejected        | notSend                                               | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde nicht zum Bekanntmachungsservice gesendet.                              |
-| *manuallyRejected*      | *accepted/ published/ noResponse*                     | *Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.*                      |
-| *manuallyRejected*      | *stopped*                                             | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde auch im Bekanntmachungsservice gestoppt.*                               |
+| ⚠️*manuallyRejected*      | ⚠️*accepted/ published/ noResponse*                     | *Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.*                      |
+| ⚠️*manuallyRejected*      | ⚠️*stopped*                                             | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde auch im Bekanntmachungsservice gestoppt.*                               |
 
 
-**Anmerkung:** Die in rot markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS eFormsDE 1.0.0 und das Stoppen von Bekannmachungen noch nicht unterstützt 
+**Anmerkung:** Die in kursiv markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS eFormsDE 1.0.0 und das Stoppen von Bekannmachungen noch nicht unterstützt 
 
 ![eu-wide notices diagramm](images/eu-wide_notices_diagramm.png)
 
