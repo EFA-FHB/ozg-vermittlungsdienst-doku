@@ -4,7 +4,7 @@
 
 ## Inhalte
 - [Einführung](#einführung)
-- [Die Aufgaben des Vermittlungsdienstes](#die-aufgaben-des-vermittlungsdiensts-auf-einen-blick)
+- [Die Aufgaben des Vermittlungsdienstes](#die-aufgaben-des-vermittlungsdiensts)
 - [Datenservice Öffentlicher Einkauf Systemarchitektur](#datenservice-öffentlicher-einkauf-systemarchitektur)
 - [Workflow](Workflow.md)
 - [Verfügbare Systemumgebungen](Development_environments.md)
