@@ -3,9 +3,9 @@
 <br>
 
 ## Inhalte
-- Einführung
-- Aufgaben des Vermittlungsdienstes
-- Datenservice Öffentlicher Einkauf Diagramm
+- [Einführung](#einführung)
+- [Die Aufgaben des Vermittlungsdienstes](#die-aufgaben-des-vermittlungsdiensts-auf-einen-blick)
+- [Datenservice Öffentlicher Einkauf Systemarchitektur](#datenservice-öffentlicher-einkauf-systemarchitektur)
 - [Workflow](Workflow.md)
 - [Verfügbare Systemumgebungen](Development_environments.md)
 - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
@@ -24,7 +24,7 @@ Mit Hilfe des Vermittlungsdiensts können Vergabesysteme Bekanntmachungen an den
 bundesweite Ausschreiben für Unternehmen leicht zugänglich machen. Wie Sie sich anbinden können, erfahren Sie in dieser Dokumentation.
 <br><br>
 
-## Die Aufgaben des Vermittlungsdiensts auf einen Blick
+## Die Aufgaben des Vermittlungsdiensts
 - Validierung aller eingehenden Bekanntmachungen nach
 Schema- sowie Schematron-Regeln und Prüfung, ob
 Bekanntmachungen bereits im Bekanntmachungsservice

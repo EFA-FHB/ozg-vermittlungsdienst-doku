@@ -5,7 +5,7 @@
 
 # Statusinformationen
 
-Der Status und weitere Informationen zu aufgetretenen Fehlern oder Warnungen zu einer Bekanntmachung können jederzeit von den FVH abgefragt werden, indem ein Request an den Mediator gesendet wird. Da der Mediator regelmäßig sämtliche Statusänderungen zu eu-weiten Bekanntmachungen vom eSender abfragt, liegt auch im Mediator immer der aktuelle Status einer Bekanntmachung vor, egal ob national oder eu-weit. Ebenso werden eventuelle Fehler von TED oder BKMS gespeichert und an den Mediator weitergegeben. Bezüglich der Statusabfrage ist zu beachten, dass für eu-weite Bekanntmachungen immer zwei Statuswerte für jede Bekanntmachung existieren: Der Status der internen Prozessierung im Datenservice öffentlicher Einkauf (DöE-Status) und der Status in TED (TED-Status). Die TED Statuswerte orientieren sich an den Statuswerten der EU. 
+Der Status und weitere Informationen zu aufgetretenen Fehlern oder Warnungen zu einer Bekanntmachung können jederzeit über einen Request an den Mediator abgefragt werden. Da der Mediator regelmäßig sämtliche Statusänderungen zu eu-weiten Bekanntmachungen vom eSender abfragt, liegt auch im Mediator immer der aktuelle Status einer Bekanntmachung vor, egal ob national oder eu-weit. Ebenso werden eventuelle Fehler von TED oder BKMS gespeichert und an den Mediator weitergegeben. Bezüglich der Statusabfrage ist zu beachten, dass für eu-weite Bekanntmachungen immer zwei Statuswerte für jede Bekanntmachung existieren: Der Status der internen Prozessierung im Datenservice öffentlicher Einkauf (DöE-Status) und der Status in TED (TED-Status). Die TED Statuswerte orientieren sich an den Statuswerten der EU. 
 <br><br>
 
 ## Status nationale Bekanntmachungen

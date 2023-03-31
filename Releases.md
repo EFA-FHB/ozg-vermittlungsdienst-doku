@@ -58,7 +58,7 @@
       <td>Es ist zu beachten, dass separate User für Preview und Production gepflegt werden müssen. Ein API-Key ist 24h gültig und muss danach erneuert werden</td>
     </tr>
     <tr>
-      <td>Validieren von eFormsDE 1.0 über den externen<strong> eForms Validator Service</strong>
+      <td>Validieren von eForms-DE 1.0 über den externen<strong> eForms Validator Service</strong>
       </td>
       <td>eForms Validator</td>
       <td>
@@ -78,7 +78,7 @@
       </td>
     </tr>
     <tr>
-      <td>Einliefern, akzeptieren und validieren von <strong>eFormsEU 0.1.1, 1.0 und 1.5 </strong>
+      <td>Einliefern, akzeptieren und validieren von <strong>eForms-EU 0.1.1, 1.0 und 1.5 </strong>
       </td>
       <td>Mediator</td>
       <td>
@@ -91,10 +91,10 @@
         <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
-      <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
+      <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eForms-DE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
     </tr>
     <tr>
-      <td>Einliefern, akzeptieren und validieren von <strong>eFormsDE 1.0.0</strong>
+      <td>Einliefern, akzeptieren und validieren von <strong>eForms-DE 1.0.0</strong>
       </td>
       <td>Mediator</td>
       <td>
@@ -114,7 +114,7 @@
       </td>
     </tr>
     <tr>
-      <td>Einliefern, akzeptieren und validieren von <strong>eFormsDE 1.0.1 </strong>
+      <td>Einliefern, akzeptieren und validieren von <strong>eForms-DE 1.0.1 </strong>
       </td>
       <td>Mediator</td>
       <td>
@@ -129,10 +129,10 @@
         </p>
         <p>Ja</p>
       </td>
-      <td>Derzeit kann Version eFormsDE 1.0.1 testweise im Mediator eingeliefert werden, diese kann aber (noch) nicht vom eSender in eFormsEU 1.5 verarbeitet werden, da das Codetable mapping noch nicht final ist</td>
+      <td>Derzeit kann Version eForms-DE 1.0.1 testweise im Mediator eingeliefert werden, diese kann aber (noch) nicht vom eSender in eForms-EU 1.5 verarbeitet werden, da das Codetable mapping noch nicht final ist</td>
     </tr>
     <tr>
-      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eFormsEU 0.1.1 und 1.0 im <strong>BKMS</strong>
+      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eForms-EU 0.1.1 und 1.0 im <strong>BKMS</strong>
       </td>
       <td>Mediator, BKMS</td>
       <td>
@@ -145,10 +145,10 @@
         <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
-      <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
+      <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eForms-DE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
     </tr>
     <tr>
-      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eFormsEU 1.5 an <strong>BKMS</strong>
+      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eForms-EU 1.5 an <strong>BKMS</strong>
       </td>
       <td>Mediator, BKMS</td>
       <td>
@@ -163,10 +163,10 @@
         </p>
         <p>Nein</p>
       </td>
-      <td>Die Bekanntmachung wird zwar an den BKMS weitergeleitet, aber vom BKMS abgelehnt, da eFormsEU 1.5 nicht unterstützt wird</td>
+      <td>Die Bekanntmachung wird zwar an den BKMS weitergeleitet, aber vom BKMS abgelehnt, da eForms-EU 1.5 nicht unterstützt wird</td>
     </tr>
     <tr>
-      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eFormsDE 1.0.0 im <strong>BKMS</strong>
+      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eForms-DE 1.0.0 im <strong>BKMS</strong>
       </td>
       <td>Mediator, BKMS</td>
       <td>
@@ -184,7 +184,7 @@
       </td>
     </tr>
     <tr>
-      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eFormsDE 1.0.1 im <strong>BKMS</strong>
+      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eForms-DE 1.0.1 im <strong>BKMS</strong>
       </td>
       <td>Mediator, BKMS</td>
       <td>
@@ -202,7 +202,7 @@
       </td>
     </tr>
     <tr>
-      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eFormsEU 0.1.1 und 1.0 an <strong>eSender</strong>
+      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eForms-EU 0.1.1 und 1.0 an <strong>eSender</strong>
       </td>
       <td>Mediator, eSender</td>
       <td>
@@ -217,10 +217,10 @@
         </p>
         <p>Nein</p>
       </td>
-      <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Bekanntmachungen mit älteren Versionen werden nicht vom eSender verarbeitet</td>
+      <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eForms-DE 1.0.0 oder aktueller. Bekanntmachungen mit älteren Versionen werden nicht vom eSender verarbeitet</td>
     </tr>
     <tr>
-      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eFormsEU 1.5 an <strong>eSender</strong>
+      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eForms-EU 1.5 an <strong>eSender</strong>
       </td>
       <td>Mediator, eSender</td>
       <td>
@@ -233,10 +233,10 @@
         <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
-      <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
+      <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eForms-DE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
     </tr>
     <tr>
-      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eFormsDE 1.0.0 an <strong>eSender </strong>und anschließende Transformation</td>
+      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eForms-DE 1.0.0 an <strong>eSender </strong>und anschließende Transformation</td>
       <td>Mediator, eSender</td>
       <td>
         <p>
@@ -255,7 +255,7 @@
       </td>
     </tr>
     <tr>
-      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eFormsDE 1.0.1 an <strong>eSender </strong>und anschließende Transformation</td>
+      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eForms-DE 1.0.1 an <strong>eSender </strong>und anschließende Transformation</td>
       <td>Mediator, eSender</td>
       <td>
         <p>
@@ -333,7 +333,7 @@
       </td>
     </tr>
     <tr>
-      <td>Weiterleiten und Annehmen von <strong>eu-weiten</strong> eForms in Version eFormsEU 1.5 im <strong>BKMS</strong>
+      <td>Weiterleiten und Annehmen von <strong>eu-weiten</strong> eForms in Version eForms-EU 1.5 im <strong>BKMS</strong>
       </td>
       <td>eSender, BKMS</td>
       <td>
@@ -348,10 +348,10 @@
         </p>
         <p>Nein</p>
       </td>
-      <td>Die Bekanntmachung wird zwar an den BKMS weitergeleitet, aber vom BKMS abgelehnt, da eFormsEU 1.5 nicht unterstützt wird</td>
+      <td>Die Bekanntmachung wird zwar an den BKMS weitergeleitet, aber vom BKMS abgelehnt, da eForms-EU 1.5 nicht unterstützt wird</td>
     </tr>
     <tr>
-      <td>Weiterleiten und Annehmen von <strong>eu-weiten</strong> eForms in Version eFormsDe 1.0.0 im <strong>BKMS</strong>
+      <td>Weiterleiten und Annehmen von <strong>eu-weiten</strong> eForms in Version eForms-DE 1.0.0 im <strong>BKMS</strong>
       </td>
       <td>eSender, BKMS</td>
       <td>
@@ -369,7 +369,7 @@
       </td>
     </tr>
     <tr>
-      <td>Weiterleiten und Annehmen von <strong>eu-weiten</strong> eForms in Version eFormsDe 1.0.0 im <strong>BKMS</strong>
+      <td>Weiterleiten und Annehmen von <strong>eu-weiten</strong> eForms in Version eForms-DE 1.0.0 im <strong>BKMS</strong>
       </td>
       <td>eSender, BKMS</td>
       <td>
@@ -440,7 +440,7 @@
         </p>
         <p>Ja</p>
       </td>
-      <td>Einige Statuskombinationen können aufgrund anderer noch nicht verfügbarer Features (z.B. Keine Unterstützung von eFormsDE 1.0.0 durch BKMS) im Preview Release nicht getestet werden.</td>
+      <td>Einige Statuskombinationen können aufgrund anderer noch nicht verfügbarer Features (z.B. Keine Unterstützung von eForms-DE 1.0.0 durch BKMS) im Preview Release nicht getestet werden.</td>
     </tr>
     <tr>
       <td>Zur Verfügung stellen von beim Prozessieren des eForms aufgetretenen <strong>relevanten Fehlern und Warnungen</strong>
