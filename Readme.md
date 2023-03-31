@@ -6,9 +6,9 @@
 - Einführung
 - Aufgaben des Vermittlungsdienstes
 - Datenservice Öffentlicher Einkauf Diagramm
+- [Workflow](Workflow.md)
 - [Verfügbare Systemumgebungen](Development_environments.md)
 - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
-- [Workflow](Workflow.md)
 - [Statusinformationen](Status_information.md)
 - [eForms Unterstützung](eForms_support.md)
 - [Releases](Releases.md)

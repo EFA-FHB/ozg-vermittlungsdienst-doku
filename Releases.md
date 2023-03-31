@@ -4,7 +4,7 @@
 <br><br>
 
 # Releases
-
+## Vergleich geplanter Features in Preview Release und Production Release 
 <table class="wrapped">
   <colgroup>
     <col/>
@@ -80,7 +80,7 @@
       </td>
     </tr>
     <tr>
-      <td>Einliefern, akzeptieren und validieren von <strong>eFormsEU 0.0.1, 1.0 und 1.5 </strong>
+      <td>Einliefern, akzeptieren und validieren von <strong>eFormsEU 0.1.1, 1.0 und 1.5 </strong>
       </td>
       <td>Mediator</td>
       <td>
@@ -134,7 +134,7 @@
       <td>Derzeit kann Version eFormsDE 1.0.1 testweise im Mediator eingeliefert werden, diese kann aber (noch) nicht vom eSender in eFormsEU 1.5 verarbeitet werden, da das Codetable mapping noch nicht final ist</td>
     </tr>
     <tr>
-      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eFormsEU 0.0.1 und 1.0 im <strong>BKMS</strong>
+      <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eFormsEU 0.1.1 und 1.0 im <strong>BKMS</strong>
       </td>
       <td>Mediator, BKMS</td>
       <td>
@@ -204,7 +204,7 @@
       </td>
     </tr>
     <tr>
-      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eFormsEU 0.0.1 und 1.0 an <strong>eSender</strong>
+      <td>Weiterleiten von <strong>eu-weiten</strong> eForms in Version eFormsEU 0.1.1 und 1.0 an <strong>eSender</strong>
       </td>
       <td>Mediator, eSender</td>
       <td>
