@@ -5,7 +5,9 @@
 
 # Statusinformationen
 
-Der Status und weitere Informationen zu aufgetretenen Fehlern oder Warnungen zu einer Bekanntmachung können jederzeit über einen Request an den Mediator abgefragt werden. Da der Mediator regelmäßig sämtliche Statusänderungen zu eu-weiten Bekanntmachungen vom eSender abfragt, liegt auch im Mediator immer der aktuelle Status einer Bekanntmachung vor, egal ob national oder eu-weit. Ebenso werden eventuelle Fehler von TED oder BKMS gespeichert und an den Mediator weitergegeben. Bezüglich der Statusabfrage ist zu beachten, dass für eu-weite Bekanntmachungen immer zwei Statuswerte für jede Bekanntmachung existieren: Der Status der internen Prozessierung im Datenservice öffentlicher Einkauf (DöE-Status) und der Status in TED (TED-Status). Die TED Statuswerte orientieren sich an den Statuswerten der EU. 
+Der Status und weitere Informationen zu aufgetretenen Fehlern oder Warnungen zu einer Bekanntmachung können jederzeit über einen Request an den Mediator abgefragt werden. Da der Mediator regelmäßig sämtliche Statusänderungen zu eu-weiten Bekanntmachungen vom eSender abfragt, liegt auch im Mediator immer der aktuelle Status einer Bekanntmachung vor, egal ob national oder eu-weit. Ebenso werden eventuelle Fehler von TED oder BKMS gespeichert und an den Mediator weitergegeben.
+<br><br>
+Bezüglich der Statusabfrage ist zu beachten, dass für eu-weite Bekanntmachungen immer zwei Statuswerte für jede Bekanntmachung existieren: Der Status der internen Prozessierung im Datenservice öffentlicher Einkauf (DöE-Status) und der Status in TED (TED-Status). Die TED Statuswerte orientieren sich an den Statuswerten der EU. 
 <br><br>
 
 ## Status nationale Bekanntmachungen
@@ -22,7 +24,7 @@ Die folgenden Statuswerte existieren für nationale Bekanntmachungen:
 | rejected         | Die Bekanntmachung wurde von BKMS abgelehnt.                                                                   |
 | ⚠️*published*      | *Die Bekanntmachung wurde im BKMS veröffentlicht.*                                                             |
 
-**Anmerkung:** Die kursiv markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS noch nicht zwischen accepted und published unterscheidet. 
+**Anmerkung:** Die in rot markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS noch nicht zwischen accepted und published unterscheidet. 
 
 ![national notices diagramm](images/natinal_notices_diagramm.png)
 <br><br>
@@ -30,7 +32,7 @@ Die folgenden Statuswerte existieren für nationale Bekanntmachungen:
 ## Status eu-weite Bekanntmachungen
 Die folgenden Statuswerte existieren für eu-weite Bekanntmachungen: 
 
-**Anmerkung:** Die in kursiv formatierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da Bekanntmachungen in eFormsDE 1.0.0 noch nicht vom BKMS angenommen werden.
+**Anmerkung:** Die in kursiv formatierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da Bekanntmachungen in eForms-DE 1.0.0 noch nicht vom BKMS angenommen werden.
 
 | TED status (ted-status) | Datenservice Öffentlicher Einkauf Status (doe-status) | Beschreibung                                                                                                                                                             |
 | ----------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -56,7 +58,7 @@ Die folgenden Statuswerte existieren für eu-weite Bekanntmachungen:
 | ⚠️*manuallyRejected*  | ⚠️*stopped*                                         | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde auch im Bekanntmachungsservice gestoppt.*                               |
 
 
-**Anmerkung:** Die in kursiv markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS eFormsDE 1.0.0 und das Stoppen von Bekannmachungen noch nicht unterstützt 
+**Anmerkung:** Die in rot markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS eForms-DE 1.0.0 und das Stoppen von Bekannmachungen noch nicht unterstützt.
 
 ![eu-wide notices diagramm](images/eu-wide_notices_diagramm.png)
 
