@@ -16,7 +16,7 @@ Zur Authentifizierung wird ein entsprechender Token benötigt, welcher mit Hilfe
 Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEPPOL an den Vermittlungsdienst zu übermitteln. Details und weitere Informationen folgen. 
 <br><br>
 
-## Beantragen eines Zugangs duch einen FVH
+## Beantragen eines Zugangs durch einen FVH
 Ein Vertreter des FVH beantragt die Einrichtung eines neuen Benutzer bei per E-Mail an oeffentliche-vergabe@nortal.com bei der Nortal AG. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
