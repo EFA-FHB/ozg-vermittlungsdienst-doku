@@ -16,7 +16,7 @@ Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEP
 <br><br>
 
 ## Beantragen eines Zugangs duch einen FVH
-Ein Vertreter des FVH beantragt die Einrichtung eines neuen Benutzer bei dem zuständigen Organisationsadministrator per E-Mail oeffentliche-vergabe@nortal.com. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
+Ein Vertreter des FVH beantragt die Einrichtung eines neuen Benutzer bei per E-Mail an oeffentliche-vergabe@nortal.com bei der Nortal AG. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
 - E-Mail-Adresse unter der der Benutzer angelegt werden soll

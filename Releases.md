@@ -27,13 +27,13 @@
       <td>Keycloak</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja (Keycloak Preview)</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja (Keycloak Preview) und (Keycloak Production)</p>
       </td>
@@ -45,13 +45,13 @@
       <td>Keycloak</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja (Keycloak Preview)</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja (Keycloak Preview) und (Keycloak Production)</p>
       </td>
@@ -63,13 +63,13 @@
       <td>eForms Validator</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -83,12 +83,12 @@
       <td>Mediator</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
       <td>
-        <p><ac:emoticon ac:name="tick"/></p>
+        <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
@@ -99,13 +99,13 @@
       <td>Mediator</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -119,13 +119,13 @@
       <td>Mediator</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -137,12 +137,12 @@
       <td>Mediator, BKMS</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja </p>
       </td>
       <td>
-        <p><ac:emoticon ac:name="tick"/></p>
+        <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
@@ -153,13 +153,13 @@
       <td>Mediator, BKMS</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein </p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
@@ -171,12 +171,12 @@
       <td>Mediator, BKMS</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
       <td>
-        <p><ac:emoticon ac:name="tick"/></p>
+        <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>
@@ -189,12 +189,12 @@
       <td>Mediator, BKMS</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
       <td>
-        <p><ac:emoticon ac:name="tick"/></p>
+        <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>
@@ -207,13 +207,13 @@
       <td>Mediator, eSender</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
@@ -225,12 +225,12 @@
       <td>Mediator, eSender</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
       <td>
-        <p><ac:emoticon ac:name="tick"/></p>
+        <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
@@ -240,13 +240,13 @@
       <td>Mediator, eSender</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -259,13 +259,13 @@
       <td>Mediator, eSender</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -279,13 +279,13 @@
       <td>eSender, TED</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -299,13 +299,13 @@
       <td>eSender, TED</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -318,13 +318,13 @@
       <td>eSender, TED</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -338,13 +338,13 @@
       <td>eSender, BKMS</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
@@ -356,12 +356,12 @@
       <td>eSender, BKMS</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
       <td>
-        <p><ac:emoticon ac:name="tick"/></p>
+        <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>
@@ -374,12 +374,12 @@
       <td>eSender, BKMS</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
       <td>
-        <p><ac:emoticon ac:name="tick"/></p>
+        <p>✅</p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>
@@ -393,13 +393,13 @@
       <td>Mediator, eSender, TED</td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -414,12 +414,12 @@
       <td>Mediator, eSender, BKMS</td>
       <td>
         <p>
-          <ac:emoticon ac:name="cross"/>
+          ❌ 
         </p>
         <p>Nein</p>
       </td>
       <td>
-        <p><ac:emoticon ac:name="cross"/></p>
+        <p>❌ </p>
         <p>vorraussichtlich Nein</p>
       </td>
       <td>
@@ -431,12 +431,12 @@
       </td>
       <td>Mediator, eSender</td>
       <td>
-        <p><ac:emoticon ac:name="tick"/></p>
+        <p>✅</p>
         <p>Ja (teilweise)</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>
@@ -447,12 +447,12 @@
       </td>
       <td>Mediator, eSender</td>
       <td>
-        <p><ac:emoticon ac:name="tick"/></p>
+        <p>✅</p>
         <p>Ja (teilweise)</p>
       </td>
       <td>
         <p>
-          <ac:emoticon ac:name="tick"/>
+          ✅
         </p>
         <p>Ja</p>
       </td>

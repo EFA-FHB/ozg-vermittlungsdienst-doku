@@ -11,7 +11,7 @@
 - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
 - [Statusinformationen](Status_information.md)
 - [eForms Unterstützung](eForms_support.md)
-- [eForms Validator](validator.md)
+- [eForms Validator](Validator.md)
 - [Releases](Releases.md)
 <br><br>
 
