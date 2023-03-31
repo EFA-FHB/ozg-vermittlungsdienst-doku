@@ -16,16 +16,18 @@ Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEP
 <br><br>
 
 ## Beantragen eines Zugangs duch einen FVH
-Ein Vertreter des FVH  beantragt die Einrichtung eines neuen Benutzer bei dem zuständigen Organisationsadministrator per E-Mail oeffentliche-vergabe@nortal.com. In der E-Mail müssen folgende Angaben enthalten sein:
+Ein Vertreter des FVH beantragt die Einrichtung eines neuen Benutzer bei dem zuständigen Organisationsadministrator per E-Mail oeffentliche-vergabe@nortal.com. Es muss pro Portal ein Benutzer angelegt werden.<br>
+In der E-Mail müssen folgende Angaben enthalten sein:
 
 - E-Mail-Adresse unter der der Benutzer angelegt werden soll
 - URL der Vergabeplattform
 - Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
 - Name des FVH
-- Nach der Erstellung des Benutzer wird zur Überprüfung der angegebene Benutzer E-Mail-Adresse  eine Bestätigungs-E-Mail versendet. Außerdem enthält die E-Mail einen Link zur Erstellung des Passworts.
 
-Der Link ist 24 Stunden lang gültig.
-Das Passwort muss aus mindestens 8 Zeichen bestehen, 1 Großbuchstaben und 1 Zahl enthalten.
+Nach der Erstellung des Benutzer wird zur Überprüfung an die angegebene Benutzer E-Mail-Adresse eine Bestätigungs-E-Mail versendet. Außerdem enthält die E-Mail einen Link zur Erstellung des Passworts.
+<br><br>
+Der Link ist 24 Stunden lang gültig.<br>
+Das Passwort muss aus mindestens 8 Zeichen bestehen, 1 Großbuchstaben und 1 Zahl enthalten.<br>
 Das Passwort muss in der FVH-Software hinterlegt werden um sicher zu gehen, dass die Verbindung mit dem Vermittlungsdienst funktioniert.
 <br><br>
 

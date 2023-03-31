@@ -12,7 +12,6 @@
 - [Statusinformationen](Status_information.md)
 - [eForms Unterstützung](eForms_support.md)
 - [Releases](Releases.md)
-- ...
 <br><br>
 
 ## Einführung
@@ -26,9 +25,9 @@ bundesweite Ausschreiben für Unternehmen leicht zugänglich machen. Wie Sie sic
 
 ## Die Aufgaben des Vermittlungsdiensts auf einen Blick
 - Validierung aller eingehenden Bekanntmachungen nach
-Schema- sowie Schematron-Regeln 
-- Prüfung: Ist die Bekanntmachungen bereits im Bekanntmachungsservice
-veröffentlicht
+Schema- sowie Schematron-Regeln und Prüfung, ob
+Bekanntmachungen bereits im Bekanntmachungsservice
+veröffentlicht wurden
 - Übermittlung unterschwelliger Bekanntmachungen an
 den Bekanntmachungsservice
 - Übermittlung oberschwelliger Bekanntmachungen über

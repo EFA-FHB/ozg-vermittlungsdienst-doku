@@ -37,9 +37,7 @@
         </p>
         <p>Ja (Keycloak Preview) und (Keycloak Production)</p>
       </td>
-      <td>Es ist zu beachten, dass separate User für Preview und Production gepflegt werden müssen. Weitere Informationen finden Sie hier: <ac:link>
-          <ri:page ri:content-title="Keycloak manual (PSP users)"/>
-        </ac:link>
+      <td>Es ist zu beachten, dass separate User für Preview und Production gepflegt werden müssen. Weitere Informationen finden Sie unter [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
       </td>
     </tr>
     <tr>
@@ -90,7 +88,7 @@
         <p>Ja</p>
       </td>
       <td>
-        <p>(<ac:emoticon ac:name="tick"/>)</p>
+        <p><ac:emoticon ac:name="tick"/></p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
@@ -144,7 +142,7 @@
         <p>Ja </p>
       </td>
       <td>
-        <p>(<ac:emoticon ac:name="tick"/>)</p>
+        <p><ac:emoticon ac:name="tick"/></p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
@@ -178,7 +176,7 @@
         <p>Nein</p>
       </td>
       <td>
-        <p>(<ac:emoticon ac:name="tick"/>)</p>
+        <p><ac:emoticon ac:name="tick"/></p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>
@@ -196,7 +194,7 @@
         <p>Nein</p>
       </td>
       <td>
-        <p>(<ac:emoticon ac:name="tick"/>)</p>
+        <p><ac:emoticon ac:name="tick"/></p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>
@@ -232,7 +230,7 @@
         <p>Ja</p>
       </td>
       <td>
-        <p>(<ac:emoticon ac:name="tick"/>)</p>
+        <p><ac:emoticon ac:name="tick"/></p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>Ab Produktion sollte ein neuerer, deutscher Standard verwendet werden, vorzugsweise eFormsDE 1.0.0 oder aktueller. Alte Standards können ggf. noch für eine Übergangszeit unterstützt werden</td>
@@ -363,7 +361,7 @@
         <p>Nein</p>
       </td>
       <td>
-        <p>(<ac:emoticon ac:name="tick"/>)</p>
+        <p><ac:emoticon ac:name="tick"/></p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>
@@ -381,7 +379,7 @@
         <p>Nein</p>
       </td>
       <td>
-        <p>(<ac:emoticon ac:name="tick"/>)</p>
+        <p><ac:emoticon ac:name="tick"/></p>
         <p>vorraussichtlich ja</p>
       </td>
       <td>
@@ -421,7 +419,7 @@
         <p>Nein</p>
       </td>
       <td>
-        <p>(<ac:emoticon ac:name="cross"/>)</p>
+        <p><ac:emoticon ac:name="cross"/></p>
         <p>vorraussichtlich Nein</p>
       </td>
       <td>
@@ -433,7 +431,7 @@
       </td>
       <td>Mediator, eSender</td>
       <td>
-        <p>(<ac:emoticon ac:name="tick"/>)</p>
+        <p><ac:emoticon ac:name="tick"/></p>
         <p>Ja (teilweise)</p>
       </td>
       <td>
@@ -449,7 +447,7 @@
       </td>
       <td>Mediator, eSender</td>
       <td>
-        <p>(<ac:emoticon ac:name="tick"/>)</p>
+        <p><ac:emoticon ac:name="tick"/></p>
         <p>Ja (teilweise)</p>
       </td>
       <td>
