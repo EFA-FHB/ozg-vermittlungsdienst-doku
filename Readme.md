@@ -13,6 +13,7 @@
 - [eForms Unterstützung](eForms_support.md)
 - [eForms Validator](Validator.md)
 - [Releases](Releases.md)
+- [Workshops](/workshops.md)
 <br><br>
 
 ## Einführung
