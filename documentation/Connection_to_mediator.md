@@ -1,10 +1,10 @@
-**EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
-### Dokumentation Vermittlungsdienst
-[Startseite](Readme.md)
+### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
+## Dokumentation Vermittlungsdienst
+[Startseite](/documentation/documentation.md)
 <br><br>
 
 # Anbindung an den Vermittlungsdienst
-Es gibt zwei Möglichkeiten Bekanntmachungen an den Vermittlungsdienst zu übermitteln, per REST API oder mit Hilfe des eDelivery Network PEPPOL (in der Umsetzung).
+Es gibt zwei Möglichkeiten Bekanntmachungen an den Vermittlungsdienst zu übermitteln, per [REST API](#anbindung-per-rest-api) oder mit Hilfe des [eDelivery Network PEPPOL](#anbindung-per-peppol-in-der-umsetzung) (in der Umsetzung).
 <br><br>
 
 ## Anbindung per REST API

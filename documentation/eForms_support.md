@@ -1,6 +1,6 @@
-**EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
-### Dokumentation Vermittlungsdienst
-[Startseite](Readme.md)
+### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
+## Dokumentation Vermittlungsdienst
+[Startseite](/documentation/documentation.md)
 <br><br>
 
 # eForms Unterstützung

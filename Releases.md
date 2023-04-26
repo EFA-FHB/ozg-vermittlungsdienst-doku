@@ -1,9 +1,8 @@
-**EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
-### Dokumentation Vermittlungsdienst
-[Startseite](Readme.md)
+### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
+# Releases Vermittlungsdienst
+[Startseite](/Readme.md)
 <br><br>
 
-# Releases
 ## Vergleich geplanter Features in Preview Release und Production Release 
 <table class="wrapped">
   <colgroup>

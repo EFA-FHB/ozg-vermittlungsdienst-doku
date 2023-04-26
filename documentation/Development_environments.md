@@ -1,12 +1,11 @@
-**EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
-### Dokumentation Vermittlungsdienst
-[Startseite](Readme.md)
+### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
+## Dokumentation Vermittlungsdienst
+[Startseite](/documentation/documentation.md)
 <br><br>
 
 # Verfügbare Systemumgebungen
 Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermittlungsdiensts zur Verfügung. Jedes System sendet innerhalb der Umgebung die Daten an
-das entsprechende Bekanntmachungsservice-System. Mit Anbindung des eSenders, der für die Übermittlung der Bekanntmachungen an TED zuständig ist, ist jedes
-Vermittlungsdienst-System in der Lage, Bekanntmachungen auch an das entsprechende TED-System zu übermitteln.
+das entsprechende Bekanntmachungsservice-System. Mit Anbindung des eSenders, der für die Übermittlung der Bekanntmachungen an TED zuständig ist, ist jedes Vermittlungsdienst-System in der Lage, Bekanntmachungen auch an das entsprechende TED-System zu übermitteln.
 <br><br>
 
 **Hinweis:** Mit dem eSender Preview Release am 31.3.2023 wird der eSender für die Preview-Umgebung angebunden und testbar sein.
