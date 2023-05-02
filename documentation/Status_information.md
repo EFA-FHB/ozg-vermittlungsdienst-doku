@@ -1,16 +1,44 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 ## Dokumentation Vermittlungsdienst
-[Startseite](/documentation/documentation.md)
+[Inhaltsverzeichnis](/documentation/documentation.md)
 <br><br>
 
-# Statusinformationen
+# Status- und Transferinformationen
 
-Der Status und weitere Informationen zu aufgetretenen Fehlern oder Warnungen zu einer Bekanntmachung können jederzeit über einen Request an den Mediator abgefragt werden. Da der Mediator regelmäßig sämtliche Statusänderungen zu oberschwelligen Bekanntmachungen vom eSender abfragt, liegt auch im Mediator immer der aktuelle Status einer Bekanntmachung vor, egal ob unterschwellig oder oberschwellig. Ebenso werden eventuelle Fehler von TED oder BKMS gespeichert und an den Mediator weitergegeben.
-<br><br>
-Bezüglich der Statusabfrage ist zu beachten, dass für eu-weite Bekanntmachungen immer zwei Statuswerte für jede Bekanntmachung existieren: Der Status der internen Prozessierung im Datenservice öffentlicher Einkauf (DöE-Status) und der Status in TED (TED-Status). Die TED Statuswerte orientieren sich an den Statuswerten der EU. 
+Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst abgefragt und gespeichert, so liegt jeder Zeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
 <br><br>
 
-## Status nationale Bekanntmachungen
+## Endpunkte zur Abfrage der Status- und Transferinformationen
+Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte GET /v1/notices für eine Liste von Datenlieferungen und GET /v1/notices/{trackingcode} für eine einzelen Datenlieferung zur Verfügung.
+
+Der Vermittlungsdienst führt die Statusabfragen an BKMS und TED alle drei Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
+
+Die zugehörige OpenAPI-Spezifikation finden Sie unter https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com/ und steht Ihnen im JSON-Format zum Download unter https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com/Vermittlungsdienst_REST-API.json bereit.
+<br><br>
+
+## Struktur der Statusinformationen
+Die Endpunkte zur Abfrage der Statusinformationen, geben die Statustinformationen für jede Bekanntmachungen innerhalb des Delivery Schemas wie folgt zurück.
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<delivery>
+	...
+	<tedStatus>PENDING</tedStatus>
+	<tedStatusUpdate>2023-04-26T14:32:52.625Z</tedStatusUpdate>
+	<doeStatus>AWAITING_TRANSFER</doeStatus>
+	<doeStatusUpdate>2023-04-26T14:32:52.625Z</doeStatusUpdate>
+	<statusDescription>string</statusDescription>
+	...
+</delivery>
+```
+
+Die Statusinformationen enthalten sowohl bei unterschwelligen als auch bei oberschwelligen Bekanntmachungen den Status des Datenservice Öffentlicher Einkauf `doeStatus`, das letzte Änderungsdatum des DöE-Status `doeStatusUpdate` sowie eine Beschreibung des aktuell gesetzten Status `statusDescription`.
+
+Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` mit dem letzten Änderungsdatum `tedStatusUpdate` übermittelt. Die TED Statuswerte orientieren sich an den Statuswerten der EU. 
+<br><br>
+
+
+### Status nationale Bekanntmachungen
 
 Die folgenden Statuswerte existieren für unterschwellige Bekanntmachungen: 
 
@@ -29,7 +57,7 @@ Die folgenden Statuswerte existieren für unterschwellige Bekanntmachungen:
 ![national notices diagramm](images/natinal_notices_diagramm.png)
 <br><br>
 
-## Status oberschwellige Bekanntmachungen
+### Status oberschwellige Bekanntmachungen
 Die folgenden Statuswerte existieren für oberschwellige Bekanntmachungen: 
 
 **Anmerkung:** Die in kursiv formatierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da Bekanntmachungen in eForms-DE 1.0.0 noch nicht vom BKMS angenommen werden.
@@ -61,4 +89,51 @@ Die folgenden Statuswerte existieren für oberschwellige Bekanntmachungen:
 **Anmerkung:** Die in rot markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS eForms-DE 1.0.0 und das Stoppen von Bekannmachungen noch nicht unterstützt.
 
 ![eu-wide notices diagramm](images/eu-wide_notices_diagramm.png)
+
+
+
+
+
+
+## Struktur der Transferinformationen
+Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery Schema enthalten. Diese Informationen beinhalten Warnungen und Fehlermeldungen vom Vermittlungsdienst, dem Bekanntmachungsservice und TED.
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<delivery>
+	...
+	<transferResponse>
+		<warnings>
+			<warning>
+				<source>BKMS</source>
+				<description>string</description>
+				<path>string</path>
+				<rule>string</rule>
+				<ruleContent>string</ruleContent>
+			</warning>
+		</warnings>
+		<errors>
+			<error>
+				<source>BKMS</source>
+				<description>string</description>
+				<path>string</path>
+				<rule>string</rule>
+				<ruleContent>string</ruleContent>
+			</error>
+		</errors>
+	</transferResponse>
+	...
+</delivery>
+```
+
+Innerhalb der Transferinformationen `transferResponse` werden Warnungen `warnings` von Fehlermeldungen `errors` getrennt aufgelistet. Pro Bekanntmachung ist es mögliche mehrere Warnungen und Fehlermeldungen als Rückantwort zu erhalten. 
+
+Eine einzelne Warnung und eine einzelne Fehlermeldung haben den selben Aufbau. Die `source` gibt an in welchem System die Warnung oder der Fehler entstand. Folgende Werte sind in `source` möglich:
+- BKMS für Bekanntmachungsservice
+- TED für Tenders Electronic Daily
+- PRE_VALIDATION für Validierungen im Vermittlungsdienst
+
+Die `description` enthält die Beschreibung der Warnung oder der Fehlermeldung. Im `path` wird die Position angegeben an der der Fehler oder die Warnung auftrat. Der Tag `rule` enthält den namen der angewandten Regel und `ruleContent` die dazu tatsächlich angewandte Regel.
+
+Warnungen und Fehlermeldungen vom Bekanntmachungsservice und von TED werden unverändert durchgereicht.
+
 
