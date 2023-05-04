@@ -3,7 +3,29 @@
 [Startseite](/Readme.md)
 <br><br>
 
+## Preview Release Mai (https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com)
+Status: veröffentlicht
+<details>
+<summary>Release notes</summary>
+
+### Vermittlungsdienst
+- Erweiterung der API Autorisierung um Refresh Token (Details unter [Anbindung an den Vermittlungsdienst](/documentation/Connection_to_mediator.md))
+- Erweiterung der Statusinformationen um Warnungen und Fehlermeldungen (Details unter [Status- und Transferinformationen](/documentation/Status_information.md))
+- Erweiterung der Fehlermeldungen
+- Versionsprüfung einer unterschwelligen Bekanntmachung im Bekanntmachungsservice
+- Statusabfrage (veröffentlicht) einer unterschwelligen Bekanntmachung im Bekanntmachungsservice 
+- Erweiterung des Validierungs-Reports um die assert id
+- Optimierungen und Fehlerbehebungen
+
+### Validator
+- Erweiterung des Ergebnis-Reports um `rule` und `ruleContent` 
+- Optimierungen und Fehlerbehebungen
+</details>
+<br><br>
+
 ## Vergleich geplanter Features in Preview Release und Production Release 
+<details>
+<summary>Vergleich anzeigen</summary>
 <table class="wrapped">
   <colgroup>
     <col/>
@@ -459,5 +481,5 @@
     </tr>
   </tbody>
 </table>
-
+</details>
 
