@@ -3,8 +3,9 @@
 [Startseite](/Readme.md)
 <br><br>
 
-## Preview Release Mai (https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com)
-Status: veröffentlicht
+## Preview Release Mai (Release Datum 04.05.2023)
+Status: veröffentlicht<br>
+System: Preview (https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com)
 <details>
 <summary>Release notes</summary>
 

@@ -2,12 +2,15 @@
 # Vermittlungsdienst
 <br>
 
+## *** Preview Release Mai veröffentlicht. ***
+Zu den [Release notes](/Releases.md)
+<br><br>
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen
 und den Wettbewerb bei öffentlichen Aufträgen stärken? Dann binden Sie sich mit Ihrer Vergabeplattform gerne an den von der Freien
 Hansestadt Bremen bereitgestellten Vermittlungsdienst an. Der Dienst ist Teil des Bremer EfA-Projektes „Zugang zur öffentlichen Vergabe“,
 das im Projektkontext „Datenservice Öffentlicher Einkauf“ – einem Kooperationsprojekt des Bundes und Landes Bremen – umgesetzt wird.
 Mit Hilfe des Vermittlungsdiensts können Vergabesysteme Bekanntmachungen an den Bekanntmachungsservice und TED übermitteln und so
-bundesweite Ausschreiben für Unternehmen leicht zugänglich machen. Wie Sie sich anbinden können, erfahren Sie in der [Dokumentation](/documentation/documentation.md).
+bundesweite Ausschreiben für Unternehmen leicht zugänglich machen. Wie Sie sich an den Vermittlungsdienst anbinden können, erfahren Sie in der [Dokumentation](/documentation/documentation.md).
 <br><br>
 In diesem Repository sind folgende Dokumente zur Unterstützung einer Anbindung an den Vermittlungsdienst enthalten:
 
