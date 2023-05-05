@@ -1,6 +1,6 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 ## Dokumentation Vermittlungsdienst
-[Startseite](/documentation/documentation.md)
+[Inhaltsverzeichnis](/documentation/documentation.md)
 <br><br>
 
 # Verfügbare Systemumgebungen

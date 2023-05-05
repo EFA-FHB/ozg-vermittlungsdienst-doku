@@ -9,11 +9,11 @@ Die Übermittlung von Bekanntmachungen an den Vermittlungsdienst kann über die 
 
 ## Anbindung per REST API
 Unter https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com wird die REST API und die dazugehörige Dokumentation, der vorhandenen Endpoints, zur Verfügung gestellt.
-Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden, mit derer Hilfe entsprechende Access Token und Refresh Token gneriert werden können, um eine Autorisierung für den Zugriff auf die API zu erhalten.
+Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden, mit derer Hilfe entsprechende Access Token und Refresh Token generiert werden können, um eine Autorisierung für den Zugriff auf die API zu erhalten.
 <br><br>
 
 ### Beantragen eines Zugangs durch einen FVH
-Ein Vertreter des Fachverfahrenshertseller beantragt die Einrichtung eines neuen Benutzer per E-Mail an oeffentliche-vergabe@nortal.com bei der Nortal AG. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
+Ein Vertreter des Fachverfahrenshersteller beantragt die Einrichtung eines neuen Benutzers per E-Mail an oeffentliche-vergabe@nortal.com bei der Nortal AG. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
 - Benutzer E-Mail-Adresse welche als Benutzername verwendet werden soll
@@ -26,7 +26,7 @@ Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benut
 Der Link ist 24 Stunden lang gültig.<br>
 Klicken Sie auf den Link und folgen Sie den Anweisungen zur Passwort-Erstellung.
 <br><br>
-Mit den nun erstellten Zugangsdaten kann mit Hilfe der Mediator API ein Access Token und ein Refresh Token generiert werden.
+Mit den nun erstellten Zugangsdaten kann mit Hilfe der API ein Access Token und ein Refresh Token generiert werden.
 <br><br>
 
 ### Authentifizierung und Autorisierung (Access Token, Refresh Token)
@@ -49,7 +49,7 @@ Der `access_token` ist 24 Stunden gültig. Nach ablauf der 24 Stunden ist eine e
 /// Beispiel einer Antwort der zwei Token Endpoints.
 <br><br>
 
-Weitere Informationen zum Konzept des Refresh Token und Hinweise zur Umsetzung git es unter https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/.
+Weitere Informationen zum Konzept des Refresh Token und Hinweise zur Umsetzung werden unter https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/ zur Verfügung gestellt.
 <br><br><br>
 
 

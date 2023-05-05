@@ -5,11 +5,11 @@
 
 # Status- und Transferinformationen
 
-Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst abgefragt und gespeichert, so liegt jeder Zeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
+Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst abgefragt und gespeichert, so liegt jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
 <br><br>
 
 ## Endpunkte zur Abfrage der Status- und Transferinformationen
-Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte GET /v1/notices für eine Liste von Datenlieferungen und GET /v1/notices/{trackingcode} für eine einzelen Datenlieferung zur Verfügung.
+Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte GET /v1/notices für eine Liste von Datenlieferungen und GET /v1/notices/{trackingcode} für eine einzelne Datenlieferung zur Verfügung.
 
 Der Vermittlungsdienst führt die Statusabfragen an BKMS und TED alle drei Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
 
@@ -17,7 +17,7 @@ Die zugehörige OpenAPI-Spezifikation finden Sie unter https://bkms-mediator-app
 <br><br>
 
 ## Struktur der Statusinformationen
-Die Endpunkte zur Abfrage der Statusinformationen, geben die Statustinformationen für jede Bekanntmachungen innerhalb des Delivery Schemas wie folgt zurück.
+Die Endpunkte zur Abfrage der Statusinformationen, geben die Statusinformationen für jede Bekanntmachung innerhalb des Delivery Schemas wie folgt zurück.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -34,7 +34,7 @@ Die Endpunkte zur Abfrage der Statusinformationen, geben die Statustinformatione
 
 Die Statusinformationen enthalten sowohl bei unterschwelligen als auch bei oberschwelligen Bekanntmachungen den Status des Datenservice Öffentlicher Einkauf `doeStatus`, das letzte Änderungsdatum des DöE-Status `doeStatusUpdate` sowie eine Beschreibung des aktuell gesetzten Status `statusDescription`.
 
-Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` mit dem letzten Änderungsdatum `tedStatusUpdate` übermittelt. Die TED Statuswerte orientieren sich an den Statuswerten der EU. 
+Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` mit dem letzten Änderungsdatum `tedStatusUpdate` übermittelt. Die TED-Statuswerte orientieren sich an den Statuswerten der EU. 
 <br><br>
 
 
@@ -42,17 +42,13 @@ Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` 
 
 Die folgenden Statuswerte existieren für unterschwellige Bekanntmachungen: 
 
-**Anmerkung:** Die in kursiv formatierten Statuseinträge sind im eSender Release vom 31.3.2023 noch nicht testbar, da vom BKMS noch nicht zwischen ACCEPTED und PUBLISHED unterschieden wird.
-
 | DöE Status        | Beschreibung                                                                                                   |
 | ----------------- | -------------------------------------------------------------------------------------------------------------- |
 | AWAITING_TRANSFER | Die Bekanntmachung wurde vom Mediator angenommen und akzeptiert. Nun wird die Versendung zum BKMS vorbereitet. |
 | PROCESSING        | Die Bekanntmachung wird vom BKMS verarbeitet.                                                                  |
 | ACCEPTED          | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert.                                                |
 | REJECTED          | Die Bekanntmachung wurde von BKMS abgelehnt.                                                                   |
-| ⚠️*PUBLISHED*   | *Die Bekanntmachung wurde im BKMS veröffentlicht.*                                                             |
-
-**Anmerkung:** Die in rot markierten Statuskombinationen sind im eSender Preview Release am 31.3.2023 noch nicht testbar, da der BKMS noch nicht zwischen ACCEPTED und PUBLISHED unterscheidet. 
+| PUBLISHED         | Die Bekanntmachung wurde im BKMS veröffentlicht.                                                               |
 
 ![national notices diagramm](images/natinal_notices_diagramm.png)
 <br><br>
