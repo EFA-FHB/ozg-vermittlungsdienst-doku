@@ -3,8 +3,8 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br><br>
 
-# eForms Unterstützung
+# eForms Unterstützung - Preview Umgebung
+Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend dem folgenden Beispeil verarbeitet. In Zukunft werden vom Vermittlungsdeinst, sowohl unterschwellige als auch oberschwellige Bekanntmachungen, ausschließlich im eForms-DE Format angenommen.
 
-## Prozessierung unterschiedlicher Versionen im eSender Preview Release 31.3.2023
 ![eForms Version flow](images/eforms_version_flow.png)
 
