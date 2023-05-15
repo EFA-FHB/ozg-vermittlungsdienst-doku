@@ -3,24 +3,36 @@
 [Übersicht](/Readme.md)
 <br><br>
 
-## Preview Release Mai (Release Datum 04.05.2023)
-Status: veröffentlicht<br>
-System: Preview (https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com)
+## Preview Release Mai 
+Status: Veröffentlicht 04.05.2023<br>
 <details>
 <summary>Release notes</summary>
+<br>
 
 ### Vermittlungsdienst
-- Erweiterung der API Autorisierung um Refresh Token (Details unter [Anbindung an den Vermittlungsdienst](/documentation/Connection_to_mediator.md))
-- Erweiterung der Statusinformationen um Warnungen und Fehlermeldungen (Details unter [Status- und Transferinformationen](/documentation/Status_information.md))
-- Erweiterung der Fehlermeldungen
-- Versionsprüfung einer unterschwelligen Bekanntmachung im Bekanntmachungsservice
-- Statusabfrage (veröffentlicht) einer unterschwelligen Bekanntmachung im Bekanntmachungsservice 
-- Erweiterung des Validierungs-Reports um die assert id
-- Optimierungen und Fehlerbehebungen
+Preview Umgebung https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com
+- Erweiterung der API Autorisierung um Refresh Token<br>
+Details unter [Anbindung an den Vermittlungsdienst](/documentation/Connection_to_mediator.md)
+
+- Erweiterung der Statusinformationen um Transferinformationen (Warnungen und Fehlermeldungen).<br> 
+Details unter [Status- und Transferinformationen](/documentation/Status_information.md)
+- Detailliertere Fehlermeldungen 
+- Versionsprüfung erfolgt nun zusätzlich anhand der Daten des Bekanntmachungsservice<br>
+Bei Übermittlung einer Änderungsmitteilung einer unterschwelligen Bekanntmachung erfolgen folgende Prüfungen:<br>
+-Ist die zu ändernde Bekanntmachung im BKMS vorhanden?<br>
+-Sind bereits mehrere Bekanntmachungen im BKMS vorhanden, deren verkettete noticeId und noticeVersion mit dem Change Notice Version Identifier übereinstimmen?<br>
+-Ist eine Änderungsmitteilung im BKMS vorhanden, welche die zu ändernde Version bereits aktualisiert hat?<br>
+Das heißt es wird nur die neueste Version in einer Kette von Bekanntmachungen aktualisiert.
+- Im Bekanntmachungsservice veröffentlichte unterschwellige Bekanntmachungen erhalten den Status PUBLISHED.<br>
+Der Status wird bei einer Statusabfrage entsprechend zurückgegeben.
+- Mehrere Optimierungen und Fehlerbehebungen
+<br><br>
 
 ### Validator
-- Erweiterung des Ergebnis-Reports um `rule` und `ruleContent` 
-- Optimierungen und Fehlerbehebungen
+Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com 
+- Erweiterung des Ergebnis-Reports um die Regelbezeichnung `rule` und die angewandte Regel `ruleContent` 
+
+- Mehrere Optimierungen und Fehlerbehebungen
 </details>
 <br><br>
 
