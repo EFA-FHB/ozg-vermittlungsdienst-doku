@@ -38,7 +38,7 @@ Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` 
 <br><br>
 
 
-### Status nationale Bekanntmachungen
+### Status unterschwellige Bekanntmachungen
 
 Die folgenden Statuswerte existieren für unterschwellige Bekanntmachungen: 
 
@@ -121,14 +121,14 @@ Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery Sc
 </delivery>
 ```
 
-Innerhalb der Transferinformationen `transferResponse` werden Warnungen `warnings` von Fehlermeldungen `errors` getrennt aufgelistet. Pro Bekanntmachung ist es mögliche mehrere Warnungen und Fehlermeldungen als Rückantwort zu erhalten. 
+Innerhalb der Transferinformationen `transferResponse` werden Warnungen `warnings` von Fehlermeldungen `errors` getrennt aufgelistet. Pro Bekanntmachung ist es möglich mehrere Warnungen und Fehlermeldungen als Rückantwort zu erhalten. 
 
-Eine einzelne Warnung und eine einzelne Fehlermeldung haben den selben Aufbau. Die `source` gibt an in welchem System die Warnung oder der Fehler entstand. Folgende Werte sind in `source` möglich:
+Eine einzelne Warnung und eine einzelne Fehlermeldung haben den selben Aufbau. `source` gibt an in welchem System die Warnung oder der Fehler entstand. Folgende Werte sind in `source` möglich:
 - BKMS für Bekanntmachungsservice
 - TED für Tenders Electronic Daily
-- PRE_VALIDATION für Validierungen im Vermittlungsdienst
+- PRE_VALIDATION für Validierungen innerhalb des eSender
 
-Die `description` enthält die Beschreibung der Warnung oder der Fehlermeldung. Im `path` wird die Position angegeben an der der Fehler oder die Warnung auftrat. Der Tag `rule` enthält den namen der angewandten Regel und `ruleContent` die dazu tatsächlich angewandte Regel.
+Die `description` enthält die Beschreibung der Warnung oder der Fehlermeldung. Im `path` wird die Position angegeben an der der Fehler oder die Warnung auftrat. Der Tag `rule` enthält die Bezeichnung der angewandten Regel und `ruleContent` die dazu tatsächlich angewandte Regel.
 
 Warnungen und Fehlermeldungen vom Bekanntmachungsservice und von TED werden unverändert durchgereicht.
 
