@@ -13,7 +13,7 @@ Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden, mit der
 <br><br>
 
 ### Beantragen eines Zugangs durch einen FVH
-Ein Vertreter des Fachverfahrenshersteller beantragt die Einrichtung eines neuen Benutzers per E-Mail an oeffentliche-vergabe@nortal.com bei der Nortal AG. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
+Ein Vertreter des Fachverfahrenshersteller beantragt die Einrichtung eines neuen Benutzers per E-Mail an [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com) bei der Nortal AG. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
 - Benutzer E-Mail-Adresse welche als Benutzername verwendet werden soll
@@ -46,7 +46,7 @@ Der `access_token` ist 24 Stunden gültig. Nach ablauf der 24 Stunden ist eine e
   "scope": "email profile"
 }
 ```
-/// Beispiel einer Antwort der zwei Token Endpoints.
+// Beispielantwort der Endpoints `POST/ api/token` und `POST/ api/token/refresh`.
 <br><br>
 
 Weitere Informationen zum Konzept des Refresh Token und Hinweise zur Umsetzung werden unter https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/ zur Verfügung gestellt.
