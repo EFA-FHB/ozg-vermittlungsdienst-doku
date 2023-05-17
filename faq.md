@@ -243,18 +243,6 @@ Es ist nicht geplant, dass zu jeder minor Version des eForms-EU auch eine neue V
 
 <details>
 <summary>
-Inwieweit ist es geplant, das SDK-DE an das SDK-EU anzugleichen? Falls es nicht zu jedem Update des SDK-EU ein Update des SDK-DE geben wird, wäre es interessant zu wissen, was die Entscheidungskriterien für ein Update des SDK-DE sind?
-</summary>
-<br>
-
-Seitens EU wurde angekündigt, dass von ihr herausgegebene Versionen des SDK für mindestens 1 Jahr von der Veröffentlichungsplattform der EU (TED) akzeptiert werden, wobei mit monatlichen Updates zu rechnen ist.
-
-Zur Aufwandsoptimierung aller mit der Umsetzung im Kontext des Datenservice Öffentlicher Einkauf Betrauter wird derzeit von einem halbjährlichen Update-Zyklus für das zum nationalen Standard eForms-DE gehörende SDK kalkuliert, das jeweils auch vom Datenservice Öffentlicher Einkauf unterstützt wird. Ab Juni ist dies SDK-eForms-DE 1.0.1 (passend zum Standard eForms-DE 1.0.1) und voraussichtlich im September 2023 die nächste Version (basierend auf dem für den 07.07.2023 geplanten eForms-DE Standard 1.0.5).
-</details>
-<br><br>
-
-<details>
-<summary>
 In welchem Zeitrahmen wird ein DE-Update zur Verfügung gestellt, nachdem ein EU-Update veröffentlicht wurde?
 </summary>
 <br>
