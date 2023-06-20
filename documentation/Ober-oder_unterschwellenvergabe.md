@@ -3,7 +3,7 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br><br>
 
-# Unterscheidung von Unterschwellenvergabe und Oberschwellenvergabe
+# Unterscheidung von Unter- und Oberschwellenvergabe
 
 Bei der Verarbeitung einer Bekanntmachung im Vermittlungsdienst wird anhand bestimmter Kriterien geprüft, ob eine unterschwellige – oder eine oberschwellige Bekanntmachung übermittelt wurde.
 <br><br>
@@ -35,24 +35,24 @@ In der Produktionsumgebung muss ab 30.6. die eingelieferte Version eForms-DE 1.0
 
 | Version | Mediator | External validator | Internal validator | eSender   | BKMS  | TED  |
 | ---------------- | ------------- | ------ | ------- | ----------- | ------- | --------- |
-| eForms-EU 0.1.1  | yes | \-  | yes | \-  | yes | no      |
-| eForms-EU 1.0    | yes | \-  | yes | \-  | yes | no      |
-| eforms-EU 1.5    | no  | yes | yes | yes | \-  | only accepts   1.3 and higher until January 2024  |
-| eForms-DE 1.0.1 (schematron 0.5.0) | yes | yes | yes | yes | yes | yes, after transformation to eforms-EU 1.5.1  |
-| eForms-DE 1.1  | planned to be supported before October 2023 | planned to be supported before October 2023 | planned to be supported before October 2023 | planned to be supported before October 2023 | planned to be supported before October 2023 | yes, after transformation to eforms-EU 1.7<br><br>planned to be supported before October 2023 |
+| eForms-EU 0.1.1  | ja | \-  | ja | \-  | ja | nein    |
+| eForms-EU 1.0    | ja | \-  | ja | \-  | ja | nein    |
+| eforms-EU 1.5    | nein  | ja | ja | ja | \-  | nur akzeptiert  1.3 und folgenden Versionen bis Januar 2024  |
+| eForms-DE 1.0.1 (schematron 0.5.0) | ja | ja | ja | ja | ja | ja, nach Umstellung in eForms-EU 1.5.1  |
+| eForms-DE 1.1  | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | ja, nach Umstellung in eForms-EU 1.7.0<br><br>geplante Unterstützung bis Oktober 2023 |
 
 <br>
 
 *Unterstützte eForms Versionen ab 25.10.2023 (Production Environment):*
 
 
-| Version | Mediator  | External validator | Internal validator  | eSender | BKMS                              | TED                                          |
+| Version | Mediator  | External validator | Internal validator  | eSender | BKMS  | TED   |
 | ----- | ------- | ----- | ----- | ----- | ----- | ------ |
-| eForms-DE 1.0.1 (schematron 0.5.0)  | yes                               | yes  | yes  | yes | yes  | yes, after transformation to eforms-EU 1.5.1 |
-| eForms-DE 1.1 (recommended version) | yes   | yes  | yes   | yes   | yes  | yes, after transformation to eforms-EU 1.7.0 |
-| eForms-EU 0.1.1   | yes, but ONLY for national eForms | \-  | yes, but ONLY for national eForms | \-  | yes, but ONLY for national eForms | no   |
-| eForms-EU 1.0    | yes, but ONLY for national eForms | \-   | yes, but ONLY for national eForms | \-      | yes, but ONLY for national eForms | no   |
-| eforms-EU 1.5   | no   | no   | no   | no  | \- | \- |
+| eForms-DE 1.0.1 (schematron 0.5.0)  | ja   | ja  | ja  | ja  | ja  | ja, nach Umstellung in eForms-EU 1.5.1 |
+| eForms-DE 1.1 (recommended version) | ja   | ja  | ja  | ja  | ja  | ja, nach Umstellung in eForms-EU 1.7.0 |
+| eForms-EU 0.1.1   | yes, but ONLY for national eForms | \-  | yes, but ONLY for national eForms | \-  | yes, but ONLY for national eForms | nein   |
+| eForms-EU 1.0    | yes, but ONLY for national eForms | \-   | yes, but ONLY for national eForms | \-  | yes, but ONLY for national eForms | nein   |
+| eforms-EU 1.5   | nein   | nein   | nein   | nein  | \- | \- |
 
 
  Weitere Informationen zu Anbindung und Optionen zur Einlieferung finden Sie unter LINK ZU ANBINDUNGSLEITFADEN MIT OPTIONEN ZUM EINLIEFERN
