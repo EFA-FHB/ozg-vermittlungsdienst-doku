@@ -9,7 +9,7 @@ Bei der eForms Dokumentenerstellung gilt es einige Regeln zu bestimmten Felden z
 
 ## eSender-Informationen:
 
-Feld: *ganzer Abschnitt ``` <efac:Organization>``` *
+Feld: *ganzer Abschnitt ``` <efac:Organization>```*
 
 Der DöE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden Bekanntmachungen. Für die Organisationen sollte deshalb der Typ "ted-esen" nichts in den Bekanntmachung verwendet werden, da diese Angabe automatisch vom eSender eingefügt wird. 
 
