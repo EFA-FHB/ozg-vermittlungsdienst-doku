@@ -8,24 +8,38 @@
 Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst abgefragt und gespeichert, so liegt jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
 <br><br>
 
-## Endpunkte zur Abfrage der Status- und Transferinformationen
+## Inhalte
+- [Endpunkte zur Abfrage der Status- und Transferinformationen](#endpunkte)
+    - [Statusabgleich mit externen Systemen (FVH)](#externe)
+	- [Statusabgleich für Unterschwellenvergabe](#unterschwellig)
+	- [Statusabgleich für Oberschwellenvergabe](#oberschwellig)
+- [Struktur der Statusinformationen](#info-struktur)
+    - [Status-Mapping-Tabelle: Containererstellung](#container-mapping)
+    - [Status-Mapping-Tabelle: Oberschwellenvergabe](#oberschwellige-mapping)
+    - [Status-Mapping-Tabelle: Unterschwellenvergabe](#unterschwellige-mapping)
+- [Struktur der Transferinformationen](#transfer-info)
+
+
+<br><br>
+
+## Endpunkte zur Abfrage der Status- und Transferinformationen<span id="endpunkte">
 Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte zur Verfügung.
 Der Vermittlungsdienst führt die Statusabfragen an BKMS und TED alle 1-5 Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
 
-### Statusabgleich mit externen Systemen (FVH)
+### Statusabgleich mit externen Systemen (FVH)<span id="externe">
 Es gibt drei Möglichkeiten, einen Status abzufragen: nach Liste (alle von diesem Tenant eingereichten Bekanntmachungen), nach Tracking-Code, oder nach Liste basierend auf Zeitstempeln (alle von diesem Tenant eingereichten Bekanntmachungen, deren Status sich in einem bestimmten Zeitraum geändert hat).
 Nachdem eine bestimmte Bekanntmachung an Mediator übermittelt wurde, kann das externe System (FVH) den Status der Bekanntmachung in Mediator regelmäßig anhand des Tracking-Codes überprüfen.
 
 ![1_status_alignment_PSP](images/1_status_alignment_PSP.png)
 
-### Statusabgleich für Unterschwellenvergabe
+### Statusabgleich für Unterschwellenvergabe<span id="unterschwellig">
 Nachdem eine Bekanntmachung an BKMS übermittelt wurde, fragt Mediator regelmäßig den Bekanntmachung-Status von BKMS per noticeID-Version ab, wenn das eForms in BKMS veröffentlicht wurde.
 
 
 ![2_status_alignment_Mediator_BKMS_Unterschwellenvergabe](images/2_status_alignment_Mediator_BKMS_Unterschwellenvergabe.png)
 
 
-### Statusabgleich für Oberschwellenvergabe
+### Statusabgleich für Oberschwellenvergabe<span id="oberschwellig">
 Nachdem die Bekanntmachung an den eSender übermittelt wurde, fragt der Mediator regelmäßig den Bekanntmachung-Status vom eSender anhand der hub-ID ab.
 
 
@@ -45,7 +59,7 @@ Nachdem die Bekanntmachung an BKMS übermittelt wurde, fragt eSender regelmäßi
 Die zugehörige OpenAPI-Spezifikation finden Sie unter https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com/ und steht Ihnen im JSON-Format zum Download unter https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com/Vermittlungsdienst_REST-API.json bereit.
 <br><br>
 
-## Struktur der Statusinformationen
+## Struktur der Statusinformationen<span id="info-struktur">
 Die Endpunkte zur Abfrage der Statusinformationen, geben die Statusinformationen für jede Bekanntmachung innerhalb des Delivery Schemas wie folgt zurück.
 
 ```
@@ -67,7 +81,7 @@ Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` 
 <br><br>
 
 
-### Status-Mapping-Tabelle: Containererstellung
+### Status-Mapping-Tabelle: Containererstellung<span id="container-mapping">
 
 | DöE-Status      | Status Beschreibung |
 | --------------- | ------------------------ |
@@ -76,7 +90,7 @@ Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` 
 Nachdem die Containererstellung abgeschlossen ist, wird Mediator mit weiteren Schritten für die Unter- oder Oberschwellenvergabe bearbeitet, so dass in den Status-Mapping-Tabellen unten die Status aufgeführt sind.
 <br><br>
 
-### Status-Mapping-Tabelle: Oberschwellenvergabe
+### Status-Mapping-Tabelle: Oberschwellenvergabe<span id="oberschwellige-mapping">
 
 Jede Bekanntmachung wird zwei Statuswerte haben, weil sich ihre Status in zwei Systemen parallel ändern können: TED und das DöE einschließlich BKMS. Bei unterschwelligen Bekanntmachungen wird nur der DöE-Status eingetragen, da diese Bekanntmachungen nicht an TED übermittelt werden. Der eSender speichert die detailliertesten Statusinformationen. Der Mediator aggregiert die Statusinformationen, um z. B. bestimmte Statusinformationen als Fehlerstatus zu kategorisieren. Wenn ein externer Benutzer einen Status anfordert, erhält er nicht genau den Status, wie er im Mediator oder eSender gespeichert ist, sondern nur die relevanten Statusinformationen. Die Informationen, die den externen Benutzern zur Verfügung gestellt werden, finden sich in den folgenden Tabellespalten.
 
@@ -109,7 +123,7 @@ Jede Bekanntmachung wird zwei Statuswerte haben, weil sich ihre Status in zwei S
 
 <br>
 
-### Status-Mapping-Tabelle: Unterschwellenvergabe
+### Status-Mapping-Tabelle: Unterschwellenvergabe<span id="unterschwellige-mapping">
 
 | DöE status | Status-Beschreibung                                             |
 | ---------- | --------------------------------------------------------------- |
@@ -123,7 +137,7 @@ Jede Bekanntmachung wird zwei Statuswerte haben, weil sich ihre Status in zwei S
 
 <br>
 
-## Struktur der Transferinformationen
+## Struktur der Transferinformationen<span id="transfer-info">
 Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery Schema enthalten. Diese Informationen beinhalten Warnungen und Fehlermeldungen vom Vermittlungsdienst, dem Bekanntmachungsservice und TED.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
