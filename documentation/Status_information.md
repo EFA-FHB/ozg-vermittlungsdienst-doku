@@ -7,7 +7,8 @@
 
 Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst abgefragt und gespeichert, so liegt jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
 <br><br>
-
+Mehr zum Thema "Fehlerbehandlung" findet sich hier: [Fehlerbehandlung](/documentation/Felhlerbehandlung.md)
+<br><br>
 ## Endpunkte zur Abfrage der Status- und Transferinformationen
 Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte zur Verfügung.
 Der Vermittlungsdienst führt die Statusabfragen an BKMS und TED alle 1-5 Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
