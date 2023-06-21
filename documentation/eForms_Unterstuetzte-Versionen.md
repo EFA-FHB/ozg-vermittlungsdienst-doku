@@ -3,9 +3,9 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br><br>
 
-# Unterstützte eForms Versionen
+# Tabellen: unterstützte eForms Versionen
 
-## Bis 25.10.2023
+### bis 25.10.2023
 
 | Version  | Mediator | External validator | Internal validator | eSender   | BKMS  | TED  |
 | ------- | -------- | ------------------ | ------------------ | --------- | ----- | ---- |
@@ -17,7 +17,7 @@
 
 <br>
 
-## Ab 25.10.2023 (Production Environment)
+### ab 25.10.2023 (Production Environment)
 
 | Version                               | Mediator                        | External validator | Internal validator | eSender    | BKMS      | TED       |
 | ------------------------------------- | ------------------------------- | ------------------ | ------------------ | ---------- | --------- | ------------ |
