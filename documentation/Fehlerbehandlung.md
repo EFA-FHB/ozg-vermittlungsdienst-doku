@@ -1,0 +1,34 @@
+### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
+## Dokumentation Vermittlungsdienst
+[Inhaltsverzeichnis](/documentation/documentation.md)
+<br><br>
+
+# Fehlerbehandlung
+eSender speichert alle Fehler im Zusammenhang mit Bekanntmachungen in einer einzigen Tabelle namens "notice_error". Es gibt jedoch mehrere Fehlerquellen, die alle leicht unterschiedliche Formate verwenden. Aus diesem Grund kann jede Fehlerquelle unterschiedliche Spalten in der Tabelle "notice_error" verwenden. Auf dieser Seite wird dokumentiert, wie die verschiedenen Spalten in der Fehlertabelle je nach Fehlerquelle verwendet werden.
+<br><br>
+
+## Allgemeine Definitionen von Fehlerquellen
+| ERROR_SOURCE          | DESCRIPTION                                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| TED                   | Fehler, die von TED kommen, wenn TED einen http-Code zurückgibt, der einen erfolglosen Aufruf darstellt (5\*\*, 4\*\*)   |
+| TED_VALIDATION_REPORT | Fehler und Warnungen aus der TED-Validierung Report.                                                                     |
+| BKMS                  | Fehler, die von BKMS kommen, wenn BKMS einen http-Code zurückgibt, der einen erfolglosen Aufruf darstellt (5\*\*, 4\*\*) |
+| ESENDER               | Fehler, die bei einem internen eSender-Vorgang auftreten                                                                 |
+| VALIDATOR             | Fehler und Warnungen aus dem internen Validierungsdienst                                                                 |
+<br><br>
+
+##  Fehlerspalte Definitionen basierend auf verschiedenen Fehlerquellen
+
+| error_source          | notice_hub_id                                    | error_level                                                                       | error_message                                                              | error_code                                                          | error_path                                                                                                                         | performed_test                                                      | notice_entity_version                                      |
+| --------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| TED                   | Verweis auf der Bekanntmachung, zu der dieser Fehler gehört | Bei allen TED-Fehlern wird die Fehlerstufe auf ERROR gesetzt.                                | Fehlermeldung aus der TED-Fehlerantwort.                           | TEDs Fehlerantwort http-Code                                      | \-                                                                                                                                 | \-                                                                  | Version des Bekanntmachungsobjekts, für das dieser Fehler relevant ist. |
+| TED_VALIDATION_REPORT | Verweis auf der Bekanntmachung, zu der dieser Fehler gehört | Schweregrad des Fehlers aus dem Validierungsbericht von TED. Mögliche Werte: ERROR; WARN; | Fehlermeldung aus der Validierungsbericht von TED.                      | \-                                                                  | Xpath, der auf den Fehlerort in der Bekanntmachung XML zeigt.                                                                            | Wert der Test-Property im TED-Validierungsbericht.                | Version des Bekanntmachungsobjekts, für das dieser Fehler relevant ist. |
+| BKMS                  | Verweis auf der Bekanntmachung, zu der dieser Fehler gehört | Bei allen BKMS-Fehlern wird die Fehlerstufe auf ERROR gesetzt.                               | Fehlermeldung aus der BKMS-Fehlerantwort.                          | BKMSs Fehlerantwort http-Code                                     | \-                                                                                                                                 | \-                                                                  | Version des Bekanntmachungsobjekts, für das dieser Fehler relevant ist. |
+| ESENDER               | Verweis auf der Bekanntmachung, zu der dieser Fehler gehört | Bei allen ESENDER-Fehlern wird die Fehlerstufe auf ERROR gesetzt.                            | Von eSender selbst erstellte Fehlermeldung.                                       | Code, der einen Fehler beschreibt und von eSender selbst festgelegt wird.          | \-                                                                                                                                 | \-                                                                  | Version des Bekanntmachungsobjekts, für das dieser Fehler relevant ist. |
+| VALIDATOR             | Verweis auf der Bekanntmachung, zu der dieser Fehler gehört | Schweregrad des Fehlers aus dem Validierungsbericht von TED. Mögliche Werte: ERROR; WARN; | Aus dem Feld "description" der Antwort des internen Validators entnommen. | Aus dem Feld "type" der Antwort des internen Validators entnommen. | Aus dem Feld "path" der Antwort des internen Validators entnommen.<br> Stellt den Xpath dar, der auf den Fehlerort in der Bekanntmachung-XML zeigt. |Aus dem Feld "rule" der Antwort des internen Validators entnommen. | Version des Bekanntmachungsobjekts, für das dieser Fehler relevant ist. |
+
+<br><br>
+
+## Lawfullness Warnings
+TED liefert nur eine Art von Warnungen, sogenannte "Lawfullness Warnings". Sie werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. Eine Lawfullness Warning heißt, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. TED prüft dann den Inhalt der Bekanntmachung und entscheidet, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Für diese Entscheidung hat TED bis zu 5 Tage Zeit. Deshalb werden Bekanntmachungen mit einer Lawfullness warning erst bei Veröffentlichung oder 5 Tage nach erfolgreicher Einlieferung an den Bekanntmachungsservice weitergeleitet. Es ist möglich, dass in Zukunft weitere Arten von Warnungen von TED eingeführt werden. 
+
