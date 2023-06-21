@@ -7,7 +7,7 @@
 
 Bei der eForms Dokumentenerstellung gilt es einige Regeln zu bestimmten Felden zu beachten.
 
-## eSender-Informationen:
+### eSender-Informationen:
 
 Feld: *ganzer Abschnitt ``` <efac:Organization>```*
 
@@ -16,7 +16,7 @@ Der DöE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden B
 Zu beachten: dieses Feld wurde in vorherigen (v1.0) Beispielen vorhanden, nicht aber in den neuen Beispielen.
 <br>
 
-## Datumsangaben
+### Datumsangaben
 
 Felder: *BT-05: ``` <cbc:IssueDate> ```* , *BT-738: ``` <cbc:RequestedPublicationDate>```*
 
