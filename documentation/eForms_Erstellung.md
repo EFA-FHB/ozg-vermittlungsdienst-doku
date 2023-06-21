@@ -7,22 +7,18 @@
 
 Bei der eForms Dokumentenerstellung gilt es einige Regeln zu bestimmten Felden zu beachten.
 
-## eSender-Informationen:
+### eSender-Informationen:
 
-Feld: BT - 
-
-XML: <...>
+Feld: *ganzer Abschnitt ``` <efac:Organization>```*
 
 Der DöE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden Bekanntmachungen. Für die Organisationen sollte deshalb der Typ "ted-esen" nichts in den Bekanntmachung verwendet werden, da diese Angabe automatisch vom eSender eingefügt wird. 
 
 Zu beachten: dieses Feld wurde in vorherigen (v1.0) Beispielen vorhanden, nicht aber in den neuen Beispielen.
 <br>
 
-## Datumsangaben
+### Datumsangaben
 
-BT-05: ``` <cbc:IssueDate> ```
-
-BT-738:``` <cbc:RequestedPublicationDate>```
+Felder: *BT-05: ``` <cbc:IssueDate> ```* , *BT-738: ``` <cbc:RequestedPublicationDate>```*
 
 - Dispatch Date (BT-05, Tag der Absendung der Bekanntmachungen) muss mindestens zwei Tage bevor und maximal ein Tag nach der heutigen Tag sein. Wenn heute zum Beispiel der 05.06.2023 ist, könnte dieses Datum entweder 03.06.2023, 04.06.2023, 05.06.2023 oder 06.06.2023 sein. Das heißt, das Datum weist genau aus, wenn das Formular geschickt wurde.
 - Bevorzugtes Veröffentlichungsdatum (Requested Publication Date, BT-738) muss mindestens zwei Tage nach dem Dispatch Date liegen. Der Vorteil am verpflichtenden Abstand nach dem Tag der Absendung liegt dabei, es gibt immer mindestens zwei Tage Zeitraum, bei Bedarf die Bekanntmachung noch vor Veröffentlichung zu stoppen und zu korrigieren (siehe Stop Funktion).
