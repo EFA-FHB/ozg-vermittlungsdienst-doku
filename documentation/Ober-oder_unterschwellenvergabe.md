@@ -26,33 +26,12 @@ Diese Information wird aus dem XML Feld SubTypeCode ausgelesen. Fängt der Subty
 
 ### eForms Version
 Diese Information wird aus dem XML Feld CustomizationID ausgelesen. TED akzeptiert nur bestimmte eForms-EU Versionen und der eSender des Vermittlungsdienst unterstützt ebenfalls nur bestimmte eForms-EU Versionen.
-In der Produktionsumgebung muss ab 30.6. die eingelieferte Version eForms-DE 1.0 oder eine folgende eForms-DE Version sein. Eingereichte eForms-EU Versionen werden ab 30.6. nur noch für die Unterschwelle angenommen. Weitere Details zur Versionsunterstützung finden Sie hier: 
+In der Produktionsumgebung muss ab 30.6. die eingelieferte Version eForms-DE 1.0 oder eine folgende eForms-DE Version sein. Eingereichte eForms-EU Versionen werden ab 30.6. nur noch für die Unterschwelle angenommen. Weitere Details zur Versionsunterstützung finden Sie hier: [eForms Versionsunterstützung](/documentation/eForms_Unterstuetzte-Versionen.md)
 
 
 <br> 
 
-*Unterstützte eForms Versionen **bis 25.10.2023**:*
 
-| Version  | Mediator | External validator | Internal validator | eSender   | BKMS  | TED  |
-| ------- | -------- | ------------------ | ------------------ | --------- | ----- | ---- |
-| eForms-EU 0.1.1 | ja, aber nur für Unterschwellenvergabe | \-  | ja | \-  | ja, aber nur für Unterschwellenvergabe | nein    |
-| eForms-EU 1.0   | ja, aber nur für Unterschwellenvergabe | \-  | ja | \-  | ja, aber nur für Unterschwellenvergabe | nein    |
-| eforms-EU 1.5   | nein  | ja | ja | ja | \-  | nur akzeptiert  1.3 und folgenden Versionen bis Januar 2024  |
-| eForms-DE 1.0.1 (schematron 0.5.0) | ja | ja | ja | ja | ja | ja, nach Umstellung in eForms-EU 1.5.1  |
-| eForms-DE 1.1  | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | ja, nach Umstellung in eForms-EU 1.7.0<br><br>geplante Unterstützung bis Oktober 2023 |
-
-<br>
-
-*Unterstützte eForms Versionen **ab 25.10.2023** (Production Environment):*
-
-| Version                               | Mediator                        | External validator | Internal validator | eSender    | BKMS      | TED       |
-| ------------------------------------- | ------------------------------- | ------------------ | ------------------ | ---------- | --------- | ------------ |
-| eForms-EU 0.1.1                       | ja, aber nur für Unterschwellenvergabe | \-                 | ja                | \-         | ja, aber nur für Unterschwellenvergabe | nein    |
-| eForms-EU 1.0                         | ja, aber nur für Unterschwellenvergabe | \-                 | ja                | \-         | ja, aber nur für Unterschwellenvergabe | nein    |
-| eforms-EU 1.5                         | nein                          | ja                | ja                | ja        | \-        | ja          |
-| eForms-DE 1.0.1 (schematron 0.5.0)    | ja                            | ja                | ja                | ja        | ja       | ja, nach Umstellung in eForms-EU 1.5.1 |
-| eforms-EU 1.7 (future implementation) | nein                          | ja                | ja                | geplante Unterstützung | \-   | ja  |
-| eForms-DE 1.1 (recommended version)   | ja                            | ja                | ja                | ja                     | ja  | ja, nach Umstellung in eForms-EU 1.7.0 |
 
 
  Weitere Informationen zu Anbindung und Optionen zur Einlieferung finden Sie unter LINK ZU ANBINDUNGSLEITFADEN MIT OPTIONEN ZUM EINLIEFERN
