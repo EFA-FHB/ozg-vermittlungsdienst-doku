@@ -7,7 +7,7 @@
 Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend dem folgenden Beispeil verarbeitet. In Zukunft werden vom Vermittlungsdienst, sowohl unterschwellige als auch oberschwellige Bekanntmachungen, ausschließlich im eForms-DE Format angenommen.
 <br><br>
 
-*Bis 25.10.2023*
+*bis 25.10.2023*
 
 | Version  | Mediator | External validator | Internal validator | eSender   | BKMS  | TED  |
 | ------- | -------- | ------------------ | ------------------ | --------- | ----- | ---- |
@@ -19,7 +19,7 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 
 <br><br>
 
-*Ab 25.10.2023 (Production Environment)*
+*ab 25.10.2023 (Production Environment)*
 
 | Version                               | Mediator                        | External validator | Internal validator | eSender    | BKMS      | TED       |
 | ------------------------------------- | ------------------------------- | ------------------ | ------------------ | ---------- | --------- | ------------ |
