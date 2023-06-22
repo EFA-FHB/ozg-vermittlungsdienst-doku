@@ -22,6 +22,6 @@ Aktuell unterstützt der BKMS Bekanntmachungen mit Version eForms-DE 1.0.0 und e
 Während des gesamten Prozesses werden Statusänderungen z.B. ausgelöst durch eine Rückmeldung von TED sowie aufgetretene Fehler oder Warnungen intern gespeichert. Relevante Statusinformationen können jederzeit durch die FVH vom Mediator abgefragt werden (Siehe Statusliste und Diagramme).
 <br><br>
 
-![Workflow Diagramm](/documentation/images/workflow_diagramm.png)
+![Workflow Diagramm](/documentation/images/workflow_2.png)
 
 
