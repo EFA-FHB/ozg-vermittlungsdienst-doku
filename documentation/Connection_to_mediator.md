@@ -8,26 +8,30 @@ Die Übermittlung von Bekanntmachungen an den Vermittlungsdienst kann über die 
 <br><br>
 
 ## Anbindung per REST API
-Unter https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com wird die REST API und die dazugehörige Dokumentation, der vorhandenen Endpoints, zur Verfügung gestellt.
-Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden, mit derer Hilfe entsprechende Access Token und Refresh Token generiert werden können, um eine Autorisierung für den Zugriff auf die API zu erhalten.
+Unter https://ozg-vermittlungsdienst.de wird die REST API und die dazugehörige Dokumentation, der vorhandenen Endpoints, zur Verfügung gestellt.
+Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Sie haben die Möglichkeit, bei der Beantragung der Zugangsdaten, anzugeben das Sie einen API-Key zur Autorisierung am Vermittlungsdienst verwenden wollen. Ansonsten hat die Autorisierung über einen Access Token und Refresh Token zu erfolgen.
 <br><br>
 
 ### Beantragen eines Zugangs durch einen FVH
 Ein Vertreter des Fachverfahrenshersteller beantragt die Einrichtung eines neuen Benutzers per E-Mail an [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com) bei der Nortal AG. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
-- Benutzer E-Mail-Adresse welche als Benutzername verwendet werden soll
+- Systemumgebung für die Zugangsdaten beantragt werden
+- E-Mail-Adresse welche als Benutzername verwendet werden soll
 - URL der Vergabeplattform
 - Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
 - Name des FVH
+- Geben Sie an, ob Sie einen API-Key verwenden wollen (wenn nicht, wird kein API-Key erstellt, und es müssen Token verwendet werden)
 
 Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält.
 <br><br>
-Der Link ist 24 Stunden lang gültig.<br>
+Der Link ist 5 Tage gültig.<br>
 Klicken Sie auf den Link und folgen Sie den Anweisungen zur Passwort-Erstellung.
 <br><br>
-Mit den nun erstellten Zugangsdaten kann mit Hilfe der API ein Access Token und ein Refresh Token generiert werden.
+Wenn Sie die Erstellung eines API-Keys angefordert haben, werden wir Ihnen diesen per E-Mail zukommen lassen. Mit den erstellten Zugangsdaten kann mit Hilfe der API ein Access Token und ein Refresh Token generiert werden.
 <br><br>
+Bitte beachten Sie, dass Sie pro Entwicklungsumgebung (Preview, Staging, Production) einen Zugang beantragen müssen. Wir führen keine Synchronisierung der Zugangsdaten durch. 
+<br><br><br>
 
 ### Authentifizierung und Autorisierung (Access Token, Refresh Token)
 Mit Hilfe des Endpoints `POST/ api/token` und den übermittelten Zugangsdaten `username` und `password` kann man sich an der API authentifizieren. In der Antwort des Endpoints wird nach erfolgreicher Authentifizierung ein `access_token` und ein `refresh_token` übermittelt.
@@ -93,3 +97,16 @@ Das Passwort muss aus mindestens 8 Zeichen bestehen, 1 Großbuchstaben und 1 Zah
 <br><br>
 
 9. Das Passwort muss in der FVH-Software hinterlegt werden um sicher zu gehen, dass die Verbindung mit dem Vermittlungsdienst funktioniert.
+<br><br><br>
+
+## Zugang löschen
+Um Ihren Zugang zu löschen senden Sie bitte eine E-Mail an den Support der Nortal AG [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com).<br>
+In der E-Mail müssen folgende Angaben enthalten sein:
+
+- Systemumgebung ind er die Zugangsdaten gelöscht werden sollen
+- E-Mail-Adresse welche als Benutzername verwendet wird
+- URL der Vergabeplattform
+- Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
+- Name des FVH
+
+Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen.
