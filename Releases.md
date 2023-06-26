@@ -3,6 +3,51 @@
 [Übersicht](/Readme.md)
 <br><br>
 
+## Production Release Juni 
+Status: Veröffentlicht 28.06.2023<br>
+<details>
+<summary>Release notes</summary>
+<br>
+
+### Vermittlungsdienst
+Systemumgebung:<br>
+Preview Umgebung https://preview.ozg-vermittlungsdienst.de<br>
+Staging Umgebung https://staging.ozg-vermittlungsdienst.de<br>
+Production Umgebung https://ozg-vermittlungsdienst.de<br><br>
+
+**Mediator**
+- Stop-Endpoint zum stoppen von nationalen Bekanntmachungen im BKMS hinzugefügt
+- Prüfung dass Aktualisierungen von Bekanntmachungen nicht möglich sind, wenn die vorherige Version nicht gestoppt wurde oder wenn sie bereits veröffentlicht ist
+- Open-Api-Beschreibung angepasst
+- Verbesserte Fehlermeldungen bei der Rückgabe von Informationen an FVH
+- Metriken hinzugefügt, um die letzten erfolgreichen und erfolglosen Endpunktaufrufe zusammen mit den geplanten Jobläufen zu messen
+- Mehrere Optimierungen und Fehlerbehebungen
+- Einführung von Paging für geplante Jobs
+- Prüfung von auftretenden Aktualisierungen von eSender verbessert
+- Die Integration des internen Validator wurde verbessert, die Fehlertypen sind nun klarer klassifiziert.
+- Die Antwort auf das Datum der letzten Aktualisierung der PSPs wurde aktualisiert und ist nun genauer.
+- Geänderte Namen für Fehlergründe:
+Anstelle von DELIVERY_NOT_FOUND steht NOTICE_NOT_FOUND
+Anstelle von DELIVERY_ALREADY_PROCESSED steht NOTICE_ALREADY_PROCESSED
+Anstelle von DELIVERY_METADATA_INVALID steht NOTICE_METADATA_INVALID
+- Neuer Endpunkt /v1/notices/status erstellt - Gibt die Statusinformationen für Bekanntmachungen innerhalb eines bestimmten Zeitraums zurück.
+
+**eSender**
+- Manueller Stopp in BKMS implementiert, wenn PSP die Benachrichtigung stoppt
+- Automatische Stopp in BKMS aufgrund von TED NOT_PUBLISHED implementiert
+- Aktualisierte Übersetzungen für Fehlermeldungen
+- Transformationen umgesetzt: Versionsumwandlung von eform-de-1.0 nach eform-sdk-1.5 und Umwandlung von DE-Codelisten in EU-Codelisten
+- Implementiert: Abrufen und Speichern des BKMS-Status PUBLISHED
+- Jobs PROCESS_NOTICES und ALIGN_TED_STATUS verbessert
+- Einführung einer Anwendung zur Kontoverwaltung
+- Verbesserte Antwort für Mediator im Falle von Duplikaten
+- API-Schlüssel für Produktions- und Staging-Benutzer wurden aktualisiert
+- Performance Verbesserungen
+- API-Dokumentation aktualisiert
+- Mehrere Optimierungen und Fehlerbehebungen
+</details>
+<br><br><br>
+
 ## Preview Release Mai 
 Status: Veröffentlicht 04.05.2023<br>
 <details>
@@ -34,7 +79,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 
 - Mehrere Optimierungen und Fehlerbehebungen
 </details>
-<br><br>
+<br><br><br>
 
 ## Vergleich geplanter Features in Preview Release und Production Release 
 <details>
