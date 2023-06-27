@@ -16,7 +16,7 @@ In diesem Repository sind folgende Dokumente zur Unterstützung einer Anbindung 
 
 - [Dokumentation Vermittlungsdienst](/documentation/documentation.md)
 - [FAQ](/faq.md)
-- [Releases Vermittlungsdienst](/Releases.md)
+- [Release Notes](/Releases.md)
 - [Veranstaltungen](/Events.md)
 <br>
 

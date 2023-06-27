@@ -1,25 +1,25 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
 # Häufig gestellte Fragen
 [Übersicht](/Readme.md)
-<br><br>
+<br>
 
 - [Datenservice Öffentlicher Einkauf](#datenservice-öffentlicher-einkauf)
 - [GDK (eForms-DE Standard/SDK-eForms-DE)](#gdk-eforms-de-standardsdk-eforms-de)
 - [Allgemein](#allgemein)
-<br><br>
+<br>
 
 ## Datenservice Öffentlicher Einkauf
 
 ### Roadmap
 
 <details>
-    <summary>
-        Gibt es eine Roadmap bezüglich der Weiterentwicklung auch nach Stichtag 25.10.2023 der Komponenten Vermittlungsdienst, eSenderHub, usw., insbesondere im Hinblick auf Feature- und API-Erweiterungen, Meilensteine und die jeweiligen Go-live-Zeitpunkte? 
-    </summary>
-    <br>
-    Zum derzeitigen Stand sind nach dem 25.10.2023 noch zwei Releases für den Datenservice geplant. Der Inhalt der Releases bezieht sich primär auf Komfortfunktionen und Auswertungsmöglichkeiten. API-Änderungen und Erweiterungen sind nach aktuellem Planungsstand nicht vorgesehen.
+<summary>
+Gibt es eine Roadmap bezüglich der Weiterentwicklung auch nach Stichtag 25.10.2023 der Komponenten Vermittlungsdienst, eSenderHub, usw., insbesondere im Hinblick auf Feature- und API-Erweiterungen, Meilensteine und die jeweiligen Go-live-Zeitpunkte?
+</summary>
+<br>
+Zum derzeitigen Stand sind nach dem 25.10.2023 noch zwei Releases für den Datenservice geplant. Der Inhalt der Releases bezieht sich primär auf Komfortfunktionen und Auswertungsmöglichkeiten. API-Änderungen und Erweiterungen sind nach aktuellem Planungsstand nicht vorgesehen.
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -31,7 +31,7 @@ Generierung der PDF/HTML Darstellung: Aktuell in Klärung, der Bedarf wurde durc
 Einsicht in Prozess über Weboberfläche (Dashboard):
 Aktuell in Umsetzung: Geplant ist die Einsicht in Statusinformationen für einen Mandanten und evtl. das Nutzen des Stop-Endpunkts über die gleiche Oberfläche.
 </details>
-<br><br>
+<br>
 
 ### Go-Live
 
@@ -42,7 +42,7 @@ Ist der Zeitpunkt für den produktiven Go-live (d.h. vollständige Bereitstellun
 <br>
 Zum aktuellen Standpunkt ist eine technische Pilotphase des Datenservice Öffentlicher Einkauf inklusive eSender-Hub Ende Juni 2023 geplant. Der Start der Pilotphase für eine Anbindung per PEPPOL ist für Ende Juli 2023 geplant. Hier bestehen allerdings Abhängigkeiten zu Zulieferungen der EU und des Expertengremiums eForms. Das Inkrafttreten der rechtlichen Verpflichtung erfolgt zum 25.10.2023; eine entsprechende Freigabe des Bundesrats wird bis Sommer 2023 erwartet.
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -51,7 +51,7 @@ Werden zum Go-live alle 40 EU-Bekanntmachungstypen unterstützt? Wann steht der 
 <br>
 Es werden alle Dokumententypen aus eForms-DE angenommen (40 für die Oberschwelle und 3 für die Unterschwelle). Wo notwendig werden diese generisch in das eForms-EU Format konvertiert. Dies entspricht den Inhalten des aktuellen eForms-DE Standards.
 </details>
-<br><br>
+<br>
 
 ### Kommunikationskanäle
 
@@ -72,7 +72,7 @@ Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs we
 
 Wir sind offen für Ihre Vorschläge!
 </details>
-<br><br>
+<br>
 
 ### Dokumentation
 
@@ -83,7 +83,7 @@ Gibt es durch die Dokumentation zum Vermittlungsdienst (https://github.com/EFA-F
 <br>
 Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizielle Dokumentation, der finale Ort der Doku steht aber noch nicht fest. 
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -91,10 +91,10 @@ Wie kann für ein Release ermittelt werden, welche Versionen der Teilkomponenten
 </summary>
 <br>
 Unter [eForms Unterstützung](/documentation/eForms_support.md) ist dokumentiert welche eForms-Versionen die Teilkomponenten unterstützen.
-<br><br>
+<br>
 Alle Versionen außer eForms-DE 1.0.1 werden nur noch vorübergehend unterstützt!
 </details>
-<br><br>
+<br>
 
 ### Statusmodell
 <details>
@@ -109,7 +109,7 @@ Die folgenden Daten werden von TED zu einer Bekanntmachung zur Verfügung gestel
 
 Wir prozessieren dabei den Status, den Zeitpunkt der Einlieferung und wenn gegeben den Zeitpunkt der Veröffentlichung. Die ABl.-Nummer wird in eNotices2 nicht mehr verwendet. Wenn Sie weitere Daten aus dieser Abfrage benötigen, schreiben Sie uns bitte eine Mail mit Ihren Anforderungen an: oeffentliche-vergabe-support@nortal.com. Gerne organisieren wir einen bilateralen Austausch.
 </details>
-<br><br>
+<br>
 
 ### API-Vermittlungsservice
 
@@ -120,7 +120,7 @@ In der REST-API wird von Mandanten gesprochen. Bedeutet 1 Mandant = 1 API-Key = 
 <br>
 Diese Annahme ist korrekt.
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -129,7 +129,7 @@ In der REST-API-Beschreibung wird von "aktuellen Datenlieferungen" gesprochen. W
 <br>
 Der Endpunkt v1/notices gibt Statusinformationen zu allen Bekanntmachungen zurück, die vom derzeit authentifizierten Mandanten erfolgreich eingeliefert wurden.
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -138,7 +138,7 @@ Vergabeplattformen möchten zeitnah Statusänderungen erkennen (derzeit erfolgt 
 <br>
 Vielen Dank für diesen Vorschlag; wir werden eine Umsetzung prüfen.
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -147,7 +147,7 @@ Wie können Plattformbetreiber die Informationen des CVS-Reports der EU zu einer
 <br>
 Alle Fehler und Warnungen aus dem CVS Report werden zukünftig in den Statusinformationen übergeben. Dabei übergeben wir die ID, den Pfad, den Inhalt und den Text jeder angeschlagenen Regel. Derzeit ist es nicht vorgesehen, den CVS Report als Datei zurückzugeben.
 </details>
-<br><br>
+<br>
 
 ### Laufende Vergabeverfahren und Umstellung auf den neuen Datenservice
 
@@ -160,7 +160,7 @@ Bis eForms-DE verpflichtend wird, kann noch im alten Format direkt bei TED einge
 
 Die Antwortfindung ggü. TED ist weiterhin im Gange.
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -173,7 +173,7 @@ Die Berichtigung einer Bekanntmachung ist prinzipiell möglich, indem vor Veröf
 
 Es ist derzeit in Klärung mit TED, wie auf eine vorherige Bekanntmachung im alten Format referenziert werden kann, um diese miteinander zu verknüpfen und inwiefern der Wechsel des einliefernden eSenders Einfluss auf Änderungen hat.
 </details>
-<br><br>
+<br>
 
 ### Akzeptierte SDK-Versionen
 
@@ -187,7 +187,7 @@ Frage 2 unter [Roadmap](#roadmap) - Der Bedarf für eine Rendering Methode wurde
 
 Der eSender-Hub trägt Sorge dafür, entsprechend der eingelieferten eForms-DE Version diese Bekanntmachung in ein valides eForms-EU Dokument zu transformieren, um damit die TED-Funktionen nutzen zu können.
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -196,7 +196,7 @@ In den eForms ist eine Angabe "CustomizationID", z. B. `<cbc:CustomizationID>efo
 <br>
 Für die ab vorrausichtlich Juni unterstützte Version des nationalen Standards eForms-DE lautet der Versionsbezeichner des zugehörigen SDK "eforms-de-1.0", siehe Datei eforms-de.validation.sch im Verzeichnis schematrons/schematron-de. (https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/main/sdk/schematrons/schematron_de)
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -205,22 +205,22 @@ Derzeit scheint der Mediator auch eForm-EU bis SDK-Version 1.5 zu akzeptieren. W
 <br>
 Aktuell ist geplant die Unterstützung für eforms-EU 1.5 mit dem Release im Juli abzuschalten, da sie auch im Bekanntmachungsservice nicht unterstützt wird. Falls es notwendig ist, diese oder andere EU Versionen länger zu unterstützen, kann darüber diskutiert werden.
 </details>
-<br><br>
+<br>
 
 ### Sonderfälle
 
 <details>
 <summary>
-Wird es für etwaige seltene, jedoch denkbare, Sonderfälle entsprechende Vorgehensmodelle geben, auf die sich bei Eintreten der Fälle berufen werden kann? Hierzu sollen zwei Beispiele dienen:<br><br>
+Wird es für etwaige seltene, jedoch denkbare, Sonderfälle entsprechende Vorgehensmodelle geben, auf die sich bei Eintreten der Fälle berufen werden kann? Hierzu sollen zwei Beispiele dienen:<br>
 Beispiel 1:<br>
-Der Vermittlungsdienst nimmt eine Bekanntmachung entgegen, welche laut Vermittlungsdienst/eSenderHub valide ist. Die EU lehnt später die Entgegennahme ab (Status "rejected"), etwa weil die SDK-Version nicht mehr unterstützt wird. Der Plattformbetreiber erhält gemäß Statusmapping den Status "internalError". Wie würde das weitere Vorgehen in dem Falle aussehen?<br><br>
+Der Vermittlungsdienst nimmt eine Bekanntmachung entgegen, welche laut Vermittlungsdienst/eSenderHub valide ist. Die EU lehnt später die Entgegennahme ab (Status "rejected"), etwa weil die SDK-Version nicht mehr unterstützt wird. Der Plattformbetreiber erhält gemäß Statusmapping den Status "internalError". Wie würde das weitere Vorgehen in dem Falle aussehen?<br>
 Beispiel 2:<br>
 Laut der EU wird demnächst eine Business-Rule eingeführt, die es nicht mehr erlaubt, dass das "dispatch date" in einer Bekanntmachung (Tag der Absendung der Bekanntmachung), welches von den Plattformbetreibern gesetzt wird und der Zeitpunkt der Übermittlung des Datenservice an die EU, max. um 24 Stunden abweichen darf, sonst wird die Annahme durch die EU blockiert. Etwaige technische Probleme im Datenservice müssten somit immer innerhalb von 24 Stunden gelöst werden.
 </summary>
 <br>
 Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError) oder Bugs zu reagieren. Es ist derzeit in Klärung, wie diese Supportstruktur zu welchem Zeitpunkt des Betriebs aussehen wird. Zu Beginn ab Juni ist Nortal unter der E-Mail Adresse oeffentliche-vergabe-support@nortal.com der erste Ansprechpartner. Wann immer Fehler im System passieren (Beispielsweise bei Ablehnung durch TED), werden diese geloggt, sodass bei Bedarf ein Support Ticket erstellt und eine technische Analyse durchgeführt werden kann.
 </details>
-<br><br>
+<br>
 
 ## GDK (eForms-DE Standard/SDK-eForms-DE)
 [Zum Anfang](#häufig-gestellte-fragen)<br>
@@ -239,7 +239,7 @@ Die Versionsbezeichnungen der SDK zum jeweiligen nationalen Standard eForms-DE o
 
 Es ist nicht geplant, dass zu jeder minor Version des eForms-EU auch eine neue Version eForms-DE veröffentlicht wird. Deshalb wird die Versionierung von eForms-EU und eForms-DE auch in Zukunft nicht direkt übereinstimmen. Es wird aber immer für jede eForms-DE Version exakt eine korrespondierende eForms-EU Version geben.
 </details>
-<br><br>
+<br>
 
 <details>
 <summary>
@@ -248,10 +248,10 @@ In welchem Zeitrahmen wird ein DE-Update zur Verfügung gestellt, nachdem ein EU
 <br>
 
 Es ist hierbei zu beachten, dass nicht für jedes EU-Update automatisch ein DE-Update notwendig ist.
-<br><br>
+<br>
 Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eForms-DE. Wie beim 1. technischen Arbeitstreffen gemeinsam festgestellt wurde, können wir angesichts noch vorliegenden Unklarheiten über in Kraft treten und Lebensdauer der Versionen des EU-SDK, derzeit noch keine einfache Antwort mit klaren Daten geben. Was feststeht ist, dass eine bestimmte Version eForms-DE sich kompatibel zu einer bestimmten Version eForms-SDK erklärt und dies möglichst zeitnah geschehen soll. Wie derzeit eForms-DE 1.0.1 kompatibel zu eForms-SDK 1.5.1 ist (SDK 1.5.1 wurde am 20. Januar 2023 veröffentlicht und eForms-DE am 5. Februar). D.h. implizit, dass es nicht zu jeder Version eForms-SDK eine Version eForms-DE geben wird.
 </details>
-<br><br>
+<br>
 
 ### Go-Live
 
@@ -263,7 +263,7 @@ Mit welcher SDK-Version soll der produktive Go-live erfolgen?
 
 Unterstützt wird die aktuelle Version 1.0.1 und eine weitere Version voraussichtlich ab September 2023.
 </details>
-<br><br>
+<br>
 
 ### Kommunikationskanal
 
@@ -283,7 +283,7 @@ https://www.finanzen.bremen.de/digitalisierung/digitalisierung-von-verwaltungsle
 
 Fragen zum DE-SDK sind über Issues im Repository zu eröffnen.
 </details>
-<br><br>
+<br>
 
 ### Abweichungen
 
@@ -297,7 +297,7 @@ Der Einfachheit halber und zur Vermeidung von Inkonsistenzen mit von EU geliefer
 
 Losgruppen sind in eForms-DE nicht vorgesehen.
 </details>
-<br><br>
+<br>
 
 # Allgemein
 [Zum Anfang](#häufig-gestellte-fragen)
@@ -311,7 +311,7 @@ Nach Angabe der EU (siehe https://simap.ted.europa.eu/de_DE/web/simap/statistica
 <br>
 Die Beantwortung dieser rechtlichen Fragestellung ist angestoßen und wird nach erfolgter Klärung beantwortet.
 </details>
-<br><br>
+<br>
 
 ---
 [Zum Anfang](#häufig-gestellte-fragen)

@@ -1,16 +1,16 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 ## Dokumentation Vermittlungsdienst
 [Inhaltsverzeichnis](/documentation/documentation.md)
-<br><br>
+<br>
 
 # Anbindung an den Vermittlungsdienst
 Die Übermittlung von Bekanntmachungen an den Vermittlungsdienst kann über die [REST API](#anbindung-per-rest-api) des Vermittlungsdienst oder mit Hilfe des [eDelivery Network PEPPOL](#anbindung-per-peppol-in-der-umsetzung) (in der Umsetzung) erfolgen.
-<br><br>
+<br>
 
 ## Anbindung per REST API
 Unter https://ozg-vermittlungsdienst.de wird die REST API und die dazugehörige Dokumentation, der vorhandenen Endpoints, zur Verfügung gestellt.
 Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Sie haben die Möglichkeit, bei der Beantragung der Zugangsdaten, anzugeben das Sie einen API-Key zur Autorisierung am Vermittlungsdienst verwenden wollen. Ansonsten hat die Autorisierung über einen Access Token und Refresh Token zu erfolgen.
-<br><br>
+<br>
 
 ### Beantragen eines Zugangs durch einen FVH
 Ein Vertreter des Fachverfahrenshersteller beantragt die Einrichtung eines neuen Benutzers per E-Mail an [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com) bei der Nortal AG. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
@@ -31,12 +31,16 @@ Klicken Sie auf den Link und folgen Sie den Anweisungen zur Passwort-Erstellung.
 Wenn Sie die Erstellung eines API-Keys angefordert haben, werden wir Ihnen diesen per E-Mail zukommen lassen. Mit den erstellten Zugangsdaten kann mit Hilfe der API ein Access Token und ein Refresh Token generiert werden.
 <br><br>
 Bitte beachten Sie, dass Sie pro Entwicklungsumgebung (Preview, Staging, Production) einen Zugang beantragen müssen. Wir führen keine Synchronisierung der Zugangsdaten durch. 
-<br><br><br>
+<br>
 
 ### Authentifizierung und Autorisierung (Access Token, Refresh Token)
-Mit Hilfe des Endpoints `POST/ api/token` und den übermittelten Zugangsdaten `username` und `password` kann man sich an der API authentifizieren. In der Antwort des Endpoints wird nach erfolgreicher Authentifizierung ein `access_token` und ein `refresh_token` übermittelt.
+Mit Hilfe des Endpoints `POST /api/token` und den übermittelten Zugangsdaten `username` und `password` kann man sich an der API authentifizieren. `username` ist hierbei die von Ihnen angegebene E-Mail Adresse. In der Antwort des Endpoints wird nach erfolgreicher Authentifizierung ein `access_token` und ein `refresh_token` übermittelt.
 
-Der `access_token` ist 24 Stunden gültig. Nach ablauf der 24 Stunden ist eine erneute Authentifizierung nötig. Um eine regelmäßige Authentifizierung mit `username` und `password` zu vermeiden, kann mit Hilfe des `refresh_token` und dem Enpoint `POST/ api/token/refresh` neue `access_token` generieren, ohne eine erneute vollständige Authentifizierung durchführen zu müssen.
+Der `access_token` ist 24 Stunden gültig. Nach ablauf der 24 Stunden ist eine erneute Authentifizierung nötig. Um eine regelmäßige Authentifizierung mit `username` und `password` zu vermeiden, kann mit Hilfe des `refresh_token` und dem Enpoint `POST /api/token/refresh` neue `access_token` generieren, ohne eine erneute vollständige Authentifizierung durchführen zu müssen. 
+
+Durch das Anfragen eines neuen Tokens, wird der vorige Token nicht invalide. 
+
+Beispielantwort der Endpunkts `POST /api/token` und `POST /api/token/refresh`: 
 
 ```
 {
@@ -47,63 +51,64 @@ Der `access_token` ist 24 Stunden gültig. Nach ablauf der 24 Stunden ist eine e
   "token_type": "Bearer",
   "not-before-policy": 0,
   "session_state": "e65f24ae-4e90-4635-8ae7-4fb89fe471bf",
-  "scope": "email profile"
+  "scope": "profile email"
 }
 ```
-// Beispielantwort der Endpoints `POST/ api/token` und `POST/ api/token/refresh`.
-<br><br>
+<br>
 
 Weitere Informationen zum Konzept des Refresh Token und Hinweise zur Umsetzung werden unter https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/ zur Verfügung gestellt.
-<br><br><br>
+<br>
 
 
 ## Anbindung per PEPPOL (in der Umsetzung)
 Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEPPOL an den Vermittlungsdienst zu übermitteln. Details und weitere Informationen folgen. 
-<br><br><br>
+<br>
 
 
 
 ## Wie setzt man ein Benutzer Passwort in Keycloak zurück?
-1. Anmeldeseite aufrufen<br>
-Testumgebung. https://keycloak-preview.efa-fhb.apps-int.nortal.com/realms/ozg-vermittlungsdienst/account/#/ → Auf 'Anmelden' klicken<br>
-![Anmeldeseite aufrufen](images/kc_anmeldeseite.png)
-<br><br>
+
+>**Warning** <br>
+> Das Passwort des Benutzers ist gleichzeitig das Passwort, was für die Einlieferung bei der Vermittlungsdienst Schnittstelle genutzt wird! <br>
+> Sollten sie das Passwort ändern, stellen Sie sicher, dass es auch in der Software zur Einlieferung in den Vermittlungsdienst geändert wird! 
+
+1. Account Management der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Spalte _Account Management (Keycloak)_)
 
 2. Auf 'Passwort vergessen?' klicken<br>
 ![Auf Passwort vergessen](images/kc_login.png)
-<br><br>
+<br>
 
 3. E-Mail-Adresse eintragen und auf 'Absenden' klicken<br>
 ![E-Mail eintragen](images/kc_passwort_vergessen.png)
-<br><br>
+<br>
 
 4. Die Meldung 'Sie sollten in Kürze eine E-Mail mit weiteren Instruktionen erhalten' wir angezeigt.<br>
 ![Meldung](images/kc_nachricht_best%C3%A4tigungsemail.png)
-<br><br>
+<br>
 
 5. Überprüfen der E-Mails: Ein Link zum Zurücksetzen der Anmeldeinformationen ist in der E-Mail erhalten.<br>
 ![Bestätigungs-E-Mail](images/e-mail_passwort_zuruecksetzen.png)
-<br><br>
+<br>
 
 6. Auf 'Link zum Zurücksetzen von Anmeldeinformationen' klicken.
-<br><br>
+<br>
 
 7. Der Benutzer wird auf die Seite 'Passwort aktualisieren' umgeleitet.<br>
 ![PAsswort aktualisieren](images/kc_passwort_aktualisieren.png)
-<br><br>
+<br>
 
 8. Neues Passwort eintragen und bestätigen und auf 'Absenden' klicken.<br>
 Das Passwort muss aus mindestens 8 Zeichen bestehen, 1 Großbuchstaben und 1 Zahl enthalten.
-<br><br>
+<br>
 
 9. Das Passwort muss in der FVH-Software hinterlegt werden um sicher zu gehen, dass die Verbindung mit dem Vermittlungsdienst funktioniert.
-<br><br><br>
+<br>
 
 ## Zugang löschen
 Um Ihren Zugang zu löschen senden Sie bitte eine E-Mail an den Support der Nortal AG [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com).<br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
-- Systemumgebung ind er die Zugangsdaten gelöscht werden sollen
+- Systemumgebung in der die Zugangsdaten gelöscht werden sollen
 - E-Mail-Adresse welche als Benutzername verwendet wird
 - URL der Vergabeplattform
 - Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH

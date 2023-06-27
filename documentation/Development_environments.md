@@ -1,15 +1,14 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 ## Dokumentation Vermittlungsdienst
 [Inhaltsverzeichnis](/documentation/documentation.md)
-<br><br>
+<br>
 
 # Verfügbare Systemumgebungen
-Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermittlungsdiensts zur Verfügung. Jedes System sendet innerhalb der Umgebung die Daten an
-das entsprechende Bekanntmachungsservice-System. Mit Anbindung des eSenders, der für die Übermittlung der Bekanntmachungen an TED zuständig ist, ist jedes Vermittlungsdienst-System in der Lage, Bekanntmachungen auch an das entsprechende TED-System zu übermitteln.
+Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermittlungsdiensts zur Verfügung. Jede Vermittlungsdienst-Instanz sendet innerhalb der Umgebung die Daten an den entsprechenden Bekanntmachungsservice. Mit Anbindung des eSender-Hubs ist der Datenservice öffentlicher Einkauf auch in der Lage, Bekanntmachungen an die entsprechende TED-Umgebung zu übermitteln.
 <br><br>
 
-**Hinweis:** Mit dem eSender Preview Release am 31.3.2023 wird der eSender für die Preview-Umgebung angebunden und testbar sein.
-<br><br>
+**Hinweis:** Mit dem Production Release am 30.06.2023 wird der eSender in der Produktivumgebung angebunden und testbar sein.
+<br>
 
 <table class="wrapped">
   <colgroup>
@@ -24,7 +23,7 @@ das entsprechende Bekanntmachungsservice-System. Mit Anbindung des eSenders, der
         <br/>
       </th>
       <th style="text-align: left;">
-        <p>Preview Umgebung (inkl. eSender preview)</p>
+        <p>Preview Umgebung</p>
       </th>
       <th style="text-align: left;">
         <p>Staging Umgebung </p>
@@ -50,7 +49,7 @@ das entsprechende Bekanntmachungsservice-System. Mit Anbindung des eSenders, der
     <tr>
       <td style="text-align: left;">IP Address(es)</td>
       <td style="text-align: left;">20.50.223.245</td>
-      <td style="text-align: left;">185.158.224.40</td>
+      <td style="text-align: left;">185.158.224.47</td>
       <td style="text-align: left;">185.158.224.47 + 185.158.224.58</td>
     </tr>
     <tr>
@@ -79,19 +78,19 @@ das entsprechende Bekanntmachungsservice-System. Mit Anbindung des eSenders, der
     </tr>
     <tr>
       <td style="text-align: left;">
-        <p>Keycloak</p>
+        <p>Account Management (Keycloak)</p>
       </td>
       <td style="text-align: left;">
-        <a href="https://preview-auth.ozg-vermittlungsdienst.de" rel="nofollow">https://preview-auth.ozg-vermittlungsdienst.de</a>
+        <a href="https://account-management-preview.efa-fhb.apps-int.nortal.com/" rel="nofollow">https://account-management-preview.efa-fhb.apps-int.nortal.com/</a>
         <span style="color: rgb(23,43,77);">
           <span> </span>
         </span>
       </td>
       <td style="text-align: left;">
-        <a href="https://staging-auth.ozg-vermittlungsdienst.de" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://staging-auth.ozg-vermittlungsdienst.de</a>
+        <a href="https://staging-account-management.ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://staging-account-management.ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
-        <p>-</p>
+        <a href="https://account-management.ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.ozg-vermittlungsdienst.de/</a>
       </td>
     </tr>
     <tr>
@@ -103,18 +102,18 @@ das entsprechende Bekanntmachungsservice-System. Mit Anbindung des eSenders, der
       </td>
       <td style="text-align: left;">
         <a class="external-link" href="https://enotices2.preview.ted.europa.eu/esenders/webjars/swagger-ui/index.html#/" rel="nofollow">https://enotices2.preview.ted.europa.eu</a>
-        <br/>(Wird verwendet in eSender Preview Release am 31.3.2023)</td>
+        <br/></td>
       <td style="text-align: left;">
         <p>
           <a class="external-link" href="https://enotices2.preview.ted.europa.eu/esenders/webjars/swagger-ui/index.html#/" rel="nofollow">https://enotices2.preview.ted.europa.eu</a>
         </p>
-        <p>(Nicht im eSender Preview Release am 31.3.2023 enthalten)</p>
+        <p></p>
       </td>
       <td style="text-align: left;">
         <p>
           <a class="external-link" href="https://enotices2.preview.ted.europa.eu/esenders/webjars/swagger-ui/index.html#/" rel="nofollow">https://enotices2.ted.europa.eu</a>
         </p>
-        <p>(Nicht im eSender Preview Release am 31.3.2023 enthalten)</p>
+        <p></p>
       </td>
     </tr>
   </tbody>
