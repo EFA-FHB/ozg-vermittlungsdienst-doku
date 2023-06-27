@@ -1,8 +1,8 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Vermittlungsdienst
 
->**Note**
->#### Produktions Release Juni veröffentlicht
+>**Note** <br>
+> **Produktions Release Juni veröffentlicht** <br>
 > Zu den [Release notes](/Releases.md)
 
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen
