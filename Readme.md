@@ -1,10 +1,10 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Vermittlungsdienst
-<br>
 
-## *** Production Release Juni veröffentlicht. ***
-Zu den [Release notes](/Releases.md)
-<br><br>
+>**Note**
+>Produktions Release Juni veröffentlicht <br>
+>Zu den [Release notes](/Releases.md)
+
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen
 und den Wettbewerb bei öffentlichen Aufträgen stärken? Dann binden Sie sich mit Ihrer Vergabeplattform gerne an den von der Freien
 Hansestadt Bremen bereitgestellten Vermittlungsdienst an. Der Dienst ist Teil des Bremer EfA-Projektes „Zugang zur öffentlichen Vergabe“,
@@ -18,8 +18,7 @@ In diesem Repository sind folgende Dokumente zur Unterstützung einer Anbindung 
 - [FAQ](/faq.md)
 - [Releases Vermittlungsdienst](/Releases.md)
 - [Veranstaltungen](/Events.md)
-
-<br><br>
+<br>
 
 ## Die Aufgaben des Vermittlungsdienst
 - Validierung aller eingehenden Bekanntmachungen nach
@@ -31,7 +30,7 @@ den Bekanntmachungsservice
 - Übermittlung oberschwelliger Bekanntmachungen über
 den eSender-Hub an TED und an den
 Bekanntmachungsservice
-<br><br>
+<br>
 
 ## Datenservice Öffentlicher Einkauf Systemarchitektur
 ![Systemarchitektur](/images/Datenservice_Oeffentlicher_Einkauf-Systemarchitektur.png)
