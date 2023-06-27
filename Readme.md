@@ -2,8 +2,8 @@
 # Vermittlungsdienst
 
 >**Note**
->Produktions Release Juni veröffentlicht <br>
->Zu den [Release notes](/Releases.md)
+>#### Produktions Release Juni veröffentlicht
+> Zu den [Release notes](/Releases.md)
 
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen
 und den Wettbewerb bei öffentlichen Aufträgen stärken? Dann binden Sie sich mit Ihrer Vergabeplattform gerne an den von der Freien
