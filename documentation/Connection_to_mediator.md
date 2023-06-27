@@ -25,7 +25,7 @@ In der E-Mail müssen folgende Angaben enthalten sein:
 
 Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält.
 <br><br>
-Der Link ist 5 Tage gültig.<br>
+Der Link ist 10 Tage gültig.<br>
 Klicken Sie auf den Link und folgen Sie den Anweisungen zur Passwort-Erstellung.
 <br><br>
 Wenn Sie die Erstellung eines API-Keys angefordert haben, werden wir Ihnen diesen per E-Mail zukommen lassen. Mit den erstellten Zugangsdaten kann mit Hilfe der API ein Access Token und ein Refresh Token generiert werden.
