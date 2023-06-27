@@ -1,7 +1,7 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 ## Dokumentation Vermittlungsdienst
 [Inhaltsverzeichnis](/documentation/documentation.md)
-<br><br>
+<br>
 
 # Change Notices/Updates & STOP Publication-Funktionalität
 
