@@ -8,7 +8,7 @@ Anbindung:
   - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
   - [Verfügbare Systemumgebungen](Development_environments.md)
 
-Test: 
+Funktionsweise des Vermittlungsdienstes und eSender-Hubs: 
 - [Workflow einer Bekanntmachung im Vermittlungsdienst](Workflow.md)
 - [Einsenden einer Bekanntmachung](/documentation/send_notice.md)
 - [Unterscheidung von Unter- und Oberschwellenvergabe](/documentation/Ober-oder_unterschwellenvergabe.md)
