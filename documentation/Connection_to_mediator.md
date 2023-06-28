@@ -4,24 +4,23 @@
 <br>
 
 # Anbindung an den Vermittlungsdienst
-Die Übermittlung von Bekanntmachungen an den Vermittlungsdienst kann über die [REST API](#anbindung-per-rest-api) des Vermittlungsdienst oder mit Hilfe des [eDelivery Network PEPPOL](#anbindung-per-peppol-in-der-umsetzung) (in der Umsetzung) erfolgen.
+Die Übermittlung von Bekanntmachungen an den Vermittlungsdienst kann über die [REST API](#anbindung-per-rest-api) des Vermittlungsdienst oder über das [eDelivery Network PEPPOL](#anbindung-per-peppol-in-der-umsetzung) (in der Umsetzung) erfolgen.
 <br>
 
 ## Anbindung per REST API
-Unter https://ozg-vermittlungsdienst.de wird die REST API und die dazugehörige Dokumentation, der vorhandenen Endpoints, zur Verfügung gestellt.
-Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Sie haben die Möglichkeit, bei der Beantragung der Zugangsdaten, anzugeben das Sie einen API-Key zur Autorisierung am Vermittlungsdienst verwenden wollen. Ansonsten hat die Autorisierung über einen Access Token und Refresh Token zu erfolgen.
+Unter https://ozg-vermittlungsdienst.de wird die REST API und die dazugehörige Dokumentation der vorhandenen Endpoints zur Verfügung gestellt.
+Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Autorisierung erfolgt über OAuth 2.0.
 <br>
 
-### Beantragen eines Zugangs durch einen FVH
-Ein Vertreter des Fachverfahrenshersteller beantragt die Einrichtung eines neuen Benutzers per E-Mail an [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com) bei der Nortal AG. Es muss pro Vergabeplattform ein Benutzer angelegt werden.<br>
+### Beantragen eines Accounts zum Einliefern von Bekanntmachungen
+Es muss die Einrichtung eines neuen Accounts per E-Mail an [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com) bei der Nortal AG angefragt werden. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
-- Systemumgebung für die Zugangsdaten beantragt werden
-- E-Mail-Adresse welche als Benutzername verwendet werden soll
-- URL der Vergabeplattform
+- Systemumgebung für die Zugangsdaten beantragt werden (Preview / Staginng / Produktion)
+- E-Mail-Adresse, welche als Benutzername verwendet werden soll
+- URL der Vergabeplattform von der die Bekanntmachungen kommen
 - Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
 - Name des FVH
-- Geben Sie an, ob Sie einen API-Key verwenden wollen (wenn nicht, wird kein API-Key erstellt, und es müssen Token verwendet werden)
 
 Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält.
 <br><br>
@@ -30,15 +29,15 @@ Klicken Sie auf den Link und folgen Sie den Anweisungen zur Passwort-Erstellung.
 <br><br>
 Wenn Sie die Erstellung eines API-Keys angefordert haben, werden wir Ihnen diesen per E-Mail zukommen lassen. Mit den erstellten Zugangsdaten kann mit Hilfe der API ein Access Token und ein Refresh Token generiert werden.
 <br><br>
-Bitte beachten Sie, dass Sie pro Entwicklungsumgebung (Preview, Staging, Production) einen Zugang beantragen müssen. Wir führen keine Synchronisierung der Zugangsdaten durch. 
+Bitte beachten Sie, dass Sie pro Entwicklungsumgebung (Preview, Staging, Produktion) einen Zugang beantragen müssen. Es wird keine Synchronisierung der Zugangsdaten durchgeführt. 
 <br>
 
 ### Authentifizierung und Autorisierung (Access Token, Refresh Token)
-Mit Hilfe des Endpoints `POST /api/token` und den übermittelten Zugangsdaten `username` und `password` kann man sich an der API authentifizieren. `username` ist hierbei die von Ihnen angegebene E-Mail Adresse. In der Antwort des Endpoints wird nach erfolgreicher Authentifizierung ein `access_token` und ein `refresh_token` übermittelt.
+Der Endpunkt `POST /api/token` wird mit den zu übergebenden Parametern `username` und `password` genutzt, um einen `access_token` und `refresh_token` zu erhalten. `username` ist hierbei die von Ihnen angegebene E-Mail Adresse. 
 
-Der `access_token` ist 24 Stunden gültig. Nach ablauf der 24 Stunden ist eine erneute Authentifizierung nötig. Um eine regelmäßige Authentifizierung mit `username` und `password` zu vermeiden, kann mit Hilfe des `refresh_token` und dem Enpoint `POST /api/token/refresh` neue `access_token` generieren, ohne eine erneute vollständige Authentifizierung durchführen zu müssen. 
+Der `access_token` ist 24 Stunden gültig und kann bei allen folgenden Anfragen im Header folgendermaßen zur Autorisierung genutzt werden: `Authorization: Bearer <<access_token>>`. Nach ablauf der 24 Stunden ist eine erneute Authentifizierung nötig. Um eine regelmäßige Authentifizierung mit `username` und `password` zu vermeiden, kann mit Hilfe des `refresh_token` und dem Enpoint `POST /api/token/refresh` ein neuer `access_token` generiert werden, ohne eine erneute vollständige Authentifizierung durchführen zu müssen. 
 
-Durch das Anfragen eines neuen Tokens, wird der vorige Token nicht invalide. 
+Durch das Anfragen eines neuen Tokens, wird der vorige Token nicht invalidiert. 
 
 Beispielantwort der Endpunkts `POST /api/token` und `POST /api/token/refresh`: 
 
