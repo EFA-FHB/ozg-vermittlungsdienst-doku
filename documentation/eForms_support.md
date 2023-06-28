@@ -4,19 +4,19 @@
 <br>
 
 # eForms Unterstützung - Preview Umgebung
-Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend dem folgenden Beispeil verarbeitet. In Zukunft werden vom Vermittlungsdienst, sowohl unterschwellige als auch oberschwellige Bekanntmachungen, ausschließlich im eForms-DE Format angenommen.
+Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend dem folgenden Beispiel verarbeitet. In Zukunft werden vom Vermittlungsdienst sowohl unterschwellige als auch oberschwellige Bekanntmachungen ausschließlich im eForms-DE Format angenommen.
 
 <br>
 
-*bis 25.10.2023*
+*Folgende Versionen können bis 25.10.2023 im Vermittlungsdienst eingeliefert werden:*
 
 | Version  | Mediator | External validator | Internal validator | eSender   | BKMS  | TED  |
 | ------- | -------- | ------------------ | ------------------ | --------- | ----- | ---- |
-| eForms-EU 0.1.1 | ja, aber nur für Unterschwellenvergabe | \-  | ja | \-  | ja, aber nur für Unterschwellenvergabe | nein    |
-| eForms-EU 1.0   | ja, aber nur für Unterschwellenvergabe | \-  | ja | \-  | ja, aber nur für Unterschwellenvergabe | nein    |
-| eforms-EU 1.5   | nein  | ja | ja | ja | \-  | nur akzeptiert  1.3 und folgenden Versionen bis Januar 2024  |
-| eForms-DE 1.0.1 (schematron 0.5.0) | ja | ja | ja | ja | ja | ja, nach Umstellung in eForms-EU 1.5.1  |
-| eForms-DE 1.1  | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | geplante Unterstützung bis Oktober 2023 | ja, nach Umstellung in eForms-EU 1.7.0<br><br>geplante Unterstützung bis Oktober 2023 |
+| eForms-EU 0.1.1 | ja, aber nur für Unterschwellenvergabe | nein  | ja | nein  | ja, aber nur für Unterschwellenvergabe | nein    |
+| eForms-EU 1.0   | ja, aber nur für Unterschwellenvergabe | nein | ja | nein  | ja, aber nur für Unterschwellenvergabe | nein    |
+| eforms-EU 1.5   | nur in der Preview-Umgebung, NICHT in Prod  | ja | ja | ja | nein  | ja, vorraussichtlich bis Januar 2024  |
+| eForms-DE 1.0.1 (schematron 0.5.0) | ja | ja | ja | ja | ja | ja, nach Umwandlung im eSender in eForms-EU 1.5.1  |
+| eForms-DE 1.1  | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | ja, nach Umwandlung im eSender in eForms-EU 1.7.0<br><br>geplante Unterstützung vor Oktober 2023 |
 
 <br>
 
