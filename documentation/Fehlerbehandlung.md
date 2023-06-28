@@ -4,7 +4,7 @@
 <br>
 
 # Fehlerquellen und Lawfullness Warnings
-Im eSender-Hub und im Vermittlungsdienst können Fehlermeldungen aus unterschiedlichen Quellen zusammen kommen. In diesem Abschnitt wird erläutert, welche Quellen es gibt, was sie bedeuten und wie sie behandelt werden. 
+Im eSender-Hub und im Vermittlungsdienst kann es zu Fehlermeldungen aus unterschiedlichen Quellen kommen. Wenn bereits beim Einliefern in den Vermittlungsdienst Validierungsfehler auftreten, wird die Bekanntmachung abgelehnt und wird nicht prozessiert. Es kann edoch auch im Verlauf der Prozessierung zu Fehlern kommen, beispielsweise bei der Einlieferung bei TED. In diesem Abschnitt wird erläutert, welche Fehlerquellen es gibt, was sie bedeuten und wie sie behandelt werden. 
 <br>
 
 ## Inhalte
@@ -13,6 +13,8 @@ Im eSender-Hub und im Vermittlungsdienst können Fehlermeldungen aus unterschied
 - [Lawfullness Warnings](#lawfullness)
 
 ## Allgemeine Definitionen von Fehlerquellen<span id="allgemein">
+
+
 | ERROR_SOURCE          | DESCRIPTION                                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | TED                   | Fehler, die von TED kommen, wenn TED einen http-Code zurückgibt, der einen erfolglosen Aufruf darstellt (5\*\*, 4\*\*)   |
@@ -36,5 +38,7 @@ Im eSender-Hub und im Vermittlungsdienst können Fehlermeldungen aus unterschied
 <br>
 
 ## Lawfullness Warnings<span id="lawfullness">
-TED liefert eine Art von Warnungen, sogenannte "Lawfullness Warnings". Diese werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. Eine Lawfullness Warning bedeutet, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. TED prüft dann den Inhalt der Bekanntmachung und entscheidet, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Für diese Entscheidung hat TED bis zu 5 Tage Zeit. Aus diesem Grund werden Bekanntmachungen mit einer Lawfullness Warning erst bei Veröffentlichung oder 5 Tage nach erfolgreicher Einlieferung an den Bekanntmachungsservice weitergeleitet. Es ist möglich, dass in Zukunft weitere Arten von Warnungen von TED eingeführt werden. 
+Zusätzlich zu Fehlern gibt es Warnungen. Diese kommen ausschießlich aus den EU Regeln und verhindern anders als Fehler nicht die Annahme der Bekanntmachung. TED hat derzeit nur eine Art von Warnungen definiert, sogenannte "Lawfullness Warnings". Diese werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. 
+
+Eine Lawfullness Warning bedeutet, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. TED prüft dann den Inhalt der Bekanntmachung und entscheidet, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Für diese Entscheidung hat TED bis zu 5 Tage Zeit. Aus diesem Grund werden Bekanntmachungen mit einer Lawfullness Warning erst bei Veröffentlichung oder 5 Tage nach erfolgreicher Einlieferung bei TED an den BKMS weitergeleitet. 
 
