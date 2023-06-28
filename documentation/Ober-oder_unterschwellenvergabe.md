@@ -26,4 +26,4 @@ Diese Information wird aus dem XML Feld `SubTypeCode` ausgelesen. Fängt der Sub
 
 ### eForms Version
 Diese Information wird aus dem XML Feld `CustomizationID` ausgelesen. TED akzeptiert nur bestimmte eForms-EU Versionen und der eSender-Hub ebenfalls.
-In der Produktionsumgebung muss ab 30.6. die eingelieferte Version eForms-DE 1.0 oder höher sein. Eingereichte eForms-EU Versionen werden ab 30.6. nur noch für die Unterschwelle angenommen. Weitere Details zur Versionsunterstützung finden Sie hier: [eForms Versionsunterstützung](/documentation/eForms_Unterstuetzte-Versionen.md)
+In der Produktionsumgebung muss ab 30.6. die eingelieferte Version eForms-DE 1.0 oder höher sein. Eingereichte eForms-EU Versionen sollen ab 30.6. nur noch für die Unterschwelle genutzt werden. Weitere Details zur Versionsunterstützung finden Sie hier: [eForms Versionsunterstützung](/documentation/eForms_Unterstuetzte-Versionen.md)
