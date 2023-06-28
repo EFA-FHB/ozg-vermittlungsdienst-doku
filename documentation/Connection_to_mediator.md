@@ -4,7 +4,7 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
->**Hinweis** <br>
+>**Note** <br>
 >Bitte beachten Sie: Wenn unterschwellige Bekanntmachungen weiterhin an service.bund.de gesendet werden, dürfen diese NICHT zusätzlich an den Vermittlungsdienst gesendet werden!
 
 # Anbindung an den Vermittlungsdienst
@@ -18,7 +18,7 @@ Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Aut
 
 ### Beantragen eines Accounts zum Einliefern von Bekanntmachungen
 
->**Info** <br>
+>**Note** <br>
 >Nach dem Produktionsrelease im Juni muss für die Produktions- und Stagingumgebung erneut ein User angefragt werden, auch wenn in Preview bereits ein User besteht. 
 
 Es muss die Einrichtung eines neuen Accounts per E-Mail an [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com) bei der Nortal AG angefragt werden. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>

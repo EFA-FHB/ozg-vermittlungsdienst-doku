@@ -8,8 +8,7 @@
 Bei der eForms Dokumentenerstellung gilt es einige Regeln zu bestimmten Felden zu beachten.
 
 ### eSender-Informationen
->**Info**
-> eForms-DE spezifisch
+>**eForms-DE spezifisch**
 
 Feld: *ganzer Abschnitt ```<efac:Organization>```*
 
@@ -19,8 +18,7 @@ Hierbei zu beachten: In den derzeit im Kosit Repository vorhandenen Beispieldate
 <br>
 
 ### Datumsangaben
->**Info**
-> nicht eForms-DE spezifisch
+>**nicht eForms-DE spezifisch**
 
 Betroffene Felder: *BT-05: ```<cbc:IssueDate>```* , *BT-738: ```<cbc:RequestedPublicationDate>```*
 
@@ -44,8 +42,7 @@ Das Bevorzugte Veröffentlichungsdatum darf maximal 60 Tage nach dem Dispatch Da
 
 
 ## Erstellung von eForms in Verbindung mit im alten Vergabeformat bei TED eingereichten Bekanntmachungen
->**Info**
-> nicht eForms-DE spezifisch
+>**nicht eForms-DE spezifisch**
 
 Für einen Übergangszeitraum kann es notwendig werden, Verlinkungen zwischen den im alten Vergabeformat bei TED eingereichten Bekanntmachungen und Bekanntmachungen, die im eForms-Format bei TED eingereicht werden, herzustellen. Mögliche Szenarien, die eine Verlinkung notwendig machen, sind:
 - Ein Vergabeprozess wurde vor dem 25.10.2023 alten Format TED-XML begonnen und wird im Format eForms-DE fortgesetzt. Auf die im alten Format erstellen Dokumente muss in den Folgebekanntmachungen referenziert werden.
