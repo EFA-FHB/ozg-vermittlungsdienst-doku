@@ -3,8 +3,8 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
-# Fehlerbehandlung
-Der eSender-Hub speichert alle Fehler im Zusammenhang mit Bekanntmachungen in einer einzigen Tabelle namens "notice_error". Es gibt jedoch mehrere Fehlerquellen, die alle leicht unterschiedliche Formate verwenden. Aus diesem Grund kann jede Fehlerquelle unterschiedliche Spalten in der Tabelle "notice_error" verwenden. Auf dieser Seite wird dokumentiert, wie die verschiedenen Spalten in der Fehlertabelle je nach Fehlerquelle verwendet werden.
+# Fehlerquellen und Lawfullness Warnings
+Im eSender-Hub und im Vermittlungsdienst können Fehlermeldungen aus unterschiedlichen Quellen zusammen kommen. In diesem Abschnitt wird erläutert, welche Quellen es gibt, was sie bedeuten und wie sie behandelt werden. 
 <br>
 
 ## Inhalte

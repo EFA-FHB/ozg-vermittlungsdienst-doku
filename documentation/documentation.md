@@ -14,7 +14,7 @@ Funktionsweise des Vermittlungsdienstes und eSender-Hubs:
 - [Unterscheidung von Unter- und Oberschwellenvergabe](/documentation/Ober-oder_unterschwellenvergabe.md)
 - [Change Notices/Updates & STOP Publication-Funktionalität](/documentation/STOP%20update%20%26%20change%20notices.md)
 - [Status- und Transferinformationen](Status_information.md)
-- [Fehlerbehandlung](/documentation/Fehlerbehandlung.md)
+- [Fehlerquellen und Lawfullness Warnings](/documentation/Fehlerbehandlung.md)
 
 
 eForms: 
