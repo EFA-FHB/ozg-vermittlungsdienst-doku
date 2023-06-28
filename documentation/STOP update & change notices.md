@@ -3,7 +3,7 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
-# Change Notices/Updates & STOP Publication-Funktionalität
+# Change Notices/ Stop-und-Update-Funktionalität
 
 ## Inhalt
 - [Anpassen des Inhalts einer Bekanntmachung](#stop-oder-change)
@@ -12,25 +12,25 @@
 - [STOP-Publikation Funktionalität](#stop-func)
 
 ## Anpassen des Inhalts einer Bekanntmachung<span id='stop-oder-change'>
-Es gibt zwei Möglichkeiten, den Inhalt einer Bekanntmachung zu ändern: *Stop + Update* oder durch eine Änderungsmitteilung (*Change Notice*).
+Es gibt zwei Möglichkeiten, den Inhalt einer Bekanntmachung zu ändern: Durch *Stop + Update* vor Veröffentlichung oder durch eine Änderungsmitteilung (*Change Notice*) nach der Veröffentlichung.
 <br><br>
 
 ### Update zu einer Bekanntmachung<span id='update'>
-Eine Aktualisierung oder Neueinreichung einer Bekanntmachung ist ein einfacher Bearbeitungsprozess, wenn die Bekanntmachung noch nicht in TED und/oder BKMS veröffentlicht ist. Wenn eine Bekanntmachung korrigiert werden muss, muss die vorherige Version zuerst gestoppt werden oder sich im Status "rejected" befinden. Andernfalls ist eine Aktualisierung nicht möglich, um sicherzustellen, dass nur eine gültige Version eines Dokuments existiert. Um eine Aktualisierung zu erstellen, sollte die gleiche noticeID wie im vorhergehenden zu korrigierenden Dokument verwendet werden, nur die versionID muss erhöht werden (Lücken sind möglich). Eine Aktualisierung ist NICHT dasselbe wie eine Change Notice. Eine Aktualisierung enthält nicht die UBL-Extension einer Change Notice und kann nur eingereicht werden, bevor die Bekanntmachung veröffentlicht wird.
+Eine Aktualisierung oder Neueinreichung (auch als Update bezeichnet) einer Bekanntmachung ist ein einfacher Bearbeitungsprozess, wenn die Bekanntmachung noch nicht in TED und/oder BKMS veröffentlicht ist. Wenn eine Bekanntmachung korrigiert werden muss, muss die vorherige Version zuerst gestoppt werden oder sich im Status "rejected" befinden. Andernfalls ist eine Aktualisierung nicht möglich, um sicherzustellen, dass zu jedem Zeitpunkt nur eine gültige Version eines Dokuments existiert. Um eine Aktualisierung zu erstellen, sollte die gleiche noticeID wie im vorhergehenden zu korrigierenden Dokument verwendet werden, nur die versionID muss erhöht werden (Lücken sind möglich). Eine Aktualisierung ist NICHT dasselbe wie eine Change Notice. Eine Aktualisierung enthält nicht die UBL-Extension einer Change Notice und kann nur eingereicht werden, bevor die Bekanntmachung veröffentlicht wird.
 <br>
 
 #### **Beispiele**
 
 Szenario A: Korrektur einer abgelehnten Bekanntmachung durch eine Aktualisierung (Update)
 
-1. BekanntmachungA mit der noticeID ABC Version 01 wird eingereicht und abgelehnt, z. B. weil sie falsch ausgefüllt wurde. Da sie abgelehnt wurde, wird sie nicht veröffentlicht.
+1. Bekanntmachung A mit der noticeID ABC *Version 01* wird eingereicht und abgelehnt, z. B. weil sie falsch ausgefüllt wurde. Da sie abgelehnt wurde, wird sie nicht veröffentlicht.
 2. Der FVH möchte diese Bekanntmachung korrigieren
-3. Der FVH reicht eine Aktualisierung mit noticeID ABC Version 02 ein.
-4. Die Aktualisierung wird akzeptiert, da die vorherige Version den Status REJECTED hat.
+3. Der FVH reicht eine Aktualisierung mit noticeID ABC *Version 02* ein.
+4. Die Aktualisierung wird akzeptiert, da die vorherige Version des Dokuments den Status REJECTED hat.
 
-Szenario B: Verwendung einer Aktualisierung (Update) zur Bearbeitung einer eingereichten Mitteilung
+Szenario B: Verwendung einer Aktualisierung (Update) zur Bearbeitung einer eingereichten Bekanntmachung
 
-1. BekanntmachungA mit der noticeID ABC Version 01 wird eingereicht und angenommen. Sie ist noch nicht veröffentlicht, z. B. weil das gewünschte Veröffentlichungsdatum in der Zukunft liegt.
+1. Bekanntmachung A mit der noticeID ABC *Version 01* wird eingereicht und angenommen. Sie ist noch nicht veröffentlicht, z. B. weil das gewünschte Veröffentlichungsdatum in der Zukunft liegt.
 2. Der FVH möchte etwas in dieser Bekanntmachung bearbeiten, z. B. weil sich einige Informationen geändert haben und angepasst werden müssen.
 3. Der FVH stoppt die vorherige Bekanntmachung noticeID ABC version 01 mit Hilfe der Stop-API (Dies ist obligatorisch, bevor eine Aktualisierung gesendet wird. TED hat angekündigt, dass dies in Zukunft wahrscheinlich auch in TED implementiert werden wird)
 4. Das System stoppt die Bekanntmachung in TED und BKMS (je nachdem, wohin sie bereits gesendet wurde)
