@@ -21,7 +21,7 @@ Hierbei zu beachten: In den derzeit im Kosit Repository vorhandenen Beispieldate
 Betroffene Felder: *BT-05: ``` <cbc:IssueDate> ```* , *BT-738: ``` <cbc:RequestedPublicationDate>```*
 
 - Der *Tag der Absendung der Bekanntmachungen* (Dispatch Date - BT-05) muss mindestens zwei Tage bevor und maximal einen Tag nach dem heutigen Tag liegen. Wenn heute zum Beispiel der 05.06.2023 ist, muss das Dispatch Date entweder 03.06.2023, 04.06.2023, 05.06.2023 oder 06.06.2023 sein. 
-- Das *Bevorzugte Veröffentlichungsdatum* (Requested Publication Date - BT-738) muss mindestens zwei Tage nach dem Tag der Absendung der Bekanntmachung liegen. Dadurch wird ermöglicht, dass eine Bekanntmachung innerhalb der ersten 48h nach Versenden noch zurückgezogen und korrigiert werden kann, bevor die Veröffentlichung erfolgt. Hierfür wurde eine neue Stop-Funktion im Vermittlungsdienst geschaffen. Weitere Details dazu finden Sie hier: \documentation\STOP update & change notices.md
+- Das *Bevorzugte Veröffentlichungsdatum* (Requested Publication Date - BT-738) muss mindestens zwei Tage nach dem Tag der Absendung der Bekanntmachung liegen. Dadurch wird ermöglicht, dass eine Bekanntmachung innerhalb der ersten 48h nach Versenden noch zurückgezogen und korrigiert werden kann, bevor die Veröffentlichung erfolgt. Hierfür wurde eine neue Stop-Funktion im Vermittlungsdienst geschaffen. Weitere Details dazu finden Sie hier:  [Change Notices/Updates & STOP Publication-Funktionalität](/documentation/STOP%20update%20%26%20change%20notices.md). 
 Das Bevorzugte Veröffentlichungsdatum darf maximal 60 Tage nach dem Dispatch Date liegen. Damit wird die Aktualität einer Bekanntmachung zum Zeitpunkt der Veröffentlichung Gewährleistet.
 
 #### Beispiele von validen Kombinationen von Datumsangaben:
