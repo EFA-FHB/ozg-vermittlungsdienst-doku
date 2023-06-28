@@ -57,7 +57,7 @@ Die Funktion "Stop Publication" wird verwendet, um die Veröffentlichung von Bek
 
 Die Veröffentlichung einer Bekanntmachung kann gestoppt werden:
 1. Manuell durch einen externen Benutzer:
-Der Benutzer sollte das Stoppen der Bekanntmachung anhand des TrackingCodes über die API V1/notices/stop/{trackingCode} im Mediator anfordern. Der Grund für das Anhalten wird als "manuell" festgelegt.
+Der Benutzer sollte das Stoppen der Bekanntmachung anhand des TrackingCodes über die API V1/notices/stop/{trackingCode} im Vermittlungsdienst anfordern. Der Grund für das Anhalten wird als "manuell" festgelegt.
 2. Automatisch: Wenn TED eine eingereichte Bekanntmachung aufgrund von [Legalitätswarnungen](Fehlerbehandlung.md/#lawfullness) manuell ablehnt, dann wird automatisch ein Stoppantrag an BKMS gesendet. Der Grund dafür würde als "automatisch" festgelegt.
 
 Es gibt einige Unterschiede in den Anforderungen hinsichtlich der Art und Weise, wie die Veröffentlichung für den ober- und den unterschwelligen Vergabe gestoppt werden kann.
