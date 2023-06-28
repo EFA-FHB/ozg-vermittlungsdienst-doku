@@ -1,8 +1,8 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Vermittlungsdienst
 
->**Note** <br>
-> **Produktions Release Juni veröffentlicht** <br>
+>**Produktions Release Juni veröffentlicht** <br>
+> Am 28.06.2023 wurde das Produktions Release Juni veröffentlicht.
 > Zu den [Release notes](/Releases.md)
 
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen

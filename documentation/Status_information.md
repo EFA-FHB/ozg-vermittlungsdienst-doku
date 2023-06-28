@@ -42,17 +42,17 @@ Nachdem eine Bekanntmachung an BKMS übermittelt wurde, fragt Mediator regelmä�
 
 
 ### Statusabgleich für Oberschwellenvergabe<span id="oberschwellig">
-Nachdem die Bekanntmachung an den eSender übermittelt wurde, fragt der Mediator regelmäßig den Bekanntmachung-Status vom eSender anhand der hub-ID ab.
+Nachdem die Bekanntmachung an den eSender-Hub übermittelt wurde, fragt der Mediator regelmäßig den Bekanntmachung-Status vom eSender-Hub anhand der hub-ID ab.
 
 
 ![3_status_alignment_Mediator_eSender_Oberschwellenvergabe](images/3_status_alignment_Mediator_eSender_Oberschwellenvergabe.png)
 
-Nachdem eine Bekanntmachung an TED übermittelt wurde, fragt eSender regelmäßig den Status bei TED per noticeID-Version ab.
+Nachdem eine Bekanntmachung an TED übermittelt wurde, fragt eSender-Hub regelmäßig den Status bei TED per noticeID-Version ab.
 
 
 ![4_status_alignment_eSender_TED_Oberschwellenvergabe](images/4_status_alignment_eSender_TED_Oberschwellenvergabe.png)
 
-Nachdem die Bekanntmachung an BKMS übermittelt wurde, fragt eSender regelmäßig den Status von BKMS nach noticeID-Version ab.
+Nachdem die Bekanntmachung an BKMS übermittelt wurde, fragt eSender-Hub regelmäßig den Status von BKMS nach noticeID-Version ab.
 
 
 ![5_status_alignment_eSender_BKMS_Oberschwellenvergabe](images/5_status_alignment_eSender_BKMS_Oberschwellenvergabe.png)
@@ -94,13 +94,13 @@ Nachdem die Containererstellung abgeschlossen ist, wird Mediator mit weiteren Sc
 
 ### Status-Mapping-Tabelle: Oberschwellenvergabe<span id="oberschwellige-mapping">
 
-Jede Bekanntmachung wird zwei Statuswerte haben, weil sich ihre Status in zwei Systemen parallel ändern können: TED und das DöE einschließlich BKMS. Bei unterschwelligen Bekanntmachungen wird nur der DöE-Status eingetragen, da diese Bekanntmachungen nicht an TED übermittelt werden. Der eSender speichert die detailliertesten Statusinformationen. Der Mediator aggregiert die Statusinformationen, um z. B. bestimmte Statusinformationen als Fehlerstatus zu kategorisieren. Wenn ein externer Benutzer einen Status anfordert, erhält er nicht genau den Status, wie er im Mediator oder eSender gespeichert ist, sondern nur die relevanten Statusinformationen. Die Informationen, die den externen Benutzern zur Verfügung gestellt werden, finden sich in den folgenden Tabellespalten.
+Jede Bekanntmachung wird zwei Statuswerte haben, weil sich ihre Status in zwei Systemen parallel ändern können: TED und das DöE einschließlich BKMS. Bei unterschwelligen Bekanntmachungen wird nur der DöE-Status eingetragen, da diese Bekanntmachungen nicht an TED übermittelt werden. Der eSender-Hub speichert die detailliertesten Statusinformationen. Der Mediator aggregiert die Statusinformationen, um z. B. bestimmte Statusinformationen als Fehlerstatus zu kategorisieren. Wenn ein externer Benutzer einen Status anfordert, erhält er nicht genau den Status, wie er im Mediator oder eSender-Hub gespeichert ist, sondern nur die relevanten Statusinformationen. Die Informationen, die den externen Benutzern zur Verfügung gestellt werden, finden sich in den folgenden Tabellespalten.
 
 | TED-Status | DöE-Status | Nachricht an den externen Benutzer für die gegebene Statuskombination                                                                                                    |
 | ----------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| pending                       | pending                       | Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. |
+| pending                       | pending                       | Die Bekanntmachung wurde vom eSender-Hub zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. |
 | notSend                       | internalError                 | Ein interner Fehler ist aufgetreten. Ein entsprechendes Support-Ticket wird ggf. erstellt.                                                                               |
-| pending                       | pending                       | Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. |
+| pending                       | pending                       | Die Bekanntmachung wurde vom eSender-Hub zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. |
 | noResponse                    | pending                       | Die Übermittlung an TED wird erneut versucht. Die Übermittlung der Bekanntmachung an den Bekanntmachungsservice steht noch aus.                                          |
 | accepted                      | pending                       | Die Bekanntmachung wurde von TED akzeptiert, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                              |
 | accepted                      | accepted                      | Die Bekanntmachung wurde von TED und dem Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.                                                              |

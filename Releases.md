@@ -9,10 +9,13 @@ Status: Veröffentlicht 28.06.2023<br>
 <summary>Release notes</summary>
 
 ### Vermittlungsdienst
->**Info** <br>
+>**Umgebungen** <br>
 >Preview Umgebung https://preview.ozg-vermittlungsdienst.de<br>
 >Staging Umgebung https://staging.ozg-vermittlungsdienst.de<br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
+
+>**Info** <br>
+>Nach dem Produktionsrelease im Juni muss für die Produktions- und Stagingumgebung erneut ein User angefragt werden, auch wenn in Preview bereits ein User besteht. 
 
 - Stop-Endpoint zum stoppen von nationalen Bekanntmachungen im BKMS hinzugefügt
 - Prüfung dass Aktualisierungen von Bekanntmachungen nicht möglich sind, wenn die vorherige Version nicht gestoppt wurde oder wenn sie bereits veröffentlicht ist
