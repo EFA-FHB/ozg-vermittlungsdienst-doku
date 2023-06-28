@@ -3,6 +3,9 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
+>**Hinweis** <br>
+>Bitte beachten Sie: Wenn unterschwellige Bekanntmachungen weiterhin an service.bund.de gesendet werden, dürfen diese NICHT zusätzlich an den Vermittlungsdienst gesendet werden!
+
 # Anbindung an den Vermittlungsdienst
 Die Übermittlung von Bekanntmachungen an den Vermittlungsdienst kann über die [REST API](#anbindung-per-rest-api) des Vermittlungsdienst oder über das [eDelivery Network PEPPOL](#anbindung-per-peppol-in-der-umsetzung) (in der Umsetzung) erfolgen.
 <br>
@@ -20,7 +23,7 @@ Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Aut
 Es muss die Einrichtung eines neuen Accounts per E-Mail an [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com) bei der Nortal AG angefragt werden. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
-- Systemumgebung für die Zugangsdaten beantragt werden (Preview / Staginng / Produktion)
+- Systemumgebung für die Zugangsdaten beantragt werden (Preview / Staging / Produktion)
 - E-Mail-Adresse, welche als Benutzername verwendet werden soll
 - URL der Vergabeplattform von der die Bekanntmachungen kommen
 - Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
@@ -31,7 +34,7 @@ Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benut
 Der Link ist 10 Tage gültig.<br>
 Klicken Sie auf den Link und folgen Sie den Anweisungen zur Passwort-Erstellung.
 <br><br>
-Wenn Sie die Erstellung eines API-Keys angefordert haben, werden wir Ihnen diesen per E-Mail zukommen lassen. Mit den erstellten Zugangsdaten kann mit Hilfe der API ein Access Token und ein Refresh Token generiert werden.
+Mit den erstellten Zugangsdaten kann mit Hilfe der API ein Access Token und ein Refresh Token generiert werden.
 <br><br>
 Bitte beachten Sie, dass Sie pro Entwicklungsumgebung (Preview, Staging, Produktion) einen Zugang beantragen müssen. Es wird keine Synchronisierung der Zugangsdaten durchgeführt. 
 <br>
@@ -39,11 +42,11 @@ Bitte beachten Sie, dass Sie pro Entwicklungsumgebung (Preview, Staging, Produkt
 ### Authentifizierung und Autorisierung (Access Token, Refresh Token)
 Der Endpunkt `POST /api/token` wird mit den zu übergebenden Parametern `username` und `password` genutzt, um einen `access_token` und `refresh_token` zu erhalten. `username` ist hierbei die von Ihnen angegebene E-Mail Adresse. 
 
-Der `access_token` ist 24 Stunden gültig und kann bei allen folgenden Anfragen im Header folgendermaßen zur Autorisierung genutzt werden: `Authorization: Bearer <<access_token>>`. Nach ablauf der 24 Stunden ist eine erneute Authentifizierung nötig. Um eine regelmäßige Authentifizierung mit `username` und `password` zu vermeiden, kann mit Hilfe des `refresh_token` und dem Enpoint `POST /api/token/refresh` ein neuer `access_token` generiert werden, ohne eine erneute vollständige Authentifizierung durchführen zu müssen. 
+Der `access_token` ist 24 Stunden gültig und kann bei allen folgenden Anfragen im Header folgendermaßen zur Autorisierung genutzt werden: `Authorization: Bearer <<access_token>>`. Nach ablauf der 24 Stunden ist eine erneute Authentifizierung nötig. Um eine regelmäßige Authentifizierung mit `username` und `password` zu vermeiden, kann mit Hilfe des `refresh_token` und dem Enpunkt `POST /api/token/refresh` ein neuer `access_token` generiert werden, ohne eine erneute vollständige Authentifizierung durchführen zu müssen. 
 
 Durch das Anfragen eines neuen Tokens, wird der vorige Token nicht invalidiert. 
 
-Beispielantwort der Endpunkts `POST /api/token` und `POST /api/token/refresh`: 
+Beispielantwort der Endpunkte `POST /api/token` und `POST /api/token/refresh`: 
 
 ```
 {
@@ -72,7 +75,7 @@ Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEP
 ## Wie setzt man ein Benutzer Passwort in Keycloak zurück?
 
 >**Warning** <br>
-> Das Passwort des Benutzers ist gleichzeitig das Passwort, was für die Einlieferung bei der Vermittlungsdienst Schnittstelle genutzt wird! <br>
+> Das Passwort des Benutzers ist gleichzeitig das Passwort, welches für die Einlieferung bei der Vermittlungsdienst Schnittstelle genutzt wird! <br>
 > Sollten sie das Passwort ändern, stellen Sie sicher, dass es auch in der Software zur Einlieferung in den Vermittlungsdienst geändert wird! 
 
 1. Account Management der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Spalte _Account Management (Keycloak)_)
