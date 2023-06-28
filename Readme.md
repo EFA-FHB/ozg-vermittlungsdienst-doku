@@ -6,7 +6,7 @@
 > Zu den [Release notes](/Releases.md)
 
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen
-und den Wettbewerb bei öffentlichen Aufträgen stärken? Dann binden Sie sich mit Ihrer Vergabeplattform gerne an den von der Freien
+und den Wettbewerb bei öffentlichen Aufträgen stärken? Dann binden Sie sich mit Ihrer Vergabeplattform gerne an den von der Freien 
 Hansestadt Bremen bereitgestellten Vermittlungsdienst an. Der Dienst ist Teil des Bremer EfA-Projektes „Zugang zur öffentlichen Vergabe“,
 das im Projektkontext „Datenservice Öffentlicher Einkauf“ – einem Kooperationsprojekt des Bundes und Landes Bremen – umgesetzt wird.
 Mit Hilfe des Vermittlungsdiensts können Vergabesysteme Bekanntmachungen an den Bekanntmachungsservice und TED übermitteln und so
