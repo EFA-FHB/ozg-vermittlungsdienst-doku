@@ -17,7 +17,7 @@ Nach erfolgreicher Transformation in die zuer DE-Version passende EU-Version des
 <br><br>
 Bei erfolgreicher Einlieferung wird der exakte Zeitpunkt der Einlieferung erfasst, um die 48h-Frist für eine nationale Veröffentlichung zu berechnen. Wenn keine Warnungen existieren wird spätestens nach Ablauf der 48h die Bekanntmachung an den BKMS weitergeleitet. Sollten Lawfulness Warnungen existieren, wird die Bekanntmachung spätestens nach 5 Tagen an den BKMS weitergeleitet, um die manuelle Prüfung von TED abzuwarten. Sollte eine Bekanntmachung vorher bei TED veröffentlicht werden, erfolgt sofort eine Weiterleitung an den BKMS. Ver veröffentlichungszeitpunkt wird ebenfalls gespeichert.
 <br><br>
-Während des gesamten Prozesses werden Statusänderungen z.B. ausgelöst durch eine Rückmeldung von TED sowie aufgetretene Fehler oder Warnungen intern gespeichert. Relevante Statusinformationen können jederzeit durch die FVH vom Mediator abgefragt werden. Details zu Statusmeldungen und Fehlern finden sie hier: [Statusinformationen](documentation\Status_information.md) & [Fehlerbehandlung](documentation\Fehlerbehandlung.md) 
+Während des gesamten Prozesses werden Statusänderungen z.B. ausgelöst durch eine Rückmeldung von TED sowie aufgetretene Fehler oder Warnungen intern gespeichert. Relevante Statusinformationen können jederzeit durch die FVH vom Vermittlungsdienst abgefragt werden. Details zu Statusmeldungen und Fehlern finden sie hier: [Statusinformationen](documentation\Status_information.md) & [Fehlerbehandlung](documentation\Fehlerbehandlung.md) 
 <br><br>
 
 ![Workflow Diagramm](/documentation/images/workflow_2.png)

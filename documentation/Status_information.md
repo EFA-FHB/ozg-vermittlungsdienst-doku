@@ -30,19 +30,19 @@ Der Vermittlungsdienst führt die Statusabfragen an BKMS und TED alle 1-5 Minute
 
 ### Statusabgleich mit externen Systemen (FVH)<span id="externe">
 Es gibt drei Möglichkeiten, einen Status abzufragen: nach Liste (alle von diesem Tenant eingereichten Bekanntmachungen), nach Tracking-Code, oder nach Liste basierend auf Zeitstempeln (alle von diesem Tenant eingereichten Bekanntmachungen, deren Status sich in einem bestimmten Zeitraum geändert hat).
-Nachdem eine bestimmte Bekanntmachung an Mediator übermittelt wurde, kann das externe System (FVH) den Status der Bekanntmachung in Mediator regelmäßig anhand des Tracking-Codes überprüfen.
+Nachdem eine bestimmte Bekanntmachung an Vermittlungsdienst übermittelt wurde, kann das externe System (FVH) den Status der Bekanntmachung in Vermittlungsdienst regelmäßig anhand des Tracking-Codes überprüfen.
 
 ![1_status_alignment_PSP](images/1_status_alignment_PSP.png)
 
 ### Statusabgleich für Unterschwellenvergabe<span id="unterschwellig">
-Nachdem eine Bekanntmachung an BKMS übermittelt wurde, fragt Mediator regelmäßig den Bekanntmachung-Status von BKMS per noticeID-Version ab, wenn das eForms in BKMS veröffentlicht wurde.
+Nachdem eine Bekanntmachung an BKMS übermittelt wurde, fragt Vermittlungsdienst regelmäßig den Bekanntmachung-Status von BKMS per noticeID-Version ab, wenn das eForms in BKMS veröffentlicht wurde.
 
 
 ![2_status_alignment_Mediator_BKMS_Unterschwellenvergabe](images/2_status_alignment_Mediator_BKMS_Unterschwellenvergabe.png)
 
 
 ### Statusabgleich für Oberschwellenvergabe<span id="oberschwellig">
-Nachdem die Bekanntmachung an den eSender-Hub übermittelt wurde, fragt der Mediator regelmäßig den Bekanntmachung-Status vom eSender-Hub anhand der hub-ID ab.
+Nachdem die Bekanntmachung an den eSender-Hub übermittelt wurde, fragt der Vermittlungsdienst regelmäßig den Bekanntmachung-Status vom eSender-Hub anhand der hub-ID ab.
 
 
 ![3_status_alignment_Mediator_eSender_Oberschwellenvergabe](images/3_status_alignment_Mediator_eSender_Oberschwellenvergabe.png)
@@ -87,14 +87,14 @@ Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` 
 
 | DöE-Status      | Status Beschreibung |
 | --------------- | ------------------------ |
-| awaitingTransfer    | Die Bekanntmachung wurde vom Mediator angenommen und akzeptiert. Die weitere Versendung wird vorbereitet. |
+| awaitingTransfer    | Die Bekanntmachung wurde vom Vermittlungsdienst angenommen und akzeptiert. Die weitere Versendung wird vorbereitet. |
 
-Nachdem die Containererstellung abgeschlossen ist, wird Mediator mit weiteren Schritten für die Unter- oder Oberschwellenvergabe bearbeitet, so dass in den Status-Mapping-Tabellen unten die Status aufgeführt sind.
+Nachdem die Containererstellung abgeschlossen ist, wird Vermittlungsdienst mit weiteren Schritten für die Unter- oder Oberschwellenvergabe bearbeitet, so dass in den Status-Mapping-Tabellen unten die Status aufgeführt sind.
 <br><br>
 
 ### Status-Mapping-Tabelle: Oberschwellenvergabe<span id="oberschwellige-mapping">
 
-Jede Bekanntmachung wird zwei Statuswerte haben, weil sich ihre Status in zwei Systemen parallel ändern können: TED und das DöE einschließlich BKMS. Bei unterschwelligen Bekanntmachungen wird nur der DöE-Status eingetragen, da diese Bekanntmachungen nicht an TED übermittelt werden. Der eSender-Hub speichert die detailliertesten Statusinformationen. Der Mediator aggregiert die Statusinformationen, um z. B. bestimmte Statusinformationen als Fehlerstatus zu kategorisieren. Wenn ein externer Benutzer einen Status anfordert, erhält er nicht genau den Status, wie er im Mediator oder eSender-Hub gespeichert ist, sondern nur die relevanten Statusinformationen. Die Informationen, die den externen Benutzern zur Verfügung gestellt werden, finden sich in den folgenden Tabellespalten.
+Jede Bekanntmachung wird zwei Statuswerte haben, weil sich ihre Status in zwei Systemen parallel ändern können: TED und das DöE einschließlich BKMS. Bei unterschwelligen Bekanntmachungen wird nur der DöE-Status eingetragen, da diese Bekanntmachungen nicht an TED übermittelt werden. Der eSender-Hub speichert die detailliertesten Statusinformationen. Der Vermittlungsdienst aggregiert die Statusinformationen, um z. B. bestimmte Statusinformationen als Fehlerstatus zu kategorisieren. Wenn ein externer Benutzer einen Status anfordert, erhält er nicht genau den Status, wie er im Vermittlungsdienst oder eSender-Hub gespeichert ist, sondern nur die relevanten Statusinformationen. Die Informationen, die den externen Benutzern zur Verfügung gestellt werden, finden sich in den folgenden Tabellespalten.
 
 | TED-Status | DöE-Status | Nachricht an den externen Benutzer für die gegebene Statuskombination                                                                                                    |
 | ----------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
