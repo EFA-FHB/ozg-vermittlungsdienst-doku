@@ -10,26 +10,27 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 
 *Folgende Versionen können bis 25.10.2023 im Vermittlungsdienst eingeliefert werden:*
 
-| Version  | Mediator (Vermittlungsdienst) | External validator | Internal validator | eSender   | BKMS  | TED  |
-| ------- | -------- | ------------------ | ------------------ | --------- | ----- | ---- |
-| eForms-EU 0.1.1 | ja, aber nur für Unterschwellenvergabe | nein  | ja | nein  | ja, aber nur für Unterschwellenvergabe | nein    |
-| eForms-EU 1.0   | ja, aber nur für Unterschwellenvergabe | nein | ja | nein  | ja, aber nur für Unterschwellenvergabe | nein    |
-| eforms-EU 1.5   | nur in der Preview-Umgebung, NICHT in Prod  | ja | ja | ja | nein  | ja, vorraussichtlich bis Januar 2024  |
-| eForms-DE 1.0.1 (schematron 0.5.0) | ja | ja | ja | ja | ja | ja, nach Umwandlung im eSender in eForms-EU 1.5.1  |
-| eForms-DE 1.1  | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | ja, nach Umwandlung im eSender in eForms-EU 1.7.0<br><br>geplante Unterstützung vor Oktober 2023 |
+| Version  | Vermittlungsdienst | External validator |  eSender-Hub   | BKMS  | TED  |
+| ------- | -------- | ---------------------- |  --------- | ----- | ---- |
+| eForms-EU 0.1.1 | ja, aber nur für Unterschwellenvergabe | nein  | nein  | ja, aber nur für Unterschwellenvergabe | nein    |
+| eForms-EU 1.0   | ja, aber nur für Unterschwellenvergabe | nein |  nein  | ja, aber nur für Unterschwellenvergabe | nein    |
+| eforms-EU 1.5   | nur in der Preview-Umgebung, NICHT in Prod  | ja  | ja | nein  | ja, vorraussichtlich bis Januar 2024  |
+| eForms-DE 1.0.1 (schematron 0.5.0) | ja  | ja | ja | ja | ja, nach Umwandlung im eSender in eForms-EU 1.5.1  |
+| eForms-DE 1.1  | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023  geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | ja, nach Umwandlung im eSender in eForms-EU 1.7.0
+
+*geplante Unterstützung vor Oktober 2023
 
 <br>
 
 *ab 25.10.2023 (Production Environment)*
 
-| Version                               | Mediator (Vermittlungsdienst)                       | External validator | Internal validator | eSender    | BKMS      | TED       |
-| ------------------------------------- | ------------------------------- | ------------------ | ------------------ | ---------- | --------- | ------------ |
-| eForms-EU 0.1.1                       | ja, aber nur für Unterschwellenvergabe | nein                | ja                | nein       | ja, aber nur für Unterschwellenvergabe | nein    |
-| eForms-EU 1.0                         | ja, aber nur für Unterschwellenvergabe | nein                 | ja                | nein        | ja, aber nur für Unterschwellenvergabe | nein    |
-| eforms-EU 1.5                         | nein                          | ja                | ja                | ja        | nein        | ja          |
-| eForms-DE 1.0.1 (schematron 0.5.0)    | ja                            | ja                | ja                | ja        | ja       | ja, nach Umwandlung im eSender in eForms-EU 1.5.1 |
-| eforms-EU 1.7 (Zukünftige Implementierung bis Oktober) | nein                          | ja                | ja                | ja | nein   | ja  |
-| eForms-DE 1.1 (Empfohlene Version)   | ja                            | ja                | ja                | ja                     | ja  | ja, nach Umwandlung im eSender in eForms-EU 1.7.0 |
+| Version | Vermittlungsdienst | External validator |  eSender-Hub    | BKMS      | TED       |
+| ------- | -------- | ---------------------- |  --------- | ----- | ---- |
+| eForms-EU 0.1.1 | ja, aber nur für Unterschwellenvergabe | nein|  nein       | ja, aber nur für Unterschwellenvergabe | nein    |
+| eForms-EU 1.0                         | ja, aber nur für Unterschwellenvergabe | nein                 |  nein        | ja, aber nur für Unterschwellenvergabe | nein    |
+| eforms-EU 1.5                         | nein                          | ja                | ja                |  nein        | ja          |
+| eForms-DE 1.0.1 (schematron 0.5.0)    | ja                            | ja                | ja                |  ja       | ja, nach Umwandlung im eSender in eForms-EU 1.5.1 |
+| eForms-DE 1.1 (Empfohlene Version)   | ja                            | ja                | ja                |  ja  | ja, nach Umwandlung im eSender in eForms-EU 1.7.0 |
 
 
 ## eForms Validierung
