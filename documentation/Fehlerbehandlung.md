@@ -18,7 +18,7 @@ Im eSender-Hub und im Vermittlungsdienst können Fehlermeldungen aus unterschied
 | TED                   | Fehler, die von TED kommen, wenn TED einen http-Code zurückgibt, der einen erfolglosen Aufruf darstellt (5\*\*, 4\*\*)   |
 | TED_VALIDATION_REPORT | Fehler und Warnungen aus der TED-Validierung Report.                                                                     |
 | BKMS                  | Fehler, die von BKMS kommen, wenn BKMS einen http-Code zurückgibt, der einen erfolglosen Aufruf darstellt (5\*\*, 4\*\*) |
-| ESENDER               | Fehler, die bei einem internen eSender-Vorgang auftreten                                                                 |
+| ESENDER               | Fehler, die bei einem internen eSender-Hub-Vorgang auftreten                                                                 |
 | VALIDATOR             | Fehler und Warnungen aus dem internen Validierungsdienst                                                                 |
 
 <br>
