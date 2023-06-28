@@ -11,24 +11,24 @@ Bei der eForms Dokumentenerstellung gilt es einige Regeln zu bestimmten Felden z
 
 Feld: *ganzer Abschnitt ``` <efac:Organization>```*
 
-Der DöE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden Bekanntmachungen. Für die Organisationen sollte deshalb der Typ "ted-esen" nichts in den Bekanntmachung verwendet werden, da diese Angabe automatisch vom eSender eingefügt wird. 
+Der DöE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden oberschwelligen Bekanntmachungen. Für die Organisationen sollte deshalb der Typ "ted-esen" nicht in den Bekanntmachungen verwendet werden, da diese Angabe automatisch vom eSender eingefügt wird. 
 
-Zu beachten: dieses Feld wurde in vorherigen (v1.0) Beispielen vorhanden, nicht aber in den neuen Beispielen.
+Hierbei zu beachten: In den derzeit im Kosit Repository vorhandenen Beispieldateien zu eForms-DE 1.0 ist diese Rolle teilweise noch vorhanden. Mit Veröffentlichung der Version eForms-DE 1.1 werden auch die Beispieldateien entsprechend angepasst, sodass die Rolle ted-esen nicht mehr verwendet wird. 
 <br>
 
 ### Datumsangaben
 
-Felder: *BT-05: ``` <cbc:IssueDate> ```* , *BT-738: ``` <cbc:RequestedPublicationDate>```*
+Betroffene Felder: *BT-05: ``` <cbc:IssueDate> ```* , *BT-738: ``` <cbc:RequestedPublicationDate>```*
 
-- Dispatch Date (BT-05, Tag der Absendung der Bekanntmachungen) muss mindestens zwei Tage bevor und maximal ein Tag nach der heutigen Tag sein. Wenn heute zum Beispiel der 05.06.2023 ist, könnte dieses Datum entweder 03.06.2023, 04.06.2023, 05.06.2023 oder 06.06.2023 sein. Das heißt, das Datum weist genau aus, wenn das Formular geschickt wurde.
-- Bevorzugtes Veröffentlichungsdatum (Requested Publication Date, BT-738) muss mindestens zwei Tage nach dem Dispatch Date liegen. Der Vorteil am verpflichtenden Abstand nach dem Tag der Absendung liegt dabei, es gibt immer mindestens zwei Tage Zeitraum, bei Bedarf die Bekanntmachung noch vor Veröffentlichung zu stoppen und zu korrigieren (siehe Stop Funktion).
-- Bevorzugtes Veröffentlichungsdatum muss maximal 60 Tage nach dem Dispatch Date liegen. Das heißt, ein potenzielles Problem mit Bekanntmachungen, die Monate im Voraus geschickt werden und deswegen nicht mehr aktuell sein, wird vermeidet.
+- Der *Tag der Absendung der Bekanntmachungen* (Dispatch Date - BT-05) muss mindestens zwei Tage bevor und maximal einen Tag nach dem heutigen Tag liegen. Wenn heute zum Beispiel der 05.06.2023 ist, muss das Dispatch Date entweder 03.06.2023, 04.06.2023, 05.06.2023 oder 06.06.2023 sein. 
+- Das *Bevorzugte Veröffentlichungsdatum* (Requested Publication Date - BT-738) muss mindestens zwei Tage nach dem Tag der Absendung der Bekanntmachung liegen. Dadurch wird ermöglicht, dass eine Bekanntmachung innerhalb der ersten 48h nach Versenden noch zurückgezogen und korrigiert werden kann, bevor die Veröffentlichung erfolgt. Hierfür wurde eine neue Stop-Funktion im Vermittlungsdienst geschaffen. Weitere Details dazu finden Sie hier: documentation\STOP update & change notices.md
+Das Bevorzugte Veröffentlichungsdatum darf maximal 60 Tage nach dem Dispatch Date liegen. Damit wird die Aktualität einer Bekanntmachung zum Zeitpunkt der Veröffentlichung Gewährleistet.
 
-#### Beispiele von validen Kombinationen von Daten:
+#### Beispiele von validen Kombinationen von Datumsangaben:
 
 - Heute: 05.06.2023 <br>
 Dispatch Date: 04.06.2023<br>
-Requested Publication Date: 10.06.2023<br>
+Requested Publication Date: 07.06.2023<br>
 - Heute: 05.06.2023<br>
 Dispatch Date: 06.06.2023<br>
 Requested Publication Date: 04.08.2023
