@@ -37,7 +37,9 @@ Alle Bekanntmachungen werden bei der Übermittlung an den Vermittlungsdienst, be
 
 ### Validierungs Blacklist
 
-Regeln die bei der Validierung mit Schematron EU und DE Regeln ignoriert werden sollen:
+Durch das Nationale Tailoring entstehen Unterschiede zwischen in der EU und national zugelassenen Werten, beispilesweise bei Codellisten und der customizationID: Deshalb müssen bestimmte EU Regeln aübersprungen werden, ob nach deutschem Tailoring valide Dokumente zu validieren. 
+
+Die folgenden Regeln sollten ignoriert werden:
 
 | Content                       | BT Field | Rule to be ignored |
 | ----------------------------- | -------- | ------------------ |
