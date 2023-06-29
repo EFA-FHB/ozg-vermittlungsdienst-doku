@@ -41,7 +41,7 @@ Anstelle von DELIVERY_METADATA_INVALID steht NOTICE_METADATA_INVALID
 - Implementiert: Abrufen und Speichern des BKMS-Status PUBLISHED
 - Jobs PROCESS_NOTICES und ALIGN_TED_STATUS verbessert
 - Einführung einer Anwendung zur Kontoverwaltung
-- Verbesserte Antwort für Mediator im Falle von Duplikaten
+- Verbesserte Antwort für Vermittlungsdienst im Falle von Duplikaten
 - API-Schlüssel für Produktions- und Staging-Benutzer wurden aktualisiert
 - Performance Verbesserungen
 - Mehrere Optimierungen und Fehlerbehebungen
@@ -208,7 +208,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
         </p>
         <p>Ja</p>
       </td>
-      <td>Derzeit kann Version eForms-DE 1.0.1 testweise im Mediator eingeliefert werden, diese kann aber (noch) nicht vom eSender in eForms-EU 1.5 verarbeitet werden, da das Codetable mapping noch nicht final ist</td>
+      <td>Derzeit kann Version eForms-DE 1.0.1 testweise im Vermittlungsdienst eingeliefert werden, diese kann aber (noch) nicht vom eSender in eForms-EU 1.5 verarbeitet werden, da das Codetable mapping noch nicht final ist</td>
     </tr>
     <tr>
       <td>Weiterleiten und annehmen von <strong>nationalen</strong> eForms in Version eForms-EU 0.1.1 und 1.0 im <strong>BKMS</strong>

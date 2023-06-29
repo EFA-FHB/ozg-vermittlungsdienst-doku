@@ -5,7 +5,7 @@
 
 # Status- und Transferinformationen
 
-Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst abgefragt und gespeichert, so liegt jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
+Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst bzw. eSender-Hub abgefragt und gespeichert, so liegt jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
 <br><br>
 Mehr zum Thema "Fehlerbehandlung" findet sich hier: [Fehlerbehandlung](/documentation/Fehlerbehandlung.md)
 <br>
@@ -144,7 +144,7 @@ Innerhalb der Transferinformationen `transferResponse` werden Warnungen `warning
 Eine einzelne Warnung und eine einzelne Fehlermeldung haben den selben Aufbau. `source` gibt an in welchem System die Warnung oder der Fehler entstand. Folgende Werte sind in `source` möglich:
 - BKMS für Bekanntmachungsservice
 - TED für Tenders Electronic Daily
-- PRE_VALIDATION für Validierungen innerhalb des eSender
+- PRE_VALIDATION für Validierungen innerhalb des eSender-Hub
 
 Die `description` enthält die Beschreibung der Warnung oder der Fehlermeldung. Im `path` wird die Position angegeben an der der Fehler oder die Warnung auftrat. Der Tag `rule` enthält die Bezeichnung der angewandten Regel und `ruleContent` die dazu tatsächlich angewandte Regel.
 
