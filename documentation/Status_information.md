@@ -12,53 +12,21 @@ Mehr zum Thema "Fehlerbehandlung" findet sich hier: [Fehlerbehandlung](/document
 
 ## Inhalte
 - [Endpunkte zur Abfrage der Status- und Transferinformationen](#endpunkte)
-    - [Statusabgleich mit externen Systemen (FVH)](#externe)
-	- [Statusabgleich für Unterschwellenvergabe](#unterschwellig)
-	- [Statusabgleich für Oberschwellenvergabe](#oberschwellig)
 - [Struktur der Statusinformationen](#info-struktur)
-    - [Status-Mapping-Tabelle: Containererstellung](#container-mapping)
-    - [Status-Mapping-Tabelle: Oberschwellenvergabe](#oberschwellige-mapping)
-    - [Status-Mapping-Tabelle: Unterschwellenvergabe](#unterschwellige-mapping)
+    - [Statustabelle: Übermittlung einer Bekanntmachung](#statustabelle-uebermittlung)
+    - [Statustabelle: Oberschwellenvergabe](#statustabelle-oberschwelle)
+    - [Statustabelle: Unterschwellenvergabe](#statustabelle-unterschwelle)
 - [Struktur der Transferinformationen](#transfer-info)
 
 
 <br><br>
 
 ## Endpunkte zur Abfrage der Status- und Transferinformationen<span id="endpunkte">
-Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte zur Verfügung.
-Der Vermittlungsdienst führt die Statusabfragen an BKMS und TED alle 1-5 Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
+Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte `GET /v1/notices` für eine Liste von Datenlieferungen, `GET /v1/notices/status` für eine Liste von Datenlieferungen in einem bestimmten Zeitraum und `GET /v1/notices/{trackingcode}` für eine einzelne Datenlieferung zur Verfügung.
 
-### Statusabgleich mit externen Systemen (FVH)<span id="externe">
-Es gibt drei Möglichkeiten, einen Status abzufragen: nach Liste (alle von diesem Tenant eingereichten Bekanntmachungen), nach Tracking-Code, oder nach Liste basierend auf Zeitstempeln (alle von diesem Tenant eingereichten Bekanntmachungen, deren Status sich in einem bestimmten Zeitraum geändert hat).
-Nachdem eine bestimmte Bekanntmachung an Mediator übermittelt wurde, kann das externe System (FVH) den Status der Bekanntmachung in Mediator regelmäßig anhand des Tracking-Codes überprüfen.
+Der Vermittlungsdienst führt die Statusabfragen an BKMS und TED alle drei Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
 
-![1_status_alignment_PSP](images/1_status_alignment_PSP.png)
-
-### Statusabgleich für Unterschwellenvergabe<span id="unterschwellig">
-Nachdem eine Bekanntmachung an BKMS übermittelt wurde, fragt Mediator regelmäßig den Bekanntmachung-Status von BKMS per noticeID-Version ab, wenn das eForms in BKMS veröffentlicht wurde.
-
-
-![2_status_alignment_Mediator_BKMS_Unterschwellenvergabe](images/2_status_alignment_Mediator_BKMS_Unterschwellenvergabe.png)
-
-
-### Statusabgleich für Oberschwellenvergabe<span id="oberschwellig">
-Nachdem die Bekanntmachung an den eSender übermittelt wurde, fragt der Mediator regelmäßig den Bekanntmachung-Status vom eSender anhand der hub-ID ab.
-
-
-![3_status_alignment_Mediator_eSender_Oberschwellenvergabe](images/3_status_alignment_Mediator_eSender_Oberschwellenvergabe.png)
-
-Nachdem eine Bekanntmachung an TED übermittelt wurde, fragt eSender regelmäßig den Status bei TED per noticeID-Version ab.
-
-
-![4_status_alignment_eSender_TED_Oberschwellenvergabe](images/4_status_alignment_eSender_TED_Oberschwellenvergabe.png)
-
-Nachdem die Bekanntmachung an BKMS übermittelt wurde, fragt eSender regelmäßig den Status von BKMS nach noticeID-Version ab.
-
-
-![5_status_alignment_eSender_BKMS_Oberschwellenvergabe](images/5_status_alignment_eSender_BKMS_Oberschwellenvergabe.png)
-
-
-Die zugehörige OpenAPI-Spezifikation finden Sie unter https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com/ und steht Ihnen im JSON-Format zum Download unter https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com/Vermittlungsdienst_REST-API.json bereit.
+Die zugehörige OpenAPI-Spezifikation finden Sie unter https://ozg-vermittlungsdienst.de/ und steht Ihnen im JSON-Format zum Download unter https://ozg-vermittlungsdienst.de/Vermittlungsdienst_REST-API.json bereit.
 <br><br>
 
 ## Struktur der Statusinformationen<span id="info-struktur">
@@ -83,57 +51,59 @@ Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` 
 <br><br>
 
 
-### Status-Mapping-Tabelle: Containererstellung<span id="container-mapping">
+### Statustabelle: Übermittlung einer Bekanntmachung<span id="statustabelle-uebermittlung">
 
-| DöE-Status      | Status Beschreibung |
-| --------------- | ------------------------ |
-| awaitingTransfer    | Die Bekanntmachung wurde vom Mediator angenommen und akzeptiert. Die weitere Versendung wird vorbereitet. |
+| DöE-Status        | Statusbeschreibung                                                                                       |
+| ----------------- | --------------------------------------------------------------------------------------------------------- |
+| AWAITING_TRANSFER | Die Bekanntmachung wurde vom Mediator angenommen und akzeptiert. Die weitere Versendung wird vorbereitet. |
 
-Nachdem die Containererstellung abgeschlossen ist, wird Mediator mit weiteren Schritten für die Unter- oder Oberschwellenvergabe bearbeitet, so dass in den Status-Mapping-Tabellen unten die Status aufgeführt sind.
+Nachdem die Übermittlung einer Bekanntmachung erfolgriech abgeschlossen ist, wird der Status der Bekanntmachung auf AWAITING_TRANSFER gesetzt und der Vermittlungsdienst beginnt mit weiteren Schritten der Verarbeitung der Unter- oder Oberschwellenvergabe. In den folgenden Statustabellen werden die möglichen Status für die Verarbeitung der Unter- und Oberschwellenvergabe aufgelistet.
 <br><br>
 
-### Status-Mapping-Tabelle: Oberschwellenvergabe<span id="oberschwellige-mapping">
+### Statustabelle: Oberschwellenvergabe<span id="statustabelle-oberschwelle">
 
-Jede Bekanntmachung wird zwei Statuswerte haben, weil sich ihre Status in zwei Systemen parallel ändern können: TED und das DöE einschließlich BKMS. Bei unterschwelligen Bekanntmachungen wird nur der DöE-Status eingetragen, da diese Bekanntmachungen nicht an TED übermittelt werden. Der eSender speichert die detailliertesten Statusinformationen. Der Mediator aggregiert die Statusinformationen, um z. B. bestimmte Statusinformationen als Fehlerstatus zu kategorisieren. Wenn ein externer Benutzer einen Status anfordert, erhält er nicht genau den Status, wie er im Mediator oder eSender gespeichert ist, sondern nur die relevanten Statusinformationen. Die Informationen, die den externen Benutzern zur Verfügung gestellt werden, finden sich in den folgenden Tabellespalten.
+Die folgenden Statuskombinationen, können bei der Statusabfrage eine Oberschwellenvergabe übermittelt werden.
 
-| TED-Status | DöE-Status | Nachricht an den externen Benutzer für die gegebene Statuskombination                                                                                                    |
-| ----------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| pending                       | pending                       | Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. |
-| notSend                       | internalError                 | Ein interner Fehler ist aufgetreten. Ein entsprechendes Support-Ticket wird ggf. erstellt.                                                                               |
-| pending                       | pending                       | Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. |
-| noResponse                    | pending                       | Die Übermittlung an TED wird erneut versucht. Die Übermittlung der Bekanntmachung an den Bekanntmachungsservice steht noch aus.                                          |
-| accepted                      | pending                       | Die Bekanntmachung wurde von TED akzeptiert, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                              |
-| accepted                      | accepted                      | Die Bekanntmachung wurde von TED und dem Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.                                                              |
-| accepted                      | published                     | Die Bekanntmachung wurde von TED akzeptiertt akzeptiert, aber noch nicht veröffentlicht. Die Bekanntmachung wurde bereits im Bekanntmachungsservice veröffentlicht.      |
-| publishing                    | pending                       | Die Bekanntmachung wird in TED veröffentlicht, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                            |
-| publishing                    | accepted                      | Die Bekanntmachung wird in TED veröffentlicht, die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert.                                                           |
-| publishing                    | published                     | Die Bekanntmachung wird in TED veröffentlicht, die Bekanntmachung wurde im Bekanntmachungsservice veröffentlicht.                                                        |
-| stopped                       | notSend                       | Die Bekanntmachung wurde in TED gestoppt und wird nicht zum Bekanntmachungsservice gesendet.                                                                             |
-| stopped                       | pending                       | Die Bekanntmachung wurde in TED gestoppt und wird nicht zum Bekanntmachungsservice gesendet.                                                                             |
-| stopped                       | accepted                      | Die Bekanntmachung wurde in TED gestoppt und wird in Kürze auch im Bekanntmachungsservice gestoppt werden.                                                               |
-| stopped                       | published                     | Die Bekanntmachung wurde in TED gestoppt und wird in Kürze auch im Bekanntmachungsservice gestoppt werden.                                                               |
-| stopped                       | stopped                       | Die Bekanntmachung wurde sowohl in TED als auch im Bekanntmachungsservice gestoppt.                                                                                      |
-| published                     | pending                       | Die Bekanntmachung wurde in TED veröffentlicht, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                           |
-| published                     | accepted                      | Die Bekanntmachung wurde in TED veröffentlicht und vom Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.                                                |
-| published                     | published                     | Die Bekanntmachung wurde in TED und im Bekanntmachungsservice veröffentlicht.                                                                                            |
-| manuallyRejected              | notSend                       | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde nicht zum Bekanntmachungsservice gesendet.                              |
-| manuallyRejected              | pending                       | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.                        |
-| manuallyRejected              | accepted                      | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.                        |
-| manuallyRejected              | published                     | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.                        |
-| manuallyRejected              | STOPPED                       | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde auch im Bekanntmachungsservice gestoppt.                                |
-| rejected                      | internalError                 | Ein interner Fehler ist aufgetreten. Ein entsprechendes Support-Ticket wird ggf. erstellt.                                                                               |
+| TED-Status        | DöE-Status     | Statusbeschreibung                                                                                                    |
+| ----------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| PENDING           | PENDING        | Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. |
+| NOT_SEND          | INTERNAL_ERROR | Ein interner Fehler ist aufgetreten. Ein entsprechendes Support-Ticket wird ggf. erstellt.                                                                               |
+| PENDING           | PENDING        | Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. |
+| NO_RESPONSE       | PENDING        | Die Übermittlung an TED wird erneut versucht. Die Übermittlung der Bekanntmachung an den Bekanntmachungsservice steht noch aus.                                          |
+| ACCEPTED          | PENDING        | Die Bekanntmachung wurde von TED akzeptiert, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                              |
+| ACCEPTED          | ACCEPTED       | Die Bekanntmachung wurde von TED und dem Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.                                                              |
+| ACCEPTED          | PUBLISHED      | Die Bekanntmachung wurde von TED akzeptiertt akzeptiert, aber noch nicht veröffentlicht. Die Bekanntmachung wurde bereits im Bekanntmachungsservice veröffentlicht.      |
+| PUBLISHING        | PENDING        | Die Bekanntmachung wird in TED veröffentlicht, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                            |
+| PUBLISHING        | ACCEPTED       | Die Bekanntmachung wird in TED veröffentlicht, die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert.                                                           |
+| PUBLISHING        | PUBLISHED      | Die Bekanntmachung wird in TED veröffentlicht, die Bekanntmachung wurde im Bekanntmachungsservice veröffentlicht.                                                        |
+| STOPPED           | NOT_SEND       | Die Bekanntmachung wurde in TED gestoppt und wird nicht zum Bekanntmachungsservice gesendet.                                                                             |
+| STOPPED           | PENDING        | Die Bekanntmachung wurde in TED gestoppt und wird nicht zum Bekanntmachungsservice gesendet.                                                                             |
+| STOPPED           | ACCEPTED       | Die Bekanntmachung wurde in TED gestoppt und wird in Kürze auch im Bekanntmachungsservice gestoppt werden.                                                               |
+| STOPPED           | PUBLISHED      | Die Bekanntmachung wurde in TED gestoppt und wird in Kürze auch im Bekanntmachungsservice gestoppt werden.                                                               |
+| STOPPED           | STOPPED        | Die Bekanntmachung wurde sowohl in TED als auch im Bekanntmachungsservice gestoppt.                                                                                      |
+| PUBLISHED         | PENDING        | Die Bekanntmachung wurde in TED veröffentlicht, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                           |
+| PUBLISHED         | ACCEPTED       | Die Bekanntmachung wurde in TED veröffentlicht und vom Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.                                                |
+| PUBLISHED         | PUBLISHED      | Die Bekanntmachung wurde in TED und im Bekanntmachungsservice veröffentlicht.                                                                                            |
+| MANUALLY_REJECTED | NOT_SEND       | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde nicht zum Bekanntmachungsservice gesendet.                              |
+| MANUALLY_REJECTED | PENDING        | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.                        |
+| MANUALLY_REJECTED | ACCEPTED       | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.                        |
+| MANUALLY_REJECTED | PUBLISHED      | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.                        |
+| MANUALLY_REJECTED | STOPPED        | Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde auch im Bekanntmachungsservice gestoppt.                                |
+| REJECTED          | INTERNAL_ERROR | Ein interner Fehler ist aufgetreten. Ein entsprechendes Support-Ticket wird ggf. erstellt.                                                                               |
 
 <br>
 
-### Status-Mapping-Tabelle: Unterschwellenvergabe<span id="unterschwellige-mapping">
+### Statustabelle: Unterschwellenvergabe<span id="statustabelle-unterschwelle">
 
-| DöE status | Status-Beschreibung                                             |
+Die folgenden Statuskombinationen, können bei der Statusabfrage eine Unterschwellenvergabe übermittelt werden.
+
+| DöE status | Statusbeschreibung                                             |
 | ---------- | --------------------------------------------------------------- |
-| accepted   | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert. |
-| rejected   | Die Bekanntmachung wurde von BKMS abgelehnt.                    |
-| processing | Die Bekanntmachung wird vom BKMS verarbeitet.                   |
-| published  | Die Bekanntmachung wurde im BKMS veröffentlicht.                |
-| stopped    | Die Bekanntmachung wurde  im Bekanntmachungsservice gestoppt.   |
+| ACCEPTED   | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert. |
+| REJECTED   | Die Bekanntmachung wurde von BKMS abgelehnt.                    |
+| PROCESSING | Die Bekanntmachung wird vom BKMS verarbeitet.                   |
+| PUBLISHED  | Die Bekanntmachung wurde im BKMS veröffentlicht.                |
+| STOPPED    | Die Bekanntmachung wurde  im Bekanntmachungsservice gestoppt.   |
 
 
 
