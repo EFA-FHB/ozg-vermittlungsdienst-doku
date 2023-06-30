@@ -4,7 +4,7 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
->**Note** <br>
+>**Hinweis** <br>
 >Bitte beachten Sie: Wenn unterschwellige Bekanntmachungen weiterhin an service.bund.de gesendet werden, dürfen diese NICHT zusätzlich an den Vermittlungsdienst gesendet werden!
 
 # Anbindung an den Vermittlungsdienst
@@ -18,7 +18,7 @@ Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Aut
 
 ### Beantragen eines Accounts zum Einliefern von Bekanntmachungen
 
->**Note** <br>
+>**Hinweis** <br>
 >Nach dem Produktionsrelease im Juni muss für die Produktions- und Stagingumgebung erneut ein User angefragt werden, auch wenn in Preview bereits ein User besteht. 
 
 Es muss die Einrichtung eines neuen Accounts per E-Mail an [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com) bei der Nortal AG angefragt werden. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
@@ -75,7 +75,7 @@ Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEP
 
 ## Wie setzt man ein Benutzer Passwort in Keycloak zurück?
 
->**Warning** <br>
+>**Hinweis** <br>
 > Das Passwort des Benutzers ist gleichzeitig das Passwort, welches für die Einlieferung bei der Vermittlungsdienst Schnittstelle genutzt wird! <br>
 > Sollten sie das Passwort ändern, stellen Sie sicher, dass es auch in der Software zur Einlieferung in den Vermittlungsdienst geändert wird! 
 

@@ -17,6 +17,7 @@ Mehr zum Thema "Fehlerbehandlung" findet sich hier: [Fehlerbehandlung](/document
     - [Statustabelle: Oberschwellenvergabe](#statustabelle-oberschwelle)
     - [Statustabelle: Unterschwellenvergabe](#statustabelle-unterschwelle)
 - [Struktur der Transferinformationen](#transfer-info)
+- [Lawfullness Warnings](#lawfullness)
 
 
 <br><br>
@@ -142,12 +143,21 @@ Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery Sc
 Innerhalb der Transferinformationen `transferResponse` werden Warnungen `warnings` von Fehlermeldungen `errors` getrennt aufgelistet. Pro Bekanntmachung ist es möglich mehrere Warnungen und Fehlermeldungen als Rückantwort zu erhalten. 
 
 Eine einzelne Warnung und eine einzelne Fehlermeldung haben den selben Aufbau. `source` gibt an in welchem System die Warnung oder der Fehler entstand. Folgende Werte sind in `source` möglich:
-- BKMS für Bekanntmachungsservice
-- TED für Tenders Electronic Daily
-- PRE_VALIDATION für Validierungen innerhalb des eSender-Hub
+
+| source         | Beschreibung                                                                                                                                                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TED            | Fehler und Warnungen die von TED kommen, dies beinhaltet sowohl die http-Codes (5\*\*, 4\*\*) welche bei einer erfolglosen Übermittlung zurückgegeben werden, als auch Fehler und Warnungen aus dem TED-Validierungs Report. |
+| BKMS           | Fehler, die von BKMS kommen, wenn BKMS einen http-Code zurückgibt, der eine erfolglose Übermittlung darstellt (5\*\*, 4\*\*).                                                                                                |
+| PRE_VALIDATION | Fehler und Warnungen aus dem internen Validierungsdienst.                                                                                                                                                                    |
 
 Die `description` enthält die Beschreibung der Warnung oder der Fehlermeldung. Im `path` wird die Position angegeben an der der Fehler oder die Warnung auftrat. Der Tag `rule` enthält die Bezeichnung der angewandten Regel und `ruleContent` die dazu tatsächlich angewandte Regel.
 
 Warnungen und Fehlermeldungen vom Bekanntmachungsservice und von TED werden unverändert durchgereicht.
+<br><br>
+
+## Lawfullness Warnings<span id="lawfullness">
+Zusätzlich zu Fehlern gibt es Warnungen. Diese kommen ausschießlich aus den EU Regeln und verhindern anders als Fehler nicht die Annahme der Bekanntmachung. TED hat derzeit nur eine Art von Warnungen definiert, sogenannte "Lawfullness Warnings". Diese werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. 
+
+Eine Lawfullness Warning bedeutet, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. TED prüft dann den Inhalt der Bekanntmachung und entscheidet, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Für diese Entscheidung hat TED bis zu 5 Tage Zeit. Aus diesem Grund werden Bekanntmachungen mit einer Lawfullness Warning erst bei Veröffentlichung oder 5 Tage nach erfolgreicher Einlieferung bei TED an den BKMS weitergeleitet. 
 
 

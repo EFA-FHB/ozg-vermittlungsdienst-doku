@@ -26,4 +26,4 @@ Diese Information wird aus dem XML Feld `SubTypeCode` ausgelesen. Fängt der Sub
 
 ### eForms Version
 Diese Information wird aus dem XML Feld `CustomizationID` ausgelesen. TED akzeptiert nur bestimmte eForms-EU Versionen und nur bestimmte eForms Versionen können vom eSender-Hub verarbeitet werden.
-Weitere Details zur Versionsunterstützung finden Sie hier: [eForms Versionsunterstützung](/documentation/eForms_Unterstuetzte-Versionen.md)
+Weitere Details zur Versionsunterstützung finden Sie hier: [eForms Versionsunterstützung](/documentation/eForms_support.md)

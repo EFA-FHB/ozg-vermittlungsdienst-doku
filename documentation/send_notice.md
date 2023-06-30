@@ -31,10 +31,10 @@ Zur Nachverfolgung der Bekanntmachung erhalten Sie in der Response nach der Einl
 </delivery>
 ```
 
-Mit dem Trackingcode kann der Status der jeweiligen Bekanntmachung abgefragt werden über den Endpunkt `GET /v1/notices/{trackingcode}` abgefragt werden. 
+Mit dem Trackingcode kann der Status der jeweiligen Bekanntmachung, über den Endpunkt `GET /v1/notices/{trackingcode}`, abgefragt werden. 
 
 Alternativ kann entweder der Status aller eingelieferten Bekanntmachungen abgefragt werden über `GET /v1/notices` oder alle Statusänderungen basierend auf ihrem Zeitpunkt in einer anzugebenden Zeitspanne abgefragt werden über `GET /v1/notices/status`. Beide Endpunkte sind paginiert. 
->**Note** <br>
+>**Hinweis** <br>
 >Der `GET /v1/notices/status` wird empfohlen, da so die aktuellen Statusinformationen am effizientesten abgefragt werden können.
 
 Die Bedeutung der weiteren Response Codes entnehmen Sie https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.

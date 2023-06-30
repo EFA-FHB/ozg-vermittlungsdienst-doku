@@ -16,7 +16,7 @@ Es gibt zwei Möglichkeiten, den Inhalt einer Bekanntmachung zu ändern: Durch *
 <br><br>
 
 ### Update zu einer Bekanntmachung<span id='update'>
-Eine Aktualisierung oder Neueinreichung (auch als Update bezeichnet) einer Bekanntmachung ist ein einfacher Bearbeitungsprozess, wenn die Bekanntmachung noch nicht in TED und/oder BKMS veröffentlicht ist. Wenn eine Bekanntmachung korrigiert werden muss, muss die vorherige Version zuerst gestoppt werden oder sich im Status "rejected" befinden. Andernfalls ist eine Aktualisierung nicht möglich, um sicherzustellen, dass zu jedem Zeitpunkt nur eine gültige Version eines Dokuments im Vermittlungsservice existiert. Um eine Aktualisierung zu erstellen, sollte die gleiche noticeID wie im vorhergehenden zu korrigierenden Dokument verwendet werden, nur die versionID muss erhöht werden (Lücken sind möglich). Eine Aktualisierung ist NICHT dasselbe wie eine Change Notice. Eine Aktualisierung enthält nicht die UBL-Extension einer Change Notice und kann nur eingereicht werden, bevor die Bekanntmachung bereits veröffentlicht wurde.
+Eine Aktualisierung oder Neueinreichung (auch als Update bezeichnet) einer Bekanntmachung ist ein einfacher Bearbeitungsprozess, wenn die Bekanntmachung noch nicht in TED und/oder BKMS veröffentlicht ist. Wenn eine Bekanntmachung korrigiert werden muss, muss die vorherige Version zuerst gestoppt werden oder sich im Status "rejected" befinden. Andernfalls ist eine Aktualisierung nicht möglich, um sicherzustellen, dass zu jedem Zeitpunkt nur eine gültige Version eines Dokuments im Vermittlungsservice existiert. Um eine Aktualisierung zu erstellen, sollte die gleiche noticeID wie im vorhergehenden zu korrigierenden Dokument verwendet werden, nur die versionID muss erhöht werden (Lücken sind möglich). Eine Aktualisierung ist NICHT dasselbe wie eine Change Notice. Eine Aktualisierung enthält nicht die UBL-Extension einer Change Notice und kann nur eingereicht werden, bevor die Bekanntmachung veröffentlicht wurde.
 <br>
 
 #### **Beispiele**
@@ -30,10 +30,10 @@ Szenario A: Korrektur einer abgelehnten Bekanntmachung durch eine Aktualisierung
 
 Szenario B: Verwendung einer Aktualisierung (Update) zur Bearbeitung einer eingereichten Bekanntmachung
 
-1. Bekanntmachung A mit der noticeID ABC *Version 01* wird eingereicht und angenommen. Sie ist noch nicht veröffentlicht, z. B. weil das gewünschte Veröffentlichungsdatum in der Zukunft liegt.
-2. Der FVH möchte etwas in dieser Bekanntmachung bearbeiten, z. B. weil sich einige Informationen geändert haben und angepasst werden müssen.
-3. Der FVH stoppt die zuvor eingereichte Bekanntmachung noticeID ABC *version 01* mit Hilfe der Stop-API (Dies ist obligatorisch, bevor eine Aktualisierung gesendet wird. TED hat angekündigt, dass dies in Zukunft wahrscheinlich auch in TED so restriktiert wird)
-4. Das Vermittlungssystem stoppt die Bekanntmachung in TED und BKMS (je nachdem, wohin sie bereits gesendet wurde)
+1. Bekanntmachung A mit der noticeID ABC *Version 01* wird eingereicht und angenommen. Sie ist noch nicht veröffentlicht, z.B. weil das gewünschte Veröffentlichungsdatum in der Zukunft liegt.
+2. Der FVH möchte etwas in dieser Bekanntmachung bearbeiten, z.B. weil sich einige Informationen geändert haben und angepasst werden müssen.
+3. Der FVH stoppt die zuvor eingereichte Bekanntmachung noticeID ABC *version 01* mit Hilfe des Stop-Endpoints (Dies ist obligatorisch, bevor eine Aktualisierung gesendet wird. TED hat angekündigt, dass dies in Zukunft wahrscheinlich auch in TED so restriktiert wird)
+4. Der Vermittlungsdienst stoppt die Bekanntmachung in TED und BKMS (je nachdem, wohin sie bereits gesendet wurde)
 5. Der FVH reicht eine Aktualisierung mit noticeID ABC *Version 02* ein.
 6. Die Aktualisierung wird akzeptiert, da sich die Vorgängerversion der Bekanntmachung im Status STOPPED befindet.
 <br><br>
@@ -83,6 +83,4 @@ Bei manueller Ablehnung durch TED wird die Veröffentlichung automatisch im BKMS
  <br>
 
 **Stopp-Antworten** <br>
-Welche Rückmeldungen Sie beim Versenden von Stop-Anfragen erhalten können sind im Abschnitt [Statusinformationen](/documentation/Status_information.md) beschrieben.
-
-Mögliche Fehlermeldungen sind im Abschnitt [Fehlerbehandlung](/documentation/Fehlerbehandlung.md) zu finden.
+Welche Rückmeldungen Sie beim Versenden von Stop-Anfragen erhalten können Sie der API entnehmen unter https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.

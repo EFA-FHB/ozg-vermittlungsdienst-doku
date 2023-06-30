@@ -17,7 +17,7 @@ In diesem Repository sind folgende Dokumente zur Unterstützung einer Anbindung 
 - [Dokumentation Vermittlungsdienst](/documentation/documentation.md)
 - [FAQ](/faq.md)
 - [Release Notes](/Releases.md)
-- [Veranstaltungen](/Events.md)
+- [Veranstaltungen](/events.md)
 <br>
 
 ## Die Aufgaben des Vermittlungsdienst
