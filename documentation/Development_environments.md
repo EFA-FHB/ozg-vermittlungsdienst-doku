@@ -48,7 +48,7 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
     </tr>
     <tr>
       <td style="text-align: left;">IP Address(es)</td>
-      <td style="text-align: left;">20.50.223.245</td>
+      <td style="text-align: left;">4.245.108.202</td>
       <td style="text-align: left;">185.158.224.47</td>
       <td style="text-align: left;">185.158.224.47 + 185.158.224.58</td>
     </tr>
