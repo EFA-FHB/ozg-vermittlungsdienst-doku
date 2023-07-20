@@ -28,7 +28,7 @@ In der E-Mail müssen folgende Angaben enthalten sein:
 - E-Mail-Adresse, welche als Benutzername verwendet werden soll
 - URL der Vergabeplattform auf der die Bekanntmachungen veröffentlicht werden
 - Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
-- Name des FVH
+- Name des Fachverfahrensherstellers
 
 Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Wenn Sie 10 Accounts beantragen auf einer Umgebung, benötigen Sie auch 10 individuelle Email-Adressen. Die Email-Adresse dient zum Abruf der Tokens, die Sie zur eindeutigen Authentifizierung mit dem Account benötigen. Deshalb muss diese einzigartig sein.
 <br><br>
