@@ -4,7 +4,7 @@
 <br>
 
 - [Datenservice Öffentlicher Einkauf](#datenservice-öffentlicher-einkauf)
-- [GDK (eForms-DE Standard/SDK-eForms-DE)](#gdk-eforms-de-standardsdk-eforms-de)
+- [Standard eForms-DE und SDK-DE](#standard-eForms-DE-und-SDK-DE)
 - [Allgemein](#allgemein)
 <br>
 
@@ -222,7 +222,7 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 </details>
 <br>
 
-## GDK (eForms-DE Standard/SDK-eForms-DE)
+## Standard eForms-DE und SDK-DE
 [Zum Anfang](#häufig-gestellte-fragen)<br>
 
 **Bitte beachten Sie, dass wir alle Fragen bezüglich eForms gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit durch die KoSIT möglich. Bei weiteren Fragen zum Thema eForms wenden Sie sich gerne per E-Mail an eforms@finanzen.bremen.de** 
@@ -298,6 +298,26 @@ Der Einfachheit halber und zur Vermeidung von Inkonsistenzen mit von EU geliefer
 Losgruppen sind in eForms-DE nicht vorgesehen.
 </details>
 <br>
+
+### Nationale Ausschlussgründe (BT-67 exclusion grounds)
+
+<details>
+<summary>
+Weshalb wurden die Codes zu nationalen Ausschlussgründen der Codeliste "Criterion Exclusion Grounds" in der Version eForms-DE v1.1.0 verändert?
+</summary>
+<br>
+
+Entfernt wurden lediglich die Codes "ex-os" (Ausschlusshinweise Oberschwelle) und "ex-us" (Ausschlusshinweise Unterschwelle), da stattdessen der in der EU bestehende Code "nati-ground" (rein nationale Ausschlussgründe) verwendet werden kann.
+
+Wir haben das Changelog für sie aktualisiert: https://projekte.kosit.org/eforms/eforms-de-codelist/-/blob/main/CHANGELOG.md.
+</details>
+<br>
+
+### NUTS-Codes
+
+*Weitere Informationen zum Umgang mit NUTS-Codes werden hier nachgereicht.*
+
+
 
 # Allgemein
 [Zum Anfang](#häufig-gestellte-fragen)
