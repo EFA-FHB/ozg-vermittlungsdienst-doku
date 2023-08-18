@@ -9,6 +9,6 @@
 
 # Bekannte Bugs
 
-| System       | Datum bekanntwerden      | voraussichtliche Behebung   | Fehler           |
+| System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
 | TED Preview  | 08.08.2023               | unbekannt                   | Bekanntmachungen werden durch TED nicht mehr in den Status 'PUBLISHED' gesetzt, alle bleiben in 'ACCEPTED' hängen |
