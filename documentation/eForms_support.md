@@ -15,7 +15,7 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 | eForms-EU 0.1.1 | ja, aber nur für Unterschwellenvergabe | nein  |  nein  | ja, aber nur für Unterschwellenvergabe | nein    |
 | eForms-EU 1.0   | ja, aber nur für Unterschwellenvergabe | nein | nein  | ja, aber nur für Unterschwellenvergabe | nein    |
 | eforms-EU 1.5   | nur in der Preview-Umgebung, NICHT in Prod  | ja |  ja | nein  | ja, vorraussichtlich bis Januar 2024  |
-| eForms-DE 1.0.1 (schematron 0.5.1) | ja | ja | ja |  ja | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.5.1, vorraussichtlich bis Januar 2024  |
+| eForms-DE 1.0.1 (schematron 0.5.2) | ja | ja | ja |  ja | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.5.1, vorraussichtlich bis Januar 2024  |
 | eForms-DE 1.1  | geplante Unterstützung vor Oktober 2023 |  geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | geplante Unterstützung vor Oktober 2023 | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.7.0<br><br>geplante Unterstützung vor Oktober 2023 |
 
 <br>
@@ -27,8 +27,8 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 | eForms-EU 0.1.1                       | ja, aber nur für Unterschwellenvergabe | nein                | ja                |  ja, aber nur für Unterschwellenvergabe | nein    |
 | eForms-EU 1.0                         | ja, aber nur für Unterschwellenvergabe | nein                 | ja                |  ja, aber nur für Unterschwellenvergabe | nein    |
 | eforms-EU 1.5                         | nein                          | ja                | ja                |  nein        | ja, vorraussichtlich bis Januar 2024         |
-| eForms-DE 1.0.1 (schematron 0.5.1)    | ja                            | ja                | ja                |  ja       | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.5.1, vorraussichtlich bis Januar 2024 |
-| eForms-DE 1.1 (Empfohlene Version)   | ja                            | ja                | ja                | ja                     | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.7.0 |
+| eForms-DE 1.0.1 (schematron 0.5.2)    | ja                            | ja                | ja                |  ja       | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.5.1, vorraussichtlich bis Januar 2024 |
+| eForms-DE 1.1 (Empfohlene Version)   | ja                            | ja                | ja                | ja                     | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.7.0, voraussichtlich bis Mai 2024 |
 
 Bitte beachten Sie: Nach dem 25.10.2023 werden im Produktivsystem ausschließlich eForms-DE Versionen unterstützt. Wir empfehlen die Version eForms-DE 1.1 zu verwendet. 
 
