@@ -8,6 +8,15 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 
 <br>
 
+*Übersicht an bestehenden eForms-DE-Versionen und den dazugehörigen technischen Artefakten und Hilfsmitteln:*
+| eForms-DE Standard | KoSIT Schematron                                                                  | KoSIT Codelisten                                                                          | SDK-DE                                                                                                                                             | Kommentar |
+|--------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| eForms-DE 1.0.1    | [0.5.2](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.2) | [2023-05-17](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-05-17) | [1.0.1_1.5.3_20230727](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/SDK-DE_1.0.1_1.5.3_20230727?ref_type=tags)                   |           |
+| eForms-DE 1.1      | [0.6.0](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.0) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | Veröffentlichung anstehend [1.1.0_1.7.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/feature/sdk-de-1.1.0_1.7.0?ref_type=heads) |           |
+
+
+<br>
+
 *Folgende Versionen können bis 25.10.2023 im Vermittlungsdienst eingeliefert werden:*
 
 | Version  | Vermittlungsdienst | External validator |  eSender-Hub   | BKMS  | TED  |
@@ -34,6 +43,8 @@ Bitte beachten Sie: Nach dem 25.10.2023 werden im Produktivsystem ausschließlic
 
 ## eForms Validierung
 Alle Bekanntmachungen werden bei der Übermittlung an den Vermittlungsdienst, bevor Sie vom System angenommen werden, validiert. Die Validierung erfolgt anhand einer Kombination aus einer XML-Schema-Validierung und einer Schematron-Validierung. Als Ergebnis wird ein Validierungsreport im JSON-Format zurückgegeben.
+
+Eine Möglichkeit zur Offline Validierung, so wie sie auch der Vermittlungsdienst durchführt, bietet der Open Source Validator https://github.com/EFA-FHB/eforms-validator-core
 
 ### Validierungs Blacklist
 
