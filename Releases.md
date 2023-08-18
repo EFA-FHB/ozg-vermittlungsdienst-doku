@@ -6,7 +6,7 @@
 ## Release Offline-Validator für eForms-DE 1.0.1 und 1.1.0
 Status: Veröffentlicht 14.08.2023<br>
 https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
-
+<br><br>
 ## Production Release Juni - Vermittlungsdienst & eSender-Hub
 Status: Veröffentlicht 28.06.2023<br>
 <details>
