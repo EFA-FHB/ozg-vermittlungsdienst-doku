@@ -3,7 +3,7 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
-# eForms Unterstützung - Preview Umgebung
+# eForms Unterstützung
 Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend dem folgenden Beispiel verarbeitet. In Zukunft werden vom Vermittlungsdienst sowohl unterschwellige als auch oberschwellige Bekanntmachungen ausschließlich im eForms-DE Format angenommen.
 
 <br>
