@@ -11,4 +11,4 @@
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
-| TED Preview  | 08.08.2023               | unbekannt                   | Bekanntmachungen werden durch TED nicht mehr in den Status 'PUBLISHED' gesetzt, alle bleiben in 'ACCEPTED' hängen |
+| TED Preview  | 09.08.2023               | unbekannt                   | Bekanntmachungen ab dem 09.08.2023 werden durch TED nicht mehr in den Status 'PUBLISHED' gesetzt, sie bleiben in 'ACCEPTED' hängen auf Grund eines Fehlers seitens TED |
