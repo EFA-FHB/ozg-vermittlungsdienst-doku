@@ -1,7 +1,14 @@
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
+### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Releases
 [Übersicht](/Readme.md)
 <br>
+
+## Geplantes Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub
+| Umgebung   | Zeitraum              |  BKMS                      | Status |
+|------------|-----------------------|---------------------------|--------|
+| Preview    | KW34                  | noch nicht unterstützt    |        |
+| Staging    | KW35, spätestens KW36 | unterstützt in Alpha      |        |
+| Produktion | KW37                  | unterstützt in Produktion |        |
 
 ## Release Offline-Validator für eForms-DE 1.0.1 und 1.1.0
 Status: Veröffentlicht 14.08.2023<br>
