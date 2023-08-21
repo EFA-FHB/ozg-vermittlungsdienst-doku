@@ -4,7 +4,7 @@
 <br>
 
 ## Geplantes Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub
-| Umgebung   | Zeitraum              |  BKMS                      | Status |
+| Umgebung Vermittlungsdienst  | Zeitraum              |  BKMS                      | Status |
 |------------|-----------------------|---------------------------|--------|
 | Preview    | KW34                  | noch nicht unterstützt    |        |
 | Staging    | KW35, spätestens KW36 | unterstützt in Alpha      |        |
