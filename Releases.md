@@ -51,9 +51,11 @@ Status: In Entwicklung<br>
 >Staging Umgebung https://staging.ozg-vermittlungsdienst.de<br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
+**WICHTIG:**
+> Autorisation über apiKey in Tenant ist nicht mehr möglich
+
 - Unterstützung von eForms-DE 1.1 wurde implementiert
 - Zertifikate wurden aus den Tenants ausgelagert und werden pro Umgebung verwendet
-- Autorisation über apiKey in Tenant ist nicht mehr möglich
 - Ein neuer Job für die re-sync von den Status wurde implementiert
 - ...
 
