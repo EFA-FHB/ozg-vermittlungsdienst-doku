@@ -22,7 +22,7 @@ Status: bereit für die Entwicklung<br>
 
 - Neue BKMS Autorisierung wurde implementiert
 - ...
--
+
 ### eSender-Hub
 - eFormsDE 1.1 -> eForms SDK 1.7 Mapping wurde hinzugefügt
 - Neue transformation bezüglich 'requestedPublicationDate' wurden implementiert
