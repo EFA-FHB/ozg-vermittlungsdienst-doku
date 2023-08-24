@@ -97,7 +97,7 @@ Der DöE baut sowohl die neuen Schematron Regeln als auch die Umwandlung im eSen
 
 _SDK-DE_
 
-Die neuen Regeln wurde im SDK-DE SDK-DE 1.0.1 und 1.1.0 bereits eingebaut. 
+Die neuen Regeln wurde im SDK-DE 1.0.1 und 1.1.0 bereits eingebaut. 
 
 ## Erstellung von eForms in Verbindung mit im alten Vergabeformat bei TED eingereichten Bekanntmachungen
 >**nicht eForms-DE spezifisch**
