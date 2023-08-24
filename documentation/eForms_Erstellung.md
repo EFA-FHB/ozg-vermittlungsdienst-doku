@@ -7,7 +7,7 @@
 
 Bei der eForms Dokumentenerstellung gilt es einige Regeln zu bestimmten Felden zu beachten.
 
-### eSender-Informationen
+## eSender-Informationen
 >**eForms-DE spezifisch**
 
 Feld: *ganzer Abschnitt ```<efac:Organization>```*
@@ -17,29 +17,86 @@ Der DöE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden o
 Hierbei zu beachten: In den derzeit im Kosit Repository vorhandenen Beispieldateien zu eForms-DE 1.0 ist diese Rolle teilweise noch vorhanden. Mit Veröffentlichung der Version eForms-DE 1.1 werden auch die Beispieldateien entsprechend angepasst, sodass die Rolle ted-esen nicht mehr verwendet wird. 
 <br>
 
-### Datumsangaben
->**nicht eForms-DE spezifisch**
+## Zusammenhang zwischen Dispatch Date (BT-05) Preferred Publication Date (BT-738)
 
-Betroffene Felder: *BT-05: ```<cbc:IssueDate>```* , *BT-738: ```<cbc:RequestedPublicationDate>```*
+### Erläuterung der Felder:
 
-- Der *Tag der Absendung der Bekanntmachungen* (Dispatch Date - BT-05) muss im Zeitraum von `heute -2 Tage` bis `heute +2 Tage` liegen. Wenn heute zum Beispiel der 05.06.2023 ist, muss das Dispatch Date entweder 03.06.2023, 04.06.2023, 05.06.2023 oder 06.06.2023 sein. 
-- Das *Bevorzugte Veröffentlichungsdatum* (Requested Publication Date - BT-738) muss mindestens zwei Tage nach dem Dispatch Date liegen. Der Vorteil am verpflichtenden zeitliche Abstand zum Tag der Absendung liegt darin, dass es immer mindestens zwei Tage gibt, die Bekanntmachung bei Bedarf noch vor Veröffentlichung zu stoppen und zu korrigieren. Hierfür wurde eine neue Stop-Funktion im Vermittlungsdienst geschaffen. Weitere Details dazu finden Sie hier:  [Change Notices/Updates & STOP Publication-Funktionalität](/documentation/STOP%20update%20%26%20change%20notices.md). 
-Das Bevorzugte Veröffentlichungsdatum darf maximal 60 Tage nach dem Dispatch Date liegen. Damit wird die Aktualität einer Bekanntmachung zum Zeitpunkt der Veröffentlichung gewährleistet.
+BT-05 (Dispatch Date): <cbc:IssueDate> : Dieses Feld stellt den Versendungszeitpunkt der Bekanntmachung dar. Es wird empfohlen, dieses Datum automatisch bei Versendung durch das System setzen zu lassen. Bei Testdateien wir empfohlen, den Wert immer auf das aktuelle Datum zu setzen. Das Datum sollte nicht künstlich in die Vergangenheit gesetzt werden. 
 
-#### Beispiele von validen Kombinationen von Datumsangaben:
-
-| Heute                      | 05.06.2023 |
-|----------------------------|------------|
-| Dispatch Date              | 04.06.2023 |
-| Requested Publication Date | 07.06.2023 |
+BT-738 (Preferred Publication Date): <cbc:RequestedPublicationDate> : Dieses Feld dient zur expliziten Angabe, wann eine Bekanntmachung veröffentlicht werden soll
 
 
-| Heute                      | 05.06.2023 |
-|----------------------------|------------|
-| Dispatch Date              | 06.06.2023 |
-| Requested Publication Date | 04.08.2023 |
+### Ausgangslage Regeln in EU und DE:
+
+_eForms-EU 1.5_
+
+- BT-05 (Dispatch Date) ist verpflichtend und BT-738 (Preferred Publication Date) ist optional (Regel BR-BT-00005-0150)
+- Das BT-738 (Preferred Publication Date) darf maximal 92 Tage in der Zukunft liegen und muss nach dem BT-05 (Dispatch Date) liegen (Regel BR-BT-00738-0053)
+- Wenn das BT-738 (Preferred Publication Date) nicht befüllt ist, wird eine Veröffentlichung "as soon as possible" durchgeführt
+
+Quellen:
+https://github.com/OP-TED/eForms-SDK/blob/1.5.1/schematrons/static/validation-stage-5.sch
+
+_eForms-EU 1.7_
+
+- BT-05 (Dispatch Date) ist verpflichtend und BT-738 (Preferred Publication Date) ist optional (Regel BR-BT-00005-0150)
+- Das BT-738 (Preferred Publication Date) darf maximal 60 Tage in der Zukunft liegen und muss mindestens 2 Tage nach dem BT-05 (Dispatch Date) liegen (Regel BR-BT-00738-0053)
+- Wenn das BT-738 (Preferred Publication Date) nicht befüllt ist, wird eine Veröffentlichung "as soon as possible" durchgeführt
+- BT-05 (Dispatch Date) muss zwischen gestern und morgen liegen (Dynamische Regel)
+
+Quellen:
+https://github.com/OP-TED/eForms-SDK/blob/1.7.0/schematrons/static/validation-stage-5.sch
+https://github.com/OP-TED/eForms-SDK/blob/1.7.0/schematrons/dynamic/validation-stage-6b.sch
+
+_eForms-DE (1.0.1 & 1.1.0)_
+
+- Alle statischen EU Regeln der jeweiligen Version greifen
+- Das BT-738 (Preferred Publication Date) ist verpflichted
+
+Quellen: https://xeinkauf.de/app/uploads/2023/03/specification-eforms-de-v1.0.1.pdf
+https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf
+
+### Derzeitige Problematik VOR Schematron Release 0.5.3 bzw. 0.6.1
+
+Durch die Verpflichtung der Angabe des BT-738 (Preferred Publication Date) ist es in Kombination mit den geltenden EU-Regeln nicht möglich, eine Veröffentlichung bei TED "as soon as possible" durchführen zu lassen, da dies nur geschieht, wenn das Feld leer gelassen wird. Mit den geltenden Einschränkungen ist es nur zulässig, das BT-738 (Preferred Publication Date) mindestens einen Tag (eforms-DE 1.0.1) bzw. mindestens zwei Tage (eforms-DE 1.1.0) nach dem BT-05 (Dispatch Date) liegen muss. Somit ist eine Veröffentlichung bei TED "as soon as possible" nicht möglich.
 
 
+### Lösung mit Schematron Release 0.5.3 bzw. 0.6.1
+
+Die bestehende EU Regel BR-BT-00738-0053 zur Einschränkung des BT-738 (Preferred Publication Date) wird ausgesetzt und durch neue DE-Regeln ersetzt (SR-BT-738-1 and SR-BT-738-P60D). Dadurch werden folgende Eingaben zulässig:
+
+_eForms-DE 1.0.1_
+- Das BT-738 (Preferred Publication Date) darf am selben Tag liegen wie das BT-05 (Dispatch Date)
+- Das BT-738 (Preferred Publication Date) darf einen Tag nach dem BT-05 (Dispatch Date) liegen
+- Das BT-738 (Preferred Publication Date) darf 2-92 Tage nach dem BT-05 (Dispatch Date) liegen
+
+_eForms-DE 1.1.0_
+
+- Das BT-738 (Preferred Publication Date) darf am selben Tag liegen wie das BT-05 (Dispatch Date)
+- Das BT-738 (Preferred Publication Date) darf einen Tag nach dem BT-05 (Dispatch Date) liegen
+- Das BT-738 (Preferred Publication Date) darf 2-60 Tage nach dem BT-05 (Dispatch Date) liegen
+
+WICHTIG: Wenn das BT-738 (Preferred Publication Date) weniger als 2 Tage nach dem BT-05 (Dispatch Date) liegt, dann wird das Feld BT-738 (Preferred Publication Date) im eSender-Hub entfernt, bevor an TED versendet wird. Damit wird ermöglicht, dass TED eine Veröffentlichung "as soon as possible" durchführt. So wird eine Kompatibilität mit den EU-Regeln sichergestellt.
+
+### Umsetzung der Lösung
+
+_Schematron-Regeln_
+
+Die neuen Regeln zum Ersetzen der EU Regeln wurden bereits durch die KoSIT veröffentlicht:
+
+Schematron release für eForms-DE 1.0.1:
+https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3
+
+Schematron release für eForms-DE 1.1.0
+https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1
+
+_SDK-DE_
+
+Die neuen Regeln wurde im SDK-DE 1.1.0 bereits eingebaut. Für das SDK-DE 1.0.1 wird ein Fix am 25.08.2023 erwartet.
+
+_Datenservice öffentlicher Einkauf_
+
+Der DöE baut sowohl die neuen Schematron Regeln als auch die Umwandlung im eSender-Hub derzeit ein. Diese Änderungen werden mit dem nächsten Release in KW 39 veröffentlicht und sind dann testbar. 
 
 ## Erstellung von eForms in Verbindung mit im alten Vergabeformat bei TED eingereichten Bekanntmachungen
 >**nicht eForms-DE spezifisch**
