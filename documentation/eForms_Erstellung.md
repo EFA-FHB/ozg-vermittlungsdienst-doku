@@ -90,13 +90,14 @@ https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3
 Schematron release für eForms-DE 1.1.0
 https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1
 
-_SDK-DE_
-
-Die neuen Regeln wurde im SDK-DE 1.1.0 bereits eingebaut. Für das SDK-DE 1.0.1 wird ein Fix am 25.08.2023 erwartet.
 
 _Datenservice öffentlicher Einkauf_
 
 Der DöE baut sowohl die neuen Schematron Regeln als auch die Umwandlung im eSender-Hub derzeit ein. Diese Änderungen werden mit dem nächsten Release in KW 39 veröffentlicht und sind dann testbar. 
+
+_SDK-DE_
+
+Die neuen Regeln wurde im SDK-DE SDK-DE 1.0.1 und 1.1.0 bereits eingebaut. 
 
 ## Erstellung von eForms in Verbindung mit im alten Vergabeformat bei TED eingereichten Bekanntmachungen
 >**nicht eForms-DE spezifisch**
