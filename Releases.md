@@ -25,7 +25,7 @@ Status: In Entwicklung<br>
 - ...
 
 ### Validator
-- Schematron Updates für e-Forms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1) und 1.0.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3)
+- Schematron Updates für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1) und 1.0.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3)
 - ...
 </details>
 <br>
@@ -47,12 +47,12 @@ Status: In QA <br>
 >Staging Umgebung https://staging.ozg-vermittlungsdienst.de<br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
-- Initiale Unterstützung von eForms-DE 1.1
+- Initiale Unterstützung von eForms-DE 1.1 (Schematron https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.0) 
 - Neuer Job für re-sync von Statusinformationen
 - ...
 
 ### eSender-Hub
- - Initiale eFormsDE 1.1 -> eForms SDK 1.7 Transformation  
+ - Initiale eForms-DE 1.1 -> eForms-EU 1.7 Transformation  
  - ...
 </details>
 <br>
