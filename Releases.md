@@ -12,7 +12,7 @@
 
 Status: In Entwicklung<br>
 <details>
-<summary>Release notes (In Bearbeitung)</summary>
+<summary>Release notes (In Arbeit)</summary>
 
 ### Vermittlungsdienst
 >**Umgebungen** <br>
