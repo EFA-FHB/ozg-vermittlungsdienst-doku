@@ -3,12 +3,68 @@
 [Übersicht](/Readme.md)
 <br>
 
-## Geplantes Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub
-| Umgebung Vermittlungsdienst  | Zeitraum              |  BKMS                      | Status |
+## Geplantes Release für eForms-DE 1.1 und 1.0.1 schematron updates, transformation in eSender-Hub und unterstützung von der neuen BKMS Autorisierung - Vermittlungsdienst und eSender-Hub
+| Umgebung Vermittlungsdienst  | Zeitraum              | BKMS                      | Status |
 |------------|-----------------------|---------------------------|--------|
-| Preview    | KW34                  | noch nicht unterstützt    |        |
-| Staging    | KW35, spätestens KW36 | unterstützt in Alpha      |        |
-| Produktion | KW37                  | unterstützt in Produktion |        |
+| Preview    | KW37                  | unterstützt in Alpha      |        |
+| Staging    | KW38, spätestens KW39 | unterstützt in Alpha      |        |
+| Produktion | KW39                  | unterstützt in Produktion |        |
+
+Status: bereit für die Entwicklung<br>
+<details>
+<summary>Release notes (In Bearbeitung)</summary>
+
+### Vermittlungsdienst
+>**Umgebungen** <br>
+>Preview Umgebung https://preview.ozg-vermittlungsdienst.de<br>
+>Staging Umgebung https://staging.ozg-vermittlungsdienst.de<br>
+>Production Umgebung https://ozg-vermittlungsdienst.de<br>
+
+- Neue BKMS Autorisierung wurde implementiert
+- ...
+
+### eSender-Hub
+- eFormsDE 1.1 -> eForms SDK 1.7 Mapping wurde hinzugefügt
+- Neue transformation bezüglich 'requestedPublicationDate' wurden implementiert
+- ...
+
+### Validator
+- Schematron updates für eFroms-DE 1.1 und 1.0.1 wurden hinzugefügt
+- ...
+</details>
+<br>
+
+## Geplantes Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub
+| Umgebung Vermittlungsdienst  | Zeitraum              |  BKMS                      | Status         |
+|------------|-----------------------|---------------------------|----------------|
+| Preview    | KW34                  | noch nicht unterstützt    | veröffentlicht |
+| Staging    | KW35, spätestens KW36 | unterstützt in Alpha      |                |
+| Produktion | KW37                  | unterstützt in Produktion |                |
+
+Status: In Entwicklung<br>
+<details>
+<summary>Release notes (In Bearbeitung)</summary>
+
+### Vermittlungsdienst
+>**Umgebungen** <br>
+>Preview Umgebung https://preview.ozg-vermittlungsdienst.de<br>
+>Staging Umgebung https://staging.ozg-vermittlungsdienst.de<br>
+>Production Umgebung https://ozg-vermittlungsdienst.de<br>
+
+**WICHTIG:**
+> Autorisation über apiKey in Tenant ist nicht mehr möglich
+
+- Unterstützung von eForms-DE 1.1 wurde implementiert
+- Zertifikate wurden aus den Tenants ausgelagert und werden pro Umgebung verwendet
+- Ein neuer Job für die re-sync von den Status wurde implementiert
+- ...
+
+### eSender-Hub
+ - eFormsDE 1.1 -> eForms SDK 1.7 Mapping wurde hinzugefügt
+ - Eine zusätzliche Log-Ebene wurde hinzugefügt
+ - ...
+</details>
+<br>
 
 ## Release Offline-Validator für eForms-DE 1.0.1 und 1.1.0
 Status: Veröffentlicht 14.08.2023<br>
@@ -92,4 +148,3 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 </details>
 <br>
 </details>
-
