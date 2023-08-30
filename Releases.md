@@ -34,7 +34,7 @@ Status: In Entwicklung<br>
 | Umgebung Vermittlungsdienst  | Zeitraum              |  BKMS                      | Status         |
 |------------|-----------------------|---------------------------|----------------|
 | Preview    | KW34                  | noch nicht unterstützt    | veröffentlicht |
-| Staging    | KW35, spätestens KW36 | unterstützt in Alpha      |                |
+| Staging    | KW35, spätestens KW36 | unterstützt in Alpha      | veröffentlicht |
 | Produktion | KW37                  | unterstützt in Produktion |                |
 
 Status: In QA <br>
@@ -47,7 +47,8 @@ Status: In QA <br>
 >Staging Umgebung https://staging.ozg-vermittlungsdienst.de<br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
-- Initiale Unterstützung von eForms-DE 1.1 (Schematron https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.0) 
+- Initiale Unterstützung von eForms-DE 1.1 (Schematron https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.0)
+- Neuer Endpunkt für Visualisierung von eingelieferten eForms-DE Dokumenten /notice-viewer/{trackingCode}
 - Neuer Job für re-sync von Statusinformationen
 - ...
 
