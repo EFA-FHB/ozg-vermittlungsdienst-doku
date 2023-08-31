@@ -37,10 +37,12 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
     <tr>
       <td style="text-align: left;">URL</td>
       <td style="text-align: left;">
-        <a class="external-link" href="https://preview.ozg-vermittlungsdienst.de" rel="nofollow">https://preview.ozg-vermittlungsdienst.de</a>
+        bis 15.09.2023: <a class="external-link" href="https://preview.ozg-vermittlungsdienst.de" rel="nofollow">https://preview.ozg-vermittlungsdienst.de</a> <br>
+        ab 30.08.2023: <a class="external-link" href="https://preview-ozg-vermittlungsdienst.de" rel="nofollow">https://preview-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
-        <a class="external-link" href="https://staging.ozg-vermittlungsdienst.de" rel="nofollow">https://staging.ozg-vermittlungsdienst.de</a>
+        bis 15.09.2023: <a class="external-link" href="https://staging.ozg-vermittlungsdienst.de" rel="nofollow">https://staging.ozg-vermittlungsdienst.de</a> <br>
+        ab 30.08.2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
         <a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">https://ozg-vermittlungsdienst.de</a>
@@ -55,10 +57,10 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
     <tr>
       <td style="text-align: left;">eForms Validator</td>
       <td style="text-align: left;">
-        <a href="https://preview-validator.ozg-vermittlungsdienst.de">https://preview-validator.ozg-vermittlungsdienst.de</a>
+        <a class="external-link" href="https://validator.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://validator.preview-ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
-        <a href="https://staging-validator.ozg-vermittlungsdienst.de">https://staging-validator.ozg-vermittlungsdienst.de</a>
+        <a href="https://validator.staging-ozg-vermittlungsdienst.de/">https://validator.staging-ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
         <a href="https://validator.ozg-vermittlungsdienst.de">https://validator.ozg-vermittlungsdienst.de</a>
@@ -81,13 +83,13 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
         <p>Account Management (Keycloak)</p>
       </td>
       <td style="text-align: left;">
-        <a href="https://account-management-preview.efa-fhb.apps-int.nortal.com/" rel="nofollow">https://account-management-preview.efa-fhb.apps-int.nortal.com/</a>
+        <a href="https://account-management.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.preview-ozg-vermittlungsdienst.de/</a>
         <span style="color: rgb(23,43,77);">
           <span> </span>
         </span>
       </td>
       <td style="text-align: left;">
-        <a href="https://staging-account-management.ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://staging-account-management.ozg-vermittlungsdienst.de/</a>
+        <a href="https://account-management.staging-ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.staging-ozg-vermittlungsdienst.de//</a>
       </td>
       <td style="text-align: left;">
         <a href="https://account-management.ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.ozg-vermittlungsdienst.de/</a>
