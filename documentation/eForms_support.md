@@ -25,7 +25,7 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 | eForms-EU 1.0   | ja, aber nur für Unterschwellenvergabe | nein | nein  | ja, aber nur für Unterschwellenvergabe | nein    |
 | eforms-EU 1.5   | nur in der Preview-Umgebung, NICHT in Prod  | ja |  ja | nein  | ja, bis 31.01.2024  |
 | eForms-DE 1.0.1 (schematron 0.5.2) | ja | ja | ja |  ja | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.5.1, bis 31.01.2024  |
-| eForms-DE 1.1  | geplante Unterstützung in KW37 2023 |  geplante Unterstützung in KW37 2023 | ja | geplante Unterstützung in KW37 2023 | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.7.0<br><br>geplante Unterstützung in KW37 2023, bis 11.05.2024 |
+| eForms-DE 1.1  | geplante Unterstützung in KW37 2023 |  geplante Unterstützung in KW37 2023 | ja | geplante Unterstützung in KW37 2023 | ja, nach Umwandlung im eSender-Hub in eForms-EU 1.7.0, geplante Unterstützung in KW37 2023, bis 11.05.2024 |
 
 <br>
 
