@@ -16,8 +16,8 @@ Status: In Entwicklung<br>
 
 ### Vermittlungsdienst
 >**Umgebungen** <br>
->Preview Umgebung https://preview-ozg-vermittlungsdienst.de<br>
->Staging Umgebung https://staging-ozg-vermittlungsdienst.de<br>
+>NEU: Preview Umgebung https://preview-ozg-vermittlungsdienst.de<br>
+>NEU: Staging Umgebung https://staging-ozg-vermittlungsdienst.de<br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
 ### eSender-Hub
