@@ -43,8 +43,8 @@ Status: In QA <br>
 
 ### Vermittlungsdienst
 >**Umgebungen** <br>
->Preview Umgebung https://preview.ozg-vermittlungsdienst.de<br>
->Staging Umgebung https://staging.ozg-vermittlungsdienst.de<br>
+>Preview Umgebung bis 15.09.2023: https://preview.ozg-vermittlungsdienst.de, ab 30.08.2023: https://preview-ozg-vermittlungsdienst.de <br>
+>Staging Umgebung bis 15.09.2023: https://staging.ozg-vermittlungsdienst.de,  ab 30.08.2023: https://staging-ozg-vermittlungsdienst.de <br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
 - Initiale Unterstützung von eForms-DE 1.1 (Schematron https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.0)
