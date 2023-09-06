@@ -1,9 +1,5 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Dokumentation Vermittlungsdienst
-[Übersicht](/Readme.md)
-<br>
-
-## Inhalte
 Anbindung:
   - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
   - [Verfügbare Systemumgebungen](Development_environments.md)
