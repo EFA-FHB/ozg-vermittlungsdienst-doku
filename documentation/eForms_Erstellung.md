@@ -63,7 +63,7 @@ Durch die Verpflichtung der Angabe des BT-738 (Preferred Publication Date) ist e
 
 ### Lösung mit Schematron Release 0.5.3 bzw. 0.6.1
 
-Die bestehende EU Regel BR-BT-00738-0053 zur Einschränkung des BT-738 (Preferred Publication Date) wird ausgesetzt und durch neue DE-Regeln ersetzt (SR-BT-738-1 and SR-BT-738-P60D). Dadurch werden folgende Eingaben zulässig:
+Die bestehenden EU Regel BR-BT-00005-0150 & BR-BT-00738-0053 zur Einschränkung des BT-738 (Preferred Publication Date) werden ausgesetzt und durch neue DE-Regeln ersetzt (SR-BT-738-1 and SR-BT-738-P60D). Dadurch werden folgende Eingaben zulässig:
 
 _eForms-DE 1.0.1_
 - Das BT-738 (Preferred Publication Date) darf am selben Tag liegen wie das BT-05 (Dispatch Date)
