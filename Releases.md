@@ -4,7 +4,7 @@
 <br>
 
 
-## Release für Self-Service Portal 
+## Geplantes Release für Self-Service Portal 
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | Doku: KW38 , Statusübersicht: KW39         |          |
