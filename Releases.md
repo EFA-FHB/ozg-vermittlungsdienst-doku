@@ -7,9 +7,9 @@
 ## Geplantes Release für Self-Service Portal 
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | Doku: KW38 , Statusübersicht: KW39         |          |
-| Staging    | Doku: KW39  , Statusübersicht: KW40        |             |
-| Produktion | Doku: KW40 , Statusübersicht KW41          |                |
+| Preview    | Doku + Registrierungsformular: **KW38** , Statusübersicht: **KW39**         |          |
+| Staging    | Doku + Registrierungsformular: **KW39**  , Statusübersicht: **KW40**        |             |
+| Produktion | Doku + Registrierungsformular: **KW40** , Statusübersicht **KW41**          |                |
 
 Status: In Entwicklung <br>
 <details>
@@ -21,13 +21,13 @@ Status: In Entwicklung <br>
 >NEU: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEU: Production https://portal.ozg-vermittlungsdienst.de<br>
 
-### Doku
+### Feature Dokumentation anzeigen + Registrierungsformular
 - Volle Dokumentation im Portal inkl. Releases und Maintenance Seiten
-- Registrierungsform für Beantragung neuer Vermittlungsdienst Accounts
+- Registrierungsformular für Beantragung neuer Vermittlungsdienst Accounts
   1.  Erstellen eines neuen Portal-Accounts
   2.  Ausfüllen der Registrierungsform für einen separaten Vermittlungsdienst-Account
 
-### Statusübersicht
+### Feature Statusübersicht von Bekanntmachungen
 - Statusübersicht aller eingelieferten Bekanntmachungen für Vermittlungsdienst Accounts 
   
 </details>
@@ -37,9 +37,9 @@ Status: In Entwicklung <br>
 ## Geplantes Release für RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer
 | Umgebung Vermittlungsdienst  | Zeitraum              | BKMS                      | Status |
 |------------|-----------------------|---------------------------|--------|
-| Preview    | nur RequestedPublicationDate Fix: KW37,  Alles andere: 27.09.                 | unterstützt in Alpha      |        |
-| Staging    | verschoben: KW40    | unterstützt in Alpha      |        |
-| Produktion | verschoben: KW41                  | unterstützt in Produktion |        |
+| Preview    | nur RequestedPublicationDate Fix: **KW37**,  Alles andere: **KW39**                 | unterstützt in Alpha      |        |
+| Staging    | verschoben: **KW40**    | unterstützt in Alpha      |        |
+| Produktion | verschoben: **KW41**                  | unterstützt in Produktion |        |
 
 Status: In Entwicklung<br>
 <details>
@@ -60,7 +60,7 @@ Status: In Entwicklung<br>
 Verfügbar als Standalone Webservice mit Token-Authentifizierung (gleicher Token wie im Vermittlungsdienst kann genutzt werden) für Upload von XML Dateien und als Endpunkt im Vermittlungsdienst für Rendering von bereits eingelieferten Bekanntmachungen anhand der 
 
 ### eSender-Hub
-- Neue Transformation von eForms-DE zu eForms-EU bezüglich 'requestedPublicationDate'
+- Neue Transformation von eForms-DE zu eForms-EU bezüglich 'requestedPublicationDate', ausführliche Erklärung [hier](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md)
 - ...
 
 ### Validator
@@ -77,9 +77,9 @@ Verfügbar als Standalone Webservice mit Token-Authentifizierung (gleicher Token
 ## Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub
 | Umgebung Vermittlungsdienst  | Zeitraum              |  BKMS                      | Status         |
 |------------|-----------------------|---------------------------|----------------|
-| Preview    | KW34                  | noch nicht unterstützt    | veröffentlicht |
-| Staging    | KW35, spätestens KW36 | unterstützt in Alpha      | veröffentlicht |
-| Produktion | KW37                  | unterstützt in Produktion |                |
+| Preview    | **KW34**                  | noch nicht unterstützt    | veröffentlicht |
+| Staging    | **KW35**, spätestens **KW36** | unterstützt in Alpha      | veröffentlicht |
+| Produktion | **KW37**                  | unterstützt in Produktion |                |
 
 Status: In QA <br>
 <details>
