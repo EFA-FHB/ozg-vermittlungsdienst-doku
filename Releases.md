@@ -7,8 +7,8 @@
 | Umgebung Vermittlungsdienst  | Zeitraum              | BKMS                      | Status |
 |------------|-----------------------|---------------------------|--------|
 | Preview    | KW37                  | unterstützt in Alpha      |        |
-| Staging    | KW38, spätestens KW39 | unterstützt in Alpha      |        |
-| Produktion | KW39                  | unterstützt in Produktion |        |
+| Staging    | verschoben: KW40    | unterstützt in Alpha      |        |
+| Produktion | verschoben: KW41                  | unterstützt in Produktion |        |
 
 Status: In Entwicklung<br>
 <details>
