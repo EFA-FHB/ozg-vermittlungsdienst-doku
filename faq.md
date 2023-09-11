@@ -10,6 +10,53 @@
 
 ## Datenservice Öffentlicher Einkauf
 
+### Anbindung
+
+<details>
+<summary>
+Pro Registrierung muss eine E-Mail Adresse als Benutzername angegeben werden. Ist es möglich dieselbe E-Mail-Adresse für mehrere Systeme anzugeben?
+</summary>
+<br>
+Generell erfragen wir zwei Emails pro Account (teils auch als Mandant bezeichnet): Eine Accountemail zur Aktivierung des Accounts und eine Kontaktemail. Es wird eine individuelle Email pro Account zur Aktivierung benötigt, um das Passwort für den Account zu setzen und eine eindeutige Authentifizierung mit der Kombination aus Email und Passwort zu ermöglichen. Die Account-Email kann aber auch ein Funktionspostfach sein und wird nur zur Verwaltung des Accounts benötigt. Die Kontakt-Emailadresse wird nur genutzt, falls beim Betrieb Fragen aufkommen zu einer Bekanntmachung, die von diesem Account versendet wurden. Kontakt-Email und Account Email dürfen bei Bedarf identisch sein und dieselbe Kontakt-Email (z.b. ein zentraler Ansprechpartner) darf bei mehreren Accounts verwendet werden. Es können allerdings zwischen den Systemumgebungen Ihre Account E-Mail je einmal wiederverwenden, zum Beispiel dieselbe Account Mail-Adresse für Preview, Staging und Production. Generell empfehlen wir einen Account pro Vergabeplattform.
+</details>
+<br>
+
+<details>
+<summary>
+Bei der Accounterstellung muss eine Kontaktemail eines FVH angegeben werden. Wozu wird diese verwendet?
+</summary>
+<br>
+Diese Email wird verwendet, wenn wir proaktiv auf Sie zugehen wollen. Dies kann der Fall sein, wenn es beispielsweise Auffälligkeiten mit ihrem Account oder den eingelieferten Bekanntmachungen gibt oder wir generelle Informationen an alle Accountverantwortlichen versenden. 
+</details>
+<br>
+
+<details>
+<summary>
+Können mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts empfehlen sich jeweils für Preview und Staging?
+</summary>
+<br>
+Senden Sie uns gern eine Liste von benötigten Accounts an oeffentliche-vergabe-support@nortal.com Inklusive aller benötigter Informationen pro Account. Wir empfehlen, auf Staging exakt so viele Accounts zu verwenden, wie sie für Produktion planen, zu nutzen. Zusätzlich sind natürlich beliebig viele Testaccounts auf Preview und Staging möglich.  
+</details>
+<br>
+
+<details>
+<summary>
+Kann Zugriff auf die BKMS Alpha-Umgebung gewährt werden?
+</summary>
+<br>
+Wenn nötig kann ein Zugriff auf die BKMS Alpha-Umgebung beantragt werden. Senden Sie hierfür bitte eine Anfrage an oeffentliche-vergabe-support@nortal.com. Beachten Sie aber, dass dies einige Zeit in Anspruch nehmen kann, da eine manuelle Prüfung durchgeführt wird. 
+</details>
+<br>
+
+<details>
+<summary>
+Zur Anforderung von Zugängen soll die URL der Vergabeplattform angegeben werden. Wozu dient diese Angabe?
+</summary>
+<br>
+Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden zu können, Ihnen den korrekten Zugang zu ermöglichen und Duplikate zu vermeiden. Vergabeplattformen sind die Systeme, in denen Bekanntmachungen veröffentlicht werden, die URL der Vergabeplattform kann so z.B. alpha.oeffentlichevergabe.de (Test-Umgebung BKMS) sein. Diese URL dient dazu, zu identifizieren, auf welcher Plattform Sie Ihre Bekanntmachungen derzeit veröffentlichen. Zu diesem Thema ist uns bewusst, dass es hier unterschiedliche Vorgehensweisen je nach Struktur des Systems der jeweiligen FVH geben kann. Prinzipiell gilt, dass sie einen Account pro System benötigen, dass zukünftig in den Vermittlungsdient einliefern soll. Wenn Sie unsicher sind, welche Systeme/ Plattformen für Sie an den DöE anzuschließen sind, unterstützen wir Sie gern bei dieser Entscheidung. Senden Sie uns dazu gern eine Anfrage an oeffentliche-vergabe-support@nortal.com. 
+</details>
+<br>
+
 ### Roadmap
 
 <details>
@@ -92,7 +139,7 @@ Wie kann für ein Release ermittelt werden, welche Versionen der Teilkomponenten
 <br>
 Unter [eForms Unterstützung](/documentation/eForms_support.md) ist dokumentiert welche eForms-Versionen die Teilkomponenten unterstützen.
 <br>
-Alle Versionen außer eForms-DE 1.0.1 werden nur noch vorübergehend unterstützt!
+Für jedes Release verffentlichen wir releasenotes, um zu beschreiben, welche Komponente welche Version unterstützt. Die Versionen eForms-DE 1.0.1 und 1.1.0 werden ab 13. September in allen Komponenten des Datenservice öffentlicher Einkauf unterstützt. 
 </details>
 <br>
 
@@ -112,6 +159,32 @@ Wir prozessieren dabei den Status, den Zeitpunkt der Einlieferung und wenn gegeb
 <br>
 
 ### API-Vermittlungsservice
+
+<details>
+<summary>
+Wie können Plattformbetreiber die Informationen des CVS-Reports der EU zu einer Bekanntmachung erhalten?</summary>
+<br>
+Alle Fehler und Warnungen aus dem CVS Report werden in den Statusinformationen übergeben. Dabei übergeben wir die ID, den Pfad, den Inhalt und den Text jeder angeschlagenen Regel. Es ist nicht vorgesehen, den CVS Report als Datei zurückzugeben.
+</details>
+<br>
+
+<details>
+<summary>
+In der REST-API-Beschreibung wird von "aktuellen Datenlieferungen" gesprochen. Was ist damit genau gemeint?
+</summary>
+<br>
+Der Endpunkt v1/notices gibt Statusinformationen zu allen Bekanntmachungen zurück, die vom derzeit authentifizierten Mandanten erfolgreich eingeliefert wurden.
+</details>
+<br>
+
+<details>
+<summary>
+Kann auch ein API-Key zur Authentifizierung genutz werden oder nur die Authentifizierung über Token?
+</summary>
+<br>
+Die Authentifikation via API-Keys wird bald abgeschaltet, auch auf Preview. Langfristig können Sie sich nur über die Tokens mit Refresh alle 24h authentifizieren. In Einzelfällen werden API-Keys noch zu Test- und Debuggingzwecken genutzt. 
+</details>
+<br>
 
 <details>
 <summary>
