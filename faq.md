@@ -372,19 +372,105 @@ Losgruppen sind in eForms-DE nicht vorgesehen.
 </details>
 <br>
 
+### Verlinkung 
+
+<details>
+<summary>
+Wie erfolgte die Verlinkung bzw. der Verweis auf vorherige Bekanntmachungen?
+ </summary> 
+  
+ Details zur Verlinkung der Bekanntmachungen siehe
+https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
+
+Weitere Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
+
+</details>
+<br>
+
+
+## Fragen zu BG/BT
+
 ### Nationale Ausschlussgründe (BT-67 exclusion grounds)
 
 <details>
 <summary>
 Weshalb wurden die Codes zu nationalen Ausschlussgründen der Codeliste "Criterion Exclusion Grounds" in der Version eForms-DE v1.1.0 verändert?
 </summary>
+
 <br>
 
 Entfernt wurden lediglich die Codes "ex-os" (Ausschlusshinweise Oberschwelle) und "ex-us" (Ausschlusshinweise Unterschwelle), da stattdessen der in der EU bestehende Code "nati-ground" (rein nationale Ausschlussgründe) verwendet werden kann.
 
 Wir haben das Changelog für sie aktualisiert: https://projekte.kosit.org/eforms/eforms-de-codelist/-/blob/main/CHANGELOG.md.
+  </details>
+<details>
+<summary>
+Welcher Auschlussgrund kann vorbelegt werden, sollten alle Gründe gleichermaßen zutreffen?
+</summary>
+Für den Fall, dass alle Ausschlussgründe gleichermaßen zutreffen, ist "nati-ground" (rein nationale Ausschlussgründe) der umfassendste Code.
 </details>
 <br>
+
+### Bekanntmachung der Ergebnisse (BG-7), Angebot (BG-320 Angebot)
+<details>
+<summary>
+Sollen im Element „Bekanntmachung über die Ergebnisse“ (BG-7) > „Angebot“ (BG-320) nur bezuschlagte oder alle eingegangenen Angebote/Lose gelistet werden?
+</summary>
+<br>
+
+In dieser Frage gelten unverändert die Bestimmungen der jeweiligen Richtlinien und Verordnungen unter welche das Vergabeverfahren fällt. 
+</details>
+<br>
+
+### Keine sofortige Veröffentlichung (BG-8; BT-195/BT196/BT197/BT-198) 
+<details>
+<summary>
+Warum sind Angabe der Befristung der nicht zu veröffentlichenden Felder bei Pflichtfeldern obligatorisch?
+</summary>
+<br>
+
+Die Spezifikation folgt in diesem Punkt dem Implementation Handbook der EU. Es handelt sich um eine Soll-Formulierung, die keine Geschäftsregel erfordert. 
+Details: https://op.europa.eu/en/publication-detail/-/publication/73a78487-cc8b-11ea-adf7-01aa75ed71a1 
+</details>
+<br>
+
+### Fahrzeugklasse (BT-723)
+<details>
+<summary>
+ Hilfestellungen zur Auswahl der Werte der Codeliste für BT-723 Fahrzeugklasse
+</summary>
+<br>
+
+In der finalen Version von eForms-DE-v1.0.1 ist die Codelist für die Fahrzeugklassen angepasst. Es sind nur noch die "Einzelwerte" sind diese zu verwenden.
+
+Eine Hilfestellung ist Anhang II der Rahmenrichtlinie https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32007L0046 zu entnehmen.:
+|Code|Bedeutung|
+|---|---|
+|M1|Leichtes Nutzfahrzeug der Fahrzeugklasse M1 bzw. Pkw (Kraftfahrzeuge für die Personenbeförderung mit höchstens acht Sitzplätzen außer dem Fahrersitz.)|
+|M2|Leichtes Nutzfahrzeug der Fahrzeugklasse M2 	(Kraftfahrzeuge für die Personenbeförderung mit mehr als acht Sitzplätzen außer dem Fahrersitz und einer zulässigen Gesamtmasse bis zu 5 Tonnen.)|
+|N1|Leichtes Nutzfahrzeug der Fahrzeugklasse N1 	(Kraftfahrzeuge für die Güterbeförderung mit einer zulässigen Gesamtmasse bis zu 3,5 Tonnen.)
+|N2|Schweres Nutzfahrzeug der Fahrzeugklasse N2 (Kraftfahrzeuge für die Güterbeförderung mit einer zulässigen Gesamtmasse von mehr als 3,5 Tonnen bis zu 12 Tonnen.)|
+|N3|Schweres Nutzfahrzeug der Fahrzeugklasse N3	(Kraftfahrzeuge für die Güterbeförderung mit einer zulässigen Gesamtmasse von mehr als 12 Tonnen.)|
+|M3|Bus der Fahrzeugklasse M3	(Kraftfahrzeuge für die Personenbeförderung mit mehr als acht Sitzplätzen außer dem Fahrersitz und einer zulässigen Gesamtmasse von mehr als 5 Tonnen.)
+
+</details>
+<br>
+
+### Lose
+<details>
+<summary>
+Wie sind die LOT-Einträge bei "keinem", einen oder mehreren Losen zu verwenden?
+</summary>
+<br>
+
+Laut TED muss, bei 'keinem' Los nur ein technischer Lot eintrag vorhanden sein mit dem Wert LOT-0000. 
+Wenn es zwei Lose gibt, gibt es zwei Lots mit den Werten LOT-0001 und LOT-0002. Bei 5 Losen z.B. LOT-0001, LOT-0002, LOT-0003, LOT-0004, LOT-0005. Die Struktur von LOT-0000 ist komplett identisch wie von jedem anderen LOT, also auch LOT-0001. Lediglich die ID ist anders.
+
+Doku ist hier zu finden: https://docs.ted.europa.eu/eforms/1.5/schema/procedure-lot-part-information.html
+</details>
+<br>
+
+
 
 ### NUTS-Codes
 
