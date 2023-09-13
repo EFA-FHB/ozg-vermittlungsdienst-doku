@@ -21,5 +21,5 @@
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
-|   Vermittlungsdienst Staging + Produktion | 07.09.2023  |  30.09.2023       | Bekanntmachungen können über den /v1/notices/stop/{trackingCode} aktuell nicht gestoppt werden | 
+|   Vermittlungsdienst Staging + Produktion | 07.09.2023  |  13.09.2023       | Bekanntmachungen können über den /v1/notices/stop/{trackingCode} aktuell nicht gestoppt werden | 
 | TED Preview  | 09.08.2023               | 25.08.2023                   | Bekanntmachungen ab dem 09.08.2023 werden durch TED nicht mehr in den Status 'PUBLISHED' gesetzt, sie bleiben in 'ACCEPTED' hängen auf Grund eines Fehlers seitens TED |
