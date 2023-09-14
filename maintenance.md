@@ -6,7 +6,7 @@
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
-| Produktion  | Vermittlungsdienst| 14.09.2023| |vorrübergehend nicht erreichbar | 
+| Produktion  | Vermittlungsdienst| 14.09.2023| 08:00 - 09:30 Uhr | vorrübergehend nicht erreichbar | 
 
 ## Vergangene Wartungsfenster
 
