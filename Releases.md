@@ -94,7 +94,7 @@ Status: veröffentlicht am 13.09.2023 <br>
 - Initiale Unterstützung von eForms-DE 1.1 (Schematron https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.0)
 - Neuer DEMO Endpunkt für Visualisierung von eingelieferten eForms-DE Dokumenten /notice-viewer/{trackingCode} (gibt aktuell nur Beispieldokument zurück)
 - Neuer Job für re-sync von Statusinformationen
-- Diverse Verbessurengen beim Statuswechsel von Bekanntmachungen und bei der Authentifizierung
+- Diverse Verbesserungen beim Statuswechsel von Bekanntmachungen und bei der Authentifizierung
 
 ### eSender-Hub
  - Initiale eForms-DE 1.1 -> eForms-EU 1.7 Transformation  
