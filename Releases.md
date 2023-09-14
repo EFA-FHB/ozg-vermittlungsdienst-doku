@@ -77,28 +77,27 @@ Verfügbar als Standalone Webservice mit Token-Authentifizierung (gleicher Token
 ## Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub
 | Umgebung Vermittlungsdienst  | Zeitraum              |  BKMS                      | Status         |
 |------------|-----------------------|---------------------------|----------------|
-| Preview    | **KW34**                  | noch nicht unterstützt    | veröffentlicht |
-| Staging    | **KW35**, spätestens **KW36** | unterstützt in Alpha      | veröffentlicht |
-| Produktion | **KW37**                  | unterstützt in Produktion |                |
+| Preview    | **KW34** | unterstützt in Alpha      | veröffentlicht |
+| Staging    | **KW35** | unterstützt in Alpha      | veröffentlicht |
+| Produktion | **KW37** | unterstützt in Produktion | veröffentlicht |
 
-Status: In QA <br>
+Status: veröffentlicht am 13.09.2023 <br>
 <details>
-<summary>Release Notes (In Arbeit)</summary>
+<summary>Release Notes</summary>
 
 ### Vermittlungsdienst
 >**Umgebungen** <br>
->Preview Umgebung bis 15.09.2023: https://preview.ozg-vermittlungsdienst.de, ab 30.08.2023: https://preview-ozg-vermittlungsdienst.de <br>
->Staging Umgebung bis 15.09.2023: https://staging.ozg-vermittlungsdienst.de,  ab 30.08.2023: https://staging-ozg-vermittlungsdienst.de <br>
+>Preview Umgebung **bis 15.09.2023**: https://preview.ozg-vermittlungsdienst.de, ab 30.08.2023: https://preview-ozg-vermittlungsdienst.de <br>
+>Staging Umgebung **bis 15.09.2023**: https://staging.ozg-vermittlungsdienst.de,  ab 30.08.2023: https://staging-ozg-vermittlungsdienst.de <br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
 - Initiale Unterstützung von eForms-DE 1.1 (Schematron https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.0)
 - Neuer DEMO Endpunkt für Visualisierung von eingelieferten eForms-DE Dokumenten /notice-viewer/{trackingCode} (gibt aktuell nur Beispieldokument zurück)
 - Neuer Job für re-sync von Statusinformationen
-- ...
+- Diverse Verbessurengen beim Statuswechsel von Bekanntmachungen und bei der Authentifizierung
 
 ### eSender-Hub
  - Initiale eForms-DE 1.1 -> eForms-EU 1.7 Transformation  
- - ...
 </details>
 <br>
 
