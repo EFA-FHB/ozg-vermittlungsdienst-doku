@@ -57,6 +57,24 @@ Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden z
 </details>
 <br>
 
+<details>
+<summary>
+Welche Systemumgebung ist die Umgebung, an die unsere Testsysteme Bekanntmachungen versenden können? Worin besteht der Unterschied zwischen der Preview und Staging Umgebung?
+</summary>
+<br>
+Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespielt und dies ist auch unsere Testumgebung für zukünftige Releases. Die Staging-Umgebung ist eine 100% Kopie der Produktionsumgebung und sollte nur für produktionsnahe Tests genutzt werden. Beide Umgebungen liefern in die Alpha Umgebung des BKMS und TED Preview ein. Auf Staging sollten Ihre Tests genauso durchgeführt werden, wie sie es in Produktion planen, zu tun. Prinzipiell sind aber beide Umgebungen zum Test geeignet.
+</details>
+<br>
+
+<details>
+<summary>
+Wird der Datenservice eine Render-Methode analog der Render-Methoden der EU anbieten? 
+</summary>
+<br>
+Ein Notice-Viewer für das Rendering von eForms-DE Dokumenten in HTML ist bereits in Arbeit und wird vorraussichtlich Mitte/ Ende September veröffentlicht. Der Endpunkt wurde bereits im Vermittlungsdienst auf der Previewumgebung veröffentlicht, damit der Endpunkt bereits eingebunden werden kann. Dieser liefert eine gerenderte Beispieldatei zurück. Feedback und Anregungen nehmen wir gern unter oeffentliche-vergabe-support@nortal.com entgegen.
+</details>
+<br>
+
 ### Roadmap
 
 <details>
@@ -99,6 +117,34 @@ Werden zum Go-live alle 40 EU-Bekanntmachungstypen unterstützt? Wann steht der 
 Es werden alle Dokumententypen aus eForms-DE angenommen (40 für die Oberschwelle und 3 für die Unterschwelle). Wo notwendig werden diese generisch in das eForms-EU Format konvertiert. Dies entspricht den Inhalten des aktuellen eForms-DE Standards.
 </details>
 <br>
+
+<details>
+<summary>
+Ist es möglich ab dem 25.10.2023 weiterhin Bekanntmachungen über eNotices2 einzuliefern? 
+</summary>
+<br>
+Ab dem 25.10.2023 müssen rechtlich alle oberschwelligen Bekanntmachungen im eForms-DE Format über den Datenservice Offentlicher Einkauf eingeliefert werden. Eine direkte Einlieferung über eNotices2 ist nicht standardkonform, da die Anpassungen des eForms-DE Standards nicht berücksichtigt würden und ist rechtlich nicht mehr zulässig. 
+</details>
+<br>
+
+<details>
+<summary>
+Wird der Datenservice Öffentlicher Einkauf auch den TED-2.0.9-XML-Format bis zum Stichtag (25.10.2023) unterstützen? Soll bis zum Stichtag weiter über das alte Format bei TED eingeliefert werden? 
+</summary>
+<br>
+Bis eForms-DE verpflichtend wird, kann noch im alten Format direkt bei TED eingeliefert werden, der Datenservice Öffentlicher Einkauf unterstützt dieses Format allerdings nicht. Der Datenservice kann ausschließlich mit eForms genutzt werden. Ab 25.10. muss zwingend über den Datenservice öffentlicher Einkauf mit dem Format eForms-DE 1.0.1 oder 1.1.0 eingeliefert werden. 
+</details>
+<br>
+
+<details>
+<summary>
+Wird es am 25. Oktober eine Einführung von eForms sowohl für Ober- (EU) als auch Unterschwellenwerte (National) geben oder nur für die EU-Ebene?
+</summary>
+<br>
+Die beiden Standards eForms-EU und eForms-DE sind bereits eingeführt und können genutzt werden. Ab dem 25. Oktober müssen sowohl nationale als auch EU-weite Mitteilungen im Format eForms-DE an die Schlichtungsstelle übermittelt werden. Welche Formate derzeit unterstützt und verarbeitet werden, erfahren Sie in unserer Vorschau unter https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/development/documentation/eForms_support.md.
+</details>
+<br>
+
 
 ### Kommunikationskanäle
 
@@ -143,6 +189,16 @@ Für jedes Release verffentlichen wir releasenotes, um zu beschreiben, welche Ko
 </details>
 <br>
 
+<details>
+<summary>
+Ist die Dokumentation zum Vermittlungsdienst (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) die offizielle Dokumentation?
+</summary>
+<br>
+Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weiteres die offizielle Dokumentation. Langfristig wird die Dokumentation ggf. in ein Portal umgezogen. Hierüber informieren wir Sie rechtzeitig. 
+</details>
+<br>
+
+
 ### Statusmodell
 <details>
 <summary>
@@ -155,6 +211,15 @@ Die folgenden Daten werden von TED zu einer Bekanntmachung zur Verfügung gestel
 ![Daten einer Bekanntmachung von TED](/images/faq/Bekanntmachung_Daten_von_TED.png) 
 
 Wir prozessieren dabei den Status, den Zeitpunkt der Einlieferung und wenn gegeben den Zeitpunkt der Veröffentlichung. Die ABl.-Nummer wird in eNotices2 nicht mehr verwendet. Wenn Sie weitere Daten aus dieser Abfrage benötigen, schreiben Sie uns bitte eine Mail mit Ihren Anforderungen an: oeffentliche-vergabe-support@nortal.com. Gerne organisieren wir einen bilateralen Austausch.
+</details>
+<br>
+
+<details>
+<summary>
+Wie werden abgelehnte Bekanntmachungen in Fehlerzuständen wie 'REJECTED' Status von TED oder einem 'INTERNAL ERROR' Status von BKMS weiter prozessiert? 
+</summary>
+<br>
+Es wird ein internes Monitoring geben, um auf Fehlerzustände (Status InternalError) oder Bugs zu reagieren. Aktuell ist Nortal unter der E-Mail Adresse oeffentliche-vergabe-support@nortal.com der erste Ansprechpartner, wenn Sie Probleme mit Ihren Einlieferungen haben udn Ihre Bekanntmachungen in einen Fehlerstatus laufen. Generell deuten solche Fehlerzustände auf Bugs im DöE, in TED oder in der versendeten Bekanntmachung hin. Wann immer Fehler im System passieren (Beispielsweise bei Ablehnung durch TED), werden diese geloggt, sodass bei Bedarf ein Support Ticket erstellt und eine technische Analyse durchgeführt werden kann. Es wird dann individuell entschieden, welche Maßnahmen zur behebung des Fehlers zielführend sind. Bei technischen Fehlern kann die Bekanntmachung entweder nach Behebung erneut als neue Version versendet oder intern manuell erneut prozessiert werden. Dies ist jedoch vom Einzelfall abhängig. Sollte TED ablehnen besteht die Möglichkeit, dass ein Fehler in der Bekanntmachung existiert, beispilesweise die notice-id bereits genutzt wird. In diesem Fall wird gespeichert, welche Fehlermeldung TED bei der Ablehnung zurückgeliefert hat, sodass entsprechend reagiert werden kann. 
 </details>
 <br>
 
@@ -219,6 +284,15 @@ Wie können Plattformbetreiber die Informationen des CVS-Reports der EU zu einer
 </summary>
 <br>
 Alle Fehler und Warnungen aus dem CVS Report werden zukünftig in den Statusinformationen übergeben. Dabei übergeben wir die ID, den Pfad, den Inhalt und den Text jeder angeschlagenen Regel. Derzeit ist es nicht vorgesehen, den CVS Report als Datei zurückzugeben.
+</details>
+<br>
+
+<details>
+<summary>
+Wird es möglich sein, die online Validator API produktiv zu nutzen?
+</summary>
+<br>
+Derzeit kann keine Verfügbarkeit des Online Validators garantiert werden. Wir prüfen aber gerade, ob ides in Zukunft möglich gemacht werden kann
 </details>
 <br>
 
@@ -489,6 +563,24 @@ Nach Angabe der EU (siehe https://simap.ted.europa.eu/de_DE/web/simap/statistica
 </summary>
 <br>
 Die Beantwortung dieser rechtlichen Fragestellung ist angestoßen und wird nach erfolgter Klärung beantwortet.
+</details>
+<br>
+
+<details>
+<summary>
+Wird es ein neues Portal für interessierte Unternehmen geben, das die jetzige service.bund.de-Seite ersetzt? 
+</summary>
+<br>
+Es ist kein weiteres Portal zum Ersatz von sevice.bund.de geplant. Projektwunsch ist es, dass alle Bekanntmachungen (Ober- und Unterschwelle) im Datenservice Öffentlicher Einkauf vorhanden sind. 
+</details>
+<br>
+
+<details>
+<summary>
+Existiert ein Mapping von XVergabe auf eForms?
+</summary>
+<br>
+Wir als DöE können leider kein Mapping zur XVergabe zur Verfügung stellen. Außerdem ist die Xvergabe bereits veraltet und somit nicht mehr auf dem selben Stand wie eForms
 </details>
 <br>
 
