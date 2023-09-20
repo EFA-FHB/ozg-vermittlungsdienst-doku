@@ -34,8 +34,7 @@ jobs:
           # Required, if the repo is private a Personal Access Token with `repo` scope is needed or GitHub token in a job where the permissions `action` scope set to `read`
           github_token: ${{secrets.GITHUB_TOKEN}}
           # Optional, defaults to current repo
-          # repo: EFA-FHB/file-translator
-          repo: ${{ github.repository }}
+          repo: EFA-FHB/file-translator
           # Optional, check the workflow run to whether it has an artifact
           # then will get the last available artifact from the previous workflow
           # default false, just try to download from the last one
