@@ -33,16 +33,9 @@ jobs:
           # Required, if the artifact is from a different repo
           # Required, if the repo is private a Personal Access Token with `repo` scope is needed or GitHub token in a job where the permissions `action` scope set to `read`
           github_token: ${{secrets.GITHUB_TOKEN}}
-          # Optional, uploaded artifact name,
-          # will download all artifacts if not specified
-          # and extract them into respective subdirectories
-          # https://github.com/actions/download-artifact#download-all-artifacts
-          # is treated as a regular expression if input name_is_regexp is true
-          # will download only those artifacts with a name that matches this regular expression
-          # https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
-          name: file-translator-bin
           # Optional, defaults to current repo
-          repo: EFA-FHB/file-translator
+          # repo: EFA-FHB/file-translator
+          repo: ${{ github.repository }}
           # Optional, check the workflow run to whether it has an artifact
           # then will get the last available artifact from the previous workflow
           # default false, just try to download from the last one
