@@ -32,7 +32,7 @@ jobs:
           # Optional, GitHub token, a Personal Access Token with `public_repo` scope if needed
           # Required, if the artifact is from a different repo
           # Required, if the repo is private a Personal Access Token with `repo` scope is needed or GitHub token in a job where the permissions `action` scope set to `read`
-          github_token: ${{secrets.GITHUB_TOKEN}}
+          github_token: ${{secrets.TRANSLATE_TOKEN}}
           branch: development
           name: file-translator-bin
           # Optional, defaults to current repo
