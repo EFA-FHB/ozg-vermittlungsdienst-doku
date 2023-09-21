@@ -118,7 +118,7 @@ In welchem Zeitrahmen wird ein DE-Update zur Verfügung gestellt, nachdem ein EU
 
 Es ist hierbei zu beachten, dass nicht für jedes EU-Update automatisch ein DE-Update notwendig ist.
 <br>
-Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eForms-DE. Wie beim 1. technischen Arbeitstreffen gemeinsam festgestellt wurde, können wir angesichts noch vorliegenden Unklarheiten über in Kraft treten und Lebensdauer der Versionen des EU-SDK, derzeit noch keine einfache Antwort mit klaren Daten geben. Was feststeht ist, dass eine bestimmte Version eForms-DE sich kompatibel zu einer bestimmten Version eForms-SDK erklärt und dies möglichst zeitnah geschehen soll. Wie derzeit eForms-DE 1.0.1 kompatibel zu eForms-SDK 1.5.1 ist (SDK 1.5.1 wurde am 20. Januar 2023 veröffentlicht und eForms-DE am 5. Februar). D.h. implizit, dass es nicht zu jeder Version eForms-SDK eine Version eForms-DE geben wird.
+Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eForms-DE. Wie beim 1. technischen Arbeitstreffen gemeinsam festgestellt wurde, können wir angesichts noch vorliegenden Unklarheiten über in Kraft treten und Lebensdauer der Versionen des EU-SDK, derzeit noch keine einfache Antwort mit klaren Daten geben. Was feststeht ist, dass eine bestimmte Version eForms-DE sich kompatibel zu einer bestimmten Version eForms-SDK erklärt und dies möglichst zeitnah geschehen soll. Wie derzeit eForms-DE 1.0.1 kompatibel zu eForms-SDK 1.5.1 ist (SDK 1.5.1 wurde am 20. Januar 2023 veröffentlicht und eForms-DE am 5. Februar). D.h. implizit, dass es nicht zu jeder Version eForms-SDK eine Version eForms-DE geben wird. Die aktuelle eForms-DE Version 1.1.0 ist kompatibel zu SDK 1.7. 
 </details>
 <br>
 
@@ -127,10 +127,10 @@ Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eFo
 
 <details>
 <summary>
-Ist der Zeitpunkt für den produktiven Go-live (d.h. vollständige Bereitstellung der kompletten Produktivumgebung) bereits bekannt? Ist der Zeitpunkt für die Bereitstellung des Production Release bereits bekannt?**
+Ist der Zeitpunkt für den produktiven Go-live (d.h. vollständige Bereitstellung der kompletten Produktivumgebung) bereits bekannt? Ist der Zeitpunkt für die Bereitstellung des Production Release bereits bekannt?
 </summary>
 <br>
-Zum aktuellen Standpunkt ist eine technische Pilotphase des Datenservice Öffentlicher Einkauf inklusive eSender-Hub Ende Juni 2023 geplant. Der Start der Pilotphase für eine Anbindung per PEPPOL ist für Ende Juli 2023 geplant. Hier bestehen allerdings Abhängigkeiten zu Zulieferungen der EU und des Expertengremiums eForms. Das Inkrafttreten der rechtlichen Verpflichtung erfolgt zum 25.10.2023; eine entsprechende Freigabe des Bundesrats wird bis Sommer 2023 erwartet.
+Zum aktuellen Standpunkt ist eine technische Pilotphase des Datenservice Öffentlicher Einkauf inklusive eSender-Hub Ende Juni 2023 geplant. Der Start der Pilotphase für eine Anbindung per PEPPOL ist für den 11.10.23 geplant. Hier bestehen allerdings Abhängigkeiten zu Zulieferungen der EU und des Expertengremiums eForms. Das Inkrafttreten der rechtlichen Verpflichtung erfolgt zum 25.10.2023; eine entsprechende Freigabe des Bundesrats wird bis Sommer 2023 erwartet.
 </details>
 <br>
 
@@ -176,7 +176,7 @@ Mit welcher SDK-Version soll der produktive Go-live erfolgen?
 </summary>
 <br>
 
-Unterstützt wird die aktuelle Version 1.0.1 und eine weitere Version voraussichtlich ab September 2023.
+Unterstützt werden die aktuellen Versionen eForms-DE 1.0.1 und 1.1. Es wird nie Nitzung von eForms-DE 1.1.0 empfohlen.
 </details>
 <br>
 
@@ -189,19 +189,9 @@ Wie kann sichergestellt werden, dass Plattformanbieter regelmäßig über Neuigk
 </summary>
 <br>
 Eine Kommunikation erfolgt durch Regelmäßige Informationstermine für die Fachverfahrenshersteller, Ankündigungen per E-Mail, aktuelle Roadmap, Versionshinweise und FAQ sind in dem veröffentlichten Dokumentationsrepository: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku. Ebenfalls gibt es das SDK-eForms-DE Repository: https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.
-
-<u>Erreichbarkeiten:</u>
-
-*Fragen und Verbesserungsvorschläge* gegenüber dem Vermittlungsdienst und dem eSender-Hub können an oeffentliche-vergabe@nortal.com gerichtet werden. Alternativ können Github Issues im Dokumentationsrepository und dem SDK-eForms-DE Repository erstellt werden.
-
-Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs wenden Sie sich bitte an: oeffentliche-vergabe-support@nortal.com.
-
-*Fragen zum Bekanntmachungsservice* können an support-oeffentlichevergabe@bdr.de gerichtet werden.
-
-Wir sind offen für Ihre Vorschläge!
 </details>
-<br>
 
+<br>
 <details>
 <summary>
 Wie kann sichergestellt werden, dass Plattformanbieter regelmäßig über Neuigkeiten bzgl. des eForms-DE Standard/ SDK-eForms-DE informiert bleiben.
@@ -219,6 +209,22 @@ https://www.finanzen.bremen.de/digitalisierung/digitalisierung-von-verwaltungsle
 Fragen zum DE-SDK sind über Issues im Repository zu eröffnen.
 </details>
 <br>
+
+<details>
+<summary> 
+Erreichbarkeiten:
+</summary>
+*Fragen und Verbesserungsvorschläge* gegenüber dem Vermittlungsdienst und dem eSender-Hub können an oeffentliche-vergabe@nortal.com gerichtet werden. Alternativ können Github Issues im Dokumentationsrepository und dem SDK-eForms-DE Repository erstellt werden.
+
+Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs wenden Sie sich bitte an: oeffentliche-vergabe-support@nortal.com.
+
+*Fragen zum Bekanntmachungsservice* können an support-oeffentlichevergabe@bdr.de gerichtet werden.
+
+Wir sind offen für Ihre Vorschläge!
+</details>
+<br>
+
+
 
 ### Dokumentation
 
@@ -356,7 +362,7 @@ Derzeit kann keine Verfügbarkeit des Online Validators garantiert werden. Wir p
 Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
 </summary>
 <br>
-Bis eForms-DE verpflichtend wird, kann noch im alten Format direkt bei TED eingeliefert werden, der Datenservice Öffentlicher Einkauf unterstützt dieses Format allerdings nicht. Der Datenservice kann ausschließlich mit eForms genutzt werden. Wir empfehlen allerdings, bereits ab Start der Pilotphase Einlieferungen im eForms-DE Standard über den Datenservice durchzuführen.
+Bis eForms-DE verpflichtend wird, kann noch im alten Format direkt bei TED eingeliefert werden, der Datenservice Öffentlicher Einkauf unterstützt dieses Format allerdings nicht. Der Datenservice kann ausschließlich mit eForms genutzt werden. Wir empfehlen, bereits ab Start der Pilotphase Einlieferungen im eForms-DE Standard über den Datenservice durchzuführen.
 
 Die Antwortfindung ggü. TED ist weiterhin im Gange.
 </details>
@@ -377,13 +383,23 @@ Es ist derzeit in Klärung mit TED, wie auf eine vorherige Bekanntmachung im alt
 
 <details>
 <summary>
-Wie erfolgte die Verlinkung bzw. der Verweis auf vorherige Bekanntmachungen?
+Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen?
  </summary> 
   
  Details zur Verlinkung der Bekanntmachungen siehe
 https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
 
 Weitere Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
+
+</details>
+<br>
+
+<details>
+<summary>
+Wird OPP-090-Procedure ausschließlich für den Fall alter Bekanntmachungen (altes TED Schema) mit Weiterbearbeitung in eForms genutzt?
+ </summary> 
+  
+Sowohl Change Notices und somit der "Change Notice Version Identifier" (BT-758) als auch "Framework Notice Identifier" (OPT-100) und "Previous Notice" (OPP-090) sind TED spezifische Lösungen, die direkt genutzt werden können.
 
 </details>
 <br>
@@ -416,7 +432,7 @@ Für die ab vorrausichtlich Juni unterstützte Version des nationalen Standards 
 Derzeit scheint der Mediator auch eForm-EU bis SDK-Version 1.5 zu akzeptieren. Wie lange wird dies noch zur Verfügung stehen? Hintergrund ist, dass Vergabestellen häufig längere Zeit (oft Wochen) zwischen Anlage der Bekanntmachung (bzw. Verfahrensstart) und deren Veröffentlichung benötigen. Daher ist ein längerer Zeitraum zwischen Beginn der Produktivstellung der eForms-DE und Abschaltung der eForms-EU notwendig.
 </summary>
 <br>
-Aktuell ist geplant die Unterstützung für eforms-EU 1.5 mit dem Release im Juli abzuschalten, da sie auch im Bekanntmachungsservice nicht unterstützt wird. Falls es notwendig ist, diese oder andere EU Versionen länger zu unterstützen, kann darüber diskutiert werden.
+Aktuell ist geplant, die Unterstützung für eforms-EU 1.5 mit dem Release im Juli abzuschalten, da sie auch im Bekanntmachungsservice nicht unterstützt wird. Falls es notwendig ist, diese oder andere EU Versionen länger zu unterstützen, kann darüber diskutiert werden.
 </details>
 <br>
 
@@ -424,12 +440,14 @@ Aktuell ist geplant die Unterstützung für eforms-EU 1.5 mit dem Release im Jul
 
 <details>
 <summary>
-Wird es für etwaige seltene, jedoch denkbare, Sonderfälle entsprechende Vorgehensmodelle geben, auf die sich bei Eintreten der Fälle berufen werden kann? Hierzu sollen zwei Beispiele dienen:<br>
+Wird es für etwaige seltene, jedoch denkbare, Sonderfälle entsprechende Vorgehensmodelle geben, auf die sich bei Eintreten der Fälle berufen werden kann?<br>
+ </summary>
+ Hierzu sollen zwei Beispiele dienen:
 Beispiel 1:<br>
 Der Vermittlungsdienst nimmt eine Bekanntmachung entgegen, welche laut Vermittlungsdienst/eSenderHub valide ist. Die EU lehnt später die Entgegennahme ab (Status "rejected"), etwa weil die SDK-Version nicht mehr unterstützt wird. Der Plattformbetreiber erhält gemäß Statusmapping den Status "internalError". Wie würde das weitere Vorgehen in dem Falle aussehen?<br>
 Beispiel 2:<br>
 Laut der EU wird demnächst eine Business-Rule eingeführt, die es nicht mehr erlaubt, dass das "dispatch date" in einer Bekanntmachung (Tag der Absendung der Bekanntmachung), welches von den Plattformbetreibern gesetzt wird und der Zeitpunkt der Übermittlung des Datenservice an die EU, max. um 24 Stunden abweichen darf, sonst wird die Annahme durch die EU blockiert. Etwaige technische Probleme im Datenservice müssten somit immer innerhalb von 24 Stunden gelöst werden.
-</summary>
+
 <br>
 Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError) oder Bugs zu reagieren. Es ist derzeit in Klärung, wie diese Supportstruktur zu welchem Zeitpunkt des Betriebs aussehen wird. Zu Beginn ab Juni ist Nortal unter der E-Mail Adresse oeffentliche-vergabe-support@nortal.com der erste Ansprechpartner. Wann immer Fehler im System passieren (Beispielsweise bei Ablehnung durch TED), werden diese geloggt, sodass bei Bedarf ein Support Ticket erstellt und eine technische Analyse durchgeführt werden kann.
 </details>
@@ -467,6 +485,21 @@ Warum sind Angabe der Befristung der nicht zu veröffentlichenden Felder bei Pfl
 Die Spezifikation folgt in diesem Punkt dem Implementation Handbook der EU. Es handelt sich um eine Soll-Formulierung, die keine Geschäftsregel erfordert. 
 Details: https://op.europa.eu/en/publication-detail/-/publication/73a78487-cc8b-11ea-adf7-01aa75ed71a1 
 </details>
+</summary>
+<br>
+
+### Zuschlagskriterien (BG-707, BG-38, BT-53 et al.)
+<details>
+<summary>
+Sind Zuschlagskriterien mit einer Gewichtung nicht anzugeben oder optional?
+</summary>
+<br>
+
+Für Zuschlagskriterien >=10% sind die Angaben sind für eForms-de mandatorisch, für Zuschlagskriterien < 10% bleiben die von TED vorgesehenen Kardinalitäten der Angaben aktuell unverändert.
+
+Es wird dringend empfohlen, auch für die Zuschlagskriterien, deren Gewichtung unter 10% liegt, die Angaben zu erfassen, um die 100% Regel von TED zu erfüllen.
+</details>
+</summary>
 <br>
 
 ### Nationale Ausschlussgründe (BT-67 exclusion grounds)
@@ -481,6 +514,7 @@ Entfernt wurden lediglich die Codes "ex-os" (Ausschlusshinweise Oberschwelle) un
 
 Wir haben das Changelog für sie aktualisiert: https://projekte.kosit.org/eforms/eforms-de-codelist/-/blob/main/CHANGELOG.md.
   </details>
+
 <details>
 <summary>
 Welcher Auschlussgrund kann vorbelegt werden, sollten alle Gründe gleichermaßen zutreffen?
@@ -489,14 +523,66 @@ Für den Fall, dass alle Ausschlussgründe gleichermaßen zutreffen, ist "nati-g
 </details>
 <br>
 
+<details>
+<summary>
+Warum müssen nach GWB zwingende Ausschlussgründe in einer Auftragsbekanntmachung überhaupt ausgewählt bzw. angegeben werden?
+</summary>
+ Motivation ist, dass bei Ausschreibungen nicht nur auf nationale Gesetze verwiesen wird, sondern insbesondere zur Transparenz auch gegenüber Bietern aus dem Ausland Ausschlussgründe explizit aufgeführt werden.
+ </details>
+<br>
+
+<details>
+<summary>
+Was soll eine Vergabestelle in das Feld "Beschreibung" (BT-67(b)-Procedure) je auswählbarem Ausschlussgrund eintragen?
+</summary>
+Die Darstellung wurde für EU-weite und nationale Vergabeverfahren einheitlich gewählt.
+In BT-67 kann eine Erläuterung zu den ausgewiesenen Ausschlussgründen hinterlegt werden.
+</details>
+<br>
+
+### Frühere Planung (BT-125), 
+<details>
+<summary>
+Wie sind die Felder OPP-090-Procedure, BT-125-Lot und BT-1251-Lot technisch (erlaubte Zeichen) und fachlich zu befüllen?
+</summary>
+<br>
+
+Die BT-125(i) & OPP-090 werden mit der UUID (Bekanntmachungsnummer) der EU Vorinformation angegeben oder mit der Amtsblattnummer, um auch auf ältere Vorinformationen zu verweisen.
+
+Für den BT-1251 wird im SDK lediglich eine Längenbeschränkung von 30 Zeichen vorgegeben.
+</details>
+<br>
+<details>
+<summary>
+Für welchen Fall wird BT-125-Lot und BT-1251-Lot genutzt?
+</summary>
+<br>
+
+Eine Vergabestelle hat eine Vorinformation veröffentlicht, in der sie ankündigt, dass zeitnah eine Ausschreibung zu Gegenstand X stattfinden soll. Diese Vorinformation erhält nun eine Bekanntmachungsnummer. Einige Zeit später schreibt die Vergabestelle den Gegenstand X in einer Auftragsbekanntmachung (CN) aus. Im BT-125(i) wird nun die Bekanntmachungsnummer der Vorinformation eingetragen, um auf die Vorinformation, welche bereits vor einiger Zeit veröffentlicht wurde, zu verweisen.
+BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert wurde. Dies geschieht in der Vorinformation in Parts. Also BT-1251 ist die Angabe in welchem Part der Vorinformation informiert wurde.
+</details>
+<br>
+
+
+### Neuauflage des Verfahrens (BT-634)
+
+<details>
+<summary>
+Welchen Nutzen hat  BT-634-Lot in der CN, wenn zum Zeitpunkt der Erstellung der Bekanntmachung noch nicht beurteilt werden kann ob das Verfahren/Los neu ausgeschrieben werden muss.
+</summary>
+<br>
+
+Die Bezeichnung für BT-634 (Neuauflage des Verfahren) ist in Englisch weniger veriwrrend: „Relaunch", also „Neustart“. Der BT-634 soll also nicht für eine Angabe in der Zukunft genutzt werden, sondern als Indikator dafür, ob ein Verfahren bzw. Los zum ausgeschriebenen Gegenstand bereits existiert hat und in der Vergangenheit annulliert wurde. Dann kann mit dem BT-634 auf Verfahrens- oder Losebene die Angabe getätigt werden, ob diese Bekanntmachung der „Neustart“ für die Annullierung einer vorherigen Bekanntmachung ist.
+  </details>
+<br>
+
+
 ### Fahrzeugklasse (BT-723)
 <details>
 <summary>
  Hilfestellungen zur Auswahl der Werte der Codeliste für BT-723 Fahrzeugklasse
 </summary>
 <br>
-
-In der finalen Version von eForms-DE-v1.0.1 ist die Codelist für die Fahrzeugklassen angepasst. Es sind nur noch die "Einzelwerte" sind diese zu verwenden.
 
 Eine Hilfestellung ist Anhang II der Rahmenrichtlinie https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32007L0046 zu entnehmen.:
 |Code|Bedeutung|
@@ -509,6 +595,62 @@ Eine Hilfestellung ist Anhang II der Rahmenrichtlinie https://eur-lex.europa.eu/
 |M3|Bus der Fahrzeugklasse M3	(Kraftfahrzeuge für die Personenbeförderung mit mehr als acht Sitzplätzen außer dem Fahrersitz und einer zulässigen Gesamtmasse von mehr als 5 Tonnen.)
 
 </details>
+<br>
+
+### (Besonders) geeignet für KMU (BT-726)
+
+<details>
+<summary>
+Unschärfen durch den  Zusammenhang zwischen "Besonders geeignet für KMU" (BT-726) und  der Erfassung strukturierter Daten im unstrukturierten Datenfeld  "Zusätzliche Angaben" (BT-300)
+</summary>
+<br>
+
+Die Unschärfen, die sich aus der Erfassung strukturierter Daten in unstrukturierten Feldern ergeben, sind den Beteiligten bewusst, werden aber aktuell als akzeptabel erachtet. Die Vorgehensweise wird als Zwischenlösung gesehen und weiter an einer "sauberen" Lösung gearbeitet.
+Dies geschieht in der Abwägung, dass der BKMS etwaige Daten sofort ab 25. Oktober auswerten kann
+  </details>
+<br>
+
+<details>
+<summary>
+Entfernt der Datenservice diese Informationen, oder werden diese auch zur EU übermittelt?
+</summary>
+<br>
+
+Der eSender-Hub entfernt diese Daten nicht, die Eingaben aus diesem Feld werden auch 1:1 an die EU weitergelitet. Da es sich um ein Textfeld handelt, gibt es hier auch kein technisches Problem. Es kann nur ein Wert für den Beginn des Textfeldes eingefügt werden: #Besonders geeignet für:{freelance ODER selbst ODER startup}#'. Nach dieser Angabe können aber weitere Erläuterungen als Freitext eingefügt werden.
+  </details>
+  
+<br>
+<details>
+<summary>
+Müssen auch die Werte in Klammern mit gesendet werden? z.B. freelance (Besonders geeignet für Freiberufler)
+</summary>
+<br>
+
+Nein, diese Werte  dienen dringlich dem besseren Verständnis der Codes
+  </details>
+<br>
+
+<br>
+<details>
+<summary>
+Wie verhält es sich mit der Lokalisierung, wenn z. B. die Sprache der Bekanntmachung englisch ist und dann im Freitextfeld BT-300 deutsche Begriffe stehen (auch in Bezug auf den Umlaut in Selbstständige)?
+</summary>
+<br>
+
+Prinzipiell erfolgt keine automatische Übersetzung von Feldinhalten, d.h. deutsche Begriffe in den Feldern bleiben deutsch. Die EU hat noch keinen eineitlichen Ansatz zur Lokalisierung beschlossen.
+  </details>
+<br>
+
+<br>
+<details>
+<summary>
+Dürfen darüber hinaus noch weitere Informationen in das Feld geschrieben werden, z. B. durch den Nutzer oder automatisiert durch die Anwendung? 
+</summary>
+<br>
+
+Es ist möglich, nach Angabe des Codes noch einen Freitext einzufügen, solange die Gesamtzeichenbegrenzung eingehalten wird. Zur Verdeutlichung wurde BT-300 um folgenden Hinweis ergänzt:
+"Insofern es notwendig ist wegen der Regel BR-DE-26 einen der Codes (freelance, selbst, startup) anzugeben, so muss der Code in der ersten Zeile angegeben und mit zwei Leerzeilen von sonstigen zusätzlichen Informationen getrennt sein. Das Format der ersten Zeile ist wie folgt definiert: #Besonders geeignet für:{freelance|selbst|startup}."
+  </details>
 <br>
 
 ### Lose
@@ -540,9 +682,35 @@ Losgruppen sind in eForms-DE nicht vorgesehen.
 
 ### NUTS-Codes
 
-*Weitere Informationen zum Umgang mit NUTS-Codes werden hier nachgereicht.*
+<br>
+<details>
+<summary>
+Gibt es eine Codeliste mit Ländercodes, bei denen die Angabe des NUTS Codes nicht möglich ist? 
+</summary>
+<br>
 
+Länderspezifische NUTS-Code-Listen sind im TED SDK vorhanden (https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/country.gc )
+  </details>
+<br>
 
+<details>
+<summary>
+Muss im Umkehrschluss das Land nie angegeben werden, wenn man NUTS Codes angeben kann? 
+</summary>
+<br>
+
+Da das Land Bestandteil des NUTS-Codes ist, ist eine zusätzliche separate Nennung nicht erforderlich.
+  </details>
+<br>
+
+<details>
+<summary>
+Bleibt die Angabe der NUTS-lvl3-Codes weiterhin pflichtig?
+</summary>
+<br>
+Ja, soweit NUTS-Codes vorhanden sind, sind diese anzugeben
+  </details>
+<br>
 
 # Allgemein
 [Zum Anfang](#häufig-gestellte-fragen)
