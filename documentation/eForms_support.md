@@ -48,7 +48,7 @@ Eine Möglichkeit zur Offline Validierung, so wie sie auch der Vermittlungsdiens
 
 ### Validierungs Blacklist
 
-Durch das Nationale Tailoring entstehen Unterschiede zwischen in der EU und national zugelassenen Werten, beispilesweise bei Codellisten und der customizationID: Deshalb müssen bestimmte EU Regeln aübersprungen werden, ob nach deutschem Tailoring valide Dokumente zu validieren. 
+Durch das Nationale Tailoring entstehen Unterschiede zwischen in der EU und national zugelassenen Werten, beispilesweise bei Codellisten und der customizationID: Deshalb müssen bestimmte EU Regeln übersprungen werden, ob nach deutschem Tailoring valide Dokumente zu validieren. 
 
 Die folgenden Regeln sollten ignoriert werden:
 
