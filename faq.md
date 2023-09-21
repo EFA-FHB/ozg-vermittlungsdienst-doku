@@ -98,6 +98,31 @@ Aktuell in Umsetzung: Geplant ist die Einsicht in Statusinformationen für einen
 </details>
 <br>
 
+<details>
+<summary>
+Wird es eine Roadmap bezüglich der Weiterentwicklung des SDK geben? Dies ist für Plattformbetreiber insbesondere vor dem Hintergrund der Anpassungszeitpunkte an neue SDK-EU-Versionen interessant, da das SDK-DE und SDK-EU aktuell in ihrer Versionierung noch auseinandergehen.
+</summary>
+<br>
+
+Die Versionsbezeichnungen der SDK zum jeweiligen nationalen Standard eForms-DE orientieren sich an den Versionsbezeichnungen des Standards eForms-DE. Zu jedem eForms-DE-SDK ist angegeben, auf welcher europäischen SDK-Version diese beruht. (siehe auch Erläuterung auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de)
+
+Es ist nicht geplant, dass zu jeder minor Version des eForms-EU auch eine neue Version eForms-DE veröffentlicht wird. Deshalb wird die Versionierung von eForms-EU und eForms-DE auch in Zukunft nicht direkt übereinstimmen. Es wird aber immer für jede eForms-DE Version exakt eine korrespondierende eForms-EU Version geben.
+</details>
+<br>
+
+<details>
+<summary>
+In welchem Zeitrahmen wird ein DE-Update zur Verfügung gestellt, nachdem ein EU-Update veröffentlicht wurde?
+</summary>
+<br>
+
+Es ist hierbei zu beachten, dass nicht für jedes EU-Update automatisch ein DE-Update notwendig ist.
+<br>
+Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eForms-DE. Wie beim 1. technischen Arbeitstreffen gemeinsam festgestellt wurde, können wir angesichts noch vorliegenden Unklarheiten über in Kraft treten und Lebensdauer der Versionen des EU-SDK, derzeit noch keine einfache Antwort mit klaren Daten geben. Was feststeht ist, dass eine bestimmte Version eForms-DE sich kompatibel zu einer bestimmten Version eForms-SDK erklärt und dies möglichst zeitnah geschehen soll. Wie derzeit eForms-DE 1.0.1 kompatibel zu eForms-SDK 1.5.1 ist (SDK 1.5.1 wurde am 20. Januar 2023 veröffentlicht und eForms-DE am 5. Februar). D.h. implizit, dass es nicht zu jeder Version eForms-SDK eine Version eForms-DE geben wird.
+</details>
+<br>
+
+
 ### Go-Live
 
 <details>
@@ -145,6 +170,16 @@ Die beiden Standards eForms-EU und eForms-DE sind bereits eingeführt und könne
 </details>
 <br>
 
+<details>
+<summary>
+Mit welcher SDK-Version soll der produktive Go-live erfolgen?
+</summary>
+<br>
+
+Unterstützt wird die aktuelle Version 1.0.1 und eine weitere Version voraussichtlich ab September 2023.
+</details>
+<br>
+
 
 ### Kommunikationskanäle
 
@@ -164,6 +199,24 @@ Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs we
 *Fragen zum Bekanntmachungsservice* können an support-oeffentlichevergabe@bdr.de gerichtet werden.
 
 Wir sind offen für Ihre Vorschläge!
+</details>
+<br>
+
+<details>
+<summary>
+Wie kann sichergestellt werden, dass Plattformanbieter regelmäßig über Neuigkeiten bzgl. des eForms-DE Standard/ SDK-eForms-DE informiert bleiben.
+</summary>
+<br>
+
+Die offiziellen Publikation zum Standard eForms-DE erfolgt auf https://xeinkauf.de/eforms-de/ .
+
+Die Publikation des zugehörigen SDK erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de .
+
+Publikationen zum organisatorischen Rahmen siehe:
+
+https://www.finanzen.bremen.de/digitalisierung/digitalisierung-von-verwaltungsleistungen-fuer-unternehmen/digitale-beschaffung-103422
+
+Fragen zum DE-SDK sind über Issues im Repository zu eröffnen.
 </details>
 <br>
 
@@ -322,6 +375,19 @@ Es ist derzeit in Klärung mit TED, wie auf eine vorherige Bekanntmachung im alt
 </details>
 <br>
 
+<details>
+<summary>
+Wie erfolgte die Verlinkung bzw. der Verweis auf vorherige Bekanntmachungen?
+ </summary> 
+  
+ Details zur Verlinkung der Bekanntmachungen siehe
+https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
+
+Weitere Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
+
+</details>
+<br>
+
 ### Akzeptierte SDK-Versionen
 
 <details>
@@ -369,121 +435,16 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 </details>
 <br>
 
-## Standard eForms-DE und SDK-DE
+
+
+# Standard eForms-DE und SDK-DE
+
 [Zum Anfang](#häufig-gestellte-fragen)<br>
 
 **Bitte beachten Sie, dass wir alle Fragen bezüglich eForms gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit durch die KoSIT möglich. Bei weiteren Fragen zum Thema eForms wenden Sie sich gerne per E-Mail an eforms@finanzen.bremen.de** 
 
-### Roadmap
-
-<details>
-<summary>
-Wird es eine Roadmap bezüglich der Weiterentwicklung des SDK geben? Dies ist für Plattformbetreiber insbesondere vor dem Hintergrund der Anpassungszeitpunkte an neue SDK-EU-Versionen interessant, da das SDK-DE und SDK-EU aktuell in ihrer Versionierung noch auseinandergehen.
-</summary>
-<br>
-
-Die Versionsbezeichnungen der SDK zum jeweiligen nationalen Standard eForms-DE orientieren sich an den Versionsbezeichnungen des Standards eForms-DE. Zu jedem eForms-DE-SDK ist angegeben, auf welcher europäischen SDK-Version diese beruht. (siehe auch Erläuterung auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de)
-
-Es ist nicht geplant, dass zu jeder minor Version des eForms-EU auch eine neue Version eForms-DE veröffentlicht wird. Deshalb wird die Versionierung von eForms-EU und eForms-DE auch in Zukunft nicht direkt übereinstimmen. Es wird aber immer für jede eForms-DE Version exakt eine korrespondierende eForms-EU Version geben.
-</details>
-<br>
-
-<details>
-<summary>
-In welchem Zeitrahmen wird ein DE-Update zur Verfügung gestellt, nachdem ein EU-Update veröffentlicht wurde?
-</summary>
-<br>
-
-Es ist hierbei zu beachten, dass nicht für jedes EU-Update automatisch ein DE-Update notwendig ist.
-<br>
-Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eForms-DE. Wie beim 1. technischen Arbeitstreffen gemeinsam festgestellt wurde, können wir angesichts noch vorliegenden Unklarheiten über in Kraft treten und Lebensdauer der Versionen des EU-SDK, derzeit noch keine einfache Antwort mit klaren Daten geben. Was feststeht ist, dass eine bestimmte Version eForms-DE sich kompatibel zu einer bestimmten Version eForms-SDK erklärt und dies möglichst zeitnah geschehen soll. Wie derzeit eForms-DE 1.0.1 kompatibel zu eForms-SDK 1.5.1 ist (SDK 1.5.1 wurde am 20. Januar 2023 veröffentlicht und eForms-DE am 5. Februar). D.h. implizit, dass es nicht zu jeder Version eForms-SDK eine Version eForms-DE geben wird.
-</details>
-<br>
-
-### Go-Live
-
-<details>
-<summary>
-Mit welcher SDK-Version soll der produktive Go-live erfolgen?
-</summary>
-<br>
-
-Unterstützt wird die aktuelle Version 1.0.1 und eine weitere Version voraussichtlich ab September 2023.
-</details>
-<br>
-
-### Kommunikationskanal
-
-<details>
-<summary>
-Wie kann sichergestellt werden, dass Plattformanbieter regelmäßig über Neuigkeiten bzgl. des eForms-DE Standard/ SDK-eForms-DE informiert bleiben.
-</summary>
-<br>
-
-Die offiziellen Publikation zum Standard eForms-DE erfolgt auf https://xeinkauf.de/eforms-de/ .
-
-Die Publikation des zugehörigen SDK erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de .
-
-Publikationen zum organisatorischen Rahmen siehe:
-
-https://www.finanzen.bremen.de/digitalisierung/digitalisierung-von-verwaltungsleistungen-fuer-unternehmen/digitale-beschaffung-103422
-
-Fragen zum DE-SDK sind über Issues im Repository zu eröffnen.
-</details>
-<br>
-
-### Abweichungen
-
-<details>
-<summary>
-Bei der Durchsicht der Dokumente des nationalen Tailorings sind einige Unstimmigkeiten bzgl. Losgruppen entdeckt worden. Gemäß eForms-DE Standard v1.0.0 und v1.0.1 werden die optionalen Felder der Gruppe "Vergabe — Gruppen von Losen" oder "Rahmenvereinbarung, Losgruppe, Höchstwert" mit Anzahl "0" markiert und sollen daher nicht verwendet werden können. Im SDK-eForms-DE v1.5.1, welches auf dem eForms-DE-Standard v1.0.0 basiert, tauchen die Felder hingegen in der fields.json auf. Wie soll zukünftig im Allgemeinen mit Losgruppen umgegangen werden?
-</summary>
-<br>
-
-Der Einfachheit halber und zur Vermeidung von Inkonsistenzen mit von EU gelieferten Schematron-Regeln enthält das SDK zum nationalen Standard eForms-DE auf technischer Ebene Felder, die dennoch gemäß des Standards eForms-DE nicht genutzt werden.
-
-Losgruppen sind in eForms-DE nicht vorgesehen.
-</details>
-<br>
-
-### Verlinkung 
-
-<details>
-<summary>
-Wie erfolgte die Verlinkung bzw. der Verweis auf vorherige Bekanntmachungen?
- </summary> 
-  
- Details zur Verlinkung der Bekanntmachungen siehe
-https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
-
-Weitere Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
-
-</details>
-<br>
-
 
 ## Fragen zu BG/BT
-
-### Nationale Ausschlussgründe (BT-67 exclusion grounds)
-
-<details>
-<summary>
-Weshalb wurden die Codes zu nationalen Ausschlussgründen der Codeliste "Criterion Exclusion Grounds" in der Version eForms-DE v1.1.0 verändert?
-</summary>
-
-<br>
-
-Entfernt wurden lediglich die Codes "ex-os" (Ausschlusshinweise Oberschwelle) und "ex-us" (Ausschlusshinweise Unterschwelle), da stattdessen der in der EU bestehende Code "nati-ground" (rein nationale Ausschlussgründe) verwendet werden kann.
-
-Wir haben das Changelog für sie aktualisiert: https://projekte.kosit.org/eforms/eforms-de-codelist/-/blob/main/CHANGELOG.md.
-  </details>
-<details>
-<summary>
-Welcher Auschlussgrund kann vorbelegt werden, sollten alle Gründe gleichermaßen zutreffen?
-</summary>
-Für den Fall, dass alle Ausschlussgründe gleichermaßen zutreffen, ist "nati-ground" (rein nationale Ausschlussgründe) der umfassendste Code.
-</details>
-<br>
 
 ### Bekanntmachung der Ergebnisse (BG-7), Angebot (BG-320 Angebot)
 <details>
@@ -505,6 +466,26 @@ Warum sind Angabe der Befristung der nicht zu veröffentlichenden Felder bei Pfl
 
 Die Spezifikation folgt in diesem Punkt dem Implementation Handbook der EU. Es handelt sich um eine Soll-Formulierung, die keine Geschäftsregel erfordert. 
 Details: https://op.europa.eu/en/publication-detail/-/publication/73a78487-cc8b-11ea-adf7-01aa75ed71a1 
+</details>
+<br>
+
+### Nationale Ausschlussgründe (BT-67 exclusion grounds)
+
+<details>
+<summary>
+Weshalb wurden die Codes zu nationalen Ausschlussgründen der Codeliste "Criterion Exclusion Grounds" in der Version eForms-DE v1.1.0 verändert?
+</summary>
+<br>
+
+Entfernt wurden lediglich die Codes "ex-os" (Ausschlusshinweise Oberschwelle) und "ex-us" (Ausschlusshinweise Unterschwelle), da stattdessen der in der EU bestehende Code "nati-ground" (rein nationale Ausschlussgründe) verwendet werden kann.
+
+Wir haben das Changelog für sie aktualisiert: https://projekte.kosit.org/eforms/eforms-de-codelist/-/blob/main/CHANGELOG.md.
+  </details>
+<details>
+<summary>
+Welcher Auschlussgrund kann vorbelegt werden, sollten alle Gründe gleichermaßen zutreffen?
+</summary>
+Für den Fall, dass alle Ausschlussgründe gleichermaßen zutreffen, ist "nati-ground" (rein nationale Ausschlussgründe) der umfassendste Code.
 </details>
 <br>
 
@@ -544,6 +525,17 @@ Doku ist hier zu finden: https://docs.ted.europa.eu/eforms/1.5/schema/procedure-
 </details>
 <br>
 
+<details>
+<summary>
+Bei der Durchsicht der Dokumente des nationalen Tailorings sind einige Unstimmigkeiten bzgl. Losgruppen entdeckt worden. Gemäß eForms-DE Standard v1.0.0 und v1.0.1 werden die optionalen Felder der Gruppe "Vergabe — Gruppen von Losen" oder "Rahmenvereinbarung, Losgruppe, Höchstwert" mit Anzahl "0" markiert und sollen daher nicht verwendet werden können. Im SDK-eForms-DE v1.5.1, welches auf dem eForms-DE-Standard v1.0.0 basiert, tauchen die Felder hingegen in der fields.json auf. Wie soll zukünftig im Allgemeinen mit Losgruppen umgegangen werden?
+</summary>
+<br>
+
+Der Einfachheit halber und zur Vermeidung von Inkonsistenzen mit von EU gelieferten Schematron-Regeln enthält das SDK zum nationalen Standard eForms-DE auf technischer Ebene Felder, die dennoch gemäß des Standards eForms-DE nicht genutzt werden.
+
+Losgruppen sind in eForms-DE nicht vorgesehen.
+</details>
+<br>
 
 
 ### NUTS-Codes
