@@ -78,6 +78,7 @@ jobs:
 
       - name: Translate all md files
         run: |
+          IFS=$'\n'
           files=$(find ./ -name "*.md") 
           for file in ${files}; do
             echo "$file translating"
