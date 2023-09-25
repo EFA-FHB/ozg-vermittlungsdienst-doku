@@ -91,6 +91,9 @@ jobs:
         run: |
           echo "One or more doc file(s) has changed."
           for file in ${{ steps.changed-files-md-yaml.outputs.doc_all_changed_files }}; do
-              echo "$file changed"
-            ./file-translate/file-translator -i $file -o $file_new --api-key ${{ secrets.DEEPL_API_KEY }}
+            echo "$file changed"
+            filename=$(basename -- "$file")
+            extension="${filename##*.}"
+            filename="${filename%.*}"
+            ./file-translate/file-translator -i $file -o ${filename}_en.md --api-key ${{ secrets.DEEPL_API_KEY }}
           done
