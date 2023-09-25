@@ -8,7 +8,7 @@
 >Please note: If subliminal announcements are still sent to service.bund.de, they must NOT be sent to the mediation service in addition!
 
 # Connection to the switching service
-Notices can be sent to the switching service via the [REST API](#connection-per-rest-api) of the switching service or via the [eDelivery Network PEPPOL](#connection-per-peppol-in-implementation) (in implementation).
+Notices can be sent to the mediation service via the mediation service's [REST API](#connection-per-rest-api) or via the [eDelivery Network PEPPOL](#connection-per-peppol-in-implementation) (in implementation).
 <br>
 
 ## Connection via REST API

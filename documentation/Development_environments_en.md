@@ -1,5 +1,5 @@
 ### EfA Implementation Project "Access to Public Procurement".
-## Documentation mediation service
+## Documentation Mediation Service
 [table of contents](/documentation/documentation.md)
 <br>
 

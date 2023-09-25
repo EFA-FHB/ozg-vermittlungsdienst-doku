@@ -1,5 +1,5 @@
 ### EfA Implementation Project "Access to Public Procurement".
-## Documentation mediation service
+## Documentation Mediation Service
 [table of contents](/documentation/documentation.md)
 <br>
 
@@ -35,7 +35,7 @@ The tracking code can be used to query the status of the particular notice, via 
 
 Alternatively, either the status of all notices submitted can be queried via `GET /v1/notices`, or all status changes based on their time in a time span to be specified can be queried via `GET /v1/notices/status`. Both endpoints are paginated.
 >**Note** <br>
->The `GET /v1/notices/status` is recommended as this is the most efficient way to retrieve the current status information.
+>The `GET /v1/notices/status` is recommended, as this is the most efficient way to retrieve the current status information.
 
 For the meaning of the other response codes, see https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.
 

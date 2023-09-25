@@ -3,14 +3,14 @@
 [table of contents](/documentation/documentation.md)
 <br>
 
-# Notes for the creation of eForms-DE documents.
+# Notes on the creation of eForms-DE documents.
 
 When creating eForms documents, there are some rules to follow regarding certain fields.
 
 ## eSender information
 >**eForms-DE specific**
 
-Field: *entire section ``<efac:Organization>``*
+Field: *entire section ``<efac:Organization>``*.
 
 The DöE assumes the role of eSender for all upper-threshold notices to be submitted to TED. Therefore, for the organizations, the type "ted-esen" should not be used in the notices, as this information is automatically inserted by the eSender hub.
 
@@ -21,14 +21,14 @@ To note here: In the sample files for eForms-DE 1.0 currently available in the K
 
 ### Explanation of fields:
 
-BT-05 (Dispatch Date): <cbc:IssueDate> : This field represents the dispatch date of the announcement. It is recommended to have this date set automatically by the system when it is dispatched. For test files, it is recommended to always set the value to the current date. The date should not be set artificially in the past.
+BT-05 (Dispatch Date): <cbc:IssueDate> : This field represents the dispatch date of the announcement. It is recommended to have this date set automatically by the system when it is dispatched. For test files, it is recommended to always set the value to the current date. The date should not be artificially set in the past.
 
 BT-738 (Preferred Publication Date): <cbc:RequestedPublicationDate> : This field is used to explicitly specify when an announcement should be published.
 
 
 ### Initial position rules in EU and DE:
 
-_eForms-EU 1.5_
+_eForms-EU 1.5_.
 
 - BT-05 (Dispatch Date) is mandatory and BT-738 (Preferred Publication Date) is optional (Rule BR-BT-00005-0150)
 - BT-738 (Preferred Publication Date) must be no more than 92 days in the future and must be after BT-05 (Dispatch Date) (Rule BR-BT-00738-0053)
@@ -102,7 +102,7 @@ The new rules have already been implemented in SDK-DE 1.0.1 and 1.1.0.
 ## Creation of eForms in conjunction with notices submitted to TED in the old award format.
 >**not eForms-DE specific**.
 
-For a transition period, it may be necessary to create links between notices submitted to TED in the old award format and notices submitted to TED in the eForms format. Possible scenarios that may necessitate linking include:
+For a transition period, it may be necessary to create links between notices submitted to TED in the old award format and notices submitted to TED in the eForms format. Possible scenarios necessitating linking include:
 - A procurement process was started before 10/25/2023 old format TED-XML and will continue in eForms-DE format. Documents created in the old format must be referenced in subsequent notices.
 - A notice published in the old format must be corrected or adapted so that a change notice with reference to this notice is necessary.
 

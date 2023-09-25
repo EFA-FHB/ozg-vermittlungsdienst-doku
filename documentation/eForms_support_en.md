@@ -17,7 +17,7 @@ Currently, different eForms versions are supported and processed according to th
 
 <br>
 
-*The following versions can be submitted to the switching service until 10/25/2023:*.
+*Following versions can be submitted to the switching service until 10/25/2023:*.
 
 | Version | Switching service | External validator | eSender hub | BKMS | TED |
 | ------- | -------- | ------------------ | --------- | ----- | ---- |
