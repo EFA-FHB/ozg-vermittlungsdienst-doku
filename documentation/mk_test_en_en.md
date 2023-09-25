@@ -6,10 +6,10 @@
 ## Change notices/ stop-and-update functionality.
 
 ## content
-- [Adjust the content of a notice](#stop-or-change)
+- Adjust the content of a notice](#stop-or-change)
     - [Update to a notice](#update)
-	- [Change Notices](#change-notice)
-- [STOP publication functionality](#stop-func)
+	- [Change notices](#change-notice)
+- STOP publication functionality](#stop-func)
 
 ## Customize the content of a notice<span id='stop-or-change'>.
 There are two ways to change the content of a notice: By *stop + update* before publication or by a change notice (*change notice*) after publication.
@@ -39,13 +39,13 @@ Scenario B: Using an update to edit a submitted notice.
 <br><br>
 
 ### Change Notice<span id='change-notice'>.
-A change notice (also referred to as a change notice) is an amendment that changes a previously published notice. When a change notice is submitted, that notice has its own noticeID and versionID. A Change Notice always contains a UBL extension that must specify which specific notice is to be changed. This is specified in the BT-738 Change Notice Identifier field. Here the noticeID-versionID or the Notice Publication Number (if the referenced notice was submitted in the old TED-XML format) must be specified in the xml.
+A change notice (also referred to as a change notice) is an amendment that changes a previously published notice. When a change notice is submitted, that notice has its own noticeID and versionID. A change notice always contains a UBL extension that must specify which specific notice is to be changed. This is specified in the BT-738 Change Notice Identifier field. Here the noticeID-versionID or the Notice Publication Number (if the referenced notice was submitted in the old TED-XML format) must be specified in the xml.
 
 Example of a reference reference with noticeID-versionID:
 
 `<efbc:ChangedNoticeIdentifier>c4c415ee-ac08-4465-8fa6-57568cf69462-01</efbc:ChangedNoticeIdentifier>`
 
-Example of a reference reference using the Notice Publication ID:
+Example of a reference using the Notice Publication ID:
 
 `<efbc:ChangedNoticeIdentifier>01234567-2022</efbc:ChangedNoticeIdentifier>`
 
