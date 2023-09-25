@@ -76,6 +76,9 @@ jobs:
 
       # Runs a single command using the runners shell
 
+      - name: Set file permissions
+        run: chmod +x file-translate/file-translator
+
       - name: Get all md files that have changed
         id: changed-files-md-yaml
         uses: tj-actions/changed-files@v39

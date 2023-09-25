@@ -67,7 +67,7 @@ Es gibt einige Unterschiede in der Art und Weise, wie ober- und  unterschwellige
 Die Veröffentlichung kann nur vor dem in der Bekanntmachung angegebenen bevorzugten Veröffentlichungsdatum (BT-738) manuell gestoppt werden, sodass die Bekanntmachung noch nicht auf BKMS veröffentlicht ist.
 
 ![nat-flow-stop](images/nat-flow-stop.png)
- <br> <br>
+ <br> <br><br>
 
 **Oberschwellige Vergabe: manuelle Stop** <br>
 Die Veröffentlichung kann nur manuell gestoppt werden, bevor die Bekanntmachung auf TED veröffentlicht wird. Ob die Bekanntmachung in BKMS bereits veröffentlicht wurde ist hierbei nicht relevant. Ein manueller Stop ist nur möglich wenn keine zur Veröffentlichung vorgesehenen Vorgängerversionen existieren (Siehe Beispiele oben).
