@@ -74,37 +74,20 @@ jobs:
           # Use http(s)://[hostname]/api/v3 to access the API for GitHub Enterprise Server
           #github-api-url: ""
 
-      - name: show dir
-        run: ls -la file-translate
-
-      - name: Download artifact
-        id: download-artifact
-        uses: dawidd6/action-download-artifact@v2
-        with:
-          # Optional, GitHub token, a Personal Access Token with `public_repo` scope if needed
-          # Required, if the artifact is from a different repo
-          # Required, if the repo is private a Personal Access Token with `repo` scope is needed or GitHub token in a job where the permissions `action` scope set to `read`
-          github_token: ${{secrets.TRANSLATE_TOKEN}}
-          branch: development
-          name: file-translator-bin
-          # Optional, defaults to current repo
-          repo: EFA-FHB/file-translator
-          # Optional, check the workflow run to whether it has an artifact
-          # then will get the last available artifact from the previous workflow
-          # default false, just try to download from the last one
-          check_artifacts: true
-          # Optional, search for the last workflow run whose stored an artifact named as in `name` input
-          # default false
-          search_artifacts: true
-          # Optional, choose to skip unpacking the downloaded artifact(s)
-          # default false
-          skip_unpack: false
-          # Optional, choose how to exit the action if no artifact is found
-          # can be one of:
-          #  "fail", "warn", "ignore"
-          # default fail
-          if_no_artifact_found: fail
-
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: ls -la
+
+      - name: Get all md files that have changed
+        id: changed-files-md-yaml
+        uses: tj-actions/changed-files@v39
+        with:
+          files_yaml: |
+            doc:
+              - '**/*.md'
+      - name: Run step if doc file(s) change
+        if: steps.changed-files-md-yaml.outputs.doc_any_changed == 'true'
+        run: |
+          echo "One or more doc file(s) has changed."
+          for file in ${{ steps.changed-files-md-yaml.outputs.doc_all_changed_files }}; do
+              echo "$file changed"
+            ./file-translate/file-translator -i $file -o $file_new --api-key ${{ secrets.DEEPL_API_KEY }}
+          done
