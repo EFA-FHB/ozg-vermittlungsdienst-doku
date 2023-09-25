@@ -127,10 +127,10 @@ Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eFo
 
 <details>
 <summary>
-Ist der Zeitpunkt für den produktiven Go-live (d.h. vollständige Bereitstellung der kompletten Produktivumgebung) bereits bekannt? Ist der Zeitpunkt für die Bereitstellung des Production Release bereits bekannt?
+Wann startet der Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
-Zum aktuellen Standpunkt ist eine technische Pilotphase des Datenservice Öffentlicher Einkauf inklusive eSender-Hub Ende Juni 2023 geplant. Der Start der Pilotphase für eine Anbindung per PEPPOL ist für den 11.10.23 geplant. Hier bestehen allerdings Abhängigkeiten zu Zulieferungen der EU und des Expertengremiums eForms. Das Inkrafttreten der rechtlichen Verpflichtung erfolgt zum 25.10.2023; eine entsprechende Freigabe des Bundesrats wird bis Sommer 2023 erwartet.
+Der Produktivstart des Datenservice Öffentlicher Einkauf ist durch §83a der aktuellen Vergabeverordnung (VgV) geregelt. Dies wird voraussichtlich der 25.10.2023 sein.
 </details>
 <br>
 
@@ -362,9 +362,7 @@ Derzeit kann keine Verfügbarkeit des Online Validators garantiert werden. Wir p
 Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
 </summary>
 <br>
-Bis eForms-DE verpflichtend wird, kann noch im alten Format direkt bei TED eingeliefert werden, der Datenservice Öffentlicher Einkauf unterstützt dieses Format allerdings nicht. Der Datenservice kann ausschließlich mit eForms genutzt werden. Wir empfehlen, bereits ab Start der Pilotphase Einlieferungen im eForms-DE Standard über den Datenservice durchzuführen.
-
-Die Antwortfindung ggü. TED ist weiterhin im Gange.
+Bis eForms-DE verpflichtend wird, kann im alten Format direkt bei TED eingeliefert werden. Für die zukünftige Einlieferung an den Datenservice Öffentlicher Einkauf kann ausschließlich das neue Format des Standards eForms-DE genutzt werden.
 </details>
 <br>
 
@@ -420,10 +418,10 @@ Der eSender-Hub trägt Sorge dafür, entsprechend der eingelieferten eForms-DE V
 
 <details>
 <summary>
-In den eForms ist eine Angabe "CustomizationID", z. B. `<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>`, notwendig. • Ist unsere Annahme korrekt, dass der eSender-Hub eine hier angegebene SDK-eForms-DE-Version auf die entsprechende EU-Version mappt? • Welche SDK-Versionen (DE bzw. EU) können hier durch den Plattformbetreiber eingetragen werden?
+Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
 </summary>
 <br>
-Für die ab vorrausichtlich Juni unterstützte Version des nationalen Standards eForms-DE lautet der Versionsbezeichner des zugehörigen SDK "eforms-de-1.0", siehe Datei eforms-de.validation.sch im Verzeichnis schematrons/schematron-de. (https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/main/sdk/schematrons/schematron_de)
+Im Oktober 2023 werden vom Datenservice Öffentlicher Einkauf die Versionen 1.0 und 1.1 des Standards eForms-DE unterstützt, technisch entspricht dies einer CustomizationID (siehe Feld OPT-002-notice) mit den Werten "eforms-de-1.1" bzw. "eforms-de-1.0" . Zur Unterstützung der Implementierung stehen aktuell auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de die SDK-DE mit den Versionen SDK-DE-1.1.0_1.7.1 bzw. SDK-DE-1.0.1_1.5.3:20230727 bereit.
 </details>
 <br>
 
@@ -463,6 +461,19 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 
 
 ## Fragen zu BG/BT
+
+###  Beschaffer Rechtsnatur (BT-11) und CPV
+<details>
+<summary>
+CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Einschränkende Regel BR-BT-00262-0211 der EU.</summary>
+<br>
+
+Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen ausschreiben, jedoch keine Dienstleistungen. Auch bei Vergabeverfahren nach SektVO, KonzVgV oder VSVgV gibt es bei ausschreibenden Zuwendungsempfängern Einschränkungen gegenüber sonstigen Vergabestellen bei der Auswahl der in einem Vergabeverfahren anwendbaren Formulare, was unverständlich ist.
+
+**Es handelt sich um einen BUG bei TED, der mit einer nächsten Versionen behoben wird.**
+</details>
+<br>
+
 
 ### Bekanntmachung der Ergebnisse (BG-7), Angebot (BG-320 Angebot)
 <details>
