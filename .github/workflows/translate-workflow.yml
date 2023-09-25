@@ -102,6 +102,9 @@ jobs:
             filename="${filename%.*}"
             ./file-translate/file-translator -i $file -o ${filedir}/${filename}_en.md --api-key ${{ secrets.DEEPL_API_KEY }}
           done
+          
+      - name: Cleanup translate tool
+        run: rm -rf ./file-translate
 
       - name: Auto-Commit translated files 
         uses: stefanzweifel/git-auto-commit-action@v4
