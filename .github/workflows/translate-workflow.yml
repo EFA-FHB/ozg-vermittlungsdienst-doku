@@ -95,5 +95,6 @@ jobs:
             filename=$(basename -- "$file")
             extension="${filename##*.}"
             filename="${filename%.*}"
-            ./file-translate/file-translator -i $file -o ${filename}_en.md --api-key ${{ secrets.DEEPL_API_KEY }}
+            dir=${dirname "$file"}
+            ./file-translate/file-translator -i $file -o ${dir}/${filename}_en.md --api-key ${{ secrets.DEEPL_API_KEY }}
           done
