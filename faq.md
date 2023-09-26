@@ -517,7 +517,7 @@ CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Ein
 
 Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen ausschreiben, jedoch keine Dienstleistungen. Auch bei Vergabeverfahren nach SektVO, KonzVgV oder VSVgV gibt es bei ausschreibenden Zuwendungsempfängern Einschränkungen gegenüber sonstigen Vergabestellen bei der Auswahl der in einem Vergabeverfahren anwendbaren Formulare, was unverständlich ist.
 
-**Es handelt sich um einen BUG bei TED, der mit einer nächsten Versionen behoben wird.**
+**Es handelt sich um einen BUG bei TED. Mündliche Aussage seitens TED im 6. workshop am 26.09.2023: Wird für Version 1.9 behoben.**
 </details>
 <br>
 
