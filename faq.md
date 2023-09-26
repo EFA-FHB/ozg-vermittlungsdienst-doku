@@ -183,6 +183,18 @@ Unterstützt werden die aktuellen Versionen eForms-DE 1.0.1 und 1.1. Es wird nie
 
 ### Kommunikationskanäle
 
+Erreichbarkeiten:
+</summary>
+*Fragen und Verbesserungsvorschläge* gegenüber dem Vermittlungsdienst und dem eSender-Hub können an oeffentliche-vergabe@nortal.com gerichtet werden. Alternativ können Github Issues im Dokumentationsrepository und dem SDK-eForms-DE Repository erstellt werden.
+
+Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs wenden Sie sich bitte an: oeffentliche-vergabe-support@nortal.com.
+
+*Fragen zum Bekanntmachungsservice* können an support-oeffentlichevergabe@bdr.de gerichtet werden.
+
+Wir sind offen für Ihre Vorschläge!
+</details>
+<br>
+
 <details>
 <summary>
 Wie kann sichergestellt werden, dass Plattformanbieter regelmäßig über Neuigkeiten bzgl. des Datenservice informiert bleiben, insbesondere bzgl. neuer Versionen der Komponenten (Vermittlungsdienst, eSenderHub, REST-API, usw.), neuer Features, einer Aktualisierung der Roadmap etc.?
@@ -259,6 +271,20 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 
 
 ### Statusmodell
+
+<details>
+<summary>
+Anhalten, ändern oder abbrechen?
+</summary>
+<br>
+-"Publishing" im nächsten Monat in eNotices2 Web und API sichtbar 
+- Käufer/API kann die Veröffentlichung einer Bekanntmachung im Status "Submitted" stoppen
+- Sobald der Status "Published" (d.h. auf TED) erreicht ist, kann die Bekanntmachung geändert oder das Verfahren fortgesetzt werden
+- Los oder Verfahren können über Vergabebekanntmachung ohne Gewinner storniert werden
+- Change notice mit dem Grund "cancel" = die Bekanntmachung ist null und nichtig - dies ist möglich, wird aber nicht empfohlen!
+</details>
+<br>
+
 <details>
 <summary>
 Mit den Statusänderungsmeldungen der EU haben Plattformanbieter auch weitergehende Metadaten zum jeweiligen Status erhalten, bspw. die Submission-ID, den konkreten Zeitpunkt der Veröffentlichung auf TED, die ABl.-Nummer etc. Mit der ABl.-Nummer hatten Kunden bisher die Möglichkeit, bei Folgebekanntmachungen zu diesem Auftrag (Angabe "frühere Bekanntmachung desselben Auftrags") diese Nummern nicht mehr manuell eintragen zu müssen, da diese vorbefüllt werden konnten. Besteht auch weiterhin die Möglichkeit, o. g. Informationen zur Veröffentlichung zu erhalten, um den Kunden diese Reihe an Funktionalitäten zu bieten?
@@ -359,6 +385,38 @@ Derzeit kann keine Verfügbarkeit des Online Validators garantiert werden. Wir p
 
 <details>
 <summary>
+Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen?
+ 
+ </summary> 
+ 
+- Die Bekanntmachungen sind mit der Verfahrens-ID verknüpft.
+
+  Besonderheiten:
+ 
+   --> Planung/PINs sind nicht Teil von Verfahren: BT-125 verwenden 
+
+   --> Zuschläge innerhalb eines Rahmenvertrags: OPT-100 verwenden 
+
+   --> Änderungsmitteilung: BT-758 verwenden 
+
+   --> Vertragsänderung: BT-1501 verwenden 
+
+   --> Bekanntmachungen vor eForms (und alle anderen Fälle): OPP-090 verwenden 
+
+- TED-Veröffentlichungsnummer ([1-8 Ziffern]-[Jahr]) oder eForms UUID verwenden 
+
+- In den [Developer Docs FAQ] (https://docs.ted.europa.eu/home/eforms/FAQ/index.html#_forms_and_procedures) finden Sie diese Informationen ebenfalls
+
+  - Weitere Details zur Verlinkung der Bekanntmachungen siehe
+https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
+
+-  Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
+
+</details>
+<br>
+
+<details>
+<summary>
 Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
 </summary>
 <br>
@@ -379,18 +437,7 @@ Es ist derzeit in Klärung mit TED, wie auf eine vorherige Bekanntmachung im alt
 </details>
 <br>
 
-<details>
-<summary>
-Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen?
- </summary> 
-  
- Details zur Verlinkung der Bekanntmachungen siehe
-https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
 
-Weitere Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
-
-</details>
-<br>
 
 <details>
 <summary>
@@ -661,6 +708,38 @@ Dürfen darüber hinaus noch weitere Informationen in das Feld geschrieben werde
 
 Es ist möglich, nach Angabe des Codes noch einen Freitext einzufügen, solange die Gesamtzeichenbegrenzung eingehalten wird. Zur Verdeutlichung wurde BT-300 um folgenden Hinweis ergänzt:
 "Insofern es notwendig ist wegen der Regel BR-DE-26 einen der Codes (freelance, selbst, startup) anzugeben, so muss der Code in der ersten Zeile angegeben und mit zwei Leerzeilen von sonstigen zusätzlichen Informationen getrennt sein. Das Format der ersten Zeile ist wie folgt definiert: #Besonders geeignet für:{freelance|selbst|startup}."
+  </details>
+<br>
+
+### Bevorzugtes Veröffentlichungsdatum (Requested Publication Date BT-738)
+
+<details>
+<summary>
+Neuerungen und Details
+</summary>
+<br>
+
+- Datum der Veröffentlichung von eForms-Bekanntmachungen auf TED: nicht mehr 5 feste Kalendertage 
+
+- Möglichkeit, ein bevorzugtes Veröffentlichungsdatum festzulegen (BT-738)
+
+- Wenn kein Datum genannt ist, dann veröffentlicht TED "So bald wie möglich", d.h. in der nächsten verfügbaren OJS-Ausgabe
+
+   --> Bekanntmachung kann um 9:00 Uhr am nächsten Morgen im TED erscheinen; maximal 2 Arbeitstage
+
+   --> weniger Zeit, um die Veröffentlichung zu stoppen
+
+- Wenn ein Datum genannt ist, veröffentlicht TED am bevorzugten Datum oder in der nächsten verfügbaren OJS-Ausgabe nach diesem Datum
+  
+   --> siehe TED-Veröffentlichungskalender für Arbeitstage
+
+   --> das bevorzugte Veröffentlichungsdatum kann bis zu 60 Tage in der Zukunft liegen 
+
+- Am Werktag vor dem erwarteten Veröffentlichungsdatum:
+  
+   -->  täglicher Export an Arbeitstagen zwischen Mittag und Mittag - Mitteilung geht in OJS-Ausgabe ein
+  
+   -->  über Nacht in den Status "Veröffentlichung" (oder über das Wochenende oder an Feiertagen)
   </details>
 <br>
 
