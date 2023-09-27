@@ -37,11 +37,11 @@ Status: In Entwicklung <br>
 ## Geplantes Release für RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer
 | Umgebung Vermittlungsdienst  | Zeitraum              | BKMS                      | Status |
 |------------|-----------------------|---------------------------|--------|
-| Preview    | nur RequestedPublicationDate Fix: **KW37**,  Alles andere: **KW39**                 | unterstützt in Alpha      |        |
+| Preview    | nur RequestedPublicationDate Fix: **KW37**,  Alles andere: **KW39**                 | unterstützt in Alpha      | veröffentlicht |
 | Staging    | verschoben: **KW40**    | unterstützt in Alpha      |        |
 | Produktion | verschoben: **KW41**                  | unterstützt in Produktion |        |
 
-Status: In Entwicklung<br>
+Status: In QS<br>
 <details>
 <summary>Release notes (In Arbeit)</summary>
 
