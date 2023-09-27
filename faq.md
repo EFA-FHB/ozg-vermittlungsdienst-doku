@@ -807,6 +807,32 @@ Ja, soweit NUTS-Codes vorhanden sind, sind diese anzugeben
 
 ### eNotices Portal der EU
 
+ <details> 
+<summary>
+ Neuest Informationen von TED 27.09.23
+ 
+ </summary>
+
+<br>
+ 
+- Bei API-Übermittlungen sollte NoticeAuthorEmail die E-Mail des Käufers sein - eSender müssen die wahre E-Mail-Adresse des Auftraggebers in den Metadaten angeben 
+ 
+- Der E-Mail-Autor der Bekanntmachung erhält Benachrichtigungen über Statusänderungen:  
+       --> Einreichung, Validierung fehlgeschlagen, gestoppt, nicht veröffentlicht, veröffentlicht
+  
+- Der eSender erhält eine Kopie an die E-Mail-Adresse, die von EU Login für den API-Schlüssel verwendet wird.
+
+- laufende Verbesserungen des Inhalts und der Übersetzung dieser E-Mail-Benachrichtigungen 
+    
+- Neue Funktion in Kürze: Käufer erhalten eine E-Mail-Benachrichtigung, wenn eine Bekanntmachung mit demselben Käufernamen veröffentlicht wurde
+
+- Beachten Sie bei API-Tests (Risiko, viele E-Mails zu erhalten): verwenden Sie einen eindeutigen "Hauptkäufernamen" für wiederkehrende Käufer und einen zufälligen Namen für mehrere Käufer
+  
+- **Vermittlungsdienst API Parameter: authorEmail
+               ​Bitte die E-Mail Ihrer Endkunden entsprechend angeben​**
+</details>
+<br>
+
 <details>
 <summary>
 Nach Angabe der EU (siehe https://simap.ted.europa.eu/de_DE/web/simap/statistical-production-files - Statistik 2023 nach Format und Übermittlungskanal) haben bisher noch viele Auftraggeber das EU-Portal eNotices zur Erstellung und Veröffentlichung der Bekanntmachung genutzt. eNotices2, das neue Portal mit den integrierten eForms, kennt und berücksichtigt nicht das nationale Tailoring. Dürften Vergabestellen weiterhin eNotices2 verwenden, obwohl dort das nationale Tailoring nicht berücksichtigt ist?
