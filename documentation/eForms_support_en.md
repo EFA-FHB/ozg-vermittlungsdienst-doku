@@ -1,5 +1,5 @@
 ### EfA Implementation Project "Access to Public Procurement".
-## Documentation mediation service
+## Documentation Mediation Service
 [table of contents](/documentation/documentation.md)
 <br>
 
@@ -11,8 +11,8 @@ Currently, different eForms versions are supported and processed according to th
 *Overview of existing eForms-DE versions and associated technical artifacts and utilities:*
 | eForms-DE Standard | KoSIT Schematron | KoSIT Codelists | SDK-DE | eForms-DE Offline Validator | will be accepted until |
 |--------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------|
-| [eForms-DE 1.0.1](https://xeinkauf.de/app/uploads/2023/03/specification-eforms-de-v1.0.1.pdf) | [0.5.3](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3) | [2023-05-17](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-05-17) | [1.0.1_1.5.3_20230727](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/SDK-DE_1.0.1_1.5.3_20230727?ref_type=tags) | [1.0.3](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3) supports eForms-DE 1.0.1 & 1.1.0 | 31.01.2024 |
-| [eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf) | [0.6.2](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.2) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | [1.1.0_1.7.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.1.0_1.7.0) | [1.0.3](https://github.com/EFA-FHB/eforms-validator-core/releases) supports eForms-DE 1.0.1 & 1.1.0 | 11.05.2024 |
+| [eForms-DE 1.0.1](https://xeinkauf.de/app/uploads/2023/03/specification-eforms-de-v1.0.1.pdf) | [0.5.3](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3) | [2023-05-17](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-05-17) | [1.0.1_1.5.3_20230727](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/SDK-DE_1.0.1_1.5.3_20230727?ref_type=tags) | [1.0.6](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.6) supports eForms-DE 1.0.1 & 1.1.0 | 31.01.2024 |
+| [eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf) | [0.6.2](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.2) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | [1.1.0_1.7.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.1.0_1.7.0) | [1.0.6](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.6) supports eForms-DE 1.0.1 & 1.1.0 | 11.05.2024 |
 
 
 <br>
@@ -41,7 +41,7 @@ Currently, different eForms versions are supported and processed according to th
 
 Please note: After 10/25/2023, only eForms-DE versions will be supported in the production system. We recommend to use version eForms-DE 1.1.
 
-## eForms Validation
+## eForms validation
 All notices are validated when they are submitted to the switching service before being accepted by the system. Validation is performed using a combination of XML schema validation and Schematron validation. As a result, a validation report is returned in JSON format.
 
 An option for offline validation, as performed by the switching service, is provided by the open source validator https://github.com/EFA-FHB/eforms-validator-core.
