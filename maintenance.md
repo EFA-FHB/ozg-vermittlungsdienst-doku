@@ -26,3 +26,8 @@
 | Vermittlungsdienst (Preview) | 14.09.2023 | eforms-de-schematron 0.6.2 | eForms-DE erlaubt Unterschiede zwischen issueDate und requestedPublicationDate bis zu max. 92 Tagen (eforms-DE 1.0.1) und 60 Tagen (eForms-DE 1.1), während von TED maximal 91 und 59 Tage erlaubt sind | 
 | Vermittlungsdienst Staging + Produktion | 07.09.2023  |  13.09.2023       | Bekanntmachungen können über den /v1/notices/stop/{trackingCode} aktuell nicht gestoppt werden | 
 | TED Preview  | 09.08.2023               | 25.08.2023                   | Bekanntmachungen ab dem 09.08.2023 werden durch TED nicht mehr in den Status 'PUBLISHED' gesetzt, sie bleiben in 'ACCEPTED' hängen auf Grund eines Fehlers seitens TED |
+
+
+# Hinweise
+
+Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus diesem Grund werden Statusinformationen für Bekanntmachungen, die vor diesem Datum in Staging oder Preview eingeliefert wurden, nicht mehr bei TED abgefragt. Dies ist eine einmalige Anpassung und wird in Zukunft nicht wieder vorkommen. 
