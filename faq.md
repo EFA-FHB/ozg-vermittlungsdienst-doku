@@ -352,7 +352,6 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 
 <details>
 <summary>
-
 27.09.23 Anhalten, ändern oder abbrechen?
 </summary>
 <br>
