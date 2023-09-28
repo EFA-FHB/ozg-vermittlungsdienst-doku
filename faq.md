@@ -364,7 +364,6 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 </details>
 <br>
 
-=======
 Wie kann der Beginn der Stillhaltezeit von 48 Stunden nachvollzogen, wann die Bekanntmachung bei TED eingegangen ist?
 </summary>
 <br>
