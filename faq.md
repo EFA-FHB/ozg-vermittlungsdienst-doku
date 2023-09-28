@@ -195,10 +195,10 @@ Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eFo
 
 <details>
 <summary>
-Ist der Zeitpunkt für den produktiven Go-live (d.h. vollständige Bereitstellung der kompletten Produktivumgebung) bereits bekannt? Ist der Zeitpunkt für die Bereitstellung des Production Release bereits bekannt?
+ 25.09.23 Wann startet der Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
-Zum aktuellen Standpunkt ist eine technische Pilotphase des Datenservice Öffentlicher Einkauf inklusive eSender-Hub Ende Juni 2023 geplant. Der Start der Pilotphase für eine Anbindung per PEPPOL ist für den 11.10.23 geplant. Hier bestehen allerdings Abhängigkeiten zu Zulieferungen der EU und des Expertengremiums eForms. Das Inkrafttreten der rechtlichen Verpflichtung erfolgt zum 25.10.2023; eine entsprechende Freigabe des Bundesrats wird bis Sommer 2023 erwartet.
+Der Produktivstart des Datenservice Öffentlicher Einkauf ist durch §83a der aktuellen Vergabeverordnung (VgV) geregelt. Dies wird voraussichtlich der 25.10.2023 sein.
 </details>
 <br>
 
@@ -260,6 +260,18 @@ Wie Verweise und Korrekturen alter Bekanntmachungen möglich sind, finden Sie hi
 <br>
 
 ### Kommunikationskanäle
+
+Erreichbarkeiten:
+</summary>
+*Fragen und Verbesserungsvorschläge* gegenüber dem Vermittlungsdienst und dem eSender-Hub können an oeffentliche-vergabe@nortal.com gerichtet werden. Alternativ können Github Issues im Dokumentationsrepository und dem SDK-eForms-DE Repository erstellt werden.
+
+Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs wenden Sie sich bitte an: oeffentliche-vergabe-support@nortal.com.
+
+*Fragen zum Bekanntmachungsservice* können an support-oeffentlichevergabe@bdr.de gerichtet werden.
+
+Wir sind offen für Ihre Vorschläge!
+</details>
+<br>
 
 <details>
 <summary>
@@ -340,6 +352,19 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 
 <details>
 <summary>
+
+27.09.23 Anhalten, ändern oder abbrechen?
+</summary>
+<br>
+-"Publishing" im nächsten Monat in eNotices2 Web und API sichtbar 
+- Käufer/API kann die Veröffentlichung einer Bekanntmachung im Status "Submitted" stoppen
+- Sobald der Status "Published" (d.h. auf TED) erreicht ist, kann die Bekanntmachung geändert oder das Verfahren fortgesetzt werden
+- Los oder Verfahren können über Vergabebekanntmachung ohne Gewinner storniert werden
+- Change notice mit dem Grund "cancel" = die Bekanntmachung ist null und nichtig - dies ist möglich, wird aber nicht empfohlen!
+</details>
+<br>
+
+=======
 Wie kann der Beginn der Stillhaltezeit von 48 Stunden nachvollzogen, wann die Bekanntmachung bei TED eingegangen ist?
 </summary>
 <br>
@@ -458,12 +483,42 @@ Derzeit kann keine Verfügbarkeit des Online Validators garantiert werden. Wir p
 
 <details>
 <summary>
-Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
+ 27.09.23 Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen?
+ 
+ </summary> 
+ 
+- Die Bekanntmachungen sind mit der Verfahrens-ID verknüpft.
+
+  Besonderheiten:
+ 
+   --> Planung/PINs sind nicht Teil von Verfahren: BT-125 verwenden 
+
+   --> Zuschläge innerhalb eines Rahmenvertrags: OPT-100 verwenden 
+
+   --> Änderungsmitteilung: BT-758 verwenden 
+
+   --> Vertragsänderung: BT-1501 verwenden 
+
+   --> Bekanntmachungen vor eForms (und alle anderen Fälle): OPP-090 verwenden 
+
+- TED-Veröffentlichungsnummer ([1-8 Ziffern]-[Jahr]) oder eForms UUID verwenden 
+
+- In den [Developer Docs FAQ] (https://docs.ted.europa.eu/home/eforms/FAQ/index.html#_forms_and_procedures) finden Sie diese Informationen ebenfalls
+
+  - Weitere Details zur Verlinkung der Bekanntmachungen siehe
+https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
+
+-  Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
+
+</details>
+<br>
+
+<details>
+<summary>
+27.09.23 Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
 </summary>
 <br>
-Bis eForms-DE verpflichtend wird, kann noch im alten Format direkt bei TED eingeliefert werden, der Datenservice Öffentlicher Einkauf unterstützt dieses Format allerdings nicht. Der Datenservice kann ausschließlich mit eForms genutzt werden. Wir empfehlen, bereits ab Start der Pilotphase Einlieferungen im eForms-DE Standard über den Datenservice durchzuführen.
-
-Die Antwortfindung ggü. TED ist weiterhin im Gange.
+Bis eForms-DE verpflichtend wird, kann im alten Format direkt bei TED eingeliefert werden. Für die zukünftige Einlieferung an den Datenservice Öffentlicher Einkauf kann ausschließlich das neue Format des Standards eForms-DE genutzt werden.
 </details>
 <br>
 
@@ -480,18 +535,7 @@ Es ist derzeit in Klärung mit TED, wie auf eine vorherige Bekanntmachung im alt
 </details>
 <br>
 
-<details>
-<summary>
-Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen?
- </summary> 
-  
- Details zur Verlinkung der Bekanntmachungen siehe
-https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
 
-Weitere Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
-
-</details>
-<br>
 
 <details>
 <summary>
@@ -519,10 +563,10 @@ Der eSender-Hub trägt Sorge dafür, entsprechend der eingelieferten eForms-DE V
 
 <details>
 <summary>
-In den eForms ist eine Angabe "CustomizationID", z. B. `<cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>`, notwendig. • Ist unsere Annahme korrekt, dass der eSender-Hub eine hier angegebene SDK-eForms-DE-Version auf die entsprechende EU-Version mappt? • Welche SDK-Versionen (DE bzw. EU) können hier durch den Plattformbetreiber eingetragen werden?
+ 27.09.23 Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
 </summary>
 <br>
-Für die ab vorrausichtlich Juni unterstützte Version des nationalen Standards eForms-DE lautet der Versionsbezeichner des zugehörigen SDK "eforms-de-1.0", siehe Datei eforms-de.validation.sch im Verzeichnis schematrons/schematron-de. (https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/main/sdk/schematrons/schematron_de)
+Im Oktober 2023 werden vom Datenservice Öffentlicher Einkauf die Versionen 1.0 und 1.1 des Standards eForms-DE unterstützt, technisch entspricht dies einer CustomizationID (siehe Feld OPT-002-notice) mit den Werten "eforms-de-1.1" bzw. "eforms-de-1.0" . Zur Unterstützung der Implementierung stehen aktuell auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de die SDK-DE mit den Versionen SDK-DE-1.1.0_1.7.1 bzw. SDK-DE-1.0.1_1.5.3:20230727 bereit.
 </details>
 <br>
 
@@ -562,6 +606,19 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 
 
 ## Fragen zu BG/BT
+
+###  Beschaffer Rechtsnatur (BT-11) und CPV
+<details>
+<summary>
+27.09.23 CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Einschränkende Regel BR-BT-00262-0211 der EU.</summary>
+<br>
+
+Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen ausschreiben, jedoch keine Dienstleistungen. Auch bei Vergabeverfahren nach SektVO, KonzVgV oder VSVgV gibt es bei ausschreibenden Zuwendungsempfängern Einschränkungen gegenüber sonstigen Vergabestellen bei der Auswahl der in einem Vergabeverfahren anwendbaren Formulare, was unverständlich ist.
+
+**Es handelt sich um einen BUG bei TED. Mündliche Aussage seitens TED im 6. workshop am 26.09.2023: Wird für Version 1.9 behoben.**
+</details>
+<br>
+
 
 ### Bekanntmachung der Ergebnisse (BG-7), Angebot (BG-320 Angebot)
 <details>
@@ -752,6 +809,38 @@ Es ist möglich, nach Angabe des Codes noch einen Freitext einzufügen, solange 
   </details>
 <br>
 
+### Bevorzugtes Veröffentlichungsdatum (Requested Publication Date BT-738)
+
+<details>
+<summary>
+27.09.23 Neuerungen und Details
+</summary>
+<br>
+
+- Datum der Veröffentlichung von eForms-Bekanntmachungen auf TED: nicht mehr 5 feste Kalendertage 
+
+- Möglichkeit, ein bevorzugtes Veröffentlichungsdatum festzulegen (BT-738)
+
+- Wenn kein Datum genannt ist, dann veröffentlicht TED "So bald wie möglich", d.h. in der nächsten verfügbaren OJS-Ausgabe
+
+   --> Bekanntmachung kann um 9:00 Uhr am nächsten Morgen im TED erscheinen; maximal 2 Arbeitstage
+
+   --> weniger Zeit, um die Veröffentlichung zu stoppen
+
+- Wenn ein Datum genannt ist, veröffentlicht TED am bevorzugten Datum oder in der nächsten verfügbaren OJS-Ausgabe nach diesem Datum
+  
+   --> siehe TED-Veröffentlichungskalender für Arbeitstage
+
+   --> das bevorzugte Veröffentlichungsdatum kann bis zu 60 Tage in der Zukunft liegen 
+
+- Am Werktag vor dem erwarteten Veröffentlichungsdatum:
+  
+   -->  täglicher Export an Arbeitstagen zwischen Mittag und Mittag - Mitteilung geht in OJS-Ausgabe ein
+  
+   -->  über Nacht in den Status "Veröffentlichung" (oder über das Wochenende oder an Feiertagen)
+  </details>
+<br>
+
 ### Lose
 <details>
 <summary>
@@ -815,6 +904,32 @@ Ja, soweit NUTS-Codes vorhanden sind, sind diese anzugeben
 [Zum Anfang](#häufig-gestellte-fragen)
 
 ### eNotices Portal der EU
+
+ <details> 
+<summary>
+ Neuest Informationen von TED 27.09.23
+ 
+ </summary>
+
+<br>
+ 
+- Bei API-Übermittlungen sollte NoticeAuthorEmail die E-Mail des Käufers sein - eSender müssen die wahre E-Mail-Adresse des Auftraggebers in den Metadaten angeben 
+ 
+- Der E-Mail-Autor der Bekanntmachung erhält Benachrichtigungen über Statusänderungen:  
+       --> Einreichung, Validierung fehlgeschlagen, gestoppt, nicht veröffentlicht, veröffentlicht
+  
+- Der eSender erhält eine Kopie an die E-Mail-Adresse, die von EU Login für den API-Schlüssel verwendet wird.
+
+- laufende Verbesserungen des Inhalts und der Übersetzung dieser E-Mail-Benachrichtigungen 
+    
+- Neue Funktion in Kürze: Käufer erhalten eine E-Mail-Benachrichtigung, wenn eine Bekanntmachung mit demselben Käufernamen veröffentlicht wurde
+
+- Beachten Sie bei API-Tests (Risiko, viele E-Mails zu erhalten): verwenden Sie einen eindeutigen "Hauptkäufernamen" für wiederkehrende Käufer und einen zufälligen Namen für mehrere Käufer
+  
+- **Vermittlungsdienst API Parameter: authorEmail
+               ​Bitte die E-Mail Ihrer Endkunden entsprechend angeben​**
+</details>
+<br>
 
 <details>
 <summary>
