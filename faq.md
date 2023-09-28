@@ -274,7 +274,7 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 
 <details>
 <summary>
-Anhalten, ändern oder abbrechen?
+27.09.23 Anhalten, ändern oder abbrechen?
 </summary>
 <br>
 -"Publishing" im nächsten Monat in eNotices2 Web und API sichtbar 
@@ -512,7 +512,7 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 ###  Beschaffer Rechtsnatur (BT-11) und CPV
 <details>
 <summary>
-CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Einschränkende Regel BR-BT-00262-0211 der EU.</summary>
+27.09.23 CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Einschränkende Regel BR-BT-00262-0211 der EU.</summary>
 <br>
 
 Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen ausschreiben, jedoch keine Dienstleistungen. Auch bei Vergabeverfahren nach SektVO, KonzVgV oder VSVgV gibt es bei ausschreibenden Zuwendungsempfängern Einschränkungen gegenüber sonstigen Vergabestellen bei der Auswahl der in einem Vergabeverfahren anwendbaren Formulare, was unverständlich ist.
@@ -715,7 +715,7 @@ Es ist möglich, nach Angabe des Codes noch einen Freitext einzufügen, solange 
 
 <details>
 <summary>
-Neuerungen und Details
+27.09.23 Neuerungen und Details
 </summary>
 <br>
 
