@@ -127,7 +127,7 @@ Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eFo
 
 <details>
 <summary>
-Wann startet der Datenservice Öffentlicher Einkauf?
+ 25.09.23 Wann startet der Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
 Der Produktivstart des Datenservice Öffentlicher Einkauf ist durch §83a der aktuellen Vergabeverordnung (VgV) geregelt. Dies wird voraussichtlich der 25.10.2023 sein.
@@ -385,7 +385,7 @@ Derzeit kann keine Verfügbarkeit des Online Validators garantiert werden. Wir p
 
 <details>
 <summary>
-Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen?
+ 27.09.23 Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen?
  
  </summary> 
  
@@ -417,7 +417,7 @@ https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/e
 
 <details>
 <summary>
-Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
+27.09.23 Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
 </summary>
 <br>
 Bis eForms-DE verpflichtend wird, kann im alten Format direkt bei TED eingeliefert werden. Für die zukünftige Einlieferung an den Datenservice Öffentlicher Einkauf kann ausschließlich das neue Format des Standards eForms-DE genutzt werden.
@@ -465,7 +465,7 @@ Der eSender-Hub trägt Sorge dafür, entsprechend der eingelieferten eForms-DE V
 
 <details>
 <summary>
-Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
+ 27.09.23 Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
 </summary>
 <br>
 Im Oktober 2023 werden vom Datenservice Öffentlicher Einkauf die Versionen 1.0 und 1.1 des Standards eForms-DE unterstützt, technisch entspricht dies einer CustomizationID (siehe Feld OPT-002-notice) mit den Werten "eforms-de-1.1" bzw. "eforms-de-1.0" . Zur Unterstützung der Implementierung stehen aktuell auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de die SDK-DE mit den Versionen SDK-DE-1.1.0_1.7.1 bzw. SDK-DE-1.0.1_1.5.3:20230727 bereit.
