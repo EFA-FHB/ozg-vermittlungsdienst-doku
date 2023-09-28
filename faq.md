@@ -475,7 +475,7 @@ Alle Fehler und Warnungen aus dem CVS Report werden zukünftig in den Statusinfo
 Wird es möglich sein, die online Validator API produktiv zu nutzen?
 </summary>
 <br>
-Derzeit kann keine Verfügbarkeit des Online Validators garantiert werden. Wir prüfen aber gerade, ob ides in Zukunft möglich gemacht werden kann
+Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produktivumgebung und in der Stagingumgebung wird die eforms-de-schematron Bugfix-Version immer die gleiche sein, wie auch im Vermittlungsdienst selbst. Auch die Nutzung des Offline-Validators (https://github.com/EFA-FHB/eforms-validator-core) ist empfohlen. 
 </details>
 <br>
 
