@@ -41,6 +41,35 @@ Senden Sie uns gern eine Liste von benötigten Accounts an oeffentliche-vergabe-
 
 <details>
 <summary>
+Können mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts empfehlen sich jeweils für Preview und Staging?
+</summary>
+<br>
+Die URL der Vergabeplattform dient rein der Zuordnung dr Accounts/ Mandanten, diese hat nichts mit der Verlinkung auf die Vergabeunterlagen zu tun. 
+
+Manche Vergabeplattformen nutzen z.B. Dropbox oder google drive oder Ähnliches für das Hosten der Vergabeunterlagen, weshalb sich daraus nicht eindeutig die dahinterliegende Plattform identifizieren lässt. Aus diesem Grund ist diese Information zusätzlich notwendig. Die Verlinkung zu den Vergabeunterlagen bleibt weiterhin im XML Dokument und diese wird primär in der BKMS Oberfläche angezeigt. Der bei der Accounterstellung mitgegebene Link wird nur rechts unten, unter der Bekanntmachung selbst, als Disclaimer/ Quelle angezeigt. 
+</details>
+<br>
+
+<details>
+<summary>
+Worin besteht der Unterschied zwischen der bei der Accounterstellung angefragten URL der Vergabeplattform und der Verlinkung zu den Vergabeunterlagen im eForms Dokument?
+</summary>
+<br>
+Senden Sie uns gern eine Liste von benötigten Accounts an oeffentliche-vergabe-support@nortal.com Inklusive aller benötigter Informationen pro Account. Wir empfehlen, auf Staging exakt so viele Accounts zu verwenden, wie sie für Produktion planen, zu nutzen. Zusätzlich sind natürlich beliebig viele Testaccounts auf Preview und Staging möglich.  
+</details>
+<br>
+
+<details>
+<summary>
+Wird auf Staging oder Preview der Veröffentlichungszyklus und die Validierung auf die selbe Art wie in Produktion durchgeführt oder werden die Statuswechsel beschleunigt? Mit welchen Verzägerungen zwischen Annahme und Veröffentlichung ist zu rechnen? 
+</summary>
+<br>
+In allen Umgebungen wird die gleiche Validierung und die gleiche Verzögerung in der Veröffentlichung durchgeführt wie in der Produktionsumgebung. Die Zeitverzögerungen liegen in diesem Fall bei TED (Veröffentlichung werktags frühestens am nächsten Werktag bei Annahme bis 16 Uhr) bzw der rechtlich notwendigen Logik der nationalen Veröffentlichung (Weiterleitung an den BKMS) nach frühestens 48h. Der BKMS veröffentlicht sofort, wenn eine Bekanntmachung entgegengenommen wurde, es sei den das Bevorzugte Veröffentlichungsdatum liegt in der Zukunft. In diesem Fall würde die Veröffentlichung sowohl in TED als auch in BKMS erst am gewünschten Tag stattfinden unter den bei TED geltenden Einschränkungen (z.B. keine Veröffentlichung am Wochenende).
+</details>
+<br>
+
+<details>
+<summary>
 Kann Zugriff auf die BKMS Alpha-Umgebung gewährt werden?
 </summary>
 <br>
@@ -72,6 +101,45 @@ Wird der Datenservice eine Render-Methode analog der Render-Methoden der EU anbi
 </summary>
 <br>
 Ein Notice-Viewer für das Rendering von eForms-DE Dokumenten in HTML ist bereits in Arbeit und wird vorraussichtlich Mitte/ Ende September veröffentlicht. Der Endpunkt wurde bereits im Vermittlungsdienst auf der Previewumgebung veröffentlicht, damit der Endpunkt bereits eingebunden werden kann. Dieser liefert eine gerenderte Beispieldatei zurück. Feedback und Anregungen nehmen wir gern unter oeffentliche-vergabe-support@nortal.com entgegen.
+</details>
+<br>
+
+<details>
+<summary>
+Wo sind Beispiele zu eForms-DE zu finden? Welche unterschiedlichen Typen gibt es? ? 
+</summary>
+<br>
+Beispieldokumente für eForms-DE sind im schematron Repository der KoSIT zu finden: https://projekte.kosit.org/eforms/eforms-de-schematron/-/tree/main/src/test/eforms-de-base-samples 
+ÜBer die jeweiligen tags und releases können die unterschiedlichen Versionen der Dokumente abgerufen werden.
+
+Die Abkürzungen sind wie folgt zu verstehen: 
+
+PIN
+Eng: Prior Information Notice
+Deu: Vorinformation
+Subtyp 1-14, E2
+PINs sind Bekanntmachungen, die vor Beginn des "Aufrufs zum Wettbewerb" veröffentlicht werden.
+
+CN
+Eng: Contract Notice
+Deu: Offenes Verfahren / Öffentliche Ausschreibung
+Subtyp 15-24, E3
+CNs sind Bekanntmachungen, die den "Aufruf zum Wettbewerb" einleiten.
+
+CAN
+Eng: Contract Award Notice
+Deu: Bekanntmachung (vergebener Vertrag)
+Subtyp 25-40, E4
+CANs werden zur Erstellung von Ergebnisbekanntmachungen verwendet, die kurz nach der Vertragsunterzeichnung veröffentlicht werden. Sie beziehen sich auf die Bekanntmachung und enthalten Informationen über das Vergabeverfahren, wie z. B. die Auftragsvergabe, den Gewinner usw.
+
+Bei der Bennenung der Beispeieldokumente geht es um folgendes:
+
+eforms = Standard Dokumenttyp
+PIN/CN/CAN = siehe oben; bezeichnet das Art von Bekanntmachung
+Nummer 1-40 oder E1-E4 = Subtyp der Bekanntmachung, wobei E für unterschwellige Bekanntmachungen sind
+DE = Standard ist eForms-DE
+(in)/valid = ob das file laut Spezifikation eForms-de gültig oder ungültig ist
+Es existieren derzeit noch nicht für alle Bekanntmachungstypen eine Beispieldatei. Wenn sie für einen bestimmten Typ ein Beispiel benötigen, das im vorher genannten Link nicht existiert, können wir gern eine Anfrage hierzu weiterleiten. Leider stellt auch die EU nicht für alle Bekanntmachungstypen Beispiele bereit, sodass die zur Verfügungstellung von Beispiel teilweise recht zeitintensiv ist. 
 </details>
 <br>
 
@@ -136,7 +204,7 @@ Der Produktivstart des Datenservice Öffentlicher Einkauf ist durch §83a der ak
 
 <details>
 <summary>
-Werden zum Go-live alle 40 EU-Bekanntmachungstypen unterstützt? Wann steht der genaue Umfang des Production Release fest? Aktuell wird eine Umsetzung einiger Features mit "voraussichtlich ja" für den Production Release angekündigt. Wann wird bekannt sein, ob eine tatsächliche Umsetzung im Production Release erfolgen wird (https://github.com/EFA-FHB/ozg-vermittlungsdienst-dokuoku/blob/development/Releases.md)?
+Werden zum Go-live alle 40 EU-Bekanntmachungstypen unterstützt?
 </summary>
 <br>
 Es werden alle Dokumententypen aus eForms-DE angenommen (40 für die Oberschwelle und 3 für die Unterschwelle). Wo notwendig werden diese generisch in das eForms-EU Format konvertiert. Dies entspricht den Inhalten des aktuellen eForms-DE Standards.
@@ -180,6 +248,16 @@ Unterstützt werden die aktuellen Versionen eForms-DE 1.0.1 und 1.1. Es wird nie
 </details>
 <br>
 
+<details>
+<summary>
+Wie wird mit einem Wechsel des eSenders für eine Bekanntmachung umgegangen, wenn diese berichtigt werden soll? Wie wird mit einem Wechsel des eSenders innerhalb eines Verfahrens mit mehreren Bekanntmachungen umgegangen? Wie können Korrekturen oder Verweise für Folgebekanntmachungen in Bezug auf im alten Format eingereichte Bekannmachungen durchgeführt werden? 
+</summary>
+<br>
+
+Es wird nicht möglich sein, über den Datenservice den Status einer alten Bekanntmachung abzufragen oder eine alte Bekanntmachung zu stoppen, die nicht über den Datenservice eingeliefert wurde, da der Datenservice keine Anfragen zu im alten Format versendeten Bekanntmachungen versenden kann. Der Wechsel des eSender hat jedoch keinen Einfluss auf die Möglichkeit, auf alte Bekanntmachungen zu referenzieren. 
+Wie Verweise und Korrekturen alter Bekanntmachungen möglich sind, finden Sie hier ausführlich beschrieben: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
+</details>
+<br>
 
 ### Kommunikationskanäle
 
@@ -274,6 +352,7 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 
 <details>
 <summary>
+
 27.09.23 Anhalten, ändern oder abbrechen?
 </summary>
 <br>
@@ -285,6 +364,14 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 </details>
 <br>
 
+=======
+Wie kann der Beginn der Stillhaltezeit von 48 Stunden nachvollzogen, wann die Bekanntmachung bei TED eingegangen ist?
+</summary>
+<br>
+Es bestehen zwei Möglichkeiten, den Zeitpunkt der erfolgreichen Einlieferung bei TED aus den Statusinformationen im Vermittlungsdienst abzulesen. Entweder über den technischen Zeitstempel, wann der eSender eine Bestätigung für die Einlieferung von der TED API erhalten hat (<tedStatus>ACCEPTED</tedStatus>  tedStatusUpdate>2023-07-31T08:02:02.442Z</tedStatusUpdate>) oder über den von TED übermittelten Wert submittedAt, der bei der Statusabfrage mitgeliefert wird (<ted_accepted_timestamp>). Beide Werte liegen nur minimal auseinander, da es eine minimale Verzögerung geben kann zwischen dem Zeitpunkt, wann TED die Bekanntmachung annimmt und wann eine Erfolgsmeldung an den eSender als Response zurückgeliefert wird. 
+</details>
+<br>
+ 
 <details>
 <summary>
 Mit den Statusänderungsmeldungen der EU haben Plattformanbieter auch weitergehende Metadaten zum jeweiligen Status erhalten, bspw. die Submission-ID, den konkreten Zeitpunkt der Veröffentlichung auf TED, die ABl.-Nummer etc. Mit der ABl.-Nummer hatten Kunden bisher die Möglichkeit, bei Folgebekanntmachungen zu diesem Auftrag (Angabe "frühere Bekanntmachung desselben Auftrags") diese Nummern nicht mehr manuell eintragen zu müssen, da diese vorbefüllt werden konnten. Besteht auch weiterhin die Möglichkeit, o. g. Informationen zur Veröffentlichung zu erhalten, um den Kunden diese Reihe an Funktionalitäten zu bieten?
@@ -305,6 +392,17 @@ Wie werden abgelehnte Bekanntmachungen in Fehlerzuständen wie 'REJECTED' Status
 </summary>
 <br>
 Es wird ein internes Monitoring geben, um auf Fehlerzustände (Status InternalError) oder Bugs zu reagieren. Aktuell ist Nortal unter der E-Mail Adresse oeffentliche-vergabe-support@nortal.com der erste Ansprechpartner, wenn Sie Probleme mit Ihren Einlieferungen haben udn Ihre Bekanntmachungen in einen Fehlerstatus laufen. Generell deuten solche Fehlerzustände auf Bugs im DöE, in TED oder in der versendeten Bekanntmachung hin. Wann immer Fehler im System passieren (Beispielsweise bei Ablehnung durch TED), werden diese geloggt, sodass bei Bedarf ein Support Ticket erstellt und eine technische Analyse durchgeführt werden kann. Es wird dann individuell entschieden, welche Maßnahmen zur behebung des Fehlers zielführend sind. Bei technischen Fehlern kann die Bekanntmachung entweder nach Behebung erneut als neue Version versendet oder intern manuell erneut prozessiert werden. Dies ist jedoch vom Einzelfall abhängig. Sollte TED ablehnen besteht die Möglichkeit, dass ein Fehler in der Bekanntmachung existiert, beispilesweise die notice-id bereits genutzt wird. In diesem Fall wird gespeichert, welche Fehlermeldung TED bei der Ablehnung zurückgeliefert hat, sodass entsprechend reagiert werden kann. 
+</details>
+<br>
+
+<details>
+<summary>
+Kann es vorkommen, dass eine oberschwellige Bekanntmachung nach Ablauf der Frist in NOT_PUBLISHED übergeht, wenn sie schon im BKMS veröffentlicht wurde? Denn dann hätten wir ja TED:NOT_PUBLISHED / DSE:PUBLISHED, einen Status, den ich im Ablaufdiagramm nicht entdecken konnte.
+</summary>
+<br>
+Der Status NOT_PUBLISHED ist nur für Bekanntmachungen mit lawfullness warnings relevant. Wenn eine Bekanntmachung keine lawfulness warnings hat, wird keine manuelle Prüfung durch TED durchgeführt, sodass es auch nicht zum Status NOT_PUBLISHED basierend auf einer manuellen Ablehnung kommen kann. 
+
+Bei lawfullness warnings wird eine Bekanntmachung erst 5 Tage nach SUBMITTED in TED an den BKMS weitergeleitet, um die manuelle Prüfung abzuwarten. Sollte es aber dennoch zu einer Situation kommen, bei der eine Bekanntmachung bereits im BKMS veröffentlicht ist, die dann in TED auf NOT_PUBLISHED wechselt, dann wird diese Bekanntmachung automatisch durch unser System im BKMS gestoppt, sodass der Status auf DöE:Stopped wechseln würde. So stellen wir sicher, dass keine von TED abgelehnten Bekanntmachungen im BKMS veröffentlicht bleiben. Dieses Szenario ist aber sehr sehr unwahrscheinlich. 
 </details>
 <br>
 
