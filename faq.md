@@ -35,15 +35,6 @@ Diese Email wird verwendet, wenn wir proaktiv auf Sie zugehen wollen. Dies kann 
 Können mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts empfehlen sich jeweils für Preview und Staging?
 </summary>
 <br>
-Senden Sie uns gern eine Liste von benötigten Accounts an oeffentliche-vergabe-support@nortal.com Inklusive aller benötigter Informationen pro Account. Wir empfehlen, auf Staging exakt so viele Accounts zu verwenden, wie sie für Produktion planen, zu nutzen. Zusätzlich sind natürlich beliebig viele Testaccounts auf Preview und Staging möglich.  
-</details>
-<br>
-
-<details>
-<summary>
-Können mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts empfehlen sich jeweils für Preview und Staging?
-</summary>
-<br>
 Die URL der Vergabeplattform dient rein der Zuordnung dr Accounts/ Mandanten, diese hat nichts mit der Verlinkung auf die Vergabeunterlagen zu tun. 
 
 Manche Vergabeplattformen nutzen z.B. Dropbox oder google drive oder Ähnliches für das Hosten der Vergabeunterlagen, weshalb sich daraus nicht eindeutig die dahinterliegende Plattform identifizieren lässt. Aus diesem Grund ist diese Information zusätzlich notwendig. Die Verlinkung zu den Vergabeunterlagen bleibt weiterhin im XML Dokument und diese wird primär in der BKMS Oberfläche angezeigt. Der bei der Accounterstellung mitgegebene Link wird nur rechts unten, unter der Bekanntmachung selbst, als Disclaimer/ Quelle angezeigt. 
@@ -261,6 +252,8 @@ Wie Verweise und Korrekturen alter Bekanntmachungen möglich sind, finden Sie hi
 
 ### Kommunikationskanäle
 
+<details>
+<summary> 
 Erreichbarkeiten:
 </summary>
 *Fragen und Verbesserungsvorschläge* gegenüber dem Vermittlungsdienst und dem eSender-Hub können an oeffentliche-vergabe@nortal.com gerichtet werden. Alternativ können Github Issues im Dokumentationsrepository und dem SDK-eForms-DE Repository erstellt werden.
@@ -272,6 +265,7 @@ Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs we
 Wir sind offen für Ihre Vorschläge!
 </details>
 <br>
+
 
 <details>
 <summary>
@@ -300,19 +294,6 @@ Fragen zum DE-SDK sind über Issues im Repository zu eröffnen.
 </details>
 <br>
 
-<details>
-<summary> 
-Erreichbarkeiten:
-</summary>
-*Fragen und Verbesserungsvorschläge* gegenüber dem Vermittlungsdienst und dem eSender-Hub können an oeffentliche-vergabe@nortal.com gerichtet werden. Alternativ können Github Issues im Dokumentationsrepository und dem SDK-eForms-DE Repository erstellt werden.
-
-Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs wenden Sie sich bitte an: oeffentliche-vergabe-support@nortal.com.
-
-*Fragen zum Bekanntmachungsservice* können an support-oeffentlichevergabe@bdr.de gerichtet werden.
-
-Wir sind offen für Ihre Vorschläge!
-</details>
-<br>
 
 
 
