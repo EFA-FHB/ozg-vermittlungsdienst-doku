@@ -3,7 +3,7 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
-# Status- und Transferinformationen
+# Status - und Transferinformationen
 
 Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst bzw. eSender-Hub abgefragt und gespeichert, so liegt jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
 <br>
