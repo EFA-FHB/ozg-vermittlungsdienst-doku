@@ -1,8 +1,8 @@
 ### EfA Implementation Project "Access to Public Procurement".
 # Documentation mediation service
 Connection:
-  - [Available System Environments](Development_environments.md)
-  - [Connection to the mediation service](Connection_to_mediator.md)
+  - [Connection to mediation service](Connection_to_mediator.md)
+  - [Available system environments](Development_environments.md)
 
 Functionality of the mediation service and eSender hubs:
 - [Workflow of an announcement in the mediation service](Workflow.md)
