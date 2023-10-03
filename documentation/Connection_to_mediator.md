@@ -82,26 +82,21 @@ Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEP
 1. Account Management der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Spalte _Account Management (Keycloak)_)
 
 2. Auf 'Passwort vergessen?' klicken<br>
-![Auf Passwort vergessen](images/kc_login.png)
 <br>
 
 3. E-Mail-Adresse eintragen und auf 'Absenden' klicken<br>
-![E-Mail eintragen](images/kc_passwort_vergessen.png)
 <br>
 
 4. Die Meldung 'Sie sollten in Kürze eine E-Mail mit weiteren Instruktionen erhalten' wir angezeigt.<br>
-![Meldung](images/kc_nachricht_best%C3%A4tigungsemail.png)
 <br>
 
 5. Überprüfen der E-Mails: Ein Link zum Zurücksetzen der Anmeldeinformationen ist in der E-Mail erhalten.<br>
-![Bestätigungs-E-Mail](images/e-mail_passwort_zuruecksetzen.png)
 <br>
 
 6. Auf 'Link zum Zurücksetzen von Anmeldeinformationen' klicken.
 <br>
 
 7. Der Benutzer wird auf die Seite 'Passwort aktualisieren' umgeleitet.<br>
-![PAsswort aktualisieren](images/kc_passwort_aktualisieren.png)
 <br>
 
 8. Neues Passwort eintragen und bestätigen und auf 'Absenden' klicken.<br>
@@ -123,4 +118,4 @@ In der E-Mail müssen folgende Angaben enthalten sein:
 
 Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen.
 
-Test.
+Test1.
