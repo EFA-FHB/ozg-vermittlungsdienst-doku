@@ -120,3 +120,35 @@ Currently, a **test, reference, and a production** environment of the Mediation 
     </tr>
   </tbody>
 </table>
+
+1. call Account Management of the desired environment (found in [System Environments](/documentation/Development_environments.md) in the _Account Management (Keycloak)_ column).
+
+2. click on 'Forgotten password?"_<br>
+![On forgot password](images/kc_login.png)
+<br>
+
+3. enter email address and click on 'submit'<br>
+![Enter email](images/kc_password_forgotten.png)
+<br>
+
+4. the message 'You should receive an email shortly with further instructions' will be displayed.<br>
+![Message](images/kc_message_best%C3%A4tigungsemail.png)
+<br>
+
+5. check emails: a link to reset the credentials is received in the email.<br>
+![Confirmation email](images/e-mail_password_reset.png)
+<br>
+
+6. click on 'link to reset credentials'.
+<br>
+
+7. user will be redirected to the 'Update Password' page.<br>
+![Update PAssword](images/kc_password_update.png)
+<br>
+
+8. enter and confirm new password and click on 'Submit'.<br>
+Password must be at least 8 characters, contain 1 capital letter and 1 number.
+<br>
+
+9.The password must be stored in the FVH software to ensure that the connection with the switching service works.
+<br>
