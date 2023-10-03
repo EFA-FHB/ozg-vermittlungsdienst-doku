@@ -17,7 +17,7 @@ After successful transformation into the EU version of eForms matching the DE ve
 <br><br>
 If the submission is successful, the exact time of submission is recorded to calculate the 48h deadline for national publication. If no warnings exist the announcement is forwarded to the BKMS at the latest after the 48h period. If lawfulness warnings exist, the announcement is forwarded to BKMS at the latest after 5 days to await manual review by TED. If an announcement is published at TED before, it will be forwarded to the BKMS immediately. The publication time is also stored.
 <br><br>
-During the entire process, status changes, e.g. triggered by a feedback from TED, as well as errors or warnings that have occurred are stored internally. Relevant status information can be queried at any time by FVH via the switching service. Details on status messages and errors can be found under. [status information](documentation\Status_information.md).
+During the entire process, status changes, e.g. triggered by a feedback from TED, as well as errors or warnings that have occurred are stored internally. Relevant status information can be queried at any time by FVH via the switching service. Details on status messages and errors can be found under... [status information](documentation\Status_information.md).
 <br><br>
 
 ![Workflow diagram](/documentation/images/workflow_2.png)
