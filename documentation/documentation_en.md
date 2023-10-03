@@ -1,21 +1,21 @@
 ### EfA Implementation Project "Access to Public Procurement".
 # Documentation mediation service
 Connection:
-  - [Connection to mediation service](Connection_to_mediator.md)
-  - [Available system environments](Development_environments.md)
+  - [Connection to mediator service](ConnectionToMediator.md)
+  - [Available System Environments](Development_environments.md)
 
 Functionality of the mediation service and eSender hubs:
-- [Workflow of an announcement in the mediation service](Workflow.md)
+- [Workflow of an announcement in the mediator service](Workflow.md)
 - [Submitting a notice](/documentation/send_notice.md)
-- [Distinction between sub-threshold and upper-threshold notices](/documentation/sub-threshold_notice.md)
-- [Change Notices Updates STOP Publication functionality](/documentation/STOPupdatechangenotices.md)
+- [Distinction between lower and higher threshold award](/documentation/upper_or_lower_threshold_award.md)
+- [Change Notices/Updates & STOP Publication functionality](/documentation/STOPupdatechangenotices.md)
 - [Status and Transfer Information](Status_information.md)
 
 
 eForms:
-- [Version overview in DöE](eForms_support.md)
+- [Version overview in the DöE](eForms_support.md)
 - [Instructions for creating eForms-DE documents](eForms_creation.md)
 - [eForms validation service (website)](Validator.md)
-- [Status and transfer information COPY](Status_information.md)
+
 
 <br><br>
