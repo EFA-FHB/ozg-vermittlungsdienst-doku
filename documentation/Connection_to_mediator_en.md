@@ -16,7 +16,7 @@ The REST API and associated documentation for the existing endpoints is provided
 Access data must be requested once in order to use the API. The authorization is done via OAuth 2.0.
 <br>
 
-### Requesting an account to deliver announcements.
+### Apply for an account to deliver announcements.
 
 >**Note** <br>
 >After the production release in June, a user must be requested again for the production and staging environment, even if a user already exists in Preview.
@@ -100,7 +100,7 @@ In the future, it will also be possible to transmit notices to the switching ser
 6. click on 'link to reset credentials'.
 <br>
 
-7. user will be redirected to 'Update password' page.<br>
+7. user will be redirected to 'Update Password' page.<br>
 ![Update PAssword](images/kc_password_update.png)
 <br>
 
@@ -122,3 +122,5 @@ The email must contain the following information:
 - Name of the FVH
 
 After checking the data provided in the e-mail, we will delete the access and send you a confirmation e-mail.
+
+Test.
