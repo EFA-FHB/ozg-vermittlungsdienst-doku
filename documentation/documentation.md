@@ -8,7 +8,7 @@ Funktionsweise des Vermittlungsdienstes und eSender-Hubs:
 - [Workflow einer Bekanntmachung im Vermittlungsdienst](Workflow.md)
 - [Einsenden einer Bekanntmachung](/documentation/send_notice.md)
 - [Unterscheidung von Unter- und Oberschwellenvergabe](/documentation/Ober-oder_unterschwellenvergabe.md)
-- [Change Notices/Updates & STOP Publication-Funktionalität](/documentation/STOP%20update%20%26%20change%20notices.md)
+- [Change Notices Updates STOP Publication-Funktionalitat](/documentation/STOPupdatechangenotices.md)
 - [Status- und Transferinformationen](Status_information.md)
 
 
@@ -16,6 +16,6 @@ eForms:
 - [Versionsübersicht im DöE](eForms_support.md)
 - [Hinweise zum Erstellen von eForms-DE Dokumenten](eForms_Erstellung.md)
 - [eForms Validierungsservice (Website)](Validator.md)
-
+- [Status- und Transferinformationen COPY](Status_information.md)
 
 <br><br>
