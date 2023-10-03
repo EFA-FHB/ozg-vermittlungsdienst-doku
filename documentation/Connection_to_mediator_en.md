@@ -81,30 +81,25 @@ In the future, it will also be possible to transmit notices to the switching ser
 
 1. call account management of the desired environment (to be found under [system environments](/documentation/Development_environments.md) in the column _Account Management (Keycloak)_)
 
-2. click on 'Forgotten password?"_<br>
-![On forgot password](images/kc_login.png)
+2. click on 'Forgot password?"<br>
 <br>
 
-3. enter email address and click on 'submit'<br>
-![Enter email](images/kc_password_forgotten.png)
+3. enter email address and click on 'Submit'<br>
 <br>
 
-4. the message 'You should receive an email shortly with further instructions' is displayed.<br>
-![Message](images/kc_message_best%C3%A4tigungsemail.png)
+4. the message 'You should receive an email shortly with further instructions' will be displayed.<br>
 <br>
 
-5. check emails: a link to reset the credentials is received in the email.<br>
-![Confirmation email](images/e-mail_password_reset.png)
+5. Checking the emails: a link to reset the credentials is received in the email.<br>
 <br>
 
 6. click on 'link to reset credentials'.
 <br>
 
-7. user will be redirected to 'Update Password' page.<br>
-![Update PAssword](images/kc_password_update.png)
+7. The user will be redirected to the 'Update Password' page.<br>
 <br>
 
-8. enter and confirm new password and click on 'Submit'.<br>
+8. enter and confirm new password and click 'Submit' button.<br>
 Password must be at least 8 characters, contain 1 capital letter and 1 number.
 <br>
 
@@ -123,4 +118,4 @@ The email must contain the following information:
 
 After checking the data provided in the e-mail, we will delete the access and send you a confirmation e-mail.
 
-Test.
+Test1.
