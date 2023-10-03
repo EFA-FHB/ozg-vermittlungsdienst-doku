@@ -1,8 +1,8 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Dokumentation Vermittlungsdienst
 Anbindung:
-  - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
   - [Verfügbare Systemumgebungen](Development_environments.md)
+  - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
 
 Funktionsweise des Vermittlungsdienstes und eSender-Hubs: 
 - [Workflow einer Bekanntmachung im Vermittlungsdienst](Workflow.md)
