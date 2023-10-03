@@ -8,7 +8,7 @@
 >Please note: If subliminal announcements are still sent to service.bund.de, they must NOT be sent to the mediation service in addition!
 
 # Connection to the switching service
-Notices can be sent to the mediation service via the mediation service's [REST API](#connection-per-rest-api) or via the [eDelivery Network PEPPOL](#connection-per-peppol-in-implementation) (in implementation).
+Notices can be sent to the switching service via the [REST API](#connection-per-rest-api) of the switching service or via the [eDelivery Network PEPPOL](#connection-per-peppol-in-implementation) (in implementation).
 <br>
 
 ## Connection via REST API
@@ -16,7 +16,7 @@ The REST API and associated documentation for the existing endpoints is provided
 Access data must be requested once in order to use the API. The authorization is done via OAuth 2.0.
 <br>
 
-### Apply for an account to deliver announcements.
+### Requesting an account to deliver announcements.
 
 >**Note** <br>
 >After the production release in June, a user must be requested again for the production and staging environment, even if a user already exists in Preview.
@@ -81,25 +81,30 @@ In the future, it will also be possible to transmit notices to the switching ser
 
 1. call account management of the desired environment (to be found under [system environments](/documentation/Development_environments.md) in the column _Account Management (Keycloak)_)
 
-2. click on 'Forgot password?"<br>
+2. click on 'Forgotten password?"_<br>
+![On forgot password](images/kc_login.png)
 <br>
 
-3. enter email address and click on 'Submit'<br>
+3. enter email address and click on 'submit'<br>
+![Enter email](images/kc_password_forgotten.png)
 <br>
 
-4. the message 'You should receive an email shortly with further instructions' will be displayed.<br>
+4. the message 'You should receive an email shortly with further instructions' is displayed.<br>
+![Message](images/kc_message_best%C3%A4tigungsemail.png)
 <br>
 
-5. Checking the emails: a link to reset the credentials is received in the email.<br>
+5. check emails: a link to reset the credentials is received in the email.<br>
+![Confirmation email](images/e-mail_password_reset.png)
 <br>
 
 6. click on 'link to reset credentials'.
 <br>
 
-7. The user will be redirected to the 'Update Password' page.<br>
+7. user will be redirected to 'Update password' page.<br>
+![Update PAssword](images/kc_password_update.png)
 <br>
 
-8. enter and confirm new password and click 'Submit' button.<br>
+8. enter and confirm new password and click on 'Submit'.<br>
 Password must be at least 8 characters, contain 1 capital letter and 1 number.
 <br>
 
@@ -113,9 +118,7 @@ The email must contain the following information:
 - System environment in which the access data is to be deleted
 - E-mail address which is used as username
 - URL of the awarding platform
-- First and last name as well as e-mail address of the representative of the FVH
+- First and last name as well as e-mail address of the representative of FVH
 - Name of the FVH
 
 After checking the data provided in the e-mail, we will delete the access and send you a confirmation e-mail.
-
-Test1.
