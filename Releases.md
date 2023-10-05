@@ -4,16 +4,16 @@
 <br>
 
 
-## Geplantes Release für Self-Service Portal 
+## Release für Self-Service Portal - Portal-Account, Registrierungsform für einen separaten Vermittlungsdienst-Account
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | Doku + Registrierungsformular: **KW38** , Statusübersicht: **KW39**         |          |
-| Staging    | Doku + Registrierungsformular: **KW39**  , Statusübersicht: **KW40**        |             |
-| Produktion | Doku + Registrierungsformular: **KW40** , Statusübersicht **KW41**          |                |
+| Preview    | Doku + Registrierungsformular: **KW38** , Statusübersicht: **KW39**         | veröffentlicht |
+| Staging    | Doku + Registrierungsformular: **KW39**  , Statusübersicht: **KW40**        | veröffentlicht |
+| Produktion | Doku + Registrierungsformular: **KW40** , Statusübersicht **KW41**          | veröffentlicht |
 
-Status: In Entwicklung <br>
+Status: Veröffentlicht <br>
 <details>
-<summary>Release Notes (In Arbeit)</summary>
+<summary>Release Notes</summary>
 
 ### Self-Service Portal
 >**Umgebungen** <br>
@@ -34,16 +34,16 @@ Status: In Entwicklung <br>
 <br>
 
 
-## Geplantes Release für RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer
+## Release für RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer
 | Umgebung Vermittlungsdienst  | Zeitraum              | BKMS                      | Status |
 |------------|-----------------------|---------------------------|--------|
 | Preview    | nur RequestedPublicationDate Fix: **KW37**,  Alles andere: **KW39**                 | unterstützt in Alpha      | veröffentlicht |
-| Staging    | verschoben: **KW40**    | unterstützt in Alpha      |        |
-| Produktion | verschoben: **KW41**                  | unterstützt in Produktion |        |
+| Staging    | verschoben: **KW40**    | unterstützt in Alpha      | veröffentlicht |
+| Produktion | verschoben: **KW41**                  | unterstützt in Produktion | veröffentlicht |
 
-Status: In QS<br>
+Status: Veröffentlicht <br>
 <details>
-<summary>Release notes (In Arbeit)</summary>
+<summary>Release notes</summary>
 
 ### Vermittlungsdienst
 >**Umgebungen** <br>
@@ -51,17 +51,26 @@ Status: In QS<br>
 >NEU: Staging Umgebung https://staging-ozg-vermittlungsdienst.de<br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
+- Integration mit neuem BKMS-Endpunkt
+- Neue Benennung der Benachrichtigungs-XML-Datei im ASIC-Container: anstatt 'notice.xml' jetzt 'uuid.eforms.xml'
+- Peppol-Integration mit B2Brouter
+- 'PublicationID' von TED wird jetzt bearbeitet und im Vermittlungsdienst gespeichert
+
 ### Notice-Viewer
 >**Umgebungen** <br>
 >NEU: Preview Umgebung https://viewer.preview-ozg-vermittlungsdienst.de<br>
 >NEU: Staging Umgebung https://viewer.staging-ozg-vermittlungsdienst.de<br>
 >NEU: Production Umgebung https://viewer.ozg-vermittlungsdienst.de<br>
 
+- Autorisierung und Integration mit dem Mediator
+- Unterstützung von eForms-DE 1.1.0 und -DE 1.0.1
+- Neuste DE-SDK-Version hinzugefügt – 1.1.0 – 1.7.1
+- Entfernung von Dateien, die 24 Stunden älter sind
+
 Verfügbar als Standalone Webservice mit Token-Authentifizierung (gleicher Token wie im Vermittlungsdienst kann genutzt werden) für Upload von XML Dateien und als Endpunkt im Vermittlungsdienst für Rendering von bereits eingelieferten Bekanntmachungen anhand der 
 
 ### eSender-Hub
 - Neue Transformation von eForms-DE zu eForms-EU bezüglich 'requestedPublicationDate', ausführliche Erklärung [hier](/documentation/eForms_Erstellung.md)
-- ...
 
 ### Validator
 >**Umgebungen** <br>
@@ -70,7 +79,7 @@ Verfügbar als Standalone Webservice mit Token-Authentifizierung (gleicher Token
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
 - Schematron Updates für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.2) und 1.0.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3)
-- ...
+- Token-Autorisierung für externen Validator
 </details>
 <br>
 
