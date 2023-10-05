@@ -11,7 +11,7 @@
 | Staging    | Doku + Registrierungsformular: **KW39**  , Statusübersicht: **KW40**        | veröffentlicht |
 | Produktion | Doku + Registrierungsformular: **KW40** , Statusübersicht **KW41**          | veröffentlicht |
 
-Status: Veröffentlicht <br>
+Status: Veröffentlicht am 4.10.2023 <br>
 <details>
 <summary>Release Notes</summary>
 
@@ -39,9 +39,9 @@ Status: Veröffentlicht <br>
 |------------|-----------------------|---------------------------|--------|
 | Preview    | nur RequestedPublicationDate Fix: **KW37**,  Alles andere: **KW39**                 | unterstützt in Alpha      | veröffentlicht |
 | Staging    | verschoben: **KW40**    | unterstützt in Alpha      | veröffentlicht |
-| Produktion | verschoben: **KW41**                  | unterstützt in Produktion | veröffentlicht |
+| Produktion | verschoben: **KW41**                  | unterstützt in Produktion |  |
 
-Status: Veröffentlicht <br>
+Status: In QS <br>
 <details>
 <summary>Release notes</summary>
 
