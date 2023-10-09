@@ -22,14 +22,12 @@
 | TED Preview | TED Apps for eForms | 24.08.2023 | 07:00-08:00 CEST  | Angekündigt von TED |
 | TED Produktion| TED Apps for eForms | 23.08.2023 | 07:00-08:00 CEST | Angekündigt von TED | 
 
-
 # Bekannte Bugs 
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
 | Vermittlungsdienst | 04.10.2023 | KW42 | Bei Notice type 38 & 39 schlägt fälschlicher Weise die Regel BR-DE-BT-165 aus, obwohl dieses Feld nicht notwendig ist|
 | SSP Staging + Production | 04.10.2023 | KW42 | Bilder in Dokumentation können nicht dargestellt werden |
-| Vermittlungsdienst (Preview) | 14.09.2023 | eforms-de-schematron 0.6.2 | eForms-DE erlaubt Unterschiede zwischen issueDate und requestedPublicationDate bis zu max. 92 Tagen (eforms-DE 1.0.1) und 60 Tagen (eForms-DE 1.1), während von TED maximal 91 und 59 Tage erlaubt sind | 
 | TED Preview  | 09.08.2023               | 25.08.2023                   | Bekanntmachungen ab dem 09.08.2023 werden durch TED nicht mehr in den Status 'PUBLISHED' gesetzt, sie bleiben in 'ACCEPTED' hängen auf Grund eines Fehlers seitens TED |
 
 
