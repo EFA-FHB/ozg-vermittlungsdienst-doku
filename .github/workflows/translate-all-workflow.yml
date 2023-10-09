@@ -1,0 +1,107 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Translate all files
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "translate"
+  translate:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - uses: robinraju/release-downloader@v1.8
+        with: 
+          # The source repository path.
+          # Expected format {owner}/{repo}
+          # Default: ${{ github.repository }}
+          repository: "EFA-FHB/file-translator"
+          
+          # A flag to set the download target as latest release
+          # The default value is 'false'
+          latest: true
+          
+          # The github tag. e.g: v1.0.1
+          # Download assets from a specific tag/version
+          #tag: ""
+          
+          # The release id to download files from 
+          #releaseId: ""
+          
+          # The name of the file to download.
+          # Use this field only to specify filenames other than tarball or zipball, if any.
+          # Supports wildcard pattern (eg: '*', '*.deb', '*.zip' etc..)
+          fileName: "*"
+          
+          # Download the attached tarball (*.tar.gz)
+          tarBall: true
+          
+          # Download the attached zipball (*.zip)
+          zipBall: true
+          
+          # Relative path under $GITHUB_WORKSPACE to place the downloaded file(s)
+          # It will create the target directory automatically if not present
+          # eg: out-file-path: "my-downloads" => It will create directory $GITHUB_WORKSPACE/my-downloads
+          out-file-path: "file-translate"
+
+          # A flag to set if the downloaded assets are archives and should be extracted
+          # Checks all downloaded files if they end with zip, tar or tar.gz and extracts them, if true.
+          # Prints a warning if enabled but file is not an archive - but does not fail.
+          extract: true
+
+          # Github access token to download files from private repositories
+          # https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets
+          
+          token: ${{ secrets.TRANSLATE_TOKEN }}
+
+          # The URL of the Github API, only use this input if you are using Github Enterprise
+          # Default: "https://api.github.com"
+          # Use http(s)://[hostname]/api/v3 to access the API for GitHub Enterprise Server
+          #github-api-url: ""
+
+      # Runs a single command using the runners shell
+
+      - name: Set file permissions
+        run: chmod +x file-translate/file-translator
+
+      - name: Translate all md files
+        run: |
+          IFS=$'\n'
+          files=$(find . -name "*.md" -not -name "*_en.md") 
+          for file in ${files}; do
+            echo "$file translating"
+            filedir=$(dirname "$file")
+            filename=$(basename -- "$file")
+            extension="${filename##*.}"
+            filename="${filename%.*}"
+            ./file-translate/file-translator -i $file -o ${filedir}/${filename}_en.md --api-key ${{ secrets.DEEPL_API_KEY }}
+          done
+
+      - name: Cleanup translate tool
+        run: rm -rf ./file-translate
+
+      - name: Auto-Commit translated files 
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Optional. Commit message for the created commit.
+          # Defaults to "Apply automatic changes"
+          commit_message: Commit automatic translations
+      
+          # Optional glob pattern of files which should be added to the commit
+          # Defaults to all (.)
+          # See the `pathspec`-documentation for git
+          # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
+          # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
+          file_pattern: '**/*.md'

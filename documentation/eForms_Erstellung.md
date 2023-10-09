@@ -93,7 +93,7 @@ https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1
 
 _Datenservice öffentlicher Einkauf_
 
-Der DöE baut sowohl die neuen Schematron Regeln als auch die Umwandlung im eSender-Hub derzeit ein. Diese Änderungen werden mit dem nächsten Release in KW 39 veröffentlicht und sind dann testbar. 
+Der DöE baut sowohl die neuen Schematron Regeln als auch die Umwandlung im eSender-Hub derzeit ein. Diese Änderungen werden mit dem nächsten Release in KW 41 in Produktion veröffentlicht und sind dann testbar (genauere Infos zum Release finden Sie [hier](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/Releases.md). 
 
 _SDK-DE_
 

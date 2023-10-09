@@ -3,16 +3,47 @@
 [Übersicht](/Readme.md)
 <br>
 
-## Geplantes Release für eForms-DE 1.1 und 1.0.1 Schematron Updates, weitere Transformation in eSender-Hub - Vermittlungsdienst und eSender-Hub
+
+## Release für Self-Service Portal - Portal-Account, Registrierungsform für einen separaten Vermittlungsdienst-Account
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | Doku + Registrierungsformular: **KW38** , Statusübersicht: **KW39**         | veröffentlicht |
+| Staging    | Doku + Registrierungsformular: **KW39**  , Statusübersicht: **KW40**        | veröffentlicht |
+| Produktion | Doku + Registrierungsformular: **KW40** , Statusübersicht **KW41**          | veröffentlicht |
+
+Status: Veröffentlicht am 4.10.2023 <br>
+<details>
+<summary>Release Notes</summary>
+
+### Self-Service Portal
+>**Umgebungen** <br>
+>NEU: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
+>NEU: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
+>NEU: Production https://portal.ozg-vermittlungsdienst.de<br>
+
+### Feature Dokumentation anzeigen + Registrierungsformular
+- Volle Dokumentation im Portal inkl. Releases und Maintenance Seiten
+- Registrierungsformular für Beantragung neuer Vermittlungsdienst Accounts
+  1.  Erstellen eines neuen Portal-Accounts
+  2.  Ausfüllen der Registrierungsform für einen separaten Vermittlungsdienst-Account
+
+### Feature Statusübersicht von Bekanntmachungen
+- Statusübersicht aller eingelieferten Bekanntmachungen für Vermittlungsdienst Accounts 
+  
+</details>
+<br>
+
+
+## Release für RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer
 | Umgebung Vermittlungsdienst  | Zeitraum              | BKMS                      | Status |
 |------------|-----------------------|---------------------------|--------|
-| Preview    | KW37                  | unterstützt in Alpha      |        |
-| Staging    | KW38, spätestens KW39 | unterstützt in Alpha      |        |
-| Produktion | KW39                  | unterstützt in Produktion |        |
+| Preview    | nur RequestedPublicationDate Fix: **KW37**,  Alles andere: **KW39**                 | unterstützt in Alpha      | veröffentlicht |
+| Staging    | verschoben: **KW40**    | unterstützt in Alpha      | veröffentlicht |
+| Produktion | verschoben: **KW41**                  | unterstützt in Produktion |  |
 
-Status: In Entwicklung<br>
+Status: In QS <br>
 <details>
-<summary>Release notes (In Arbeit)</summary>
+<summary>Release notes</summary>
 
 ### Vermittlungsdienst
 >**Umgebungen** <br>
@@ -20,41 +51,62 @@ Status: In Entwicklung<br>
 >NEU: Staging Umgebung https://staging-ozg-vermittlungsdienst.de<br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
+- Integration mit neuem BKMS-Endpunkt
+- Neue Benennung der Benachrichtigungs-XML-Datei im ASIC-Container: anstatt 'notice.xml' jetzt 'uuid.eforms.xml'
+- Peppol-Integration mit B2Brouter
+- 'PublicationID' von TED wird jetzt bearbeitet und im Vermittlungsdienst gespeichert
+
+### Notice-Viewer
+>**Umgebungen** <br>
+>NEU: Preview Umgebung https://viewer.preview-ozg-vermittlungsdienst.de<br>
+>NEU: Staging Umgebung https://viewer.staging-ozg-vermittlungsdienst.de<br>
+>NEU: Production Umgebung https://viewer.ozg-vermittlungsdienst.de<br>
+
+- Autorisierung und Integration mit dem Mediator
+- Unterstützung von eForms-DE 1.1.0 und -DE 1.0.1
+- Neuste DE-SDK-Version hinzugefügt – 1.1.0 – 1.7.1
+- Entfernung von Dateien, die 24 Stunden älter sind
+
+Verfügbar als Standalone Webservice mit Token-Authentifizierung (gleicher Token wie im Vermittlungsdienst kann genutzt werden) für Upload von XML Dateien und als Endpunkt im Vermittlungsdienst für Rendering von bereits eingelieferten Bekanntmachungen anhand der 
+
 ### eSender-Hub
-- Neue Transformation von eForms-DE zu eForms-EU bezüglich 'requestedPublicationDate'
-- ...
+- Neue Transformation von eForms-DE zu eForms-EU bezüglich 'requestedPublicationDate', ausführliche Erklärung [hier](/documentation/eForms_Erstellung.md)
 
 ### Validator
-- Schematron Updates für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1) und 1.0.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3)
-- ...
+>**Umgebungen** <br>
+>NEU: Preview Umgebung https://validator.preview-ozg-vermittlungsdienst.de<br>
+>NEU: Staging Umgebung https://validator.staging-ozg-vermittlungsdienst.de<br>
+>Production Umgebung https://ozg-vermittlungsdienst.de<br>
+
+- Schematron Updates für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.2) und 1.0.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3)
+- Token-Autorisierung für externen Validator
 </details>
 <br>
 
-## Geplantes Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub
+## Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub
 | Umgebung Vermittlungsdienst  | Zeitraum              |  BKMS                      | Status         |
 |------------|-----------------------|---------------------------|----------------|
-| Preview    | KW34                  | noch nicht unterstützt    | veröffentlicht |
-| Staging    | KW35, spätestens KW36 | unterstützt in Alpha      | veröffentlicht |
-| Produktion | KW37                  | unterstützt in Produktion |                |
+| Preview    | **KW34** | unterstützt in Alpha      | veröffentlicht |
+| Staging    | **KW35** | unterstützt in Alpha      | veröffentlicht |
+| Produktion | **KW37** | unterstützt in Produktion | veröffentlicht |
 
-Status: In QA <br>
+Status: veröffentlicht am 13.09.2023 <br>
 <details>
-<summary>Release Notes (In Arbeit)</summary>
+<summary>Release Notes</summary>
 
 ### Vermittlungsdienst
 >**Umgebungen** <br>
->Preview Umgebung bis 15.09.2023: https://preview.ozg-vermittlungsdienst.de, ab 30.08.2023: https://preview-ozg-vermittlungsdienst.de <br>
->Staging Umgebung bis 15.09.2023: https://staging.ozg-vermittlungsdienst.de,  ab 30.08.2023: https://staging-ozg-vermittlungsdienst.de <br>
+>Preview Umgebung **bis 15.09.2023**: https://preview.ozg-vermittlungsdienst.de, ab 30.08.2023: https://preview-ozg-vermittlungsdienst.de <br>
+>Staging Umgebung **bis 15.09.2023**: https://staging.ozg-vermittlungsdienst.de,  ab 30.08.2023: https://staging-ozg-vermittlungsdienst.de <br>
 >Production Umgebung https://ozg-vermittlungsdienst.de<br>
 
 - Initiale Unterstützung von eForms-DE 1.1 (Schematron https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.0)
 - Neuer DEMO Endpunkt für Visualisierung von eingelieferten eForms-DE Dokumenten /notice-viewer/{trackingCode} (gibt aktuell nur Beispieldokument zurück)
 - Neuer Job für re-sync von Statusinformationen
-- ...
+- Diverse Verbesserungen beim Statuswechsel von Bekanntmachungen und bei der Authentifizierung
 
 ### eSender-Hub
  - Initiale eForms-DE 1.1 -> eForms-EU 1.7 Transformation  
- - ...
 </details>
 <br>
 
