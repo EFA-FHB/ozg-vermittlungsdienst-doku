@@ -14,6 +14,25 @@
 
 <details>
 <summary>
+11.10.23. Welche Informationen wird benötigt um einen Account zu beantragen?
+</summary>
+<br>
+ 
+- Systemumgebung für die Zugangsdaten beantragt werden (Preview, Staging, Produktion)
+ 
+-  E-Mail-Adresse, welche als Benutzername verwendet werden soll (diese muss pro Umgebung eindeutig sein, keine Dopplungen erlaubt)
+  
+- URL der Vergabeplattform auf der die Bekanntmachungen veröffentlicht werden
+  
+- Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH (Fachverfahrenshersteller)
+  
+- Name des FVH
+</details>
+<br>
+
+
+<details>
+<summary>
 Pro Registrierung muss eine E-Mail Adresse als Benutzername angegeben werden. Ist es möglich dieselbe E-Mail-Adresse für mehrere Systeme anzugeben?
 </summary>
 <br>
@@ -391,6 +410,21 @@ Bei lawfullness warnings wird eine Bekanntmachung erst 5 Tage nach SUBMITTED in 
 
 <details>
 <summary>
+11.10.23 Wie verhällt sich die API für die Produktionsumgebung vor dem Stichtag und ab dem Stichtag 25.10.23?</summary>
+<br>
+Rein technisch wird sich die API vor und nach dem Stichtag nicht verändern. 
+ 
+Am Stichtag sichergestellt, dass alle aktivierten Accounts der Produktivumgebung auch für die Übermittlung an TED freigeschaltet sind. 
+
+Dies ist per default der Fall, kann aber bei Bedarf explizit ausgeschaltet werden, falls bestimmte Accounts der Produktivumgebung explizit nur für die Einlieferung unterschwelliger Bekanntmachungen genutzt werden sollen.  
+
+Es ist kein technisches "Anschalten" der API oder ähnliches vorgesehen. Die Produktivumgebung ist technisch bereits genauso funktionsfähig wie die Stagingumgebung, auch wenn rechtlich noch keie Einlieferung erlaubt ist.
+</details>
+<br>
+
+
+<details>
+<summary>
 Wie können Plattformbetreiber die Informationen des CVS-Reports der EU zu einer Bekanntmachung erhalten?</summary>
 <br>
 Alle Fehler und Warnungen aus dem CVS Report werden in den Statusinformationen übergeben. Dabei übergeben wir die ID, den Pfad, den Inhalt und den Text jeder angeschlagenen Regel. Es ist nicht vorgesehen, den CVS Report als Datei zurückzugeben.
@@ -491,14 +525,8 @@ https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/e
 
 -  Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
 
-</details>
-<br>
+ Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
 
-<details>
-<summary>
-27.09.23 Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
-</summary>
-<br>
 Bis eForms-DE verpflichtend wird, kann im alten Format direkt bei TED eingeliefert werden. Für die zukünftige Einlieferung an den Datenservice Öffentlicher Einkauf kann ausschließlich das neue Format des Standards eForms-DE genutzt werden.
 </details>
 <br>
