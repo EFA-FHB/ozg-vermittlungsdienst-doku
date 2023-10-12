@@ -7,7 +7,7 @@
 
 Im folgenden Diagramm ist der generelle Workflow einer Bekanntmachung beschrieben.
 <br><br>
-Der zentrale Punkt zum Einliefern von Bekanntmachungen und Abfragen von Statusinformationen für Fachverfahrenshersteller (FVH) ist der Vermittlungsdienst. Bevor in den Vermittlungsdienst eingeliefert werden kann, muss sich jede Vergabeplattform einen Account in Keycloak erstellen lassen und sich im Vermittlungsdienst ein Token generieren. Das Account kann im Self-Service Portal beantragt sein (siehe [Connection to Mediator](documentation/Connection_to_mediator.md)). Mit diesem Token erfolgt die Authentifikation zum Einsenden in den Vermittlungsdienst.
+Der zentrale Punkt zum Einliefern von Bekanntmachungen und Abfragen von Statusinformationen für Fachverfahrenshersteller (FVH) ist der Vermittlungsdienst. Bevor in den Vermittlungsdienst eingeliefert werden kann, muss sich jede Vergabeplattform einen Account in Keycloak erstellen lassen und sich im Vermittlungsdienst ein Token generieren. Das Account kann im Self-Service Portal beantragt sein (siehe [Connection to Mediator](/documentation/Connection_to_mediator.md)). Mit diesem Token erfolgt die Authentifikation zum Einsenden in den Vermittlungsdienst.
 <br><br>
 Bevor eine Bekanntmachung an das Vermittlungssystem gesendet wird, ist es empfehlenswert diese Bekanntmachung an den eForms-DE Validierungsservice zu schicken (Externer Validator). So kann bereits vor Einlieferung geprüft werden, dass das eForms-DE Dokument valide ist. Beim Einsenden wird der Vermittlungsdienst das eForms entsprechend seiner Version ebenfalls validieren (eForms-EU 0.1.1, 1.0, 1.5 & eForms-DE 1.0.0, 1.0.1) und diese annehmen oder ablehnen. 
 <br><br>
