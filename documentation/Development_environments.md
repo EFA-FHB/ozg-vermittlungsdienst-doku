@@ -55,6 +55,18 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
       <td style="text-align: left;">185.158.224.47 + 185.158.224.58</td>
     </tr>
     <tr>
+      <td style="text-align: left;">Self-Service Portal</td>
+      <td style="text-align: left;">
+        <a class="external-link" href="https://portal.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://portal.preview-ozg-vermittlungsdienst.de/</a>
+      </td>
+      <td style="text-align: left;">
+        <a href="https://portal.staging-ozg-vermittlungsdienst.de/">https://portal.staging-ozg-vermittlungsdienst.de/</a>
+      </td>
+      <td style="text-align: left;">
+        <a href="https://portal.ozg-vermittlungsdienst.de/">https://portal.ozg-vermittlungsdienst.de/</a>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align: left;">eForms Validator</td>
       <td style="text-align: left;">
         <a class="external-link" href="https://validator.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://validator.preview-ozg-vermittlungsdienst.de/</a>

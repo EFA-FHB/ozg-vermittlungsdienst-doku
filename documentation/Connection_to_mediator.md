@@ -21,14 +21,7 @@ Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Aut
 >**Hinweis** <br>
 >Nach dem Produktionsrelease im Juni muss für die Produktions- und Stagingumgebung erneut ein User angefragt werden, auch wenn in Preview bereits ein User besteht. 
 
-Es muss die Einrichtung eines neuen Accounts per E-Mail an [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com) bei der Nortal AG angefragt werden. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
-In der E-Mail müssen folgende Angaben enthalten sein:
-
-- Systemumgebung für die Zugangsdaten beantragt werden (Preview / Staging / Produktion)
-- E-Mail-Adresse, welche als Benutzername verwendet werden soll
-- URL der Vergabeplattform auf der die Bekanntmachungen veröffentlicht werden
-- Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
-- Name des Fachverfahrensherstellers
+Ab den 04.10.2023 erfolgt die Einrichtung eines neuen Accounts über das Self-Service Portal (Produktionumgebung: https://portal.ozg-vermittlungsdienst.de). Ein Konto kann im Portal erstellt werden, indem eine E-Mail-Adresse und ein Passwort festgelegt werden. Nach Bestätigung der E-Mail-Adresse kann der Nutzer sich anmelden und das Antragsformular für ein neues VD-Account ausfüllen. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
 
 Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Wenn Sie 10 Accounts beantragen auf einer Umgebung, benötigen Sie auch 10 individuelle Email-Adressen. Die Email-Adresse dient zum Abruf der Tokens, die Sie zur eindeutigen Authentifizierung mit dem Account benötigen. Deshalb muss diese einzigartig sein.
 <br><br>
