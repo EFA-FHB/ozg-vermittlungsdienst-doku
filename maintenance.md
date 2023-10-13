@@ -6,7 +6,6 @@
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
-| DöE Produktion  | alle DöE Services außer BKMS     | 12.10.2023    | 10:00 - 16:00 CEST    |  Services können vorrübergehend nicht erreichbar sein   | 
 | TED Preview | TED Apps for eForms | 10.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
 | TED Production | TED Apps for eForms | 11.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
 
