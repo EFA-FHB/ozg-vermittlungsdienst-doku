@@ -6,6 +6,7 @@
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
+| DöE Produktion + Staging | alle Services außer BKMS | 19.10.2023 | 09:00 - 12:00 CEST | Rechenzentrumswartung | 
 | TED Preview | TED Apps for eForms | 10.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
 | TED Production | TED Apps for eForms | 11.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
 
