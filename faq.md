@@ -623,15 +623,17 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 
 [Zum Anfang](#häufig-gestellte-fragen)<br>
 
-**Bitte beachten Sie, dass wir alle Fragen bezüglich eForms gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit durch die KoSIT möglich. Bei weiteren Fragen zum Thema eForms wenden Sie sich gerne per E-Mail an eforms@finanzen.bremen.de** 
+**Bitte beachten Sie, dass wir alle Fragen bezüglich des Standards eForms-DE gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit möglich. Bei weiteren Fragen zum Standard eForms-DE wenden Sie sich gerne per E-Mail an die Koordinierungsstelle für IT-Standards (KoSIT) als Betreiberin: eforms@finanzen.bremen.de** 
 
 
-## Fragen zu BG/BT
+## Fragen zu Business Terms und Groups (BT/BG)
+
+Sortiert nach BT/BG Nummer.
 
 ###  Beschaffer Rechtsnatur (BT-11) und CPV
 <details>
 <summary>
-27.09.23 CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Einschränkende Regel BR-BT-00262-0211 der EU.</summary>
+CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Einschränkende Regel BR-BT-00262-0211 der EU. (aktualisiert am 27.09.23)</summary>
 <br>
 
 Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen ausschreiben, jedoch keine Dienstleistungen. Auch bei Vergabeverfahren nach SektVO, KonzVgV oder VSVgV gibt es bei ausschreibenden Zuwendungsempfängern Einschränkungen gegenüber sonstigen Vergabestellen bei der Auswahl der in einem Vergabeverfahren anwendbaren Formulare, was unverständlich ist.
@@ -740,6 +742,31 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
 </details>
 <br>
 
+
+### Identifikationsnummer (Organisation) (BT-501)  
+<details>
+<summary>
+Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 13.10.2023)
+</summary>
+Grundsätlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
+
+* Diese muss eindeutig sein, d.h. es darf keine andere Organisation mit der gleichen Kennung geben
+* Diese sollte über alle Bekanntmachungen nachhaltig genutzt werden
+
+Für die Verwaltung wird die Verwendung der Leitweg-ID empfohlen (da diese bereits bei der elektronischen Rechnung häufig eingesetzt wird). Solange oder soweit diese nicht zur Verfügung steht, ist eine andere eindeutige Identifikationsnummer zu benennen. Sollte es auch andere eindeutige Identifikationsnummer geben, kann auch eine Telefonnummer der Organisation als eindeutige Identifikationsnummer eingetragen werden. Diese sollte dann die Form:
+
+`t:03023125000`
+
+Diese ist mit Vorwahl, ohne Sonderzeichen und ohne Leerzeichen, wie im fiktiven Beispiel anzugeben.
+
+
+
+
+
+
+  
+<br>
+</details>
 
 ### Neuauflage des Verfahrens (BT-634)
 
