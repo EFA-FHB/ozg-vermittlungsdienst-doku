@@ -205,19 +205,19 @@ Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eFo
 
 <details>
 <summary>
-12.10.23  Welche Einreichungsfristen sind zu beachten?
+Welche Einreichungsfristen sind zu beachten? (ergänzt am 12.10.23)
 </summary>
 <br>
-Um sicherzustellen, dass die Bekanntmachung noch am selben Tag auf TED veröffentlicht wird, muss die Bekanntmachung bis 23:00 Uhr desselben Tages beim Vermittlungsdienst eingereicht sein.
+Um sicherzustellen, dass die Bekanntmachung noch am selben Tag auf TED veröffentlicht wird, empfehlen wir  die Bekanntmachung bis 23:00 Uhr desselben Tages beim Vermittlungsdienst eingereicht sein.
  
 Bsp. für die FVH:
- Um sicherzustellen, dass die Bekanntmachung noch am selben Tag an den Vermittlungsdienst gesendet wird, muss die Bekanntmachung bis 22:00 Uhr desselben Tages beim Fachverfahrenshersteller eingereicht sein.
+ Um sicherzustellen, dass die Bekanntmachung noch am selben Tag an den Vermittlungsdienst gesendet wird, empfehlen wir die Bekanntmachung bis 22:00 Uhr desselben Tages beim Fachverfahrenshersteller eingereicht sein.
 </details>
 <br>
 
 <details>
 <summary>
- 25.09.23 Wann startet der Datenservice Öffentlicher Einkauf?
+ Wann startet der Datenservice Öffentlicher Einkauf? (ergänzt am 25.09.23)
 </summary>
 <br>
 Der Produktivstart des Datenservice Öffentlicher Einkauf ist durch §83a der aktuellen Vergabeverordnung (VgV) geregelt. Dies wird voraussichtlich der 25.10.2023 sein.
