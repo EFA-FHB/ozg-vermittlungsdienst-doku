@@ -90,6 +90,7 @@ jobs:
           files_yaml: |
             doc:
               - '**/*.md'
+
       - name: Run step if doc file(s) change
         if: steps.changed-files-md-yaml.outputs.doc_any_changed == 'true'
         run: |
@@ -106,7 +107,7 @@ jobs:
       - name: Cleanup translate tool
         run: rm -rf ./file-translate
 
-      - name: Auto-Commit translated files 
+      - name: Auto-Commit translated files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           # Optional. Commit message for the created commit.
@@ -118,4 +119,4 @@ jobs:
           # See the `pathspec`-documentation for git
           # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
           # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-          file_pattern: '*.md'
+          file_pattern: '**/*.md'
