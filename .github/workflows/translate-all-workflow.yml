@@ -71,8 +71,6 @@ jobs:
           # Use http(s)://[hostname]/api/v3 to access the API for GitHub Enterprise Server
           #github-api-url: ""
 
-      # Runs a single command using the runners shell
-
       - name: Set file permissions
         run: chmod +x file-translate/file-translator
 
@@ -104,4 +102,4 @@ jobs:
           # See the `pathspec`-documentation for git
           # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
           # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-          file_pattern: '*.md'
+          file_pattern: '**/*.md'
