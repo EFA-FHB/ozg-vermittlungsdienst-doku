@@ -14,7 +14,7 @@
 
 <details>
 <summary>
-11.10.23. Welche Informationen wird benötigt um einen Account zu beantragen?
+Welche Informationen wird benötigt um einen Account zu beantragen? (aktualisiert am 11.10.23)
 </summary>
 <br>
  
@@ -364,7 +364,7 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 
 <details>
 <summary>
-27.09.23 Bekanntmachung anhalten, ändern oder abbrechen?
+Bekanntmachung anhalten, ändern oder abbrechen? (ergänzt am 27.09.23)
 </summary>
 <br>
 -"Publishing" im nächsten Monat in eNotices2 Web und API sichtbar 
@@ -422,7 +422,7 @@ Bei lawfullness warnings wird eine Bekanntmachung erst 5 Tage nach SUBMITTED in 
 
 <details>
 <summary>
-11.10.23 Wie verhällt sich die API für die Produktionsumgebung vor dem Stichtag und ab dem Stichtag 25.10.23?</summary>
+Wie verhällt sich die API für die Produktionsumgebung vor dem Stichtag und ab dem Stichtag 25.10.23?</summary> (ergänzt am 11.10.23)
 <br>
 Rein technisch wird sich die API vor und nach dem Stichtag nicht verändern. 
  
@@ -510,7 +510,7 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
 
 <details>
 <summary>
- 27.09.23 Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen?
+ Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen? (ergänzt am 27.09.23)
  
  </summary> 
  
@@ -584,7 +584,7 @@ Der eSender-Hub trägt Sorge dafür, entsprechend der eingelieferten eForms-DE V
 
 <details>
 <summary>
- 27.09.23 Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
+ Welche Versionen des Standards eForms-DE werden aktuell unterstützt? (ergäntz am (29.09.23)
 </summary>
 <br>
 Im Oktober 2023 werden vom Datenservice Öffentlicher Einkauf die Versionen 1.0 und 1.1 des Standards eForms-DE unterstützt, technisch entspricht dies einer CustomizationID (siehe Feld OPT-002-notice) mit den Werten "eforms-de-1.1" bzw. "eforms-de-1.0" . Zur Unterstützung der Implementierung stehen aktuell auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de die SDK-DE mit den Versionen SDK-DE-1.1.0_1.7.1 bzw. SDK-DE-1.0.1_1.5.3:20230727 bereit.
@@ -641,7 +641,6 @@ Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen aus
 **Es handelt sich um einen BUG bei TED. Mündliche Aussage seitens TED im 6. workshop am 26.09.2023: Wird für Version 1.9 behoben.**
 </details>
 <br>
-
 
 ### Bekanntmachung der Ergebnisse (BG-7), Angebot (BG-320 Angebot)
 <details>
@@ -747,11 +746,9 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
 <details>
 <summary>
 Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 16.10.2023)
+ 
 </summary>
 
-
- 
- 
  Grundsätlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
 
 * Diese muss eindeutig sein, d.h. es darf keine andere Organisation mit der gleichen Kennung geben
@@ -771,13 +768,10 @@ Solange oder soweit diese nicht zur Verfügung steht, ist eine andere eindeutige
 
 Diese ist mit Präfix (t:), Vorwahl, ohne Sonderzeichen und ohne Leerzeichen, wie im fiktiven Beispiel, anzugeben.
 
-
-
-
-
-  
+ 
 <br>
 </details>
+<br>
 
 ### Neuauflage des Verfahrens (BT-634)
 
@@ -843,7 +837,6 @@ Müssen auch die Werte in Klammern mit gesendet werden? z.B. freelance (Besonder
 
 Nein, diese Werte  dienen dringlich dem besseren Verständnis der Codes
   </details>
-<br>
 
 <br>
 <details>
@@ -854,7 +847,6 @@ Wie verhält es sich mit der Lokalisierung, wenn z. B. die Sprache der Bekanntma
 
 Prinzipiell erfolgt keine automatische Übersetzung von Feldinhalten, d.h. deutsche Begriffe in den Feldern bleiben deutsch. Die EU hat noch keinen eineitlichen Ansatz zur Lokalisierung beschlossen.
   </details>
-<br>
 
 <br>
 <details>
@@ -872,7 +864,7 @@ Es ist möglich, nach Angabe des Codes noch einen Freitext einzufügen, solange 
 
 <details>
 <summary>
-27.09.23 Neuerungen und Details
+Neuerungen und Details (ergänzt am 27.09.23) 
 </summary>
 <br>
 
@@ -926,10 +918,8 @@ Losgruppen sind in eForms-DE nicht vorgesehen.
 </details>
 <br>
 
-
 ### NUTS-Codes
 
-<br>
 <details>
 <summary>
 Gibt es eine Codeliste mit Ländercodes, bei denen die Angabe des NUTS Codes nicht möglich ist? 
@@ -966,7 +956,7 @@ Ja, soweit NUTS-Codes vorhanden sind, sind diese anzugeben
 
  <details> 
 <summary>
- Neuest Informationen von TED 27.09.23
+Informationen von TED per 27.09.23
  
  </summary>
 
