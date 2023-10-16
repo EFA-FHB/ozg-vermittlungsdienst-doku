@@ -746,9 +746,12 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
 ### Identifikationsnummer (Organisation) (BT-501)  
 <details>
 <summary>
-Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 13.10.2023)
+Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 16.10.2023)
 </summary>
 
+
+ 
+ 
  Grundsätlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
 
 * Diese muss eindeutig sein, d.h. es darf keine andere Organisation mit der gleichen Kennung geben
