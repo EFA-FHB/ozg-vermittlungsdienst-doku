@@ -27,8 +27,7 @@
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
-| Vermittlungsdienst | 04.10.2023 | KW42 | Bei Notice type 38 & 39 schlägt fälschlicher Weise die Regel BR-DE-BT-165 aus, obwohl dieses Feld nicht notwendig ist|
-| SSP Staging + Production | 04.10.2023 | KW42 | Bilder in Dokumentation können nicht dargestellt werden |
+| SSP Staging + Production | 04.10.2023 |  | Bilder in Dokumentation können nicht dargestellt werden, bitte vorübergehend https://portal.preview-ozg-vermittlungsdienst.de nutzen |
 | TED Preview  | 09.08.2023               | 25.08.2023                   | Bekanntmachungen ab dem 09.08.2023 werden durch TED nicht mehr in den Status 'PUBLISHED' gesetzt, sie bleiben in 'ACCEPTED' hängen auf Grund eines Fehlers seitens TED |
 
 
