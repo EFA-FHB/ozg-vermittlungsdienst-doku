@@ -14,7 +14,7 @@
 
 <details>
 <summary>
-11.10.23. Welche Informationen wird benötigt um einen Account zu beantragen?
+Welche Informationen wird benötigt um einen Account zu beantragen? (aktualisiert am 11.10.23)
 </summary>
 <br>
  
@@ -196,7 +196,19 @@ Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eFo
 
 <details>
 <summary>
- 25.09.23 Wann startet der Datenservice Öffentlicher Einkauf?
+Welche Einreichungsfristen sind zu beachten? (ergänzt am 12.10.23)
+</summary>
+<br>
+Um sicherzustellen, dass die Bekanntmachung noch am selben Tag auf TED veröffentlicht wird, empfehlen wir  die Bekanntmachung bis 23:00 Uhr desselben Tages beim Vermittlungsdienst eingereicht sein.
+ 
+Bsp. für die FVH:
+ Um sicherzustellen, dass die Bekanntmachung noch am selben Tag an den Vermittlungsdienst gesendet wird, empfehlen wir die Bekanntmachung bis 22:00 Uhr desselben Tages beim Fachverfahrenshersteller eingereicht sein.
+</details>
+<br>
+
+<details>
+<summary>
+ Wann startet der Datenservice Öffentlicher Einkauf? (ergänzt am 25.09.23)
 </summary>
 <br>
 Der Produktivstart des Datenservice Öffentlicher Einkauf ist durch §83a der aktuellen Vergabeverordnung (VgV) geregelt. Dies wird voraussichtlich der 25.10.2023 sein.
@@ -343,7 +355,7 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 
 <details>
 <summary>
-27.09.23 Bekanntmachung anhalten, ändern oder abbrechen?
+Bekanntmachung anhalten, ändern oder abbrechen? (ergänzt am 27.09.23)
 </summary>
 <br>
 -"Publishing" im nächsten Monat in eNotices2 Web und API sichtbar 
@@ -401,7 +413,7 @@ Bei lawfullness warnings wird eine Bekanntmachung erst 5 Tage nach SUBMITTED in 
 
 <details>
 <summary>
-11.10.23 Wie verhällt sich die API für die Produktionsumgebung vor dem Stichtag und ab dem Stichtag 25.10.23?</summary>
+Wie verhällt sich die API für die Produktionsumgebung vor dem Stichtag und ab dem Stichtag 25.10.23?</summary> (ergänzt am 11.10.23)
 <br>
 Rein technisch wird sich die API vor und nach dem Stichtag nicht verändern. 
  
@@ -489,7 +501,7 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
 
 <details>
 <summary>
- 27.09.23 Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen?
+ Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen? (ergänzt am 27.09.23)
  
  </summary> 
  
@@ -563,7 +575,7 @@ Der eSender-Hub trägt Sorge dafür, entsprechend der eingelieferten eForms-DE V
 
 <details>
 <summary>
- 27.09.23 Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
+ Welche Versionen des Standards eForms-DE werden aktuell unterstützt? (ergäntz am (29.09.23)
 </summary>
 <br>
 Im Oktober 2023 werden vom Datenservice Öffentlicher Einkauf die Versionen 1.0 und 1.1 des Standards eForms-DE unterstützt, technisch entspricht dies einer CustomizationID (siehe Feld OPT-002-notice) mit den Werten "eforms-de-1.1" bzw. "eforms-de-1.0" . Zur Unterstützung der Implementierung stehen aktuell auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de die SDK-DE mit den Versionen SDK-DE-1.1.0_1.7.1 bzw. SDK-DE-1.0.1_1.5.3:20230727 bereit.
@@ -602,15 +614,17 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 
 [Zum Anfang](#häufig-gestellte-fragen)<br>
 
-**Bitte beachten Sie, dass wir alle Fragen bezüglich eForms gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit durch die KoSIT möglich. Bei weiteren Fragen zum Thema eForms wenden Sie sich gerne per E-Mail an eforms@finanzen.bremen.de** 
+**Bitte beachten Sie, dass wir alle Fragen bezüglich des Standards eForms-DE gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit möglich. Bei weiteren Fragen zum Standard eForms-DE wenden Sie sich gerne per E-Mail an die Koordinierungsstelle für IT-Standards (KoSIT) als Betreiberin: eforms@finanzen.bremen.de** 
 
 
-## Fragen zu BG/BT
+## Fragen zu Business Terms und Groups (BT/BG)
+
+Sortiert nach BT/BG Nummer.
 
 ###  Beschaffer Rechtsnatur (BT-11) und CPV
 <details>
 <summary>
-27.09.23 CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Einschränkende Regel BR-BT-00262-0211 der EU.</summary>
+CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Einschränkende Regel BR-BT-00262-0211 der EU. (aktualisiert am 27.09.23)</summary>
 <br>
 
 Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen ausschreiben, jedoch keine Dienstleistungen. Auch bei Vergabeverfahren nach SektVO, KonzVgV oder VSVgV gibt es bei ausschreibenden Zuwendungsempfängern Einschränkungen gegenüber sonstigen Vergabestellen bei der Auswahl der in einem Vergabeverfahren anwendbaren Formulare, was unverständlich ist.
@@ -618,7 +632,6 @@ Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen aus
 **Es handelt sich um einen BUG bei TED. Mündliche Aussage seitens TED im 6. workshop am 26.09.2023: Wird für Version 1.9 behoben.**
 </details>
 <br>
-
 
 ### Bekanntmachung der Ergebnisse (BG-7), Angebot (BG-320 Angebot)
 <details>
@@ -720,6 +733,37 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
 <br>
 
 
+### Identifikationsnummer (Organisation) (BT-501)  
+<details>
+<summary>
+Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 16.10.2023)
+ 
+</summary>
+
+ Grundsätlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
+
+* Diese muss eindeutig sein, d.h. es darf keine andere Organisation mit der gleichen Kennung geben
+* Diese sollte über alle Bekanntmachungen nachhaltig genutzt werden
+
+Für die öffentliche Verwaltung wird die Verwendung der Leitweg-ID empfohlen (da diese bereits bei der elektronischen Rechnung häufig eingesetzt wird). Diese hat folgende Form:
+
+0204: Leitweg-ID
+
+Beispiel (fiktiv):
+
+0204: 991-1234512345-06
+
+Solange oder soweit diese nicht zur Verfügung steht, ist eine andere eindeutige Identifikationsnummer zu benennen. Sollte es keine andere eindeutige Identifikationsnummer geben, kann auch eine Telefonnummer der Organisation als eindeutige Identifikationsnummer eingetragen werden. Diese sollte dann folgende Form haben:
+
+`t:03023125000`
+
+Diese ist mit Präfix (t:), Vorwahl, ohne Sonderzeichen und ohne Leerzeichen, wie im fiktiven Beispiel, anzugeben.
+
+ 
+<br>
+</details>
+<br>
+
 ### Neuauflage des Verfahrens (BT-634)
 
 <details>
@@ -784,7 +828,6 @@ Müssen auch die Werte in Klammern mit gesendet werden? z.B. freelance (Besonder
 
 Nein, diese Werte  dienen dringlich dem besseren Verständnis der Codes
   </details>
-<br>
 
 <br>
 <details>
@@ -795,7 +838,6 @@ Wie verhält es sich mit der Lokalisierung, wenn z. B. die Sprache der Bekanntma
 
 Prinzipiell erfolgt keine automatische Übersetzung von Feldinhalten, d.h. deutsche Begriffe in den Feldern bleiben deutsch. Die EU hat noch keinen eineitlichen Ansatz zur Lokalisierung beschlossen.
   </details>
-<br>
 
 <br>
 <details>
@@ -813,7 +855,7 @@ Es ist möglich, nach Angabe des Codes noch einen Freitext einzufügen, solange 
 
 <details>
 <summary>
-27.09.23 Neuerungen und Details
+Neuerungen und Details (ergänzt am 27.09.23) 
 </summary>
 <br>
 
@@ -867,10 +909,8 @@ Losgruppen sind in eForms-DE nicht vorgesehen.
 </details>
 <br>
 
-
 ### NUTS-Codes
 
-<br>
 <details>
 <summary>
 Gibt es eine Codeliste mit Ländercodes, bei denen die Angabe des NUTS Codes nicht möglich ist? 
@@ -907,7 +947,7 @@ Ja, soweit NUTS-Codes vorhanden sind, sind diese anzugeben
 
  <details> 
 <summary>
- Neuest Informationen von TED 27.09.23
+Informationen von TED per 27.09.23
  
  </summary>
 
