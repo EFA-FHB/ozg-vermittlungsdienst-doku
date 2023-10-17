@@ -80,15 +80,6 @@ In allen Umgebungen wird die gleiche Validierung und die gleiche Verzögerung in
 
 <details>
 <summary>
-Kann Zugriff auf die BKMS Alpha-Umgebung gewährt werden?
-</summary>
-<br>
-Wenn nötig kann ein Zugriff auf die BKMS Alpha-Umgebung beantragt werden. Senden Sie hierfür bitte eine Anfrage an support-oeffentlichevergabe@bdr.de. Beachten Sie aber, dass dies einige Zeit in Anspruch nehmen kann, da eine manuelle Prüfung durchgeführt wird. 
-</details>
-<br>
-
-<details>
-<summary>
 Zur Anforderung von Zugängen soll die URL der Vergabeplattform angegeben werden. Wozu dient diese Angabe?
 </summary>
 <br>
@@ -963,7 +954,7 @@ Es ist kein weiteres Portal zum Ersatz von sevice.bund.de geplant. Projektwunsch
 Existiert ein Mapping von XVergabe auf eForms?
 </summary>
 <br>
-Wir als DöE können leider kein Mapping zur XVergabe zur Verfügung stellen. Außerdem ist die Xvergabe bereits veraltet und somit nicht mehr auf dem selben Stand wie eForms
+Der Standard XVergabe wird dauerhaft durch eForms-DE ersetzt und nicht weiterentwickelt. Der Abdeckungsgrad der enthaltenen Informationen ist sehr unterschiedlich. Seitens Datenservice Öffentlicher Einkauf wird kein Mapping von XVergabe auf eForms zur Verfügung gestellt.
 </details>
 <br>
 
