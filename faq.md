@@ -736,11 +736,11 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
 ### Identifikationsnummer (Organisation) (BT-501)  
 <details>
 <summary>
-Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 16.10.2023)
+Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 17.10.2023)
  
 </summary>
-
- Grundsätlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
+<br>
+ Grundsätzlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
 
 * Diese muss eindeutig sein, d.h. es darf keine andere Organisation mit der gleichen Kennung geben
 * Diese sollte über alle Bekanntmachungen nachhaltig genutzt werden
@@ -752,6 +752,11 @@ Für die öffentliche Verwaltung wird die Verwendung der Leitweg-ID empfohlen (d
 Beispiel (fiktiv):
 
 0204: 991-1234512345-06
+
+Die Format-Spezifikation der Leitweg-ID (Version 2.0.2) kann über folgenden Link eingesehen und heruntergeladen werden:
+
+https://leitweg-id.de/wp-content/uploads/2021/08/Leitweg-ID-Formatspezifikation-v2-0-2.pdf
+
 
 Solange oder soweit diese nicht zur Verfügung steht, ist eine andere eindeutige Identifikationsnummer zu benennen. Sollte es keine andere eindeutige Identifikationsnummer geben, kann auch eine Telefonnummer der Organisation als eindeutige Identifikationsnummer eingetragen werden. Diese sollte dann folgende Form haben:
 
