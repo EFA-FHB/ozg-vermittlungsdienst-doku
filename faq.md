@@ -383,7 +383,7 @@ Mit den Statusänderungsmeldungen der EU haben Plattformanbieter auch weitergehe
 TED stellt nicht mehr dieselben Metadaten pro Bekanntmachung zur Verfügung wie früher, wir geben alle relevanten Infos zurück, die wir bekommen.
 Die folgenden Daten werden von TED zu einer Bekanntmachung zur Verfügung gestellt.
 
-![Daten einer Bekanntmachung von TED](/images/faq/Bekanntmachung_Daten_von_TED.png) 
+![Daten einer Bekanntmachung von TED](images/faq/Bekanntmachung_Daten_von_TED.png) 
 
 Wir prozessieren dabei den Status, den Zeitpunkt der Einlieferung und wenn gegeben den Zeitpunkt der Veröffentlichung. Die ABl.-Nummer wird in eNotices2 nicht mehr verwendet. Wenn Sie weitere Daten aus dieser Abfrage benötigen, schreiben Sie uns bitte eine Mail mit Ihren Anforderungen an: support-oeffentlichevergabe@bdr.de. Gerne organisieren wir einen bilateralen Austausch.
 </details>
