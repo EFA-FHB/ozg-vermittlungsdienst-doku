@@ -4,6 +4,32 @@
 <br>
 
 
+## Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe 
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 17.10.2023        | veröffentlicht |
+| Staging    | 19.10.2023       |  |
+| Produktion | 20.10.2023      |  |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Notice-Viewer
+>**Umgebungen** <br>
+> Preview https://viewer.preview-ozg-vermittlungsdienst.de <br>
+> Staging https://viewer.staging-ozg-vermittlungsdienst.de <br>
+> Production https://viewer.ozg-vermittlungsdienst.de<br>
+
+- Rückwärtskompatibilität mit ursprünglichem `/view` Endpunkt
+- Neue Endpunkte für asynchrone HTML und PDF Generierung, gleiches Verhalten wie bisheriger `view` Endpunkt, Response wird sofort zurückgegeben, Dokument wird im Hintergrund erstellt. 
+  - `/view/async/html` und `/view/async/pdf`
+- Neue Endpunkte für synchrone HTML und PDF Generierung, Response mit Link wird erst zurückgegeben, wenn Dokument erstellt ist.
+  - `/view/sync/html` und `/view/sync/pdf`
+
+
+</details>
+
 ## Release für Self-Service Portal - Portal-Account, Registrierungsform für einen separaten Vermittlungsdienst-Account
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
@@ -39,9 +65,9 @@ Status: Veröffentlicht am 4.10.2023 <br>
 |------------|-----------------------|---------------------------|--------|
 | Preview    | nur RequestedPublicationDate Fix: **KW37**,  Alles andere: **KW39**                 | unterstützt in Alpha      | veröffentlicht |
 | Staging    | verschoben: **KW40**    | unterstützt in Alpha      | veröffentlicht |
-| Produktion | verschoben: **KW41**                  | unterstützt in Produktion |  |
+| Produktion | verschoben: **KW41**                  | unterstützt in Produktion | veröffentlicht |
 
-Status: In QS <br>
+Status: veröffentlicht am 11.10.2023 <br>
 <details>
 <summary>Release notes</summary>
 
