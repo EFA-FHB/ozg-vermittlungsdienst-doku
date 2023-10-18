@@ -11,6 +11,9 @@
 | Staging    | 19.10.2023       |  |
 | Produktion | 20.10.2023      |  |
 
+> **Hinweis** <br>
+> Bei der Nutzung dieses API-Endpunkts möchten wir darauf Aufmerksam machen, dass die Performance momentan noch optimiert wird. Bitte berücksichtigen Sie dies bei intensiver Anfragefrequenz und planen Sie entsprechende Toleranzen in Ihren Abläufen ein. Wir arbeiten aktiv an Verbesserungen und danken für Ihr Verständnis.
+
 Status: In QS <br>
 <details>
 <summary>Release Notes</summary>
