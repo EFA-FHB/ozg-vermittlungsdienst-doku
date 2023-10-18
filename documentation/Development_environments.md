@@ -78,6 +78,18 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
         <a href="https://validator.ozg-vermittlungsdienst.de">https://validator.ozg-vermittlungsdienst.de</a>
       </td>
     </tr>
+        <tr>
+      <td style="text-align: left;">Notice Viewer</td>
+      <td style="text-align: left;">
+        <a class="external-link" href="https://viewer.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://validator.preview-ozg-vermittlungsdienst.de/</a>
+      </td>
+      <td style="text-align: left;">
+        <a href="https://viewer.staging-ozg-vermittlungsdienst.de/">https://validator.staging-ozg-vermittlungsdienst.de/</a>
+      </td>
+      <td style="text-align: left;">
+        <a href="https://viewer.ozg-vermittlungsdienst.de">https://validator.ozg-vermittlungsdienst.de</a>
+      </td>
+    </tr>
     <tr>
       <td style="text-align: left;">BKMS</td>
       <td style="text-align: left;">
@@ -96,12 +108,9 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
       </td>
       <td style="text-align: left;">
         <a href="https://account-management.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.preview-ozg-vermittlungsdienst.de/</a>
-        <span style="color: rgb(23,43,77);">
-          <span> </span>
-        </span>
       </td>
       <td style="text-align: left;">
-        <a href="https://account-management.staging-ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.staging-ozg-vermittlungsdienst.de//</a>
+        <a href="https://account-management.staging-ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.staging-ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
         <a href="https://account-management.ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.ozg-vermittlungsdienst.de/</a>
