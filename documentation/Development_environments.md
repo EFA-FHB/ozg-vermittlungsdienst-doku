@@ -41,7 +41,7 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
         ab 30.08.2023: <a class="external-link" href="https://preview-ozg-vermittlungsdienst.de" rel="nofollow">https://preview-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
-        bis 15.09.2023: <a class="external-link" href="https://staging.ozg-vermittlungsdienst.de" rel="nofollow">https://staging.ozg-vermittlungsdienst.de</a> <br>
+        bis 15.09.2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging.ozg-vermittlungsdienst.de</a> <br>
         ab 30.08.2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
@@ -81,13 +81,13 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
         <tr>
       <td style="text-align: left;">Notice Viewer</td>
       <td style="text-align: left;">
-        <a class="external-link" href="https://viewer.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://validator.preview-ozg-vermittlungsdienst.de/</a>
+        <a class="external-link" href="https://viewer.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://viewer.preview-ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
-        <a href="https://viewer.staging-ozg-vermittlungsdienst.de/">https://validator.staging-ozg-vermittlungsdienst.de/</a>
+        <a href="https://viewer.staging-ozg-vermittlungsdienst.de/">https://viewer.staging-ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
-        <a href="https://viewer.ozg-vermittlungsdienst.de">https://validator.ozg-vermittlungsdienst.de</a>
+        <a href="https://viewer.ozg-vermittlungsdienst.de">https://viewer.ozg-vermittlungsdienst.de</a>
       </td>
     </tr>
     <tr>
