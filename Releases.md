@@ -8,7 +8,7 @@
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 17.10.2023        | veröffentlicht |
-| Staging    | 19.10.2023       |  |
+| Staging    | 18.10.2023       | veröffentlicht |
 | Produktion | 20.10.2023      |  |
 
 > **Hinweis** <br>
