@@ -1,3 +1,24 @@
+# Go Live Ticker
+
+
+Hier finden Sie aktuelle Informationen in Vorbereitung auf den 25.10. und kontinuierliche Updates zwischen 25.-27.10.2023.
+
+## ! Wichtige Hinweise zur Erstellung von eForms !
+Um eine reibungslose Einlieferung zu gewährleisten beachten Sie bitte immer die folgenden Aspekte: 
+
+- Die Rolle ted-esen darf in Bekanntmachungen NICHT verwendet werden, weder als org-role noch als org-sub-role. Dies führt zu Problemen in der Transformation, da immer automatisch das BeschA als ted-esen gesetzt wird
+
+- Das Feld Notice Dispatch date BT-05 (IssueDate) muss zwischen gestern und morgen liegen, sonst lehnt TED die Bekanntmachung ab. Dies wird derzeit NICHT im Vermittlungsdienst geprüft, da es sich um eine neue dynamische Regel von TED handelt
+- Die Befüllung des Winner Size Feld BT-165 (Winner Size) wird derzeit nicht von den deutschen Regeln geprüft. Bitte stellen Sie selbstständig sicher, dass dieses Feld für die folgenden Notice Types korrekt befüllt wird: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
+- Derzeit besteht ein Bug bei TED, dass Zuweisungsempfänger keine Dienstleistungen ausschreiben können. Sollten Sie hiervon betroffen sein (Bekanntmachung schlägt fehl wegen Regel BR-BT-00262-0211), melden Sie sich bitte umgehend bei unserem Support support-oeffentlichevergabe@bdr.de für spezifische Hilfestellungen
+- Für die Befüllung der Identifikationsnummer der Organisation (BT-105) beachten Sie bitte die Hinweise u. A. zur Leitweg-ID in unserer FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
+
+
+## Bekannte Probleme
+Sollten während des Go Live Probleme auftreten, werden Sie in diesem Abschnitt aktuelle Informationen finden. 
+
+**Derzeit keine bekannten Probleme. **
+
 # Bekannte Wartungsfenster
 
 
@@ -6,7 +27,7 @@
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
-| DöE Produktion + Staging | alle Services außer BKMS | 19.10.2023 | 09:00 - 12:00 CEST | Rechenzentrumswartung | 
+| DöE Produktion + Staging | alle Services außer BKMS | 20.10.2023 | 10:00 - 13:00 CEST | Deployment für Performanceverbesserungen | 
 
 
 # Bekannte Bugs 
@@ -26,6 +47,7 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
+| DöE Produktion + Staging | alle Services außer BKMS | 10.10.2023 | 09:00 - 12:00 CEST | Rechenzentrumswartung | 
 | TED Preview | TED Apps for eForms | 10.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
 | TED Production | TED Apps for eForms | 11.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
 | TED Produktion + Preview | TED Developer Portal, TED Apps for eForms | 02.10.2023 | 07:00 - 09:00 CEST | Angekündigt von TED | 
