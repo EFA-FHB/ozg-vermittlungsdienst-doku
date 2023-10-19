@@ -114,4 +114,4 @@ In der E-Mail müssen folgende Angaben enthalten sein:
 - Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
 - Name des FVH
 
-Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen.
+Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen...
