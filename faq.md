@@ -17,9 +17,9 @@
 Welche Informationen wird benötigt um einen Account zu beantragen? (aktualisiert am 11.10.23)
 </summary>
 <br>
- 
+
 - Systemumgebung für die Zugangsdaten beantragt werden (Preview, Staging, Produktion)
- 
+
 -  E-Mail-Adresse, welche als Benutzername verwendet werden soll (diese muss pro Umgebung eindeutig sein, keine Dopplungen erlaubt)
   
 - URL der Vergabeplattform auf der die Bekanntmachungen veröffentlicht werden
@@ -200,7 +200,7 @@ Welche Einreichungsfristen sind zu beachten? (ergänzt am 12.10.23)
 </summary>
 <br>
 Um sicherzustellen, dass die Bekanntmachung noch am selben Tag auf TED veröffentlicht wird, empfehlen wir  die Bekanntmachung bis 23:00 Uhr desselben Tages beim Vermittlungsdienst eingereicht sein.
- 
+
 Bsp. für die FVH:
  Um sicherzustellen, dass die Bekanntmachung noch am selben Tag an den Vermittlungsdienst gesendet wird, empfehlen wir die Bekanntmachung bis 22:00 Uhr desselben Tages beim Fachverfahrenshersteller eingereicht sein.
 </details>
@@ -374,7 +374,7 @@ Wie kann der Beginn der Stillhaltezeit von 48 Stunden nachvollzogen, wann die Be
 Es bestehen zwei Möglichkeiten, den Zeitpunkt der erfolgreichen Einlieferung bei TED aus den Statusinformationen im Vermittlungsdienst abzulesen. Entweder über den technischen Zeitstempel, wann der eSender eine Bestätigung für die Einlieferung von der TED API erhalten hat (<tedStatus>ACCEPTED</tedStatus>  tedStatusUpdate>2023-07-31T08:02:02.442Z</tedStatusUpdate>) oder über den von TED übermittelten Wert submittedAt, der bei der Statusabfrage mitgeliefert wird (<ted_accepted_timestamp>). Beide Werte liegen nur minimal auseinander, da es eine minimale Verzögerung geben kann zwischen dem Zeitpunkt, wann TED die Bekanntmachung annimmt und wann eine Erfolgsmeldung an den eSender als Response zurückgeliefert wird. 
 </details>
 <br>
- 
+
 <details>
 <summary>
 Mit den Statusänderungsmeldungen der EU haben Plattformanbieter auch weitergehende Metadaten zum jeweiligen Status erhalten, bspw. die Submission-ID, den konkreten Zeitpunkt der Veröffentlichung auf TED, die ABl.-Nummer etc. Mit der ABl.-Nummer hatten Kunden bisher die Möglichkeit, bei Folgebekanntmachungen zu diesem Auftrag (Angabe "frühere Bekanntmachung desselben Auftrags") diese Nummern nicht mehr manuell eintragen zu müssen, da diese vorbefüllt werden konnten. Besteht auch weiterhin die Möglichkeit, o. g. Informationen zur Veröffentlichung zu erhalten, um den Kunden diese Reihe an Funktionalitäten zu bieten?
@@ -416,7 +416,7 @@ Bei lawfullness warnings wird eine Bekanntmachung erst 5 Tage nach SUBMITTED in 
 Wie verhällt sich die API für die Produktionsumgebung vor dem Stichtag und ab dem Stichtag 25.10.23?</summary> (ergänzt am 11.10.23)
 <br>
 Rein technisch wird sich die API vor und nach dem Stichtag nicht verändern. 
- 
+
 Am Stichtag sichergestellt, dass alle aktivierten Accounts der Produktivumgebung auch für die Übermittlung an TED freigeschaltet sind. 
 
 Dies ist per default der Fall, kann aber bei Bedarf explizit ausgeschaltet werden, falls bestimmte Accounts der Produktivumgebung explizit nur für die Einlieferung unterschwelliger Bekanntmachungen genutzt werden sollen.  
@@ -502,13 +502,13 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
 <details>
 <summary>
  Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen? (ergänzt am 27.09.23)
- 
+
  </summary> 
- 
+
 - Die Bekanntmachungen sind mit der Verfahrens-ID verknüpft.
 
   Besonderheiten:
- 
+
    --> Planung/PINs sind nicht Teil von Verfahren: BT-125 verwenden 
 
    --> Zuschläge innerhalb eines Rahmenvertrags: OPT-100 verwenden 
@@ -553,7 +553,7 @@ Es ist derzeit in Klärung mit TED, wie auf eine vorherige Bekanntmachung im alt
 <summary>
 Wird OPP-090-Procedure ausschließlich für den Fall alter Bekanntmachungen (altes TED Schema) mit Weiterbearbeitung in eForms genutzt?
  </summary> 
-  
+
 Sowohl Change Notices und somit der "Change Notice Version Identifier" (BT-758) als auch "Framework Notice Identifier" (OPT-100) und "Previous Notice" (OPP-090) sind TED spezifische Lösungen, die direkt genutzt werden können.
 
 </details>
@@ -737,7 +737,6 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
 <details>
 <summary>
 Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 17.10.2023)
- 
 </summary>
 <br>
  Grundsätzlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
@@ -758,13 +757,13 @@ Die Format-Spezifikation der Leitweg-ID (Version 2.0.2) kann über folgenden Lin
 https://leitweg-id.de/wp-content/uploads/2021/08/Leitweg-ID-Formatspezifikation-v2-0-2.pdf
 
 
-Solange oder soweit diese nicht zur Verfügung steht, ist eine andere eindeutige Identifikationsnummer zu benennen. Sollte es keine andere eindeutige Identifikationsnummer geben, kann auch eine Telefonnummer der Organisation als eindeutige Identifikationsnummer eingetragen werden. Diese sollte dann folgende Form haben:
+Solange oder soweit diese nicht zur Verfügung steht, ist vorübergehend eine andere eindeutige Identifikationsnummer zu benennen. Sollte es keine andere eindeutige Identifikationsnummer geben, kann auch eine Telefonnummer der Organisation als eindeutige Identifikationsnummer eingetragen werden. Diese sollte dann folgende Form haben:
 
 `t:03023125000`
 
 Diese ist mit Präfix (t:), Vorwahl, ohne Sonderzeichen und ohne Leerzeichen, wie im fiktiven Beispiel, anzugeben.
 
- 
+
 <br>
 </details>
 <br>
@@ -823,7 +822,7 @@ Entfernt der Datenservice diese Informationen, oder werden diese auch zur EU üb
 
 Der eSender-Hub entfernt diese Daten nicht, die Eingaben aus diesem Feld werden auch 1:1 an die EU weitergelitet. Da es sich um ein Textfeld handelt, gibt es hier auch kein technisches Problem. Es kann nur ein Wert für den Beginn des Textfeldes eingefügt werden: #Besonders geeignet für:{freelance ODER selbst ODER startup}#'. Nach dieser Angabe können aber weitere Erläuterungen als Freitext eingefügt werden.
   </details>
-  
+
 <br>
 <details>
 <summary>
@@ -886,7 +885,7 @@ Neuerungen und Details (ergänzt am 27.09.23)
   
    -->  über Nacht in den Status "Veröffentlichung" (oder über das Wochenende oder an Feiertagen)
   </details>
-<br>
+  <br>
 
 ### Lose
 <details>
@@ -953,28 +952,28 @@ Ja, soweit NUTS-Codes vorhanden sind, sind diese anzugeben
  <details> 
 <summary>
 Informationen von TED per 27.09.23
- 
+
  </summary>
 
 <br>
- 
+
 - Bei API-Übermittlungen sollte NoticeAuthorEmail die E-Mail des Käufers sein - eSender müssen die wahre E-Mail-Adresse des Auftraggebers in den Metadaten angeben 
- 
+
 - Der E-Mail-Autor der Bekanntmachung erhält Benachrichtigungen über Statusänderungen:  
        --> Einreichung, Validierung fehlgeschlagen, gestoppt, nicht veröffentlicht, veröffentlicht
   
 - Der eSender erhält eine Kopie an die E-Mail-Adresse, die von EU Login für den API-Schlüssel verwendet wird.
 
 - laufende Verbesserungen des Inhalts und der Übersetzung dieser E-Mail-Benachrichtigungen 
-    
+  
 - Neue Funktion in Kürze: Käufer erhalten eine E-Mail-Benachrichtigung, wenn eine Bekanntmachung mit demselben Käufernamen veröffentlicht wurde
 
 - Beachten Sie bei API-Tests (Risiko, viele E-Mails zu erhalten): verwenden Sie einen eindeutigen "Hauptkäufernamen" für wiederkehrende Käufer und einen zufälligen Namen für mehrere Käufer
   
 - **Vermittlungsdienst API Parameter: authorEmail
                ​Bitte die E-Mail Ihrer Endkunden entsprechend angeben​**
-</details>
-<br>
+           </details>
+           <br>
 
 <details>
 <summary>
