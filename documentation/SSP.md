@@ -12,11 +12,10 @@ Das Self-Service-Portal (SSP) bietet einen benutzerfreundlichen Zugang zu allen 
 Das Portal wird ein Betriebs- und Supportplattform für Nutzer. Es wird Ihnen bei der Übergang helfen und erlaubt Ihnen, von Emails wegkommen. Es bietet zukünftig mehr Möglichkeiten, Nutzer und Zugang selbst zu verwalten.
 
 ## Verfügbare Services
-### Ab Oktober 2023
-Das Portal bietet drei Hauptfunktionen:
+### Ab Oktober 2023:
+Das Portal bietet folgende Hauptfunktionen:
 * Dokumentation ansehen
   * *Es wird langfristig geplant, die Dokumentation, die sich derzeit in Github befindet, in das Portal zu übertragen. Das SSP wird dann später zu zentraler Kommunikationskanal fürs DöE*
-<br>
 * Eigenes Anlegen von Admin-Account in SSP für Fachverfahrenshersteller (SSP-Admin-Accounts)
 * Mit SSP-Admin-Account VD-Nutzer beantragen (ersetzt die Account-Erstellung per E-Mail)
 * Übersicht von Bekanntmachungen ansehen
