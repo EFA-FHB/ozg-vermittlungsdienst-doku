@@ -13,6 +13,8 @@ Bei der eForms Dokumentenerstellung gilt es einige Regeln zu bestimmten Felden z
 Feld: *ganzer Abschnitt ```<efac:Organization>```*
 
 Der DöE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden oberschwelligen Bekanntmachungen. Für die Organisationen darf deshalb der Typ "ted-esen" NICHT in den Bekanntmachungen verwendet werden, da diese Angabe automatisch vom eSender-Hub eingefügt wird.
+Wenn Sie eine Bekanntmachung erstellen und eine Organisation angeben, müssen Sie für jede Organisation definieren, welche Rolle diese im Rahmen der Bekanntmachung spielt. Die Rollen sind definiert in der EU Codeliste: https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/organisation-role.gc
+Ein Wert in der EU Codeliste ist "ted-esen". Dieser Wert darf in Deutschland nicht verwendet werden. 
 
 Hierbei zu beachten: In den derzeit im Kosit Repository vorhandenen Beispieldateien zu eForms-DE 1.0 ist diese Rolle teilweise noch vorhanden. Mit Veröffentlichung der Version eForms-DE 1.1 werden auch die Beispieldateien entsprechend angepasst, sodass die Rolle ted-esen nicht mehr verwendet wird. 
 <br>
