@@ -1,9 +1,8 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Vermittlungsdienst
 
->**Produktions Release Juni veröffentlicht** <br>
-> Am 28.06.2023 wurde das Produktions Release Juni veröffentlicht.
-> Zu den [Release notes](/Releases.md)
+>**Go-Live 25.10.** <br>
+> Wichtige Hinweise zum Go-Live am 25.10. finden Sie unter [Maintenance](/Maintenance.md)! 
 
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen
 und den Wettbewerb bei öffentlichen Aufträgen stärken? Dann binden Sie sich mit Ihrer Vergabeplattform gerne an den von der Freien 
