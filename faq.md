@@ -18,7 +18,11 @@ Welche Informationen wird benötigt um einen Account zu beantragen? (aktualisier
 </summary>
 <br>
 
-- Systemumgebung für die Zugangsdaten beantragt werden (Preview, Staging, Produktion)
+Seit dem 04.10 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt sein. Alle benötigte Informationen werden im Registrierungsformular angezeigt.
+
+<br>
+
+- Systemumgebung für die Zugangsdaten beantragt werden (Preview, Staging, Produktion). Die Registrierung im Portal erfolgt für die entsprechende Umgebung, d. h. wenn ein Konto für die Staging-Umgebung erforderlich ist, sollte dieses im Staging-Portal beantragt werden.
 
 -  E-Mail-Adresse, welche als Benutzername verwendet werden soll (diese muss pro Umgebung eindeutig sein, keine Dopplungen erlaubt)
   
@@ -332,9 +336,10 @@ Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizi
 
 <details>
 <summary>
-Wie kann für ein Release ermittelt werden, welche Versionen der Teilkomponenten unterstützt werden. 
+Wie kann für ein Release ermittelt werden, welche Versionen der Teilkomponenten unterstützt werden?  
 </summary>
 <br>
+
 Unter [eForms Unterstützung](/documentation/eForms_support.md) ist dokumentiert welche eForms-Versionen die Teilkomponenten unterstützen.
 <br>
 Für jedes Release verffentlichen wir releasenotes, um zu beschreiben, welche Komponente welche Version unterstützt. Die Versionen eForms-DE 1.0.1 und 1.1.0 werden ab 13. September in allen Komponenten des Datenservice öffentlicher Einkauf unterstützt. 
@@ -346,7 +351,8 @@ Für jedes Release verffentlichen wir releasenotes, um zu beschreiben, welche Ko
 Ist die Dokumentation zum Vermittlungsdienst (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) die offizielle Dokumentation?
 </summary>
 <br>
-Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weiteres die offizielle Dokumentation. Langfristig wird die Dokumentation ggf. in ein Portal umgezogen. Hierüber informieren wir Sie rechtzeitig. 
+
+Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weiteres die offizielle Dokumentation. Die Dokumentation wird zugleich im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) veröffentlicht.
 </details>
 <br>
 
@@ -521,7 +527,7 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
 
 - TED-Veröffentlichungsnummer ([1-8 Ziffern]-[Jahr]) oder eForms UUID verwenden 
 
-- In den [Developer Docs FAQ] (https://docs.ted.europa.eu/home/eforms/FAQ/index.html#_forms_and_procedures) finden Sie diese Informationen ebenfalls
+- In den [Developer Docs FAQ](https://docs.ted.europa.eu/home/eforms/FAQ/index.html#_forms_and_procedures) finden Sie diese Informationen ebenfalls
 
   - Weitere Details zur Verlinkung der Bekanntmachungen siehe
 https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_Erstellung.md
@@ -536,7 +542,11 @@ Bis eForms-DE verpflichtend wird, kann im alten Format direkt bei TED eingeliefe
 
 <details>
 <summary>
-Wird es möglich sein, Berichtigungen zum Datenservice zu senden, welcher diese als eigenständiger, neuer eSender-Hub an TED übermittelt, auch wenn die Bekanntmachungen zuvor durch den Plattformbetreiber als ehemaliger eSender-Hub an TED übermittelt wurde? Genauer gesagt: • Wie wird mit einem Wechsel des eSenders für eine Bekanntmachung umgegangen, wenn diese berichtigt werden soll? • Wie wird mit einem Wechsel des eSenders innerhalb eines Verfahrens mit mehreren Bekanntmachungen umgegangen?
+Wird es möglich sein, Berichtigungen zum Datenservice zu senden, welcher diese als eigenständiger, neuer eSender-Hub an TED übermittelt, auch wenn die Bekanntmachungen zuvor durch den Plattformbetreiber als ehemaliger eSender-Hub an TED übermittelt wurde? <br>
+Genauer gesagt:
+
+- Wie wird mit einem Wechsel des eSenders für eine Bekanntmachung umgegangen, wenn diese berichtigt werden soll?
+- Wie wird mit einem Wechsel des eSenders innerhalb eines Verfahrens mit mehreren Bekanntmachungen umgegangen?
 </summary>
 <br>
 Es wird nicht möglich sein, über den Datenservice den Status einer alten Bekanntmachung abzufragen oder eine alte Bekanntmachung zu stoppen, die nicht über den Datenservice eingeliefert wurde, da der Datenservice keine Anfragen zu Bekanntmachungen von anderen eSendern durchführen kann. Dies ist eine Restriktion von TED zu einliefernden eSendern.
