@@ -1,18 +1,18 @@
 ### EfA Implementation Project "Access to Public Procurement".
-## Documentation Mediation Service
+## Documentation mediation service
 [table of contents](/documentation/documentation.md)
 <br>
 
-# Notes for the creation of eForms-DE documents.
+# Notes on the creation of eForms-DE documents.
 
 When creating eForms documents, there are some rules to follow regarding certain fields.
 
 ## eSender information
 >**eForms-DE specific**
 
-Field: *entire section ``<efac:Organization>``*
+Field: *entire section ``<efac:Organization>``*.
 
-The DöE assumes the role of eSender for all upper-threshold notices to be submitted to TED. Therefore, for the organizations, the type "ted-esen" should not be used in the notices, as this information is automatically inserted by the eSender hub.
+The DöE assumes the role of eSender for all superthreshold notices to be submitted to TED. Therefore, for the organizations, the type "ted-esen" must NOT be used in the notices, as this information is automatically inserted by the eSender hub.
 
 To note here: In the sample files for eForms-DE 1.0 currently available in the Kosit repository, this role is still partially present. With the release of version eForms-DE 1.1, the sample files will also be adapted accordingly, so that the role ted-esen is no longer used.
 <br>
@@ -63,7 +63,7 @@ Due to the requirement to specify the BT-738 (Preferred Publication Date), in co
 
 ### Solution with Schematron Release 0.5.3 resp. 0.6.1
 
-The existing EU rules BR-BT-00005-0150 & BR-BT-00738-0053 restricting BT-738 (Preferred Publication Date) are suspended and replaced by new DE rules (SR-BT-738-1 and SR-BT-738-P60D). This will allow the following submissions:
+The existing EU rule BR-BT-00005-0150 & BR-BT-00738-0053 restricting BT-738 (Preferred Publication Date) are suspended and replaced by new DE rules (SR-BT-738-1 and SR-BT-738-P60D). This will allow the following submissions:
 
 _eForms-DE 1.0.1_.
 - The BT-738 (Preferred Publication Date) may be on the same day as the BT-05 (Dispatch Date).
@@ -93,7 +93,7 @@ https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1
 
 _Data service public purchase_
 
-DöE is currently building in both the new Schematron rules and the transformation in the eSender Hub. These changes will be released in production with the next release in week 41 and will be testable (more detailed info about the release can be found [here](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/Releases.md).
+The DöE is currently building in both the new Schematron rules and the transformation in the eSender Hub. These changes will be released in production with the next release in week 41 and will be testable (more detailed info about the release can be found [here](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/Releases.md).
 
 _SDK_EN_
 
