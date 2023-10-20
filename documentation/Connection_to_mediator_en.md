@@ -16,24 +16,24 @@ The REST API and associated documentation for the existing endpoints is provided
 Access data must be requested once in order to use the API. The authorization is done via OAuth 2.0.
 <br>
 
-### Requesting an account to deliver announcements.
+### Apply for an account to deliver announcements.
 
 >**Note** <br>
 >After the production release in June, a user must be requested again for the production and staging environment, even if a user already exists in Preview.
 
 Starting 10/04/2023, a new account will be created via the Self-Service Portal (production environment: https://portal.ozg-vermittlungsdienst.de). An account can be created in the portal by specifying an email address and password. After confirming the email address, the user can log in and fill out the application form for a new VD account. A separate user is required per award platform. <br>
 
-After the user is created, an authentication email will be sent to the specified user email address for verification, which will contain a link to authenticate and create the password. If you apply for 10 accounts on one environment, you will also need 10 individual email addresses. The email address is used to retrieve the tokens you need to uniquely authenticate with the account. Therefore, it must be unique.
+After the user is created, an authentication email will be sent to the specified user email address for verification, which will include a link to authenticate and create the password. If you apply for 10 accounts on one environment, you will also need 10 individual email addresses. The email address is used to retrieve the tokens you need to uniquely authenticate with the account. Therefore, it must be unique.
 <br><br>
 The link is valid for 10 days.<br>
 Click on the link and follow the password creation instructions.
 <br><br>
 With the created credentials, an Access Token and a Refresh Token can be generated using the API.
 <br><br>
-Please note that you need to request one access per development environment (preview, staging, production). There will be no synchronization of access credentials.
+Please note that you need to request one access per development environment (preview, staging, production). There will be no synchronization of access credentials. [Preview](https://portal.preview-ozg-vermittlungsdienst.de/) and [Staging](https://portal.staging-ozg-vermittlungsdienst.de/) accounts can be requested in the corresponding self-service portal environment.
 <br>
 
-### Authentication and authorization (Access Token, Refresh Token).
+### Authentication and Authorization (Access Token, Refresh Token).
 The `POST /api/token` endpoint is used with the `username` and `password` parameters to be passed to obtain an `access_token` and `refresh_token`. The `username` is the email address you provided.
 
 The `access_token` is valid for 24 hours and can be used for authorization in all following requests in the header as follows: `Authorization: Bearer <<access_token>>`. After the 24 hours have expired, a new authentication is necessary. To avoid regular authentication with `username` and `password`, a new `access_token` can be generated using the `refresh_token` and the `POST /api/token/refresh` endpoint without having to perform a full authentication again.
@@ -105,7 +105,7 @@ Password must be at least 8 characters, contain 1 capital letter and 1 number.
 <br>
 
 ## Delete access
-To delete your access please send an email to Nortal AG support [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com).<br>
+To delete your access, please send an email to Nortal AG support [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com).<br>
 The email must contain the following information:
 
 - System environment in which the access data is to be deleted
