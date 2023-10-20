@@ -1,5 +1,5 @@
 ### EfA Implementation Project "Access to Public Procurement".
-## Documentation Mediation Service
+## Documentation mediation service
 [table of contents](/documentation/documentation.md)
 <br>
 
@@ -12,7 +12,9 @@ When creating eForms documents, there are some rules to follow regarding certain
 
 Field: *entire section ``<efac:Organization>``*
 
-The DöE assumes the role of eSender for all upper-threshold notices to be submitted to TED. Therefore, for the organizations, the type "ted-esen" should not be used in the notices, as this information is automatically inserted by the eSender hub.
+The DöE assumes the role of eSender for all superthreshold notices to be submitted to TED. Therefore, for the organizations, the type "ted-esen" must NOT be used in the notices, as this information is automatically inserted by the eSender hub.
+When you create a notice and specify an organization, you must define for each organization what its role is in the notice. The roles are defined in the EU code list: https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/organisation-role.gc
+One value in the EU code list is "ted-esen". This value must not be used in Germany.
 
 To note here: In the sample files for eForms-DE 1.0 currently available in the Kosit repository, this role is still partially present. With the release of version eForms-DE 1.1, the sample files will also be adapted accordingly, so that the role ted-esen is no longer used.
 <br>
@@ -63,7 +65,7 @@ Due to the requirement to specify the BT-738 (Preferred Publication Date), in co
 
 ### Solution with Schematron Release 0.5.3 resp. 0.6.1
 
-The existing EU rules BR-BT-00005-0150 & BR-BT-00738-0053 restricting BT-738 (Preferred Publication Date) are suspended and replaced by new DE rules (SR-BT-738-1 and SR-BT-738-P60D). This will allow the following submissions:
+The existing EU rule BR-BT-00005-0150 & BR-BT-00738-0053 restricting BT-738 (Preferred Publication Date) are suspended and replaced by new DE rules (SR-BT-738-1 and SR-BT-738-P60D). This will allow the following submissions:
 
 _eForms-DE 1.0.1_.
 - The BT-738 (Preferred Publication Date) may be on the same day as the BT-05 (Dispatch Date).
@@ -102,7 +104,7 @@ The new rules have already been implemented in SDK-DE 1.0.1 and 1.1.0.
 ## Creation of eForms in conjunction with notices submitted to TED in the old award format.
 >**not eForms-DE specific**.
 
-For a transition period, it may be necessary to create links between notices submitted to TED in the old award format and notices submitted to TED in the eForms format. Possible scenarios necessitating linking include:
+For a transition period, it may be necessary to create links between notices submitted to TED in the old award format and notices submitted to TED in the eForms format. Possible scenarios that may necessitate linking include:
 - A procurement process was started before 10/25/2023 old format TED-XML and will continue in eForms-DE format. Documents created in the old format must be referenced in subsequent notices.
 - A notice published in the old format must be corrected or adapted so that a change notice with reference to this notice is necessary.
 

@@ -5,19 +5,19 @@
 
 # Self-Service Portal of the DöE
 
-The Self-Serivce Portal of the Data Service Public Purchasing is available at the URL https://portal.ozg-vermittlungsdienst.de/.
+Under the URL https://portal.ozg-vermittlungsdienst.de/ the Self-Serivce Portal of the Data Service Public Purchasing is available for the production environment.
+Furthermore, there is the portal for the staging environment https://portal.staging-ozg-vermittlungsdienst.de/ and the portal for the preview environment https://portal.preview-ozg-vermittlungsdienst.de/.
 <br><br>
 The Self-Service Portal (SSP) provides user-friendly access to all [records](https://portal.ozg-vermittlungsdienst.de/documentation) of the Data Service Public Purchasing (DöE).
 
 The portal will be an operations and support platform for users. It will help with transition and allow you to get away from emails. In the future it will offer more possibilities to manage users and access by yourself.
 
 ## Available services
-### As of October 2023.
-The portal offers three main features:
+### As of October 2023:
+The portal will offer the following main features:
 * View documentation.
   * *In the long term, it is planned to transfer the documentation that is currently in Github to the portal. The SSP will then later become central communication channel for the DöE*.
-<br>
-* Own creation of admin account in SSP for specialist procedure manufacturers (SSP admin accounts).
+* Own creation of admin account in SSP for specialist procedure producers (SSP admin accounts).
 * Apply for VD user with SSP admin account (replaces account creation via e-mail)
 * View overview of announcements
 <br>
