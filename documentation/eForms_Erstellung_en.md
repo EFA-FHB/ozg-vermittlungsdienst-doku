@@ -3,16 +3,18 @@
 [table of contents](/documentation/documentation.md)
 <br>
 
-# Notes on the creation of eForms-DE documents.
+# Notes for the creation of eForms-DE documents.
 
 When creating eForms documents, there are some rules to follow regarding certain fields.
 
 ## eSender information
 >**eForms-DE specific**
 
-Field: *entire section ``<efac:Organization>``*.
+Field: *entire section ``<efac:Organization>``*
 
 The DöE assumes the role of eSender for all superthreshold notices to be submitted to TED. Therefore, for the organizations, the type "ted-esen" must NOT be used in the notices, as this information is automatically inserted by the eSender hub.
+When you create a notice and specify an organization, you must define for each organization what its role is in the notice. The roles are defined in the EU code list: https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/organisation-role.gc
+One value in the EU code list is "ted-esen". This value must not be used in Germany.
 
 To note here: In the sample files for eForms-DE 1.0 currently available in the Kosit repository, this role is still partially present. With the release of version eForms-DE 1.1, the sample files will also be adapted accordingly, so that the role ted-esen is no longer used.
 <br>
@@ -93,7 +95,7 @@ https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1
 
 _Data service public purchase_
 
-The DöE is currently building in both the new Schematron rules and the transformation in the eSender Hub. These changes will be released in production with the next release in week 41 and will be testable (more detailed info about the release can be found [here](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/Releases.md).
+DöE is currently building in both the new Schematron rules and the transformation in the eSender Hub. These changes will be released in production with the next release in week 41 and will be testable (more detailed info about the release can be found [here](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/Releases.md).
 
 _SDK_EN_
 
@@ -102,7 +104,7 @@ The new rules have already been implemented in SDK-DE 1.0.1 and 1.1.0.
 ## Creation of eForms in conjunction with notices submitted to TED in the old award format.
 >**not eForms-DE specific**.
 
-For a transition period, it may be necessary to create links between notices submitted to TED in the old award format and notices submitted to TED in the eForms format. Possible scenarios necessitating linking include:
+For a transition period, it may be necessary to create links between notices submitted to TED in the old award format and notices submitted to TED in the eForms format. Possible scenarios that may necessitate linking include:
 - A procurement process was started before 10/25/2023 old format TED-XML and will continue in eForms-DE format. Documents created in the old format must be referenced in subsequent notices.
 - A notice published in the old format must be corrected or adapted so that a change notice with reference to this notice is necessary.
 
