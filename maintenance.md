@@ -30,7 +30,7 @@ _Derzeit keine bekannten Probleme_
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
-| DöE Produktion + Staging | 23.10.2023               | 24.10.2023                 | Aufgrund von Infrastrukturproblemen sind alle Dienste (außer BKMS) nicht verfügbar |
+| DöE Produktion + Staging | 23.10.2023 17:00               | 24.10.2023                 | Aufgrund von Infrastrukturproblemen sind alle Dienste (außer BKMS) nicht verfügbar |
 
 
 ## Hinweise
