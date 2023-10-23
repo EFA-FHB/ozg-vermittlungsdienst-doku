@@ -6,12 +6,12 @@ Hier finden Sie aktuelle Informationen in Vorbereitung auf den 25.10.2023 und ko
 ## ! Wichtige Hinweise zur Erstellung von eForms !
 Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer die folgenden Aspekte: 
 
+- Das Feld **BT-05 Notice Dispatch date** **(IssueDate)** muss zwischen gestern und morgen liegen, sonst lehnt TED die Bekanntmachung ab. Dies wird derzeit NICHT im Vermittlungsdienst geprüft, da es sich um eine neue dynamische Regel von TED handelt
 - Die Rolle **ted-esen** darf in Bekanntmachungen NICHT verwendet werden, weder als org-role noch als org-sub-role. Dies führt zu Problemen in der Transformation, da immer automatisch das BeschA als ted-esen gesetzt wird
 
-- Das Feld **BT-05 Notice Dispatch date** **(IssueDate)** muss zwischen gestern und morgen liegen, sonst lehnt TED die Bekanntmachung ab. Dies wird derzeit NICHT im Vermittlungsdienst geprüft, da es sich um eine neue dynamische Regel von TED handelt
 - Das Feld **Preferred Publication Date BT-738 (RequestedPublicationDate)** kann laut deutschem Standard auf den selben Zeitpunkt wie das Issue date oder bis zu 48h nach dem Issue Date gesetzt werden. Bitte achten Sie darauf, für beide Werte die selbe Zeitzone anzugeben, da es sonst in Einzelfällen zu Ablehnungen bei TED kommen kann
 - Die Befüllung des Feldes **BT-165 Winner Size (Winner Size)** wird derzeit nicht von den deutschen Regeln geprüft. Bitte stellen Sie selbstständig sicher, dass dieses Feld für die folgenden Notice Types korrekt befüllt wird: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
-- Derzeit besteht ein Bug bei TED, dass **Zuwendungsempfänger** <u>keine Dienstleistungen</u> ausschreiben können. Sollten Sie hiervon betroffen sein (Bekanntmachung schlägt fehl wegen Regel **BR-BT-00262-0211**), melden Sie sich bitte umgehend bei unserem Support support-oeffentlichevergabe@bdr.de für spezifische Hilfestellungen
+- Derzeit besteht ein Bug bei TED, dass **Zuwendungsempfänger** <u>keine Dienstleistungen</u> ausschreiben können. TED arbeitet noch daran, dies bis 25.10. zu beheben. Sollten Sie hiervon betroffen sein (Bekanntmachung schlägt fehl wegen Regel **BR-BT-00262-0211**), melden Sie sich bitte umgehend bei unserem Support support-oeffentlichevergabe@bdr.de für spezifische Hilfestellungen
 - Für die Befüllung der **BT-501 Identifikationsnummer (der Organisation)** beachten Sie bitte die Hinweise u. A. zur Leitweg-ID in unserer FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
 
 
@@ -30,7 +30,7 @@ _Derzeit keine bekannten Probleme_
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
-| TED Preview  | 09.08.2023               | 25.08.2023                   | Bekanntmachungen ab dem 09.08.2023 werden durch TED nicht mehr in den Status 'PUBLISHED' gesetzt, sie bleiben in 'ACCEPTED' hängen auf Grund eines Fehlers seitens TED |
+|-   | -               | -                 | - |
 
 
 ## Hinweise
