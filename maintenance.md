@@ -30,7 +30,7 @@ _Derzeit keine bekannten Probleme_
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
-| DöE Produktion + Staging | 23.10.2023 17:00               | 24.10.2023                 | Aufgrund von Infrastrukturproblemen sind alle Dienste (außer BKMS) nicht verfügbar |
+| - | - | - | - | - | 
 
 
 ## Hinweise
@@ -38,10 +38,11 @@ _Derzeit keine bekannten Probleme_
 Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus diesem Grund werden Statusinformationen für Bekanntmachungen, die vor diesem Datum in Staging oder Preview eingeliefert wurden, nicht mehr bei TED abgefragt. Dies ist eine einmalige Anpassung und wird in Zukunft nicht wieder vorkommen. 
 
 
-## Vergangene Wartungsfenster
+## Vergangene Wartungsfenster oder Störungen
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
+| DöE Produktion + Staging | alle Services außer BKMS               |23.10.2023 - 24.10.2023                | 17:00 - 09:00 CEST | Behoben: Aufgrund von Infrastrukturproblemen nicht verfügbar | 
 | DöE Produktion + Staging | alle Services außer BKMS | 20.10.2023 | 10:00 - 13:00 CEST | Deployment für Performanceverbesserungen | 
 | DöE Produktion + Staging | alle Services außer BKMS | 10.10.2023 | 09:00 - 12:00 CEST | Rechenzentrumswartung | 
 | TED Preview | TED Apps for eForms | 10.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
