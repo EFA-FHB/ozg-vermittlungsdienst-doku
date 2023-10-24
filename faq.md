@@ -781,7 +781,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 
 | Bund/Bundesland | Behörde                                                                                                                                          | Telefonnummer     |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-|Bund|Vergabekammer des Bundes|t:022894990|
+|Bund|Vergabekammern des Bundes|t:022894990|
 | Baden-Württemberg |Vergabekammer Baden-Württemberg                                                                                                             | t:07219268730     |
 | Bayern |Vergabekammer Nordbayern bei der Regierung von Mittelfranken                                                                                           | t:0981531277      |
 | Bayern|Regierung von Oberbayern Vergabekammer Südbayern                                                                                                              |t:08921762411     |
