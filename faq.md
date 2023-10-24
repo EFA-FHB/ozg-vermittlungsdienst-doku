@@ -1,4 +1,4 @@
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
+f### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
 # Häufig gestellte Fragen
 [Übersicht](/Readme.md)
 <br>
@@ -746,7 +746,7 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
 ### Identifikationsnummer (Organisation) (BT-501)  
 <details>
 <summary>
-Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 17.10.2023)
+Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 24.10.2023)
 </summary>
 <br>
  Grundsätzlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
@@ -773,7 +773,33 @@ Solange oder soweit diese nicht zur Verfügung steht, ist vorübergehend eine an
 
 Diese ist mit Präfix (t:), Vorwahl, ohne Sonderzeichen und ohne Leerzeichen, wie im fiktiven Beispiel, anzugeben.
 
+**Hinweise für Vergabekammern:**
+Für die Vergabekammern sind die Nummern nachstehender Tabelle zu verwenden. Diese sind folgender Seite entnommen:
 
+https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_L%C3%A4nder/Vergabekammern_artikel.html
+
+
+| Bundesland | Behörde                                                                                                                                          | Telefonnummer     |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| Baden-Württemberg |Vergabekammer Baden-Württemberg                                                                                                             | t:07219268730     |
+| Bayern |Vergabekammer Nordbayern bei der Regierung von Mittelfranken                                                                                           | t:0981531277      |
+| Bayern|Regierung von Oberbayern Vergabekammer Südbayern                                                                                                              |t:08921762411     |
+| Berlin| Vergabekammer des Landes Berlin                                                                                                                        | t:03090138316     |
+| Brandenburg| Vergabekammer des Landes Brandenburg beim Ministerium für Wirtschaft und Energie                                                                  | t:03318661719     |
+| Bremen |Vergabekammer Bremen Der Senator für Umwelt, Bau und Verkehr                                                                                           | t:042136159796    |
+| Hamburg| Vergabekammer bei der Finanzbehörde                                                                                                                   | t:040428231690    |
+| Hamburg|Vergabekammer bei der Behörde für Stadtentwicklung und Wohnen                                                                                                 |t:040428403230    |
+| Hessen| Vergabekammer des Landes Hessen bei dem Regierungspräsidium Darmstadt                                                                                  | t:06151126603      |
+| Mecklenburg-Vorpommern| Vergabekammern beim Ministerium für Wirtschaft, Arbeit und Gesundheit                                                                  | t:03855885160     |
+| Niedersachsen| Vergabekammer Niedersachsen beim Niedersächsischen Ministerium für Wirtschaft, Arbeit und Digitalisierung                                       | t:04131153308     |
+| Nordrhein-Westfalen|  Vergabekammer Rheinland über Bezirksregierung Köln                                                                                       | t:02211473055     |
+| Nordrhein-Westfalen|Vergabekammer Westfalen                                                                                                                       |t:02514111691   |
+| Rheinland-Pfalz| Vergabekammer Rheinland-Pfalz bei dem Ministerium für Wirtschaft, Verkehr, Landwirtschaft und Weinbau                                         | t:06131162234     |
+| Saarland| Vergabekammern des Saarlandes                                                                                                                        | t:0681501994     |
+| Sachsen| Vergabekammer des Freistaates Sachsen bei der Landesdirektion Sachsen                                                                                 | t:03419773800     |
+| Sachsen-Anhalt| 1. und 2. Vergabekammer des Landes Sachsen-Anhalt                                                                                              | t:03455141529     |
+| Schleswig-Holstein| Vergabekammer Schleswig-Holstein beim Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein | t:04319884640     |
+| Thüringen| Vergabekammer Freistaat Thüringen beim Thüringer Landesverwaltungsamt                                                                               | t:0361573321276 |
 <br>
 </details>
 <br>
