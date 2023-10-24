@@ -13,9 +13,9 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 - Die Befüllung des Feldes **BT-165 Winner Size (Winner Size)** wird derzeit nicht von den deutschen Regeln geprüft. Bitte stellen Sie selbstständig sicher, dass dieses Feld für die folgenden Notice Types korrekt befüllt wird: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
 - Derzeit besteht ein Bug bei TED, dass basierend auf einschränkenden Regeln zu CPV-Codes **Zuwendungsempfänger** nur Bauleistungen, aber <u>keine Liefer- und Dienstleistungen</u> ausschreiben können. TED arbeitet noch daran, dies zu beheben.
 Die CPV-Codes werden wie folgt interpretiert:
-- Lieferleistungen: Haupt-CPV-Code aus den Abteilungen 0 bis 44 oder 48
-- Dienstleistungen: Haupt-CPV-Code aus den Abteilungen 49 bis 98
-- Bauarbeiten: Haupt-CPV-Code aus der Abteilung 45
+    - Lieferleistungen: Haupt-CPV-Code aus den Abteilungen 0 bis 44 oder 48
+    - Dienstleistungen: Haupt-CPV-Code aus den Abteilungen 49 bis 98
+    - Bauarbeiten: Haupt-CPV-Code aus der Abteilung 45
     
 Sollten Sie hiervon betroffen sein (Bekanntmachung schlägt fehl wegen Regel **BR-BT-00262-0211**), melden Sie sich bitte umgehend bei unserem Support support-oeffentlichevergabe@bdr.de für spezifische Hilfestellungen
 - Für die Befüllung der **BT-501 Identifikationsnummer (der Organisation)** beachten Sie bitte die Hinweise u. A. zur Leitweg-ID in unserer FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
