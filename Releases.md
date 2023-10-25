@@ -23,8 +23,8 @@ Mai 2023
 
 - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
-
-<a id=## Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe></a>
+<a id=Release-für-Notice-Viewer-PDF-Dokumente-+-synchrone-Aufrufe></a>
+## Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 17.10.2023        | veröffentlicht |
