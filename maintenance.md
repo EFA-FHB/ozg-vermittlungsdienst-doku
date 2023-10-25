@@ -1,7 +1,13 @@
 # Go-live-Ticker
 
-
 Hier finden Sie aktuelle Informationen in Vorbereitung auf den 25.10.2023 und kontinuierliche Updates zwischen 25.-27.10.2023.
+
+## Bekannte Probleme
+Sollten während des Go-live Probleme auftreten, werden Sie in diesem Abschnitt aktuelle Informationen finden. 
+
+Leider kam es aufgrund einer überregionalen Netzwerkstörung im Zeitraum 15:31 Uhr bis 16:03 Uhr zu technischen Problemen bei der Erreichbarkeit unseres Rechenzentrums. Davon waren leider auch die Einlieferungen von Bekanntmachungen sowie der Abruf von Informationen betroffen.  
+Bitte überprüfen Sie Ihre Einlieferungen, da die Dienste nun wieder erreichbar sind. 
+
 
 ## ! Wichtige Hinweise zur Erstellung von eForms !
 Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer die folgenden Aspekte: 
@@ -20,11 +26,6 @@ Die CPV-Codes werden wie folgt interpretiert:
 Sollten Sie hiervon betroffen sein (Bekanntmachung schlägt fehl wegen Regel **BR-BT-00262-0211**), melden Sie sich bitte umgehend bei unserem Support support-oeffentlichevergabe@bdr.de für spezifische Hilfestellungen
 - Für die Befüllung der **BT-501 Identifikationsnummer (der Organisation)** beachten Sie bitte die Hinweise u. A. zur Leitweg-ID in unserer FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
 
-
-## Bekannte Probleme
-Sollten während des Go-live Probleme auftreten, werden Sie in diesem Abschnitt aktuelle Informationen finden. 
-
-_Derzeit keine bekannten Probleme_
 
 ### Hinweise für Fachverfahrenshersteller
 - Wir beobachten derzeit vermehrt Ablehnungen beim Einliefern basierend auf falscher Syntax der Email für die Angabe "authorEmail". Bitte achten Sie darauf, dass in diesem Feld eine gültige Email mit korrekter Syntax beim Einliefern in den Vermittlungsdienst für jede Bekanntmachung mitgeliefert wird. Wenn die Email nicht korrekt ist, erscheint die folgende Fehlermeldung: "NOTICE_METADATA_INVALID - Es fehlen benötigte Daten oder die eingegebenen Daten entsprechen nicht dem Schema". Wir validieren Emails anhand folgendes Regex Ausdrucks: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b
