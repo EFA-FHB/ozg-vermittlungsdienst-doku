@@ -1,12 +1,9 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Häufig gestellte Fragen
-[Übersicht](/Readme.md)
-<br>
 
 - [Datenservice Öffentlicher Einkauf](#datenservice-öffentlicher-einkauf)
 - [Standard eForms-DE und SDK-DE](#standard-eForms-DE-und-SDK-DE)
 - [Allgemein](#allgemein)
-<br>
 
 ## Datenservice Öffentlicher Einkauf
 
