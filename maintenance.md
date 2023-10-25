@@ -52,7 +52,8 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
-| DöE Produktion + Staging | alle Services außer BKMS               |23.10.2023 - 24.10.2023                | 17:00 - 09:00 CEST | Behoben: Aufgrund von Infrastrukturproblemen nicht verfügbar | 
+| DÖE Produktion + Staging | alle Services außer BKMS | 25.10.2023 | 15:31 - 16:03 CEST | Nicht-Erreichbarkeit des Rechenzentrums |
+| DöE Produktion + Staging | alle Services außer BKMS               |23.10.2023 - 24.10.2023                | 17:00 - 09:00 CEST |  Aufgrund von Infrastrukturproblemen nicht verfügbar | 
 | DöE Produktion + Staging | alle Services außer BKMS | 20.10.2023 | 10:00 - 13:00 CEST | Deployment für Performanceverbesserungen | 
 | DöE Produktion + Staging | alle Services außer BKMS | 10.10.2023 | 09:00 - 12:00 CEST | Rechenzentrumswartung | 
 | TED Preview | TED Apps for eForms | 10.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
