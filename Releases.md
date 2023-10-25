@@ -51,6 +51,7 @@ Status: Veröffentlicht am 20.10.2023 <br>
   - `/view/sync/html` und `/view/sync/pdf`
 
 </details>
+
 <a id=Release-für-Self-Service-Portal-Portal-Account,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account></a>
 ## Release für Self-Service Portal - Portal-Account, Registrierungsform für einen separaten Vermittlungsdienst-Account
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
