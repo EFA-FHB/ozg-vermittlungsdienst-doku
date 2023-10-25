@@ -743,7 +743,7 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
 ### Identifikationsnummer (Organisation) (BT-501)  
 <details>
 <summary>
-Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 24.10.2023)
+Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 25.10.2023)
 </summary>
 <br>
  Grundsätzlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
@@ -753,11 +753,11 @@ Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisie
 
 Für die öffentliche Verwaltung wird die Verwendung der Leitweg-ID empfohlen (da diese bereits bei der elektronischen Rechnung häufig eingesetzt wird). Diese hat folgende Form:
 
-0204: Leitweg-ID
+0204:Leitweg-ID
 
 Beispiel (fiktiv):
 
-0204: 991-1234512345-06
+0204:991-1234512345-06
 
 Die Format-Spezifikation der Leitweg-ID (Version 2.0.2) kann über folgenden Link eingesehen und heruntergeladen werden:
 
@@ -772,7 +772,7 @@ Diese ist mit Präfix (t:), Vorwahl, ohne Sonderzeichen und ohne Leerzeichen, wi
 
 **Hinweise für Vergabekammern:**
 
-Für die Vergabekammern empfehlen wir die Kennungen nachstehender Tabelle zu verwenden. Diese sind folgender Seite entnommen:
+Für die Vergabekammern empfehlen wir die Kennungen nachstehender Tabelle zu verwenden. Diese sind u. a. folgender Seite entnommen:
 
 https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_L%C3%A4nder/Vergabekammern_artikel.html
 
@@ -783,7 +783,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 | Baden-Württemberg |Vergabekammer Baden-Württemberg                                                                                                             | t:07219268730     |
 | Bayern |Vergabekammer Nordbayern bei der Regierung von Mittelfranken                                                                                           | t:0981531277      |
 | Bayern|Regierung von Oberbayern Vergabekammer Südbayern                                                                                                              |t:08921762411     |
-| Berlin| Vergabekammer des Landes Berlin                                                                                                                        | t:03090138316     |
+| Berlin| Vergabekammer des Landes Berlin                                                                                                                        | 0204:11-1300000V00-74     |
 | Brandenburg| Vergabekammer des Landes Brandenburg beim Ministerium für Wirtschaft und Energie                                                                  | t:03318661719     |
 | Bremen |Vergabekammer Bremen Der Senator für Umwelt, Bau und Verkehr                                                                                           | t:042136159796    |
 | Hamburg| Vergabekammer bei der Finanzbehörde                                                                                                                   | t:040428231690    |
