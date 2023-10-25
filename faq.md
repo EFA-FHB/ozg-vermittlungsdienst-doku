@@ -1,4 +1,4 @@
-f### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
+### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Häufig gestellte Fragen
 [Übersicht](/Readme.md)
 <br>
