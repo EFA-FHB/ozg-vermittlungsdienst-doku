@@ -11,15 +11,15 @@
 
 <details>
 <summary>
-Welche Informationen wird benötigt um einen Account zu beantragen? (aktualisiert am 11.10.23)
+Welche Informationen werden benötigt um einen Account zu beantragen? (aktualisiert am 11.10.23)
 </summary>
 <br>
 
-Seit dem 04.10 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt sein. Alle benötigte Informationen werden im Registrierungsformular angezeigt.
+Seit dem 04.10 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt werden. Alle benötigte Informationen werden im Registrierungsformular für einen VD Account abgefragt. Diese sind:
 
 <br>
 
-- Systemumgebung für die Zugangsdaten beantragt werden (Preview, Staging, Produktion). Die Registrierung im Portal erfolgt für die entsprechende Umgebung, d. h. wenn ein Konto für die Staging-Umgebung erforderlich ist, sollte dieses im Staging-Portal beantragt werden.
+- Systemumgebung, für die Zugangsdaten beantragt werden (Preview, Staging, Produktion). Die Registrierung im Portal erfolgt für die entsprechende Umgebung, d. h. wenn ein Konto für die Staging-Umgebung erforderlich ist, sollte dieses im Staging-Portal beantragt werden.
 
 -  E-Mail-Adresse, welche als Benutzername verwendet werden soll (diese muss pro Umgebung eindeutig sein, keine Dopplungen erlaubt)
   
