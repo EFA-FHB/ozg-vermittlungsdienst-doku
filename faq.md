@@ -774,12 +774,13 @@ Solange oder soweit diese nicht zur Verfügung steht, ist vorübergehend eine an
 Diese ist mit Präfix (t:), Vorwahl, ohne Sonderzeichen und ohne Leerzeichen, wie im fiktiven Beispiel, anzugeben.
 
 **Hinweise für Vergabekammern:**
-Für die Vergabekammern empfehlen wir die Nummern nachstehender Tabelle zu verwenden. Diese sind folgender Seite entnommen:
+
+Für die Vergabekammern empfehlen wir die Kennungen nachstehender Tabelle zu verwenden. Diese sind folgender Seite entnommen:
 
 https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_L%C3%A4nder/Vergabekammern_artikel.html
 
 
-| Bund/Bundesland | Behörde                                                                                                                                          | Telefonnummer     |
+| Bund/Bundesland | Behörde                                                                                                                                          | Kennung    |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
 |Bund|Vergabekammern des Bundes|t:022894990|
 | Baden-Württemberg |Vergabekammer Baden-Württemberg                                                                                                             | t:07219268730     |
