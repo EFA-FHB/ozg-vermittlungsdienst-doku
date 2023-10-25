@@ -26,6 +26,9 @@ Sollten während des Go-live Probleme auftreten, werden Sie in diesem Abschnitt 
 
 _Derzeit keine bekannten Probleme_
 
+### Hinweise für Fachverfahrenshersteller
+- Wir beobachten derzeit vermehrt Ablehnungen beim Einliefern basierend auf falscher Syntax der Email für die Angabe "authorEmail". Bitte achten Sie darauf, dass in diesem Feld eine gültige Email mit korrekter Syntax beim Einliefern in den Vermittlungsdienst für jede Bekanntmachung mitgeliefert wird. Wenn die Email nicht korrekt ist, erscheint die folgende Fehlermeldung: "NOTICE_METADATA_INVALID - Es fehlen benötigte Daten oder die eingegebenen Daten entsprechen nicht dem Schema". Wir validieren Emails anhand folgendes Regex Ausdrucks: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b
+
 ## Anstehende Wartungsfenster
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
