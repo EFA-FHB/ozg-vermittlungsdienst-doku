@@ -50,9 +50,8 @@ Status: Veröffentlicht am 20.10.2023 <br>
 - Neue Endpunkte für synchrone HTML und PDF Generierung, Response mit Link wird erst zurückgegeben, wenn Dokument erstellt ist.
   - `/view/sync/html` und `/view/sync/pdf`
 
-
 </details>
-
+<a id=Release-für-Self-Service-Portal-Portal-Account,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account></a>
 ## Release für Self-Service Portal - Portal-Account, Registrierungsform für einen separaten Vermittlungsdienst-Account
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
@@ -82,7 +81,7 @@ Status: Veröffentlicht am 4.10.2023 <br>
 </details>
 <br>
 
-
+<a id=Release-für-RequestedPublicationDate-Fix-+-Notice-Viewer-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer></a>
 ## Release für RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer
 | Umgebung Vermittlungsdienst  | Zeitraum              | BKMS                      | Status |
 |------------|-----------------------|---------------------------|--------|
@@ -132,6 +131,7 @@ Verfügbar als Standalone Webservice mit Token-Authentifizierung (gleicher Token
 </details>
 <br>
 
+<a id=Release-für-eForms-DE-1.1-Vermittlungsdienst-und-eSender-Hub></a>
 ## Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub
 | Umgebung Vermittlungsdienst  | Zeitraum              |  BKMS                      | Status         |
 |------------|-----------------------|---------------------------|----------------|
@@ -159,10 +159,13 @@ Status: veröffentlicht am 13.09.2023 <br>
 </details>
 <br>
 
+<a id=Release-Offline-Validator-für-eForms-DE-1.0.1-und-1.1.0></a>
 ## Release Offline-Validator für eForms-DE 1.0.1 und 1.1.0
 Status: Veröffentlicht 14.08.2023<br>
 https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
+
+<a id=Production-Release-Juni-Vermittlungsdienst-&-eSender-Hub></a>
 ## Production Release Juni - Vermittlungsdienst & eSender-Hub
 Status: Veröffentlicht 28.06.2023<br>
 <details>
@@ -208,6 +211,7 @@ Anstelle von DELIVERY_METADATA_INVALID steht NOTICE_METADATA_INVALID
 </details>
 <br>
 
+<a id=Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice></a>
 ## Preview Release Mai - Vermittlungsdienst & Validator Webservice
 Status: Veröffentlicht 04.05.2023<br>
 <details>
