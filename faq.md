@@ -1018,7 +1018,7 @@ Informationen von TED per 27.09.23
 Nach Angabe der EU (siehe https://simap.ted.europa.eu/de_DE/web/simap/statistical-production-files - Statistik 2023 nach Format und Übermittlungskanal) haben bisher noch viele Auftraggeber das EU-Portal eNotices zur Erstellung und Veröffentlichung der Bekanntmachung genutzt. eNotices2, das neue Portal mit den integrierten eForms, kennt und berücksichtigt nicht das nationale Tailoring. Dürften Vergabestellen weiterhin eNotices2 verwenden, obwohl dort das nationale Tailoring nicht berücksichtigt ist?
 </summary>
 <br>
-Die Beantwortung dieser rechtlichen Fragestellung ist angestoßen und wird nach erfolgter Klärung beantwortet.
+eNotices2 darf für oberschwellige Einlieferungen ab dem 25.10. nicht mehr genutzt werden, da die Anpassungen des eForms Standards nicht berücksichtig würden, sodass die direkte Einlieferung über eNotices2 an TED nicht mehr rechtlich zulässig ist. 
 </details>
 <br>
 
