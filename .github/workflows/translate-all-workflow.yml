@@ -79,7 +79,7 @@ jobs:
         run: |
           set -x
           IFS=$'\n'
-          files=$(find . -name "*.md" -not -name "*_en.md")
+          files=$(find . -name "*.md" -not -name "*_en.md" -exec realpath {} \;)
           for file in ${files}; do
             echo "$file translating"
             filedir=$(dirname "$file")
@@ -92,6 +92,9 @@ jobs:
       - name: Cleanup translate tool
         run: rm -rf ./file-translate
 
+      - name: check files
+        run: ls -la . | grep _en
+        
       - name: Auto-Commit translated files 
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
