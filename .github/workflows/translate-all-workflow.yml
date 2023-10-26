@@ -79,7 +79,7 @@ jobs:
         run: |
           set -x
           IFS=$'\n'
-          files=$(find . -name "*.md" -not -name "*_en.md") 
+          files=$(find . -name "*.md" -not -name "*_en.md")
           for file in ${files}; do
             echo "$file translating"
             filedir=$(dirname "$file")
@@ -104,4 +104,5 @@ jobs:
           # See the `pathspec`-documentation for git
           # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
           # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-          file_pattern: '**/*.md'
+          file_pattern: '*.md'
+          disable_globbing: true
