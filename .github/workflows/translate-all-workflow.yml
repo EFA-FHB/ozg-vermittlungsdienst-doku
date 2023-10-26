@@ -75,7 +75,9 @@ jobs:
         run: chmod +x file-translate/file-translator
 
       - name: Translate all md files
+        shell: bash
         run: |
+          set -x
           IFS=$'\n'
           files=$(find . -name "*.md" -not -name "*_en.md") 
           for file in ${files}; do
