@@ -90,6 +90,7 @@ jobs:
           files_yaml: |
             doc:
               - '**/*.md'
+              - '!**/*_en.md'
 
       - name: Run step if doc file(s) change
         if: steps.changed-files-md-yaml.outputs.doc_any_changed == 'true'
