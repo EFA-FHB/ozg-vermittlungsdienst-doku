@@ -93,7 +93,9 @@ jobs:
 
       - name: Run step if doc file(s) change
         if: steps.changed-files-md-yaml.outputs.doc_any_changed == 'true'
+        shell: bash
         run: |
+          set -x
           echo "One or more doc file(s) has changed."
           for file in ${{ steps.changed-files-md-yaml.outputs.doc_all_changed_files }}; do
             echo "$file changed"
