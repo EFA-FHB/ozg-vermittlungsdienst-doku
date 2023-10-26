@@ -86,7 +86,15 @@ jobs:
             filename=$(basename -- "$file")
             extension="${filename##*.}"
             filename="${filename%.*}"
-            ./file-translate/file-translator -i $file -o ${filedir}/${filename}_en.md --api-key ${{ secrets.DEEPL_API_KEY }}
+            tmp=$(mktemp)
+            ./file-translate/file-translator -i $file -o $tmp --api-key ${{ secrets.DEEPL_API_KEY }}
+
+            if [[ $(cat $tmp | wc -l) -gt 0 ]]; then
+              mv $tmp ${filedir}/${filename}_en.md
+            else
+              echo "received empty file from file-translator for $filename"
+            fi
+
           done
 
       - name: Cleanup translate tool
@@ -94,7 +102,7 @@ jobs:
 
       - name: check files
         run: ls -la . | grep _en
-        
+
       - name: Auto-Commit translated files 
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
