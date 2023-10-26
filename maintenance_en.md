@@ -6,7 +6,7 @@ Here you will find current information in preparation for 10/25/2023 and continu
 If any issues arise during the go-live, you will find updated information in this section.
 
 Unfortunately, due to a supra-regional network disruption, there were technical issues with the accessibility of our data center between 3:31pm and 4:03pm on 10/25/2023. Unfortunately, this also affected the posting of announcements and the retrieval of information.  
-Please check your postings, the services are now available again.
+Please check your postings as the services are now available again.
 
 
 ## ! Important notes for the creation of eForms !
@@ -50,7 +50,7 @@ On 27/09/2023, the API key for submission to TED was adjusted. Because of this, 
 
 ## Past maintenance windows or disruptions
 
-| environment | system | date | time | comment |
+| Environment | System | Date | Time | Comment |
 |-------------|---------------------|------------|-------------------|---------------------|
 | DöE Produktion + Staging | all Services except BKMS | 25.10.2023 | 15:31 - 16:03 CEST | Data Center Unavailability |
 | DöE Production + Staging | all services except BKMS |23.10.2023 - 24.10.2023 | 17:00 - 09:00 CEST | Unavailable due to infrastructure problems |
