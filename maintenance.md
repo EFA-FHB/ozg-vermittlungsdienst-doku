@@ -6,7 +6,7 @@ Hier finden Sie aktuelle Informationen in Vorbereitung auf den 25.10.2023 und ko
 Sollten während des Go-live Probleme auftreten, werden Sie in diesem Abschnitt aktuelle Informationen finden. 
 
 Leider kam es aufgrund einer überregionalen Netzwerkstörung im Zeitraum 15:31 Uhr bis 16:03 Uhr am 25.10.2023 zu technischen Problemen bei der Erreichbarkeit unseres Rechenzentrums. Davon waren leider auch die Einlieferungen von Bekanntmachungen sowie der Abruf von Informationen betroffen.  
-Bitte überprüfen Sie Ihre Einlieferungen, die Dienste nun wieder erreichbar sind. 
+Bitte überprüfen Sie Ihre Einlieferungen, da die Dienste nun wieder erreichbar sind. 
 
 
 ## ! Wichtige Hinweise zur Erstellung von eForms !
