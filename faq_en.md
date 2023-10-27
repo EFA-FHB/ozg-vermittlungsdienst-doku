@@ -737,8 +737,76 @@ For which case is BT-125 lot and BT-1251 lot used?
 A contracting agency has published a prior information notice announcing that a solicitation on subject X will be issued in the near future. This prior information is now given a notice number. Some time later, the contracting agency advertises subject X in a contract notice (CN). In BT-125(i), the announcement number of the prior information notice is now entered to refer to the prior information notice that was published some time ago.
 BT-1251 is a concretization of where information on Subject X was provided. This is done in the prior information in Parts. So BT-1251 is the specification in which Part of the prior information was informed.
 </details>
+</summary>
 <br>
 
+
+### Display of winner in a contract notice (added 10/27-23).
+(BT-142, BT-13713, , OPT-320, BT-13714, , OPT-310, OPT-300, BT-721, BT-145, BT-1451, BT-768, BT-3202)
+ <details>
+<summary>short version
+ </summary>
+ 
+<br>
+
+It should be noted that in eForms, contractors and clients for awarded bids (contracts) are stored in different locations in the eForms structure.
+
+The contracting authority is stored in the Contract structure.
+An offer is assigned to a contract, and bidders are assigned to the offer. These bidders represent the contractors of the contract.
+
+What exactly has to be done to enable this backward chaining and lead to a correct display in the announcement service is described in the following long version .
+</details>
+<br>
+ <details>
+   <summary>Long version
+      </summary>
+ 
+<br>
+The following outline is intended to assist in completing the Notice of Results (CAN) eForms form to the point where the associated awarded contracts can be correctly displayed in the Notice Service (www.oeffentlichevergabe.de).
+These completion instructions are directed to specialist procedure manufacturers for the technical implementation of the following fields in the specialist procedure. If applicable, this can be used to guide users. For this reason, the technical field identifiers as well as their German interface designations (used according to the standard eforms-DE, if available, otherwise those from the SDK-DE) are given:
+
+1. description of the results of the tender
+The results for a tender are stored in the XML in the <efac:NoticeResult> section. In the following sections only the subsections are described, which are necessary here to output the expected results in the announcement service.
+
+2. description of the results of a lot
+In the form module "Result of lots" (<efac:LotResult>) is the BT-142 (winner determined, <cbc:TenderResultCode listName="winner-selection-status">). Behind it is a code list with the following values:
+a. A contest winner has not yet been determined, the contest is not yet closed.
+b. No contest winner has been determined, and the contest is closed.
+c. At least one winner has been determined (code: selec-w).
+
+Only in case "c" has been selected, a result can be communicated for this lot and at least the winning bid for this lot shall be indicated. In the event that multiple bids have been awarded, all winning bids shall be listed below. In the section "Result of Lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedure result lot identifier) and the bid (<efac:LotTender>, OPT-320-LotResult) is established.
+
+3 Description of the offer
+The description of the offers is done in the form module "Offers" (<efac:LotTender>).
+Here it is important to set a form internal reference number to the offer, as this should already be used e.g. in the previous section - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Again, the LOS to which the tender refers should then be referenced once more (in the Tender Lot Identifier field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference should now be included at this point to the section
+<efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference points to the form module "Bidder", which is described below.
+
+
+4 Description of the bidder(s) for an offer
+In the form module "Bidder" <efac:TenderingParty> the details of the bidder(s) of an offer(s) are to be stored. The main purpose here is to indicate whether the bid was submitted by an individual bidder or by a bidding consortium or by a bidder who will employ subcontractors. Therefore, only references to the bidding organizations are required here. If it is a bidder in this bid, then the reference to the bidder organization must be specified in the <efac:Tenderer> OPT-300-Tenderer (ID - Bidder ) field.
+For each bidder specified, additionally complete the efac:Tenderer/efbc:GroupLeadIndicator OPT-170-Tenderer (Head of Bidder) field. At least one of the specified bidder organizations must qualify as a "bidder's lead". Bidder parties that have joined together in subcontracts may also be indicated here (however, the appropriate description of these fields is omitted here).
+
+5. description of the contract
+After the above requirements 2-5 have been fulfilled, the interrelationships can be mapped that represent the technically interesting part in the announcement service, namely the contracts that have been concluded for a lot. This is done in the form module "Orders" ("Contracts") <efac:SettledContract>.
+The following information should be provided in this section:
+BT-721-Contract - name of the contract
+BT-145-Contract - date of the contract conclusion
+BT-1451-Contract - date of decision on the winner
+BT-768-Contract - contract as part of a framework agreement.
+
+To be able to determine the winner, the field named below is the most important:
+BT-3202-Contract - Contract bid identifier, because this field is used to determine the underlying bid as part of a backward chaining process, and this is used to determine the bidder, or head of a bidding consortium, who signed the contract on behalf of the bidders.
+
+In order to also be able to map which organization on the client side signed the contract, the following field shall also contain ID - Contract Signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the contract signing organization on the client side.
+
+Building these references according to the described pattern in this way also serves another purpose: only if all references exist cleanly, the requirements according to BT-165 (Company size) is mandatory to fill in and the BT-706 (Nationality of the beneficial owner of the winner) is mandatory to fill in, of the standard eForms-DE can be fulfilled.
+
+     
+ </details>
+
+ </summary>
+ 
+<br>
 
 ### Identification number (organization) (BT-501)
 <details>
@@ -956,7 +1024,7 @@ Is there a code list of country codes where it is not possible to specify the NU
 </summary>
 <br>
 
-Country specific NUTS code lists are available in the TED SDK (https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/country.gc )
+Country specific NUTS code lists are available in the TED SDK (https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/country.gc ).
   </details>
 <br>
 
@@ -1015,7 +1083,7 @@ Information from TED as of 09/27/2013.
 According to the EU (see https://simap.ted.europa.eu/de_DE/web/simap/statistical-production-files - Statistics 2023 by format and transmission channel), many contracting authorities still used the EU portal eNotices to create and publish the notice. eNotices2, the new portal with integrated eForms, knows and does not take into account national tailoring. Would contracting authorities be allowed to continue using eNotices2 even though national tailoring is not considered there?
 </summary>
 <br>
-eNotices2 may no longer be used for above-threshold submissions as of 10/25, as the adaptations to the eForms standard would not be taken into account, so direct submission via eNotices2 to TED is no longer legally permissible.
+eNotices2 may no longer be used for above-threshold submissions as of 10/25, as the adjustments to the eForms standard would not be taken into account, making direct submission via eNotices2 to TED no longer legally permissible.
 </details>
 <br>
 
