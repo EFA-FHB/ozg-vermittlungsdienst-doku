@@ -37,7 +37,7 @@ As of 04.10, accounts are to be applied for in the [Self-Service Portal](https:/
 One email address must be specified as the username per registration. Is it possible to specify the same email address for multiple systems?
 </summary>
 <br>
-Generally, we request two emails per account (sometimes referred to as a client): An account email to activate the account and a contact email. An individual email per account is required for activation, to set the password for the account and provide unique authentication with the email and password combination. However, the account email can also be a functional mailbox and is only needed to manage the account. The contact email address will only be used if questions arise during operation regarding an announcement sent from this account. Contact email and account email may be identical if needed and the same contact email (e.g. a central contact person) may be used for multiple accounts. However, you may reuse your account email once each between system environments, for example the same account email address for Preview, Staging and Production. In general, we recommend one account per award platform.
+Generally, we request two emails per account (sometimes referred to as a client): An account email to activate the account and a contact email. An individual email per account is required for activation, to set the password for the account and to enable unique authentication with the email and password combination. However, the account email can also be a functional mailbox and is only needed to manage the account. The contact email address will only be used if questions arise during operation regarding an announcement sent from this account. Contact email and account email may be identical if needed and the same contact email (e.g. a central contact person) may be used for multiple accounts. However, you may reuse your account email once each between system environments, for example the same account email address for Preview, Staging and Production. In general, we recommend one account per award platform.
 </details>
 <br>
 
@@ -46,7 +46,7 @@ Generally, we request two emails per account (sometimes referred to as a client)
 When creating an account, a contact email of a FVH must be specified. What is this used for?
 </summary>
 <br>
-This email is used when we want to proactively reach out to you. This may be the case if, for example, there are anomalies with their account or the notices posted, or we are sending general information to all account owners.
+This email is used when we want to proactively reach out to you. This may be the case if, for example, there are anomalies with their account or the notices posted, or if we are sending general information to all account owners.
 </details>
 <br>
 
@@ -132,7 +132,7 @@ CAN
 Eng: Contract Award Notice
 Deu: Contract Award Notice.
 Subtype 25-40, E4
-CANs are used to create Notices of Results that are published shortly after the contract is signed. They refer to the notice and contain information about the award process, such as the contract award, the winner, etc.
+CANs are used to create Notices of Results that are published shortly after the contract is signed. They refer to the notice and contain information about the award process, such as the contract award, winner, etc.
 
 The naming of the sample documents is about the following:
 
@@ -397,7 +397,7 @@ We process the status, the time of posting and if given the time of publication.
 How are rejected notices in error states such as 'REJECTED' status from TED or an 'INTERNAL ERROR' status from BKMS further processed?
 </summary>
 <br>
-There will be internal monitoring to respond to error conditions (InternalError status) or bugs. Currently, Nortal at the email address support-oeffentlichevergabe@bdr.de is the first point of contact if you have problems with your submissions udn your announcements run into an error status. Generally, such error statuses indicate bugs in the DöE, in TED or in the sent announcement. Whenever errors happen in the system (for example, when TED rejects), they are logged so that a support ticket can be created and a technical analysis performed if needed. An individual decision is then made as to what action is appropriate to correct the error. In the case of technical errors, the announcement can either be resent as a new version after it has been corrected or it can be reprocessed manually internally. However, this depends on the individual case. If TED refuses, it is possible that an error exists in the notice, e.g. the notice-id is already used. In this case, it is stored which error message TED returned when rejecting, so that it can be reacted accordingly.
+There will be internal monitoring to respond to error conditions (InternalError status) or bugs. Currently, Nortal at the email address support-oeffentlichevergabe@bdr.de is the first point of contact if you have problems with your submissions udn your announcements run into an error status. Generally such error states indicate bugs in the DöE, in TED or in the sent announcement. Whenever errors happen in the system (for example, when TED rejects), they are logged so that a support ticket can be created and a technical analysis performed if needed. An individual decision is then made as to what action is appropriate to correct the error. In the case of technical errors, the announcement can either be resent as a new version after it has been corrected or it can be reprocessed manually internally. However, this depends on the individual case. If TED refuses, it is possible that an error exists in the notice, e.g. the notice-id is already used. In this case, it is stored which error message TED returned when rejecting, so that it can be reacted accordingly.
 </details>
 <br>
 
@@ -764,44 +764,56 @@ What exactly has to be done to enable this backward chaining and lead to a corre
 <br>
 The following outline is intended to assist in completing the Notice of Results (CAN) eForms form to the point where the associated awarded contracts can be correctly displayed in the Notice Service (www.oeffentlichevergabe.de).
 These completion instructions are directed to specialist procedure manufacturers for the technical implementation of the following fields in the specialist procedure. If applicable, this can be used to guide users. For this reason, the technical field identifiers as well as their German interface designations (used according to the standard eforms-DE, if available, otherwise those from the SDK-DE) are given:
+<br>
 
 1. description of the results of the tender
-The results for a tender are stored in the XML in the <efac:NoticeResult> section. In the following sections only the subsections are described, which are necessary here to output the expected results in the announcement service.
+    The results for a tender are stored in the XML in the <efac:NoticeResult> section. In the following sections, only the sub-sections are described that are required here to output the expected results in the announcement service.
 
 2. description of the results of a lot
-In the form module "Result of lots" (<efac:LotResult>) is the BT-142 (winner determined, <cbc:TenderResultCode listName="winner-selection-status">). Behind it is a code list with the following values:
-a. A contest winner has not yet been determined, the contest is not yet closed.
-b. No contest winner has been determined, and the contest is closed.
-c. At least one winner has been determined (code: selec-w).
+   
+    In the form module "Result of lots" (<efac:LotResult>) is the BT-142 (winner determined, <cbc:TenderResultCode listName="winner-selection-status">). Behind it is a code list with the following values:
 
-Only in case "c" has been selected, a result can be communicated for this lot and at least the winning bid for this lot shall be indicated. In the event that multiple bids have been awarded, all winning bids shall be listed below. In the section "Result of Lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedure result lot identifier) and the bid (<efac:LotTender>, OPT-320-LotResult) is established.
+       a. A contest winner has not yet been determined, the contest is not yet closed.
 
-3 Description of the offer
-The description of the offers is done in the form module "Offers" (<efac:LotTender>).
-Here it is important to set a form internal reference number to the offer, as this should already be used e.g. in the previous section - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Again, the LOS to which the tender refers should then be referenced once more (in the Tender Lot Identifier field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference should now be included at this point to the section
-<efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference points to the form module "Bidder", which is described below.
+       b. No contest winner has been determined and the contest is closed.
 
+       c. At least one winner has been determined (code: selec-w).
 
-4 Description of the bidder(s) for an offer
-In the form module "Bidder" <efac:TenderingParty> the details of the bidder(s) of an offer(s) are to be stored. The main purpose here is to indicate whether the bid was submitted by an individual bidder or by a bidding consortium or by a bidder who will employ subcontractors. Therefore, only references to the bidding organizations are required here. If it is a bidder in this bid, then the reference to the bidder organization must be specified in the <efac:Tenderer> OPT-300-Tenderer (ID - Bidder ) field.
-For each bidder specified, additionally complete the efac:Tenderer/efbc:GroupLeadIndicator OPT-170-Tenderer (Head of Bidder) field. At least one of the specified bidder organizations must qualify as a "bidder's lead". Bidder parties that have joined together in subcontracts may also be indicated here (however, the appropriate description of these fields is omitted here).
+    Only in the event that "c" has been selected, a result can be reported for that lot and at least the winning bid for that lot must be reported. In the event that multiple bids have been awarded, all winning bids shall be listed below. In the section "Result of Lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedure result lot identifier) and the bid (<efac:LotTender>, OPT-320-LotResult) is established.
+
+3. description of the tender
+   
+    The description of the offers is done in the form module "Offers" (<efac:LotTender>).
+    Here it is important to set a form internal reference number to the offer, as this should already be used e.g. in the previous section - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Again, the LOS to which the tender refers should then be referenced once more (in the Tender Lot Identifier field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference should now be included at this point to the section
+    <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference points to the form module "Bidder", which is described below.
+
+4. description of the bidder(s) for a tender
+
+    In the form module "Bidder" <efac:TenderingParty> the details of the bidder(s) of an offer(s) are to be stored. The main purpose here is to indicate whether the bid was submitted by an individual bidder or by a bidding consortium or by a bidder who will employ subcontractors. Therefore, only references to the bidding organizations are required here. If it is a bidder in this bid, then the reference to the bidder organization must be specified in the <efac:Tenderer> OPT-300-Tenderer (ID - Bidder ) field.
+    For each bidder specified, additionally complete the efac:Tenderer/efbc:GroupLeadIndicator OPT-170-Tenderer (Head of Bidder) field. At least one of the specified bidder organizations must qualify as a "bidder's lead". Bidder parties that have joined together in subcontracts may also be indicated here (however, the appropriate description of these fields is omitted here).
 
 5. description of the contract
-After the above requirements 2-5 have been fulfilled, the interrelationships can be mapped that represent the technically interesting part in the announcement service, namely the contracts that have been concluded for a lot. This is done in the form module "Orders" ("Contracts") <efac:SettledContract>.
-The following information should be provided in this section:
-BT-721-Contract - name of the contract
-BT-145-Contract - date of the contract conclusion
-BT-1451-Contract - date of decision on the winner
-BT-768-Contract - contract as part of a framework agreement.
+      
+    After the above requirements 2-5 have been fulfilled, the interrelationships can be mapped that represent the technically interesting part in the announcement service, namely the contracts that have been concluded for a lot. This is done in the form module "Orders" ("Contracts") <efac:SettledContract>.
+    The following information should be provided in this section:
+  
+      BT-721-Contract - name of the contract
+
+      BT-145-Contract - date of the contract conclusion
+
+      BT-1451-Contract - date of the decision on the winner
+
+      BT-768-Contract - order as part of a framework agreement.
+
 
 To be able to determine the winner, the field named below is the most important:
-BT-3202-Contract - Contract bid identifier, because this field is used to determine the underlying bid as part of a backward chaining process, and this is used to determine the bidder, or head of a bidding consortium, who signed the contract on behalf of the bidders.
+
+BT-3202-Contract - Order Bid Identifier, because this field is used to determine the underlying bid as part of a backward chaining process, and this is used to determine the bidder, or head of a bidding consortium, who signed the contract on behalf of the bidders.
 
 In order to also be able to map which organization on the client side signed the contract, the following field shall also contain ID - Contract Signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the contract signing organization on the client side.
 
 Building these references according to the described pattern in this way also serves another purpose: only if all references exist cleanly, the requirements according to BT-165 (Company size) is mandatory to fill in and the BT-706 (Nationality of the beneficial owner of the winner) is mandatory to fill in, of the standard eForms-DE can be fulfilled.
 
-     
  </details>
 
  </summary>
@@ -875,7 +887,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 
 <details>
 <summary>
-What is the benefit of BT-634 lot in the CN if at the time the notice is written it cannot yet be assessed if the procedure/lot needs to be re-tendered.
+What is the benefit of BT-634 lot in the CN if at the time the notice is written it is not yet possible to assess whether the procedure/lot needs to be re-tendered.
 </summary>
 <br>
 
