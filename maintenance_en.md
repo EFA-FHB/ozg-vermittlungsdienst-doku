@@ -50,10 +50,10 @@ On 27/09/2023, the API key for submission to TED was adjusted. Because of this, 
 
 ## Past maintenance windows or disruptions
 
-| environment | system | date | time | comment |
+| Environment | System | Date | Time | Comment |
 |-------------|---------------------|------------|-------------------|---------------------|
-|Production | BKMS | 27.10 | 27.10. 13:10 - 14:35 CEST | Online search function was not available |
-| DöE Production + Staging | all services except BKMS | 10/25/2023 | 15:31 - 16:03 CEST | Data center unavailable |
+|BKMS Production | BKMS | 27.10 | 27.10. 13:10 - 14:35 CEST | Online search function was not available |
+| DÖE Production + Staging | all services except BKMS | 10/25/2023 | 15:31 - 16:03 CEST | Data center unavailable |
 | DöE Production + Staging | all services except BKMS |23.10.2023 - 24.10.2023 | 17:00 - 09:00 CEST | Unavailable due to infrastructure problems |
 | DöE Production + Staging | all Services except BKMS | 20.10.2023 | 10:00 - 13:00 CEST | Deployment for performance improvements |
 | DöE Production + Staging | all services except BKMS | 10.10.2023 | 09:00 - 12:00 CEST | Data Center Maintenance |
