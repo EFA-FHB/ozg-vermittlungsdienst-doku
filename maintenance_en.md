@@ -40,12 +40,12 @@ If you are affected by this (notice fails due to rule **BR-BT-00262-0211**), ple
 
 | system | present since | expected fix | bug |
 |--------------|--------------------------|-----------------------------|---------------------|
-| - | - | - | - | - |
+| BKMS | 27.10. since 13:10 h | 27.10. | Online search function not available |
 
 
 ## Notes
 
-On 27/09/2023, the API key for submission to TED was adjusted. Because of this, status information for announcements submitted to staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
+On 09/27/2023, the API key for posting to TED was adjusted. Because of this, status information for announcements submitted to staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
 
 
 ## Past maintenance windows or disruptions
