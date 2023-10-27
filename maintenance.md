@@ -40,7 +40,7 @@ Sollten Sie hiervon betroffen sein (Bekanntmachung schlägt fehl wegen Regel **B
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
-| - | - | - | - | - | 
+| BKMS | 27.10. seit 13:10 Uhr | 27.10.  | Online-Suchfunktion nicht verfügbar |
 
 
 ## Hinweise
