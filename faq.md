@@ -865,7 +865,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 | Bayern|Regierung von Oberbayern Vergabekammer Südbayern                                                                                                              |t:08921762411     |
 | Berlin| Vergabekammer des Landes Berlin                                                                                                                        | 0204:11-1300000V00-74     |
 | Brandenburg| Vergabekammer des Landes Brandenburg beim Ministerium für Wirtschaft und Energie                                                                  | t:03318661719     |
-| Bremen |Vergabekammer Bremen Der Senator für Umwelt, Bau und Verkehr                                                                                           | t:042136159796    |
+| Bremen |Vergabekammer Bremen Senatorin für Bau, Mobilität und Stadtentwicklung                                                                                  | t:042136159796    |
 | Hamburg| Vergabekammer bei der Finanzbehörde                                                                                                                   | t:040428231690    |
 | Hamburg|Vergabekammer bei der Behörde für Stadtentwicklung und Wohnen                                                                                                 |t:040428403230    |
 | Hessen| Vergabekammer des Landes Hessen bei dem Regierungspräsidium Darmstadt                                                                                  | t:06151126603      |
