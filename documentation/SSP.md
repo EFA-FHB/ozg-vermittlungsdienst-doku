@@ -35,7 +35,7 @@ Um ein Konto in SSP anzulegen, klicken Sie bitte oben rechts auf das Benutzer-Ic
 Nachdem ein Admin-Konto in SSP angelegt wurde (siehe oben) und der Nutzer eingeloggt ist, kann er das Formular für die Beantragung eines technischen VD-Accounts ausfüllen. Die Möglichkeit dazu finden Sie im Menü oben links unter "Registrierung". Das Formular wird an den Support zur Prüfung und gegebenenfalls zur Genehmigung gesendet. Nach erfolgreicher Genehmigung wird eine Email an die eingegebene Email-Adresse mit den Kontodetails geschickt.
 
 ### Gesendete Bekanntmachungen (Notice Tabelle) ansehen
-Nachdem Sie ein bestätigtes VD-Account für den Versand von Bekanntmachungen an das DöE haben, können Sie mit den Zugangsdaten* im Portal anmelden. Wenn Sie dann im Menü oben Links auf "Bekanntmachungen" klicken, haben Sie Zugriff auf eine Tabelle mit allen von diesem Konto gesendeten Bekanntmachungen sowie deren aktuellen Status. Bitte beachten Sie, dass die Übersicht erst ab dem DÖE Go-Live in KW 43 verfügbar sein wird. Bis dahin können Sie diese Funktion jedoch bereits in den Preview- und Staging-Umgebungen testen.
+Nachdem Sie ein bestätigtes VD-Account für den Versand von Bekanntmachungen an das DöE haben, können Sie mit den Zugangsdaten* im Portal anmelden. Wenn Sie dann im Menü oben Links auf "Bekanntmachungen" klicken, haben Sie Zugriff auf eine Tabelle mit allen von diesem Konto gesendeten Bekanntmachungen sowie deren aktuellen Status.
 
 **Bitte beachten Sie: Dies sind die technischen Daten und die Anmeldung zur SSP damit dient als Übergangslösung und ist nicht langfristig geplant. Zu einem späteren Zeitpunkt werden separate Zugangsdaten für die Übersichtstabelle verwendet, und diese technischen Daten sollten ausschließlich für den Versand von Bekanntmachungen verwendet werden.*
 
@@ -44,6 +44,6 @@ In Zukunft werden diese Nutzerprozesse anders gestaltet sein. Die Account-Strukt
 
 Zunächst muss der SSP-Admin-Nutzer verifiziert sein. Der Nutzer füllt ein Formular aus, in dem er nachweist, dass er für den Fachverfahrenshersteller verantwortlich ist. Diese Überprüfung erfolgt noch manuell durch den Support.
 
-Nach erfolgreicher Verifizierung kann der SSP-Admin-Nutzer VD- und Dashboard-Accounts ohne weitere Prüfung erstellen und sein eigenes Account-Struktur dazu anpassen.
+Nach erfolgreicher Verifizierung kann der SSP-Admin-Nutzer VD-Accounts ohne weitere Prüfung erstellen und sein eigenes Account-Struktur dazu anpassen.
 
-Zusätzlich wird es separate Dashboard-Nutzer geben, unabhängig von den technischen VD-Accounts. Diese Nutzer werden vom SSP-Admin mit einem technischen VD-Account verknüpft sein und erhalten dadurch Zugriff auf eine Übersicht der Bekanntmachungen aus ihrem zugeordneten VD-Account im Portal.
+Zusätzlich wird es separate Dashboard-Nutzer geben, unabhängig von den technischen VD-Accounts. Diese Nutzer werden vom SSP-Admin erstellt und mit einem technischen VD-Account verknüpft sein und erhalten dadurch Zugriff auf eine Übersicht der Bekanntmachungen aus ihrem zugeordneten VD-Account im Portal.
