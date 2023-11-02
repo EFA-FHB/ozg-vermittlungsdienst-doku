@@ -11,9 +11,9 @@ Die CPV-Codes werden wie folgt interpretiert:
     - Lieferleistungen: Haupt-CPV-Code aus den Abteilungen 0 bis 44 oder 48
     - Dienstleistungen: Haupt-CPV-Code aus den Abteilungen 49 bis 98
     - Bauarbeiten: Haupt-CPV-Code aus der Abteilung 45
-    
-Sollten Sie hiervon betroffen sein (Bekanntmachung schlägt fehl wegen Regel **BR-BT-00262-0211**), melden Sie sich bitte umgehend bei unserem Support support-oeffentlichevergabe@bdr.de für spezifische Hilfestellungen
+    - Sollten Sie hiervon betroffen sein (Bekanntmachung schlägt fehl wegen Regel **BR-BT-00262-0211**), melden Sie sich bitte umgehend bei unserem Support support-oeffentlichevergabe@bdr.de für spezifische Hilfestellungen
 - Für die Befüllung der **BT-501 Identifikationsnummer (der Organisation)** beachten Sie bitte die Hinweise u. A. zur Leitweg-ID in unserer FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
+- Sollte ihr System nach dem NICHT finalen doe_status INTERNAL_ERROR (egal mit welchem ted_status kombiniert) den Bekanntmachungsstatus nicht mehr automatisch aktualisieren, können Sie den aktuellen Status auch über die Notices Tabelle im Self-Service Portal (portal.ozg-vermittlungsdienst.de) mit den Login Daten ihres Systems beim Vermittlungsdienst prüfen. Bekanntmachungen werden nicht im INTERNAL_ERROR Status verbleiben. Bitte eröffnen sie hierzu bitte keine Tickets bei der BDR, sondern wenden Sie sich an Ihren Fachverfahrenshersteller. Lediglich der doe_status REJECTED is final, in diesem Fall müssen sie die Bekanntmachung mit einer neuen Notice-ID oder Version einliefern. 
 
 
 ## Hinweise für Fachverfahrenshersteller
