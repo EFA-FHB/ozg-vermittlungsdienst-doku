@@ -90,10 +90,13 @@ jobs:
           files_yaml: |
             doc:
               - '**/*.md'
+              - '!**/*_en.md'
 
       - name: Run step if doc file(s) change
         if: steps.changed-files-md-yaml.outputs.doc_any_changed == 'true'
+        shell: bash
         run: |
+          set -x
           echo "One or more doc file(s) has changed."
           for file in ${{ steps.changed-files-md-yaml.outputs.doc_all_changed_files }}; do
             echo "$file changed"
@@ -101,7 +104,14 @@ jobs:
             filename=$(basename -- "$file")
             extension="${filename##*.}"
             filename="${filename%.*}"
-            ./file-translate/file-translator -i $file -o ${filedir}/${filename}_en.md --api-key ${{ secrets.DEEPL_API_KEY }}
+            tmp=$(mktemp)
+            ./file-translate/file-translator -i $file -o $tmp --api-key ${{ secrets.DEEPL_API_KEY }}
+
+            if [[ $(cat $tmp | wc -l) -gt 0 ]]; then
+              mv $tmp ${filedir}/${filename}_en.md
+            else
+              echo "received empty file from file-translator for $filename"
+            fi
           done
           
       - name: Cleanup translate tool
@@ -119,4 +129,5 @@ jobs:
           # See the `pathspec`-documentation for git
           # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
           # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-          file_pattern: '**/*.md'
+          file_pattern: '*.md'
+          disable_globbing: true

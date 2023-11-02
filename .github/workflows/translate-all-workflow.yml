@@ -75,20 +75,33 @@ jobs:
         run: chmod +x file-translate/file-translator
 
       - name: Translate all md files
+        shell: bash
         run: |
+          set -x
           IFS=$'\n'
-          files=$(find . -name "*.md" -not -name "*_en.md") 
+          files=$(find . -name "*.md" -not -name "*_en.md" -exec realpath {} \;)
           for file in ${files}; do
             echo "$file translating"
             filedir=$(dirname "$file")
             filename=$(basename -- "$file")
             extension="${filename##*.}"
             filename="${filename%.*}"
-            ./file-translate/file-translator -i $file -o ${filedir}/${filename}_en.md --api-key ${{ secrets.DEEPL_API_KEY }}
+            tmp=$(mktemp)
+            ./file-translate/file-translator -i $file -o $tmp --api-key ${{ secrets.DEEPL_API_KEY }}
+
+            if [[ $(cat $tmp | wc -l) -gt 0 ]]; then
+              mv $tmp ${filedir}/${filename}_en.md
+            else
+              echo "received empty file from file-translator for $filename"
+            fi
+
           done
 
       - name: Cleanup translate tool
         run: rm -rf ./file-translate
+
+      - name: check files
+        run: ls -la . | grep _en
 
       - name: Auto-Commit translated files 
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -102,4 +115,5 @@ jobs:
           # See the `pathspec`-documentation for git
           # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
           # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-          file_pattern: '**/*.md'
+          file_pattern: '*.md'
+          disable_globbing: true

@@ -1,12 +1,9 @@
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
+### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Häufig gestellte Fragen
-[Übersicht](/Readme.md)
-<br>
 
 - [Datenservice Öffentlicher Einkauf](#datenservice-öffentlicher-einkauf)
 - [Standard eForms-DE und SDK-DE](#standard-eForms-DE-und-SDK-DE)
 - [Allgemein](#allgemein)
-<br>
 
 ## Datenservice Öffentlicher Einkauf
 
@@ -14,15 +11,15 @@
 
 <details>
 <summary>
-Welche Informationen wird benötigt um einen Account zu beantragen? (aktualisiert am 11.10.23)
+Welche Informationen werden benötigt um einen Account zu beantragen? (aktualisiert am 11.10.23)
 </summary>
 <br>
 
-Seit dem 04.10 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt sein. Alle benötigte Informationen werden im Registrierungsformular angezeigt.
+Seit dem 04.10 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt werden. Alle benötigte Informationen werden im Registrierungsformular für einen VD Account abgefragt. Diese sind:
 
 <br>
 
-- Systemumgebung für die Zugangsdaten beantragt werden (Preview, Staging, Produktion). Die Registrierung im Portal erfolgt für die entsprechende Umgebung, d. h. wenn ein Konto für die Staging-Umgebung erforderlich ist, sollte dieses im Staging-Portal beantragt werden.
+- Systemumgebung, für die Zugangsdaten beantragt werden (Preview, Staging, Produktion). Die Registrierung im Portal erfolgt für die entsprechende Umgebung, d. h. wenn ein Konto für die Staging-Umgebung erforderlich ist, sollte dieses im Staging-Portal beantragt werden.
 
 -  E-Mail-Adresse, welche als Benutzername verwendet werden soll (diese muss pro Umgebung eindeutig sein, keine Dopplungen erlaubt)
   
@@ -251,7 +248,7 @@ Bis eForms-DE verpflichtend wird, kann noch im alten Format direkt bei TED einge
 Wird es am 25. Oktober eine Einführung von eForms sowohl für Ober- (EU) als auch Unterschwellenwerte (National) geben oder nur für die EU-Ebene?
 </summary>
 <br>
-Die beiden Standards eForms-EU und eForms-DE sind bereits eingeführt und können genutzt werden. Ab dem 25. Oktober müssen sowohl nationale als auch EU-weite Mitteilungen im Format eForms-DE an die Schlichtungsstelle übermittelt werden. Welche Formate derzeit unterstützt und verarbeitet werden, erfahren Sie in unserer Vorschau unter https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/development/documentation/eForms_support.md.
+Die beiden Standards eForms-EU und eForms-DE sind bereits eingeführt und können genutzt werden. Ab dem 25. Oktober müssen EU-weite Mitteilungen im Format eForms-DE verpflichtend über die Schnittstelle übermittelt werden. Wenn die Schnittstelle auch für nationale Bekanntmachungen genutzt werden soll, muss dies ebenfalls über das eForms Format geschehen, damit der Datenservice diese verarbeiten kann. Welche Formate derzeit unterstützt und verarbeitet werden, erfahren Sie in unserer Vorschau unter https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/development/documentation/eForms_support.md.
 </details>
 <br>
 
@@ -740,13 +737,93 @@ Für welchen Fall wird BT-125-Lot und BT-1251-Lot genutzt?
 Eine Vergabestelle hat eine Vorinformation veröffentlicht, in der sie ankündigt, dass zeitnah eine Ausschreibung zu Gegenstand X stattfinden soll. Diese Vorinformation erhält nun eine Bekanntmachungsnummer. Einige Zeit später schreibt die Vergabestelle den Gegenstand X in einer Auftragsbekanntmachung (CN) aus. Im BT-125(i) wird nun die Bekanntmachungsnummer der Vorinformation eingetragen, um auf die Vorinformation, welche bereits vor einiger Zeit veröffentlicht wurde, zu verweisen.
 BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert wurde. Dies geschieht in der Vorinformation in Parts. Also BT-1251 ist die Angabe in welchem Part der Vorinformation informiert wurde.
 </details>
+</summary>
 <br>
 
+
+### Anzeige des Gewinners in einer Vergabebekanntmachung  (ergänzt 27.10.23)
+(BT-142, BT-13713, , OPT-320, BT-13714, , OPT-310, OPT-300, BT-721, BT-145, BT-1451, BT-768, BT-3202)
+ <details> 
+<summary>Kurzfassung
+ </summary>
+ 
+<br>
+
+Zu beachten ist, dass in eForms Auftragnehmer und Auftraggeber zu bezuschlagten Angeboten (Verträge) an unterschiedlichen Stellen in der eForms-Struktur hinterlegt sind.
+
+Auftraggeber ist in der Struktur Vertrag hinterlegt.
+Einem Vertrag ist ein Angebot zugeordnet, dem Angebot sind Bieter zugeordnet. Diese Bieter stellen die Auftragnehmer des Vertrags dar.
+
+Was genau zu tun ist, damit diese Rückwärtsverkettung ermöglicht wird und zu einer korrekten Anzeige im Bekanntmachungsservice führt, beschreibt die folgende Langfassung .
+</details>
+<br>
+ <details>
+   <summary>Langfassung
+      </summary>
+ 
+<br>
+Die nachfolgende Darstellung soll helfen, das eForms-Formular zur Ergebnisbekanntmachung (CAN) so weit auszufüllen, dass im Bekanntmachungsservice (www.oeffentlichevergabe.de) die zugehörigen vergebenen Verträge korrekt angezeigt werden können. 
+Diese Ausfüllanleitung richtet sich Fachverfahrenshersteller zur technischen Umsetzung die nachfolgenden Felder im Fachverfahren. Ggf. kann dies zur Anleitung für Anwender genutzt werden. Aus diesem Grund werden die technischen Feldbezeichner sowie ihre deutsche Oberflächenbezeichnungen (gemäß Standard eforms—DE genutzt, sofern vorhanden, ansonsten die aus dem SDK-DE) angegeben:
+<br>
+
+1.	Beschreibung der Ergebnisse der Ausschreibung   
+    Die Ergebnisse zu einer Aussschreibung werden im XML im Abschnitt <efac:NoticeResult> abgelegt. In den nachfolgenden Abschnitten werden nur noch die Unter-Abschnitte beschrieben, die hier erforderlich sind, um die erwarteten Ergebnisse im Bekanntmachungsservice auszugeben.
+
+2.	Beschreibung der Ergebnisse eines Loses
+   
+    Im Formularbaustein „Ergebnis der Lose“ (<efac:LotResult>) befindet sich das BT-142 (Gewinner ermittelt, <cbc:TenderResultCode listName="winner-selection-status">). Dahinter befindet sich eine Codeliste mit den folgenden Werten:
+
+       a.	Ein Wettbewerbsgewinner wurde noch nicht ermittelt, der Wettbewerb ist noch nicht abgeschlossen.
+
+       b.	Es wurde kein Wettbewerbsgewinner ermittelt, und der Wettbewerb ist abgeschlossen. 
+
+       c.	Es wurde mindestens ein Gewinner ermittelt (Code: selec-w).
+
+    Nur für den Fall, dass „c“ ausgewählt wurde, kann für dieses Los ein Ergebnis mitgeteilt werden und es ist mindestens das Gewinner-Angebot zu diesem Los anzugeben. Sollte für mehrere Angebote ein Zuschlag erteilt worden sind, sind nachfolgend alle Gewinner-Angebote aufgeführt werden. Im Abschnitt „Ergebnis der Lose“       (<efac:LotResult>)   wird die Beziehung zwischen dem Los <efac:TenderLot> , BT-13713-LotResult, (Verfahrensergebnis Loskennung)  und dem Angebot (<efac:LotTender>, OPT-320-LotResult) hergestellt.
+
+3.	Beschreibung des Angebotes
+   
+    Die Beschreibung der Angebote erfolgt im Formularbaustein  „Angebote“ (<efac:LotTender>)
+    Hier ist wichtig, eine Formularinterne Referenznummer auf das Angebot zu setzen, da dieses z.B. im vorherigen Abschnitt bereits verwendet werden sollte – in der Referenz auf das Angebot (s. <efac:LotTender>, OPT-320-LotResult im Abschnitt 2). Auch hier ist anschließend noch einmal das LOS zu referenzieren, auf das sich das Angebot       bezieht (im Feld Angebot Loskennung): <efac:TenderLot>, BT-13714-Tender>. Zusätzlich ist nun an dieser Stelle eine weiterere Referenz einzubauen auf den Abschnitt 
+    <efac:TenderingParty> im Feld OPT-310-Tender (Kennung – Bieter). Diese Referenz verweist auf den Formluarbaustein „Bieter“, welcher nachfolgend beschrieben wird.
+
+4.	Beschreibung des/der Bieter(s) zu einem Angebot
+
+    Im Formularbaustein „Bieter“ <efac:TenderingParty > sind die Angaben zu den Bietern eines / der Angebote(s) zu hinterlegen,. Hier geht es überwiegend darum, anzuzeigen, ob das Angebot durch einen Einzelnen Bieter oder durch eine Bietergemeinschaft oder durch einen Bieter, der Unterauftragnehmer beschäftigen wird, gelegt wurde. Hier      werden deshalb ausschließlich Referenzen auf die Bieterorganisationen benötigt. Handelt es sich um einen Bieter in diesem Angebot, dann ist die Referenz auf die Bieterorganisation im Feld <efac:Tenderer> OPT-300-Tenderer (ID – Bieter ) anzugeben. 
+    Für jeden angegebenen Bieter zusätzlich das Feld efac:Tenderer/efbc:GroupLeadIndicator OPT-170-Tenderer (Leiter des Bieters) auszufüllen. Mindestens eine der angegebenen Bieterorganisationen muss als „Leiter des Angebotes“ qualifiziert sein. Bieterparteien, die sich in Unteraufträgen zusammengschlossen haben, können hier ebenfalls       angegeben werden (auf die entsprechende Beschreibung dieser Felder sei an dieser Stelle jedoch verzichtet).
+
+5.	Beschreibung des Vertrages
+      
+    Nachdem die oben genannten Anforderungen 2-5 erfüllt sind, können die Zusammenhänge abgebildet werden, die den fachlich interessanten Teil im Bekanntmachungsservice darstellen, nämlich die Verträge, die zu einem Los abgeschlossen wurden. Dies erfolgt im Formularbaustein „Aufträge“ („Verträge“) <efac:SettledContract>.
+    In diesem Abschnitt sollten folgende Informationen angegeben werden: 
+  
+      BT-721-Contract – Bezeichnung des Vertrags
+
+      BT-145-Contract – Datum des Vertragsschlusses
+
+      BT-1451-Contract – Datum der Entscheidung über den Gewinner
+
+      BT-768-Contract - Auftrag als Teil einer Rahmenvereinbarung.
+
+
+Um den Gewinner ermitteln zu können ist das nachfolgend benannte Feld das wichtigste: 
+
+BT-3202-Contract – Auftrag Angebotskennung, denn über dieses Feld wird im Rahmen einer Rückwärtsverkettung das zugrundeliegende Angebot ermittelt und über dieses der Bieter, bzw. Leiter einer    Bietergemeinschaft, der den Vertrag für die Bieter unterzeichnet hat
+
+Um darüber hinaus auch abbilden zu können, welche Organisation auf Auftraggeberseite den Vertrag unterzeichnet hat, soll auch das Folgende Feld ID – Vertragsunterzeichner <cac:SignatoryParty> (OPT-300-Contract-Signatory) mit einer Referenz auf die vertragsunterzeichnende Organisation der Auftraggeberseite enthalten.
+
+Diese Referenzen nach dem beschriebenen Muster so aufzubauen, erfüllt darüber hinaus einen weiteren Zweck: Nur wenn alle Referenzen sauber existieren, können die Anforderungen nach BT-165 (Unternehmensgröße) ist verpflichtend zu befüllen und das BT-706 (Nationalität des Wirtschaftlichen Eigentümers des Gewinners) ist verpflichtend zu befüllen, des Standard eForms-DE erfüllt werden.
+
+ </details>
+
+ </summary>
+ 
+<br>
 
 ### Identifikationsnummer (Organisation) (BT-501)  
 <details>
 <summary>
-Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 17.10.2023)
+Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 25.10.2023)
 </summary>
 <br>
  Grundsätzlich gilt, dass die Wahl einer eindeutigen Kennung bei der jeweiligen Organisation selbst liegt. Anforderungen an diese Kennung sind:
@@ -756,11 +833,11 @@ Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisie
 
 Für die öffentliche Verwaltung wird die Verwendung der Leitweg-ID empfohlen (da diese bereits bei der elektronischen Rechnung häufig eingesetzt wird). Diese hat folgende Form:
 
-0204: Leitweg-ID
+0204:Leitweg-ID
 
 Beispiel (fiktiv):
 
-0204: 991-1234512345-06
+0204:991-1234512345-06
 
 Die Format-Spezifikation der Leitweg-ID (Version 2.0.2) kann über folgenden Link eingesehen und heruntergeladen werden:
 
@@ -773,7 +850,35 @@ Solange oder soweit diese nicht zur Verfügung steht, ist vorübergehend eine an
 
 Diese ist mit Präfix (t:), Vorwahl, ohne Sonderzeichen und ohne Leerzeichen, wie im fiktiven Beispiel, anzugeben.
 
+**Hinweise für Vergabekammern:**
 
+Für die Vergabekammern empfehlen wir die Kennungen nachstehender Tabelle zu verwenden. Diese sind u. a. folgender Seite entnommen:
+
+https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_L%C3%A4nder/Vergabekammern_artikel.html
+
+
+| Bund/Bundesland | Behörde                                                                                                                                          | Kennung    |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+|Bund|Vergabekammern des Bundes|t:022894990|
+| Baden-Württemberg |Vergabekammer Baden-Württemberg                                                                                                             | t:07219268730     |
+| Bayern |Vergabekammer Nordbayern bei der Regierung von Mittelfranken                                                                                           | t:0981531277      |
+| Bayern|Regierung von Oberbayern Vergabekammer Südbayern                                                                                                              |t:08921762411     |
+| Berlin| Vergabekammer des Landes Berlin                                                                                                                        | 0204:11-1300000V00-74     |
+| Brandenburg| Vergabekammer des Landes Brandenburg beim Ministerium für Wirtschaft und Energie                                                                  | t:03318661719     |
+| Bremen |Vergabekammer Bremen Senatorin für Bau, Mobilität und Stadtentwicklung                                                                                  | t:042136159796    |
+| Hamburg| Vergabekammer bei der Finanzbehörde                                                                                                                   | t:040428231690    |
+| Hamburg|Vergabekammer bei der Behörde für Stadtentwicklung und Wohnen                                                                                                 |t:040428403230    |
+| Hessen| Vergabekammer des Landes Hessen bei dem Regierungspräsidium Darmstadt                                                                                  | t:06151126603      |
+| Mecklenburg-Vorpommern| Vergabekammern beim Ministerium für Wirtschaft, Arbeit und Gesundheit                                                                  | t:03855885160     |
+| Niedersachsen| Vergabekammer Niedersachsen beim Niedersächsischen Ministerium für Wirtschaft, Arbeit und Digitalisierung                                       | t:04131153308     |
+| Nordrhein-Westfalen|  Vergabekammer Rheinland über Bezirksregierung Köln                                                                                       | t:02211473055     |
+| Nordrhein-Westfalen|Vergabekammer Westfalen                                                                                                                       |t:02514111691   |
+| Rheinland-Pfalz| Vergabekammer Rheinland-Pfalz bei dem Ministerium für Wirtschaft, Verkehr, Landwirtschaft und Weinbau                                         | t:06131162234     |
+| Saarland| Vergabekammern des Saarlandes                                                                                                                        | t:0681501994     |
+| Sachsen| Vergabekammer des Freistaates Sachsen bei der Landesdirektion Sachsen                                                                                 | t:03419773800     |
+| Sachsen-Anhalt| 1. und 2. Vergabekammer des Landes Sachsen-Anhalt                                                                                              | t:03455141529     |
+| Schleswig-Holstein| Vergabekammer Schleswig-Holstein beim Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein | t:04319884640     |
+| Thüringen| Vergabekammer Freistaat Thüringen beim Thüringer Landesverwaltungsamt                                                                               | t:0361573321276 |
 <br>
 </details>
 <br>
@@ -990,7 +1095,7 @@ Informationen von TED per 27.09.23
 Nach Angabe der EU (siehe https://simap.ted.europa.eu/de_DE/web/simap/statistical-production-files - Statistik 2023 nach Format und Übermittlungskanal) haben bisher noch viele Auftraggeber das EU-Portal eNotices zur Erstellung und Veröffentlichung der Bekanntmachung genutzt. eNotices2, das neue Portal mit den integrierten eForms, kennt und berücksichtigt nicht das nationale Tailoring. Dürften Vergabestellen weiterhin eNotices2 verwenden, obwohl dort das nationale Tailoring nicht berücksichtigt ist?
 </summary>
 <br>
-Die Beantwortung dieser rechtlichen Fragestellung ist angestoßen und wird nach erfolgter Klärung beantwortet.
+eNotices2 darf für oberschwellige Einlieferungen ab dem 25.10. nicht mehr genutzt werden, da die Anpassungen des eForms Standards nicht berücksichtig würden, sodass die direkte Einlieferung über eNotices2 an TED nicht mehr rechtlich zulässig ist. 
 </details>
 <br>
 

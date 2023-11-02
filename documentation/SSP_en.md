@@ -12,9 +12,10 @@ The Self-Service Portal (SSP) provides user-friendly access to all [records](htt
 
 The portal will be an operations and support platform for users. It will help with transition and allow you to get away from emails. In the future it will offer more possibilities to manage users and access by yourself.
 
+
 ## Available services
 ### As of October 2023:
-The portal will offer the following main features:
+The portal offers the following main functions:
 * View documentation.
   * *In the long term, it is planned to transfer the documentation that is currently in Github to the portal. The SSP will then later become central communication channel for the DöE*.
 * Own creation of admin account in SSP for specialist procedure producers (SSP admin accounts).
