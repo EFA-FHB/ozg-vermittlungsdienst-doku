@@ -33,15 +33,69 @@ Die Endpunkte zur Abfrage der Statusinformationen, geben die Statusinformationen
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<delivery>
-	...
-	<tedStatus>PENDING</tedStatus>
-	<tedStatusUpdate>2023-04-26T14:32:52.625Z</tedStatusUpdate>
-	<doeStatus>AWAITING_TRANSFER</doeStatus>
-	<doeStatusUpdate>2023-04-26T14:32:52.625Z</doeStatusUpdate>
-	<statusDescription>string</statusDescription>
-	...
-</delivery>
+<deliveries start="0" max="100" total="1234">
+	<delivery>
+		<noticeId>3fa85f64-5717-4562-b3fc-2c963f66afa6</noticeId>
+		<noticeType>CN</noticeType>
+		<trackingCode>3446e1ee-5917-4d31-b623-81ddfb038d82</trackingCode>
+		<vergabeId>string</vergabeId>
+		<vergabenummer>V0505/2021</vergabenummer>
+		<description>string</description>
+		<tedStatus>PENDING</tedStatus>
+		<tedStatusUpdate>2023-11-03T15:01:38.373Z</tedStatusUpdate>
+		<tedAcceptedTimestamp>2023-11-03T15:01:38.373Z</tedAcceptedTimestamp>
+		<tedPublishedTimestamp>2023-11-03T15:01:38.373Z</tedPublishedTimestamp>
+		<tedPublicationId>string</tedPublicationId>
+		<doeStatus>AWAITING_TRANSFER</doeStatus>
+		<doeStatusUpdate>2023-11-03T15:01:38.373Z</doeStatusUpdate>
+		<statusDescription>string</statusDescription>
+		<transferResponse>
+			<warnings>
+				<warning>
+					<source>TED</source>
+					<description>The value of BT-701-notice must match the &apos;ProcedureOrNoticeID&apos; pattern</description>
+					<path>/can:ContractAwardNotice/cbc:ID</path>
+					<rule>BR-BT-00701-0052</rule>
+					<ruleContent>matches(normalize-space(.),&apos;^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$&apos;)</ruleContent>
+				</warning>
+			</warnings>
+			<errors>
+				<error>
+					<source>TED</source>
+					<description>The value of BT-701-notice must match the &apos;ProcedureOrNoticeID&apos; pattern</description>
+					<path>/can:ContractAwardNotice/cbc:ID</path>
+					<rule>BR-BT-00701-0052</rule>
+					<ruleContent>matches(normalize-space(.),&apos;^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$&apos;)</ruleContent>
+				</error>
+			</errors>
+		</transferResponse>
+		<validation>
+			<validatedEformsVersion>eforms-sdk-1.0.0</validatedEformsVersion>
+			<description>Ergebnisreport der Validierung der Datenlieferung durch den Vermittlungsdienst</description>
+			<warnings>
+				<warning>
+					<rule>rule|text|BR-BT-00506-0052</rule>
+					<ruleContent>matches(normalize-space(.),&apos;^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}$&apos;)</ruleContent>
+					<description>The value of BT-506-Organization-Company must match the &apos;Email&apos; pattern</description>
+					<path>/ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[1]/efac:Company</path>
+					<type>SCHEMATRON</type>
+				</warning>
+			</warnings>
+			<errors>
+				<error>
+					<rule>rule|text|BR-BT-00506-0052</rule>
+					<ruleContent>matches(normalize-space(.),&apos;^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,63}$&apos;)</ruleContent>
+					<description>The value of BT-506-Organization-Company must match the &apos;Email&apos; pattern</description>
+					<path>/ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[1]/efac:Company</path>
+					<type>SCHEMATRON</type>
+				</error>
+			</errors>
+			<schematronValidated>true</schematronValidated>
+		</validation>
+		<created>2023-11-03T15:01:38.373Z</created>
+		<lastUpdated>2023-11-03T15:01:38.373Z</lastUpdated>
+	</delivery>
+</deliveries>
 ```
 
 Die Statusinformationen enthalten sowohl bei unterschwelligen als auch bei oberschwelligen Bekanntmachungen den Status des Datenservice Öffentlicher Einkauf `doeStatus`, das letzte Änderungsdatum des DöE-Status `doeStatusUpdate` sowie eine Beschreibung des aktuell gesetzten Status `statusDescription`.
