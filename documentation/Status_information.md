@@ -98,7 +98,7 @@ Die folgenden Statuskombinationen, können bei der Statusabfrage eine Oberschwel
 Die folgenden Statuskombinationen, können bei der Statusabfrage eine Unterschwellenvergabe übermittelt werden.
 
 | DöE status | finaler Status?| Statusbeschreibung                                             |
-| ---------- | - ---| --------------------------------------------------------------- |
+| ---------- | ----| --------------------------------------------------------------- |
 | ACCEPTED   | nein | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert. |
 | REJECTED   | ja   | Die Bekanntmachung wurde von BKMS abgelehnt.                    |
 | PROCESSING | nein | Die Bekanntmachung wird vom BKMS verarbeitet.                   |
