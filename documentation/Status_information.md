@@ -135,14 +135,13 @@ Die folgenden Statuskombinationen, können bei der Statusabfrage eine Oberschwel
 | PUBLISHED         | PENDING        | nein     |Die Bekanntmachung wurde in TED veröffentlicht, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                           |
 | PUBLISHED         | ACCEPTED       | nein     |Die Bekanntmachung wurde in TED veröffentlicht und vom Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.                                                |
 | PUBLISHED         | PUBLISHED      | ja       |Die Bekanntmachung wurde in TED und im Bekanntmachungsservice veröffentlicht.                                                                                            |
-| MANUALLY_REJECTED | NOT_SEND       | ja       |Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde nicht zum Bekanntmachungsservice gesendet.                              |
+| MANUALLY_REJECTED | NOT_SEND       | ja       |Die Bekanntmachung wurde entweder von TED auf Grund einer rechtlichen Prüfung oder vom Vermittlungsdienst auf Grund eines Fehlers manuell abgelehnt und wird weder von TED noch vom Bekanntmachungsservice veröffentlicht. Dies lässt sich anhand der Fehlermeldung unterscheiden.                             |
 | MANUALLY_REJECTED | PENDING        | nein     |Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.                        |
 | MANUALLY_REJECTED | ACCEPTED       | nein     |Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.                        |
 | MANUALLY_REJECTED | PUBLISHED      | nein     |Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wird in Kürze auch im Bekanntmachungsservice gestoppt.                        |
 | MANUALLY_REJECTED | STOPPED        | ja       |Die Bekanntmachung wurde von TED auf Grund einer rechtlichen Prüfung manuell abgelehnt und wurde auch im Bekanntmachungsservice gestoppt.                                |
-| MANUALLY_REJECTED | REJECTED 	     | ja       | Die Bekanntmachung wurde vom Vermittlungsdienst auf Grund eines Fehlers manuell abgelehnt und wird weder von TED noch vom Bekanntmachungsservice veröffentlicht.
-| REJECTED          | INTERNAL_ERROR | nein     |Ein interner Fehler ist aufgetreten. Das Support-Team wird sich die Bekanntmachung genauer ansehen, der Status ändert sich anschließend.                                                                                |
-| NOT_SEND          | INTERNAL_ERROR | nein     |Ein interner Fehler ist aufgetreten. Das Support-Team wird sich die Bekanntmachung genauer ansehen, der Status ändert sich anschließend.                                                                             |
+| REJECTED          | INTERNAL_ERROR | nein     |Ein interner Fehler ist aufgetreten. Das Support-Team wird sich die Bekanntmachung genauer ansehen, der Status ändert sich anschließend.                                 |
+| NOT_SEND          | INTERNAL_ERROR | nein     |Ein interner Fehler ist aufgetreten. Das Support-Team wird sich die Bekanntmachung genauer ansehen, der Status ändert sich anschließend.                        |
 
 
 <br>
