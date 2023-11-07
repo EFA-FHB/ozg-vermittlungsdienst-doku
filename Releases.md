@@ -1,6 +1,10 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Releases
 
+November 2023
+
+- [Hotfix Release für Notice-Viewer, Validator und Vermittlungsdienst](#Release-für-notice-Viewer-Mediator-und-Validator)
+
 Oktober 2023
 
 - [Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe](#Release-für-Notice-Viewer-PDF-Dokumente-+-synchrone-Aufrufe)
@@ -22,6 +26,32 @@ Juni 2023
 Mai 2023
 
 - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
+
+<a id=Release-für-notice-Viewer-Mediator-und-Validator></a>
+## Hotfix Release für Notice-Viewer, Validator und Vermittlungsdienst
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 08.10.2023        |  |
+| Staging    | 08.10.2023       |  |
+| Produktion | 09.10.2023      |  |
+
+Status: In QA <br>
+<details>
+<summary>Release Notes</summary>
+
+### Notice-Viewer
+- Improvement zur Visualisierung von monetären Werten, Komma als Trennzeichen für tausender Werte entfernt
+- Erhöhung maximale Dateigröße auf 2MB
+  
+### Validator (Webservice + Open-Source)
+- Nutzung von eForms-EU SDK 1.7.2 für eForms-DE 1.1 (https://github.com/OP-TED/eForms-SDK/releases/tag/1.7.2)
+- Erhöhung maximale Dateigröße auf 2MB
+
+### Vermittlungsdienst
+- Erhöhung maximale Dateigröße auf 2MB
+
+
+</details>
 
 <a id=Release-für-Notice-Viewer-PDF-Dokumente-+-synchrone-Aufrufe></a>
 ## Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe
