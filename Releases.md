@@ -20,8 +20,8 @@
 ## Hotfix Release für Notice-Viewer, Validator und Vermittlungsdienst
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 08.11.2023        |  |
-| Staging    | 08.11.2023       |  |
+| Preview    | 08.11.2023        | veröffentlicht |
+| Staging    | 09.11.2023       | veröffentlicht |
 | Produktion | 09.11.2023      |  |
 
 Status: In QA <br>
