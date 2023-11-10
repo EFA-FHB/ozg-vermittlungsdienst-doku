@@ -22,9 +22,9 @@
 |------------|-----------------------------|----------------|
 | Preview    | 08.11.2023        | veröffentlicht |
 | Staging    | 09.11.2023       | veröffentlicht |
-| Produktion | 09.11.2023      |  |
+| Produktion | 09.11.2023      | veröffentlicht |
 
-Status: In QA <br>
+Status: Veröffentlicht am 09.11.2023 <br>
 <details>
 <summary>Release Notes</summary>
 
