@@ -37,7 +37,7 @@ Status: Veröffentlicht am 16.11.2023 <br>
 - eForms SDK 1.5.5 Version wurde implementiert
 
 ### Vermittlungsdienst
-- Die Anzahl der zulässigen Zeichen beim 'authorEmail' Parameter des POST v2/notices Endpunkts wurde erhöht und unterstützt nun von 2 bis 18 Zeichen.
+- Die Anzahl der zulässigen Domain Name Zeichen beim 'authorEmail' Parameter des POST v2/notices Endpunkts wurde erhöht und unterstützt nun von 2 bis 18 Zeichen.
 
 
 </details>
