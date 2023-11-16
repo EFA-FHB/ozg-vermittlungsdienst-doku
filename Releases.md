@@ -34,10 +34,10 @@ Status: Veröffentlicht am 16.11.2023 <br>
 - Sprachproblem (BT-500-Organization-Company): mehrere Sprachen sind jetzt unterstützt
   
 ### Validator (Webservice + Open-Source)
-- SDK 1.5 updates
+- eForms SDK 1.5.5 Version wurde implementiert
 
 ### Vermittlungsdienst
-- Update email regex für Mediator (und eSender): jetzt werden Domain Namen mit mehr als 4 Zeichen unterstützt
+- Die Anzahl der zulässigen Zeichen beim 'authorEmail' Parameter des POST v2/notices Endpunkts wurde erhöht und unterstützt nun von 2 bis 18 Zeichen.
 
 
 </details>
