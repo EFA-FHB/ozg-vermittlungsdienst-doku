@@ -72,32 +72,32 @@ In the future, it will also be possible to transmit notices to the switching ser
 >The user's password is also the password used for submission to the switching service interface! <br>
 > If you change the password, make sure that it is also changed in the software for submission to the mediation service!
 
-1. call account management of the desired environment (to be found under [system environments](/documentation/Development_environments.md) in the column _Account Management (Keycloak)_)
+1. Call account management of the desired environment (to be found under [system environments](/documentation/Development_environments.md) in the column _Account Management (Keycloak)_)
 
-2. click on 'Forgotten password?"<br>
+2. Click on 'Forgotten password?"<br>
 ![On forgot password](images/kc_login.png)
 <br>
 
-3. enter email address and click on 'submit'<br>
+3. Enter email address and click on 'submit'<br>
 ![Enter email](images/kc_passwort_vergessen.png)
 <br>
 
-4. the message 'You should receive an email shortly with further instructions' will be displayed.<br>
+4. The message 'You should receive an email shortly with further instructions' will be displayed.<br>
 ![Message](images/kc_nachricht_bestätigungsemail.png)
 <br>
 
-5. check emails: a link to reset the credentials is received in the email.<br>
+5. Check emails: a link to reset the credentials is received in the email.<br>
 ![Confirmation email](images/e-mail_passwort_zuruecksetzen.png)
 <br>
 
-6. click on 'link to reset credentials'.
+6. Click on 'link to reset credentials'.
 <br>
 
-7. user will be redirected to 'Update password' page.<br>
+7. Cser will be redirected to 'Update password' page.<br>
 ![Update PAssword](images/kc_passwort_aktualisieren.png)
 <br>
 
-8. enter and confirm new password and click on 'Submit'.<br>
+8. Enter and confirm new password and click on 'Submit'.<br>
 Password must be at least 8 characters, contain 1 capital letter and 1 number.
 <br>
 
