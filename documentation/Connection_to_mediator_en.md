@@ -79,7 +79,7 @@ In the future, it will also be possible to transmit notices to the switching ser
 <br>
 
 3. enter email address and click on 'submit'<br>
-![Enter email](images/kc_password_forgotten.png)
+![Enter email](images/e-mail_passwort_zuruecksetzen.png)
 <br>
 
 4. the message 'You should receive an email shortly with further instructions' will be displayed.<br>
