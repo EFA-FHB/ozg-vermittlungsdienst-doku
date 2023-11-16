@@ -30,8 +30,8 @@ Status: Veröffentlicht am 16.11.2023 <br>
 <summary>Release Notes</summary>
 
 ### eSender
-- Verbesserte Integration mit TED wenn TED nicht verfügbar oder Timeout zu lange dauert
-- Sprachproblem (BT-500-Organization-Company): Mehrere Sprachen sind jetzt unterstützt
+- Verbesserte Integration mit TED: wenn TED nicht verfügbar ist oder ein Timeout zu lange dauert
+- Sprachproblem (BT-500-Organization-Company): mehrere Sprachen sind jetzt unterstützt
   
 ### Validator (Webservice + Open-Source)
 - SDK 1.5 updates
