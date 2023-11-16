@@ -74,7 +74,7 @@ In the future, it will also be possible to transmit notices to the switching ser
 
 1. call account management of the desired environment (to be found under [system environments](/documentation/Development_environments.md) in the column _Account Management (Keycloak)_)
 
-2. click on 'Forgotten password?"_<br>
+2. click on 'Forgotten password?"<br>
 ![On forgot password](images/kc_login.png)
 <br>
 
