@@ -79,7 +79,7 @@ In the future, it will also be possible to transmit notices to the switching ser
 <br>
 
 3. enter email address and click on 'submit'<br>
-![Enter email](images/e-mail_passwort_zuruecksetzen.png)
+![Enter email](images/kc_passwort_vergessen.png)
 <br>
 
 4. the message 'You should receive an email shortly with further instructions' will be displayed.<br>
@@ -87,14 +87,14 @@ In the future, it will also be possible to transmit notices to the switching ser
 <br>
 
 5. check emails: a link to reset the credentials is received in the email.<br>
-![Confirmation email](images/kc_nachricht_bestätigungsemail.png)
+![Confirmation email](images/e-mail_passwort_zuruecksetzen.png)
 <br>
 
 6. click on 'link to reset credentials'.
 <br>
 
 7. user will be redirected to 'Update password' page.<br>
-![Update PAssword](images/e-mail_passwort_zuruecksetzen.png)
+![Update PAssword](images/kc_passwort_aktualisieren.png)
 <br>
 
 8. enter and confirm new password and click on 'Submit'.<br>
