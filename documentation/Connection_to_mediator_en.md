@@ -94,7 +94,7 @@ In the future, it will also be possible to transmit notices to the switching ser
 <br>
 
 7. user will be redirected to 'Update password' page.<br>
-![Update PAssword](images/kc_nachricht_bestätigungsemail.png)
+![Update PAssword](images/e-mail_passwort_zuruecksetzen.png)
 <br>
 
 8. enter and confirm new password and click on 'Submit'.<br>
