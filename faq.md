@@ -11,9 +11,10 @@
 
 <details>
 <summary>
-Welche Informationen werden benötigt um einen Account zu beantragen? (aktualisiert am 11.10.23)
+Welche Informationen werden benötigt, um einen Account zu beantragen? (aktualisiert am 11.10.23)
 </summary>
 <br>
+
 
 Seit dem 04.10 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt werden. Alle benötigte Informationen werden im Registrierungsformular für einen VD Account abgefragt. Diese sind:
 
@@ -43,16 +44,17 @@ Generell erfragen wir zwei Emails pro Account (teils auch als Mandant bezeichnet
 
 <details>
 <summary>
-Bei der Accounterstellung muss eine Kontaktemail eines FVH angegeben werden. Wozu wird diese verwendet?
+Bei der Accounterstellung muss eine Kontakt-E-Mmail-Adresse eines FVH angegeben werden. Wozu wird diese verwendet?
 </summary>
 <br>
 Diese Email wird verwendet, wenn wir proaktiv auf Sie zugehen wollen. Dies kann der Fall sein, wenn es beispielsweise Auffälligkeiten mit ihrem Account oder den eingelieferten Bekanntmachungen gibt oder wir generelle Informationen an alle Accountverantwortlichen versenden. 
 </details>
+
 <br>
 
 <details>
 <summary>
-Können mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts empfehlen sich jeweils für Preview und Staging?
+Können mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts empfehlen sich jeweils für die Preview- und Staging-Umgebung?
 </summary>
 <br>
 Die URL der Vergabeplattform dient rein der Zuordnung dr Accounts/ Mandanten, diese hat nichts mit der Verlinkung auf die Vergabeunterlagen zu tun. 
@@ -63,11 +65,12 @@ Manche Vergabeplattformen nutzen z.B. Dropbox oder google drive oder Ähnliches 
 
 <details>
 <summary>
-Worin besteht der Unterschied zwischen der bei der Accounterstellung angefragten URL der Vergabeplattform und der Verlinkung zu den Vergabeunterlagen im eForms Dokument?
+Worin besteht der Unterschied zwischen der bei der Accounterstellung angefragten URL der Vergabeplattform und der Verlinkung zu den Vergabeunterlagen im eForms-Dokument?
 </summary>
 <br>
 Senden Sie uns gern eine Liste von benötigten Accounts an support-oeffentlichevergabe@bdr.de Inklusive aller benötigter Informationen pro Account. Wir empfehlen, auf Staging exakt so viele Accounts zu verwenden, wie sie für Produktion planen, zu nutzen. Zusätzlich sind natürlich beliebig viele Testaccounts auf Preview und Staging möglich.  
 </details>
+
 <br>
 
 <details>
@@ -623,8 +626,27 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 
 [Zum Anfang](#häufig-gestellte-fragen)<br>
 
-**Bitte beachten Sie, dass wir alle Fragen bezüglich des Standards eForms-DE gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit möglich. Bei weiteren Fragen zum Standard eForms-DE wenden Sie sich gerne per E-Mail an die Koordinierungsstelle für IT-Standards (KoSIT) als Betreiberin: eforms@finanzen.bremen.de** 
+**Bitte beachten Sie, dass wir alle Fragen bezüglich des Standards eForms-DE gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit möglich.**
 
+**Bei weiteren Fragen zum <u>Standard eForms-DE</u> wenden Sie sich gerne per E-Mail an die Koordinierungsstelle für IT-Standards (KoSIT) als Betreiberin: eforms@finanzen.bremen.de** 
+
+**Bei weiteren Fragen zum <u>SDK-DE</u> wenden Sie sich gerne per E-Mail an den Support der Bundesdruckerei mit dem expliziten Hinweis, zu welcher Version des SDK-DE Sie Fragen haben, unter [support-oeffentlichevergabe@bdr.de](mailto:support-oeffentlichevergabe@bdr.de)**
+
+## Fragen zum SDK-DE
+
+<details>
+<summary>
+Wo ist die neueste Version des vom Datenservice Öffentlicher Einkauf (DÖE) unterstützten und zum deutschen Standard eForms-DE konformen SDK-DE zu finden? (aktualisiert am 16.11.2023)</summary>
+<br>
+
+
+Das SDK-DE ist auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de zu finden.<br>Die neueste Version zu dem auf [xeinkauf.de](https://xeinkauf.de/eforms-de/) publizierten Standard eForms-DE Version 1.1.0 gehörenden SDK-DE ist **1.1.0_1.7.2**:
+
+https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/SDK-DE_1.1.0_1.7.2<br>
+
+</details>
+
+<br>
 
 ## Fragen zu Business Terms und Groups (BT/BG)
 
@@ -718,7 +740,7 @@ In BT-67 kann eine Erläuterung zu den ausgewiesenen Ausschlussgründen hinterle
 </details>
 <br>
 
-### Frühere Planung (BT-125), 
+### Frühere Planung (BT-125) 
 <details>
 <summary>
 Wie sind die Felder OPP-090-Procedure, BT-125-Lot und BT-1251-Lot technisch (erlaubte Zeichen) und fachlich zu befüllen?
@@ -748,7 +770,7 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
  <details> 
 <summary>Kurzfassung
  </summary>
- 
+
 <br>
 
 Zu beachten ist, dass in eForms Auftragnehmer und Auftraggeber zu bezuschlagten Angeboten (Verträge) an unterschiedlichen Stellen in der eForms-Struktur hinterlegt sind.
@@ -762,7 +784,7 @@ Was genau zu tun ist, damit diese Rückwärtsverkettung ermöglicht wird und zu 
  <details>
    <summary>Langfassung
       </summary>
- 
+
 <br>
 Die nachfolgende Darstellung soll helfen, das eForms-Formular zur Ergebnisbekanntmachung (CAN) so weit auszufüllen, dass im Bekanntmachungsservice (www.oeffentlichevergabe.de) die zugehörigen vergebenen Verträge korrekt angezeigt werden können. 
 Diese Ausfüllanleitung richtet sich Fachverfahrenshersteller zur technischen Umsetzung die nachfolgenden Felder im Fachverfahren. Ggf. kann dies zur Anleitung für Anwender genutzt werden. Aus diesem Grund werden die technischen Feldbezeichner sowie ihre deutsche Oberflächenbezeichnungen (gemäß Standard eforms—DE genutzt, sofern vorhanden, ansonsten die aus dem SDK-DE) angegeben:
@@ -795,7 +817,7 @@ Diese Ausfüllanleitung richtet sich Fachverfahrenshersteller zur technischen Um
     Für jeden angegebenen Bieter zusätzlich das Feld efac:Tenderer/efbc:GroupLeadIndicator OPT-170-Tenderer (Leiter des Bieters) auszufüllen. Mindestens eine der angegebenen Bieterorganisationen muss als „Leiter des Angebotes“ qualifiziert sein. Bieterparteien, die sich in Unteraufträgen zusammengschlossen haben, können hier ebenfalls       angegeben werden (auf die entsprechende Beschreibung dieser Felder sei an dieser Stelle jedoch verzichtet).
 
 5.	Beschreibung des Vertrages
-      
+    
     Nachdem die oben genannten Anforderungen 2-5 erfüllt sind, können die Zusammenhänge abgebildet werden, die den fachlich interessanten Teil im Bekanntmachungsservice darstellen, nämlich die Verträge, die zu einem Los abgeschlossen wurden. Dies erfolgt im Formularbaustein „Aufträge“ („Verträge“) <efac:SettledContract>.
     In diesem Abschnitt sollten folgende Informationen angegeben werden: 
   
@@ -819,7 +841,7 @@ Diese Referenzen nach dem beschriebenen Muster so aufzubauen, erfüllt darüber 
  </details>
 
  </summary>
- 
+
 <br>
 
 ### Identifikationsnummer (Organisation) (BT-501)  
