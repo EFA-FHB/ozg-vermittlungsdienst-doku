@@ -2,6 +2,7 @@
 # Releases
 
 - November 2023
+  - [Hotfix Release für Validator, Vermittlungsdienst und eSender](#Release-für-Validator-Mediator-und-eSender)  
   - [Hotfix Release für Notice-Viewer, Validator und Vermittlungsdienst](#Release-für-notice-Viewer-Mediator-und-Validator)
 - Oktober 2023
   - [Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe](#Release-für-Notice-Viewer-PDF-Dokumente-+-synchrone-Aufrufe)
@@ -15,6 +16,31 @@
   - [Production Release Juni - Vermittlungsdienst & eSender-Hub](#Production-Release-Juni-Vermittlungsdienst-&-eSender-Hub)
 - Mai 2023
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
+
+<a id=Release-für-Validator-Mediator-und-eSender></a>
+## Hotfix Release für Validator, Vermittlungsdienst und eSender
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 13.11.2023        | veröffentlicht |
+| Staging    | 15.11.2023       | veröffentlicht |
+| Produktion | 16.11.2023      | veröffentlicht |
+
+Status: Veröffentlicht am 16.11.2023 <br>
+<details>
+<summary>Release Notes</summary>
+
+### eSender
+- Verbesserte Integration mit TED wenn TED nicht verfügbar oder Timeout zu lange dauert
+- Sprachproblem (BT-500-Organization-Company): Mehrere Sprachen sind jetzt unterstützt
+  
+### Validator (Webservice + Open-Source)
+- SDK 1.5 updates
+
+### Vermittlungsdienst
+- Update email regex für Mediator (und eSender): jetzt werden Domain Namen mit mehr als 4 Zeichen unterstützt
+
+
+</details>
 
 <a id=Release-für-notice-Viewer-Mediator-und-Validator></a>
 ## Hotfix Release für Notice-Viewer, Validator und Vermittlungsdienst
