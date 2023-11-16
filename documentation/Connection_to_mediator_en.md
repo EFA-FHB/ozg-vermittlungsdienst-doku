@@ -83,18 +83,18 @@ In the future, it will also be possible to transmit notices to the switching ser
 <br>
 
 4. the message 'You should receive an email shortly with further instructions' will be displayed.<br>
-![Message](images/kc_message_best%C3%A4tigungsemail.png)
+![Message](images/kc_nachricht_bestätigungsemail.png)
 <br>
 
 5. check emails: a link to reset the credentials is received in the email.<br>
-![Confirmation email](images/e-mail_password_reset.png)
+![Confirmation email](images/kc_nachricht_bestätigungsemail.png)
 <br>
 
 6. click on 'link to reset credentials'.
 <br>
 
 7. user will be redirected to 'Update password' page.<br>
-![Update PAssword](images/kc_password_update.png)
+![Update PAssword](images/kc_nachricht_bestätigungsemail.png)
 <br>
 
 8. enter and confirm new password and click on 'Submit'.<br>
