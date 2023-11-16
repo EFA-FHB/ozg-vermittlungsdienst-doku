@@ -93,7 +93,7 @@ In the future, it will also be possible to transmit notices to the switching ser
 6. Click on 'link to reset credentials'.
 <br>
 
-7. Cser will be redirected to 'Update password' page.<br>
+7. User will be redirected to 'Update password' page.<br>
 ![Update PAssword](images/kc_passwort_aktualisieren.png)
 <br>
 
