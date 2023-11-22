@@ -32,7 +32,7 @@ Status: Veröffentlicht am 21.11.2023 <br>
 <summary>Release Notes</summary>
 
 ### eSender und Vermittlungsdienst
-- Vebessrte technische Konfiguration der Apps und erneuerung von Zertifikaten
+- Vebessrte technische Konfiguration der Apps und Erneuerung von Zertifikaten
 
 
 </details>
