@@ -2,8 +2,10 @@
 # Releases
 
 - November 2023
+  - [Hotfix Release für Vermittlungsdienst und eSender](#Release-für-Vermittlungsdienst-und-eSender)
   - [Hotfix Release für Validator, Vermittlungsdienst und eSender](#Release-für-Validator-Mediator-und-eSender)  
   - [Hotfix Release für Notice-Viewer, Validator und Vermittlungsdienst](#Release-für-notice-Viewer-Mediator-und-Validator)
+    
 - Oktober 2023
   - [Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe](#Release-für-Notice-Viewer-PDF-Dokumente-+-synchrone-Aufrufe)
   - [Release für Self-Service Portal - Portal-Account, Registrierungsform für einen separaten Vermittlungsdienst-Account](#Release-für-Self-Service-Portal-Portal-Account,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account)
@@ -16,6 +18,24 @@
   - [Production Release Juni - Vermittlungsdienst & eSender-Hub](#Production-Release-Juni-Vermittlungsdienst-&-eSender-Hub)
 - Mai 2023
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
+
+<a id=Release-für-Vermittlungsdienst-und-eSender></a>
+## Hotfix Release für Vermittlungsdienst und eSender
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 20.11.2023        | veröffentlicht |
+| Staging    | 21.11.2023        | veröffentlicht |
+| Produktion | 21.11.2023        | veröffentlicht |
+
+Status: Veröffentlicht am 21.11.2023 <br>
+<details>
+<summary>Release Notes</summary>
+
+### eSender und Vermittlungsdienst
+- Vebessrte technische Konfiguration der Apps und erneuerung von Zertifikaten
+
+
+</details>
 
 <a id=Release-für-Validator-Mediator-und-eSender></a>
 ## Hotfix Release für Validator, Vermittlungsdienst und eSender
