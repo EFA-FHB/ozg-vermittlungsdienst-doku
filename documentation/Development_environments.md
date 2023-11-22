@@ -110,10 +110,10 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
         <a href="https://account-management.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.preview-ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
-        <a href="https://account-management.staging-ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.staging-ozg-vermittlungsdienst.de/</a>
+        <a href="https://account-management.staging-ozg-vermittlungsdienst.de/" rel="nofollow">style="text-decoration: inherit;text-align: left;">https://account-management.staging-ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
-        <a href="https://account-management.ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.ozg-vermittlungsdienst.de/</a>
+        <a href="https://account-management.ozg-vermittlungsdienst.de/" rel="nofollow">style="text-decoration: inherit;text-align: left;">https://account-management.ozg-vermittlungsdienst.de/</a>
       </td>
     </tr>
     <tr>
