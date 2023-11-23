@@ -87,7 +87,6 @@ Die nachfolgende Grafik illustriert das oben Gesagte.
 <br><br>
 
 ## 2. Anpassen des Inhalts einer Bekanntmachung<span id='stop-oder-change'>
-> **Information:**  Der gesamte Abschnitt 2 wird durch Abschnitt 1 ersetzt und dient lediglich als Ergänzung. In Zukunft werden beide Abschnitte kombiniert. 
 
 Es gibt zwei Möglichkeiten, den Inhalt einer Bekanntmachung zu ändern: Durch *Stop + Update* vor Veröffentlichung oder durch eine Änderungsmitteilung (*Change Notice*) nach der Veröffentlichung.
 <br><br>
