@@ -8,9 +8,11 @@
 ## Inhalt
 - [1. Verwendung von Versionsnummern und Notice-IDs im Kontext der Weitergabe von Bekanntmachungen ](#versions-explained)
     - [1.1 Versionen und die Verwendung von Versionsnummern [Funktionalität ‚Update Notice‘]](#versions-update)
+    - [1.2 Neue Notice-ID für Changes [Funktionalität ‚Change Notice‘]](#versions-change)
+    - [1.3 Changes, die aufeinanderfolgen](#versions-changes)
 - [2. Anpassen des Inhalts einer Bekanntmachung](#stop-oder-change)
     - [2.1 Update zu einer Bekanntmachung](#update)
-	- [2.2 Change Notices](#change-notice)
+    - [2.2 Change Notices](#change-notice)
 - [3. STOP-Publikation Funktionalität](#stop-func)
 
 ## 1. Verwendung von Versionsnummern und Notice-IDs im Kontext der Weitergabe von Bekanntmachungen <span id='versions-explained'>
@@ -75,7 +77,7 @@ Bis zur Veröffentlichung dieses Changes könnte dann eine Änderung der Bekannt
 *Abbildung 3: Kette von __veröffentlichten__ Bekanntmachungen, einem Change und weiteren Änderungen an diesem Change bis zur erneuten Veröffentlichung dieses Changes bei TED*
 <br><br>
 
-### 1.3 Changes, die aufeinanderfolgen
+### 1.3 Changes, die aufeinanderfolgen<span id='versions-changes'>
 
 Wenn es notwendig ist, dass nicht nur ein Change für eine Bekanntmachung veröffentlicht werden muss, sondern mehrere Changes nacheinander veröffentlicht werden, dann ist die Vorgängerbekanntmachung, die im Change zu referenzieren ist, immer diejenige Bekanntmachung, die zu diesem Thema mit der höchsten Versionsnummner veröffentlicht wurde. Diese Vorgehensweise hilft, Versionsbäume zu verhindern.<br><br>
 Die nachfolgende Grafik illustriert das oben Gesagte.
