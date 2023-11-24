@@ -2,7 +2,7 @@
 # Vermittlungsdienst
 
 >**Go-Live 25.10.** <br>
-> Wichtige Hinweise zum Go-Live am 25.10. finden Sie unter [Maintenance](/maintenance.md)! 
+> Wichtige Hinweise und bekannte Fehler für die produktive Einlieferung finden Sie unter [Maintenance](/maintenance.md)! 
 
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen
 und den Wettbewerb bei öffentlichen Aufträgen stärken? Dann binden Sie sich mit Ihrer Vergabeplattform gerne an den von der Freien 
