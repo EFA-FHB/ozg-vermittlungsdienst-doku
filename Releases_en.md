@@ -1,109 +1,174 @@
-### EfA Implementation Project "Access to Public Procurement
+### EfA implementation project "Access to public procurement"
 # Releases
 
-October 2023
+- November 2023
+  - Hotfix release for mediation service and eSender](#Release-for-mediation-service-and-eSender)
+  - Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
+  - Hotfix release for notice viewer, validator and mediation service](#Release-for-notice-viewer-mediator-and-validator)
+    
+- October 2023
+  - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
+  - [Release for self-service portal - portal account, registration form for a separate mediation service account](#Release-for-self-service-portal-portal-account,-registration-form-for-a-separate-mediation-service-account)
+- September 2023
+  - [Release for RequestedPublicationDate Fix + Notice Viewer - Mediation Service, eSender Hub, Notice Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
+  - Release for eForms-DE 1.1 - switching service and eSender Hub](#Release-for-eForms-DE-1.1-switching-service-and-eSender-Hub)
+- August 2023
+  - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
+- June 2023
+  - Production Release June - Switching Service & eSender Hub](#Production-Release-June-Switching-Service-&-eSender-Hub)
+- May 2023
+  - Preview Release May - Switching Service & Validator Web Service](#Preview-Release-May-Switching-Service-&-Validator-Webservice)
 
-- [Release for Notice-Viewer - PDF documents + synchronous calls](#Release-for-Notice-Viewer-PDF-documents-+-synchronous-calls)
-- [Release for self-service portal-portal-account,-registration-form-for-a-separate-switchboard-account](#release-for-self-service-portal-portal-account,-registration-form-for-a-separate-switchboard-account)
-
-September 2023
-
-- [Release for RequestedPublicationDate Fix + Notice Viewer - Mediation Service, eSender Hub, Notice Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
-- [Release for eForms-DE 1.1 - Mediation Service and eSender Hub](#Release-for-eForms-DE-1.1-Mediation-Service-and-eSender-Hub)
-
-August 2023
-
-- [Release Offline-Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
-
-June 2023
-  
-- [Production Release June - Mediation Service & eSender Hub](#Production-Release-June-Mediation-Service-&-eSender-Hub)
-
-May 2023
-
-- [Preview Release May - Switching Service & Validator Web Service](#Preview-Release-May-Switching-Service-&-Validator-Webservice)
-
-<a id=release-for-notice-viewer-PDF-documents-+-synchronous-calls></a>.
-## release-for-notice-viewer-PDF-documents+-synchronous-calls.
-| environment notification service | period | status |
+<a id=release-for-mediation-service-and-validator></a>
+## Hotfix release for switching service and eSender
+| environment switching service | period | status |
 |------------|-----------------------------|----------------|
-| preview | 10/17/2023 | published |
-| staging | 18.10.2023 | published |
+| Preview | 20.11.2023 | published |
+| Staging | 21.11.2023 | published |
+| Production | 21.11.2023 | published |
+
+Status: Published on 21.11.2023 <br>
+<details>
+<summary>Release notes</summary>
+
+### eSender and switching service
+- Improved technical configuration of the apps and renewal of certificates
+
+
+</details>
+
+<a id=release-for-validator-mediator-and-eSender></a>
+## Hotfix release for validator, mediation service and eSender
+| environment mediation service | period | status |
+|------------|-----------------------------|----------------|
+| Preview | 13.11.2023 | published |
+| Staging | 15.11.2023 | published |
+| Production | 16.11.2023 | published |
+
+Status: Published on 16.11.2023 <br>
+<details>
+<summary>Release notes</summary>
+
+### eSender
+- Improved integration with TED: if TED is not available or a timeout takes too long
+- Language issue (BT-500-Organization-Company): multiple languages are now supported
+  
+### Validator (web service + open source)
+- eForms SDK 1.5.5 version has been implemented
+
+### Switching service
+- The number of allowed domain name characters in the 'authorEmail' parameter of the POST v2/notices endpoint has been increased and now supports from 2 to 18 characters.
+
+
+</details>
+
+<a id=release-for-notice-viewer-mediator-and-validator></a>
+## Hotfix release for notice viewer, validator and mediation service
+| environment mediation service | period | status |
+|------------|-----------------------------|----------------|
+| Preview | 08.11.2023 | published |
+| Staging | 09.11.2023 | published |
+| Production | 09.11.2023 | published |
+
+Status: Published on 09.11.2023 <br>
+<details>
+<summary>Release notes</summary>
+
+### Notice viewer
+- Improvement for the visualization of monetary values, comma removed as separator for thousands of values
+- Increase maximum file size to 2MB
+  
+### Validator (web service + open source)
+- Use of eForms-EU SDK 1.7.2 for eForms-DE 1.1 (https://github.com/OP-TED/eForms-SDK/releases/tag/1.7.2)
+- Increase maximum file size to 2MB
+
+### Mediation service
+- Increase maximum file size to 2MB
+
+
+</details>
+
+<a id=release-for-notice-viewer-pdf-documents+-synchronous-calls></a>
+## Release for Notice Viewer - PDF documents + synchronous calls
+| Environment Switching Service | Period | Status |
+|------------|-----------------------------|----------------|
+| Preview | 10/17/2023 | published |
+| Staging | 18.10.2023 | published |
 | Production | 20.10.2023 | published |
 
 > **Note** <br>
-> When using this API endpoint, we would like to draw your attention to the fact that performance is currently still being optimized. Please take this into account with intensive request frequency and plan for appropriate tolerances in your workflows. We are actively working on improvements and thank you for your understanding.
+> When using this API endpoint, we would like to point out that the performance is currently still being optimized. Please take this into account with intensive request frequency and plan appropriate tolerances in your processes. We are actively working on improvements and thank you for your understanding.
 
 Status: Published on 20.10.2023 <br>
 <details>
 <summary>Release Notes</summary>
 
-### Notice Viewer
+### Notice viewer
 >**environments** <br>
 > Preview https://viewer.preview-ozg-vermittlungsdienst.de <br>
-> Staging https://viewer.staging-ozg-vermittlungsdienst.de<br>
+> Staging https://viewer.staging-ozg-vermittlungsdienst.de <br>
 > Production https://viewer.ozg-vermittlungsdienst.de<br>
 
-- Backward compatibility with original `/view` endpoint.
-- New endpoints for asynchronous HTML and PDF generation, same behavior as previous `view` endpoint, response is returned immediately, document is created in background.
+- Backwards compatibility with original `/view` endpoint
+- New endpoints for asynchronous HTML and PDF generation, same behavior as previous `view` endpoint, response is returned immediately, document is created in the background.
   - `/view/async/html` and `/view/async/pdf`
-- New endpoints for synchronous HTML and PDF generation, response with link is not returned until document is created.
+- New endpoints for synchronous HTML and PDF generation, response with link is only returned when document is created.
   - `/view/sync/html` and `/view/sync/pdf`
 
 </details>
 
-<a id=release-for-self-service-portal-portal-account,-registration-form-for-a-separate-switching-service-account></a>
-## release-for-self-service-portal-account,-registration-form-for-a-separate-intermediary-service-account.
-| environment mediation service | period | status |
+<a id=release-for-self-service-portal-portal-account,-registration-form-for-a-separate-mediation-service-account></a>
+## Release for self-service portal - portal account, registration form for a separate operator service account
+| Environment Brokerage service | Period | Status |
 |------------|-----------------------------|----------------|
-| Preview | Docu + registration form: **KW38** , status overview: **KW39** | published |
-| staging | docu + registration form: **KW39** , status overview: **KW40** | published |
-| production | docu + registration form: **KW40** , status overview **KW41** | published | |
+| Preview | Documentation + registration form: **KW38** , status overview: **KW39** | published |
+| Staging | Documentation + registration form: **KW39** , Status overview: **KW40** | published |
+| production | documentation + registration form: **KW40** , Status overview **KW41** | published |
 
-Status: published on 10/4/2023 <br>
+Status: Published on 4.10.2023 <br>
 <details>
-<summary>Release Notes</summary>
+<summary>Release notes</summary>
 
 ### Self-Service Portal
->**Environments** <br>
+>**environments** <br>
 >NEW: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
 >NEW: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEW: Production https://portal.ozg-vermittlungsdienst.de<br>
 
 ### Show feature documentation + registration form
-- Full documentation in portal incl. releases and maintenance pages
+- Full documentation in the portal incl. releases and maintenance pages
 - Registration form for requesting new brokerage service accounts
   1. create a new portal account
-  2. filling in the registration form for a separate mediation service account
+  2. filling in the registration form for a separate brokerage service account
 
-### Feature status overview of announcements
-- Status overview of all submitted announcements for mediation service accounts
+### Feature Status overview of announcements
+- Status overview of all notices submitted for mediation service accounts
   
 </details>
 <br>
 
-<a id=Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Switching-Service,-eSender-Hub,-Notice-Viewer></a>
-## Release for RequestedPublicationDate Fix + Notice-Viewer - Mediation Service, eSender-Hub, Notice-Viewer.
+<a id=Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer></a>
+## Release for RequestedPublicationDate Fix + Notice-Viewer - Mediation Service, eSender-Hub, Notice-Viewer
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|--------|
-| Preview | RequestedPublicationDate Fix only: **KW37**, Everything else: **KW39** | supported in alpha | published |
-| staging | moved: **KW40** | supported in alpha | published |
-| production | postponed: **KW41** | supported in production | published | |
+| Preview | RequestedPublicationDate only Fix: **KW37**, Everything else: **KW39** | supported in Alpha | published |
+| Staging | moved: **KW40** | supported in Alpha | published |
+| production | postponed: **KW41** | supported in production | published |
 
-Status: released 10/11/2023 <br>
+Status: published on 11.10.2023 <br>
 <details>
 <summary>Release notes</summary>
 
-### Switching service
+### Operator service
 >**Environments** <br>
 >NEW: Preview environment https://preview-ozg-vermittlungsdienst.de<br>
 >NEW: Staging environment https://staging-ozg-vermittlungsdienst.de<br>
 >Production environment https://ozg-vermittlungsdienst.de<br>
 
 - Integration with new BKMS endpoint
-- New naming of notification XML file in ASIC container: instead of 'notice.xml' now 'uuid.eforms.xml'
+- New naming of the notification XML file in the ASIC container: instead of 'notice.xml' now 'uuid.eforms.xml'
 - Peppol integration with B2Brouter
-- 'PublicationID' of TED is now processed and stored in the switching service
+- 'PublicationID' from TED is now processed and saved in the switching service
 
 ### Notice Viewer
 >**Environments** <br>
@@ -111,12 +176,12 @@ Status: released 10/11/2023 <br>
 >NEW: Staging environment https://viewer.staging-ozg-vermittlungsdienst.de<br>
 >NEW: Production environment https://viewer.ozg-vermittlungsdienst.de<br>
 
-- Authorization and integration with Mediator
-- Support of eForms-DE 1.1.0 and -DE 1.0.1
-- Latest DE SDK version added - 1.1.0 - 1.7.1
+- Authorization and integration with the Mediator
+- Support for eForms-DE 1.1.0 and -DE 1.0.1
+- Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as standalone web service with token authentication (same token as in mediator service can be used) for uploading XML files and as endpoint in mediator service for rendering already submitted announcements based on the
+Available as a standalone web service with token authentication (same token as in the switching service can be used) for uploading XML files and as an endpoint in the switching service for rendering previously submitted notices using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
@@ -132,28 +197,28 @@ Available as standalone web service with token authentication (same token as in 
 </details>
 <br>
 
-<a id=release-for-eForms-DE-1.1-switching-service-and-eSender-Hub></a>
-## Release for eForms-DE 1.1 - Mediation Service and eSender Hub
+<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
 | Preview | **KW34** | supported in Alpha | published |
 | Staging | **KW35** | supported in Alpha | published |
-| production | **KW37** | supported in production | published |
+| Production | **KW37** | supported in production | published |
 
-Status: released on 09/13/2023 <br>
+Status: published on 13.09.2023 <br>
 <details>
-<summary>Release Notes</summary>
+<summary>Release notes</summary>
 
-### Switching service
->**Environments** <br>
->Preview environment **until 09/15/2023**: https://preview.ozg-vermittlungsdienst.de, from 08/30/2023: https://preview-ozg-vermittlungsdienst.de <br>
->Staging environment **until 09/15/2023**: https://staging.ozg-vermittlungsdienst.de, from 08/30/2023: https://staging-ozg-vermittlungsdienst.de <br>
+### Operator service
+>**environments** <br>
+>Preview environment **until 15.09.2023**: https://preview.ozg-vermittlungsdienst.de, from 30.08.2023: https://preview-ozg-vermittlungsdienst.de <br>
+>Staging environment **until 15.09.2023**: https://staging.ozg-vermittlungsdienst.de, from 30.08.2023: https://staging-ozg-vermittlungsdienst.de <br>
 >Production environment https://ozg-vermittlungsdienst.de<br>
 
 - Initial support for eForms-DE 1.1 (Schematron https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.0)
-- New DEMO endpoint for visualization of delivered eForms-DE documents /notice-viewer/{trackingCode} (currently returns only sample document)
+- New DEMO endpoint for visualization of submitted eForms-DE documents /notice-viewer/{trackingCode} (currently only returns sample document)
 - New job for re-sync of status information
-- Various improvements for status change of notices and authentication
+- Various improvements to the status change of notices and authentication
 
 ### eSender Hub
  - Initial eForms-DE 1.1 -> eForms-EU 1.7 transformation
@@ -161,86 +226,86 @@ Status: released on 09/13/2023 <br>
 <br>
 
 <a id=Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0></a>
-## Release Offline Validator for eForms-DE 1.0.1 and 1.1.0
-Status: Published 08/14/2023<br>
+## Release offline validator for eForms-DE 1.0.1 and 1.1.0
+Status: Published 14.08.2023<br>
 https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
-<a id=production-release-june-switching-service-&-eSender-Hub></a>
-## Production Release June - Switching Service & eSender Hub.
-Status: published 06/28/2023<br>
+<a id=Production-Release-June-Mediation-Service-&-eSender-Hub></a>
+## Production Release June - Switching Service & eSender Hub
+Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
 
 ### Switching service
->**environments<br>
+>**environments** <br>
 >Preview environment https://preview.ozg-vermittlungsdienst.de<br>
 >Staging environment https://staging.ozg-vermittlungsdienst.de<br>
 >Production environment https://ozg-vermittlungsdienst.de<br>
 
 >**Info** <br>
->After the production release in June, a user must be requested again for the production and staging environment, even if a user already exists in Preview.
+>After the production release in June, a new user must be requested for the production and staging environment, even if a user already exists in Preview.
 
-- Added stop endpoint to stop national announcements in BKMS.
-- Check that updates of announcements are not possible if the previous version has not been stopped or if it is already published
+- Stop endpoint added to stop national announcements in BKMS
+- Check that updates of announcements are not possible if the previous version has not been stopped or if it has already been published
 - Open Api description adapted
-- Improved error messages when returning information to FVH.
-- Added metrics to measure last successful and unsuccessful endpoint calls along with scheduled job runs
+- Improved error messages when returning information to FVH
+- Added metrics to measure the last successful and unsuccessful endpoint calls along with the scheduled job runs
 - Several optimizations and bug fixes
 - Introduction of paging for scheduled jobs
-- Improved auditing of eSender updates as they occur
-- Internal validator integration improved, error types are now more clearly classified.
-- Updated the response to the date of the last update of the PSPs and it is now more accurate.
+- Checking of occurring updates of eSender improved
+- The integration of the internal validator has been improved, the error types are now more clearly classified
+- The response to the date of the last update of the WBS has been updated and is now more accurate.
 - Changed names for error reasons:
-Instead of DELIVERY_NOT_FOUND there is NOTICE_NOT_FOUND.
-Instead of DELIVERY_ALREADY_PROCESSED it is NOTICE_ALREADY_PROCESSED
-Instead of DELIVERY_METADATA_INVALID there is NOTICE_METADATA_INVALID
-- New endpoint /v1/notices/status created - Returns status information for notices within a specified time period.
+DELIVERY_NOT_FOUND has been replaced by NOTICE_NOT_FOUND
+DELIVERY_ALREADY_PROCESSED has been replaced by NOTICE_ALREADY_PROCESSED
+DELIVERY_METADATA_INVALID is replaced by NOTICE_METADATA_INVALID
+- New endpoint /v1/notices/status created - Returns the status information for notices within a specified time period.
 
-### eSender hub
-- Implemented manual stop in BKMS when PSP stops notification.
+### eSender Hub
+- Manual stop implemented in BKMS when PSP stops notification
 - Implemented automatic stop in BKMS due to TED NOT_PUBLISHED
 - Updated translations for error messages
-- Transformations implemented: version conversion from eform-de-1.0 to eform-sdk-1.5 and conversion from DE code lists to EU code lists
-- Implemented: Retrieval and storage of BKMS status PUBLISHED
+- Transformations implemented: Version conversion from eform-de-1.0 to eform-sdk-1.5 and conversion from DE code lists to EU code lists
+- Implemented: Retrieving and saving the BKMS status PUBLISHED
 - Jobs PROCESS_NOTICES and ALIGN_TED_STATUS improved
-- Implemented account management application
-- Improved response for mediation service in case of duplicates
-- API keys for production and staging users updated
+- Introduction of an account management application
+- Improved response for switching service in case of duplicates
+- API keys for production and staging users have been updated
 - Performance improvements
 - Several optimizations and bug fixes
 </details>
 <br>
 
-<a id=preview-release-may-intermediary-service-&-validator-webservice></a>
-## Preview Release May - Mediation Service & Validator Web Service.
-Status: published 05/04/2023<br>
+<a id=Preview-Release-May-Mediation-Service-&-Validator-Webservice></a>
+## Preview Release May - Mediation Service & Validator Web Service
+Status: Published 04.05.2023<br>
 <details>
 <summary>Release notes</summary>
 <br>
 
-### Switching service
+### Operator service
 Preview environment https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com
-- Extension of API authorization to include refresh tokens<br>.
-Details at [Connection to the mediator service](/documentation/Connection_to_mediator.md)
+- Extension of the API authorization with refresh tokens<br>
+Details under [Connection to the mediation service](/documentation/Connection_to_mediator.md)
 
-- Extension of status information to include transfer information (warnings and error messages).<br>
-Details in [Status and transfer information](/documentation/Status_information.md).
+- Extension of the status information to include transfer information (warnings and error messages).<br>
+Details under [Status and transfer information](/documentation/Status_information.md)
 - More detailed error messages
-- Version check is now additionally performed using the data of the announcement service<br>.
-When a change notice of a subthreshold notice is transferred, the following checks are made:<br>
--Is the announcement to be changed available in the BKMS?<br>
--Are there already several notices in the BKMS whose concatenated noticeId and noticeVersion match the Change Notice Version Identifier?<br>
+- Version check is now also carried out using the data from the notification service<br>
+The following checks are carried out when transmitting a change notification for a subthreshold notice:<br>
+-Is the notice to be amended available in the BKMS<br>
+-Are there already several notices in the BKMS whose concatenated noticeId and noticeVersion match the change notice version identifier?
 -Is there a change notice in the BKMS that has already updated the version to be changed?<br>
-This means only the latest version in a chain of notices will be updated.
-- Subthreshold announcements published in the announcement service are given the status PUBLISHED.<br>
-The status will be returned accordingly when a status query is made.
+This means that only the latest version in a chain of notices is updated.
+- Subliminal announcements published in the announcement service receive the status PUBLISHED.<br>
+The status is returned accordingly in a status query.
 - Several optimizations and bug fixes
 <br><br>
 
 ### Validator
 Preview environment https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
-- Extension of the result report with the rule name `rule` and the applied rule `ruleContent`.
+- Extension of the result report by the rule name `rule` and the applied rule `ruleContent`
 
 - Several optimizations and bug fixes
 </details>
