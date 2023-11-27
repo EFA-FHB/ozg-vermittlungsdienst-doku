@@ -184,7 +184,7 @@ Status: veröffentlicht am 11.10.2023 <br>
 Verfügbar als Standalone Webservice mit Token-Authentifizierung (gleicher Token wie im Vermittlungsdienst kann genutzt werden) für Upload von XML Dateien und als Endpunkt im Vermittlungsdienst für Rendering von bereits eingelieferten Bekanntmachungen anhand der 
 
 ### eSender-Hub
-- Neue Transformation von eForms-DE zu eForms-EU bezüglich 'requestedPublicationDate', ausführliche Erklärung [hier](/documentation/eForms_Erstellung.md)
+- Neue Transformation von eForms-DE zu eForms-EU bezüglich 'requestedPublicationDate', ausführliche Erklärung [hier](/documentation/eForms_creation.md)
 
 ### Validator
 >**Umgebungen** <br>
