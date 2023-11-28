@@ -884,7 +884,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 | Bund/Bundesland | Behörde                                                                                                                                          | Kennung    |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
 |Bund|Vergabekammern des Bundes|t:022894990|
-| Baden-Württemberg |Vergabekammer Baden-Württemberg                                                                                                             | t:07219268730     |
+| Baden-Württemberg |Vergabekammer Baden-Württemberg                                                                                                             | 0204:08-A9866-40      |
 | Bayern |Vergabekammer Nordbayern bei der Regierung von Mittelfranken                                                                                           | t:0981531277      |
 | Bayern|Regierung von Oberbayern Vergabekammer Südbayern                                                                                                              |t:08921762411     |
 | Berlin| Vergabekammer des Landes Berlin                                                                                                                        | 0204:11-1300000V00-74     |
@@ -903,9 +903,9 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 | Sachsen-Anhalt| 1. und 2. Vergabekammer des Landes Sachsen-Anhalt                                                                                              | t:03455141529     |
 | Schleswig-Holstein| Vergabekammer Schleswig-Holstein beim Ministerium für Wirtschaft, Verkehr, Arbeit, Technologie und Tourismus des Landes Schleswig-Holstein | t:04319884640     |
 | Thüringen| Vergabekammer Freistaat Thüringen beim Thüringer Landesverwaltungsamt                                                                               | t:0361573321276 |
-<br>
-</details>
-<br>
+|<br>|||
+|</details>|||
+|<br>|||
 
 ### Neuauflage des Verfahrens (BT-634)
 
