@@ -2,9 +2,9 @@
 # Releases
 
 - November 2023
-  - [Hotfix release for mediation service and eSender](#Release-for-mediation-service-and-eSender)
-  - [Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
-  - [Hotfix release for notice viewer, validator and mediation service](#Release-for-notice-viewer-mediator-and-validator)
+  - [Hotfix release for Vermittlungsdienst and eSender](#Release-for-mediation-service-and-eSender)
+  - [Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-validator-mediator-and-eSender)
+  - [Hotfix release for Notice-Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-mediator-and-validator)
     
 - October 2023
   - [Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
@@ -15,9 +15,9 @@
 - August 2023
   - [Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
 - June 2023
-  - [Production Release June - Switching Service & eSender Hub](#Production-Release-June-Switching-Service-&-eSender-Hub)
+  - [Production Release June - Vermittlungsdienst & eSender Hub](#Production-Release-June-Switching-Service-&-eSender-Hub)
 - May 2023
-  - [Preview Release May - Switching Service & Validator Web Service](#Preview-Release-May-Switching-Service-&-Validator-Webservice)
+  - [Preview Release May - Vermittlungsdienst & Validator](#Preview-Release-May-Switching-Service-&-Validator-Webservice)
 
 <a id=release-for-mediation-service-and-validator></a>
 ## Hotfix release for switching service and eSender
@@ -31,13 +31,13 @@ Status: Published on 21.11.2023 <br>
 <details>
 <summary>Release notes</summary>
 
-### eSender and switching service
+### eSender and Vermittlungsdienst
 - Improved technical configuration of the apps and renewal of certificates
 
 
 </details>
 
-<a id=release-for-validator-mediator-and-eSender></a>
+<a id=release-for-validator-Vermittlungsdienst-and-eSender></a>
 ## Hotfix release for validator, mediation service and eSender
 | environment mediation service | period | status |
 |------------|-----------------------------|----------------|
@@ -62,7 +62,7 @@ Status: Published on 16.11.2023 <br>
 
 </details>
 
-<a id=release-for-notice-viewer-mediator-and-validator></a>
+<a id=release-for-notice-viewer-Vermittlungsdienst-and-validator></a>
 ## Hotfix release for notice viewer, validator and mediation service
 | environment mediation service | period | status |
 |------------|-----------------------------|----------------|
