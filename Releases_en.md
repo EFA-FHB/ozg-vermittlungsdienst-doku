@@ -2,7 +2,7 @@
 # Releases
 
 - December 2023
-  - [Release for switching service, eSender, notice viewer and validator](#Release-for-switching-service,-eSender,-notice-viewer-and-validator)
+  - [Release for Vermittlungsdienst, eSender, notice viewer and validator](#Release-for-switching-service,-eSender,-notice-viewer-and-validator)
 - November 2023
   - [Hotfix release for switching service and eSender](#Release-for-switching-service-and-eSender)
   - [Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
@@ -23,9 +23,9 @@
 
 
 
-<a id=release-for-mediation-service,-eSender,-notice-viewer-and-validator></a>
-## Release for switching service, eSender, notice viewer and validator
-| Environment Switching Service | Period | Status |
+<a id=release-for-Vermittlungsdienst,-eSender,-notice-viewer-and-validator></a>
+## Release for Vermittlungsdienst, eSender, notice viewer and validator
+| Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 28.11.2023 | published |
 | Staging | 04.12.2023 | |
@@ -35,7 +35,7 @@ Status: In QA <br>
 <details>
 <summary>Release notes</summary>
 
-### Operator service
+### Vermittlungsdienst
 -
 
 ### eSender
