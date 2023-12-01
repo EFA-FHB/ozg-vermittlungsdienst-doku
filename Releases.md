@@ -1,6 +1,8 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 # Releases
 
+<br />
+
 - Dezember 2023
   - [Release für Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
 - November 2023
@@ -21,7 +23,7 @@
 - Mai 2023
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
-
+<br />
 
 <a id=Release-für-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
 ## Release für Vermittlungsdienst, eSender, Notice-Viewer und Validator
