@@ -19,7 +19,7 @@
 - May 2023
   - [Preview Release May - Vermittlungsdienst & Validator](#Preview-Release-May-Vermittlungsdienst-&-Validator-Webservice)
 
-<a id=release-for-Vermittlungsdienst-and-validator></a>
+<a id=release-for-Vermittlungsdienst-and-eSender></a>
 ## Hotfix release for Vermittlungsdienst and eSender
 | environment switching service | period | status |
 |------------|-----------------------------|----------------|
