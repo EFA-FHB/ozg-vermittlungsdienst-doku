@@ -13,7 +13,7 @@
   - [Release for self-service portal - portal account, registration form for a separate mediation service account](#Release-for-self-service-portal-portal-account,-registration-form-for-a-separate-mediation-service-account)
 - September 2023
   - [Release for RequestedPublicationDate Fix + Notice Viewer - Mediation Service, eSender Hub, Notice Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
-  - Release for eForms-DE 1.1 - switching service and eSender Hub](#Release-for-eForms-DE-1.1-switching-service-and-eSender-Hub)
+  - [Release for eForms-DE 1.1 - switching service and eSender Hub](#Release-for-eForms-DE-1.1-switching-service-and-eSender-Hub)
 - August 2023
   - [Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
 - June 2023
