@@ -3,8 +3,8 @@
 
 - November 2023
   - [Hotfix release for Vermittlungsdienst and eSender](#Release-for-Vermittlungsdienst-and-eSender)
-  - [Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-validator-mediator-and-eSender)
-  - [Hotfix release for Notice-Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-mediator-and-validator)
+  - [Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-validator-Vermittlungsdienst-and-eSender)
+  - [Hotfix release for Notice-Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-Vermittlungsdienst-and-validator)
     
 - October 2023
   - [Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
