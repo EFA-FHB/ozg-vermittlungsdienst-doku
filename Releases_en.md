@@ -20,7 +20,7 @@
   - [Preview Release May - Vermittlungsdienst & Validator](#Preview-Release-May-Vermittlungsdienst-&-Validator-Webservice)
 
 <a id=release-for-Vermittlungsdienst-and-validator></a>
-## Hotfix release for switching service and eSender
+## Hotfix release for Vermittlungsdienst and eSender
 | environment switching service | period | status |
 |------------|-----------------------------|----------------|
 | Preview | 20.11.2023 | published |
@@ -38,7 +38,7 @@ Status: Published on 21.11.2023 <br>
 </details>
 
 <a id=release-for-validator-Vermittlungsdienst-and-eSender></a>
-## Hotfix release for validator, mediation service and eSender
+## Hotfix release for validator, Vermittlungsdienst and eSender
 | environment mediation service | period | status |
 |------------|-----------------------------|----------------|
 | Preview | 13.11.2023 | published |
@@ -56,14 +56,14 @@ Status: Published on 16.11.2023 <br>
 ### Validator (web service + open source)
 - eForms SDK 1.5.5 version has been implemented
 
-### Switching service
+### Vermittlungsdienst
 - The number of allowed domain name characters in the 'authorEmail' parameter of the POST v2/notices endpoint has been increased and now supports from 2 to 18 characters.
 
 
 </details>
 
 <a id=release-for-notice-viewer-Vermittlungsdienst-and-validator></a>
-## Hotfix release for notice viewer, validator and mediation service
+## Hotfix release for notice viewer, validator and Vermittlungsdienst
 | environment mediation service | period | status |
 |------------|-----------------------------|----------------|
 | Preview | 08.11.2023 | published |
@@ -82,7 +82,7 @@ Status: Published on 09.11.2023 <br>
 - Use of eForms-EU SDK 1.7.2 for eForms-DE 1.1 (https://github.com/OP-TED/eForms-SDK/releases/tag/1.7.2)
 - Increase maximum file size to 2MB
 
-### Mediation service
+### Vermittlungsdienst
 - Increase maximum file size to 2MB
 
 
@@ -159,7 +159,7 @@ Status: published on 11.10.2023 <br>
 <details>
 <summary>Release notes</summary>
 
-### Operator service
+### Vermittlungsdienst
 >**Environments** <br>
 >NEW: Preview environment https://preview-ozg-vermittlungsdienst.de<br>
 >NEW: Staging environment https://staging-ozg-vermittlungsdienst.de<br>
@@ -198,7 +198,7 @@ Available as a standalone web service with token authentication (same token as i
 <br>
 
 <a id=Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub></a>
-## Release for eForms-DE 1.1 - switching service and eSender Hub
+## Release for eForms-DE 1.1 - Vermittlungsdienst and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
 | Preview | **KW34** | supported in Alpha | published |
@@ -209,7 +209,7 @@ Status: published on 13.09.2023 <br>
 <details>
 <summary>Release notes</summary>
 
-### Operator service
+### Vermittlungsdienst
 >**environments** <br>
 >Preview environment **until 15.09.2023**: https://preview.ozg-vermittlungsdienst.de, from 30.08.2023: https://preview-ozg-vermittlungsdienst.de <br>
 >Staging environment **until 15.09.2023**: https://staging.ozg-vermittlungsdienst.de, from 30.08.2023: https://staging-ozg-vermittlungsdienst.de <br>
@@ -232,12 +232,12 @@ https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
 <a id=Production-Release-June-Vermittlungsdienst-&-eSender-Hub></a>
-## Production Release June - Switching Service & eSender Hub
+## Production Release June - Vermittlungsdienst & eSender Hub
 Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
 
-### Switching service
+### Vermittlungsdienst
 >**environments** <br>
 >Preview environment https://preview.ozg-vermittlungsdienst.de<br>
 >Staging environment https://staging.ozg-vermittlungsdienst.de<br>
