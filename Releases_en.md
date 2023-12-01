@@ -2,24 +2,24 @@
 # Releases
 
 - December 2023
-  - Release for switching service, eSender, notice viewer and validator](#Release-for-switching-service,-eSender,-notice-viewer-and-validator)
+  - [Release for switching service, eSender, notice viewer and validator](#Release-for-switching-service,-eSender,-notice-viewer-and-validator)
 - November 2023
-  - Hotfix release for switching service and eSender](#Release-for-switching-service-and-eSender)
-  - Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
-  - Hotfix release for notice viewer, validator and mediation service](#Release-for-notice-viewer-mediator-and-validator)
+  - [Hotfix release for switching service and eSender](#Release-for-switching-service-and-eSender)
+  - [Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
+  - [Hotfix release for notice viewer, validator and mediation service](#Release-for-notice-viewer-mediator-and-validator)
     
 - October 2023
-  - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
+  - [Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
   - [Release for self-service portal - portal account, registration form for a separate mediation service account](#Release-for-self-service-portal-portal-account,-registration-form-for-a-separate-mediation-service-account)
 - September 2023
   - [Release for RequestedPublicationDate Fix + Notice Viewer - Mediation Service, eSender Hub, Notice Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
   - Release for eForms-DE 1.1 - switching service and eSender Hub](#Release-for-eForms-DE-1.1-switching-service-and-eSender-Hub)
 - August 2023
-  - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
+  - [Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
 - June 2023
-  - Production Release June - Switching Service & eSender Hub](#Production-Release-June-Switching-Service-&-eSender-Hub)
+  - [Production Release June - Switching Service & eSender Hub](#Production-Release-June-Switching-Service-&-eSender-Hub)
 - May 2023
-  - Preview Release May - Switching Service & Validator Web Service](#Preview-Release-May-Switching-Service-&-Validator-Webservice)
+  - [Preview Release May - Switching Service & Validator Web Service](#Preview-Release-May-Switching-Service-&-Validator-Webservice)
 
 
 
