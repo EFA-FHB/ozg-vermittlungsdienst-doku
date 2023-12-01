@@ -1,31 +1,33 @@
 ### EfA implementation project "Access to public procurement"
 # Releases
 
+<br />
+
 - December 2023
-  - [Release for Vermittlungsdienst, eSender, notice viewer and validator](#Release-for-switching-service,-eSender,-notice-viewer-and-validator)
+  - Release for switching service, eSender, notice viewer and validator](#Release-for-switching-service,-eSender,-notice-viewer-and-validator)
 - November 2023
-  - [Hotfix release for switching service and eSender](#Release-for-switching-service-and-eSender)
-  - [Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
-  - [Hotfix release for notice viewer, validator and mediation service](#Release-for-notice-viewer-mediator-and-validator)
+  - Hotfix release for switching service and eSender](#Release-for-switching-service-and-eSender)
+  - Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
+  - Hotfix release for notice viewer, validator and mediation service](#Release-for-notice-viewer-mediator-and-validator)
     
 - October 2023
-  - [Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
+  - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
   - [Release for self-service portal - portal account, registration form for a separate mediation service account](#Release-for-self-service-portal-portal-account,-registration-form-for-a-separate-mediation-service-account)
 - September 2023
   - [Release for RequestedPublicationDate Fix + Notice Viewer - Mediation Service, eSender Hub, Notice Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
-  - [Release for eForms-DE 1.1 - switching service and eSender Hub](#Release-for-eForms-DE-1.1-switching-service-and-eSender-Hub)
+  - Release for eForms-DE 1.1 - switching service and eSender Hub](#Release-for-eForms-DE-1.1-switching-service-and-eSender-Hub)
 - August 2023
-  - [Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
+  - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
 - June 2023
-  - [Production Release June - Switching Service & eSender Hub](#Production-Release-June-Switching-Service-&-eSender-Hub)
+  - Production Release June - Switching Service & eSender Hub](#Production-Release-June-Switching-Service-&-eSender-Hub)
 - May 2023
-  - [Preview Release May - Switching Service & Validator Web Service](#Preview-Release-May-Switching-Service-&-Validator-Webservice)
+  - Preview Release May - Switching Service & Validator Web Service](#Preview-Release-May-Switching-Service-&-Validator-Webservice)
 
+<br />
 
-
-<a id=release-for-Vermittlungsdienst,-eSender,-notice-viewer-and-validator></a>
-## Release for Vermittlungsdienst, eSender, notice viewer and validator
-| Environment Vermittlungsdienst | Period | Status |
+<a id=release-for-mediation-service,-eSender,-notice-viewer-and-validator></a>
+## Release for switching service, eSender, notice viewer and validator
+| Environment Switching Service | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 28.11.2023 | published |
 | Staging | 04.12.2023 | |
@@ -35,7 +37,7 @@ Status: In QA <br>
 <details>
 <summary>Release notes</summary>
 
-### Vermittlungsdienst
+### Operator service
 -
 
 ### eSender
@@ -198,7 +200,7 @@ Status: published on 11.10.2023 <br>
 - Integration with new BKMS endpoint
 - New naming of the notification XML file in the ASIC container: instead of 'notice.xml' now 'uuid.eforms.xml'
 - Peppol integration with B2Brouter
-- 'PublicationID' from TED is now processed and stored in the switching service
+- 'PublicationID' from TED is now processed and saved in the switching service
 
 ### Notice Viewer
 >**Environments** <br>
