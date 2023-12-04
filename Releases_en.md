@@ -30,28 +30,52 @@
 | Environment Switching Service | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 28.11.2023 | published |
-| Staging | 04.12.2023 | |
+| Staging | 04.12.2023 | published |
 | Production | 11.12.2023 | |
 
 Status: In QA <br>
 <details>
 <summary>Release notes</summary>
 
-### Operator service
--
+### Switching service
+- The correct status is now set for repeated delivery to BKMS in the event of a duplicate
+- Configurable status mapping table implemented
+- The message has been added when the user has successfully stopped the notification
+- Tenant deletion process has been changed
+- A dashboard user can now also be deleted
+- Endpoint for the creation of tenant and dashboard users improved
+- A new PATCH endpoint for updating eSender integration and Schematron validation has been introduced
+- The endpoint for updating tenant users in Keycloak has been improved
+- Change notice checks have been reintroduced
+- Various status descriptions have been improved
+- Linking dashboard users to multiple tenants is now possible
+- XSD error details about the failed rule are included in the response
+- The validation model of 'business_document' has been introduced
+- Mandatory lineDescription in PEPPOL message (T016) has been improved
+- Endpoint for user creation/update has been improved
+- Updated descriptions for Notice Viewer endpoints in Swagger
+- Improved the error message when submitting a notice to indicate the error case
+- Various performance improvements and bug fixes
 
 ### eSender
--
+- Retry delivery is now implemented when BKMS does not respond
+- BKMS integration has been improved
+- Various performance improvements and bug fixes
 
 ### Validator (web service + open source)
--
+- Bugfix for CR-DE-BT-165 and IssueDate applied
+- Various performance improvements and bug fixes
 
 ### Notice Viewer
--
+- Improved rendering of BT-801, BT-92, BT-93
+- Caching for generated documents introduced
+- Added placeholder.html for deleted files
+- Updated description for Notice Viewer endpoint in Swagger (also applies to the switching service)
+- Various performance improvements and bug fixes
 
 </details>
 
-<a id=release-for-switchboard-service-and-eSender></a>
+<a id=release-for-switching-service-and-eSender></a>
 ## Hotfix release for switching service and eSender
 | environment switching service | period | status |
 |------------|-----------------------------|----------------|
@@ -162,7 +186,7 @@ Status: Published on 4.10.2023 <br>
 <summary>Release notes</summary>
 
 ### Self-Service Portal
->**environments** <br>
+>**Environments** <br>
 >NEW: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
 >NEW: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEW: Production https://portal.ozg-vermittlungsdienst.de<br>
@@ -229,7 +253,7 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
 ## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
