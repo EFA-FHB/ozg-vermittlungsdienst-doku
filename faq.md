@@ -261,7 +261,7 @@ Mit welcher SDK-Version soll der produktive Go-live erfolgen?
 </summary>
 <br>
 
-Unterstützt werden die aktuellen Versionen eForms-DE 1.0.1 und 1.1. Es wird nie Nitzung von eForms-DE 1.1.0 empfohlen.
+Unterstützt werden die aktuellen Versionen eForms-DE 1.0.1 und 1.1. Es wird die Nutzung von eForms-DE 1.1.0 empfohlen.
 </details>
 <br>
 
