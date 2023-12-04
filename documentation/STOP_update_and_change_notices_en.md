@@ -7,13 +7,13 @@
 
 ## Content
 - [1. use of version numbers and notice IDs in the context of passing on notices ](#versions-explained)
-    - [1.1 Versions and the use of version numbers [Update Notice functionality](#versions-update)
-    - 1.2 New notice ID for changes [Change Notice functionality](#versions-change)
-    - 1.3 Changes that follow each other](#versions-changes)
+    - 1.1 [Versions and the use of version numbers [Update Notice functionality]](#versions-update)
+    - 1.2 [New notice ID for changes [Change Notice functionality]](#versions-change)
+    - 1.3 [Changes that follow each other](#versions-changes)
 - [2. adapting the content of a notice](#stop-or-change)
-    - 2.1 Update to an announcement](#update)
-    - 2.2 Change notices](#change-notice)
-- 3. STOP publication functionality](#stop-func)
+    - 2.1 [Update to an announcement](#update)
+    - 2.2 [Change notices](#change-notice)
+- 3. [STOP publication functionality](#stop-func)
 
 ## 1. use of version numbers and notice IDs in the context of passing on notices <span id='versions-explained'>
 
