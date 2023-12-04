@@ -1,9 +1,9 @@
 ### EfA implementation project "Access to public procurement"
 # Frequently asked questions
 
-- Data service for public procurement](#datenservice-öffentlicher-einkauf)
-- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- General](#general)
+- [Data service for public procurement](#datenservice-öffentlicher-einkauf)
+- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- [General](#general)
 
 ## Data service public purchasing
 
