@@ -160,3 +160,5 @@ Bei manueller Ablehnung durch TED wird die Veröffentlichung automatisch im BKMS
 
 **Stopp-Antworten** <br>
 Welche Rückmeldungen Sie beim Versenden von Stop-Anfragen erhalten können Sie der API entnehmen unter https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
+
+
