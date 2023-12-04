@@ -30,7 +30,7 @@
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 28.11.2023        | veröffentlicht |
-| Staging    | 04.12.2023        |  |
+| Staging    | 04.12.2023        | veröffentlicht |
 | Produktion | 11.12.2023        |  |
 
 Status: In QS <br>
@@ -38,16 +38,40 @@ Status: In QS <br>
 <summary>Release Notes</summary>
 
 ### Vermittlungsdienst
--
+- Bei wiederholter Zustellung an BKMS im Fall eines Dublikates wird jetzt der richtige Status gesetzt
+- Konfigurierbare Statuszuordnungstabelle implementiert
+- Die Meldung wurde eingefügt, wenn der Benutzer die Benachrichtigung erfolgreich gestoppt hat
+- Ablauf von Löschen der Tenant wurde geändert 
+- Ein Dashboard-Benutzer kann jetzt auch gelöscht werden
+- Endpunkt für die Erstellung von Tenant und Dashboard-Benutzern verbessert
+- Ein neuer PATCH Endpunkt für die Aktualisierung von eSender-Integration und Schematron-Validierung eingeführt
+- der Endpunkt zur Aktualisierung von Tenant-Benutzern in Keycloak wurde verbessert
+- Change-Notice Checks werden wieder eingeführt
+- Diverse Statusbeschreibungen wurden verbessert
+- Verknüpfung von Dashboard-Benutzern zu mehreren Tenant ist jetzt möglich
+- XSD-Fehlerdetails über die fehlgeschlagene Regel werden in die Antwort aufgenommen
+- Das Validierungsmodell von 'business_document' wurde eingeführt
+- Obligatorische lineDescription in PEPPOL Message (T016) wurde verbessert
+- Endpunkt für Benutzererstellung/-aktualisierung wurde verbessert
+- Beschreibungen für Notice Viewer Endpunkte in Swagger aktualisiert
+- Die Fehlermeldung bei der Übermittlung einer Bekanntmachung wurde verbessert, um den Fehlerfall anzuzeigen
+- Diverse Leistungsverbesserungen und Fehlerbehebungen 
 
 ### eSender
--
+- Wiederholung der Zustellung ist jetzt implementiert, wenn BKMS nicht antwortet
+- BKMS Integration wurde verbessert
+- Diverse Leistungsverbesserungen und Fehlerbehebungen 
 
 ### Validator (Webservice + Open-Source)
--
+- Bugfix für CR-DE-BT-165 und IssueDate angewendet
+- Diverse Leistungsverbesserungen und Fehlerbehebungen  
 
 ### Notice-Viewer
-- 
+- Verbessertes Rendering von BT-801, BT-92, BT-93
+- Caching für generierte Dokumente eingeführt
+- Platzhalter.html für gelöschte Dateien hinzugefügt
+- Aktualisierte Beschreibung für Notice Viewer Endpunkt in Swagger (gilt auch für den Vermittlungsdienst)
+- Diverse Leistungsverbesserungen und Fehlerbehebungen  
 
 </details>
 
