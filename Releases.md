@@ -38,7 +38,7 @@ Status: In QS <br>
 <summary>Release Notes</summary>
 
 > **Hinweis** <br>
-Anmelding auf dem Self-Service Portal mit einem Vermittlungsdienst-Nutzer*/in ist nicht mehr möglich. 
+Anmeldung auf dem Self-Service Portal mit einem Vermittlungsdienst-Nutzer*/in ist nicht mehr möglich. 
 
 ### Self-Service Portal 
 - Nach der Genehmigung kann ein SSP-Nutzer*/in jetzt selbst eigene Vermittlungsdienst- und Dashboard- Nutzer*/innen erstellen
