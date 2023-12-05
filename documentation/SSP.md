@@ -12,6 +12,18 @@ Das Self-Service-Portal (SSP) bietet einen benutzerfreundlichen Zugang zu allen 
 
 Das Portal wird ein Betriebs- und Supportplattform für Nutzer. Es wird Ihnen bei der Übergang helfen und erlaubt Ihnen, von Emails wegkommen. Es bietet zukünftig mehr Möglichkeiten, Nutzer und Zugang selbst zu verwalten.
 
+## Ab 11.12.23: Rollen in SSP
+### Wichtige Informationen zum Release am 11.12.
+Am 11.12. gibt es ein neues release des SSP. Ihr technischer VD-Account wird ab diesem Zeitpunkt nicht mehr zum Login im SSP funktionieren, sondern dient nur noch zur technischen Authentifizierung des Systems. Sie müssen sich im Portal einen Nutzer anlegen. Klicken Sie dazu im Portal einfach auf „Registrieren“ und erstellen Sie sich einen neuen Account. Wenn Sie bereits einen SSP Portal Account besitzen, können Sie diesen nutzen. Ab 11.12. können Sie diesen Nutzer dann über einen neuen Prozess verifizieren. Im Verifizierungsprozess können Sie dann ebenfalls ein PDF mit einer Verpflichtungserklärung hochladen. Hierfür gibt es aber keine feste Vorlage. Das Dokument dient nur dazu, dass Sie uns gegenüber versichern, dass Sie befugt sind, Accounts für Ihre Firma als Fachverfahrenshersteller zu verwalten. Bitte senden Sie uns nach Erstellung Ihres Accounts schnellstmöglich eine Liste all Ihrer technischen VD-Accounts (bestehende Accounts von einliefernden Systemen), welche von diesem neuen SSP Admin Account verwaltet werden sollen. Die Liste soll die jeweilige VD-Account-Email und die zugehörige Plattform URL enthalten und an versendet werden, damit wir Ihren Account entsprechend mit den VD-Systemaccounts verknüpfen können. Nach Verifizierung Ihres SSP Admin Accounts können Sie wie ebenfalls im FVH Treffen erläutert mit diesem Account sogenannte Dashboard Accounts mit eigener Email und Passwort erstellen. Sie können für jeden Dachboard-Nutzer explizit auswählen, von welchen einliefernden Systemen (VD-Accounts) dieser Nutzer die Bekanntmachungen einsehen können soll. WICHTIG: Nur Dashboard-User können die Bekanntmachungstabelle sehen, NICHT SSP Admin User oder VD-Accounts. Sie müssen sich also ggf. als SSP Admin zusätzlich einen Dashboard User einrichten, wenn Sie selbst die Bekanntmachungsübersicht sehen möchten.
+
+### Rollen-Übersicht
+Ab 11.12.23 werden folgende Rollen im Self-Service-Portal existieren:
+| Rolle im SSP        | Beschreibung | In SSP verfügbare Aktionen |
+|---------------------|--|--|
+| SSP (-Admin)-Nutzer | Verantwortlich für alle Nutzeraccounts der FVH; Admin für den FVH <br> Muss von Support verifiziert sein, um alle Nutzerverwaltung Rechte freizuschalten <br><br> <b>Wichtig: Um alle Funktionen der Nutzerverwaltung freizuschalten, müssen Sie uns mitteilen, welcher VD-Account mit Ihrem SSP-Admin-Account verknüpft sein soll</b> | <ul><li>Anlegen von neuen VD-Accounts (Anbindungen an den Vermittlungsdienst)</li> <li>Anlegen von neuen Dashboard-Nutzer</li><li> Nutzerverwaltung für Ihre eigene Organisation</li><li>Dokumentation ansehen</li></ul>|
+| Dashboard-Nutzer    | Service-Mitarbeiterin/Kundenbetreuungskonto mit Übersicht aller Bekanntmachungen der verknüpften VD-Accounts | <ul><li>Übersicht über alle Bekanntmachungen der verknüpften VD-Accounts</li> <li>Ein Nutzer kann mit mehreren VD-Accounts verknüpft sein</li><li>Dokumentation ansehen</li></ul>| |
+| VD-Account          | Nur für die technische Anbindung an den Vermittlungsdienst | <ul><li>Darf in SSP nicht einloggen</li><li>Dokumentation ansehen</li></ul> |
+
 
 ## Verfügbare Services
 ### Ab Oktober 2023:
