@@ -4,7 +4,7 @@
 <br />
 
 - Dezember 2023
-  - [Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
+  - [Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
 - November 2023
   - [Hotfix Release für Vermittlungsdienst und eSender](#Release-für-Vermittlungsdienst-und-eSender)
   - [Hotfix Release für Validator, Vermittlungsdienst und eSender](#Release-für-Validator-Mediator-und-eSender)  
@@ -25,8 +25,8 @@
 
 <br />
 
-<a id=Release-für-Self-Service-Portal-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
-## Release für Self-Service Portal Vermittlungsdienst, eSender, Notice-Viewer und Validator
+<a id=Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
+## Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 28.11.2023        | veröffentlicht |
