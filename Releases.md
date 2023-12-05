@@ -25,8 +25,8 @@
 
 <br />
 
-<a id=Release-für-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
-## Release für Vermittlungsdienst, eSender, Notice-Viewer und Validator
+<a id=Release-für-Self-Service-Portal-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
+## Release für Self-Service Portal Vermittlungsdienst, eSender, Notice-Viewer und Validator
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 28.11.2023        | veröffentlicht |
