@@ -4,7 +4,7 @@
 <br />
 
 - Dezember 2023
-  - [Release für Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
+  - [Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
 - November 2023
   - [Hotfix Release für Vermittlungsdienst und eSender](#Release-für-Vermittlungsdienst-und-eSender)
   - [Hotfix Release für Validator, Vermittlungsdienst und eSender](#Release-für-Validator-Mediator-und-eSender)  
@@ -37,18 +37,25 @@ Status: In QS <br>
 <details>
 <summary>Release Notes</summary>
 
+> **Hinweis** <br>
+Anmelding auf dem Self-Service Portal mit einem Vermittlungsdienst-Nutzer*/in ist nicht mehr möglich. 
+
+### Self-Service Portal 
+- Nach der Genehmigung kann ein SSP-Nutzer*/in jetzt selbst eigene Vermittlungsdienst- und Dashboard- Nutzer*/innen erstellen
+- SSP-Nutzer*/in können mehrere Vermittlungsdienst-Nutzer*/innen zu einem Dashboard-Nutzer*/in verlinkt werden
+- Alle erstellten Vermittlungsdienst- und Dashboard-Nutzer*/innen können gelöscht, bearbeitet und deaktiviert werden
+- Alle übermittelten Bekanntmachungen stehen ab jetzt für den Dashboard-Nutzer*/in zur Verfügung
+
 ### Vermittlungsdienst
 - Bei wiederholter Zustellung an BKMS im Fall eines Dublikates wird jetzt der richtige Status gesetzt
 - Konfigurierbare Statuszuordnungstabelle implementiert
 - Die Meldung wurde eingefügt, wenn der Benutzer die Benachrichtigung erfolgreich gestoppt hat
 - Ablauf von Löschen der Tenant wurde geändert 
-- Ein Dashboard-Benutzer kann jetzt auch gelöscht werden
 - Endpunkt für die Erstellung von Tenant und Dashboard-Benutzern verbessert
 - Ein neuer PATCH Endpunkt für die Aktualisierung von eSender-Integration und Schematron-Validierung eingeführt
-- der Endpunkt zur Aktualisierung von Tenant-Benutzern in Keycloak wurde verbessert
+- Der Endpunkt zur Aktualisierung von Tenant-Benutzern in Keycloak wurde verbessert
 - Change-Notice Checks werden wieder eingeführt
 - Diverse Statusbeschreibungen wurden verbessert
-- Verknüpfung von Dashboard-Benutzern zu mehreren Tenant ist jetzt möglich
 - XSD-Fehlerdetails über die fehlgeschlagene Regel werden in die Antwort aufgenommen
 - Das Validierungsmodell von 'business_document' wurde eingeführt
 - Obligatorische lineDescription in PEPPOL Message (T016) wurde verbessert
