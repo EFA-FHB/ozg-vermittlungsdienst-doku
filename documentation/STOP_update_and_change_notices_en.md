@@ -7,13 +7,13 @@
 
 ## Content
 - [1. use of version numbers and notice IDs in the context of passing on notices ](#versions-explained)
-    - 1.1 [Versions and the use of version numbers [Update Notice functionality]](#versions-update)
-    - 1.2 [New notice ID for changes [Change Notice functionality]](#versions-change)
-    - 1.3 [Changes that follow each other](#versions-changes)
+    - [1.1 Versions and the use of version numbers [Update Notice functionality](#versions-update)
+    - 1.2 New notice ID for changes [Change Notice functionality](#versions-change)
+    - 1.3 Changes that follow each other](#versions-changes)
 - [2. adapting the content of a notice](#stop-or-change)
-    - 2.1 [Update to an announcement](#update)
-    - 2.2 [Change notices](#change-notice)
-- 3. [STOP publication functionality](#stop-func)
+    - 2.1 Update to an announcement](#update)
+    - 2.2 Change notices](#change-notice)
+- 3. STOP publication functionality](#stop-func)
 
 ## 1. use of version numbers and notice IDs in the context of passing on notices <span id='versions-explained'>
 
@@ -24,12 +24,12 @@ The second concept describes the handling of previously published notices (on TE
 
 ### 1.1 Versions and the use of version numbers [functionality 'Update Notice']<span id='versions-update'>
 
-The concept of versions in notices is used to indicate changes to a notice to TED that were made after the first notice was sent to TED until the publication of a higher version of this notice (on TED and in the Public Procurement Data Service).<br><br>
+The concept of versions for notices is used to indicate changes to a notice to TED that were made after the first notice was sent to TED until the publication of a higher version of this notice (on TED and in the Public Procurement Data Service).<br><br>
 Notices could therefore be changed to a Notice ID via subsequent versions AFTER they have been accepted by TED (status "Accepted") but not yet published (status "Published"). Versions may only be incremented to a Notice ID until the announcement has been published by TED.<br><br>
 As soon as the status of a TED notice has reached "published", no new version may be sent. The following graphic illustrates the above.
 
 ![stop_chain1](/documentation/images/stop_chain1.png)
-*Figure 1: Chain of unpublished versions for an announcement at TED*
+*Figure 1: Chain of unpublished versions of an announcement at TED*
 <br><br>
 
 ### 1.2 New notice ID for changes [functionality 'Change Notice']<span id='versions-change'>
@@ -83,10 +83,10 @@ If it is necessary that not only one change has to be published for an announcem
 The following graphic illustrates the above.
 
 ![stop_chain3](/documentation/images/stop_chain3.png)
-*Figure 4: Chains of published changes to an announcement that follow each other*
+*Figure 4: Chains of published changes to an announcement that follow one another*
 <br><br>
 
-## 2. customize the content of an announcement<span id='stop-or-change'>
+## 2. customizing the content of an announcement<span id='stop-or-change'>
 
 There are two ways to change the content of an announcement: By *stop + update* before publication or by a change notice (*change notice*) after publication.
 <br><br>
