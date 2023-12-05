@@ -38,7 +38,7 @@ Status: In QA <br>
 <summary>Release notes</summary>
 
 > **Note** <br>
-Logging in to the self-service portal with an operator service user is no longer possible.
+Login to the self-service portal with an operator service user is no longer possible.
 
 ### Self-Service Portal
 - After approval, an SSP user can now create their own attendant service and dashboard users themselves
