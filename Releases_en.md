@@ -4,7 +4,7 @@
 <br />
 
 - December 2023
-  - Release for switching service, eSender, notice viewer and validator](#Release-for-switching-service,-eSender,-notice-viewer-and-validator)
+  - Release for Self-Service Portal, Mediation Service, eSender, Notice Viewer and Validator](#Release-for-Mediation-Service,-eSender,-Notice-Viewer-and-Validator)
 - November 2023
   - Hotfix release for switching service and eSender](#Release-for-switching-service-and-eSender)
   - Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
@@ -37,18 +37,25 @@ Status: In QA <br>
 <details>
 <summary>Release notes</summary>
 
-### Switching service
+> **Note** <br>
+Logging in to the self-service portal with an operator service user is no longer possible.
+
+### Self-Service Portal
+- After approval, an SSP user can now create their own attendant service and dashboard users themselves
+- SSP users can link several attendant service users to one dashboard user
+- All switching service and dashboard users created can be deleted, edited and deactivated
+- All transmitted announcements are now available for the dashboard user
+
+### Operator service
 - The correct status is now set for repeated delivery to BKMS in the event of a duplicate
-- Configurable status mapping table implemented
+- Configurable status assignment table implemented
 - The message has been added when the user has successfully stopped the notification
 - Tenant deletion process has been changed
-- A dashboard user can now also be deleted
-- Endpoint for the creation of tenant and dashboard users improved
+- Endpoint for tenant and dashboard user creation improved
 - A new PATCH endpoint for updating eSender integration and Schematron validation has been introduced
 - The endpoint for updating tenant users in Keycloak has been improved
 - Change notice checks have been reintroduced
 - Various status descriptions have been improved
-- Linking dashboard users to multiple tenants is now possible
 - XSD error details about the failed rule are included in the response
 - The validation model of 'business_document' has been introduced
 - Mandatory lineDescription in PEPPOL message (T016) has been improved
@@ -58,7 +65,7 @@ Status: In QA <br>
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented when BKMS does not respond
+- Retry delivery is now implemented if BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
@@ -253,7 +260,7 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+<a id=release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
 ## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
