@@ -42,8 +42,8 @@ Logging in to the self-service portal with an operator service user is no longer
 
 ### Self-Service Portal
 - After approval, an SSP user can now create their own attendant service and dashboard users themselves
-- SSP users can link several attendant service users to one dashboard user
-- All switching service and dashboard users created can be deleted, edited and deactivated
+- SSP users can link multiple attendant service users to one dashboard user
+- All created switching service and dashboard users can be deleted, edited and deactivated
 - All transmitted announcements are now available for the dashboard user
 
 ### Operator service
