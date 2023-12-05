@@ -25,9 +25,9 @@
 
 <br />
 
-<a id=release-for-mediation-service,-eSender,-notice-viewer-and-validator></a>
-## Release for switching service, eSender, notice viewer and validator
-| Environment Switching Service | Period | Status |
+<a id=release-for-self-service-portal-mediation-service,-eSender,-notice-viewer-and-validator></a>
+## Release for self-service portal switching service, eSender, notice viewer and validator
+| Environment Operator Service | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 28.11.2023 | published |
 | Staging | 04.12.2023 | published |
@@ -260,7 +260,7 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
 ## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
