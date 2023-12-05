@@ -42,7 +42,7 @@ Anmelding auf dem Self-Service Portal mit einem Vermittlungsdienst-Nutzer*/in is
 
 ### Self-Service Portal 
 - Nach der Genehmigung kann ein SSP-Nutzer*/in jetzt selbst eigene Vermittlungsdienst- und Dashboard- Nutzer*/innen erstellen
-- SSP-Nutzer*/in können mehrere Vermittlungsdienst-Nutzer*/innen zu einem Dashboard-Nutzer*/in verlinkt werden
+- SSP-Nutzer*/in können mehrere Vermittlungsdienst-Nutzer*/innen zu einem Dashboard-Nutzer*/in verlinken
 - Alle erstellten Vermittlungsdienst- und Dashboard-Nutzer*/innen können gelöscht, bearbeitet und deaktiviert werden
 - Alle übermittelten Bekanntmachungen stehen ab jetzt für den Dashboard-Nutzer*/in zur Verfügung
 
