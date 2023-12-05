@@ -4,7 +4,7 @@
 <br />
 
 - December 2023
-  - Release for Self-Service Portal, Mediation Service, eSender, Notice Viewer and Validator](#Release-for-Mediation-Service,-eSender,-Notice-Viewer-and-Validator)
+  - Release for Self-Service Portal, Mediation Service, eSender, Notice Viewer and Validator](#Release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator)
 - November 2023
   - Hotfix release for switching service and eSender](#Release-for-switching-service-and-eSender)
   - Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
@@ -12,7 +12,7 @@
     
 - October 2023
   - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
-  - [Release for self-service portal - portal account, registration form for a separate mediation service account](#Release-for-self-service-portal-portal-account,-registration-form-for-a-separate-mediation-service-account)
+  - Release for self-service portal - portal account, registration form for a separate mediation service account](#Release-for-self-service-portal-portal-account,-registration-form-for-a-separate-mediation-service-account)
 - September 2023
   - [Release for RequestedPublicationDate Fix + Notice Viewer - Mediation Service, eSender Hub, Notice Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
   - Release for eForms-DE 1.1 - switching service and eSender Hub](#Release-for-eForms-DE-1.1-switching-service-and-eSender-Hub)
@@ -25,8 +25,8 @@
 
 <br />
 
-<a id=release-for-self-service-portal-mediation-service,-eSender,-notice-viewer-and-validator></a>
-## Release for self-service portal switching service, eSender, notice viewer and validator
+<a id=release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator></a>
+## Release for self-service portal, switching service, eSender, notice viewer and validator
 | Environment Operator Service | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 28.11.2023 | published |
@@ -260,7 +260,7 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+<a id=release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
 ## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
