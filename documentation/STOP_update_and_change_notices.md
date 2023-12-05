@@ -28,7 +28,7 @@ Das Konzept der Versionen bei Bekanntmachungen dient dazu, Änderungen an einer 
 Bekanntmachungen könnte also über Nachfolgeversionen zu einer Notice-ID geändert werden, NACHDEM sie von TED angenommen wurden (Status „Accepted“) aber noch nicht veröffentlicht sind (Status „Published“). Versionen dürfen zu einer Notice-ID nur so lange hochgezählt werden, bis die Bekanntmachung bei TED veröffentlicht worden ist.<br><br>
 Sobald der Status einer Bekanntmachung von TED den Status „published“ erreicht hat, darf keine neue Version mehr verschickt werden. Die nachfolgende grafische Darstellung veranschaulicht das oben Gesagte. 
 
-![stop_chain1](/images/stop_chain1.png)
+![stop_chain1](/documentation/images/stop_chain1.png)
 *Abbildung 1: Kette von unveröffentlichten Versionen zu einer Bekanntmachung bei TED*
 <br><br>
 
@@ -73,7 +73,7 @@ Die nachfolgende Darstellung der entsprechenden BTs im XML einer beliebigen Beka
 <br>
 Bis zur Veröffentlichung dieses Changes könnte dann eine Änderung der Bekanntmachung wiederum mit Hilfe von hochgezählten Versionen über die Funktionalität ‚Update Notice‘ erfolgen.
 
-![stop_chain2](/images/stop_chain2.png)
+![stop_chain2](/documentation/images/stop_chain2.png)
 *Abbildung 3: Kette von __veröffentlichten__ Bekanntmachungen, einem Change und weiteren Änderungen an diesem Change bis zur erneuten Veröffentlichung dieses Changes bei TED*
 <br><br>
 
@@ -82,7 +82,7 @@ Bis zur Veröffentlichung dieses Changes könnte dann eine Änderung der Bekannt
 Wenn es notwendig ist, dass nicht nur ein Change für eine Bekanntmachung veröffentlicht werden muss, sondern mehrere Changes nacheinander veröffentlicht werden, dann ist die Vorgängerbekanntmachung, die im Change zu referenzieren ist, immer diejenige Bekanntmachung, die zu diesem Thema mit der höchsten Versionsnummner veröffentlicht wurde. Diese Vorgehensweise hilft, Versionsbäume zu verhindern.<br><br>
 Die nachfolgende Grafik illustriert das oben Gesagte.
 
-![stop_chain3](/images/stop_chain3.png)
+![stop_chain3](/documentation/images/stop_chain3.png)
 *Abbildung 4: Ketten von veröffentlichten Changes zu einer Bekanntmachung, die aufeinander folgen*
 <br><br>
 

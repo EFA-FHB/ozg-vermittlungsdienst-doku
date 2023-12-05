@@ -28,7 +28,7 @@ The concept of versions in notices is used to indicate changes to a notice to TE
 Notices could therefore be changed to a Notice ID via subsequent versions AFTER they have been accepted by TED (status "Accepted") but not yet published (status "Published"). Versions may only be incremented to a Notice ID until the announcement has been published by TED.<br><br>
 As soon as the status of a TED notice has reached "published", no new version may be sent. The following graphic illustrates the above.
 
-![stop_chain1](/images/stop_chain1.png)
+![stop_chain1](/documentation/images/stop_chain1.png)
 *Figure 1: Chain of unpublished versions for an announcement at TED*
 <br><br>
 
@@ -73,7 +73,7 @@ The following representation of the corresponding BTs in the XML of any notice i
 <br>
 Until this change is published, the notice could then be changed again with the help of incremented versions using the 'Update Notice' functionality.
 
-![stop_chain2](/images/stop_chain2.png)
+![stop_chain2](/documentation/images/stop_chain2.png)
 *Figure 3: Chain of __published__ notices, a change and further changes to this change until this change is published again at TED*
 <br><br>
 
@@ -82,7 +82,7 @@ Until this change is published, the notice could then be changed again with the 
 If it is necessary that not only one change has to be published for an announcement, but several changes are published in succession, then the predecessor announcement to be referenced in the change is always the announcement that was published on this topic with the highest version number. This procedure helps to prevent version trees.<br><br>
 The following graphic illustrates the above.
 
-![stop_chain3](/images/stop_chain3.png)
+![stop_chain3](/documentation/images/stop_chain3.png)
 *Figure 4: Chains of published changes to an announcement that follow each other*
 <br><br>
 
