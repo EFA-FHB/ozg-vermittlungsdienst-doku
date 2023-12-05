@@ -782,8 +782,8 @@ Was genau zu tun ist, damit diese Rückwärtsverkettung ermöglicht wird und zu 
 </details>
 <br>
  <details>
-   <summary>Langfassung
-      </summary>
+  <summary>Langfassung
+  </summary>
 
 <br>
 Die nachfolgende Darstellung soll helfen, das eForms-Formular zur Ergebnisbekanntmachung (CAN) so weit auszufüllen, dass im Bekanntmachungsservice (www.oeffentlichevergabe.de) die zugehörigen vergebenen Verträge korrekt angezeigt werden können. 
@@ -906,6 +906,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 |<br>|||
 |</details>|||
 |<br>|||
+</details>
 
 ### Neuauflage des Verfahrens (BT-634)
 
@@ -1080,7 +1081,7 @@ Bleibt die Angabe der NUTS-lvl3-Codes weiterhin pflichtig?
 </summary>
 <br>
 Ja, soweit NUTS-Codes vorhanden sind, sind diese anzugeben
-  </details>
+</details>
 <br>
 
 # Allgemein
