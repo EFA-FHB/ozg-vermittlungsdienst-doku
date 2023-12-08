@@ -25,7 +25,8 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
-| Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 21.11. | 06:00 - 07:00 CEST | Infrastrukturwartung | 
+| Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 21.11. | 06:00 - 07:00 CEST | Infrastrukturwartung |
+| Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 11.12. | 06:00 - 07:00 CEST | Infrastrukturwartung | 
 
 ## Bekannte Bugs 
 
