@@ -8,7 +8,7 @@
 >Bitte beachten Sie: Wenn unterschwellige Bekanntmachungen weiterhin an service.bund.de gesendet werden, dürfen diese NICHT zusätzlich an den Vermittlungsdienst gesendet werden!
 
 # Anbindung an den Vermittlungsdienst
-Die Übermittlung von Bekanntmachungen an den Vermittlungsdienst kann über die [REST API](#anbindung-per-rest-api) des Vermittlungsdienst oder über das [eDelivery Network PEPPOL](#anbindung-per-peppol-in-der-umsetzung) (in der Umsetzung) erfolgen.
+Die Übermittlung von Bekanntmachungen an den Vermittlungsdienst kann über die [REST API](#anbindung-per-rest-api) des Vermittlungsdienst oder über das [eDelivery Network PEPPOL](#anbindung-per-peppol) erfolgen.
 <br>
 
 ## Anbindung per REST API
@@ -60,7 +60,7 @@ Weitere Informationen zum Konzept des Refresh Token und Hinweise zur Umsetzung w
 <br>
 
 
-## Anbindung per PEPPOL (in der Umsetzung)
+## Anbindung per PEPPOL
 Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEPPOL an den Vermittlungsdienst zu übermitteln. Details und weitere Informationen folgen. 
 <br>
 
