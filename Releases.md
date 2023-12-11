@@ -12,7 +12,7 @@
     
 - Oktober 2023
   - [Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe](#Release-für-Notice-Viewer-PDF-Dokumente-+-synchrone-Aufrufe)
-  - [Release für Self-Service Portal - Portal-Account, Registrierungsform für einen separaten Vermittlungsdienst-Account](#Release-für-Self-Service-Portal-Portal-Account,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account)
+  - [Release für Self-Service Portal, Registrierungsform für einen separaten Vermittlungsdienst-Account](#Release-für-Self-Service-Portal-Portal-Account,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account)
 - September 2023
   - [Release für RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-für-RequestedPublicationDate-Fix-+-Notice-Viewer-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer)
   - [Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub](#Release-für-eForms-DE-1.1-Vermittlungsdienst-und-eSender-Hub)
@@ -180,8 +180,8 @@ Status: Veröffentlicht am 20.10.2023 <br>
 
 </details>
 
-<a id=Release-für-Self-Service-Portal-Portal-Account,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account></a>
-## Release für Self-Service Portal - Portal-Account, Registrierungsform für einen separaten Vermittlungsdienst-Account
+<a id=Release-für-Self-Service-Portal,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account></a>
+## Release für Self-Service Portal, Registrierungsform für einen separaten Vermittlungsdienst-Account
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | Doku + Registrierungsformular: **KW38** , Statusübersicht: **KW39**         | veröffentlicht |
