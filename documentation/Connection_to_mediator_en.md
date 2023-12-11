@@ -8,7 +8,7 @@
 >Please note: If subliminal announcements are still sent to service.bund.de, these must NOT also be sent to the switching service!
 
 # Connection to the switching service
-Notices can be sent to the switching service via the [REST API](#anbindung-per-rest-api) of the switching service or via the [eDelivery Network PEPPOL](#connection-via-PEPPOL).
+Notices can be sent to the switching service via the [REST API](#connection-via-REST-API) of the switching service or via the [eDelivery Network PEPPOL](#connection-via-PEPPOL).
 <br>
 
 ## Connection via REST API
