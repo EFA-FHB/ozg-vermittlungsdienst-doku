@@ -31,14 +31,14 @@
 |------------|-----------------------------|----------------|
 | Preview | 28.11.2023 | published |
 | Staging | 04.12.2023 | published |
-| Production | 11.12.2023 | |
+| Production | 11.12.2023 | published |
 
-Status: In QA <br>
+Status: Published on 11.12.2023 <br>
 <details>
 <summary>Release notes</summary>
 
 > **Note** <br>
-Login to the self-service portal with an operator service user is no longer possible.
+It is no longer possible to log in to the self-service portal with an operator service user.
 
 ### Self-Service Portal
 - After approval, an SSP user can now create their own attendant service and dashboard users themselves
@@ -260,7 +260,7 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
 ## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
