@@ -1027,6 +1027,14 @@ Neuerungen und Details (ergänzt am 27.09.23)
   </details>
   <br>
 
+### BT-1501(s)-Contract Verlinkung alter SIMAP/nicht eForms Bekanntmachungen
+<details>
+<summary>
+Welche ID muss ich verwenden um auf alte Bekanntmachungen vor der Verpflichtung von eForms zu verlinken?</summary>
+<br>
+Bitte nutzen sie hierzu die Notice Publication ID oder auch Dokumentennummer, die von TED für jede Bekanntmachung einzigartig vergeben wird. Diese ist sowohl in den Suchergebnissen der Bekanntmachungen auf der TED Webseite in der Spalte 'Dokumentennummer' als auch im direkten Link von TED zu der Bekanntmachung als auch in der Detailseite der Bekanntmachung in der Überschrift zu sehen. Sie besteht aus einer Reihe an Zahlen, einem Bindestrich und dem Veröffentlichunsjahr der Bekanntmachung. z.B. 1234576-2022. Die Anzahl der Zahlen vor dem Bindestrich kann variieren. 
+  </details>
+
 ### Lose
 <details>
 <summary>
