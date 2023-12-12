@@ -1035,12 +1035,12 @@ Welche ID muss ich verwenden um auf alte Bekanntmachungen vor der Verpflichtung 
 Bitte nutzen sie hierzu die Notice Publication ID oder auch Dokumentennummer, die von TED für jede Bekanntmachung einzigartig vergeben wird. Diese ist sowohl in den Suchergebnissen der Bekanntmachungen auf der TED Webseite in der Spalte 'Dokumentennummer' als auch im direkten Link von TED zu der Bekanntmachung als auch in der Detailseite der Bekanntmachung in der Überschrift zu sehen. Sie besteht aus einer Reihe an Zahlen, einem Bindestrich und dem Veröffentlichunsjahr der Bekanntmachung. z.B. 1234576-2022. Die Anzahl der Zahlen vor dem Bindestrich kann variieren. 
   </details>
 
-### BT-1501(s)-Contract Verlinkung alter SIMAP/nicht-eForms Verträge
+### BT-1501(s)-Contract  
 <details>
 <summary>
 Welchen Wert muss ich für BT-1501(s)-Contract nutzen?</summary>
 <br>
-Bitte nutzen sie hier den Wert CON-0001, da es in den alten Bekanntmachungen noch keine IDs für Verträge gab.   
+Bitte legen sie einen Vertrag an und Verlinken sie die ID dessen anschließend in diesem Feld. Sollten sie auf eine alte Bekanntmachung referenzieren in der es noch keine IDs für Verträge gab, ist es evtl. auch möglich den Wert CON-0001 zu nutzen.
 </details>
 
 
