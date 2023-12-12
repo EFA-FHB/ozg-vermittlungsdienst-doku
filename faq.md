@@ -1027,6 +1027,13 @@ Neuerungen und Details (ergänzt am 27.09.23)
   </details>
   <br>
 
+### BT-1501(s)-Contract Verlinkung alter SIMAP/nicht-eForms Verträge
+<details>
+<summary>
+Welchen Wert muss ich für BT-1501(s)-Contract nutzen?</summary>
+<br>
+Bitte nutzen sie hier den Wert CON-0001, da es in den alten Bekanntmachungen noch keine IDs für Verträge gab.   
+</details>
 
 
 ### Lose
