@@ -1040,7 +1040,7 @@ Bitte nutzen sie hierzu die Notice Publication ID oder auch Dokumentennummer, di
 <summary>
 Welchen Wert muss ich für BT-1501(s)-Contract nutzen?</summary>
 <br>
-Bitte legen sie einen Vertrag an und Verlinken sie die ID dessen anschließend in diesem Feld. Sollten sie auf eine alte Bekanntmachung referenzieren in der es noch keine IDs für Verträge gab, ist es evtl. auch möglich den Wert CON-0001 zu nutzen.
+Bitte legen sie einen Vertrag an und Verlinken sie die ID dessen anschließend in diesem Feld. Diese kann z.B. den Wert CON-0001 haben.
 </details>
 
 
