@@ -16,7 +16,7 @@ Das Portal wird ein Betriebs- und Supportplattform für Nutzer. Es wird Ihnen be
 ### Wichtige Informationen zum Release am 11.12.
 
 
-Am 11.12. gibt es ein neues release des SSP. Ihr technischer VD-Account wird ab diesem Zeitpunkt nicht mehr zum Login im SSP funktionieren, sondern dient nur noch zur technischen Authentifizierung des Systems. 
+Am 11.12. gibt es ein neues Release des SSP. Ihr technischer VD-Account wird ab diesem Zeitpunkt nicht mehr zum Login im SSP funktionieren, sondern dient nur noch zur technischen Anbindung an Vermittlungsdienst, Validator und Viewer. 
 <br> <br>Für Login im Portal müssen Sie sich einen Nutzer anlegen. Klicken Sie dazu im Portal einfach auf „Registrieren“ und erstellen Sie sich einen neuen Account. Wenn Sie bereits einen SSP Portal Account besitzen, können Sie diesen nutzen. Sie können jetzt diesen Nutzer über einen neuen Prozess verifizieren. Im Verifizierungsprozess können Sie ebenfalls ein PDF mit einer Verpflichtungserklärung hochladen. Hierfür gibt es aber keine feste Vorlage. Das Dokument dient nur dazu, dass Sie uns gegenüber versichern, dass Sie befugt sind, Accounts für Ihre Firma als Fachverfahrenshersteller zu verwalten.
 > [!WARNING]
 > Für den SSP-Admin Account bitte die E-Mail-Adresse eines Postfachs nutzen, keine persönliche, damit auch andere Personen aus Ihrer Organisation die VD-Accounts und Dashboard-Accounts verwalten können.
