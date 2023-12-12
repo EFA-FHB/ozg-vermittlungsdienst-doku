@@ -4,6 +4,7 @@
 <br />
 
 - Dezember 2023
+  - [Release für Validierung (eForms-DE 1.1 Mehrsprachigkeit)](#Release-für-Validierung)
   - [Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
 - November 2023
   - [Hotfix Release für Vermittlungsdienst und eSender](#Release-für-Vermittlungsdienst-und-eSender)
@@ -24,6 +25,29 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-für-Validierung></a>
+## Hotfix Release für Validierung (eForms-DE 1.1 Mehrsprachigkeit)
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 18.11.2023        |  |
+| Staging    | 19.11.2023       |  |
+| Produktion | 20.11.2023      |  |
+
+Status: In Entwicklung <br>
+<details>
+<summary>Release Notes</summary>
+
+### Validator (Webservice + Open-Source)
+- Nutzung von eForms-DE Schematron 0.7.1 für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.1)
+- ermöglicht volle Unterstützung von mehrsprachigen eForms-DE Dokumenten
+
+### Vermittlungsdienst
+- Nutzung von eForms-DE Schematron 0.7.1 für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.1)
+- ermöglicht volle Unterstützung von mehrsprachigen eForms-DE Dokumenten
+
+
+</details>
 
 <a id=Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
 ## Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator
