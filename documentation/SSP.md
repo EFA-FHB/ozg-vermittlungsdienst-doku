@@ -14,13 +14,25 @@ Das Portal wird ein Betriebs- und Supportplattform für Nutzer. Es wird Ihnen be
 
 ## Ab 11.12.23: Rollen in SSP
 ### Wichtige Informationen zum Release am 11.12.
+
+
 Am 11.12. gibt es ein neues release des SSP. Ihr technischer VD-Account wird ab diesem Zeitpunkt nicht mehr zum Login im SSP funktionieren, sondern dient nur noch zur technischen Authentifizierung des Systems. 
-<br> Für Login im Portal müssen Sie sich einen Nutzer anlegen. Klicken Sie dazu im Portal einfach auf „Registrieren“ und erstellen Sie sich einen neuen Account. Wenn Sie bereits einen SSP Portal Account besitzen, können Sie diesen nutzen. Sie können jetzt diesen Nutzer über einen neuen Prozess verifizieren. Im Verifizierungsprozess können Sie ebenfalls ein PDF mit einer Verpflichtungserklärung hochladen. Hierfür gibt es aber keine feste Vorlage. Das Dokument dient nur dazu, dass Sie uns gegenüber versichern, dass Sie befugt sind, Accounts für Ihre Firma als Fachverfahrenshersteller zu verwalten.
-<br>Bitte senden Sie uns nach Erstellung Ihres Accounts schnellstmöglich eine Liste all Ihrer technischen VD-Accounts (bestehende Accounts von einliefernden Systemen), welche von diesem neuen SSP Admin Account verwaltet werden sollen. Die Liste soll die jeweilige VD-Account-Email und die zugehörige Plattform URL enthalten und an Support versendet werden, damit wir Ihren Account entsprechend mit den VD-Systemaccounts verknüpfen können.
-<br>Nach Verifizierung Ihres SSP Admin Accounts können Sie mit diesem Account sogenannte Dashboard-Nutzer mit eigener Email und Passwort erstellen. Sie können für jeden Dashboard-Nutzer explizit auswählen, von welchen einliefernden Systemen (VD-Accounts) dieser Nutzer die Bekanntmachungen einsehen können soll.
-<br><b>WICHTIG:</b> Nur Dashboard-Nutzer können die Bekanntmachungstabelle sehen, NICHT SSP Admin User oder VD-Accounts. Sie müssen sich also ggf. als SSP Admin zusätzlich einen Dashboard-Nutzer einrichten, wenn Sie selbst die Bekanntmachungsübersicht sehen möchten.
+<br> <br>Für Login im Portal müssen Sie sich einen Nutzer anlegen. Klicken Sie dazu im Portal einfach auf „Registrieren“ und erstellen Sie sich einen neuen Account. Wenn Sie bereits einen SSP Portal Account besitzen, können Sie diesen nutzen. Sie können jetzt diesen Nutzer über einen neuen Prozess verifizieren. Im Verifizierungsprozess können Sie ebenfalls ein PDF mit einer Verpflichtungserklärung hochladen. Hierfür gibt es aber keine feste Vorlage. Das Dokument dient nur dazu, dass Sie uns gegenüber versichern, dass Sie befugt sind, Accounts für Ihre Firma als Fachverfahrenshersteller zu verwalten.
+> [!WARNING]
+> Für den SSP-Admin Account bitte die E-Mail-Adresse eines Postfachs nutzen, keine persönliche, damit auch andere Personen aus Ihrer Organisation die VD-Accounts und Dashboard-Accounts verwalten können.
+> Der SSP-Admin Account ist per 2FA per E-Mail geschützt, weshalb für berechtigte Personen der Zugriff auf das Postfach unbedingt notwendig ist.
+
+Bitte senden Sie uns nach Erstellung Ihres Accounts schnellstmöglich eine Liste all Ihrer technischen VD-Accounts (bestehende Accounts von einliefernden Systemen), welche von diesem neuen SSP Admin Account verwaltet werden sollen. Die Liste soll die jeweilige VD-Account-Email und die zugehörige Plattform URL enthalten und an Support versendet werden, damit wir Ihren Account entsprechend mit den VD-Systemaccounts verknüpfen können.
+<br><br>Nach Verifizierung Ihres SSP Admin Accounts können Sie mit diesem Account sogenannte Dashboard-Nutzer mit eigener Email und Passwort erstellen. Sie können für jeden Dashboard-Nutzer explizit auswählen, von welchen einliefernden Systemen (VD-Accounts) dieser Nutzer die Bekanntmachungen einsehen können soll.
+
+> [!TIP]
+> Nur Dashboard-Nutzer können die Bekanntmachungstabelle sehen, NICHT SSP Admin User oder VD-Accounts. Sie müssen sich also ggf. als SSP Admin zusätzlich einen Dashboard-Nutzer mit einer separaten E-Mail Adresse einrichten, wenn Sie selbst die Bekanntmachungsübersicht sehen möchten.
 
 ### Rollen-Übersicht
+
+> [!IMPORTANT]
+> Alle Accounts brauchen eine einzigartige E-Mail Adresse. Wir empfehlen für den SSP-Admin Account KEINE persönlichen E-Mail-Adressen zu nutzen!
+
 Ab 11.12.23 werden folgende Rollen im Self-Service-Portal existieren:
 | Rolle im SSP        | Beschreibung | In SSP verfügbare Aktionen |
 |---------------------|--|--|
