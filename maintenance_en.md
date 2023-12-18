@@ -37,6 +37,8 @@ If you have domains that do not correspond to this, please open a support ticket
 
 ## Notes
 
+The preview environment is only available between 06:00 and 20:00 CET. Please also use the staging environment for testing purposes, which is available around the clock.
+
 On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted in staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
 
 
