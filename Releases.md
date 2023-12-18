@@ -30,11 +30,11 @@
 ## Hotfix Release für Validierung (eForms-DE 1.1 Mehrsprachigkeit)
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 18.11.2023        |  |
+| Preview    | 18.11.2023        | veröffentlicht |
 | Staging    | 19.11.2023       |  |
 | Produktion | 20.11.2023      |  |
 
-Status: In Entwicklung <br>
+Status: In QS <br>
 <details>
 <summary>Release Notes</summary>
 
