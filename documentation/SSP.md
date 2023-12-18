@@ -1,5 +1,6 @@
-**EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"**
-### Dokumentation Vermittlungsdienst
+
+### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
+## Dokumentation Vermittlungsdienst
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
@@ -18,19 +19,20 @@ Das Portal wird ein Betriebs- und Supportplattform für Nutzer. Es wird Ihnen be
 
 Am 11.12. gibt es ein neues Release des SSP. Ihr technischer VD-Account wird ab diesem Zeitpunkt nicht mehr zum Login im SSP funktionieren, sondern dient nur noch zur technischen Anbindung an Vermittlungsdienst, Validator und Viewer. 
 <br> <br>Für Login im Portal müssen Sie sich einen Nutzer anlegen. Klicken Sie dazu im Portal einfach auf „Registrieren“ und erstellen Sie sich einen neuen Account. Wenn Sie bereits einen SSP Portal Account besitzen, können Sie diesen nutzen. Sie können jetzt diesen Nutzer über einen neuen Prozess verifizieren. Im Verifizierungsprozess können Sie ebenfalls ein PDF mit einer Verpflichtungserklärung hochladen. Hierfür gibt es aber keine feste Vorlage. Das Dokument dient nur dazu, dass Sie uns gegenüber versichern, dass Sie befugt sind, Accounts für Ihre Firma als Fachverfahrenshersteller zu verwalten.
-> [!WARNING]
+
+> **WARNUNG** 
 > Für den SSP-Admin Account bitte die E-Mail-Adresse eines Postfachs nutzen, keine persönliche, damit auch andere Personen aus Ihrer Organisation die VD-Accounts und Dashboard-Accounts verwalten können.
 > Der SSP-Admin Account ist per 2FA per E-Mail geschützt, weshalb für berechtigte Personen der Zugriff auf das Postfach unbedingt notwendig ist.
 
 Bitte senden Sie uns nach Erstellung Ihres Accounts schnellstmöglich eine Liste all Ihrer technischen VD-Accounts (bestehende Accounts von einliefernden Systemen), welche von diesem neuen SSP Admin Account verwaltet werden sollen. Die Liste soll die jeweilige VD-Account-Email und die zugehörige Plattform URL enthalten und an Support versendet werden, damit wir Ihren Account entsprechend mit den VD-Systemaccounts verknüpfen können.
 <br><br>Nach Verifizierung Ihres SSP Admin Accounts können Sie mit diesem Account sogenannte Dashboard-Nutzer mit eigener Email und Passwort erstellen. Sie können für jeden Dashboard-Nutzer explizit auswählen, von welchen einliefernden Systemen (VD-Accounts) dieser Nutzer die Bekanntmachungen einsehen können soll.
 
-> [!TIP]
+> **TIP**
 > Nur Dashboard-Nutzer können die Bekanntmachungstabelle sehen, NICHT SSP Admin User oder VD-Accounts. Sie müssen sich also ggf. als SSP Admin zusätzlich einen Dashboard-Nutzer mit einer separaten E-Mail Adresse einrichten, wenn Sie selbst die Bekanntmachungsübersicht sehen möchten.
 
 ### Rollen-Übersicht
 
-> [!IMPORTANT]
+> **WICHTIG**
 > Alle Accounts brauchen eine einzigartige E-Mail Adresse. Wir empfehlen für den SSP-Admin Account KEINE persönlichen E-Mail-Adressen zu nutzen!
 
 Ab 11.12.23 werden folgende Rollen im Self-Service-Portal existieren:
@@ -42,36 +44,32 @@ Ab 11.12.23 werden folgende Rollen im Self-Service-Portal existieren:
 
 
 ## Verfügbare Services
-### Ab Oktober 2023:
+
 Das Portal bietet folgende Hauptfunktionen:
 * Dokumentation ansehen
   * *Es wird langfristig geplant, die Dokumentation, die sich derzeit in Github befindet, in das Portal zu übertragen. Das SSP wird dann später zu zentraler Kommunikationskanal fürs DöE*
 * Eigenes Anlegen von Admin-Account in SSP für Fachverfahrenshersteller (SSP-Admin-Accounts)
-* Mit SSP-Admin-Account VD-Nutzer beantragen (ersetzt die Account-Erstellung per E-Mail)
-* Übersicht von Bekanntmachungen ansehen
-<br>
-
-### Zukünftige geplante Features (Umsetzung 2023):
-* SSP-Admin-Account kann Nutzerverwaltung und Rechtevergabe durchführen (z.B. Nutzer anlegen, die Bekanntmachungen einsehen können)
-* Erweitertes Management technischer VD-Accounts (z.B. Passwort für angebundene Systeme zurücksetzen)
+* Nach erfolgreicher Verifizierung: Mit SSP-Admin-Account VD-Accounts und Dashboard-Benutzer anlegen (ersetzt die Account-Erstellung per E-Mail)
+* Mit Dashboard-Nutzer Account: Übersicht von Bekanntmachungen ansehen
+* SSP-Admin-Account kann Nutzerverwaltung und Rechtevergabe durchführen (z.B. Nutzer anlegen, die Bekanntmachungen einsehen können) <br>
 
 ## Benutzerinformationen
 ### Konto anlegen
-Um ein Konto in SSP anzulegen, klicken Sie bitte oben rechts auf das Benutzer-Icon und wählen Sie "Registrieren". Anschließend haben Sie die Möglichkeit, ein Konto mit einer E-Mail-Adresse und einem Passwort anzulegen. Eine Bestätigungsemail wird in Kürze an die eingegebene E-Mail-Adresse gesendet. Bitte bestätigen Sie Ihr Konto mit dem enthaltenen Link. Danach können Sie sich mit Ihren Zugangsdaten einloggen und haben Zugriff auf das Registrierungsformular für eine Vermittlungsdienst-Anbindung.
+Um ein Konto in SSP anzulegen, klicken Sie bitte oben rechts auf das Benutzer-Icon und wählen Sie "Registrieren". Anschließend haben Sie die Möglichkeit, ein Konto mit einer E-Mail-Adresse und einem Passwort anzulegen. Eine Bestätigungsemail wird in Kürze an die eingegebene E-Mail-Adresse gesendet. Bitte bestätigen Sie Ihr Konto mit dem enthaltenen Link. Danach können Sie sich mit Ihren Zugangsdaten einloggen und haben Zugriff auf das Registrierungsformular für eine die Verifizierung als SSP-Admin. Das Formular wird an den Support zur Prüfung und gegebenenfalls zur Genehmigung gesendet.
 
-### Neuen technischen VD-Account beantragen
-Nachdem ein Admin-Konto in SSP angelegt wurde (siehe oben) und der Nutzer eingeloggt ist, kann er das Formular für die Beantragung eines technischen VD-Accounts ausfüllen. Die Möglichkeit dazu finden Sie im Menü oben links unter "Registrierung". Das Formular wird an den Support zur Prüfung und gegebenenfalls zur Genehmigung gesendet. Nach erfolgreicher Genehmigung wird eine Email an die eingegebene Email-Adresse mit den Kontodetails geschickt.
+### Neuen technischen VD-Account anlegen
+Nachdem ein Admin-Konto in SSP angelegt und von Support verifiziert wurde (siehe oben) und der Nutzer eingeloggt ist, kann er das Formular für die Anlegung eines technischen VD-Accounts ausfüllen. Die Möglichkeit dazu finden Sie auf der Startseite und im Menü oben links unter "Registrierung VD-Account". Eine Email wird an die eingegebene Email-Adresse mit den Kontodetails geschickt.
+
+### Neuer Dashboard-User anlegen
+Es besteht auch die Möglichkeit, neue Dashboard-User anzulegen. Dazu muss der SSP-Admin-User zur "Registrierung Dashboard-User" navigieren und das Formular ausfüllen. Unter "Verknüpfter VD-Account" können ein oder mehrere VD-Accounts ausgewählt sein. Eine Email wird an die eingegebene Email-Adresse mit den Kontodetails geschickt und der Dashboard-User kann sich anmelden und alle von dem verknüpften Konto gesendeten Benachrichtigungen sowie deren aktuellen Status einsehen. 
 
 ### Gesendete Bekanntmachungen (Notice Tabelle) ansehen
-Nachdem Sie ein bestätigtes VD-Account für den Versand von Bekanntmachungen an das DöE haben, können Sie mit den Zugangsdaten* im Portal anmelden. Wenn Sie dann im Menü oben Links auf "Bekanntmachungen" klicken, haben Sie Zugriff auf eine Tabelle mit allen von diesem Konto gesendeten Bekanntmachungen sowie deren aktuellen Status.
-
-**Bitte beachten Sie: Dies sind die technischen Daten und die Anmeldung zur SSP damit dient als Übergangslösung und ist nicht langfristig geplant. Zu einem späteren Zeitpunkt werden separate Zugangsdaten für die Übersichtstabelle verwendet, und diese technischen Daten sollten ausschließlich für den Versand von Bekanntmachungen verwendet werden.*
+Mit einem Dashboard-User Account (siehe oben) kann man sich im Portal anmelden und alle von dem verknüpften Konto bzw. Kontos gesendeten Benachrichtigungen sowie deren aktuellen Status und (falls vorhanden) Fehlermeldungen einsehen. 
 
 ## Zukünftige geplante Features
-In Zukunft werden diese Nutzerprozesse anders gestaltet sein. Die Account-Struktur wird dem SSP-Admin-Nutzer des Fachverfahrensherstellers mehr Rechte und administrative Funktionen ermöglichen.
-
-Zunächst muss der SSP-Admin-Nutzer verifiziert sein. Der Nutzer füllt ein Formular aus, in dem er nachweist, dass er für den Fachverfahrenshersteller verantwortlich ist. Diese Überprüfung erfolgt noch manuell durch den Support.
-
-Nach erfolgreicher Verifizierung kann der SSP-Admin-Nutzer VD-Accounts ohne weitere Prüfung erstellen und sein eigenes Account-Struktur dazu anpassen.
-
-Zusätzlich wird es separate Dashboard-Nutzer geben, unabhängig von den technischen VD-Accounts. Diese Nutzer werden vom SSP-Admin erstellt und mit einem technischen VD-Account verknüpft sein und erhalten dadurch Zugriff auf eine Übersicht der Bekanntmachungen aus ihrem zugeordneten VD-Account im Portal.
+Folgende Features befinden sich auf der Roadmap fürs SSP:
+* **Download notice xml**: Der Dashboard-User kann die XML-Datei aus der Tabelle der eingereichten Bekanntmachung herunterladen
+* **Verbesserte Darstellung von Fehlermeldungen**: Dem Dashboard-User werden Fehler/Warnungen für die gewählte Bekanntmachung in einem besser lesbaren Format angezeigt (wenn welche existieren)
+* **Anzeige des Absenders der Bekanntmachung**: Dem Anwender wird die E-Mail-Adresse des Absenders der Bekanntmachung angezeigt. Es kann nach dieser E-Mail-Adresse gesucht werden
+* **Stoppen von Bekanntmachungen in der Notice-Tabelle ermöglichen** (Konfigurierbares Recht)
+* **Darstellung von Change Notices in der Notice-Tabelle**: Dadurch kann der Dashboard-User nun auch die Change Noticess zusätzlich zu PIN/CN/CAN sehen. Es kann entsprechend gefiltert werden.
