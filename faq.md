@@ -660,7 +660,21 @@ CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Ein
 
 Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen ausschreiben, jedoch keine Dienstleistungen. Auch bei Vergabeverfahren nach SektVO, KonzVgV oder VSVgV gibt es bei ausschreibenden Zuwendungsempfängern Einschränkungen gegenüber sonstigen Vergabestellen bei der Auswahl der in einem Vergabeverfahren anwendbaren Formulare, was unverständlich ist.
 
-**Es handelt sich um einen BUG bei TED. Mündliche Aussage seitens TED im 6. workshop am 26.09.2023: Wird für Version 1.9 behoben.**
+**Es handelt sich um einen BUG bei TED. Dieser wurde inzwischen behoben und ist sowohl im DÖE als auch im SDK ab Version 1.1.0_1.7.2 eingebaut; 
+https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/blob/SDK-DE_1.1.0_1.7.2/sdk/examples/de/notices/ContractAwardNotice_CVD3.xml?ref_type=tags**
+</details>
+<br>
+
+###  BT-743 (Elektronische Rechnungslegung) muss auf "erforderlich" gesetzt werden
+<details>
+<summary>
+BT-743 (Elektronische Rechnungslegung) muss durch eine EU-Regel auf "erforderlich" gesetzt werden, sobald die Rechtsgrundlage BT-01 nicht auf "Sonstige" gesetzt wird</summary>
+<br>
+
+TED wird den Fehler zur zu strengen Regel bzgl. BT-743 (Elektronische Rechnungslegung) leider nur in Version eForms EU 1.10 beheben, nicht aber für vorherige Versionen. Plattformen, die in Deutschland Bekanntmachungen an den Vermittlungsdienst des Datenservice Öffentlicher Einkauf senden, werden bedauerlicherweise mit dem Fehler bis zur voraussichtlichen Einführung des SDK-DE 1.2.0_1.10.0 in Februar 2024 und der nachfolgenden Implementierung in den Vergabeplattformen bzw. Redaktionssystem zurechtkommen müssen.
+Umgehungslösung bis zur technischen Lösung wäre, dass Vergabestellen in BT-743 (Elektronische Rechnungslegung) zwar "erforderlich" eintragen, aber dann in BT-77 (Bestimmungen - Finanzierung) vermerken, dass obwohl in BT-743 "erforderlich" eingetragen sei, laut hiesiger Verordnung dies NICHT "erforderlich" sei, sondern stattdessen die elektronische Rechnung "zulässig" und gewünscht sei.
+
+**Es handelt sich um einen BUG bei TED. Dieser wird in 1.10 und somit in eForms 1.2 behoben sein. Für ältere Versionen muss der obige Workaround verwendet werden.**
 </details>
 <br>
 
