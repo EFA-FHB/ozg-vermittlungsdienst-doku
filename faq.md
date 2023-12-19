@@ -671,8 +671,9 @@ https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/blob/SDK-DE_1.1.0_1.7.
 BT-743 (Elektronische Rechnungslegung) muss durch eine EU-Regel auf "erforderlich" gesetzt werden, sobald die Rechtsgrundlage BT-01 nicht auf "Sonstige" gesetzt wird</summary>
 <br>
 
-TED wird den Fehler zur zu strengen Regel bzgl. BT-743 (Elektronische Rechnungslegung) leider nur in Version eForms EU 1.10 beheben, nicht aber für vorherige Versionen. Plattformen, die in Deutschland Bekanntmachungen an den Vermittlungsdienst des Datenservice Öffentlicher Einkauf senden, werden bedauerlicherweise mit dem Fehler bis zur voraussichtlichen Einführung des SDK-DE 1.2.0_1.10.0 in Februar 2024 und der nachfolgenden Implementierung in den Vergabeplattformen bzw. Redaktionssystem zurechtkommen müssen.
-Umgehungslösung bis zur technischen Lösung wäre, dass Vergabestellen in BT-743 (Elektronische Rechnungslegung) zwar "erforderlich" eintragen, aber dann in BT-77 (Bestimmungen - Finanzierung) vermerken, dass obwohl in BT-743 "erforderlich" eingetragen sei, laut hiesiger Verordnung dies NICHT "erforderlich" sei, sondern stattdessen die elektronische Rechnung "zulässig" und gewünscht sei.
+TED wird diesen Fehler einer zu strengen Regel bzgl. BT-743 (Elektronische Rechnungslegung) leider nur in ab der Version 1.10 des TEd-SDK beheben, nicht aber für vorherige Versionen. Plattformen, die in Deutschland Bekanntmachungen an den Vermittlungsdienst des Datenservice Öffentlicher Einkauf senden, werden bedauerlicherweise mit dem Fehler bis zur voraussichtlichen Einführung des SDK-DE 1.2.0_1.10.0 im Februar 2024 und der nachfolgenden Implementierung in den Vergabeplattformen bzw. Redaktionssystem zurechtkommen müssen.
+
+Vergabestellen können als Übergangslösung bis dahin in BT-743 (Elektronische Rechnungslegung) zwar "erforderlich" eintragen, aber dann in BT-77 (Bestimmungen - Finanzierung) vermerken, dass obwohl in BT-743 "erforderlich" eingetragen sei, laut hiesiger Verordnung dies NICHT "erforderlich" sei, sondern stattdessen die elektronische Rechnung "zulässig" und gewünscht sei.
 
 **Es handelt sich um einen BUG bei TED. Dieser wird in 1.10 und somit in eForms 1.2 behoben sein. Für ältere Versionen muss der obige Workaround verwendet werden.**
 </details>
