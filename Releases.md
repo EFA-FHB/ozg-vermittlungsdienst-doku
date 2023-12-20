@@ -39,11 +39,11 @@ Status: Veröffentlicht am 20.12.2023 <br>
 <summary>Release Notes</summary>
 
 ### Validator (Webservice + Open-Source)
-- Nutzung von eForms-DE Schematron 0.7.1 für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.1)
+- Nutzung von eForms-DE Schematron 0.7.2 für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.2)
 - ermöglicht volle Unterstützung von mehrsprachigen eForms-DE Dokumenten
 
 ### Vermittlungsdienst
-- Nutzung von eForms-DE Schematron 0.7.1 für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.1)
+- Nutzung von eForms-DE Schematron 0.7.2 für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.2)
 - ermöglicht volle Unterstützung von mehrsprachigen eForms-DE Dokumenten
 
 
