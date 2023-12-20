@@ -45,6 +45,7 @@ Status: Veröffentlicht am 20.12.2023 <br>
 ### Vermittlungsdienst
 - Nutzung von eForms-DE Schematron 0.7.2 für eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.2)
 - ermöglicht volle Unterstützung von mehrsprachigen eForms-DE Dokumenten
+- Überprüfung von Change Notices wurde verbessert
 
 
 </details>
