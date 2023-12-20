@@ -32,9 +32,9 @@
 |------------|-----------------------------|----------------|
 | Preview    | 18.11.2023                  | veröffentlicht |
 | Staging    | 19.11.2023                  | veröffentlicht |
-| Produktion | 20.11.2023                         |  |
+| Produktion | 20.11.2023                  | veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht am 20.12.2023 <br>
 <details>
 <summary>Release Notes</summary>
 
