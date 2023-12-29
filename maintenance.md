@@ -21,11 +21,12 @@ Die CPV-Codes werden wie folgt interpretiert:
 - Wir beobachten derzeit vermehrt Ablehnungen beim Einliefern basierend auf falscher Syntax der Email für die Angabe "authorEmail". Bitte achten Sie darauf, dass in diesem Feld eine gültige Email mit korrekter Syntax beim Einliefern in den Vermittlungsdienst für jede Bekanntmachung mitgeliefert wird. Wenn die Email nicht korrekt ist, erscheint die folgende Fehlermeldung: "NOTICE_METADATA_INVALID - Es fehlen benötigte Daten oder die eingegebenen Daten entsprechen nicht dem Schema". Wir validieren Emails anhand des folgenden von TED vorgegebenen Regex Ausdrucks: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b <br>
 Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Support-Ticket bei TED. 
 
-## Anstehende Wartungsfenster
+## Anstehende Wartungsfenster oder Bekannte Störungen
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
-| Produktion und Staging | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 09.01.2024 | 20:00 - 22:00 CEST | Infrastrukturwartung | 
+| Preview | Alles Services des DöE außer BKMS | 27.12.2023 - 02.01.2024 | | Vorübergehende Nichtverfügbarkeit, bitte in der Zwischenzeit für Tests die jeweiligen Services in der Staging Umgebung nutzen! | 
+| Produktion und Staging | Alle Services des DöE außer BKMS) | 09.01.2024 | 20:00 - 22:00 CEST | Infrastrukturwartung | 
 | Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 21.11.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung |
 | Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 11.12.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung | 
 
