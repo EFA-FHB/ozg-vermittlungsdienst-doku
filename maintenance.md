@@ -25,10 +25,8 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
-| Preview | Alles Services des DöE außer BKMS | 27.12.2023 - 02.01.2024 | | Vorübergehende Nichtverfügbarkeit, bitte in der Zwischenzeit für Tests die jeweiligen Services in der Staging Umgebung nutzen! | 
-| Produktion und Staging | Alle Services des DöE außer BKMS) | 09.01.2024 | 20:00 - 22:00 CEST | Infrastrukturwartung | 
-| Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 21.11.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung |
-| Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 11.12.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung | 
+| Produktion und Staging | Alle Services des DöE außer BKMS | 09.01.2024 | 20:00 - 22:00 CEST | Infrastrukturwartung | 
+
 
 
 ## Bekannte Bugs 
@@ -48,6 +46,9 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 | Umgebung    | System              | Datum      | Zeit              | Kommentar           |
 |-------------|---------------------|------------|-------------------|---------------------|
+| Preview | Alles Services des DöE außer BKMS | 27.12.2023 - 02.01.2024 | | Vorübergehende Nichtverfügbarkeit, bitte in der Zwischenzeit für Tests die jeweiligen Services in der Staging Umgebung nutzen! | 
+| Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 21.11.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung |
+| Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 11.12.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung | 
 |BKMS Produktion | BKMS  | 27.10  | 27.10. 13:10 - 14:35 CEST | Online-Suchfunktion war nicht verfügbar |
 | DÖE Produktion + Staging | alle Services außer BKMS | 25.10.2023 | 15:31 - 16:03 CEST | Nicht-Erreichbarkeit des Rechenzentrums |
 | DöE Produktion + Staging | alle Services außer BKMS               |23.10.2023 - 24.10.2023                | 17:00 - 09:00 CEST |  Aufgrund von Infrastrukturproblemen nicht verfügbar | 
