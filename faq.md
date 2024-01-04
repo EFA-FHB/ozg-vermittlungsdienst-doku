@@ -113,15 +113,6 @@ Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespie
 
 <details>
 <summary>
-Wird der Datenservice eine Render-Methode analog der Render-Methoden der EU anbieten? 
-</summary>
-<br>
-Ein Notice-Viewer für das Rendering von eForms-DE Dokumenten in HTML ist bereits in Arbeit und wird vorraussichtlich Mitte/ Ende September veröffentlicht. Der Endpunkt wurde bereits im Vermittlungsdienst auf der Previewumgebung veröffentlicht, damit der Endpunkt bereits eingebunden werden kann. Dieser liefert eine gerenderte Beispieldatei zurück. Feedback und Anregungen nehmen wir gern unter support-oeffentlichevergabe@bdr.de entgegen.
-</details>
-<br>
-
-<details>
-<summary>
 Wo sind Beispiele zu eForms-DE zu finden? Welche unterschiedlichen Typen gibt es? ? 
 </summary>
 <br>
