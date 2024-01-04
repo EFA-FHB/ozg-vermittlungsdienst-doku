@@ -161,17 +161,6 @@ Zum derzeitigen Stand sind nach dem 25.10.2023 noch zwei Releases für den Daten
 </details>
 <br>
 
-<details>
-<summary>
-Welche Features (abgesehen vom Umfang des Production Release) befinden sich noch in Planung? Diese Frage zielt insbesondere auf die weiteren Dienste des EU-Portals "eNotices2" ab, wie Generierung von PDF-Darstellungen, Einsicht und Eingriff in Prozesse über eine Weboberfläche, Eingeben von Bekanntmachungen über Weboberflächen, etc., die aufgrund des zentralen eSender-Dienstes nicht mehr nutzbar sind.
-</summary>
-<br>
-Generierung der PDF/HTML Darstellung: Aktuell in Klärung, der Bedarf wurde durch das Projekt anerkannt.
-
-Einsicht in Prozess über Weboberfläche (Dashboard):
-Aktuell in Umsetzung: Geplant ist die Einsicht in Statusinformationen für einen Mandanten und evtl. das Nutzen des Stop-Endpunkts über die gleiche Oberfläche.
-</details>
-<br>
 
 <details>
 <summary>
