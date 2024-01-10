@@ -850,7 +850,7 @@ Diese Referenzen nach dem beschriebenen Muster so aufzubauen, erfüllt darüber 
 
 <br>
 
-### Identifikationsnummer (Organisation) (BT-501)  
+### Identifikationsnummer (Organisation) (BT-501) Leitweg-ID 
 <details>
 <summary>
 Was für eine Kennung/Identifier muss für BT-501 eingegeben werden? (aktualisiert am 25.10.2023)
