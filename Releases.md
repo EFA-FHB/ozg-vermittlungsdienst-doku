@@ -3,6 +3,8 @@
 
 <br />
 
+- Januar 2024
+  - [Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
 - Dezember 2023
   - [Release für Validierung (eForms-DE 1.1 Mehrsprachigkeit)](#Release-für-Validierung)
   - [Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
@@ -10,7 +12,6 @@
   - [Hotfix Release für Vermittlungsdienst und eSender](#Release-für-Vermittlungsdienst-und-eSender)
   - [Hotfix Release für Validator, Vermittlungsdienst und eSender](#Release-für-Validator-Mediator-und-eSender)  
   - [Hotfix Release für Notice-Viewer, Validator und Vermittlungsdienst](#Release-für-notice-Viewer-Mediator-und-Validator)
-    
 - Oktober 2023
   - [Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe](#Release-für-Notice-Viewer-PDF-Dokumente-+-synchrone-Aufrufe)
   - [Release für Self-Service Portal, Registrierungsform für einen separaten Vermittlungsdienst-Account](#Release-für-Self-Service-Portal,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account)
@@ -25,6 +26,35 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
+## Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 15.01.2024        | wird veröffentlicht |
+| Staging    | 22.12.2024        | wird veröffentlicht |
+| Produktion | 31.12.2024        | wird veröffentlicht |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary> 
+
+### Self-Service Portal 
+- ---
+
+### Vermittlungsdienst
+- --- 
+
+### eSender
+- ---
+
+### Validator (Webservice + Open-Source)
+- ---
+
+### Notice-Viewer
+- ---
+
+</details>
 
 <a id=Release-für-Validierung></a>
 ## Hotfix Release für Validierung (eForms-DE 1.1 Mehrsprachigkeit)
