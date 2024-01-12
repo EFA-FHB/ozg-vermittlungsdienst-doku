@@ -70,8 +70,9 @@ jobs:
 
           # Github access token to download files from private repositories
           # https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets
-          
-          token: ${{ secrets.TRANSLATE_TOKEN }}
+
+          token: ${{ secrets.GITHUB_TOKEN }}
+          #token: ${{ secrets.TRANSLATE_TOKEN }}
 
           # The URL of the Github API, only use this input if you are using Github Enterprise
           # Default: "https://api.github.com"
