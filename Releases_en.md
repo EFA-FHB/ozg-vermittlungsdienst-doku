@@ -36,7 +36,7 @@
 | Production | 31.12.2024 | will be published |
 
 > **IMPORTANT** <br>
-The following eFroms versions are no longer supported by the switching service
+The following eForms versions are no longer supported by the switching service
 - eForms DE-1.0.1
 - eForms SDK-1.5.5
 
@@ -253,7 +253,7 @@ Status: Published on 4.10.2023 <br>
 <summary>Release notes</summary>
 
 ### Self-Service Portal
->**environments** <br>
+>**Environments** <br>
 >NEW: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
 >NEW: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEW: Production https://portal.ozg-vermittlungsdienst.de<br>
@@ -291,7 +291,7 @@ Status: published on 11.10.2023 <br>
 - Integration with new BKMS endpoint
 - New naming of the notification XML file in the ASIC container: instead of 'notice.xml' now 'uuid.eforms.xml'
 - Peppol integration with B2Brouter
-- 'PublicationID' from TED is now processed and stored in the switching service
+- 'PublicationID' from TED is now processed and saved in the switching service
 
 ### Notice Viewer
 >**Environments** <br>
