@@ -31,7 +31,7 @@
 ## Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 15.01.2024        | wird veröffentlicht |
+| Preview    | 15.01.2024        | veröffentlicht |
 | Staging    | 22.12.2024        | wird veröffentlicht |
 | Produktion | 31.12.2024        | wird veröffentlicht |
 
