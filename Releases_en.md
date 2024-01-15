@@ -31,7 +31,7 @@
 ## Release for self-service portal, switching service, eSender, notice viewer and validator
 | Environment Operator Service | Period | Status |
 |------------|-----------------------------|----------------|
-| Preview | 15.01.2024 | will be published |
+| Preview | 15.01.2024 | published |
 | Staging | 22.12.2024 | will be published |
 | Production | 31.12.2024 | will be published |
 
