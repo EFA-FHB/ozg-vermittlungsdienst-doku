@@ -11,6 +11,23 @@
 
 <details>
 <summary>
+Which systems are available and where do I need an account?
+</summary>
+
+<br><br>
+**[Editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Web interface for creating announcements and publishing them on TED and in the announcement service. <br>
+Does your public procurement office not have software from a specialist procedure manufacturer for creating notices, does it not support all the forms you need or have you previously used TED's eNotices2? Then the editorial system is right for you!
+<br><br>
+**[Mediation service](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service. <br>
+Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually implemented by the specialist procedure manufacturer.
+<br><br>
+**[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of procurement service accounts.
+<br> Mainly used by specialist procedure manufacturers. Dashboard accounts are possible for viewing the status information of submitted notices, please contact your specialist procedure manufacturer!
+<br>
+</details>
+<br>
+<details>
+<summary>
 What information is required to apply for an account? (updated on 11.10.23)
 </summary>
 <br>
@@ -102,15 +119,6 @@ The preview environment is only used for testing. Updates are often installed he
 
 <details>
 <summary>
-Will the data service provide a render method similar to the EU render methods?
-</summary>
-<br>
-A notice viewer for rendering eForms-DE documents in HTML is already in the works and is expected to be released in mid/end September. The endpoint has already been published in the switching service on the preview environment so that the endpoint can already be integrated. This returns a rendered example file. We are happy to receive feedback and suggestions at support-oeffentlichevergabe@bdr.de
-</details>
-<br>
-
-<details>
-<summary>
 Where can I find examples of eForms-DE? What different types are there? ?
 </summary>
 <br>
@@ -135,7 +143,7 @@ CAN
 Eng: Contract Award Notice
 Deu: Notice (awarded contract)
 Subtype 25-40, E4
-CANs are used to create contract award notices, which are published shortly after the contract is signed. They refer to the contract award notice and contain information about the award procedure, such as the contract award, the winner, etc.
+CANs are used to create contract award notices, which are published shortly after the contract is signed. They refer to the contract notice and contain information about the award procedure, such as the contract award, the winner, etc.
 
 The naming of the reference documents involves the following:
 
@@ -159,21 +167,10 @@ As things currently stand, two more releases are planned for the data service af
 </details>
 <br>
 
-<details>
-<summary>
-What features (apart from the scope of the production release) are still being planned? This question is aimed in particular at the other services of the EU portal "eNotices2", such as generating PDF representations, viewing and intervening in processes via a web interface, entering notices via web interfaces, etc., which can no longer be used due to the central eSender service.
-</summary>
-<br>
-Generation of the PDF/HTML representation: Currently being clarified, the need has been recognized by the project.
-
-Insight into process via web interface (dashboard):
-Currently being implemented: the plan is to view status information for a client and possibly use the stop endpoint via the same interface.
-</details>
-<br>
 
 <details>
 <summary>
-Will there be a roadmap for the further development of the SDK? This is particularly interesting for platform operators in view of the adaptation times to new SDK-EU versions, as the SDK-DE and SDK-EU currently still differ in their versioning.
+Will there be a roadmap for the further development of the SDK? This is particularly interesting for platform operators in view of the adaptation times for new SDK-EU versions, as the SDK-DE and SDK-EU currently still differ in their versioning.
 </summary>
 <br>
 
@@ -235,33 +232,15 @@ Is it possible to continue submitting notices via eNotices2 from 25.10.2023?
 <br>
 From 25.10.2023, all above-threshold notices must legally be submitted in eForms-DE format via the public procurement data service. Direct submission via eNotices2 is not standard-compliant, as the adaptations to the eForms-DE standard would not be taken into account and is no longer legally permissible.
 </details>
+
 <br>
 
 <details>
 <summary>
-Will the Public Procurement Data Service also support the TED 2.0.9 XML format until the deadline (25.10.2023)? Should the old format continue to be submitted to TED until the deadline?
+Does the introduction of eForms apply to both upper (EU) and lower (national) thresholds or only to the EU level?
 </summary>
 <br>
-Until eForms-DE becomes mandatory, it will still be possible to submit directly to TED in the old format, but the Public Procurement Data Service does not support this format. The data service can only be used with eForms. From 25.10., it will be mandatory to submit via the Public Purchasing data service with the eForms-DE 1.0.1 or 1.1.0 format.
-</details>
-<br>
-
-<details>
-<summary>
-Will there be an introduction of eForms on October 25 for both upper (EU) and lower thresholds (national) or only for the EU level?
-</summary>
-<br>
-The two standards eForms-EU and eForms-DE have already been introduced and can be used. From October 25, EU-wide notices in the eForms-DE format must be transmitted via the interface. If the interface is also to be used for national notices, this must also be done via the eForms format so that the data service can process them. You can find out which formats are currently supported and processed in our preview at https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/development/documentation/eForms_support.md.
-</details>
-<br>
-
-<details>
-<summary>
-Which SDK version should be used for the productive go-live?
-</summary>
-<br>
-
-The current versions eForms-DE 1.0.1 and 1.1 are supported. The use of eForms-DE 1.1.0 is recommended.
+From 25.10.23, EU-wide notices in eForms-DE format must be transmitted via the interface. If the interface is also to be used for national notices, this must also be done via the eForms format so that the data service can process them. You can find out which formats are currently supported and processed in our preview at https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/development/documentation/eForms_support.md.
 </details>
 <br>
 
@@ -330,7 +309,8 @@ Questions about the DE-SDK can be opened via issues in the repository.
 Does the documentation on the switching service (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) already provide further information on the data service construct? To what extent is it planned to keep this up to date and, if necessary, to supplement it with information in the form of FAQs or similar? Is this GitHub documentation the official provision of information on this topic?
 </summary>
 <br>
-The Github documentation will continue to be maintained and is the official documentation until further notice, but the final location of the documentation has not yet been determined.
+
+The Github documentation will continue to be maintained and is the official documentation until further notice. It can also be read in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) of the DöE.
 </details>
 <br>
 
@@ -342,7 +322,7 @@ How can I determine which versions of the subcomponents are supported for a rele
 
 Under [eForms Support](/documentation/eForms_support.md) it is documented which eForms versions the subcomponents support.
 <br>
-For each release, we publish releasenotes to describe which component supports which version. The versions eForms-DE 1.0.1 and 1.1.0 will be supported in all components of the public procurement data service from September 13.
+For each release, we publish releasenotes to describe which component supports which version. The versions eForms-DE 1.0.1 and 1.1.0 will be supported in all components of the public procurement data service from September 13th.
 </details>
 <br>
 
@@ -411,7 +391,7 @@ If your system no longer updates the notice status automatically after the doe_s
 Is it possible for an above-threshold announcement to change to NOT_PUBLISHED after the deadline if it has already been published in the BKMS? Because then we would have TED:NOT_PUBLISHED / DSE:PUBLISHED, a status that I could not find in the flowchart.
 </summary>
 <br>
-The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is carried out by TED, so the status NOT_PUBLISHED cannot occur based on a manual rejection.
+The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is performed by TED, so the status NOT_PUBLISHED based on a manual rejection cannot occur.
 
 In the case of lawfulness warnings, an announcement is only forwarded to the BKMS 5 days after SUBMITTED in TED in order to await the manual check. However, if a situation arises in which an announcement has already been published in BKMS and then changes to NOT_PUBLISHED in TED, our system automatically stops this announcement in BKMS so that the status changes to DöE:Stopped. In this way, we ensure that no announcements rejected by TED remain published in the BKMS. However, this scenario is very unlikely.
 </details>
@@ -419,24 +399,10 @@ In the case of lawfulness warnings, an announcement is only forwarded to the BKM
 
 ### API mediation service
 
-<details>
-<summary>
-How does the API behave for the production environment before the cutoff date and after the cutoff date 10/25/2013?</summary> (added on 10/11/2013)
-<br>
-Technically, the API will not change before and after the cut-off date.
-
-On the cut-off date, we will ensure that all activated accounts in the production environment are also activated for transmission to TED.
-
-This is the case by default, but can be explicitly switched off if required if certain accounts in the production environment are explicitly only to be used for the submission of subliminal announcements.  
-
-No technical "switching on" of the API or similar is planned. The production environment is already technically just as functional as the staging environment, even if posting is not yet legally permitted.
-</details>
-<br>
-
 
 <details>
 <summary>
-How can platform operators obtain the information from the EU CVS report on a notice?
+How can platform operators obtain the information of the EU CVS report on a notice?
 <br>
 All errors and warnings from the CVS report are passed in the status information. Here we pass the ID, the path, the content and the text of each rule that has been struck. It is not intended to return the CVS report as a file.
 </details>
@@ -480,7 +446,7 @@ The v1/notices endpoint returns status information on all notices that have been
 
 <details>
 <summary>
-Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Are there plans for "GET /v1/notices" to be able to restrict or filter the list to data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
+Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Are there plans for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
 </summary>
 <br>
 Thank you for this suggestion; we will look into implementing it.
@@ -492,13 +458,13 @@ Thank you for this suggestion; we will look into implementing it.
 How can platform operators obtain the information from the EU CVS report on a notice if it is not included in the response on publication (POST → /v2/notices) or in the status information (GET → /v1/notices/{trackingCode})?
 </summary>
 <br>
-All errors and warnings from the CVS report will be transferred to the status information in future. We will pass the ID, the path, the content and the text of each rule that has been struck. It is currently not planned to return the CVS report as a file.
+All errors and warnings from the CVS report will be transferred to the status information in future. We will pass the ID, the path, the content and the text of each rule that has been struck. It is not currently planned to return the CVS report as a file.
 </details>
 <br>
 
 <details>
 <summary>
-28.09.23 Will it be possible to use the online Validator API productively?
+Is it possible to use the online Validator API productively?
 </summary>
 <br>
 Yes, productive use of the Online Validator is supported. In the production environment and in the staging environment, the eforms-de-schematron bugfix version will always be the same as in the switching service itself. The use of the offline validator (https://github.com/EFA-FHB/eforms-validator-core) is also recommended.
@@ -563,7 +529,7 @@ It is currently being clarified with TED how a previous announcement in the old 
 
 <details>
 <summary>
-Is OPP-090-Procedure used exclusively for the case of old notices (old TED scheme) with further processing in eForms?
+Is OPP-090-Procedure used exclusively for old notices (old TED schema) with further processing in eForms?
  </summary>
 
 Both change notices and therefore the "Change Notice Version Identifier" (BT-758) as well as the "Framework Notice Identifier" (OPT-100) and "Previous Notice" (OPP-090) are TED-specific solutions that can be used directly.
@@ -660,11 +626,26 @@ CPV code Main subject and cross-dependencies to the legal form of the bidder. Re
 
 According to this rule, recipients of grants under VgV can only tender for construction services, but not services. Even in award procedures under SektVO, KonzVgV or VSVgV, there are restrictions on the selection of forms applicable in an award procedure for grant recipients issuing tenders compared to other awarding bodies, which is incomprehensible.
 
-**This is a BUG at TED. Verbal statement from TED in the 6th workshop on 26.09.2023: Will be fixed for version 1.9 **.
+**This is a BUG in TED. This has now been fixed and is built into both the DÖE and the SDK from version 1.1.0_1.7.2;
+https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/blob/SDK-DE_1.1.0_1.7.2/sdk/examples/de/notices/ContractAwardNotice_CVD3.xml?ref_type=tags**
 </details>
 <br>
 
-### Announcement of the results (BG-7), offer (BG-320 offer)
+### BT-743 (electronic invoicing) must be set to "required"
+<details>
+<summary>
+BT-743 (Electronic invoicing) must be set to "required" by an EU rule as soon as the legal basis BT-01 is not set to "Other" </summary
+<br>
+
+TED will unfortunately only fix this error of an overly strict rule regarding BT-743 (electronic invoicing) in version 1.10 of the TEd-SDK and higher, but not for previous versions. Platforms that send notices to the procurement service of the Public Procurement Data Service in Germany will unfortunately have to deal with the error until the expected introduction of SDK-DE 1.2.0_1.10.0 in February 2024 and the subsequent implementation in the procurement platforms or editorial system.
+
+As a transitional solution until then, contracting authorities can enter "required" in BT-743 (Electronic invoicing), but then note in BT-77 (Provisions - Financing) that although "required" is entered in BT-743, this is NOT "required" according to this regulation, but that electronic invoicing is "permitted" and desired instead.
+
+**This is a BUG at TED. This will be fixed in 1.10 and therefore in eForms 1.2. The above workaround must be used for older versions **.
+</details>
+<br>
+
+### Announcement of results (BG-7), Offer (BG-320 Offer)
 <details>
 <summary>
 In the element "Announcement of results" (BG-7) > "Tender" (BG-320), should only awarded tenders/lots or all tenders/lots received be listed?
@@ -678,7 +659,7 @@ In this question, the provisions of the respective directives and regulations un
 ### No immediate publication (BG-8; BT-195/BT196/BT197/BT-198)
 <details>
 <summary>
-Why is it mandatory to specify the time limit for fields that are not to be published?
+Why is it mandatory to specify the time limit for fields that are not to be published for mandatory fields?
 </summary>
 <br>
 
@@ -727,7 +708,7 @@ In the event that all exclusion grounds apply equally, "nati-ground" (purely nat
 <summary>
 Why does the ARC require mandatory grounds for exclusion to be selected or stated in a contract notice at all?
 </summary>
- The motivation is that tenders not only refer to national laws, but also explicitly list grounds for exclusion, particularly for the sake of transparency, even for bidders from abroad.
+ The motivation is that tenders not only refer to national laws, but also explicitly list exclusion grounds, in particular for the sake of transparency, even for bidders from abroad.
  </details>
 <br>
 
@@ -803,7 +784,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be specified. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot>, BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
@@ -832,7 +813,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid in a backward chaining process and the bidder or head of a bidding consortium who signed the contract for the bidders
+BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
@@ -844,7 +825,7 @@ Setting up these references in this way according to the pattern described also 
 
 <br>
 
-### Identification number (organization) (BT-501)
+### Identification number (organization) (BT-501) Route ID
 <details>
 <summary>
 What identifier must be entered for BT-501? (updated on 25.10.2023)
@@ -1027,10 +1008,27 @@ New features and details (added on 27.09.23)
   </details>
   <br>
 
-### lots
+### BT-1501(n) Linking of old SIMAP/non-eForms notices
 <details>
 <summary>
-How to use the LOT entries for "none", one or more lots?
+What ID do I need to use to link to old notices prior to the eForms commitment?
+<br>
+Please use the Notice Publication ID or document number, which is uniquely assigned by TED for each notice. This can be seen both in the search results of the notices on the TED website in the column 'Document number' and in the direct link from TED to the notice as well as in the detail page of the notice in the heading. It consists of a series of numbers, a hyphen and the year of publication of the announcement. e.g. 1234576-2022. The number of numbers before the hyphen may vary.
+  </details>
+
+### BT-1501(s)-Contract
+<details>
+<summary>
+What value do I need to use for BT-1501(s)-Contract?</summary>
+<br>
+Please create a contract and then link its ID in this field. This can have the value CON-0001, for example.
+</details>
+
+
+### Lots
+<details>
+<summary>
+How are the LOT entries to be used for "none", one or more lots?
 </summary>
 <br>
 
