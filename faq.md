@@ -9,7 +9,11 @@
 
 ### Anbindung
 
-**Welche Systeme gibt es und wo brauche ich einen Account?**
+<details>
+<summary>
+Welche Systeme gibt es und wo brauche ich einen Account?
+</summary>
+
 <br><br>
 **[Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Web-Oberfläche zum Erstellen von Bekanntmachungen und der Veröffentlichung bei TED sowie im Bekanntmachungsservice. <br> 
 Haben Sie in Ihrer Vergabestelle keine Software eines Fachverfahrensherstellers zum Erstellen von Bekanntmachungen,  unterstützt diese nicht alle von Ihnen benötigte Formulare oder haben Sie bisher die eNotices2 von TED genutzt oder? Dann ist das Redaktionssystem richtig! 
@@ -19,6 +23,8 @@ Bietet KEINE Oberfläche zum Erstellen von Bekanntmachungen! Es ist ausschließl
 <br><br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web-Oberfläche für das Accountmanagement von Accounts des Vermittlungsdienstes. 
 <br> Hauptsächlich genutzt durch Fachverfahrenshersteller. Dashboard Accounts sind möglich zur Ansicht der Statusinformationen von eingelieferten Bekanntmachungen, dazu wenden Sie sich bitte an Ihren Fachverfahrenshersteller wenden! 
+<br>
+</details>
 <br>
 <details>
 <summary>
@@ -226,33 +232,15 @@ Ist es möglich ab dem 25.10.2023 weiterhin Bekanntmachungen über eNotices2 ein
 <br>
 Ab dem 25.10.2023 müssen rechtlich alle oberschwelligen Bekanntmachungen im eForms-DE Format über den Datenservice Offentlicher Einkauf eingeliefert werden. Eine direkte Einlieferung über eNotices2 ist nicht standardkonform, da die Anpassungen des eForms-DE Standards nicht berücksichtigt würden und ist rechtlich nicht mehr zulässig. 
 </details>
+
 <br>
 
 <details>
 <summary>
-Wird der Datenservice Öffentlicher Einkauf auch den TED-2.0.9-XML-Format bis zum Stichtag (25.10.2023) unterstützen? Soll bis zum Stichtag weiter über das alte Format bei TED eingeliefert werden? 
+Gilt die Einführung von eForms sowohl für Ober- (EU) als auch Unterschwellenwerte (National) oder nur für die EU-Ebene?
 </summary>
 <br>
-Bis eForms-DE verpflichtend wird, kann noch im alten Format direkt bei TED eingeliefert werden, der Datenservice Öffentlicher Einkauf unterstützt dieses Format allerdings nicht. Der Datenservice kann ausschließlich mit eForms genutzt werden. Ab 25.10. muss zwingend über den Datenservice öffentlicher Einkauf mit dem Format eForms-DE 1.0.1 oder 1.1.0 eingeliefert werden. 
-</details>
-<br>
-
-<details>
-<summary>
-Wird es am 25. Oktober eine Einführung von eForms sowohl für Ober- (EU) als auch Unterschwellenwerte (National) geben oder nur für die EU-Ebene?
-</summary>
-<br>
-Die beiden Standards eForms-EU und eForms-DE sind bereits eingeführt und können genutzt werden. Ab dem 25. Oktober müssen EU-weite Mitteilungen im Format eForms-DE verpflichtend über die Schnittstelle übermittelt werden. Wenn die Schnittstelle auch für nationale Bekanntmachungen genutzt werden soll, muss dies ebenfalls über das eForms Format geschehen, damit der Datenservice diese verarbeiten kann. Welche Formate derzeit unterstützt und verarbeitet werden, erfahren Sie in unserer Vorschau unter https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/development/documentation/eForms_support.md.
-</details>
-<br>
-
-<details>
-<summary>
-Mit welcher SDK-Version soll der produktive Go-live erfolgen?
-</summary>
-<br>
-
-Unterstützt werden die aktuellen Versionen eForms-DE 1.0.1 und 1.1. Es wird die Nutzung von eForms-DE 1.1.0 empfohlen.
+Ab dem 25.10.23 müssen EU-weite Mitteilungen im Format eForms-DE verpflichtend über die Schnittstelle übermittelt werden. Wenn die Schnittstelle auch für nationale Bekanntmachungen genutzt werden soll, muss dies ebenfalls über das eForms Format geschehen, damit der Datenservice diese verarbeiten kann. Welche Formate derzeit unterstützt und verarbeitet werden, erfahren Sie in unserer Vorschau unter https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/development/documentation/eForms_support.md.
 </details>
 <br>
 
@@ -321,7 +309,8 @@ Fragen zum DE-SDK sind über Issues im Repository zu eröffnen.
 Gibt es durch die Dokumentation zum Vermittlungsdienst (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) bereits weiterführende Informationen zum Konstrukt des Datenservice. Inwieweit ist geplant, diese auf dem neusten Stand zu halten und ggf. durch Informationen in Form von FAQs ö. Ä. zu ergänzen? Handelt es sich bei dieser GitHub-Dokumentation um die offizielle Bereitstellung von Informationen zu diesem Thema?
 </summary>
 <br>
-Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizielle Dokumentation, der finale Ort der Doku steht aber noch nicht fest. 
+
+Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizielle Dokumentation. Die kann auch im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) des DöEs gelesen werden. 
 </details>
 <br>
 
@@ -410,20 +399,6 @@ Bei lawfullness warnings wird eine Bekanntmachung erst 5 Tage nach SUBMITTED in 
 
 ### API-Vermittlungsservice
 
-<details>
-<summary>
-Wie verhällt sich die API für die Produktionsumgebung vor dem Stichtag und ab dem Stichtag 25.10.23?</summary> (ergänzt am 11.10.23)
-<br>
-Rein technisch wird sich die API vor und nach dem Stichtag nicht verändern. 
-
-Am Stichtag sichergestellt, dass alle aktivierten Accounts der Produktivumgebung auch für die Übermittlung an TED freigeschaltet sind. 
-
-Dies ist per default der Fall, kann aber bei Bedarf explizit ausgeschaltet werden, falls bestimmte Accounts der Produktivumgebung explizit nur für die Einlieferung unterschwelliger Bekanntmachungen genutzt werden sollen.  
-
-Es ist kein technisches "Anschalten" der API oder ähnliches vorgesehen. Die Produktivumgebung ist technisch bereits genauso funktionsfähig wie die Stagingumgebung, auch wenn rechtlich noch keie Einlieferung erlaubt ist.
-</details>
-<br>
-
 
 <details>
 <summary>
@@ -489,7 +464,7 @@ Alle Fehler und Warnungen aus dem CVS Report werden zukünftig in den Statusinfo
 
 <details>
 <summary>
-28.09.23 Wird es möglich sein, die online Validator API produktiv zu nutzen?
+Ist es möglich, die online Validator API produktiv zu nutzen?
 </summary>
 <br>
 Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produktivumgebung und in der Stagingumgebung wird die eforms-de-schematron Bugfix-Version immer die gleiche sein, wie auch im Vermittlungsdienst selbst. Auch die Nutzung des Offline-Validators (https://github.com/EFA-FHB/eforms-validator-core) ist empfohlen. 
