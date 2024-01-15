@@ -35,6 +35,11 @@
 | Staging    | 22.12.2024        | wird veröffentlicht |
 | Produktion | 31.12.2024        | wird veröffentlicht |
 
+> **WICHTIG** <br>
+Folgende eFroms Versionen werden nicht mehr vom Vermittlungsdienst unterstützt:
+- eForms DE-1.0.1
+- eForms SDK-1.5.5
+
 Status: In QS <br>
 <details>
 <summary>Release Notes</summary> 
