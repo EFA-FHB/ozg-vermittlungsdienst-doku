@@ -3,13 +3,15 @@
 
 <br />
 
-- December 2023
+- January 2024
   - Release for Self-Service Portal, Mediation Service, eSender, Notice Viewer and Validator](#Release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator)
+- December 2023
+  - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
+  - [Release for self-service portal, switching service, eSender, notice viewer and validator](#Release-for-self-service-portal,-switching-service,-eSender,-notice-viewer-and-validator)
 - November 2023
   - Hotfix release for switching service and eSender](#Release-for-switching-service-and-eSender)
   - Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
   - Hotfix release for notice viewer, validator and mediation service](#Release-for-notice-viewer-mediator-and-validator)
-    
 - October 2023
   - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
   - [Release for self-service portal, registration form for a separate mediation service account](#Release-for-self-service-portal,-registration-form-for-a-separate-mediation-service-account)
@@ -27,6 +29,64 @@
 
 <a id=release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator></a>
 ## Release for self-service portal, switching service, eSender, notice viewer and validator
+| Environment Operator Service | Period | Status |
+|------------|-----------------------------|----------------|
+| Preview | 15.01.2024 | will be published |
+| Staging | 22.12.2024 | will be published |
+| Production | 31.12.2024 | will be published |
+
+> **IMPORTANT** <br>
+The following eFroms versions are no longer supported by the switching service
+- eForms DE-1.0.1
+- eForms SDK-1.5.5
+
+Status: In QA <br>
+<details>
+<summary>Release Notes</summary>
+
+### Self-Service Portal
+- ---
+
+### Operator service
+- ---
+
+### eSender
+- ---
+
+### Validator (web service + open source)
+- ---
+
+### Notice Viewer
+- ---
+
+</details>
+
+<a id=release-for-validation></a>
+## Hotfix release for validation (eForms-DE 1.1 multilingualism)
+| Environment Switching service | Period | Status |
+|------------|-----------------------------|----------------|
+| Preview | 18.11.2023 | published |
+| Staging | 19.11.2023 | published |
+| Production | 20.11.2023 | published |
+
+Status: Published on 20.12.2023 <br>
+<details>
+<summary>Release notes</summary>
+
+### Validator (web service + open source)
+- Use of eForms-DE Schematron 0.7.2 for eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.2)
+- enables full support of multilingual eForms-DE documents
+
+### Mediation service
+- Use of eForms-DE Schematron 0.7.2 for eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.2)
+- enables full support of multilingual eForms-DE documents
+- Verification of acceptance of change notices has been improved
+
+
+</details>
+
+<a id=release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator></a>
+## Release for Self-Service Portal, Mediation Service, eSender, Notice Viewer and Validator
 | Environment Operator Service | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 28.11.2023 | published |
@@ -193,7 +253,7 @@ Status: Published on 4.10.2023 <br>
 <summary>Release notes</summary>
 
 ### Self-Service Portal
->**Environments** <br>
+>**environments** <br>
 >NEW: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
 >NEW: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEW: Production https://portal.ozg-vermittlungsdienst.de<br>
@@ -231,7 +291,7 @@ Status: published on 11.10.2023 <br>
 - Integration with new BKMS endpoint
 - New naming of the notification XML file in the ASIC container: instead of 'notice.xml' now 'uuid.eforms.xml'
 - Peppol integration with B2Brouter
-- 'PublicationID' from TED is now processed and saved in the switching service
+- 'PublicationID' from TED is now processed and stored in the switching service
 
 ### Notice Viewer
 >**Environments** <br>
