@@ -56,14 +56,14 @@ Status: In QS <br>
   - Angemeldeter Nutzertyp wird jetzt dargestellt;
 - Stoppen von Bekanntmachungen in der Notice-Tabelle ist jetzt möglich
 - Herunterladen der Bekanntmachungen wurde implementiert
-- Editieren von E-Mail beim Dashboard-Nutzer ist nicht mehr möglich
+- Editieren von E-Mail beim Dashboard-Nutzer ist nicht mehr erlaubt
 - Diverse Fehler wurden behoben
 
 ### Vermittlungsdienst
 - Verarbeitung von T01/02 eForms-Formularen wurde implementiert
 - eForms Versionen: DE-1.0.1 und SDK 1.5.5 sind jetzt nicht mehr unterstützt
 - Jetzt werden die Veröffentlichungslinks von TED und BKMS zur Verfügung gestellt
-- Veralteter POST v1/notices API Endpunkt wurde entfernt
+- Veralteter POST _v1/notices_ API Endpunkt wurde entfernt
 
 ### eSender
 - Verarbeitung von T01/02 eForms-Formularen wurde implementiert
