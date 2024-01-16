@@ -56,14 +56,14 @@ Status: In QA <br>
   - Registered user type is now displayed;
 - Stopping notices in the notice table is now possible
 - Downloading of notices has been implemented
-- Editing e-mail for dashboard users is no longer possible
+- Editing e-mail for dashboard users is no longer allowed
 - Various bugs have been fixed
 
 ### Mediation service
 - Processing of T01/02 eForms forms has been implemented
 - eForms versions: DE-1.0.1 and SDK 1.5.5 are no longer supported
-- Now the release links of TED and BKMS are provided
-- Deprecated POST v1/notices API endpoint has been removed
+- Now the publication links of TED and BKMS are provided
+- Deprecated POST _v1/notices_ API endpoint has been removed
 
 ### eSender
 - Processing of T01/02 eForms forms has been implemented
@@ -337,7 +337,7 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
 ## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
