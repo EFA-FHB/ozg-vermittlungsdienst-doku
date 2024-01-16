@@ -4,7 +4,7 @@
 <br />
 
 - January 2024
-  - Release for Self-Service Portal, Mediation Service, eSender, Notice Viewer and Validator](#Release-for-Mediation-Service,-Self-Service-Portal,-eSender,-Notice-Viewer-and-Validator)
+  - Release for attendant service, self-service portal, eSender, notice viewer and validator](#Release-for-attendant-service,-self-service-portal,-eSender,-notice-viewer-and-validator)
 - December 2023
   - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
   - [Release for self-service portal, switching service, eSender, notice viewer and validator](#Release-for-self-service-portal,-switching-service,-eSender,-notice-viewer-and-validator)
