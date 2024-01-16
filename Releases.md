@@ -4,7 +4,7 @@
 <br />
 
 - Januar 2024
-  - [Release für Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer und Validator](#Release-für-Vermittlungsdienst,-Self-Service-Portal,-eSender,-Notice-Viewer-und-Validator)
+  - [Release für Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
 - Dezember 2023
   - [Release für Validierung (eForms-DE 1.1 Mehrsprachigkeit)](#Release-für-Validierung)
   - [Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
@@ -27,8 +27,8 @@
 
 <br />
 
-<a id=#Release-für-Vermittlungsdienst,-Self-Service-Portal,-eSender,-Notice-Viewer-und-Validator></a>
-## Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator
+<a id=#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
+## Release für Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer und Validator
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 15.01.2024        | veröffentlicht |
