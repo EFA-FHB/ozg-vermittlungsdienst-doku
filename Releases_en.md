@@ -32,8 +32,8 @@
 | Environment Operator Service | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 15.01.2024 | published |
-| Staging | 22.12.2024 | will be published |
-| Production | 31.12.2024 | will be published |
+| Staging | 22.01.2024 | will be published |
+| Production | 31.01.2024 | will be published |
 
 > **IMPORTANT** <br>
 The following eForms versions are no longer supported by the switching service
@@ -337,7 +337,7 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+<a id=release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
 ## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
