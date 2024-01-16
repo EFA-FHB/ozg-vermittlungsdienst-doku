@@ -4,7 +4,7 @@
 <br />
 
 - January 2024
-  - Release for Self-Service Portal, Mediation Service, eSender, Notice Viewer and Validator](#Release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator)
+  - Release for self-service portal, switching service, eSender, notice viewer and validator](#Release--switching--service,-for--self-service--portal,-eSender,-notice--viewer--and--validator)
 - December 2023
   - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
   - [Release for self-service portal, switching service, eSender, notice viewer and validator](#Release-for-self-service-portal,-switching-service,-eSender,-notice-viewer-and-validator)
@@ -27,7 +27,7 @@
 
 <br />
 
-<a id=release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator></a>
+<a id=#release--mediation-service,-for-self-service-portal,-eSender,-notice-viewer-and-validator></a>
 ## Release for self-service portal, switching service, eSender, notice viewer and validator
 | Environment Operator Service | Period | Status |
 |------------|-----------------------------|----------------|
