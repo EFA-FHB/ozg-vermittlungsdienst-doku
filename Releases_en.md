@@ -44,20 +44,37 @@ Status: In QA <br>
 <details>
 <summary>Release Notes</summary>
 
-### Self-Service Portal
-- ---
+### Self-service portal
+- Extensive improvements to the GUI:
+  - It is now possible to return to the main page from the login page at the touch of a button;
+  - The date selection in the filter has been changed
+  - Improved display of error messages;
+  - Display of the sender of the notice;
+  - Display and filtering of change notices in the notice table;
+  - Display of the VD user assigned to a dashboard user;
+  - Copying IDs in the notice table is now possible;
+  - Registered user type is now displayed;
+- Stopping notices in the notice table is now possible
+- Downloading of notices has been implemented
+- Editing e-mail for dashboard users is no longer possible
+- Various bugs have been fixed
 
-### Operator service
-- ---
+### Mediation service
+- Processing of T01/02 eForms forms has been implemented
+- eForms versions: DE-1.0.1 and SDK 1.5.5 are no longer supported
+- Now the release links of TED and BKMS are provided
+- Deprecated POST v1/notices API endpoint has been removed
 
 ### eSender
-- ---
+- Processing of T01/02 eForms forms has been implemented
+- Transformations of eForms have been changed and improved
+- Error handling has been improved
 
 ### Validator (web service + open source)
-- ---
+- T01/02 eForms forms are now supported
 
-### Notice Viewer
-- ---
+### Notice-Viewer
+- Various bugs have been fixed
 
 </details>
 
@@ -320,7 +337,7 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+<a id=release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
 ## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
