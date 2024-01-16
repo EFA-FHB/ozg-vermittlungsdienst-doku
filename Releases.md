@@ -32,8 +32,8 @@
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 15.01.2024        | veröffentlicht |
-| Staging    | 22.12.2024        | wird veröffentlicht |
-| Produktion | 31.12.2024        | wird veröffentlicht |
+| Staging    | 22.01.2024        | wird veröffentlicht |
+| Produktion | 31.01.2024        | wird veröffentlicht |
 
 > **WICHTIG** <br>
 Folgende eForms Versionen werden nicht mehr vom Vermittlungsdienst unterstützt:
