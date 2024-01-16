@@ -45,19 +45,36 @@ Status: In QS <br>
 <summary>Release Notes</summary> 
 
 ### Self-Service Portal 
-- ---
+- Umfangreiche Verbesserungen der GUI:
+  - Jetzt ist es möglich von der Anmeldungseite per Knopfdruck auf die Hauptseite zurückzukehren;
+  - Die Datumauswahl in der Filter wurde geändert;
+  - Verbesserte Darstellung von Fehlermeldungen;
+  - Anzeige des Absenders der Bekanntmachung;
+  - Darstellung und Filterung von Change Notices in der Notice-Tabelle;
+  - Anzeige des zugewiesenen VD-Nuzter an einem Dashboard-Nutzer;
+  - Kopieren von ID's auf der Notice-Tabelle ist jetzt möglich;
+  - Angemeldeter Nutzertyp wird jetzt dargestellt;
+- Stoppen von Bekanntmachungen in der Notice-Tabelle ist jetzt möglich
+- Herunterladen der Bekanntmachungen wurde implementiert
+- Editieren von E-Mail beim Dashboard-Nutzer ist nicht mehr möglich
+- Diverse Fehler wurden behoben
 
 ### Vermittlungsdienst
-- --- 
+- Verarbeitung von T01/02 eForms-Formularen wurde implementiert
+- eForms Versionen: DE-1.0.1 und SDK 1.5.5 sind jetzt nicht mehr unterstützt
+- Jetzt werden die Veröffentlichungslinks von TED und BKMS zur Verfügung gestellt
+- Veralteter POST v1/notices API Endpunkt wurde entfernt
 
 ### eSender
-- ---
+- Verarbeitung von T01/02 eForms-Formularen wurde implementiert
+- Transformationen von eForms wurden geändert und verbessert
+- Fehlerhandlung wurde verbessert
 
 ### Validator (Webservice + Open-Source)
-- ---
+- T01/02 eForms-Formulare sind jetzt unterstüzt
 
 ### Notice-Viewer
-- ---
+- Diverse Fehler wurden behoben
 
 </details>
 
