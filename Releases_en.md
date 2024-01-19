@@ -55,9 +55,10 @@ Status: In QA <br>
   - Copying IDs in the notice table is now possible;
   - Registered user type is now displayed;
   - Users not confirmed by e-mail are now marked accordingly;
+  - The SDK version is now visible in the notice table for each notice;
 - Stopping notices in the notice table is now possible
-- Download of notices has been implemented
-- Editing e-mail for dashboard users is no longer allowed
+- Downloading of notices has been implemented
+- Editing of e-mail by dashboard user is no longer allowed
 - Various bugs have been fixed
 
 ### Mediation service
