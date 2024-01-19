@@ -9,11 +9,11 @@ and strengthen competition for public contracts? Then you are welcome to link yo
 Hanseatic City of Bremen's mediation service. The service is part of the Bremen EfA project "Access to Public Procurement",
 which is implemented in the project context "Data Service Public Procurement" - a cooperation project of the Federal Government and the State of Bremen.
 With the help of the mediation service, procurement systems can transmit notices to the announcement service and TED, thus making it
-make nationwide solicitations easily accessible to businesses. To learn how to connect to the switching service, see the [documentation](/documentation/documentation.md).
+make nationwide solicitations easily accessible to businesses. To learn how to connect to the switching service, see the [documentation](/documentation/Documentation.md).
 <br><br>
 The following documents are included in this repository to support a connection to the Mediation Service:
 
-- [Documentation Switching Service](/documentation/documentation.md)
+- [Documentation Switching Service](/documentation/Documentation.md)
 - FAQ](/faq.md)
 - [Release Notes](/releases.md)
 - [Known maintenance windows](/maintenance.md)

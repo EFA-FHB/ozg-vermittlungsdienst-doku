@@ -1,6 +1,6 @@
 ### EfA Implementation Project "Access to Public Procurement".
 ## Documentation mediation service
-[table of contents](/documentation/documentation.md)
+[table of contents](/documentation/Documentation.md)
 <br>
 
 # Available system environments

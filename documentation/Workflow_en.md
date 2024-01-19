@@ -1,6 +1,6 @@
 ### EfA implementation project "Access to public procurement"
 ## Documentation of the mediation service
-[Table of contents](/documentation/documentation.md)
+[Table of contents](/documentation/Documentation.md)
 <br>
 
 ## Workflow of an announcement in the public procurement data service
@@ -11,7 +11,7 @@ The central point for submitting notices and querying status information for spe
 <br><br>
 Before a notification is sent to the mediation system, it is advisable to send this notification to the eForms-DE validation service (external validator). This allows you to check that the eForms-DE document is valid before it is submitted. Upon submission, the switching service will also validate the eForms according to its version (eForms-EU 0.1.1, 1.0, 1.5 & eForms-DE 1.0.0, 1.0.1) and accept or reject it.
 <br><br>
-If the submission is successful, the announcement is processed further. Depending on whether it is a below-threshold or above-threshold eForms document, notices are either forwarded directly to the BKMS (below-threshold) or to the eSender Hub (above-threshold) - see [above- or below-threshold award](/documentation/upper-or_lower-threshold-award.md). In the eSender Hub, a transformation to eForms-EU takes place when eForms-DE is submitted. You can find out which eForms versions the individual components support in [eForms Support](/documentation/eForms_support.md).
+If the submission is successful, the announcement is processed further. Depending on whether it is a below-threshold or above-threshold eForms document, notices are either forwarded directly to the BKMS (below-threshold) or to the eSender Hub (above-threshold) - see [above- or below-threshold award](/documentation/Upper-or_lower-threshold-award.md). In the eSender Hub, a transformation to eForms-EU takes place when eForms-DE is submitted. You can find out which eForms versions the individual components support in [eForms Support](/documentation/eForms_support.md).
 <br><br>
 After successful transformation into the EU version of eForms that matches the DE version, the notification is forwarded to TED. The response from TED (successful submission or rejection) is saved and triggers a corresponding status change. The time of this status change is also saved so that the time of the submission is persisted. TED then retrieves the associated validation report, saves it and extracts any errors or warnings (e.g. lawfulness warnings).
 <br><br>

@@ -1,7 +1,7 @@
 
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 ## Dokumentation Vermittlungsdienst
-[Inhaltsverzeichnis](/documentation/documentation.md)
+[Inhaltsverzeichnis](/documentation/Documentation.md)
 <br>
 
 # Self-Service Portal des DöE

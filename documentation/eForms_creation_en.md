@@ -1,6 +1,6 @@
 ### EfA implementation project "Access to public procurement"
 ## Documentation of the mediation service
-[Table of contents](/documentation/documentation.md)
+[Table of contents](/documentation/Documentation.md)
 <br>
 
 ## Instructions for creating eForms-DE documents
