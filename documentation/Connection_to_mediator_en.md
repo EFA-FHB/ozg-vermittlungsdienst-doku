@@ -1,6 +1,6 @@
 
 ### EfA implementation project "Access to public procurement"
-## Documentation of the mediation service
+## Documentation on the mediation service
 [Table of contents](/documentation/Documentation.md)
 <br>
 
@@ -8,7 +8,7 @@
 >Please note: If subliminal announcements are still sent to service.bund.de, these must NOT also be sent to the switching service!
 
 # Connection to the switching service
-Notices can be sent to the switching service via the [REST API](#connection-via-REST-API) of the switching service or via the [eDelivery Network PEPPOL](#connection-via-PEPPOL).
+Notices can be sent to the switching service via the [REST API](#connection-per-rest-api) of the switching service or via the [eDelivery Network PEPPOL](#connection-per-peppol).
 <br>
 
 ## Connection via REST API
@@ -16,7 +16,7 @@ The REST API and the associated documentation for the existing endpoints are ava
 To use the API, access data must be requested once. Authorization takes place via OAuth 2.0.
 <br>
 
-### Apply for an account to deliver announcements
+### Applying for an account to deliver announcements
 
 >**Note** <br>
 >After the production release in June, a new user must be requested for the production and staging environment, even if a user already exists in Preview.

@@ -1,19 +1,19 @@
-**EfA Implementation Project "Access to Public Procurement "**.
-### Documentation mediation service
+**EfA implementation project "Access to public procurement "**
+### Documentation of the mediation service
 [Table of contents](/documentation/Documentation.md)
 <br>
 
 # eForms Validator
 
 The eForms validation service is available at the URL https://validator.ozg-vermittlungsdienst.de/.<br>
-The validation service allows you to pre-validate your eForms-DE version 1.0 and 1.1 documents to avoid validation errors when sending notices to the switching service.
+You can use the validation service to validate your eForms-DE documents of version eForms-DE 1.0 and 1.1 in advance in order to avoid validation errors when transmitting notices to the switching service.
 <br><br>
-Should you wish to use the validator offline yourself (either as a Java dependency or as a self-hosted web service) the code is open source and can be found at https://github.com/EFA-FHB/eforms-validator-core.
+If you want to use the validator offline yourself (either as a Java dependency or as a self-hosted web service), the code is open source and can be found at https://github.com/EFA-FHB/eforms-validator-core.
 <br><br>
-A combination of XML schema validation and Schematron validation of the documents is performed. As a result, a validation report corresponding to the structure of the validation report from the mediation service is returned in JSON format.
+A combination of XML schema validation and Schematron validation of the documents is performed. As a result, a validation report is returned in JSON format, which corresponds to the structure of the validation report from the mediation service.
 <br><br>
-The associated OpenAPI specification for the validator can be found at https://validator.ozg-vermittlungsdienst.de/ and is available for download in JSON format at https://validator.ozg-vermittlungsdienst.de/eForm-DE_validation_service_REST-API.json.
+The corresponding OpenAPI specification for the validator can be found at https://validator.ozg-vermittlungsdienst.de/ and is available for download in JSON format at https://validator.ozg-vermittlungsdienst.de/eForm-DE_validation_service_REST-API.json
 <br><br>
 The service can be used without prior registration or login.
-Submitted documents and the validation reports are neither stored in the system nor forwarded.
-Please note that the service is intended for development work only and should be used for this purpose only. No guarantee is given for availability and response time.
+Transmitted documents and validation reports are neither stored in the system nor forwarded.
+Please note that the service is intended exclusively for development work and should only be used for this purpose. No guarantee is given for availability and response time.

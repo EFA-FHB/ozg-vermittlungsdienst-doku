@@ -1,36 +1,36 @@
-### EfA Implementation Project "Access to Public Procurement".
+### EfA implementation project "Access to public procurement"
 # Mediation service
 
 >**Go-Live 25.10.** <br>
-> Important information about the Go-Live on 25.10. can be found under [Maintenance](/Maintenance.md)!
+> Important notes and known errors for productive submission can be found under [Maintenance](/maintenance.md)!
 
 You want to support companies and public administration in reducing bureaucratic hurdles in the procurement process
-and strengthen competition for public contracts? Then you are welcome to link your procurement platform to the mediation service provided by the Free
-Hanseatic City of Bremen's mediation service. The service is part of the Bremen EfA project "Access to Public Procurement",
-which is implemented in the project context "Data Service Public Procurement" - a cooperation project of the Federal Government and the State of Bremen.
-With the help of the mediation service, procurement systems can transmit notices to the announcement service and TED, thus making it
-make nationwide solicitations easily accessible to businesses. To learn how to connect to the switching service, see the [documentation](/documentation/Documentation.md).
+and strengthen competition for public contracts? Then why not link your procurement platform to the procurement platform provided by the Free
+Hanseatic City of Bremen. The service is part of the Bremen EfA project "Access to public procurement",
+which is being implemented in the context of the "Public Procurement Data Service" project - a cooperation project between the federal government and the state of Bremen.
+With the help of the mediation service, awarding systems can transmit notices to the notice service and TED and thus
+make nationwide tenders easily accessible to companies. You can find out how to connect to the switching service in the [Documentation](/documentation/Documentation.md).
 <br><br>
-The following documents are included in this repository to support a connection to the Mediation Service:
+This repository contains the following documents to support a connection to the switching service:
 
-- [Documentation Switching Service](/documentation/Documentation.md)
+- [Documentation switching service](/documentation/Documentation.md)
 - FAQ](/faq.md)
-- [Release Notes](/releases.md)
-- [Known maintenance windows](/maintenance.md)
+- Release Notes](/Releases.md)
+- Known maintenance windows](/maintenance.md)
 - Events](/events.md)
 <br>
 
-## The tasks of the switchboard service
+## The tasks of the switching service
 - Validation of all incoming announcements according to
-Schema as well as Schematron rules and checking if any
-announcements have already been published in the
-have been published
-- Transmission of subthreshold announcements to
+Schema and Schematron rules and checking whether
+announcements have already been published in the announcement service
+have already been published
+- Transmission of subliminal notices to
 the announcement service
-- Transmission of upper-threshold announcements via the
-the eSender hub to TED and to the
-Announcement Service
+- Transmission of above-threshold notices via
+the eSender Hub to TED and to the
+announcement service
 <br>
 
-## Data service public purchasing system architecture
-![System Architecture](/images/data_service_public_purchasing_system_architecture.png)
+## Data service public procurement system architecture
+![System architecture](/images/Datenservice_Oeffentlicher_Einkauf-Systemarchitektur.png)

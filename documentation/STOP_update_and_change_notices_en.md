@@ -1,5 +1,5 @@
 ### EfA implementation project "Access to public procurement"
-## Documentation of the mediation service
+## Documentation on the mediation service
 [Table of contents](/documentation/Documentation.md)
 <br>
 
@@ -24,7 +24,7 @@ The second concept describes the handling of previously published notices (on TE
 
 ### 1.1 Versions and the use of version numbers [functionality 'Update Notice']<span id='versions-update'>
 
-The concept of versions for notices is used to indicate changes to a notice to TED that were made after the first notice was sent to TED until the publication of a higher version of this notice (on TED and in the Public Procurement Data Service).<br><br>
+The concept of versions in notices is used to indicate changes to a notice to TED that were made after the first notice was sent to TED until the publication of a higher version of this notice (on TED and in the Public Procurement Data Service).<br><br>
 Notices could therefore be changed to a Notice ID via subsequent versions AFTER they have been accepted by TED (status "Accepted") but not yet published (status "Published"). Versions may only be incremented to a Notice ID until the announcement has been published by TED.<br><br>
 As soon as the status of a TED notice has reached "published", no new version may be sent. The following graphic illustrates the above.
 
