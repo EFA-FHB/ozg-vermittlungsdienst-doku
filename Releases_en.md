@@ -54,8 +54,9 @@ Status: In QA <br>
   - Display of the VD user assigned to a dashboard user;
   - Copying IDs in the notice table is now possible;
   - Registered user type is now displayed;
+  - Users not confirmed by e-mail are now marked accordingly;
 - Stopping notices in the notice table is now possible
-- Downloading of notices has been implemented
+- Download of notices has been implemented
 - Editing e-mail for dashboard users is no longer allowed
 - Various bugs have been fixed
 
@@ -337,7 +338,7 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
+<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
 ## Release for eForms-DE 1.1 - switching service and eSender Hub
 | Environment Switching Service | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
