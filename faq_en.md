@@ -391,7 +391,7 @@ If your system no longer updates the notice status automatically after the doe_s
 Is it possible for an above-threshold announcement to change to NOT_PUBLISHED after the deadline if it has already been published in the BKMS? Because then we would have TED:NOT_PUBLISHED / DSE:PUBLISHED, a status that I could not find in the flowchart.
 </summary>
 <br>
-The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is performed by TED, so the status NOT_PUBLISHED based on a manual rejection cannot occur.
+The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is carried out by TED, so the status NOT_PUBLISHED cannot occur based on a manual rejection.
 
 In the case of lawfulness warnings, an announcement is only forwarded to the BKMS 5 days after SUBMITTED in TED in order to await the manual check. However, if a situation arises in which an announcement has already been published in BKMS and then changes to NOT_PUBLISHED in TED, our system automatically stops this announcement in BKMS so that the status changes to DöE:Stopped. In this way, we ensure that no announcements rejected by TED remain published in the BKMS. However, this scenario is very unlikely.
 </details>
@@ -458,7 +458,7 @@ Thank you for this suggestion; we will look into implementing it.
 How can platform operators obtain the information from the EU CVS report on a notice if it is not included in the response on publication (POST → /v2/notices) or in the status information (GET → /v1/notices/{trackingCode})?
 </summary>
 <br>
-All errors and warnings from the CVS report will be transferred to the status information in future. We will pass the ID, the path, the content and the text of each rule that has been struck. It is not currently planned to return the CVS report as a file.
+All errors and warnings from the CVS report will be transferred to the status information in future. We will pass the ID, the path, the content and the text of each rule that has been struck. It is currently not planned to return the CVS report as a file.
 </details>
 <br>
 
@@ -529,7 +529,7 @@ It is currently being clarified with TED how a previous announcement in the old 
 
 <details>
 <summary>
-Is OPP-090-Procedure used exclusively for old notices (old TED schema) with further processing in eForms?
+Is OPP-090-Procedure used exclusively for the case of old notices (old TED scheme) with further processing in eForms?
  </summary>
 
 Both change notices and therefore the "Change Notice Version Identifier" (BT-758) as well as the "Framework Notice Identifier" (OPT-100) and "Previous Notice" (OPP-090) are TED-specific solutions that can be used directly.
@@ -687,7 +687,7 @@ It is strongly recommended to also enter the information for the award criteria 
 
 <details>
 <summary>
-Why have the codes for national exclusion grounds of the code list "Criterion Exclusion Grounds" been changed in version eForms-DE v1.1.0?
+Why have the codes for national exclusion grounds of the code list "Criterion Exclusion Grounds" been changed in the eForms-DE v1.1.0 version?
 </summary>
 <br>
 
@@ -789,7 +789,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 3. description of the tender
    
     The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be added at this point to the section
+    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
