@@ -54,6 +54,7 @@ Status: In QS <br>
   - Anzeige des zugewiesenen VD-Nuzter an einem Dashboard-Nutzer;
   - Kopieren von ID's auf der Notice-Tabelle ist jetzt möglich;
   - Angemeldeter Nutzertyp wird jetzt dargestellt;
+  - Nicht per E-mail bestätigte Nutzer sind jezt entsprechend gekennziechnet;
 - Stoppen von Bekanntmachungen in der Notice-Tabelle ist jetzt möglich
 - Herunterladen der Bekanntmachungen wurde implementiert
 - Editieren von E-Mail beim Dashboard-Nutzer ist nicht mehr erlaubt
