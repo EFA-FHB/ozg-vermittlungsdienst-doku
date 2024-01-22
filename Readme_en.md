@@ -9,18 +9,18 @@ and strengthen competition for public contracts? Then why not link your procurem
 Hanseatic City of Bremen. The service is part of the Bremen EfA project "Access to public procurement",
 which is being implemented in the context of the "Public Procurement Data Service" project - a cooperation project between the federal government and the state of Bremen.
 With the help of the mediation service, awarding systems can transmit notices to the notice service and TED and thus
-make nationwide tenders easily accessible to companies. You can find out how to connect to the switching service in the [Documentation](/documentation/Documentation.md).
+make nationwide tenders easily accessible to companies. You can find out how to connect to the switching service in the [documentation](/documentation/documentation.md).
 <br><br>
 This repository contains the following documents to support a connection to the switching service:
 
-- [Documentation switching service](/documentation/Documentation.md)
+- [Documentation switching service](/documentation/documentation.md)
 - FAQ](/faq.md)
 - Release Notes](/Releases.md)
 - Known maintenance windows](/maintenance.md)
 - Events](/events.md)
 <br>
 
-## The tasks of the switching service
+## The tasks of the mediation service
 - Validation of all incoming announcements according to
 Schema and Schematron rules and checking whether
 announcements have already been published in the announcement service
