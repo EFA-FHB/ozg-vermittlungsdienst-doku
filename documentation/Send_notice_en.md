@@ -1,22 +1,22 @@
-### EfA Implementation Project "Access to Public Procurement".
-## Documentation Mediation Service
-[table of contents](/documentation/documentation.md)
+### EfA implementation project "Access to public procurement"
+## Documentation of the mediation service
+[Table of contents](/documentation/Documentation.md)
 <br>
 
-## Send a notice
+## Send an announcement
 
-To send an announcement to the mediation service, you must use the provided REST API, for which credentials are required. For how to request credentials and how to authenticate to the API, see the [Connection to the mediation service](/documentation/Connection_to_mediator.md) section.
+To send an announcement to the switching service, the REST API provided must be used, for which access data is required. You can find out how to request the access data and how to authenticate yourself with the API in the section [Connection to the mediation service](/documentation/Connection_to_mediator.md).
 <br>
  
 The POST /v2/notices endpoint is used to send an announcement. The description of the endpoint can be found at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata. The endpoint expects the following parameters in the request body:
 ```
 `notice`: The XML eForms document
 
-`authorEmail`: The email address of the author of a notice. This will be passed to TED in case of pan-European publication.
+`authorEmail`: The e-mail address of the author of a notice. This is forwarded to TED in the case of Europe-wide publication.
 
-`buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optional parameters which allow to find the submitted notice in the notice service via the Peppol network.
+`buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optional parameters which enable the submitted announcement to be found in the announcement service via the Peppol network.
 ```
-In case of successful delivery, the response code `202` means that the announcement has been received and is now being processed.
+If the posting was successful, the response code `202` means that the notice has been received and is now being processed further.
 
 To track the notice, you will receive a tracking code and the following information in the response after posting:
 ```
@@ -31,11 +31,11 @@ To track the notice, you will receive a tracking code and the following informat
 </delivery>
 ```
 
-The tracking code can be used to query the status of the particular notice, via the `GET /v1/notices/{trackingcode}` endpoint.
+The tracking code can be used to query the status of the respective notice via the endpoint `GET /v1/notices/{trackingcode}`.
 
-Alternatively, either the status of all notices submitted can be queried via `GET /v1/notices`, or all status changes based on their time in a time span to be specified can be queried via `GET /v1/notices/status`. Both endpoints are paginated.
+Alternatively, either the status of all notices submitted can be queried via `GET /v1/notices` or all status changes can be queried based on their time in a specified period of time via `GET /v1/notices/status`. Both endpoints are paginated.
 >**Note** <br>
->The `GET /v1/notices/status` is recommended as this is the most efficient way to retrieve the current status information.
+>The `GET /v1/notices/status` is recommended, as this is the most efficient way to query the current status information.
 
-For the meaning of the other response codes, see https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.
+The meaning of the other response codes can be found at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.
 

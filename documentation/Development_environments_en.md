@@ -1,13 +1,13 @@
-### EfA Implementation Project "Access to Public Procurement".
-## Documentation mediation service
-[table of contents](/documentation/documentation.md)
+### EfA implementation project "Access to public procurement"
+## Documentation of the mediation service
+[Table of contents](/documentation/Documentation.md)
 <br>
 
 # Available system environments
-Currently, a **test, reference, and a production** environment of the Mediation Service is available. Within the environment, each switching service instance sends the data to the corresponding announcement service. With connectivity to the eSender Hub, the Public Purchasing data service is also able to send notices to the appropriate TED environment.
+A **test, reference and production environment** of the switching service is currently available. Each switching service instance sends the data to the corresponding announcement service within the environment. By connecting the eSender Hub, the public procurement data service is also able to transmit announcements to the corresponding TED environment.
 <br><br>
 
-**Note:** With the Production Release on 06/30/2023, the eSender Hub will be connected and testable in the production environment.
+**Note:** With the production release on 30.06.2023, the eSender Hub will be connected and testable in the production environment.
 <br>
 
 <table class="wrapped">
@@ -29,7 +29,7 @@ Currently, a **test, reference, and a production** environment of the Mediation 
         <p>Staging environment</p>
       </th>
       <th style="text-align: left;">
-        <p>Production environment</p>
+        <p>Production environment </p>
       </th>
     </tr>
   </thead>
@@ -37,11 +37,11 @@ Currently, a **test, reference, and a production** environment of the Mediation 
     <tr>
       <td style="text-align: left;">URL</td>
       <td style="text-align: left;">
-        Until 09/15/2023: <a class="external-link" href="https://preview.ozg-vermittlungsdienst.de" rel="nofollow">https://preview.ozg-vermittlungsdienst.de</a> <br>
+        until 15.09.2023: <a class="external-link" href="https://preview.ozg-vermittlungsdienst.de" rel="nofollow">https://preview.ozg-vermittlungsdienst.de</a> <br>
         from 30.08.2023: <a class="external-link" href="https://preview-ozg-vermittlungsdienst.de" rel="nofollow">https://preview-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
-        Until 09/15/2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging.ozg-vermittlungsdienst.de</a> <br>
+        until 15.09.2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging.ozg-vermittlungsdienst.de</a> <br>
         from 30.08.2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
@@ -110,10 +110,10 @@ Currently, a **test, reference, and a production** environment of the Mediation 
         <a href="https://account-management.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.preview-ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
-        <a href="https://account-management.staging-ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.staging-ozg-vermittlungsdienst.de/</a>
+        <a href="https://account-management.staging-ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.staging-ozg-vermittlungsdienst.de/</a>
       </td>
       <td style="text-align: left;">
-        <a href="https://account-management.ozg-vermittlungsdienst.de/" rel="nofollow" style="text-decoration: inherit;text-align: left;">https://account-management.ozg-vermittlungsdienst.de/</a>
+        <a href="https://account-management.ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.ozg-vermittlungsdienst.de/</a>
       </td>
     </tr>
     <tr>

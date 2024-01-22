@@ -11,22 +11,11 @@ Different eForms versions are currently supported and processed according to the
 *Overview of existing eForms-DE versions and the associated technical artifacts and tools:*
 | eForms-DE Standard | KoSIT Schematron | KoSIT Codelists | SDK-DE | eForms-DE Offline Validator | will be accepted until |
 |--------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------|
-| [eForms-DE 1.0.1](https://xeinkauf.de/app/uploads/2023/03/specification-eforms-de-v1.0.1.pdf) | [0.5.3](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3) | [2023-05-17](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-05-17) | [1.0.1_1.5.3_20230727](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/SDK-DE_1.0.1_1.5.3_20230727?ref_type=tags) | [1.0.6](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.6) supports eForms-DE 1.0.1 & 1.1.0 | 31.01.2024 |
-| eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf) | [0.6.2](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.2) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | [1.1.0_1.7.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.1.0_1.7.0) | [1.0.6](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.6) supports eForms-DE 1.0.1 & 1.1.0 | 11.05.2024 |
-| supports eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf) | [0.7.0](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.0) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | [1.1.0_1.7.2](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.1.0_1.7.2) | [1.0.11](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.11) supports eForms-DE 1.0.1 & 1.1.0 | |
+| [eForms-DE 1.0.1](https://xeinkauf.de/app/uploads/2023/03/specification-eforms-de-v1.0.1.pdf) | [0.5.3](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3) | [2023-05-17](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-05-17) | [1.0.1_1.5.3_20230727](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/SDK-DE_1.0.1_1.5.3_20230727?ref_type=tags) | [1.0.6](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.6) supports eForms-DE 1.0.1 & 1.1.0 | Preview: 15.01.2024, Staging: 22.1.2024, Prod: 31.01.2024 |
+| [eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf) | [0.6.2](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.2) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | [1.1.0_1.7.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.1.0_1.7.0) | [1.0.6](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.6) supports eForms-DE 1.0.1 & 1.1.0 | Preview: CW 16-17, Staging: CW 17-18, Prod: approx. end of CW 19 |
+| [eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf) | [0.7.0](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.0) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | [1.1.0_1.7.2](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.1.0_1.7.2) | [1.0.11](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.11) supports eForms-DE 1.0.1 & 1.1.0 | Preview: CW 16-17, Staging: CW 17-18, Prod: approx. end of CW 19 |
+| eForms-DE 1.2 <br>*(expected to be available from February 2024)* | | | | | Prod: 01.12.2024|
 
-
-<br>
-
-*The following versions can be submitted to the switching service until 25.10.2023:*
-
-| Version | Switching service | External validator | eSender-Hub | BKMS | TED |
-| ------- | -------- | ------------------ | --------- | ----- | ---- |
-| eForms-EU 0.1.1 | yes, but only for sub-threshold award | no | no | yes, but only for sub-threshold award | no |
-| eForms-EU 1.0 | yes, but only for sub-threshold awards | no | no | yes, but only for sub-threshold awards | no |
-| eForms-EU 1.5 | only in the preview environment, NOT in Prod | yes | yes | no | yes, until 31.01.2024 |
-| eForms-DE 1.0.1 (schematron 0.5.2) | yes | yes | yes | yes | yes, after conversion in the eSender Hub to eForms-EU 1.5.1, until 31.01.2024 |
-| eForms-DE 1.1 | planned support in CW37 2023 | planned support in CW37 2023 | yes | planned support in CW37 2023 | yes, after conversion in the eSender Hub to eForms-EU 1.7.0, planned support in CW37 2023, until 11.05.2024 |
 
 <br>
 
@@ -37,8 +26,8 @@ Different eForms versions are currently supported and processed according to the
 | eForms-EU 0.1.1 | yes, but only for sub-threshold awards | no | yes | yes, but only for sub-threshold awards | no |
 | eForms-EU 1.0 | yes, but only for sub-threshold awards | no | yes | yes, but only for sub-threshold awards | no |
 | eForms-EU 1.5 | no | yes | yes | no | yes, until 31.01.2024 |
-eForms-DE 1.0.1 (schematron 0.5.2) | yes | yes | yes | yes | yes | yes, after conversion in the eSender Hub to eForms-EU 1.5.2, until 31.01.2024 |
-eForms-DE 1.1 (Recommended version) | yes | yes | yes | yes | yes | yes, after conversion in the eSender Hub to eForms-EU 1.7.0, until 11.05.2024 |
+| eForms-DE 1.0.1 (schematron 0.5.2) | yes, until 31.01.2024 | yes | yes | yes | yes, after conversion in the eSender Hub to eForms-EU 1.5.2, until 31.01.2024 |
+| eForms-DE 1.1 (recommended version) | yes, until 11.05.2024 | yes | yes | yes | yes, after conversion in the eSender Hub to eForms-EU 1.7.0, until 11.05.2024 |
 
 Please note: After 25.10.2023, only eForms-DE versions will be supported in the production system. We recommend using the eForms-DE 1.1 version.
 
