@@ -1,6 +1,6 @@
 **EfA Implementation Project "Access to Public Procurement "**.
 ### Documentation mediation service
-[Table of contents](/documentation/Documentation.md)
+[Table of contents](/documentation/documentation.md)
 <br>
 
 # eForms Validator

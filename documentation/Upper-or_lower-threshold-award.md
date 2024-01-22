@@ -1,6 +1,6 @@
 ### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
 ## Dokumentation Vermittlungsdienst
-[Inhaltsverzeichnis](/documentation/Documentation.md)
+[Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
 # Unterscheidung von Unter- und Oberschwellenvergabe

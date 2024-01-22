@@ -1,6 +1,6 @@
 ### EfA implementation project "Access to public procurement"
 ## Documentation of the mediation service
-[Table of contents](/documentation/Documentation.md)
+[Table of contents](/documentation/documentation.md)
 <br>
 
 ## Workflow of an announcement in the public procurement data service
