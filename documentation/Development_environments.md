@@ -37,14 +37,15 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
     <tr>
       <td style="text-align: left;">URL</td>
       <td style="text-align: left;">
-        bis 15.09.2023: <a class="external-link" href="https://preview.ozg-vermittlungsdienst.de" rel="nofollow">https://preview.ozg-vermittlungsdienst.de</a> <br>
-        ab 30.08.2023: <a class="external-link" href="https://preview-ozg-vermittlungsdienst.de" rel="nofollow">https://preview-ozg-vermittlungsdienst.de</a>
+        Verfügbar nur von 06:00 bis 20:00 Uhr <br>
+        <a class="external-link" href="https://preview-ozg-vermittlungsdienst.de" rel="nofollow">https://preview-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
-        bis 15.09.2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging.ozg-vermittlungsdienst.de</a> <br>
-        ab 30.08.2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging-ozg-vermittlungsdienst.de</a>
+        Verfügbar 24/7 <br>
+       <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
+        Verfügbar 24/7 <br>
         <a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">https://ozg-vermittlungsdienst.de</a>
       </td>
     </tr>
