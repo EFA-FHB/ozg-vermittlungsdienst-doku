@@ -19,7 +19,7 @@ Which systems are available and where do I need an account?
 Does your public procurement office not have software from a specialist procedure manufacturer for creating notices, does it not support all the forms you need or have you previously used TED's eNotices2? Then the editorial system is right for you!
 <br><br>
 **[Mediation service](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service. <br>
-Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually implemented by the specialist procedure manufacturer.
+Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually carried out by the specialist procedure manufacturer.
 <br><br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of procurement service accounts.
 <br> Mainly used by specialist procedure manufacturers. Dashboard accounts are possible for viewing the status information of submitted notices, please contact your specialist procedure manufacturer!
@@ -380,9 +380,9 @@ We process the status, the time of submission and, if applicable, the time of pu
 How are rejected announcements in error states such as 'REJECTED' status of TED or an 'INTERNAL ERROR' status of BKMS further processed?
 </summary>
 <br>
-There will be an internal monitoring to react to error states (status InternalError) or bugs. Currently, Nortal is the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de if you have problems with your submissions and your notifications run into an error status. Generally, such error statuses indicate bugs in the DöE, in TED or in the announcement sent. Whenever errors occur in the system (e.g. rejection by TED), these are logged so that a support ticket can be created and a technical analysis carried out if necessary. An individual decision is then made as to which measures are appropriate to rectify the error. In the event of technical errors, the notification can either be resent as a new version after rectification or processed again manually internally. However, this depends on the individual case. If TED rejects the notice, it is possible that an error exists in the notice, e.g. the notice-id is already in use. In this case, the error message returned by TED on rejection is saved so that it can react accordingly.
+There will be an internal monitoring to react to error states (status InternalError) or bugs. Currently, Nortal is the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de if you have problems with your submissions and your notifications run into an error status. Generally, such error statuses indicate bugs in the DöE, in TED or in the announcement sent. Whenever errors occur in the system (e.g. rejection by TED), they are logged so that a support ticket can be created and a technical analysis carried out if necessary. An individual decision is then made as to which measures are appropriate to rectify the error. In the event of technical errors, the notification can either be resent as a new version after rectification or processed again manually internally. However, this depends on the individual case. If TED rejects the notice, it is possible that an error exists in the notice, e.g. the notice-id is already in use. In this case, the error message returned by TED on rejection is saved so that it can react accordingly.
 
-If your system no longer updates the notice status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the notices table in the self-service portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the mediation service. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
+If your system no longer updates the notice status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the notices table in the self-service portal (portal.ozg-vermittlungsdienst.de) using the login data of your system at the mediation service. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
 </details>
 <br>
 
@@ -598,6 +598,16 @@ There will be a support structure to respond to error states (InternalError stat
 
 **If you have any further questions about the <u>SDK-DE</u>, please contact Bundesdruckerei's support team by e-mail at [support-oeffentlichevergabe@bdr.de](mailto:support-oeffentlichevergabe@bdr.de)**, stating explicitly which version of the SDK-DE you have questions about.
 
+## General questions
+
+<details>
+  <summary>
+    Are there any requirements for the language of the announcement or multilingualism?
+  </summary>
+  <br>
+  Although there is no statement on the choice of language for invitations to tender in the procurement regulations, Section 23 (1) of the Administrative Procedure Act (VwVfG) stipulates that the official language is German. Accordingly, it is to be expected that German authorities must always prepare their documents at least in German. Multilingualism is of course possible and permitted.
+</details>
+
 ## Questions about the SDK-DE
 
 <details>
@@ -659,7 +669,7 @@ In this question, the provisions of the respective directives and regulations un
 ### No immediate publication (BG-8; BT-195/BT196/BT197/BT-198)
 <details>
 <summary>
-Why is it mandatory to specify the time limit for fields that are not to be published for mandatory fields?
+Why is it mandatory to specify the time limit for fields that are not to be published?
 </summary>
 <br>
 
@@ -687,7 +697,7 @@ It is strongly recommended to also enter the information for the award criteria 
 
 <details>
 <summary>
-Why have the codes for national exclusion grounds of the code list "Criterion Exclusion Grounds" been changed in the eForms-DE v1.1.0 version?
+Why have the codes for national exclusion grounds of the code list "Criterion Exclusion Grounds" been changed in version eForms-DE v1.1.0?
 </summary>
 <br>
 
@@ -708,7 +718,7 @@ In the event that all exclusion grounds apply equally, "nati-ground" (purely nat
 <summary>
 Why does the ARC require mandatory grounds for exclusion to be selected or stated in a contract notice at all?
 </summary>
- The motivation is that tenders not only refer to national laws, but also explicitly list exclusion grounds, in particular for the sake of transparency, even for bidders from abroad.
+ The motivation is that tenders not only refer to national laws, but also explicitly list grounds for exclusion, particularly for the sake of transparency, even for bidders from abroad.
  </details>
 <br>
 
@@ -784,12 +794,12 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot>, BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Result of the lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
     The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
+    Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
@@ -813,7 +823,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who signed the contract for the bidders
+BT-3202-Contract - Order bid identifier, as this field is used to determine the underlying bid in a backward chaining process and the bidder or head of a bidding consortium who signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
@@ -874,7 +884,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 | Hamburg| Public Procurement Chamber at the Finance Authority | t:040428231690 |
 | Hamburg|Awarding Chamber at the Authority for Urban Development and Housing |t:040428403230 |
 | Hesse| Procurement Chamber of the State of Hesse at the Darmstadt Regional Council | t:06151126603 |
-| Mecklenburg-Western Pomerania| Public Procurement Chambers at the Ministry of Economics, Labor and Health | t:03855885160 |
+| Mecklenburg-Western Pomerania| Public Procurement Chambers at the Ministry of Economic Affairs, Labor and Health | t:03855885160 |
 | Lower Saxony| Public Procurement Chamber of Lower Saxony at the Ministry of Economic Affairs, Labour and Digitalization of Lower Saxony | t:04131153308 |
 | North Rhine-Westphalia| Rhineland Public Procurement Chamber via Cologne District Government | t:02211473055 |
 | North Rhine-Westphalia|Westphalia Chamber of Public Procurement | t:02514111691 |
@@ -914,7 +924,7 @@ Assistance can be found in Annex II of the framework directive https://eur-lex.e
 |---|---|
 |M1|Light commercial vehicle of vehicle category M1 or passenger car (motor vehicles for the carriage of passengers with no more than eight seats in addition to the driver's seat).
 |M2|Light commercial vehicle of vehicle category M2 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of up to 5 tons).
-|N1|Light commercial vehicle of vehicle category N1 (motor vehicles for the carriage of goods with a maximum authorized mass of up to 3.5 tons).
+|N1|Light commercial vehicle of vehicle category N1 (motor vehicles for the carriage of goods with a maximum permissible mass of up to 3.5 tons).
 |N2|Heavy commercial vehicle of vehicle category N2 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 3.5 tons and up to 12 tons.)|
 |N3|Heavy commercial vehicle of vehicle category N3 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 12 tons.)|
 |M3|Bus of vehicle category M3 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of more than 5 tons).
