@@ -598,6 +598,16 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 
 **Bei weiteren Fragen zum <u>SDK-DE</u> wenden Sie sich gerne per E-Mail an den Support der Bundesdruckerei mit dem expliziten Hinweis, zu welcher Version des SDK-DE Sie Fragen haben, unter [support-oeffentlichevergabe@bdr.de](mailto:support-oeffentlichevergabe@bdr.de)**
 
+## Allgemeine Fragen
+
+<details>
+  <summary>
+    Gibt es Vorgaben zur Sprache der Bekanntmachung oder Mehrsprachigkeit?
+  </summary>
+  <br>
+  Es gibt zwar keine Aussage zur Wahl der Sprache von Ausschreibungen in der Vergabeordnung, jedoch ist nach § 23 Abs. 1 Verwaltungsverfahrensgesetz (VwVfG) die Amtssprache deutsch. Dementsprechend ist zu erwarten, dass deutsche Behörden ihre Unterlagen immer mindestens in deutscher Sprache ausfertigen müssen. Mehrsprachigkeit ist natürlich möglich und erlaubt. 
+</details>
+
 ## Fragen zum SDK-DE
 
 <details>
