@@ -3,6 +3,8 @@
 
 <br />
 
+- Februar 2024
+  - [Release Standard eForms-DE v1.2.0 und SDK-DE](#Release-Standard-eForms-DE-v1.2.0-und-SDK-DE)
 - Januar 2024
   - [Release für Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
 - Dezember 2023
@@ -27,7 +29,29 @@
 
 <br />
 
-<a id=#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
+<a id=Release-Standard-eForms-DE-v1.2.0-und-SDK-DE></a>
+## Release Standard eForms-DE v1.2.0 und SDK-DE
+
+Die Veröffentlichung des Standards eForms-DE v1.2.0 konnte nicht wie geplant vor Weihnachten 2023 als Preview-Version veröffentlicht werden.
+
+Die neue Release-Planung sieht wie folgt aus:
+
+| Datum              | Beschreibung                                                 |
+| ------------------ | ------------------------------------------------------------ |
+| 02.02.2024         | **Release eForms-DE v1.2.0** auf Basis SDK-EU 1.10.1         |
+| 02.02 - 23.02.2024 | Feedbackphase zu eForms-DE v1.2.0 (schriftlich über eforms@finanzen.bremen.de) |
+| 23.02.2024         | **Geplante Veröffentlichung SDK-DE 1.2.0_1.10.1**            |
+| 01.03.2024         | Geplante Veröffentlichung eines Patches zu eForms-DE v1.2.0 (vermutlich v1.2.1) |
+| 15.03.2024         | Geplante Veröffentlichung eines Patches zu SDK-DE 1.2.0_1.10.1 (vermutlich SDK-DE 1.2.1_1.10.1) |
+| 11.05.2024         | Akzeptanz von eForms-DE v1.1.0 läuft seitens TED aus         |
+
+**<u>Wichtig</u>: Der Datenservice Öffentlicher Einkauf (DÖE) wird sowohl die Versionen 1.2.0 als auch 1.2.1 (Patch) von eForms-DE (bzw. die Versionen 1.2.0_1.10.1 und 1.2.1_1.10.1 des SDK-DE) unterstützen. Genauere Informationen hierzu werden zeitnah bereitgestellt**
+
+Schriftliches Feedback zu eForms-DE **v.1.2.0** kann bis zum 23.02.2024 eingereicht werden an: eforms@finanzen.bremen.de
+
+<br />
+
+<a id=Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
 ## Release für Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer und Validator
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
