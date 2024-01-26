@@ -1,6 +1,6 @@
-### EfA implementation project "Access to public procurement"
-## Documentation of the mediation service
-[Table of contents](/documentation/Documentation.md)
+### Public procurement data service
+## Documentation Placement Service
+[Table of contents](/documentation/documentation.md)
 <br>
 
 # Available system environments
@@ -37,14 +37,15 @@ A **test, reference and production environment** of the switching service is cur
     <tr>
       <td style="text-align: left;">URL</td>
       <td style="text-align: left;">
-        until 15.09.2023: <a class="external-link" href="https://preview.ozg-vermittlungsdienst.de" rel="nofollow">https://preview.ozg-vermittlungsdienst.de</a> <br>
-        from 30.08.2023: <a class="external-link" href="https://preview-ozg-vermittlungsdienst.de" rel="nofollow">https://preview-ozg-vermittlungsdienst.de</a>
+        Available only from 06:00 to 20:00 <br>
+        <a class="external-link" href="https://preview-ozg-vermittlungsdienst.de" rel="nofollow">https://preview-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
-        until 15.09.2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging.ozg-vermittlungsdienst.de</a> <br>
-        from 30.08.2023: <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging-ozg-vermittlungsdienst.de</a>
+        Available 24/7 <br>
+       <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
+        Available 24/7 <br>
         <a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">https://ozg-vermittlungsdienst.de</a>
       </td>
     </tr>
@@ -100,20 +101,6 @@ A **test, reference and production environment** of the switching service is cur
       </td>
       <td style="text-align: left;">
         <a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">https://www.oeffentlichevergabe.de</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left;">
-        <p>Account Management (Keycloak)</p>
-      </td>
-      <td style="text-align: left;">
-        <a href="https://account-management.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.preview-ozg-vermittlungsdienst.de/</a>
-      </td>
-      <td style="text-align: left;">
-        <a href="https://account-management.staging-ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.staging-ozg-vermittlungsdienst.de/</a>
-      </td>
-      <td style="text-align: left;">
-        <a href="https://account-management.ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.ozg-vermittlungsdienst.de/</a>
       </td>
     </tr>
     <tr>
