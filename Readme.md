@@ -1,5 +1,4 @@
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
-# Vermittlungsdienst
+# Datenservice Öffentlicher Einkauf
 
 >**Go-Live 25.10.** <br>
 > Wichtige Hinweise und bekannte Fehler für die produktive Einlieferung finden Sie unter [Maintenance](/maintenance.md)! 

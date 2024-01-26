@@ -1,4 +1,4 @@
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
+### Datenservice Öffentlicher Einkauf
 # Veranstaltungen
 [Übersicht](/Readme.md)
 <br>

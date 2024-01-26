@@ -1,6 +1,5 @@
 
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
-## Dokumentation Vermittlungsdienst
+### Datenservice Öffentlicher Einkauf
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 

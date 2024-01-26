@@ -1,9 +1,8 @@
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
-## Dokumentation Vermittlungsdienst
+### Datenservice Öffentlicher Einkauf
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
-# Workflow einer Bekanntmachung im Datenservice öffentlicher Einkauf
+# Workflow einer Bekanntmachung im Datenservice Öffentlicher Einkauf
 
 Im folgenden Diagramm ist der generelle Workflow einer Bekanntmachung beschrieben.
 <br><br>

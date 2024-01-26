@@ -1,6 +1,5 @@
 
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
-## Dokumentation Vermittlungsdienst
+### Datenservice Öffentlicher Einkauf
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
@@ -72,7 +71,7 @@ Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEP
 > Das Passwort des Benutzers ist gleichzeitig das Passwort, welches für die Einlieferung bei der Vermittlungsdienst Schnittstelle genutzt wird! <br>
 > Sollten sie das Passwort ändern, stellen Sie sicher, dass es auch in der Software zur Einlieferung in den Vermittlungsdienst geändert wird! 
 
-1. Account Management der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Spalte _Account Management (Keycloak)_)
+1. Self-Service Portal der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Spalte _Self Service Portal_ )
 
 2. Auf 'Passwort vergessen?' klicken<br>
 ![Auf Passwort vergessen](images/kc_login.png)
@@ -114,4 +113,4 @@ In der E-Mail müssen folgende Angaben enthalten sein:
 - Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
 - Name des FVH
 
-Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen...
+Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen.

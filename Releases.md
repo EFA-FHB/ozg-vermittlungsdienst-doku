@@ -1,4 +1,4 @@
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
+### Datenservice Öffentlicher Einkauf
 # Releases
 
 <br />

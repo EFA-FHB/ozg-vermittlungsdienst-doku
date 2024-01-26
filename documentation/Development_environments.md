@@ -1,5 +1,4 @@
 ### Datenservice Öffentlicher Einkauf
-## Dokumentation Vermittlungsdienst
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
@@ -7,7 +6,6 @@
 Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermittlungsdiensts zur Verfügung. Jede Vermittlungsdienst-Instanz sendet innerhalb der Umgebung die Daten an den entsprechenden Bekanntmachungsservice. Mit Anbindung des eSender-Hubs ist der Datenservice öffentlicher Einkauf auch in der Lage, Bekanntmachungen an die entsprechende TED-Umgebung zu übermitteln.
 <br><br>
 
-**Hinweis:** Mit dem Production Release am 30.06.2023 wird der eSender-Hub in der Produktivumgebung angebunden und testbar sein.
 <br>
 
 <table class="wrapped">
