@@ -1,4 +1,4 @@
-### EfA-Umsetzungsprojekt "Zugang zur öffentlichen Vergabe"
+### Datenservice Öffentlicher Einkauf
 ## Dokumentation Vermittlungsdienst
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
@@ -101,20 +101,6 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
       </td>
       <td style="text-align: left;">
         <a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">https://www.oeffentlichevergabe.de</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: left;">
-        <p>Account Management (Keycloak)</p>
-      </td>
-      <td style="text-align: left;">
-        <a href="https://account-management.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.preview-ozg-vermittlungsdienst.de/</a>
-      </td>
-      <td style="text-align: left;">
-        <a href="https://account-management.staging-ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.staging-ozg-vermittlungsdienst.de/</a>
-      </td>
-      <td style="text-align: left;">
-        <a href="https://account-management.ozg-vermittlungsdienst.de/" rel="nofollow">https://account-management.ozg-vermittlungsdienst.de/</a>
       </td>
     </tr>
     <tr>
