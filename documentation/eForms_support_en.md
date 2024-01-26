@@ -1,9 +1,8 @@
-### EfA implementation project "Access to public procurement"
-## Documentation of the mediation service
+### Data service public procurement
 [Table of contents](/documentation/documentation.md)
 <br>
 
-## eForms support
+# eForms support
 Different eForms versions are currently supported and processed according to the following example. In future, both subthreshold and above-threshold notices will be accepted by the switching service exclusively in eForms-DE format.
 
 <br>

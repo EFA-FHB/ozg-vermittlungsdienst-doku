@@ -1,5 +1,4 @@
-### Public procurement data service
-## Documentation Placement Service
+### Data service public procurement
 [Table of contents](/documentation/documentation.md)
 <br>
 
@@ -7,7 +6,6 @@
 A **test, reference and production environment** of the switching service is currently available. Each switching service instance sends the data to the corresponding announcement service within the environment. By connecting the eSender Hub, the public procurement data service is also able to transmit announcements to the corresponding TED environment.
 <br><br>
 
-**Note:** With the production release on 30.06.2023, the eSender Hub will be connected and testable in the production environment.
 <br>
 
 <table class="wrapped">

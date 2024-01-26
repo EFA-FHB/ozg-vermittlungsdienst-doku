@@ -1,9 +1,8 @@
-### EfA implementation project "Access to public procurement"
-## Documentation on the mediation service
-[Table of contents](/documentation/Documentation.md)
+### Data service public procurement
+[Table of contents](/documentation/documentation.md)
 <br>
 
-## Change notices/stop-and-update functionality
+# Change notices/stop-and-update functionality
 
 ## Content
 - [1. use of version numbers and notice IDs in the context of passing on notices ](#versions-explained)

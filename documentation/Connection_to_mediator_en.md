@@ -1,14 +1,13 @@
 
-### EfA implementation project "Access to public procurement"
-## Documentation on the mediation service
-[Table of contents](/documentation/Documentation.md)
+### Data service public procurement
+[Table of contents](/documentation/documentation.md)
 <br>
 
 >**Note** <br>
->Please note: If subliminal announcements are still sent to service.bund.de, these must NOT also be sent to the switching service!
+>Please note: If subliminal announcements continue to be sent to service.bund.de, these must NOT also be sent to the switching service!
 
 # Connection to the switching service
-Notices can be sent to the switching service via the [REST API](#connection-per-rest-api) of the switching service or via the [eDelivery Network PEPPOL](#connection-per-peppol).
+Notices can be sent to the switching service via the [REST API](#anbindung-per-rest-api) of the switching service or via the [eDelivery Network PEPPOL](#anbindung-per-peppol).
 <br>
 
 ## Connection via REST API
@@ -72,7 +71,7 @@ In future, it will also be possible to transmit notices to the exchange service 
 > The user's password is also the password that is used to log in to the switching service interface! <br>
 > If you change the password, make sure that it is also changed in the software for posting to the switching service!
 
-1. call up Account Management for the desired environment (can be found under [System environments](/documentation/Development_environments.md) in the _Account Management (Keycloak)_ column)
+1. call up the self-service portal of the desired environment (can be found under [System environments](/documentation/Development_environments.md) in the _Self Service Portal_ column)
 
 2. click on 'Forgot password?
 ![Forgot password](images/kc_login.png)
@@ -114,4 +113,4 @@ The e-mail must contain the following information
 - First and last name and e-mail address of the FVH representative
 - Name of the FVH
 
-After checking the data provided in the e-mail, we will delete the access and send you a confirmation by e-mail...
+After checking the data provided in the e-mail, we will delete your access and send you a confirmation by e-mail.

@@ -1,10 +1,9 @@
 
-### EfA implementation project "Access to public procurement"
-## Documentation on the mediation service
-[Table of contents](/documentation/Documentation.md)
+### Data service public procurement
+[Table of contents](/documentation/documentation.md)
 <br>
 
-## Self-service portal of the DöE
+# Self-service portal of the DöE
 
 The self-service portal of the Public Purchasing Data Service for the production environment is available at the URL https://portal.ozg-vermittlungsdienst.de/.
 There is also the portal for the staging environment https://portal.staging-ozg-vermittlungsdienst.de/ and the portal for the preview environment https://portal.preview-ozg-vermittlungsdienst.de/.
@@ -39,7 +38,7 @@ From 11.12.23 the following roles will exist in the Self-Service Portal:
 | Role in SSP | Description | Actions available in SSP |
 |---------------------|--|--|
 | SSP (-Admin)-User | Responsible for all user accounts of the FVH; Admin for the FVH <br> Must be verified by Support to unlock all user administration rights <br><br> <b>Important: To enable all user management functions, you must tell us which VD account should be linked to your SSP admin account</b> | <ul><li>Creating new VD accounts (connections to the switching service)</li> <li>Creating new dashboard users</li><li> User management for your own organization</li><li>View documentation</li></ul>|
-| Dashboard user | Service employee/customer care account with overview of all announcements of the linked VD accounts | <ul><li>Overview of all announcements of the linked VD accounts</li> <li>One user can be linked to several VD accounts</li><li>View documentation</li></ul>| |
+| Dashboard user | Service employee/customer support account with overview of all announcements of the linked VD accounts | <ul><li>Overview of all announcements of the linked VD accounts</li> <li>One user can be linked to several VD accounts</li><li>View documentation</li></ul>| |
 | VD account | Only for the technical connection to the switching service | <ul><li>May not log in to SSP</li><li>View documentation</li></ul> |
 
 

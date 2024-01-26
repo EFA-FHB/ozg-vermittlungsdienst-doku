@@ -1,10 +1,12 @@
-### EfA implementation project "Access to public procurement"
+### Public procurement data service
 # Releases
 
 <br />
 
+- February 2024
+  - Release Standard eForms-DE v1.2.0 and SDK-DE](#Release-Standard-eForms-DE-v1.2.0-and-SDK-DE)
 - January 2024
-  - Release for attendant service, self-service portal, eSender, notice viewer and validator](#Release-for-self-service-portal,-attendant-service,-eSender,-notice-viewer-and-validator)
+  - [Release for switching service, self-service portal, eSender, notice viewer and validator](#Release-for-self-service-portal,-switching-service,-eSender,-notice-viewer-and-validator)
 - December 2023
   - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
   - [Release for self-service portal, switching service, eSender, notice viewer and validator](#Release-for-self-service-portal,-switching-service,-eSender,-notice-viewer-and-validator)
@@ -27,13 +29,35 @@
 
 <br />
 
-<a id=#release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator></a>
-## Release for attendant service, self-service portal, eSender, notice viewer and validator
+<a id=Release-Standard-eForms-DE-v1.2.0-and-SDK-DE></a>
+## Release Standard eForms-DE v1.2.0 and SDK-DE
+
+The release of the eForms-DE v1.2.0 standard could not be published as a preview version before Christmas 2023 as planned.
+
+The new release plan is as follows:
+
+| Date | Description |
+| ------------------ | ------------------------------------------------------------ |
+| 02.02.2024 | **Release eForms-DE v1.2.0** based on SDK-EU 1.10.1 |
+| 02.02 - 23.02.2024 | Feedback phase for eForms-DE v1.2.0 (in writing via eforms@finanzen.bremen.de) |
+| 02/23/2024 | **Planned release SDK-DE 1.2.0_1.10.1** |
+| Planned release of a patch for eForms-DE v1.2.0 (probably v1.2.1) | 01.03.2024 |
+| 15.03.2024 | Planned release of a patch for SDK-DE 1.2.0_1.10.1 (presumably SDK-DE 1.2.1_1.10.1) |
+| 11.05.2024 | Acceptance of eForms-DE v1.1.0 expires on the part of TED |
+
+**<u>Important</u>: The Public Procurement Data Service (DÖE) will support both versions 1.2.0 and 1.2.1 (patch) of eForms-DE (or versions 1.2.0_1.10.1 and 1.2.1_1.10.1 of the SDK-DE). More detailed information on this will be provided soon**
+
+Written feedback on eForms-DE **v.1.2.0** can be submitted until 23.02.2024 to: eforms@finanzen.bremen.de
+
+<br />
+
+<a id=release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator></a>
+## Release for switching service, self-service portal, eSender, notice viewer and validator
 | Environment Operator Service | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 15.01.2024 | published |
-| Staging | 22.01.2024 | will be published |
-| Production | 31.01.2024 | will be published |
+| Staging | 22.01.2024 | published |
+| Production | 31.01.2024 | to be published |
 
 > **IMPORTANT** <br>
 The following eForms versions are no longer supported by the switching service
@@ -323,7 +347,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the switching service can be used) for uploading XML files and as an endpoint in the switching service for rendering previously submitted notices using the
+Available as a standalone web service with token authentication (same token as in the switching service can be used) for uploading XML files and as an endpoint in the switching service for rendering previously submitted notices based on the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)

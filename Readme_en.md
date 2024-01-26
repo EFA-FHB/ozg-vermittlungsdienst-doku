@@ -1,8 +1,7 @@
-### EfA implementation project "Access to public procurement"
-# Mediation service
+# Data service Public procurement
 
 >**Go-Live 25.10.** <br>
-> Important notes and known errors for productive submission can be found under [Maintenance](/maintenance.md)!
+> Important notes and known errors for productive delivery can be found under [Maintenance](/maintenance.md)!
 
 You want to support companies and public administration in reducing bureaucratic hurdles in the procurement process
 and strengthen competition for public contracts? Then why not link your procurement platform to the procurement platform provided by the Free

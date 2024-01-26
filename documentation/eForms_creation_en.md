@@ -1,9 +1,8 @@
-### EfA implementation project "Access to public procurement"
-## Documentation of the mediation service
+### Data service public procurement
 [Table of contents](/documentation/documentation.md)
 <br>
 
-## Instructions for creating eForms-DE documents
+### Notes on creating eForms-DE documents
 
 When creating eForms documents, there are some rules to follow for certain fields.
 
@@ -60,7 +59,7 @@ https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf
 
 ### Current problem BEFORE Schematron Release 0.5.3 or 0.6.1
 
-Due to the obligation to specify the BT-738 (Preferred Publication Date) in combination with the applicable EU rules, it is not possible to have a publication carried out at TED "as soon as possible", as this only happens if the field is left blank. With the current restrictions, it is only permissible for the BT-738 (Preferred Publication Date) to be at least one day (eforms-DE 1.0.1) or at least two days (eforms-DE 1.1.0) after the BT-05 (Dispatch Date). This means that publication at TED "as soon as possible" is not possible.
+Due to the obligation to specify the BT-738 (Preferred Publication Date), in combination with the applicable EU rules, it is not possible to have a publication carried out at TED "as soon as possible", as this only happens if the field is left blank. With the current restrictions, it is only permissible for the BT-738 (Preferred Publication Date) to be at least one day (eforms-DE 1.0.1) or at least two days (eforms-DE 1.1.0) after the BT-05 (Dispatch Date). This means that publication at TED "as soon as possible" is not possible.
 
 
 ### Solution with Schematron Release 0.5.3 or 0.6.1

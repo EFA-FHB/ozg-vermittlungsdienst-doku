@@ -1,15 +1,14 @@
-### EfA implementation project "Access to public procurement"
-## Documentation on the mediation service
-[Table of contents](/documentation/Documentation.md)
+### Data service public procurement
+[Table of contents](/documentation/documentation.md)
 <br>
 
-## Status and transfer information
+# Status and transfer information
 
 The REST API of the switching service can be used to query all status and error information of an announcement. The status and error information of the BKMS and TED are regularly queried and saved by the switching service or eSender Hub, so the status and further information on an announcement is always available for further retrieval.
 <br>
 
 ## Contents
-- Endpoints for querying the status and transfer information](#endpoints)
+- Endpoints for querying status and transfer information](#endpoints)
 - Structure of the status information](#info-struktur)
     - [Status table: Transmission of a notice](#statustabelle-uebermittlung)
     - [Status table: Upper threshold award](#statustabelle-oberschwellen)
@@ -23,7 +22,7 @@ The REST API of the switching service can be used to query all status and error 
 ## Endpoints for querying status and transfer information<span id="endpoints">
 To query the status and transfer information, the switching service provides the endpoints `GET /v1/notices` for a list of data deliveries, `GET /v1/notices/status` for a list of data deliveries in a specific time period and `GET /v1/notices/{trackingcode}` for a single data delivery.
 
-The switching service carries out status queries to BKMS and TED every three minutes. It therefore makes sense to query the status information of the notices to the switching service at most every 5 minutes.
+The switching service carries out status queries to BKMS and TED every three minutes. It therefore makes sense to query the status information of the notices to the switching service every 5 minutes at most.
 
 The corresponding OpenAPI specification can be found at https://ozg-vermittlungsdienst.de/ and is available for download in JSON format at https://ozg-vermittlungsdienst.de/Vermittlungsdienst_REST-API.json.
 <br><br>

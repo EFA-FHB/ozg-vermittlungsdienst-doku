@@ -1,11 +1,10 @@
-### EfA implementation project "Access to public procurement"
-## Documentation of the mediation service
+### Data service public procurement
 [Table of contents](/documentation/documentation.md)
 <br>
 
-## Workflow of an announcement in the public procurement data service
+# Workflow of an announcement in the public procurement data service
 
-The following diagram describes the general workflow of a notice.
+The following diagram describes the general workflow of an announcement.
 <br><br>
 The central point for submitting notices and querying status information for specialized procedure manufacturers (FVH) is the procurement service. Before being able to submit to the mediation service, each awarding platform must have an account created in Keycloak and generate a token in the mediation service. The account can be requested in the Self-Service Portal (see [Connection to Mediator](/documentation/Connection_to_mediator.md)). This token is used for authentication for submission to the mediation service.
 <br><br>

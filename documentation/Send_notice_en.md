@@ -1,9 +1,8 @@
-### EfA implementation project "Access to public procurement"
-## Documentation of the mediation service
-[Table of contents](/documentation/Documentation.md)
+### Data service public procurement
+[Table of contents](/documentation/documentation.md)
 <br>
 
-## Send an announcement
+# Send an announcement
 
 To send an announcement to the switching service, the REST API provided must be used, for which access data is required. You can find out how to request the access data and how to authenticate yourself with the API in the section [Connection to the mediation service](/documentation/Connection_to_mediator.md).
 <br>

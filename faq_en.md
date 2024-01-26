@@ -1,4 +1,4 @@
-### EfA implementation project "Access to public procurement"
+### Public procurement data service
 # Frequently asked questions
 
 - Data service for public procurement](#datenservice-öffentlicher-einkauf)
@@ -19,7 +19,7 @@ Which systems are available and where do I need an account?
 Does your public procurement office not have software from a specialist procedure manufacturer for creating notices, does it not support all the forms you need or have you previously used TED's eNotices2? Then the editorial system is right for you!
 <br><br>
 **[Mediation service](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service. <br>
-Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually carried out by the specialist procedure manufacturer.
+Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually implemented by the specialist procedure manufacturer.
 <br><br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of procurement service accounts.
 <br> Mainly used by specialist procedure manufacturers. Dashboard accounts are possible for viewing the status information of submitted notices, please contact your specialist procedure manufacturer!
@@ -380,9 +380,9 @@ We process the status, the time of submission and, if applicable, the time of pu
 How are rejected announcements in error states such as 'REJECTED' status of TED or an 'INTERNAL ERROR' status of BKMS further processed?
 </summary>
 <br>
-There will be an internal monitoring to react to error states (status InternalError) or bugs. Currently, Nortal is the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de if you have problems with your submissions and your notifications run into an error status. Generally, such error statuses indicate bugs in the DöE, in TED or in the announcement sent. Whenever errors occur in the system (e.g. rejection by TED), they are logged so that a support ticket can be created and a technical analysis carried out if necessary. An individual decision is then made as to which measures are appropriate to rectify the error. In the event of technical errors, the notification can either be resent as a new version after rectification or processed again manually internally. However, this depends on the individual case. If TED rejects the notice, it is possible that an error exists in the notice, e.g. the notice-id is already in use. In this case, the error message returned by TED on rejection is saved so that it can react accordingly.
+There will be an internal monitoring to react to error states (status InternalError) or bugs. Currently, Nortal is the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de if you have problems with your submissions and your notifications run into an error status. Generally, such error statuses indicate bugs in the DöE, in TED or in the announcement sent. Whenever errors occur in the system (e.g. rejection by TED), these are logged so that a support ticket can be created and a technical analysis carried out if necessary. An individual decision is then made as to which measures are appropriate to rectify the error. In the event of technical errors, the notification can either be resent as a new version after rectification or processed again manually internally. However, this depends on the individual case. If TED rejects the notice, it is possible that an error exists in the notice, e.g. the notice-id is already in use. In this case, the error message returned by TED on rejection is saved so that it can react accordingly.
 
-If your system no longer updates the notice status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the notices table in the self-service portal (portal.ozg-vermittlungsdienst.de) using the login data of your system at the mediation service. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
+If your system no longer updates the notice status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the notices table in the self-service portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the mediation service. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
 </details>
 <br>
 
@@ -391,7 +391,7 @@ If your system no longer updates the notice status automatically after the doe_s
 Is it possible for an above-threshold announcement to change to NOT_PUBLISHED after the deadline if it has already been published in the BKMS? Because then we would have TED:NOT_PUBLISHED / DSE:PUBLISHED, a status that I could not find in the flowchart.
 </summary>
 <br>
-The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is carried out by TED, so the status NOT_PUBLISHED cannot occur based on a manual rejection.
+The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is performed by TED, so the status NOT_PUBLISHED based on a manual rejection cannot occur.
 
 In the case of lawfulness warnings, an announcement is only forwarded to the BKMS 5 days after SUBMITTED in TED in order to await the manual check. However, if a situation arises in which an announcement has already been published in BKMS and then changes to NOT_PUBLISHED in TED, our system automatically stops this announcement in BKMS so that the status changes to DöE:Stopped. In this way, we ensure that no announcements rejected by TED remain published in the BKMS. However, this scenario is very unlikely.
 </details>
@@ -458,7 +458,7 @@ Thank you for this suggestion; we will look into implementing it.
 How can platform operators obtain the information from the EU CVS report on a notice if it is not included in the response on publication (POST → /v2/notices) or in the status information (GET → /v1/notices/{trackingCode})?
 </summary>
 <br>
-All errors and warnings from the CVS report will be transferred to the status information in future. We will pass the ID, the path, the content and the text of each rule that has been struck. It is currently not planned to return the CVS report as a file.
+All errors and warnings from the CVS report will be transferred to the status information in future. We will pass the ID, the path, the content and the text of each rule that has been struck. It is not currently planned to return the CVS report as a file.
 </details>
 <br>
 
@@ -647,7 +647,7 @@ https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/blob/SDK-DE_1.1.0_1.7.
 BT-743 (Electronic invoicing) must be set to "required" by an EU rule as soon as the legal basis BT-01 is not set to "Other" </summary
 <br>
 
-TED will unfortunately only fix this error of an overly strict rule regarding BT-743 (electronic invoicing) in version 1.10 of the TEd-SDK and higher, but not for previous versions. Platforms that send notices to the procurement service of the Public Procurement Data Service in Germany will unfortunately have to deal with the error until the expected introduction of SDK-DE 1.2.0_1.10.0 in February 2024 and the subsequent implementation in the procurement platforms or editorial system.
+TED will unfortunately only fix this error of an overly strict rule regarding BT-743 (electronic invoicing) in version 1.10 of the TEd-SDK and higher, but not for previous versions. Platforms that send notices to the procurement service of the Public Procurement Data Service in Germany will unfortunately have to cope with the error until the expected introduction of SDK-DE 1.2.0_1.10.0 in February 2024 and the subsequent implementation in the procurement platforms or editorial system.
 
 As a transitional solution until then, contracting authorities can enter "required" in BT-743 (Electronic invoicing), but then note in BT-77 (Provisions - Financing) that although "required" is entered in BT-743, this is NOT "required" according to this regulation, but that electronic invoicing is "permitted" and desired instead.
 
@@ -669,7 +669,7 @@ In this question, the provisions of the respective directives and regulations un
 ### No immediate publication (BG-8; BT-195/BT196/BT197/BT-198)
 <details>
 <summary>
-Why is it mandatory to specify the time limit for fields that are not to be published?
+Why is it mandatory to specify the time limit for fields that are not to be published for mandatory fields?
 </summary>
 <br>
 
@@ -697,7 +697,7 @@ It is strongly recommended to also enter the information for the award criteria 
 
 <details>
 <summary>
-Why have the codes for national exclusion grounds of the code list "Criterion Exclusion Grounds" been changed in version eForms-DE v1.1.0?
+Why have the codes for national exclusion grounds of the code list "Criterion Exclusion Grounds" been changed in the eForms-DE v1.1.0 version?
 </summary>
 <br>
 
@@ -718,7 +718,7 @@ In the event that all exclusion grounds apply equally, "nati-ground" (purely nat
 <summary>
 Why does the ARC require mandatory grounds for exclusion to be selected or stated in a contract notice at all?
 </summary>
- The motivation is that tenders not only refer to national laws, but also explicitly list grounds for exclusion, particularly for the sake of transparency, even for bidders from abroad.
+ The motivation is that tenders not only refer to national laws, but also explicitly list exclusion grounds, in particular for the sake of transparency, even for bidders from abroad.
  </details>
 <br>
 
@@ -794,12 +794,12 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Result of the lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
     The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
+    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
@@ -823,7 +823,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order bid identifier, as this field is used to determine the underlying bid in a backward chaining process and the bidder or head of a bidding consortium who signed the contract for the bidders
+BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid in a backward chaining process and the bidder or head of a bidding consortium who signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
@@ -884,7 +884,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 | Hamburg| Public Procurement Chamber at the Finance Authority | t:040428231690 |
 | Hamburg|Awarding Chamber at the Authority for Urban Development and Housing |t:040428403230 |
 | Hesse| Procurement Chamber of the State of Hesse at the Darmstadt Regional Council | t:06151126603 |
-| Mecklenburg-Western Pomerania| Public Procurement Chambers at the Ministry of Economic Affairs, Labor and Health | t:03855885160 |
+| Mecklenburg-Western Pomerania| Public Procurement Chambers at the Ministry of Economics, Labor and Health | t:03855885160 |
 | Lower Saxony| Public Procurement Chamber of Lower Saxony at the Ministry of Economic Affairs, Labour and Digitalization of Lower Saxony | t:04131153308 |
 | North Rhine-Westphalia| Rhineland Public Procurement Chamber via Cologne District Government | t:02211473055 |
 | North Rhine-Westphalia|Westphalia Chamber of Public Procurement | t:02514111691 |
@@ -924,7 +924,7 @@ Assistance can be found in Annex II of the framework directive https://eur-lex.e
 |---|---|
 |M1|Light commercial vehicle of vehicle category M1 or passenger car (motor vehicles for the carriage of passengers with no more than eight seats in addition to the driver's seat).
 |M2|Light commercial vehicle of vehicle category M2 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of up to 5 tons).
-|N1|Light commercial vehicle of vehicle category N1 (motor vehicles for the carriage of goods with a maximum permissible mass of up to 3.5 tons).
+|N1|Light commercial vehicle of vehicle category N1 (motor vehicles for the carriage of goods with a maximum authorized mass of up to 3.5 tons).
 |N2|Heavy commercial vehicle of vehicle category N2 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 3.5 tons and up to 12 tons.)|
 |N3|Heavy commercial vehicle of vehicle category N3 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 12 tons.)|
 |M3|Bus of vehicle category M3 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of more than 5 tons).

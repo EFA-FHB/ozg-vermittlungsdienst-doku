@@ -1,9 +1,8 @@
-### EfA implementation project "Access to public procurement"
-## Documentation of the mediation service
+### Data service public procurement
 [Table of contents](/documentation/documentation.md)
 <br>
 
-## Distinction between lower and upper threshold awards
+# Distinction between lower and upper threshold awards
 
 When processing a notice in the switching service, certain criteria are used to check whether a sub-threshold or above-threshold notice has been transmitted.
 <br><br>
@@ -17,7 +16,7 @@ The system decides between sub-threshold and above-threshold award based on the 
 1. subtype of the contract notice
 2. eForms version
 
-Only if both criteria for the upper-threshold award are met is this carried out.
+Only if both criteria for the above-threshold award are met will this be carried out.
 <br>
 
 ### Subtype of the notice
