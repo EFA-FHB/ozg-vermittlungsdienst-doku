@@ -18,7 +18,7 @@ Which systems are available and where do I need an account?
 **[Editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Web interface for creating announcements and publishing them on TED and in the announcement service. <br>
 Does your public procurement office not have software from a specialist procedure manufacturer for creating notices, does it not support all the forms you need or have you previously used TED's eNotices2? Then the editorial system is right for you!
 <br><br>
-**[Mediation service](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service. 
+**[Mediation service](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service. <br>
 Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually implemented by the specialist procedure manufacturer.
 <br><br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of procurement service accounts.
@@ -30,10 +30,10 @@ Does NOT provide an interface for creating announcements! Only machine-to-machin
 <summary>
 What information is required to apply for an account? (updated on 11.10.23)
 </summary>
+<br>
 
 
-
-Since 04.10 accounts should be requested in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de). All required information is requested in the registration form for a VD account. 
+Since 04.10 accounts should be requested in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de). All required information is requested in the registration form for a VD account. These are:
 
 <br>
 
@@ -322,7 +322,7 @@ How can I determine which versions of the subcomponents are supported for a rele
 
 Under [eForms Support](/documentation/eForms_support.md) it is documented which eForms versions the subcomponents support.
 <br>
-For each release, we publish releasenotes to describe which component supports which version. The versions eForms-DE 1.0.1 and 1.1.0 will be supported in all components of the public procurement data service from September 13th.
+For each release, we publish releasenotes to describe which component supports which version. The versions eForms-DE 1.0.1 and 1.1.0 will be supported in all components of the public procurement data service from September 13.
 </details>
 <br>
 
@@ -341,7 +341,7 @@ Yes, the Github documentation is updated regularly and is the official documenta
 
 <details>
 <summary>
-Stop, change or cancel announcement? (added on 09/27/2013)
+Stop, change or cancel announcement? (added on 27.09.23)
 </summary>
 <br>
 -"Publishing" visible in eNotices2 Web and API next month
@@ -380,7 +380,7 @@ We process the status, the time of submission and, if applicable, the time of pu
 How are rejected announcements in error states such as 'REJECTED' status of TED or an 'INTERNAL ERROR' status of BKMS further processed?
 </summary>
 <br>
-There will be an internal monitoring to react to error states (status InternalError) or bugs. Currently, Nortal is the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de if you have problems with your submissions and your notifications run into an error status. Generally, such error statuses indicate bugs in the DöE, in TED or in the announcement sent. Whenever errors occur in the system (e.g. rejection by TED), these are logged so that a support ticket can be created and a technical analysis carried out if necessary. An individual decision is then made as to which measures are appropriate to rectify the error. In the event of technical errors, the notification can either be resent as a new version after rectification or processed again manually internally. However, this depends on the individual case. If TED rejects the notice, it is possible that an error exists in the notice, e.g. the notice-id is already in use. In this case, the error message returned by TED on rejection is saved so that it can react accordingly.
+There will be an internal monitoring to react to error states (status InternalError) or bugs. Currently, Nortal is the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de if you have problems with your submissions and your notifications run into an error status. Generally, such error statuses indicate bugs in the DöE, in TED or in the announcement sent. Whenever errors occur in the system (e.g. rejection by TED), they are logged so that a support ticket can be created and a technical analysis carried out if necessary. An individual decision is then made as to which measures are appropriate to rectify the error. In the event of technical errors, the notification can either be resent as a new version after rectification or processed again manually internally. However, this depends on the individual case. If TED rejects the notice, it is possible that an error exists in the notice, e.g. the notice-id is already in use. In this case, the error message returned by TED on rejection is saved so that it can react accordingly.
 
 If your system no longer updates the notice status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the notices table in the self-service portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the mediation service. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
 </details>
@@ -391,7 +391,7 @@ If your system no longer updates the notice status automatically after the doe_s
 Is it possible for an above-threshold announcement to change to NOT_PUBLISHED after the deadline if it has already been published in the BKMS? Because then we would have TED:NOT_PUBLISHED / DSE:PUBLISHED, a status that I could not find in the flowchart.
 </summary>
 <br>
-The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is carried out by TED, so the status NOT_PUBLISHED cannot occur based on a manual rejection.
+The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is performed by TED, so the status NOT_PUBLISHED based on a manual rejection cannot occur.
 
 In the case of lawfulness warnings, an announcement is only forwarded to the BKMS 5 days after SUBMITTED in TED in order to await the manual check. However, if a situation arises in which an announcement has already been published in BKMS and then changes to NOT_PUBLISHED in TED, our system automatically stops this announcement in BKMS so that the status changes to DöE:Stopped. In this way, we ensure that no announcements rejected by TED remain published in the BKMS. However, this scenario is very unlikely.
 </details>
@@ -606,7 +606,7 @@ There will be a support structure to respond to error states (InternalError stat
   </summary>
   <br>
   Although there is no statement on the choice of language for invitations to tender in the procurement regulations, Section 23 (1) of the Administrative Procedure Act (VwVfG) stipulates that the official language is German. Accordingly, it is to be expected that German authorities must always prepare their documents at least in German. Multilingualism is of course possible and permitted.
-  For publishing entities that are not classified as public authorities, publication without German is fine.
+  For publishing entities that are not classified as public authorities, publication without German is fine. From 31.01.2024, the rule CR-DE-26 for BT-300 is temporarily deactivated for validation in the mediation service, but the error is still returned in the online validator (validator.ozg-vermittlungsdienst.de).
 </details>
 
 ## Questions about the SDK-DE
@@ -747,13 +747,13 @@ For BT-1251, only a length restriction of 30 characters is specified in the SDK.
 <details>
 <summary>
 For which case is BT-125-Lot and BT-1251-Lot used?
-
+</summary>
 <br>
 
 An awarding authority has published a prior information notice in which it announces that an invitation to tender for subject X is to take place soon. This prior information notice is now given an announcement number. Some time later, the contracting authority invites tenders for subject X in a contract notice (CN). The publication number of the prior information notice is now entered in BT-125(i) in order to refer to the prior information notice that was published some time ago.
 BT-1251 is a specification of where information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
-
-
+</details>
+</summary>
 <br>
 
 
@@ -761,7 +761,7 @@ BT-1251 is a specification of where information on subject X was provided. This 
 (BT-142, BT-13713, , OPT-320, BT-13714, , OPT-310, OPT-300, BT-721, BT-145, BT-1451, BT-768, BT-3202)
  <details>
 <summary>Abbreviated version
- 
+ </summary>
 
 <br>
 
@@ -771,11 +771,11 @@ The client is stored in the Contract structure.
 An offer is assigned to a contract and bidders are assigned to the offer. These bidders represent the contractors of the contract.
 
 The following long version describes exactly what needs to be done to enable this backward linking and to ensure correct display in the contract notice service.
-
+</details>
 <br>
  <details>
   <summary>Long version
-  
+  </summary>
 
 <br>
 The following illustration is intended to help you complete the eForms form for the notification of results (CAN) so that the associated awarded contracts can be displayed correctly in the notification service (www.oeffentlichevergabe.de).
@@ -800,7 +800,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 3. description of the tender
    
     The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
+    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
