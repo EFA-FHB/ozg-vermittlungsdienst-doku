@@ -8,7 +8,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 - The field **Preferred Publication Date BT-738 (RequestedPublicationDate)** can be set to the same date as the Notice Dispatch date or up to 2 days after the Notice Dispatch date according to the German standard. Please make sure to specify the same time zone for both values, as otherwise TED may reject the request in individual cases
 - The filling of the field **BT-165 Winner Size (Winner Size)** is currently not checked by the German rules. Please make sure that this field is filled correctly for the following notice types: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
-- Currently there is a bug in TED that based on restrictive rules on CPV codes **grant recipients** can only tender for works but <u>not for supplies and services</u>. TED is still working on fixing this.
+- Currently there is a bug in TED that based on restrictive rules on CPV codes **grant recipients** can only tender for works, but <u>not for supplies and services</u>. TED is still working on fixing this.
 The CPV codes are interpreted as follows:
     - Supply services: Main CPV code from divisions 0 to 44 or 48
     - Services: Main CPV code from divisions 49 to 98
@@ -19,7 +19,7 @@ The CPV codes are interpreted as follows:
 
 
 ## Notes for specialist procedure manufacturers
-- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 Gateway Timeout from TED or an error in content as mentioned above, e.g. IssueDate incorrect), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in the event of a doe_status INTERNAL_ERROR.
+- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support will take a closer look at the announcement and then, depending on the error message (e.g. 502 Gateway Timeout from TED or a content error as mentioned above, e.g. IssueDate incorrect), will either set it to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in the event of a doe_status INTERNAL_ERROR.
 - We are currently seeing an increasing number of rejections when submitting based on incorrect email syntax for the "authorEmail" specification. Please ensure that a valid email with the correct syntax is supplied in this field when submitting to the placement service for each announcement. If the email is not correct, the following error message will appear: "NOTICE_METADATA_INVALID - Required data is missing or the data entered does not match the schema". We validate emails using the following regex expression provided by TED: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b <br>
 If you have domains that do not correspond to this, please open a support ticket with TED.
 
@@ -29,8 +29,10 @@ If you have domains that do not correspond to this, please open a support ticket
 |-------------|---------------------|------------|-------------------|---------------------|
 | Production and staging | All services of the DöE except BKMS | 09.01.2024 | 20:00 - 22:00 CEST | Infrastructure maintenance |
 | Staging | All services of the DöE except BKMS | 17.01.2024 | 19:00 - 20:00 CEST | Infrastructure maintenance |
-| Production | All services of the DöE except BKMS | 27.01.2024 | 20:00 - 00:00 CEST | Infrastructure maintenance |
-| Production | All services of the DöE except BKMS | 28.01.2024 | 00:00 - 20:00 CEST | Infrastructure maintenance |
+| Production | All services of the DöE except BKMS | 27-28.01.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
+| Production | All services of the DöE except BKMS | 27-28.04.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
+| Production | All services of the DöE except BKMS | 27-28.07.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
+| Production | All services of the DöE except BKMS | 26-27.10.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
 
 
 
