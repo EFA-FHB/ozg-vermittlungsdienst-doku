@@ -29,8 +29,10 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 |-------------|---------------------|------------|-------------------|---------------------|
 | Produktion und Staging | Alle Services des DöE außer BKMS | 09.01.2024 | 20:00 - 22:00 CEST | Infrastrukturwartung | 
 | Staging | Alle Services des DöE außer BKMS | 17.01.2024 | 19:00 - 20:00 CEST | Infrastrukturwartung | 
-| Produktion | Alle Services des DöE außer BKMS | 27.01.2024 | 20:00 - 00:00 CEST | Infrastrukturwartung |
-| Produktion | Alle Services des DöE außer BKMS | 28.01.2024 | 00:00 - 20:00 CEST | Infrastrukturwartung | 
+| Produktion | Alle Services des DöE außer BKMS | 27.-28.01.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
+| Produktion | Alle Services des DöE außer BKMS | 27.-28.04.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
+| Produktion | Alle Services des DöE außer BKMS | 27.-28.07.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
+| Produktion | Alle Services des DöE außer BKMS | 26.-27.10.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
 
 
 
