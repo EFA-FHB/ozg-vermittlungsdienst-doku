@@ -57,7 +57,7 @@ Schriftliches Feedback zu eForms-DE **v.1.2.0** kann bis zum 23.02.2024 eingerei
 |------------|-----------------------------|----------------|
 | Preview    | 15.01.2024        | veröffentlicht |
 | Staging    | 22.01.2024        | veröffentlicht |
-| Produktion | 31.01.2024        | wird veröffentlicht |
+| Produktion | 31.01.2024        | veröffentlicht |
 
 > **WICHTIG** <br>
 Folgende eForms Versionen werden nicht mehr vom Vermittlungsdienst unterstützt:
