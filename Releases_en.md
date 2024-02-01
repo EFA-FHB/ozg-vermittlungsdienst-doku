@@ -57,7 +57,7 @@ Written feedback on eForms-DE **v.1.2.0** can be submitted until 23.02.2024 to: 
 |------------|-----------------------------|----------------|
 | Preview | 15.01.2024 | published |
 | Staging | 22.01.2024 | published |
-| Production | 31.01.2024 | to be published |
+| Production | 31.01.2024 | published |
 
 > **IMPORTANT** <br>
 The following eForms versions are no longer supported by the switching service
