@@ -42,7 +42,9 @@ Die neue Release-Planung sieht wie folgt aus:
 | 02.02 - 23.02.2024 | Feedbackphase zu eForms-DE v1.2.0 (schriftlich über eforms@finanzen.bremen.de) |
 | 23.02.2024         | **Geplante Veröffentlichung SDK-DE 1.2.0_1.10.1**            |
 | 01.03.2024         | Geplante Veröffentlichung eines Patches zu eForms-DE v1.2.0 (vermutlich v1.2.1) |
+| ~ 13.03.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** | 
 | 15.03.2024         | Geplante Veröffentlichung eines Patches zu SDK-DE 1.2.0_1.10.1 (vermutlich SDK-DE 1.2.1_1.10.1) |
+| ~ 27.03.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Produktion** | 
 | 11.05.2024         | Akzeptanz von eForms-DE v1.1.0 läuft seitens TED aus         |
 
 **<u>Wichtig</u>: Der Datenservice Öffentlicher Einkauf (DÖE) wird sowohl die Versionen 1.2.0 als auch 1.2.1 (Patch) von eForms-DE (bzw. die Versionen 1.2.0_1.10.1 und 1.2.1_1.10.1 des SDK-DE) unterstützen. Genauere Informationen hierzu werden zeitnah bereitgestellt**
