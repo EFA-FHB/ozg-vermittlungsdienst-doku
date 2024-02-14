@@ -66,7 +66,7 @@ Folgende eForms Versionen werden nicht mehr vom Vermittlungsdienst unterstützt:
 - eForms DE-1.0.1
 - eForms SDK-1.5.5
 
-Status: In QS <br>
+Status: Veröffentlicht am 31.01.2024<br>
 <details>
 <summary>Release Notes</summary> 
 
