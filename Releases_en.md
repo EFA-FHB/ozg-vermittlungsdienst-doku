@@ -41,7 +41,7 @@ The new release plan is as follows:
 | 02.02.2024 | **Release eForms-DE v1.2.0** based on SDK-EU 1.10.1 |
 | 02.02 - 23.02.2024 | Feedback phase for eForms-DE v1.2.0 (in writing via eforms@finanzen.bremen.de) |
 | 02/23/2024 | **Planned release SDK-DE 1.2.0_1.10.1** |
-| Planned release of a patch for eForms-DE v1.2.0 (presumably v1.2.1) | 01.03.2024 |
+| Planned release of a patch for eForms-DE v1.2.0 (probably v1.2.1) | 01.03.2024 |
 ~ 13.03.2024 | **Planned support for eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** |
 | 15.03.2024 | Planned release of a patch for SDK-DE 1.2.0_1.10.1 (presumably SDK-DE 1.2.1_1.10.1) |
 ~ 27.03.2024 | **Planned support for eForms-DE 1.2 in DöE production** |
@@ -66,7 +66,7 @@ The following eForms versions are no longer supported by the switching service
 - eForms DE-1.0.1
 - eForms SDK-1.5.5
 
-Status: In QA <br>
+Status: Published on 31.01.2024<br>
 <details>
 <summary>Release Notes</summary>
 
@@ -349,7 +349,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the switching service can be used) for uploading XML files and as an endpoint in the switching service for rendering previously submitted notices using the
+Available as a standalone web service with token authentication (same token as in the switching service can be used) for uploading XML files and as an endpoint in the switching service for rendering previously submitted notices based on the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
@@ -466,7 +466,7 @@ The following checks are carried out when transmitting a change notification for
 -Are there already several notices in the BKMS whose concatenated noticeId and noticeVersion match the change notice version identifier?
 -Is there a change notice in the BKMS that has already updated the version to be changed?<br>
 This means that only the latest version in a chain of notices is updated.
-- Subliminal announcements published in the announcement service receive the status PUBLISHED.<br>
+- Subliminal announcements published in the announcement service are assigned the status PUBLISHED.<br>
 The status is returned accordingly in a status query.
 - Several optimizations and bug fixes
 <br><br>
