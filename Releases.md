@@ -56,7 +56,7 @@ Schriftliches Feedback zu eForms-DE **v.1.2.0** kann bis zum 23.02.2024 eingerei
 
 ### Self-Service Portal 
 - Nachdem eine Bekanntmachung veröffentlicht wurde, werden jetzt direkte Links zum DÖE bzw. TED auf der Bekanntmachungstabelle beim Dashboard-User dargestellt
-- Geschäftzeichen und Titel sind jetzt aus der Bekanntmachungstabelle beim Dashboard-User dargestellt
+- Das Geschäftzeichen und der Titel sind jetzt aus der Bekanntmachungstabelle beim Dashboard-User dargestellt
 - Diverse Fehler wurden behoben
 
 ### Vermittlungsdienst
