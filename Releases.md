@@ -55,17 +55,25 @@ Schriftliches Feedback zu eForms-DE **v.1.2.0** kann bis zum 23.02.2024 eingerei
 <summary>Release Notes</summary> 
 
 ### Self-Service Portal 
--
+- Nachdem eine Bekanntmachung veröffentlicht wurde, werden jetzt direkte Links zum DÖE bzw. TED auf der Bekanntmachungstabelle beim Dashboard-User dargestellt
+- Geschäftzeichen und Titel sind jetzt aus der Bekanntmachungstabelle beim Dashboard-User dargestellt
+- Diverse Fehler wurden behoben
 
 ### Vermittlungsdienst
-- 
+- Unterstützung von eForms-DE 1.2 Standard wurde hinzugefügt
+- Neuer GET Endpunkt wurde implementiert. Jetzt kann der Status für eine Bekanntmachung anhand NoticeID und Version aufgerufen werden
+- Diverse Fehler wurden behoben
 
 ### eSender
-- 
+- Unterstützung von eForms-DE 1.2 Standard wurde hinzugefügt
+ 
 ### Validator (Webservice + Open-Source)
-- 
+- Unterstützung von eForms-DE 1.2 Standard wurde hinzugefügt
+
 ### Notice-Viewer
--
+- Unterstützung von eForms-DE 1.2 Standard wurde hinzugefügt
+- Diverse Fehler wurden behoben
+
 <br />
 </details>
 
