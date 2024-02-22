@@ -61,7 +61,7 @@ Schriftliches Feedback zu eForms-DE **v.1.2.0** kann bis zum 23.02.2024 eingerei
 
 ### Vermittlungsdienst
 - Unterstützung von eForms-DE 1.2 Standard wurde hinzugefügt
-- Neuer GET Endpunkt wurde implementiert. Jetzt kann der Status für eine Bekanntmachung anhand NoticeID und Version aufgerufen werden
+- Ein neuer GET _/v1/notices/by-notice/{noticeId}/{version}_ Endpunkt wurde implementiert. Jetzt kann der Status einer Bekanntmachung anhand NoticeID und Version aufgerufen werden
 - Diverse Fehler wurden behoben
 
 ### eSender
