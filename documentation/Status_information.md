@@ -20,7 +20,7 @@ Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehleri
 <br><br>
 
 ## Endpunkte zur Abfrage der Status- und Transferinformationen<span id="endpunkte">
-Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte `GET /v1/notices` für eine Liste von Datenlieferungen, `GET /v1/notices/status` für eine Liste von Datenlieferungen in einem bestimmten Zeitraum und `GET /v1/notices/{trackingcode}` für eine einzelne Datenlieferung zur Verfügung.
+Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte `GET /v1/notices` für eine Liste von Datenlieferungen, `GET /v1/notices/status` für eine Liste von Datenlieferungen in einem bestimmten Zeitraum und `GET /v1/notices/{trackingcode}` sowie `GET /v1/notices/by-notice/{noticeId}/{version}` für eine einzelne Datenlieferung zur Verfügung.
 
 Der Vermittlungsdienst führt die Statusabfragen an BKMS und TED alle drei Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
 
@@ -40,6 +40,8 @@ Die Endpunkte zur Abfrage der Statusinformationen, geben die Statusinformationen
 		<vergabeId>string</vergabeId>
 		<vergabenummer>V0505/2021</vergabenummer>
 		<description>string</description>
+		<tedPublicationLink>https://preview.ted.europa.eu/udl?uri=TED:NOTICE:{publicationId}:HTML:DE:HTML</tedPublicationLink>
+    		<bkmsPublicationLink>https://alpha.oeffentlichevergabe.de/ui/de/search/details?{noticeId}</bkmsPublicationLink>
 		<tedStatus>PENDING</tedStatus>
 		<tedStatusUpdate>2023-11-03T15:01:38.373Z</tedStatusUpdate>
 		<tedAcceptedTimestamp>2023-11-03T15:01:38.373Z</tedAcceptedTimestamp>
