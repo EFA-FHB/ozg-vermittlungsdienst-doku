@@ -41,7 +41,7 @@ Die neue Release-Planung sieht wie folgt aus:
 | 02.02.2024         | **Release eForms-DE v1.2.0** auf Basis SDK-EU 1.10.1         | Fertig |
 | 02.02 - 23.02.2024 | Feedbackphase zu eForms-DE v1.2.0 (schriftlich über eforms@finanzen.bremen.de) | Fertig |
 | 23.02.2024         | **Geplante Veröffentlichung SDK-DE 1.2.0_1.10.1**            | Fertig |
-| 23.03.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Preview (BKMS Alpha + VD Preview)** | Fertig |
+| 23.03.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Preview (BKMS Alpha + VD Preview)** | Veröffentlicht |
 | 01.03.2024         | Geplante Veröffentlichung eines Patches zu eForms-DE v1.2.0 (vermutlich v1.2.1) | Ausstehend |
 | ~ 13.03.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** | In QS |
 | 15.03.2024         | Geplante Veröffentlichung eines Patches zu SDK-DE 1.2.0_1.10.1 (vermutlich SDK-DE 1.2.1_1.10.1) | Ausstehend |
