@@ -80,8 +80,7 @@ jobs:
         run: |
           set -x
           echo "Updating Deepl Glossary."
-          ./file-translate/file-translator upg --name evergabe-glossary --src-lang=de --target-lang=en --api-key ${{ secrets.DEEPL_API_KEY }} --entries="Vermittlungsdienst,Vermittlungsdienst" >> $GITHUB_OUTPUT
-
+          ./file-translate/file-translator upg --name=evergabe-glossary --src-lang=de --target-lang=en --api-key=${{ secrets.DEEPL_API_KEY }} --entries="Vermittlungsdienst,Vermittlungsdienst"
 
       - name: Translate all md files
         shell: bash
@@ -96,7 +95,7 @@ jobs:
             extension="${filename##*.}"
             filename="${filename%.*}"
             tmp=$(mktemp)
-            ./file-translate/file-translator trans -i $file -o $tmp --api-key ${{ secrets.DEEPL_API_KEY }} --glossary-id ${{join(steps.glossary_update.outputs.*, '')}}
+            ./file-translate/file-translator trans -i $file -o $tmp --api-key ${{ secrets.DEEPL_API_KEY }} --glossary-id ${{steps.glossary_update.outputs.stdout}}
 
             if [[ $(cat $tmp | wc -l) -gt 0 ]]; then
               mv $tmp ${filedir}/${filename}_en.md
