@@ -81,7 +81,6 @@ jobs:
           shell: bash
           run: |
             set -x
-            echo "Updating Deepl Glossary."
             ./file-translate/file-translator upg --name=evergabe-glossary --src-lang=de --target-lang=en --api-key=${{ secrets.DEEPL_API_KEY }} --entries="Vermittlungsdienst,Vermittlungsdienst"
 
       - name: Translate all md files
