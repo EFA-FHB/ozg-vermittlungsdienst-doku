@@ -3,7 +3,7 @@
 <br>
 
 # eForms support
-Different eForms versions are currently supported and processed according to the following example. In future, both subthreshold and above-threshold notices will be accepted by the switching service exclusively in eForms-DE format.
+Different eForms versions are currently supported and processed according to the following example. In future, both subthreshold and above-threshold notices will be accepted by the Vermittlungsdienst exclusively in eForms-DE format.
 
 <br>
 
@@ -18,9 +18,9 @@ Different eForms versions are currently supported and processed according to the
 
 <br>
 
-*The following versions can be submitted in the Prod Environment in the switching service from 25.10.2023:*
+*The following versions can be submitted in the Prod Environment in the Vermittlungsdienst from 25.10.2023:*
 
-| Version | Switching service | External validator | eSender-Hub | BKMS | TED |
+| Version | Vermittlungsdienst | External validator | eSender-Hub | BKMS | TED |
 | ------------------------------------- | ------------------------------- | ------------------ | ---------- | --------- | ------------ |
 | eForms-EU 0.1.1 | yes, but only for sub-threshold awards | no | yes | yes, but only for sub-threshold awards | no |
 | eForms-EU 1.0 | yes, but only for sub-threshold awards | no | yes | yes, but only for sub-threshold awards | no |
@@ -31,9 +31,9 @@ Different eForms versions are currently supported and processed according to the
 Please note: After 25.10.2023, only eForms-DE versions will be supported in the production system. We recommend using the eForms-DE 1.1 version.
 
 ## eForms validation
-All notices are validated during transmission to the switching service before they are accepted by the system. Validation is carried out using a combination of XML schema validation and Schematron validation. As a result, a validation report is returned in JSON format.
+All notices are validated when they are transmitted to the Vermittlungsdienst before they are accepted by the system. Validation is carried out using a combination of XML schema validation and Schematron validation. As a result, a validation report is returned in JSON format.
 
-The open source validator https://github.com/EFA-FHB/eforms-validator-core offers an option for offline validation in the same way as the switching service.
+The open source validator https://github.com/EFA-FHB/eforms-validator-core offers an option for offline validation in the same way as the Vermittlungsdienst.
 
 ### Validation blacklist
 

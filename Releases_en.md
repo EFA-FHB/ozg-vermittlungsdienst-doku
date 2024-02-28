@@ -6,26 +6,26 @@
 - February 2024
   - Release Standard eForms-DE v1.2.0 and SDK-DE](#Release-Standard-eForms-DE-v1.2.0-and-SDK-DE)
 - January 2024
-  - [Release for switching service, self-service portal, eSender, notice viewer and validator](#Release-for-self-service-portal,-switching-service,-eSender,-notice-viewer-and-validator)
+  - Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - December 2023
   - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
-  - [Release for self-service portal, switching service, eSender, notice viewer and validator](#Release-for-self-service-portal,-switching-service,-eSender,-notice-viewer-and-validator)
+  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - November 2023
-  - Hotfix release for switching service and eSender](#Release-for-switching-service-and-eSender)
-  - Hotfix release for validator, mediation service and eSender](#Release-for-validator-mediator-and-eSender)
-  - Hotfix release for notice viewer, validator and mediation service](#Release-for-notice-viewer-mediator-and-validator)
+  - Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
+  - Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
+  - Hotfix release for Notice Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-mediator-and-validator)
 - October 2023
   - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
-  - [Release for self-service portal, registration form for a separate mediation service account](#Release-for-self-service-portal,-registration-form-for-a-separate-mediation-service-account)
+  - Release for self-service portal, registration form for a separate Vermittlungsdienst account](#Release-for-self-service-portal,-registration-form-for-a-separate- Vermittlungsdienst-account)
 - September 2023
-  - [Release for RequestedPublicationDate Fix + Notice Viewer - Mediation Service, eSender Hub, Notice Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
-  - Release for eForms-DE 1.1 - switching service and eSender Hub](#Release-for-eForms-DE-1.1-switching-service-and-eSender-Hub)
+  - Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
+  - Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
 - August 2023
   - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
 - June 2023
-  - Production Release June - Switching Service & eSender Hub](#Production-Release-June-Switching-Service-&-eSender-Hub)
+  - Production Release June - Vermittlungsdienst & eSender-Hub](#Production-Release-June-Vermittlungsdienst-&-eSender-Hub)
 - May 2023
-  - Preview Release May - Switching Service & Validator Web Service](#Preview-Release-May-Switching-Service-&-Validator-Webservice)
+  - Preview Release May - Vermittlungsdienst & Validator Webservice](#Preview-Release-May-Mediation-Service-&-Validator-Webservice)
 
 <br />
 
@@ -36,33 +36,58 @@ The release of the eForms-DE v1.2.0 standard could not be published as a preview
 
 The new release plan is as follows:
 
-| Date | Description |
-| ------------------ | ------------------------------------------------------------ |
-| 02.02.2024 | **Release eForms-DE v1.2.0** based on SDK-EU 1.10.1 |
-| 02.02 - 23.02.2024 | Feedback phase for eForms-DE v1.2.0 (in writing via eforms@finanzen.bremen.de) |
-| 02/23/2024 | **Planned release SDK-DE 1.2.0_1.10.1** |
-| Planned release of a patch for eForms-DE v1.2.0 (probably v1.2.1) | 01.03.2024 |
-~ 13.03.2024 | **Planned support for eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** |
-| 15.03.2024 | Planned release of a patch for SDK-DE 1.2.0_1.10.1 (presumably SDK-DE 1.2.1_1.10.1) |
-~ 27.03.2024 | **Planned support for eForms-DE 1.2 in DöE production** |
-| 11.05.2024 | Acceptance of eForms-DE v1.1.0 expires on the part of TED |
+| Date | Description | Status |
+| ------------------ | ------------------------------------------------------------ | ------ |
+| 02.02.2024 | **Release eForms-DE v1.2.0** based on SDK-EU 1.10.1 | Ready |
+| 02.02 - 23.02.2024 | Feedback phase for eForms-DE v1.2.0 (in writing via eforms@finanzen.bremen.de) | Done |
+| 02/23/2024 | **Planned release SDK-DE 1.2.0_1.10.1** | Done |
+| 23.03.2024 | **Planned support for eForms-DE 1.2 in DöE Preview (BKMS Alpha + VD Preview)** | Published |
+| 01.03.2024 | Planned release of a patch for eForms-DE v1.2.0 (probably v1.2.1) | Pending |
+| ~ 13.03.2024 | **Planned support for eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** | In QA |
+| Planned release of a patch for SDK-DE 1.2.0_1.10.1 (probably SDK-DE 1.2.1_1.10.1) | Pending |
+~ 27.03.2024 | **Planned support eForms-DE 1.2 possibly also eForms-DE 1.2.1 in DöE production** | In progress |
+| 11.05.2024 | Acceptance of eForms-DE v1.1.0 expires on the part of TED | Pending |
 
 **<u>Important</u>: The Public Procurement Data Service (DÖE) will support both versions 1.2.0 and 1.2.1 (patch) of eForms-DE (or versions 1.2.0_1.10.1 and 1.2.1_1.10.1 of the SDK-DE). More detailed information on this will be provided soon**
 
 Written feedback on eForms-DE **v.1.2.0** can be submitted until 23.02.2024 to: eforms@finanzen.bremen.de
 
-<br />
+<details>
+<summary>Release notes</summary>
 
-<a id=release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator></a>
-## Release for switching service, self-service portal, eSender, notice viewer and validator
-| Environment Operator Service | Period | Status |
+### Self-Service Portal
+- After an announcement has been published, direct links to the DOE or TED are now displayed on the announcement table for the dashboard user
+- The business sign and the title are now displayed on the announcement table for the dashboard user
+- Various errors have been fixed
+
+### Vermittlungsdienst
+- Support for eForms-DE 1.2 standard has been added
+- A new GET _/v1/notices/by-notice/{noticeId}/{version}_ endpoint has been implemented. Now the status of a notice can be retrieved by NoticeID and version
+- Various bugs have been fixed
+
+### eSender
+- Support for eForms-DE 1.2 standard has been added
+ 
+### Validator (web service + open source)
+- Support for eForms-DE 1.2 standard has been added
+
+### Notice Viewer
+- Support for eForms-DE 1.2 Standard has been added
+- Various bugs have been fixed
+
+<br />
+</details>
+
+<a id=release-for-self-service-portal,-self-service-portal,-eSender,-notice-viewer-and-validator></a>
+## Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer and Validator
+| Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 15.01.2024 | published |
 | Staging | 22.01.2024 | published |
 | Production | 31.01.2024 | published |
 
 > **IMPORTANT** <br>
-The following eForms versions are no longer supported by the switching service
+The following eForms versions are no longer supported by the Vermittlungsdienst:
 - eForms DE-1.0.1
 - eForms SDK-1.5.5
 
@@ -87,7 +112,7 @@ Status: Published on 31.01.2024<br>
 - Editing of e-mail by dashboard user is no longer allowed
 - Various bugs have been fixed
 
-### Mediation service
+### Vermittlungsdienst
 - Processing of T01/02 eForms forms has been implemented
 - eForms versions: DE-1.0.1 and SDK 1.5.5 are no longer supported
 - Now the publication links of TED and BKMS are provided
@@ -108,7 +133,7 @@ Status: Published on 31.01.2024<br>
 
 <a id=release-for-validation></a>
 ## Hotfix release for validation (eForms-DE 1.1 multilingualism)
-| Environment Switching service | Period | Status |
+| Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 18.11.2023 | published |
 | Staging | 19.11.2023 | published |
@@ -122,7 +147,7 @@ Status: Published on 20.12.2023 <br>
 - Use of eForms-DE Schematron 0.7.2 for eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.2)
 - enables full support of multilingual eForms-DE documents
 
-### Mediation service
+### Vermittlungsdienst
 - Use of eForms-DE Schematron 0.7.2 for eForms-DE 1.1 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.2)
 - enables full support of multilingual eForms-DE documents
 - Verification of acceptance of change notices has been improved
@@ -131,8 +156,8 @@ Status: Published on 20.12.2023 <br>
 </details>
 
 <a id=release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator></a>
-## Release for Self-Service Portal, Mediation Service, eSender, Notice Viewer and Validator
-| Environment Operator Service | Period | Status |
+## Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer and Validator
+| Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 28.11.2023 | published |
 | Staging | 04.12.2023 | published |
@@ -143,15 +168,15 @@ Status: Published on 11.12.2023 <br>
 <summary>Release notes</summary>
 
 > **Note** <br>
-It is no longer possible to log in to the self-service portal with an operator service user.
+It is no longer possible to log in to the self-service portal with a Vermittlungsdienst user.
 
 ### Self-Service Portal
-- After approval, an SSP user can now create their own attendant service and dashboard users themselves
-- SSP users can link multiple attendant service users to one dashboard user
-- All created switching service and dashboard users can be deleted, edited and deactivated
+- After approval, an SSP user can now create their own Vermittlungsdienst and dashboard users themselves
+- SSP users can link multiple Vermittlungsdienst users to one dashboard user
+- All created Vermittlungsdienst and dashboard users can be deleted, edited and deactivated
 - All transmitted announcements are now available for the dashboard user
 
-### Operator service
+### Vermittlungsdienst
 - The correct status is now set for repeated delivery to BKMS in the event of a duplicate
 - Configurable status assignment table implemented
 - The message has been added when the user has successfully stopped the notification
@@ -182,14 +207,14 @@ It is no longer possible to log in to the self-service portal with an operator s
 - Improved rendering of BT-801, BT-92, BT-93
 - Caching for generated documents introduced
 - Added placeholder.html for deleted files
-- Updated description for Notice Viewer endpoint in Swagger (also applies to the switching service)
+- Updated description for Notice Viewer endpoint in Swagger (also applies to Vermittlungsdienst)
 - Various performance improvements and bug fixes
 
 </details>
 
-<a id=release-for-switching-service-and-eSender></a>
-## Hotfix release for switching service and eSender
-| environment switching service | period | status |
+<a id=release-for-Mediation-Service-and-eSender></a>
+## Hotfix release for Vermittlungsdienst and eSender
+| Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 20.11.2023 | published |
 | Staging | 21.11.2023 | published |
@@ -199,15 +224,15 @@ Status: Published on 21.11.2023 <br>
 <details>
 <summary>Release notes</summary>
 
-### eSender and switching service
+### eSender and Vermittlungsdienst
 - Improved technical configuration of the apps and renewal of certificates
 
 
 </details>
 
 <a id=release-for-validator-mediator-and-eSender></a>
-## Hotfix release for validator, mediation service and eSender
-| environment mediation service | period | status |
+## Hotfix release for Validator, Vermittlungsdienst and eSender
+| Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 13.11.2023 | published |
 | Staging | 15.11.2023 | published |
@@ -224,15 +249,15 @@ Status: Published on 16.11.2023 <br>
 ### Validator (web service + open source)
 - eForms SDK 1.5.5 version has been implemented
 
-### Switching service
+### Vermittlungsdienst
 - The number of allowed domain name characters in the 'authorEmail' parameter of the POST v2/notices endpoint has been increased and now supports from 2 to 18 characters.
 
 
 </details>
 
 <a id=release-for-notice-viewer-mediator-and-validator></a>
-## Hotfix release for notice viewer, validator and mediation service
-| environment mediation service | period | status |
+## Hotfix release for Notice-Viewer, Validator and Vermittlungsdienst
+| Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 08.11.2023 | published |
 | Staging | 09.11.2023 | published |
@@ -250,7 +275,7 @@ Status: Published on 09.11.2023 <br>
 - Use of eForms-EU SDK 1.7.2 for eForms-DE 1.1 (https://github.com/OP-TED/eForms-SDK/releases/tag/1.7.2)
 - Increase maximum file size to 2MB
 
-### Mediation service
+### Vermittlungsdienst
 - Increase maximum file size to 2MB
 
 
@@ -258,7 +283,7 @@ Status: Published on 09.11.2023 <br>
 
 <a id=release-for-notice-viewer-pdf-documents+-synchronous-calls></a>
 ## Release for Notice Viewer - PDF documents + synchronous calls
-| Environment Switching Service | Period | Status |
+| Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 10/17/2023 | published |
 | Staging | 18.10.2023 | published |
@@ -285,9 +310,9 @@ Status: Published on 20.10.2023 <br>
 
 </details>
 
-<a id=release-for-self-service-portal,-registration-form-for-a-separate-mediation-service-account></a>
-## Release for self-service portal, registration form for a separate operator service account
-| Environment Brokerage Service | Period | Status |
+<a id=release-for-self-service-portal,-registration-form-for-a-separate-Medlungsdienst-account></a>
+## Release for Self-Service Portal, registration form for a separate Vermittlungsdienst account
+| Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | Documentation + registration form: **KW38** , status overview: **KW39** | published |
 | Staging | Documentation + registration form: **KW39** , Status overview: **KW40** | published |
@@ -298,26 +323,26 @@ Status: Published on 4.10.2023 <br>
 <summary>Release notes</summary>
 
 ### Self-Service Portal
->**Environments** <br>
+>**environments** <br>
 >NEW: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
 >NEW: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEW: Production https://portal.ozg-vermittlungsdienst.de<br>
 
 ### Show feature documentation + registration form
 - Full documentation in the portal incl. releases and maintenance pages
-- Registration form for requesting new brokerage service accounts
+- Registration form for requesting new Vermittlungsdienst accounts
   1. create a new portal account
-  2. filling in the registration form for a separate brokerage service account
+  2. fill in the registration form for a separate Vermittlungsdienst account
 
 ### Feature Status overview of announcements
-- Status overview of all notices submitted for mediation service accounts
+- Status overview of all notices submitted for Vermittlungsdienst accounts
   
 </details>
 <br>
 
 <a id=Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer></a>
-## Release for RequestedPublicationDate Fix + Notice-Viewer - Mediation Service, eSender-Hub, Notice-Viewer
-| Environment Switching Service | Period | BKMS | Status |
+## Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer
+| Environment Vermittlungsdienst | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|--------|
 | Preview | RequestedPublicationDate only Fix: **KW37**, Everything else: **KW39** | supported in Alpha | published |
 | Staging | moved: **KW40** | supported in Alpha | published |
@@ -327,7 +352,7 @@ Status: published on 11.10.2023 <br>
 <details>
 <summary>Release notes</summary>
 
-### Operator service
+### Vermittlungsdienst
 >**Environments** <br>
 >NEW: Preview environment https://preview-ozg-vermittlungsdienst.de<br>
 >NEW: Staging environment https://staging-ozg-vermittlungsdienst.de<br>
@@ -336,7 +361,7 @@ Status: published on 11.10.2023 <br>
 - Integration with new BKMS endpoint
 - New naming of the notification XML file in the ASIC container: instead of 'notice.xml' now 'uuid.eforms.xml'
 - Peppol integration with B2Brouter
-- 'PublicationID' from TED is now processed and saved in the switching service
+- 'PublicationID' from TED is now processed and stored in the Vermittlungsdienst
 
 ### Notice Viewer
 >**Environments** <br>
@@ -349,7 +374,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the switching service can be used) for uploading XML files and as an endpoint in the switching service for rendering previously submitted notices based on the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
@@ -365,9 +390,9 @@ Available as a standalone web service with token authentication (same token as i
 </details>
 <br>
 
-<a id=Release-for-eForms-DE-1.1-Mediation-service-and-eSender-Hub></a>
-## Release for eForms-DE 1.1 - switching service and eSender Hub
-| Environment Switching Service | Period | BKMS | Status |
+<a id=release-for-eForms-DE-1.1-Mediation-Service-and-eSender-Hub></a>
+## Release for eForms-DE 1.1 - Vermittlungsdienst and eSender Hub
+| Environment Vermittlungsdienst | Period | BKMS | Status |
 |------------|-----------------------|---------------------------|----------------|
 | Preview | **KW34** | supported in Alpha | published |
 | Staging | **KW35** | supported in Alpha | published |
@@ -377,7 +402,7 @@ Status: published on 13.09.2023 <br>
 <details>
 <summary>Release notes</summary>
 
-### Operator service
+### Vermittlungsdienst
 >**environments** <br>
 >Preview environment **until 15.09.2023**: https://preview.ozg-vermittlungsdienst.de, from 30.08.2023: https://preview-ozg-vermittlungsdienst.de <br>
 >Staging environment **until 15.09.2023**: https://staging.ozg-vermittlungsdienst.de, from 30.08.2023: https://staging-ozg-vermittlungsdienst.de <br>
@@ -400,12 +425,12 @@ https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
 <a id=Production-Release-June-Mediation-Service-&-eSender-Hub></a>
-## Production Release June - Switching Service & eSender Hub
+## Production Release June - Vermittlungsdienst & eSender-Hub
 Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
 
-### Switching service
+### Vermittlungsdienst
 >**environments** <br>
 >Preview environment https://preview.ozg-vermittlungsdienst.de<br>
 >Staging environment https://staging.ozg-vermittlungsdienst.de<br>
@@ -438,7 +463,7 @@ DELIVERY_METADATA_INVALID is replaced by NOTICE_METADATA_INVALID
 - Implemented: Retrieving and saving the BKMS status PUBLISHED
 - Jobs PROCESS_NOTICES and ALIGN_TED_STATUS improved
 - Introduction of an account management application
-- Improved response for switching service in case of duplicates
+- Improved response for Vermittlungsdienst in case of duplicates
 - API keys for production and staging users have been updated
 - Performance improvements
 - Several optimizations and bug fixes
@@ -446,16 +471,16 @@ DELIVERY_METADATA_INVALID is replaced by NOTICE_METADATA_INVALID
 <br>
 
 <a id=Preview-Release-May-Mediation-Service-&-Validator-Webservice></a>
-## Preview Release May - Mediation Service & Validator Web Service
+## Preview Release May - Vermittlungsdienst & Validator Webservice
 Status: Published 04.05.2023<br>
 <details>
 <summary>Release notes</summary>
 <br>
 
-### Operator service
+### Vermittlungsdienst
 Preview environment https://bkms-mediator-app-preview.efa-fhb.apps-int.nortal.com
 - Extension of the API authorization with refresh tokens<br>
-Details under [Connection to the mediation service](/documentation/Connection_to_mediator.md)
+Details under [Connection to the Vermittlungsdienst](/documentation/Connection_to_mediator.md)
 
 - Extension of the status information to include transfer information (warnings and error messages).<br>
 Details under [Status and transfer information](/documentation/Status_information.md)
@@ -466,7 +491,7 @@ The following checks are carried out when transmitting a change notification for
 -Are there already several notices in the BKMS whose concatenated noticeId and noticeVersion match the change notice version identifier?
 -Is there a change notice in the BKMS that has already updated the version to be changed?<br>
 This means that only the latest version in a chain of notices is updated.
-- Subliminal announcements published in the announcement service are assigned the status PUBLISHED.<br>
+- Subliminal announcements published in the announcement service receive the status PUBLISHED.<br>
 The status is returned accordingly in a status query.
 - Several optimizations and bug fixes
 <br><br>

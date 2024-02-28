@@ -108,7 +108,7 @@ Scenario B: Using an update to process a submitted notice
 1. notice A with the noticeID ABC *Version 01* is submitted and accepted. It has not yet been published, e.g. because the desired publication date is in the future.
 2. the FVH would like to edit something in this notice, e.g. because some information has changed and needs to be adapted.
 3. the FVH stops the previously submitted noticeID ABC *version 01* using the stop endpoint (This is mandatory before an update is sent. TED has announced that this will probably also be restricted in TED in the future)
-4. the switching service stops the announcement in TED and BKMS (depending on where it has already been sent)
+4. the Vermittlungsdienst stops the announcement in TED and BKMS (depending on where it has already been sent)
 5. the FVH submits an update with noticeID ABC *Version 02*.
 6. the update is accepted because the previous version of the notice is in STOPPED status
 <br><br>
@@ -132,8 +132,8 @@ The "Stop Publication" function is used to stop the publication of notices on TE
 
 The publication of an announcement can be stopped for the following reasons:
 1. manually by an external user (FVH):
-The user can request the stopping of an announcement using the tracking code via the API V1/notices/stop/{trackingCode} in the switching service. It is stored in the switching service that this was a manual stop process.
-2. automatically: If TED manually rejects a submitted notice due to [Lawfullness Warnings](Status_information.md/#lawfullness), this notice will not be published in TED. If this announcement has already been sent to the BKMS, it will now also be automatically stopped in the BKMS. It is stored in the switching service that this was an automatic stop process.
+The user can request the stopping of an announcement using the tracking code via the API V1/notices/stop/{trackingCode} in the Vermittlungsdienst. It is stored in the Vermittlungsdienst that this was a manual stop process.
+2. automatically: If TED manually rejects a submitted notice due to [Lawfullness Warnings](Status_information.md/#lawfullness), this notice will not be published in TED. If this announcement has already been sent to the BKMS, it will now also be automatically stopped in the BKMS. It is stored in the Vermittlungsdienst that this was an automatic stop process.
 
 There are some differences in the way that above- and below-threshold notifications can be stopped.
  <br> <br>
@@ -158,6 +158,6 @@ In the event of manual rejection by TED, the publication is automatically stoppe
  <br>
 
 **Stop responses** <br>
-You can find out which responses you receive when sending stop requests in the API at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
+The responses you receive when sending stop requests can be found in the API at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
 
 

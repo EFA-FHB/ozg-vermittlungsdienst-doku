@@ -3,7 +3,7 @@
 ## Important notes on creating eForms
 To ensure a smooth submission, please always observe the following aspects:
 
-- The **BT-05 Notice Dispatch date** **(IssueDate)** field must be between yesterday and tomorrow at the time of dispatch to the switching service, otherwise TED will reject the notice. This is currently NOT checked in the switching service as it is a new dynamic rule from TED
+- The **BT-05 Notice Dispatch date** **(IssueDate)** field must be between yesterday and tomorrow at the time of sending to the Vermittlungsdienst, otherwise TED will reject the notice. This is currently NOT checked in the Vermittlungsdienst as it is a new dynamic rule from TED
 - The role **ted-esen** must NOT be used in announcements, neither as org-role nor as org-sub-role. This leads to problems in the transformation, as the procurement office is always automatically set as ted-esen
 
 - The field **Preferred Publication Date BT-738 (RequestedPublicationDate)** can be set to the same date as the Notice Dispatch date or up to 2 days after the Notice Dispatch date according to the German standard. Please make sure to specify the same time zone for both values, as otherwise TED may reject the request in individual cases
@@ -14,13 +14,13 @@ The CPV codes are interpreted as follows:
     - Services: Main CPV code from divisions 49 to 98
     - Construction work: Main CPV code from division 45
     - If you are affected by this (notification fails due to rule **BR-BT-00262-0211**), please contact our support support-oeffentlichevergabe@bdr.de immediately for specific assistance
-- To fill in the **BT-501 identification number (of the organization)**, please refer to the information on the routing ID in our FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
-- If your system no longer updates the announcement status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the switching service. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
+- For filling in the **BT-501 identification number (of the organization)**, please refer to the information on the routing ID in our FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
+- If your system no longer automatically updates the announcement status after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
 
 
 ## Notes for specialist procedure manufacturers
-- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 Gateway Timeout from TED or an error in content as mentioned above, e.g. IssueDate incorrect), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in the event of a doe_status INTERNAL_ERROR.
-- We are currently seeing an increasing number of rejections when submitting based on incorrect email syntax for the "authorEmail" specification. Please ensure that a valid email with the correct syntax is supplied in this field when submitting to the placement service for each announcement. If the email is not correct, the following error message will appear: "NOTICE_METADATA_INVALID - Required data is missing or the data entered does not match the schema". We validate emails using the following regex expression provided by TED: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b <br>
+- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support will take a closer look at the announcement and then, depending on the error message (e.g. 502 Gateway Timeout from TED or a content error as mentioned above, e.g. IssueDate incorrect), will either set it to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in the event of a doe_status INTERNAL_ERROR.
+- We are currently seeing an increasing number of rejections when submitting based on incorrect email syntax for the "authorEmail" specification. Please make sure that a valid email with the correct syntax is included in this field when submitting to the Vermittlungsdienst for each announcement. If the email is not correct, the following error message will appear: "NOTICE_METADATA_INVALID - Required data is missing or the data entered does not match the schema". We validate emails using the following regex expression provided by TED: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b <br>
 If you have domains that do not correspond to this, please open a support ticket with TED.
 
 ## Upcoming maintenance windows or known issues
@@ -54,8 +54,8 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 | Staging | All services of the DöE except BKMS | 17.01.2024 | 19:00 - 20:00 CEST | Infrastructure maintenance |
 | Production and staging | All services of the DöE except BKMS | 09.01.2024 | 20:00 - 22:00 CEST | Infrastructure maintenance |
 | Preview | All services of the DöE except BKMS | 27.12.2023 - 02.01.2024 | | Temporary unavailability, please use the respective services in the staging environment for tests in the meantime! |
-| Production | All services of the switching service incl. eSender (not BKMS) | 21.11.2023 | 06:00 - 07:00 CEST | Infrastructure maintenance |
-| Production | All services of the switching service incl. eSender (not BKMS) | 11.12.2023 | 06:00 - 07:00 CEST | Infrastructure maintenance |
+| Production | All services of the Vermittlungsdienst incl. eSender (not BKMS) | 21.11.2023 | 06:00 - 07:00 CEST | Infrastructure maintenance |
+| Production | All services of the Vermittlungsdienst incl. eSender (not BKMS) | 11.12.2023 | 06:00 - 07:00 CEST | Infrastructure maintenance |
 | BKMS Production | BKMS | 27.10 | 27.10. 13:10 - 14:35 CEST | Online search function was not available |
 | DÖE Produktion + Staging | all services except BKMS | 25.10.2023 | 15:31 - 16:03 CEST | Unavailability of the data center |
 | DöE Production + Staging | all services except BKMS |23.10.2023 - 24.10.2023 | 17:00 - 09:00 CEST | Unavailable due to infrastructure problems |
@@ -65,7 +65,7 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 | TED Production | TED Apps for eForms | 11.10.2023 | 07:00 - 10:00 CEST | Announced by TED |
 | TED Production + Preview | TED Developer Portal, TED Apps for eForms | 02.10.2023 | 07:00 - 09:00 CEST | Announced by TED |
 | TED Production | TED Apps for eForms | 27.09.2023 | 07:00 - 09:00 CEST | Announced by TED |
-| TED Production | Switching Service | 14.09.2023 | 08:00 - 09:30 CEST | temporarily unavailable |
+| TED Production | Vermittlungsdienst | 14.09.2023 | 08:00 - 09:30 CEST | temporarily unavailable |
 | TED Production| TED Apps for eForms | 30.08.2023 | 18:00-22:00 CEST | Announced by TED |
 | TED Production| TED Apps for eForms | 30.08.2023 | 18:00-22:00 CEST | Announced by TED |
 | TED Preview | TED Apps for eForms | 28.08.2023 | 07:00-11:00 CEST | Announced by TED |
