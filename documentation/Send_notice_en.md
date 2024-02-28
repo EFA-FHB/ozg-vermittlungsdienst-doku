@@ -4,7 +4,7 @@
 
 # Send an announcement
 
-To send an announcement to the switching service, the REST API provided must be used, for which access data is required. You can find out how to request the access data and how to authenticate yourself with the API in the section [Connection to the mediation service](/documentation/Connection_to_mediator.md).
+To send an announcement to the Vermittlungsdienst, the REST API provided must be used, for which access data is required. You can find out how to request the access data and how to authenticate yourself with the API in the [Connection to the Vermittlungsdienst](/documentation/Connection_to_mediator.md) section.
 <br>
  
 The POST /v2/notices endpoint is used to send an announcement. The description of the endpoint can be found at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata. The endpoint expects the following parameters in the request body:
@@ -13,7 +13,7 @@ The POST /v2/notices endpoint is used to send an announcement. The description o
 
 `authorEmail`: The e-mail address of the author of a notice. This is forwarded to TED in the case of Europe-wide publication.
 
-`buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optional parameters which enable the submitted announcement to be found in the announcement service via the Peppol network.
+`buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optional parameters which enable the announcement to be found in the announcement service via the Peppol network.
 ```
 If the posting was successful, the response code `202` means that the notice has been received and is now being processed further.
 

@@ -4,14 +4,14 @@
 <br>
 
 >**Note** <br>
->Please note: If subliminal announcements continue to be sent to service.bund.de, these must NOT also be sent to the switching service!
+>Please note: If subliminal notices continue to be sent to service.bund.de, these must NOT also be sent to the Vermittlungsdienst!
 
-# Connection to the switching service
-Notices can be sent to the switching service via the [REST API](#anbindung-per-rest-api) of the switching service or via the [eDelivery Network PEPPOL](#anbindung-per-peppol).
+# Connection to the Vermittlungsdienst
+Notices can be transmitted to the Vermittlungsdienst via the [REST API](#anbindung-per-rest-api) of the Vermittlungsdienst or via the [eDelivery Network PEPPOL](#anbindung-per-peppol).
 <br>
 
 ## Connection via REST API
-The REST API and the associated documentation for the existing endpoints are available at https://ozg-vermittlungsdienst.de.
+The REST API and the associated documentation for the existing endpoints are made available at https://ozg-vermittlungsdienst.de.
 To use the API, access data must be requested once. Authorization takes place via OAuth 2.0.
 <br>
 
@@ -60,7 +60,7 @@ Further information on the concept of the refresh token and instructions for imp
 
 
 ## Connection via PEPPOL
-In future, it will also be possible to transmit notices to the exchange service via the PEPPOL eDelivery Network. Details and further information will follow.
+In future, it will also be possible to transmit notices to the Vermittlungsdienst via the PEPPOL eDelivery Network. Details and further information will follow.
 <br>
 
 
@@ -68,8 +68,8 @@ In future, it will also be possible to transmit notices to the exchange service 
 ## How to reset a user password in Keycloak?
 
 >**Note** <br>
-> The user's password is also the password that is used to log in to the switching service interface! <br>
-> If you change the password, make sure that it is also changed in the software for posting to the switching service!
+> The user's password is also the password used to log in to the Vermittlungsdienst interface! <br>
+> If you change the password, make sure that it is also changed in the software for posting to the Vermittlungsdienst!
 
 1. call up the self-service portal of the desired environment (can be found under [System environments](/documentation/Development_environments.md) in the _Self Service Portal_ column)
 
@@ -100,7 +100,7 @@ In future, it will also be possible to transmit notices to the exchange service 
 The password must consist of at least 8 characters, contain 1 capital letter and 1 number.
 <br>
 
-9. the password must be stored in the FVH software to ensure that the connection with the switching service works.
+9. the password must be stored in the FVH software to ensure that the connection with the Vermittlungsdienst works.
 <br>
 
 ## Delete access

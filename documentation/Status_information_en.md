@@ -4,7 +4,7 @@
 
 # Status and transfer information
 
-The REST API of the switching service can be used to query all status and error information of an announcement. The status and error information of the BKMS and TED are regularly queried and saved by the switching service or eSender Hub, so the status and further information on an announcement is always available for further retrieval.
+All status and error information of an announcement can be queried using the REST API of the Vermittlungsdienst. The status and error information of the BKMS and TED are regularly queried and stored by the Vermittlungsdienst or eSender Hub, so the status and further information on an announcement is available for further retrieval at any time.
 <br>
 
 ## Contents
@@ -20,9 +20,9 @@ The REST API of the switching service can be used to query all status and error 
 <br><br>
 
 ## Endpoints for querying status and transfer information<span id="endpoints">
-To query status and transfer information, the switching service provides the endpoints `GET /v1/notices` for a list of data deliveries, `GET /v1/notices/status` for a list of data deliveries in a specific time period and `GET /v1/notices/{trackingcode}` and `GET /v1/notices/by-notice/{noticeId}/{version}` for a single data delivery.
+To query the status and transfer information, the Vermittlungsdienst provides the endpoints `GET /v1/notices` for a list of data deliveries, `GET /v1/notices/status` for a list of data deliveries in a specific period and `GET /v1/notices/{trackingcode}` and `GET /v1/notices/by-notice/{noticeId}/{version}` for a single data delivery.
 
-The switching service carries out status queries to BKMS and TED every three minutes. It therefore makes sense to query the status information of the notices to the switching service every 5 minutes at most.
+The Vermittlungsdienst performs status queries to BKMS and TED every three minutes. It therefore makes sense to query the status information of the notices to the Vermittlungsdienst every 5 minutes at most.
 
 The corresponding OpenAPI specification can be found at https://ozg-vermittlungsdienst.de/ and is available for download in JSON format at https://ozg-vermittlungsdienst.de/Vermittlungsdienst_REST-API.json.
 <br><br>
@@ -72,7 +72,7 @@ The endpoints for querying the status information return the status information 
 		</transferResponse>
 		<validation>
 			<validatedEformsVersion>eforms-sdk-1.0.0</validatedEformsVersion>
-			<description>Result report of the validation of the data delivery by the switching service</description>
+			<description>Result report of the validation of the data delivery by the Vermittlungsdienst</description>
 			<warnings>
 				<warning>
 					<rule>rule|text|BR-BT-00506-0052</rule>
@@ -111,7 +111,7 @@ For above-threshold announcements, the TED status `tedStatus` with the last chan
 | ----------------- | -|--------------------------------------------------------------------------------------------------------- |
 | AWAITING_TRANSFER | no | The notice has been accepted and approved by the mediator. The further dispatch is being prepared. |
 
-Once the transmission of a contract notice has been successfully completed, the status of the contract notice is set to AWAITING_TRANSFER and the mediation service begins with further steps in the processing of the sub- or above-threshold award. The following status tables list the possible statuses for the processing of the subthreshold and superthreshold award.
+Once the transmission of a contract notice has been successfully completed, the status of the contract notice is set to AWAITING_TRANSFER and the Vermittlungsdienst begins with further steps in the processing of the sub- or overthreshold award. The following status tables list the possible statuses for processing subthreshold and superthreshold awards.
 <br><br>
 
 ### Status table: Upper threshold award<span id="status-table-upper-threshold">
@@ -136,7 +136,7 @@ The following status combinations can be transmitted when requesting the status 
 | PUBLISHED | PENDING | no | The announcement has been published in TED, the transmission to the announcement service is still pending.                                                           yes | |
 | PUBLISHED | ACCEPTED | no | The announcement has been published in TED and accepted by the announcement service, but not yet published.                                                | yes
 | PUBLISHED | PUBLISHED | yes | The announcement has been published in TED and in the announcement service.                                                                                            | yes
-| MANUALLY_REJECTED | NOT_SEND | yes | The announcement was either manually rejected by TED due to a legal check or by the switching service due to an error and is neither published by TED nor by the announcement service. This can be distinguished by the error message.     | no
+| MANUALLY_REJECTED | NOT_SEND | yes | The announcement was either manually rejected by TED due to a legal check or by the Vermittlungsdienst due to an error and will not be published by TED or the announcement service. This can be distinguished by the error message.     | no
 | MANUALLY_REJECTED | PENDING | no | The announcement has been manually rejected by TED due to a legal check and will also be stopped in the announcement service shortly.                        | no |
 | MANUALLY_REJECTED | ACCEPTED | no | The announcement was manually rejected by TED due to a legal check and will also be stopped in the announcement service shortly.                        | no |
 | MANUALLY_REJECTED | PUBLISHED | no | The announcement was manually rejected by TED due to a legal check and will also be stopped in the announcement service shortly.                        | no |
@@ -164,7 +164,7 @@ The following status combinations can be transmitted when requesting the status 
 <br>
 
 ## Structure of the transfer information<span id="transfer-info">
-The transfer information is also contained in the delivery schema for each announcement. This information includes warnings and error messages from the switching service, the announcement service and TED.
+The transfer information is also contained in the delivery schema for each announcement. This information includes warnings and error messages from the Vermittlungsdienst, the announcement service and TED.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <delivery>

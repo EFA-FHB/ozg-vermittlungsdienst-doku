@@ -3,7 +3,7 @@
 <br>
 
 # Available system environments
-A **test, reference and production environment** of the switching service is currently available. Each switching service instance sends the data to the corresponding announcement service within the environment. By connecting the eSender Hub, the public procurement data service is also able to transmit announcements to the corresponding TED environment.
+A **test, reference and production environment** of the Vermittlungsdienst is currently available. Each Vermittlungsdienst instance sends the data to the corresponding announcement service within the environment. By connecting the eSender Hub, the public procurement data service is also able to transmit announcements to the corresponding TED environment.
 <br><br>
 
 <br>
