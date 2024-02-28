@@ -26,6 +26,7 @@ Bietet KEINE Oberfläche zum Erstellen von Bekanntmachungen! Es ist ausschließl
 <br>
 </details>
 <br>
+
 <details>
 <summary>
 Welche Informationen werden benötigt, um einen Account zu beantragen? (aktualisiert am 11.10.23)

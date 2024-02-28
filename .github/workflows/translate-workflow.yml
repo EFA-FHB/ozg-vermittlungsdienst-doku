@@ -94,12 +94,12 @@ jobs:
               - '!**/*_en.md'
       - name: Update Deepl glossary if doc file(s) changed
         id: glossary_update
-        if: steps.changed-files-md-yaml.outputs.doc_any_changed == 'true'
-        shell: bash
-        run: |
-          set -x
-          echo "Updating Deepl Glossary."
-          ./file-translate/file-translator upg --name evergabe-glossary --src-lang=de --target-lang=en --api-key ${{ secrets.DEEPL_API_KEY }} --entries="Vermittlungsdienst,Vermittlungsdienst" >> $GITHUB_OUTPUT
+        uses: mathiasvr/command-output@v2.0.0
+        with:
+          shell: bash
+          run: |
+            set -x
+            ./file-translate/file-translator upg --name=evergabe-glossary --src-lang=de --target-lang=en --api-key=${{ secrets.DEEPL_API_KEY }} --entries="Vermittlungsdienst,Vermittlungsdienst"
 
       - name: Translate if doc file(s) changed
         if: steps.changed-files-md-yaml.outputs.doc_any_changed == 'true'
@@ -107,7 +107,7 @@ jobs:
         run: |
           set -x
           echo "One or more doc file(s) has changed."
-          echo "Using Glossary ID ${{join(steps.glossary_update.outputs.*, '')}}"
+          echo "Using Glossary ID ${{steps.glossary_update.outputs.stdout}}"
           for file in ${{ steps.changed-files-md-yaml.outputs.doc_all_changed_files }}; do
             echo "$file changed"
             filedir=$(dirname "$file")
@@ -115,7 +115,7 @@ jobs:
             extension="${filename##*.}"
             filename="${filename%.*}"
             tmp=$(mktemp)
-            ./file-translate/file-translator trans -i $file -o $tmp --api-key ${{ secrets.DEEPL_API_KEY }} --glossary-id ${{join(steps.glossary_update.outputs.*, '')}}
+            ./file-translate/file-translator trans -i $file -o $tmp --api-key ${{ secrets.DEEPL_API_KEY }} --glossary-id ${{steps.glossary_update.outputs.stdout}}
 
             if [[ $(cat $tmp | wc -l) -gt 0 ]]; then
               mv $tmp ${filedir}/${filename}_en.md
