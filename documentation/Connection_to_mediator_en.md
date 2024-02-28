@@ -113,4 +113,4 @@ The e-mail must contain the following information
 - First and last name and e-mail address of the FVH representative
 - Name of the FVH
 
-After checking the data provided in the e-mail, we will delete your access and send you a confirmation by e-mail.
+After checking the data provided in the e-mail, we will delete the access and send you a confirmation by e-mail.

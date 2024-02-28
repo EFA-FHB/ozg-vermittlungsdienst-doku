@@ -26,7 +26,7 @@ Different eForms versions are currently supported and processed according to the
 | eForms-EU 1.0 | yes, but only for sub-threshold awards | no | yes | yes, but only for sub-threshold awards | no |
 | eForms-EU 1.5 | no | yes | yes | no | yes, until 31.01.2024 |
 | eForms-DE 1.0.1 (schematron 0.5.2) | yes, until 31.01.2024 | yes | yes | yes | yes, after conversion in the eSender Hub to eForms-EU 1.5.2, until 31.01.2024 |
-| eForms-DE 1.1 (recommended version) | yes, until 11.05.2024 | yes | yes | yes | yes, after conversion in the eSender Hub to eForms-EU 1.7.0, until 11.05.2024 |
+| eForms-DE 1.1 (Recommended version) | yes, until 11.05.2024 | yes | yes | yes | yes, after conversion in the eSender Hub to eForms-EU 1.7.0, until 11.05.2024 |
 
 Please note: After 25.10.2023, only eForms-DE versions will be supported in the production system. We recommend using the eForms-DE 1.1 version.
 

@@ -19,7 +19,7 @@ This repository contains the following documents to support a connection to the 
 - Events](/events.md)
 <br>
 
-## The tasks of the mediation service
+## The tasks of the switching service
 - Validation of all incoming announcements according to
 Schema and Schematron rules and checking whether
 announcements have already been published in the announcement service

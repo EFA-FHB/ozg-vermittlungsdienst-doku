@@ -8,7 +8,7 @@ The REST API of the switching service can be used to query all status and error 
 <br>
 
 ## Contents
-- Endpoints for querying status and transfer information](#endpoints)
+- Endpoints for querying the status and transfer information](#endpoints)
 - Structure of the status information](#info-struktur)
     - [Status table: Transmission of a notice](#statustabelle-uebermittlung)
     - [Status table: Upper threshold award](#statustabelle-oberschwellen)
@@ -20,7 +20,7 @@ The REST API of the switching service can be used to query all status and error 
 <br><br>
 
 ## Endpoints for querying status and transfer information<span id="endpoints">
-To query the status and transfer information, the switching service provides the endpoints `GET /v1/notices` for a list of data deliveries, `GET /v1/notices/status` for a list of data deliveries in a specific time period and `GET /v1/notices/{trackingcode}` for a single data delivery.
+To query status and transfer information, the switching service provides the endpoints `GET /v1/notices` for a list of data deliveries, `GET /v1/notices/status` for a list of data deliveries in a specific time period and `GET /v1/notices/{trackingcode}` and `GET /v1/notices/by-notice/{noticeId}/{version}` for a single data delivery.
 
 The switching service carries out status queries to BKMS and TED every three minutes. It therefore makes sense to query the status information of the notices to the switching service every 5 minutes at most.
 
@@ -40,6 +40,8 @@ The endpoints for querying the status information return the status information 
 		<awardId>string</awardId>
 		<award number>V0505/2021</award number>
 		<description>string</description>
+		<tedPublicationLink>https://preview.ted.europa.eu/udl?uri=TED:NOTICE:{publicationId}:HTML:DE:HTML</tedPublicationLink>
+    		<bkmsPublicationLink>https://alpha.oeffentlichevergabe.de/ui/de/search/details?{noticeId}</bkmsPublicationLink>
 		<tedStatus>PENDING</tedStatus>
 		<tedStatusUpdate>2023-11-03T15:01:38.373Z</tedStatusUpdate>
 		<tedAcceptedTimestamp>2023-11-03T15:01:38.373Z</tedAcceptedTimestamp>

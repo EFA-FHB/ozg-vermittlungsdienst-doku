@@ -36,22 +36,47 @@ The release of the eForms-DE v1.2.0 standard could not be published as a preview
 
 The new release plan is as follows:
 
-| Date | Description |
-| ------------------ | ------------------------------------------------------------ |
-| 02.02.2024 | **Release eForms-DE v1.2.0** based on SDK-EU 1.10.1 |
-| 02.02 - 23.02.2024 | Feedback phase for eForms-DE v1.2.0 (in writing via eforms@finanzen.bremen.de) |
-| 02/23/2024 | **Planned release SDK-DE 1.2.0_1.10.1** |
-| Planned release of a patch for eForms-DE v1.2.0 (probably v1.2.1) | 01.03.2024 |
-~ 13.03.2024 | **Planned support for eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** |
-| 15.03.2024 | Planned release of a patch for SDK-DE 1.2.0_1.10.1 (presumably SDK-DE 1.2.1_1.10.1) |
-~ 27.03.2024 | **Planned support for eForms-DE 1.2 in DöE production** |
-| 11.05.2024 | Acceptance of eForms-DE v1.1.0 expires on the part of TED |
+| Date | Description | Status |
+| ------------------ | ------------------------------------------------------------ | ------ |
+| 02.02.2024 | **Release eForms-DE v1.2.0** based on SDK-EU 1.10.1 | Ready |
+| 02.02 - 23.02.2024 | Feedback phase for eForms-DE v1.2.0 (in writing via eforms@finanzen.bremen.de) | Done |
+| 02/23/2024 | **Planned release SDK-DE 1.2.0_1.10.1** | Done |
+| 23.03.2024 | **Planned support for eForms-DE 1.2 in DöE Preview (BKMS Alpha + VD Preview)** | Published |
+| 01.03.2024 | Planned release of a patch for eForms-DE v1.2.0 (probably v1.2.1) | Pending |
+| ~ 13.03.2024 | **Planned support for eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** | In QA |
+| Planned release of a patch for SDK-DE 1.2.0_1.10.1 (probably SDK-DE 1.2.1_1.10.1) | Pending |
+~ 27.03.2024 | **Planned support eForms-DE 1.2 possibly also eForms-DE 1.2.1 in DöE production** | In progress |
+| 11.05.2024 | Acceptance of eForms-DE v1.1.0 expires on the part of TED | Pending |
 
 **<u>Important</u>: The Public Procurement Data Service (DÖE) will support both versions 1.2.0 and 1.2.1 (patch) of eForms-DE (or versions 1.2.0_1.10.1 and 1.2.1_1.10.1 of the SDK-DE). More detailed information on this will be provided soon**
 
 Written feedback on eForms-DE **v.1.2.0** can be submitted until 23.02.2024 to: eforms@finanzen.bremen.de
 
+<details>
+<summary>Release notes</summary>
+
+### Self-Service Portal
+- After an announcement has been published, direct links to the DOE or TED are now displayed on the announcement table for the dashboard user
+- The business sign and the title are now displayed on the announcement table for the dashboard user
+- Various errors have been fixed
+
+### Mediation service
+- Support for eForms-DE 1.2 standard has been added
+- A new GET _/v1/notices/by-notice/{noticeId}/{version}_ endpoint has been implemented. Now the status of a notice can be retrieved by NoticeID and version
+- Various bugs have been fixed
+
+### eSender
+- Support for eForms-DE 1.2 standard has been added
+ 
+### Validator (web service + open source)
+- Support for eForms-DE 1.2 standard has been added
+
+### Notice Viewer
+- Support for eForms-DE 1.2 Standard has been added
+- Various bugs have been fixed
+
 <br />
+</details>
 
 <a id=release-for-self-service-portal,-mediation-service,-eSender,-notice-viewer-and-validator></a>
 ## Release for switching service, self-service portal, eSender, notice viewer and validator
@@ -349,7 +374,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the switching service can be used) for uploading XML files and as an endpoint in the switching service for rendering previously submitted notices based on the
+Available as a standalone web service with token authentication (same token as in the switching service can be used) for uploading XML files and as an endpoint in the switching service for rendering previously submitted notices using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
@@ -466,7 +491,7 @@ The following checks are carried out when transmitting a change notification for
 -Are there already several notices in the BKMS whose concatenated noticeId and noticeVersion match the change notice version identifier?
 -Is there a change notice in the BKMS that has already updated the version to be changed?<br>
 This means that only the latest version in a chain of notices is updated.
-- Subliminal announcements published in the announcement service are assigned the status PUBLISHED.<br>
+- Subliminal announcements published in the announcement service receive the status PUBLISHED.<br>
 The status is returned accordingly in a status query.
 - Several optimizations and bug fixes
 <br><br>
