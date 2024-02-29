@@ -42,10 +42,10 @@ The new release plan is as follows:
 | 02.02 - 23.02.2024 | Feedback phase for eForms-DE v1.2.0 (in writing via eforms@finanzen.bremen.de) | Done |
 | 02/23/2024 | **Planned release SDK-DE 1.2.0_1.10.1** | Done |
 | 23.03.2024 | **Planned support for eForms-DE 1.2 in DöE Preview (BKMS Alpha + VD Preview)** | Published |
-| 01.03.2024 | Planned release of a patch for eForms-DE v1.2.0 (probably v1.2.1) | Pending |
-| ~ 13.03.2024 | **Planned support for eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** | In QA |
-| Planned release of a patch for SDK-DE 1.2.0_1.10.1 (probably SDK-DE 1.2.1_1.10.1) | Pending |
-~ 27.03.2024 | **Planned support eForms-DE 1.2 possibly also eForms-DE 1.2.1 in DöE production** | In progress |
+| 01.03.2024 | Planned release of a patch for eForms-DE v1.2.0 (presumably v1.2.1) | Pending |
+| 02/29/2024 | **Planned support for eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** | Published |
+| 15.03.2024 | Planned release of a patch for SDK-DE 1.2.0_1.10.1 (probably SDK-DE 1.2.1_1.10.1) | Pending |
+~ 27.03.2024 | **Planned support eForms-DE 1.2 possibly also eForms-DE 1.2.1 in DöE production** | In QA |
 | 11.05.2024 | Acceptance of eForms-DE v1.1.0 expires on the part of TED | Pending |
 
 **<u>Important</u>: The Public Procurement Data Service (DÖE) will support both versions 1.2.0 and 1.2.1 (patch) of eForms-DE (or versions 1.2.0_1.10.1 and 1.2.1_1.10.1 of the SDK-DE). More detailed information on this will be provided soon**
