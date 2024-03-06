@@ -86,14 +86,14 @@ In future, it will also be possible to transmit notices to the Vermittlungsdiens
 <br>
 
 5. check the emails: A link to reset the login information is included in the email.<br>
-![Confirmation email](images/e-mail_password_reset.png)
+![Confirmation email](images/e-mail_passwort_zuruecksetzen.png)
 <br>
 
 6. click on 'Link to reset credentials'.
 <br>
 
 7. the user is redirected to the 'Update password' page<br>.
-![Update password](images/kc_password_update.png)
+![Update password](images/kc_passwort_aktualisieren.png)
 <br>
 
 8. enter and confirm the new password and click on 'Submit'.<br>
