@@ -13,8 +13,7 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 | [eForms-DE 1.0.1](https://xeinkauf.de/app/uploads/2023/03/specification-eforms-de-v1.0.1.pdf)    | [0.5.3](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3) | [2023-05-17](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-05-17) | [1.0.1_1.5.3_20230727](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tree/SDK-DE_1.0.1_1.5.3_20230727?ref_type=tags)                   | [1.0.6](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.6) unterstützt eForms-DE 1.0.1 & 1.1.0 |    Preview: 15.01.2024, Staging: 22.1.2024, Prod: 31.01.2024        |
 | [eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf)      | [0.6.2](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.2) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | [1.1.0_1.7.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.1.0_1.7.0) | [1.0.6](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.6) unterstützt eForms-DE 1.0.1 & 1.1.0           |   Preview: KW 16-17, Staging: KW 17-18, Prod: ca. Ende KW 19         |
 | [eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf)      | [0.7.0](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.0) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | [1.1.0_1.7.2](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.1.0_1.7.2) | [1.0.11](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.11) unterstützt eForms-DE 1.0.1 & 1.1.0           |   Preview: KW 16-17, Staging: KW 17-18, Prod: ca. Ende KW 19       |
-| eForms-DE 1.2 <br>*(voraussichtlich verfügbar ab Februar 2024)* | | | | | Prod: 01.12.2024| 
-
+| [eForms-DE 1.2](https://xeinkauf.de/app/uploads/2024/02/specification-eforms-de-v1.2.0.pdf) | [0.8.0](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.0) | [2024-02-06](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2024-02-06) | 1.2.0_1.10.1 (in Arbeit) | [1.0.14](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.14) unterstützt eForms-DE 1.2.0 | Prod: 01.12.2024|
 
 <br>
 
@@ -52,7 +51,6 @@ Die folgenden Regeln sollten ignoriert werden:
 | procurement-procedure-type.gc | BT-105   | BR-BT-00105-0052   |
 | received-submission-type.gc   | BT-760   | BR-BT-00760-0052   |
 | social-objective.gc           | BT-775   | BR-BT-00775-0051   |
-
 
 
 
