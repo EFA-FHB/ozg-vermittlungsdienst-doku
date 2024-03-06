@@ -404,6 +404,7 @@ In the case of lawfulness warnings, an announcement is only forwarded to the BKM
 <details>
 <summary>
 How can platform operators obtain the information of the EU CVS report on a notice?
+</summary>
 <br>
 All errors and warnings from the CVS report are passed in the status information. Here we pass the ID, the path, the content and the text of each rule that has been struck. It is not intended to return the CVS report as a file.
 </details>
@@ -1023,7 +1024,7 @@ New features and details (added on 27.09.23)
 ### BT-1501(n) Linking of old SIMAP/non-eForms notices
 <details>
 <summary>
-What ID do I need to use to link to old notices prior to the eForms commitment?
+What ID do I need to use to link to old notices prior to the eForms commitment?</summary>
 <br>
 Please use the Notice Publication ID or document number, which is uniquely assigned by TED for each notice. This can be seen both in the search results of the notices on the TED website in the column 'Document number' and in the direct link from TED to the notice as well as in the detail page of the notice in the heading. It consists of a series of numbers, a hyphen and the year of publication of the announcement. e.g. 1234576-2022. The number of numbers before the hyphen may vary.
   </details>
@@ -1031,7 +1032,8 @@ Please use the Notice Publication ID or document number, which is uniquely assig
 ### BT-1501(s)-Contract
 <details>
 <summary>
-What value do I need to use for BT-1501(s)-Contract?</summary>
+What value do I need to use for BT-1501(s)-Contract?
+</summary>
 <br>
 Please create a contract and then link its ID in this field. This can have the value CON-0001, for example.
 </details>
