@@ -44,11 +44,11 @@ Die neue Release-Planung sieht wie folgt aus:
 | 23.02.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Preview (BKMS Alpha + VD Preview)** | Veröffentlicht auf VD Preview |
 | ~01.03.2024~        | ~Geplante Veröffentlichung eines Patches zu eForms-DE v1.2.0 (vermutlich v1.2.1)~ | __Abgesagt (besteht kein Bedarf)__ |
 | 29.02.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** | Veröffentlicht auf VD Staging |
-| 15.03.2024         | Geplante Veröffentlichung eines Patches zu SDK-DE 1.2.0_1.10.1 (vermutlich SDK-DE 1.2.1_1.10.1) | Ausstehend |
-| ~ 27.03.2024       | **Geplante Unterstützung eForms-DE 1.2 ggf. auch eForms-DE 1.2.1 in DöE Produktion** | In QS |
-| 11.05.2024         | Akzeptanz von eForms-DE v1.1.0 läuft seitens TED aus       | Ausstehend         |
+| 15.03.2024         | Geplante Veröffentlichung eines Patches zu SDK-DE 1.2.0_1.10.1 | Ausstehend |
+| ~ 27.03.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Produktion** | In QS |
+| 30.09.2024         | Akzeptanz von eForms-DE v1.1.0 (basierend auf eForms-EU 1.7) läuft aus       | Ausstehend         |
 
-**<u>Wichtig</u>: Der Datenservice Öffentlicher Einkauf (DÖE) wird sowohl die Versionen 1.2.0 als auch 1.2.1 (Patch) von eForms-DE (bzw. die Versionen 1.2.0_1.10.1 und 1.2.1_1.10.1 des SDK-DE) unterstützen. Genauere Informationen hierzu werden zeitnah bereitgestellt**
+**<u>Wichtig</u>: Der Datenservice Öffentlicher Einkauf (DÖE) wird sowohl die Versionen 1.2.0 von eForms-DE (bzw. die Versionen 1.2.0_1.10.1 und zukünftige Patches des SDK-DE) unterstützen. Genauere Informationen hierzu werden zeitnah bereitgestellt**
 
 Schriftliches Feedback zu eForms-DE **v.1.2.0** kann bis zum 23.02.2024 eingereicht werden an: eforms@finanzen.bremen.de
 
