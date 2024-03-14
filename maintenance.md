@@ -35,9 +35,9 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 
 ## Bekannte Bugs 
 
-| System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
-|--------------|--------------------------|-----------------------------|---------------------|
-| Integration mit BKMS   | 14.03.2024 | 14.03.2024 | Authentifizierungsproblem beim BKMS führt zur Störungen während des Lieferungsprozesses  |
+| System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
+|--------------|--------------------------|-----------------------------|---------------------|----|
+| Integration mit BKMS   | 14.03.2024 | 14.03.2024 | Authentifizierungsproblem beim BKMS führt zur Störungen während des Lieferungsprozesses | __Behoben__ |
 
 
 ## Hinweise
