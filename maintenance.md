@@ -37,7 +37,7 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           |
 |--------------|--------------------------|-----------------------------|---------------------|
-| DöE VD + Validator + Viewer   | 11.12.2023 | behoben | Bei 'Authorisierungsfehler. Der Nutzer hat keine ausreichenden Berechtigungen zum Zugriff auf diese Ressource' bitte einen neuen access_token abfragen und mit diesem authentifizieren, dann besteht das Problem nicht mehr.  |
+| Integration mit BKMS   | 14.03.2024 | 14.03.2024 | Authentifizierungsproblem bei BKMS führt zur Störungen beim Lieferungprozess  |
 
 
 ## Hinweise
