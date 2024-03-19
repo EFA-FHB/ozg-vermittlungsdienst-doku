@@ -99,7 +99,7 @@ Die Endpunkte zur Abfrage der Statusinformationen, geben die Statusinformationen
 </deliveries>
 ```
 
-Die Statusinformationen enthalten sowohl bei unterschwelligen als auch bei oberschwelligen Bekanntmachungen den Status des Datenservice Öffentlicher Einkauf `doeStatus`, das letzte Änderungsdatum des DöE-Status `doeStatusUpdate` sowie eine Beschreibung des aktuell gesetzten Status `statusDescription`.
+Die Statusinformationen enthalten sowohl bei unterschwelligen als auch bei oberschwelligen Bekanntmachungen den Status des Datenservice Öffentlicher Einkauf `doeStatus`, das letzte Änderungsdatum des DÖE-Status `doeStatusUpdate` sowie eine Beschreibung des aktuell gesetzten Status `statusDescription`.
 
 Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` mit dem letzten Änderungsdatum `tedStatusUpdate` übermittelt. Die TED-Statuswerte orientieren sich an den Statuswerten der EU. 
 <br><br>
@@ -107,7 +107,7 @@ Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` 
 
 ### Statustabelle: Übermittlung einer Bekanntmachung<span id="statustabelle-uebermittlung">
 
-| DöE-Status        | finaler Status?|Statusbeschreibung                                                                                       |
+| DÖE-Status        | finaler Status?|Statusbeschreibung                                                                                       |
 | ----------------- | -|--------------------------------------------------------------------------------------------------------- |
 | AWAITING_TRANSFER | nein |Die Bekanntmachung wurde vom Mediator angenommen und akzeptiert. Die weitere Versendung wird vorbereitet. |
 
@@ -118,7 +118,7 @@ Nachdem die Übermittlung einer Bekanntmachung erfolgriech abgeschlossen ist, wi
 
 Die folgenden Statuskombinationen, können bei der Statusabfrage eine Oberschwellenvergabe übermittelt werden.
 
-| TED-Status        | DöE-Status     |finaler Status? |Statusbeschreibung                                                                                                  						  |  Auf Vergabeplattform publizieren? | 
+| TED-Status        | DÖE-Status     |finaler Status? |Statusbeschreibung                                                                                                  						  |  Auf Vergabeplattform publizieren? | 
 | ----------------- | -------------- | ---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | - | 
 | PENDING           | PENDING        |nein      |Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. | noch abwarten  | 
 | NO_RESPONSE       | PENDING        | nein     |Die Übermittlung an TED wird erneut versucht. Die Übermittlung der Bekanntmachung an den Bekanntmachungsservice steht noch aus.                                          |  noch abwarten | 
@@ -151,8 +151,8 @@ Die folgenden Statuskombinationen, können bei der Statusabfrage eine Oberschwel
 
 Die folgenden Statuskombinationen, können bei der Statusabfrage eine Unterschwellenvergabe übermittelt werden.
 
-| DöE status | finaler Status?| Statusbeschreibung                                             |
-| ---------- | ----| --------------------------------------------------------------- |
+| DÖE status | finaler Status?| Statusbeschreibung                                             |
+|------------| ----| --------------------------------------------------------------- |
 | ACCEPTED   | nein | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert. |
 | REJECTED   | ja   | Die Bekanntmachung wurde von BKMS abgelehnt.                    |
 | PROCESSING | nein | Die Bekanntmachung wird vom BKMS verarbeitet.                   |

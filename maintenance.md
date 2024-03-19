@@ -25,11 +25,11 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 
 ## Anstehende Wartungsfenster oder Bekannte Störungen
 
-| Umgebung    | System              | Datum      | Zeit              | Kommentar           |
-|-------------|---------------------|------------|-------------------|---------------------|
-| Produktion | Alle Services des DöE außer BKMS | 27.-28.04.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
-| Produktion | Alle Services des DöE außer BKMS | 27.-28.07.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
-| Produktion | Alle Services des DöE außer BKMS | 26.-27.10.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
+| Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
+|-------------|----------------------------------|------------|-------------------|---------------------|
+| Produktion | Alle Services des DÖE außer BKMS | 27.-28.04.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
+| Produktion | Alle Services des DÖE außer BKMS | 27.-28.07.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
+| Produktion | Alle Services des DÖE außer BKMS | 26.-27.10.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
 
 
 
@@ -48,26 +48,26 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 ## Vergangene Wartungsfenster oder Störungen
 
-| Umgebung    | System              | Datum      | Zeit              | Kommentar           |
-|-------------|---------------------|------------|-------------------|---------------------|
-| Produktion | Alle Services des DöE außer BKMS | 27.-28.01.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
-| Staging | Alle Services des DöE außer BKMS | 17.01.2024 | 19:00 - 20:00 CEST | Infrastrukturwartung | 
-| Produktion und Staging | Alle Services des DöE außer BKMS | 09.01.2024 | 20:00 - 22:00 CEST | Infrastrukturwartung | 
-| Preview | Alles Services des DöE außer BKMS | 27.12.2023 - 02.01.2024 | | Vorübergehende Nichtverfügbarkeit, bitte in der Zwischenzeit für Tests die jeweiligen Services in der Staging Umgebung nutzen! | 
-| Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 21.11.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung |
-| Produktion | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 11.12.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung | 
-|BKMS Produktion | BKMS  | 27.10  | 27.10. 13:10 - 14:35 CEST | Online-Suchfunktion war nicht verfügbar |
+| Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
+|--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion               | Alle Services des DöE außer BKMS | 27.-28.01.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
+| Staging                  | Alle Services des DöE außer BKMS | 17.01.2024 | 19:00 - 20:00 CEST | Infrastrukturwartung | 
+| Produktion und Staging   | Alle Services des DöE außer BKMS | 09.01.2024 | 20:00 - 22:00 CEST | Infrastrukturwartung | 
+| Preview                  | Alles Services des DöE außer BKMS | 27.12.2023 - 02.01.2024 | | Vorübergehende Nichtverfügbarkeit, bitte in der Zwischenzeit für Tests die jeweiligen Services in der Staging Umgebung nutzen! | 
+| Produktion               | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 21.11.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung |
+| Produktion               | Alle Services des Vermittlungsdienst inkl. eSender (nicht BKMS) | 11.12.2023 | 06:00 - 07:00 CEST | Infrastrukturwartung | 
+| BKMS Produktion          | BKMS  | 27.10  | 27.10. 13:10 - 14:35 CEST | Online-Suchfunktion war nicht verfügbar |
 | DÖE Produktion + Staging | alle Services außer BKMS | 25.10.2023 | 15:31 - 16:03 CEST | Nicht-Erreichbarkeit des Rechenzentrums |
-| DöE Produktion + Staging | alle Services außer BKMS               |23.10.2023 - 24.10.2023                | 17:00 - 09:00 CEST |  Aufgrund von Infrastrukturproblemen nicht verfügbar | 
-| DöE Produktion + Staging | alle Services außer BKMS | 20.10.2023 | 10:00 - 13:00 CEST | Deployment für Performanceverbesserungen | 
-| DöE Produktion + Staging | alle Services außer BKMS | 10.10.2023 | 09:00 - 12:00 CEST | Rechenzentrumswartung | 
-| TED Preview | TED Apps for eForms | 10.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
-| TED Production | TED Apps for eForms | 11.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
+| DÖE Produktion + Staging | alle Services außer BKMS               |23.10.2023 - 24.10.2023                | 17:00 - 09:00 CEST |  Aufgrund von Infrastrukturproblemen nicht verfügbar | 
+| DÖE Produktion + Staging | alle Services außer BKMS | 20.10.2023 | 10:00 - 13:00 CEST | Deployment für Performanceverbesserungen | 
+| DÖE Produktion + Staging | alle Services außer BKMS | 10.10.2023 | 09:00 - 12:00 CEST | Rechenzentrumswartung | 
+| TED Preview              | TED Apps for eForms | 10.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
+| TED Production           | TED Apps for eForms | 11.10.2023 | 07:00 - 10:00 CEST | Angekündigt von TED | 
 | TED Produktion + Preview | TED Developer Portal, TED Apps for eForms | 02.10.2023 | 07:00 - 09:00 CEST | Angekündigt von TED | 
-| TED Produktion | TED Apps for eForms | 27.09.2023 | 07:00 - 09:00 CEST | Angekündigt von TED |
-| DÖE Produktion  | Vermittlungsdienst| 14.09.2023| 08:00 - 09:30 Uhr | vorrübergehend nicht erreichbar | 
-| TED Produktion| TED Apps for eForms | 30.08.2023 | 18:00-22:00 CEST | Angekündigt von TED | 
-| TED Produktion| TED Apps for eForms | 30.08.2023 | 18:00-22:00 CEST | Angekündigt von TED |
-| TED Preview | TED Apps for eForms | 28.08.2023 | 07:00-11:00 CEST  | Angekündigt von TED |
-| TED Preview | TED Apps for eForms | 24.08.2023 | 07:00-08:00 CEST  | Angekündigt von TED |
-| TED Produktion| TED Apps for eForms | 23.08.2023 | 07:00-08:00 CEST | Angekündigt von TED | 
+| TED Produktion           | TED Apps for eForms | 27.09.2023 | 07:00 - 09:00 CEST | Angekündigt von TED |
+| DÖE Produktion           | Vermittlungsdienst| 14.09.2023| 08:00 - 09:30 Uhr | vorrübergehend nicht erreichbar | 
+| TED Produktion           | TED Apps for eForms | 30.08.2023 | 18:00-22:00 CEST | Angekündigt von TED | 
+| TED Produktion           | TED Apps for eForms | 30.08.2023 | 18:00-22:00 CEST | Angekündigt von TED |
+| TED Preview              | TED Apps for eForms | 28.08.2023 | 07:00-11:00 CEST  | Angekündigt von TED |
+| TED Preview              | TED Apps for eForms | 24.08.2023 | 07:00-08:00 CEST  | Angekündigt von TED |
+| TED Produktion           | TED Apps for eForms | 23.08.2023 | 07:00-08:00 CEST | Angekündigt von TED | 

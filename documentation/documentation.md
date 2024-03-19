@@ -5,7 +5,7 @@ Anbindung:
   - [Verfügbare Systemumgebungen](Development_environments.md)
 
 Funktionsweise des Vermittlungsdienstes und eSender-Hubs: 
-- [Self-Service Portal des DöE](SSP.md)
+- [Self-Service Portal des DÖE](SSP.md)
 - [Workflow einer Bekanntmachung im Vermittlungsdienst](Workflow.md)
 - [Einsenden einer Bekanntmachung](/documentation/Send_notice.md)
 - [Unterscheidung von Unter- und Oberschwellenvergabe](/documentation/Upper-or_lower-threshold-award.md)
@@ -14,7 +14,7 @@ Funktionsweise des Vermittlungsdienstes und eSender-Hubs:
 
 
 eForms: 
-- [Versionsübersicht im DöE](eForms_support.md)
+- [Versionsübersicht im DÖE](eForms_support.md)
 - [Hinweise zum Erstellen von eForms-DE Dokumenten](eForms_creation.md)
 - [eForms Validierungsservice (Website)](Validator.md)
 

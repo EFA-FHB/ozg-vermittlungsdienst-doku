@@ -3,12 +3,12 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
-# Self-Service Portal des DöE
+# Self-Service Portal des DÖE
 
 Unter der URL https://portal.ozg-vermittlungsdienst.de/ ist der Self-Serivce Portal des Datenservice Öffentlicher Einkauf für die Produktionsumgebung verfügbar.
 Des weiteren gibt es das Portal für die Staging Umgebung https://portal.staging-ozg-vermittlungsdienst.de/ und das Portal für die Preview Umgebung https://portal.preview-ozg-vermittlungsdienst.de/. 
 <br><br>
-Das Self-Service-Portal (SSP) bietet einen benutzerfreundlichen Zugang zu allen [Unterlagen](https://portal.ozg-vermittlungsdienst.de/documentation) des Datenservice Öffentlicher Einkauf (DöE).
+Das Self-Service-Portal (SSP) bietet einen benutzerfreundlichen Zugang zu allen [Unterlagen](https://portal.ozg-vermittlungsdienst.de/documentation) des Datenservice Öffentlicher Einkauf (DÖE).
 
 Das Portal wird ein Betriebs- und Supportplattform für Nutzer. Es wird Ihnen bei der Übergang helfen und erlaubt Ihnen, von Emails wegkommen. Es bietet zukünftig mehr Möglichkeiten, Nutzer und Zugang selbst zu verwalten.
 
@@ -46,7 +46,7 @@ Ab 11.12.23 werden folgende Rollen im Self-Service-Portal existieren:
 
 Das Portal bietet folgende Hauptfunktionen:
 * Dokumentation ansehen
-  * *Es wird langfristig geplant, die Dokumentation, die sich derzeit in Github befindet, in das Portal zu übertragen. Das SSP wird dann später zu zentraler Kommunikationskanal fürs DöE*
+  * *Es wird langfristig geplant, die Dokumentation, die sich derzeit in Github befindet, in das Portal zu übertragen. Das SSP wird dann später zu zentraler Kommunikationskanal fürs DÖE*
 * Eigenes Anlegen von Admin-Account in SSP für Fachverfahrenshersteller (SSP-Admin-Accounts)
 * Nach erfolgreicher Verifizierung: Mit SSP-Admin-Account VD-Accounts und Dashboard-Benutzer anlegen (ersetzt die Account-Erstellung per E-Mail)
 * Mit Dashboard-Nutzer Account: Übersicht von Bekanntmachungen ansehen
