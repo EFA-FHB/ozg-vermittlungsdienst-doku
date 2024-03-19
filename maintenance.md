@@ -27,6 +27,7 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
+| Produktion | Vermittlungsdienst | 21.03.2024 | 16:00 - 17:00 CEST | Wartungsarbeiten: Autorisierungstoken soll neu erstellt werden |
 | Produktion | Alle Services des DÖE außer BKMS | 27.-28.04.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
 | Produktion | Alle Services des DÖE außer BKMS | 27.-28.07.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
 | Produktion | Alle Services des DÖE außer BKMS | 26.-27.10.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
