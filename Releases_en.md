@@ -3,31 +3,58 @@
 
 <br />
 
+- March 2024
+  - Hotfix release for eForms-DE-v1.2 patch](#Release-for-DE-1.2-patch)
 - February 2024
-  - [Release Standard eForms-DE v1.2.0 and SDK-DE](#Release-Standard-eForms-DE-v1.2.0-and-SDK-DE)
+  - Release Standard eForms-DE v1.2.0 and SDK-DE](#Release-Standard-eForms-DE-v1.2.0-and-SDK-DE)
 - January 2024
-  - [Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - December 2023
-  - [Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
-  - [Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
+  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - November 2023
-  - [Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
-  - [Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
-  - [Hotfix release for Notice Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-mediator-and-validator)
+  - Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
+  - Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
+  - Hotfix release for Notice Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-mediator-and-validator)
 - October 2023
-  - [Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
-  - [Release for self-service portal, registration form for a separate Vermittlungsdienst account](#Release-for-self-service-portal,-registration-form-for-a-separate- Vermittlungsdienst-account)
+  - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
+  - Release for self-service portal, registration form for a separate Vermittlungsdienst account](#Release-for-self-service-portal,-registration-form-for-a-separate- Vermittlungsdienst-account)
 - September 2023
-  - [Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
-  - [Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
+  - Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
+  - Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
 - August 2023
-  - [Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
+  - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
 - June 2023
-  - [Production Release June - Vermittlungsdienst & eSender-Hub](#Production-Release-June-Vermittlungsdienst-&-eSender-Hub)
+  - Production Release June - Vermittlungsdienst & eSender-Hub](#Production-Release-June-Vermittlungsdienst-&-eSender-Hub)
 - May 2023
-  - [Preview Release May - Vermittlungsdienst & Validator Webservice](#Preview-Release-May-Mediation-Service-&-Validator-Webservice)
+  - Preview Release May - Vermittlungsdienst & Validator Webservice](#Preview-Release-May-Mediation-Service-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-for-DE-1.2-patch></a>
+## Hotfix release for eForms-DE-v1.2 patch (eForms-DE 1.2 new rules)
+| Environment Vermittlungsdienst | Period | Status |
+|------------|-----------------------------|----------------|
+| Preview | 25.03.2024 | published |
+| Staging | 26.03.2024 | pending |
+| Production | 27.03.2024 | pending |
+
+Status: Published in preview on 25.03.2024 <br>
+<details>
+<summary>Release notes</summary>
+
+### Validator (web service + open source)
+- Use of eForms-DE Schematron 0.8.2 for eForms-DE 1.2 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.2)
+
+### Vermittlungsdienst
+- Use of eForms-DE Schematron 0.8.2 for eForms-DE 1.2 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.2)
+- Abolition of the use of api-key for authentication
+
+### Self-Service Portal
+- Updating the declaration of accessibility in the SSP
+
+
+</details>
 
 <a id=Release-Standard-eForms-DE-v1.2.0-and-SDK-DE></a>
 ## Release Standard eForms-DE v1.2.0 and SDK-DE
@@ -38,22 +65,22 @@ The new release plan is as follows:
 
 | Date | Description | Status |
 | ------------------ | ------------------------------------------------------------ | ------ |
-| 02.02.2024         | **Release eForms-DE v1.2.0** based on SDK-EU 1.10.1 | Done |
+| 02.02.2024 | **Release eForms-DE v1.2.0** based on SDK-EU 1.10.1 | Ready |
 | 02.02 - 23.02.2024 | Feedback phase for eForms-DE v1.2.0 (in writing via eforms@finanzen.bremen.de) | Done |
-| 23.02.2024         | **Planned release SDK-DE 1.2.0_1.10.1**            | Done |
-| 23.02.2024         | **Planned support eForms-DE 1.2 in DöE Preview (BKMS Alpha + VD Preview)** | Published on VD Preview |
-| 29.02.2024         | **Planned support for eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)**  | Published on VD Staging |
-| 20.03.2024         |  Planned release of a patch to eForms-DE v1.2.0 (probably v1.2.1) | Pending |
-| 22.03.2024         | Planned release of a patch for SDK-DE 1.2.0_1.10.1 (probably SDK-DE 1.2.1_1.10.1) | Pending |
-| ~ 27.03.2024       | **Planned support eForms-DE 1.2 possibly also eForms-DE 1.2.1 in DöE production** | In QS |
-| **30.09.2024**     | Acceptance of eForms-DE v1.1.0 expires on the part of TED | Pending |
+| 02/23/2024 | **Planned release SDK-DE 1.2.0_1.10.1** | Done |
+| 23.02.2024 | **Planned support for eForms-DE 1.2 in DÖE Preview (BKMS Alpha + VD Preview)** | Published |
+| 02/29/2024 | **Planned support for eForms-DE 1.2 in DÖE Staging (BKMS Alpha + VD Staging)** | Published |
+| 20.03.2024 | Planned release of a patch for eForms-DE v1.2.0 | Complete |
+| 22.03.2024 | Planned release of a patch for SDK-DE 1.2.0_1.10.1 | Done |
+~ 27.03.2024 | **Planned support for eForms-DE 1.2 in DÖE production** | In QA |
+**30.09.2024** | Acceptance of eForms-DE v1.1.0 (based on eForms-EU 1.7) expires | Pending |
 
-**<u>Important</u>: The Public Procurement Data Service (DÖE) will support both versions 1.2.0 and 1.2.1 (patch) of eForms-DE (or versions 1.2.0_1.10.1 and 1.2.1_1.10.1 of the SDK-DE). More detailed information on this will be provided soon**
+**<u>Important</u>: The Public Procurement Data Service (DÖE) will support both versions 1.2.0 of eForms-DE (or versions 1.2.0_1.10.1 and future patches of the SDK-DE).
 
 Written feedback on eForms-DE **v.1.2.0** can be submitted until 23.02.2024 to: eforms@finanzen.bremen.de
 
 <details>
-<summary>Release notes</summary>
+<summary>Release Notes</summary>
 
 ### Self-Service Portal
 - After an announcement has been published, direct links to the DOE or TED are now displayed on the announcement table for the dashboard user
@@ -225,7 +252,7 @@ Status: Published on 21.11.2023 <br>
 <summary>Release notes</summary>
 
 ### eSender and Vermittlungsdienst
-- Improved technical configuration of the apps and renewal of certificates
+- Improved technical configuration of apps and renewal of certificates
 
 
 </details>
