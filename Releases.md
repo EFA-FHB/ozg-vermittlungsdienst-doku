@@ -3,6 +3,8 @@
 
 <br />
 
+- März 2024
+  - [Hotfix Release für eForms-DE-v1.2 Patch](#Release-for-DE-1.2-patch)
 - Februar 2024
   - [Release Standard eForms-DE v1.2.0 und SDK-DE](#Release-Standard-eForms-DE-v1.2.0-und-SDK-DE)
 - Januar 2024
@@ -28,6 +30,31 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-for-DE-1.2-patch></a>
+## Hotfix Release für eForms-DE-v1.2 Patch (eForms-DE 1.2 Neue Regeln)
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 25.03.2024                  | veröffentlicht |
+| Staging    | 26.03.2024                  | ausstehend     |
+| Produktion | 27.03.2024                  | ausstehend     |
+
+Status: Veröffentlicht in Preview am 25.03.2024 <br>
+<details>
+<summary>Release Notes</summary>
+
+### Validator (Webservice + Open-Source)
+- Nutzung von eForms-DE Schematron 0.8.2 für eForms-DE 1.2 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.2)
+
+### Vermittlungsdienst
+- Nutzung von eForms-DE Schematron 0.8.2 für eForms-DE 1.2 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.2)
+- Abschaffung der Nutzung von api-key für Authentifizierung
+
+### Self-Service Portal 
+- Aktualisieren von Erklärung der Barrierefreiheit im SSP
+
+
+</details>
 
 <a id=Release-Standard-eForms-DE-v1.2.0-und-SDK-DE></a>
 ## Release Standard eForms-DE v1.2.0 und SDK-DE
