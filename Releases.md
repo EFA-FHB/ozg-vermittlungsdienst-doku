@@ -36,10 +36,10 @@
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 25.03.2024                  | veröffentlicht |
-| Staging    | 26.03.2024                  | ausstehend     |
+| Staging    | 26.03.2024                  | veröffentlicht |
 | Produktion | 27.03.2024                  | ausstehend     |
 
-Status: Veröffentlicht in Preview am 25.03.2024 <br>
+Status: Veröffentlicht in Staging am 26.03.2024 <br>
 <details>
 <summary>Release Notes</summary>
 
@@ -48,7 +48,7 @@ Status: Veröffentlicht in Preview am 25.03.2024 <br>
 
 ### Vermittlungsdienst
 - Nutzung von eForms-DE Schematron 0.8.2 für eForms-DE 1.2 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.2)
-- Abschaffung der Nutzung von api-key für Authentifizierung
+- Löschung der Nutzung von api-key für Authentifizierung
 
 ### Self-Service Portal 
 - Aktualisieren von Erklärung der Barrierefreiheit im SSP
