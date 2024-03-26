@@ -51,7 +51,7 @@ Status: Published in staging on 26.03.2024 <br>
 - Deletion of the use of api-key for authentication
 
 ### Self-Service Portal
-- Updating the declaration of accessibility in the SSP
+- Update of the declaration on accessibility in the SSP
 
 
 </details>
