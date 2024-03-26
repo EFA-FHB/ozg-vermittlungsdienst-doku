@@ -51,7 +51,7 @@ Status: Veröffentlicht in Staging am 26.03.2024 <br>
 - Löschung der Nutzung von api-key für Authentifizierung
 
 ### Self-Service Portal 
-- Aktualisieren von Erklärung der Barrierefreiheit im SSP
+- Aktualisierung der Erklärung zur Barrierefreiheit im SSP
 
 
 </details>
