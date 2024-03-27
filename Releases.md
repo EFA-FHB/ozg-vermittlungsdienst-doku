@@ -37,9 +37,9 @@
 |------------|-----------------------------|----------------|
 | Preview    | 25.03.2024                  | veröffentlicht |
 | Staging    | 26.03.2024                  | veröffentlicht |
-| Produktion | 27.03.2024                  | ausstehend     |
+| Produktion | 27.03.2024                  | veröffentlicht |
 
-Status: Veröffentlicht in Staging am 26.03.2024 <br>
+Status: Veröffentlicht in Produktion am 27.03.2024 <br>
 <details>
 <summary>Release Notes</summary>
 
@@ -72,7 +72,7 @@ Die neue Release-Planung sieht wie folgt aus:
 | 29.02.2024         | **Geplante Unterstützung eForms-DE 1.2 in DÖE Staging (BKMS Alpha + VD Staging)** | Veröffentlicht |
 | 20.03.2024         | Geplante Veröffentlichung eines Patches zu eForms-DE v1.2.0 | Fertig |
 | 22.03.2024         | Geplante Veröffentlichung eines Patches zu SDK-DE 1.2.0_1.10.1 | Fertig |
-| ~ 27.03.2024       | **Geplante Unterstützung eForms-DE 1.2 in DÖE Produktion** | In QS |
+| 27.03.2024         | **Geplante Unterstützung eForms-DE 1.2 in DÖE Produktion** | Veröffentlicht |
 | **30.09.2024**     | Akzeptanz von eForms-DE v1.1.0 (basierend auf eForms-EU 1.7) läuft aus       | Ausstehend         |
 
 **<u>Wichtig</u>: Der Datenservice Öffentlicher Einkauf (DÖE) wird sowohl die Versionen 1.2.0 von eForms-DE (bzw. die Versionen 1.2.0_1.10.1 und zukünftige Patches des SDK-DE) unterstützen.
