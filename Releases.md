@@ -3,6 +3,8 @@
 
 <br />
 
+- März 2024
+  - [Hotfix Release für eForms-DE-v1.2 Patch](#Release-for-DE-1.2-patch)
 - Februar 2024
   - [Release Standard eForms-DE v1.2.0 und SDK-DE](#Release-Standard-eForms-DE-v1.2.0-und-SDK-DE)
 - Januar 2024
@@ -29,6 +31,31 @@
 
 <br />
 
+<a id=Release-for-DE-1.2-patch></a>
+## Hotfix Release für eForms-DE-v1.2 Patch (eForms-DE 1.2 Neue Regeln)
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 25.03.2024                  | veröffentlicht |
+| Staging    | 26.03.2024                  | veröffentlicht |
+| Produktion | 27.03.2024                  | veröffentlicht |
+
+Status: Veröffentlicht in Produktion am 27.03.2024 <br>
+<details>
+<summary>Release Notes</summary>
+
+### Validator (Webservice + Open-Source)
+- Nutzung von eForms-DE Schematron 0.8.2 für eForms-DE 1.2 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.2)
+
+### Vermittlungsdienst
+- Nutzung von eForms-DE Schematron 0.8.2 für eForms-DE 1.2 (https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.2)
+- Löschung der Nutzung von api-key für Authentifizierung
+
+### Self-Service Portal 
+- Aktualisierung der Erklärung zur Barrierefreiheit im SSP
+
+
+</details>
+
 <a id=Release-Standard-eForms-DE-v1.2.0-und-SDK-DE></a>
 ## Release Standard eForms-DE v1.2.0 und SDK-DE
 
@@ -41,14 +68,14 @@ Die neue Release-Planung sieht wie folgt aus:
 | 02.02.2024         | **Release eForms-DE v1.2.0** auf Basis SDK-EU 1.10.1         | Fertig |
 | 02.02 - 23.02.2024 | Feedbackphase zu eForms-DE v1.2.0 (schriftlich über eforms@finanzen.bremen.de) | Fertig |
 | 23.02.2024         | **Geplante Veröffentlichung SDK-DE 1.2.0_1.10.1**            | Fertig |
-| 23.03.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Preview (BKMS Alpha + VD Preview)** | Veröffentlicht auf VD Preview |
-| ~01.03.2024~        | ~Geplante Veröffentlichung eines Patches zu eForms-DE v1.2.0 (vermutlich v1.2.1)~ | __Abgesagt (besteht kein Bedarf)__ |
-| 29.02.2024       | **Geplante Unterstützung eForms-DE 1.2 in DöE Staging (BKMS Alpha + VD Staging)** | Veröffentlicht auf VD Staging |
-| ~15.03.2024~         | ~Geplante Veröffentlichung eines Patches zu SDK-DE 1.2.0_1.10.1 (vermutlich SDK-DE 1.2.1_1.10.1)~ | __Abgesagt__ |
-| ~ 27.03.2024       | **Geplante Unterstützung eForms-DE 1.2 ggf. auch eForms-DE 1.2.1 in DöE Produktion** | In QS |
-| 11.05.2024         | Akzeptanz von eForms-DE v1.1.0 läuft seitens TED aus       | Ausstehend         |
+| 23.02.2024         | **Geplante Unterstützung eForms-DE 1.2 in DÖE Preview (BKMS Alpha + VD Preview)** | Veröffentlicht |
+| 29.02.2024         | **Geplante Unterstützung eForms-DE 1.2 in DÖE Staging (BKMS Alpha + VD Staging)** | Veröffentlicht |
+| 20.03.2024         | Geplante Veröffentlichung eines Patches zu eForms-DE v1.2.0 | Fertig |
+| 22.03.2024         | Geplante Veröffentlichung eines Patches zu SDK-DE 1.2.0_1.10.1 | Fertig |
+| 27.03.2024         | **Geplante Unterstützung eForms-DE 1.2 in DÖE Produktion** | Veröffentlicht |
+| **30.09.2024**     | Akzeptanz von eForms-DE v1.1.0 (basierend auf eForms-EU 1.7) läuft aus       | Ausstehend         |
 
-**<u>Wichtig</u>: Der Datenservice Öffentlicher Einkauf (DÖE) wird sowohl die Versionen 1.2.0 als auch 1.2.1 (Patch) von eForms-DE (bzw. die Versionen 1.2.0_1.10.1 und 1.2.1_1.10.1 des SDK-DE) unterstützen. Genauere Informationen hierzu werden zeitnah bereitgestellt**
+**<u>Wichtig</u>: Der Datenservice Öffentlicher Einkauf (DÖE) wird sowohl die Versionen 1.2.0 von eForms-DE (bzw. die Versionen 1.2.0_1.10.1 und zukünftige Patches des SDK-DE) unterstützen.
 
 Schriftliches Feedback zu eForms-DE **v.1.2.0** kann bis zum 23.02.2024 eingereicht werden an: eforms@finanzen.bremen.de
 
@@ -225,7 +252,7 @@ Status: Veröffentlicht am 21.11.2023 <br>
 <summary>Release Notes</summary>
 
 ### eSender und Vermittlungsdienst
-- Vebessrte technische Konfiguration der Apps und Erneuerung von Zertifikaten
+- Verbesserte technische Konfiguration der Apps und Erneuerung von Zertifikaten
 
 
 </details>

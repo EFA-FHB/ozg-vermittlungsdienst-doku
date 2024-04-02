@@ -11,7 +11,7 @@ Bei der eForms Dokumentenerstellung gilt es einige Regeln zu bestimmten Felden z
 
 Feld: *ganzer Abschnitt ```<efac:Organization>```*
 
-Der DöE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden oberschwelligen Bekanntmachungen. Für die Organisationen darf deshalb der Typ "ted-esen" NICHT in den Bekanntmachungen verwendet werden, da diese Angabe automatisch vom eSender-Hub eingefügt wird.
+Der DÖE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden oberschwelligen Bekanntmachungen. Für die Organisationen darf deshalb der Typ "ted-esen" NICHT in den Bekanntmachungen verwendet werden, da diese Angabe automatisch vom eSender-Hub eingefügt wird.
 Wenn Sie eine Bekanntmachung erstellen und eine Organisation angeben, müssen Sie für jede Organisation definieren, welche Rolle diese im Rahmen der Bekanntmachung spielt. Die Rollen sind definiert in der EU Codeliste: https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/organisation-role.gc
 Ein Wert in der EU Codeliste ist "ted-esen". Dieser Wert darf in Deutschland nicht verwendet werden. 
 
@@ -94,7 +94,7 @@ https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1
 
 _Datenservice öffentlicher Einkauf_
 
-Der DöE baut sowohl die neuen Schematron Regeln als auch die Umwandlung im eSender-Hub derzeit ein. Diese Änderungen werden mit dem nächsten Release in KW 41 in Produktion veröffentlicht und sind dann testbar (genauere Infos zum Release finden Sie [hier](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/Releases.md). 
+Der DÖE baut sowohl die neuen Schematron Regeln als auch die Umwandlung im eSender-Hub derzeit ein. Diese Änderungen werden mit dem nächsten Release in KW 41 in Produktion veröffentlicht und sind dann testbar (genauere Infos zum Release finden Sie [hier](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/Releases.md). 
 
 _SDK-DE_
 
@@ -119,7 +119,7 @@ Wenn eines dieser Felder im eForms verwendet werden kann, sollten diese Referenz
 
 Generell liegt es in der Verantwortung der versendenden Stelle, sicherzustellen, dass das korrekte Feld und die korrekte ID für die Referenz verwendet wird. Derzeit führt TED noch keine umfangreichen Prüfungen hierzu durch, will dies aber in der Zukunft einbauen. Der Datenservice öffentlicher Einkauf behandelt Bekanntmachungen mit Referenzen auf alte Bekanntmachungen wie jede andere Art von Bekanntmachungen. 
 
-TED hat im Zusammenhang mit dieser Diskussion bestätigt, dass ein Wechsel des eSenders von einem FVH auf den DöE keine Auswirkungen haben wird. Es wird möglich sein, auf eine im alten Format eingereichte Bekanntmachung zu referenzieren, auch wenn diese von einem anderen eSender-Hub eingeliefert wurde. 
+TED hat im Zusammenhang mit dieser Diskussion bestätigt, dass ein Wechsel des eSenders von einem FVH auf den DÖE keine Auswirkungen haben wird. Es wird möglich sein, auf eine im alten Format eingereichte Bekanntmachung zu referenzieren, auch wenn diese von einem anderen eSender-Hub eingeliefert wurde. 
 
 Weitere Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection
 
