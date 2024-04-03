@@ -39,7 +39,7 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
 | Viewer | 02.04.2024 | 04/2024 | Teilweise können eFormsDE 1.2 Bekanntmachungen mit bestimmten Indicator Werten nicht gerendetert werden | __In Analyse__ |
-| Viewer | 02.04.2024 | 04/2024 | Bei sehr großen Bekanntmachungen mit sehr vielen Regeln kommt es vereinzelt zu timeouts bei der Einlieferung | __In Analyse__ |
+| Validator im Vermittlungsdienst | 02.04.2024 | 04/2024 | Bei sehr großen Bekanntmachungen mit sehr vielen Regeln kommt es vereinzelt zu timeouts bei der Einlieferung | __In Analyse__ |
 | Integration mit BKMS   | 14.03.2024 | 14.03.2024 | Authentifizierungsproblem beim BKMS führt zur Störungen während des Lieferungsprozesses | __Behoben__ |
 | Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Störungen bei der Verarbeitung einzelner Bekanntmachungen aufgrund von  starker Belastung | __Behoben__ |
 
