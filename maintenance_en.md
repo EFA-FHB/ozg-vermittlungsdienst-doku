@@ -38,8 +38,8 @@ If you have domains that do not correspond to this, please open a support ticket
 
 | system | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| Viewer | 02.04.2024 | 04/2024 | Partially eFormsDE 1.2 announcements with certain indicator values cannot be rendered | __In analysis__ |
-| Viewer | 02.04.2024 | 04/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __In Analyse__ |
+| Viewer | 02.04.2024 | 04/2024 | In some cases, eFormsDE 1.2 notices with certain indicator values cannot be rendered | __In analysis__ |
+| Validator in the Vermittlungsdienst | 02.04.2024 | 04/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __In Analyse__ |
 | Integration with BKMS | 14.03.2024 | 14.03.2024 | Authentication problem with BKMS leads to disruptions during the delivery process | __Fixed__ |
 | Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Disruptions in the processing of individual announcements due to heavy load | __Fixed__ |
 
