@@ -39,7 +39,7 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
 | Integration mit BKMS   | 14.03.2024 | 14.03.2024 | Authentifizierungsproblem beim BKMS führt zur Störungen während des Lieferungsprozesses | __Behoben__ |
-| Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Störungen bei der Bearbeitung der Lieferungen aufgrund der starken Belastung | __Behoben__ |
+| Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Störungen bei der Verarbeitung einzelner Bekanntmachungen aufgrund der starken Belastung | __Behoben__ |
 
 
 ## Hinweise
