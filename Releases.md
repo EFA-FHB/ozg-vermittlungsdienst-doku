@@ -3,6 +3,8 @@
 
 <br />
 
+- April 2024
+  - [Hotfix Release für eSender and Notice-Viewer](#Hotfix-Release-for-eSender-and-Notice-Viewer)
 - März 2024
   - [Hotfix Release für eForms-DE-v1.2 Patch](#Release-for-DE-1.2-patch)
 - Februar 2024
@@ -30,6 +32,27 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Hotfix-Release-for-eSender-and-Notice-Viewer></a>
+## Hotfix Release für eSender and Notice-Viewer
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 08.04.2024                  | veröffentlicht |
+| Staging    | 09.04.2024                  | Ausstehend |
+| Produktion | 10.04.2024                  | Ausstehend |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### eSender
+- BT-500-Organization-Company wurde in manchen Bekanntmachungen nicht korrekt erkannt
+
+### Notice-Viewer
+- Einige Bekanntmachungen wurden aufgrund von falscher Verarbeitung von BT-92 und BT-93 Regeln nicht generiert.
+
+</details>
+
 
 <a id=Release-for-DE-1.2-patch></a>
 ## Hotfix Release für eForms-DE-v1.2 Patch (eForms-DE 1.2 Neue Regeln)
