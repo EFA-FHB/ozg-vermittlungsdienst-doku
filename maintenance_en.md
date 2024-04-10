@@ -27,6 +27,7 @@ If you have domains that do not correspond to this, please open a support ticket
 
 | environment | system | date | time | comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
+| Staging | All services of the DÖE except BKMS | 18.04.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
 | Production | All services of the DÖE except BKMS | 27-28.04.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
 | Production | All services of the DÖE except BKMS | 27-28.07.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
 | Production | All services of the DÖE except BKMS | 26-27.10.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
