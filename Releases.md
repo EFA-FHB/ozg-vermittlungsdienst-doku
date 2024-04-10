@@ -38,7 +38,7 @@
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 08.04.2024                  | veröffentlicht |
-| Staging    | 09.04.2024                  | Ausstehend |
+| Staging    | 09.04.2024                  | veröffentlicht |
 | Produktion | 10.04.2024                  | Ausstehend |
 
 Status: In QS <br>
