@@ -39,9 +39,9 @@
 |------------|-----------------------------|----------------|
 | Preview    | 08.04.2024                  | veröffentlicht |
 | Staging    | 09.04.2024                  | veröffentlicht |
-| Produktion | 10.04.2024                  | Ausstehend |
+| Produktion | 10.04.2024                  | veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht in Produktion am 10.04.2024 <br>
 <details>
 <summary>Release Notes</summary>
 
@@ -49,7 +49,7 @@ Status: In QS <br>
 - BT-500-Organization-Company wurde in manchen Bekanntmachungen nicht korrekt erkannt
 
 ### Notice-Viewer
-- Einige Bekanntmachungen wurden aufgrund von falscher Verarbeitung von BT-92 und BT-93 Regeln nicht generiert.
+- Einige Bekanntmachungen wurden aufgrund von falscher Verarbeitung von BT-92 und BT-93 Regeln nicht generiert
 
 </details>
 
