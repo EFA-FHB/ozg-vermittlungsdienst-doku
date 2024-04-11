@@ -81,7 +81,7 @@ Es ist zukünftig möglich Bekanntmachungen auch über das eDelivery Network PEP
 ![E-Mail eintragen](images/kc_passwort_vergessen.png)
 <br>
 
-4. Die Meldung 'Sie sollten in Kürze eine E-Mail mit weiteren Instruktionen erhalten' wir angezeigt.<br>
+4. Die Meldung 'Sie sollten in Kürze eine E-Mail mit weiteren Instruktionen erhalten' wird angezeigt.<br>
 ![Meldung](images/kc_nachricht_best%C3%A4tigungsemail.png)
 <br>
 
