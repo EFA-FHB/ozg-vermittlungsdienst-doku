@@ -20,12 +20,12 @@ The CPV codes are interpreted as follows:
 
 ## Notes for specialist procedure manufacturers
 - The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support will take a closer look at the announcement and then, depending on the error message (e.g. 502 Gateway Timeout from TED or a content error as mentioned above, e.g. IssueDate incorrect), will either set it to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in the event of a doe_status INTERNAL_ERROR.
-- We are currently seeing an increasing number of rejections when submitting based on incorrect email syntax for the "authorEmail" specification. Please ensure that a valid email with the correct syntax is included in this field when submitting to the Vermittlungsdienst for each announcement. If the email is not correct, the following error message will appear: "NOTICE_METADATA_INVALID - Required data is missing or the data entered does not match the schema". We validate emails using the following regex expression provided by TED: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b <br>
+- We are currently seeing an increasing number of rejections when submitting based on incorrect email syntax for the "authorEmail" specification. Please make sure that a valid email with the correct syntax is included in this field when submitting to the Vermittlungsdienst for each announcement. If the email is not correct, the following error message will appear: "NOTICE_METADATA_INVALID - Required data is missing or the data entered does not match the schema". We validate emails using the following regex expression provided by TED: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b <br>
 If you have domains that do not correspond to this, please open a support ticket with TED.
 
 ## Upcoming maintenance windows
 
-| environment | system | date | time | comment |
+| Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
 | Staging | All services of the DÖE except BKMS | 18.04.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
 | Production | All services of the DÖE except BKMS | 27-28.04.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
@@ -38,8 +38,8 @@ If you have domains that do not correspond to this, please open a support ticket
 
 | system | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| Viewer | 02.04.2024 | 04/2024 | In some cases, eFormsDE 1.2 notices with certain indicator values cannot be rendered | __In analysis__ |
-| Validator in the Vermittlungsdienst | 02.04.2024 | 04/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __In Analyse__ |
+| Viewer | 02.04.2024 | 04/2024 | Partially eFormsDE 1.2 announcements with certain indicator values cannot be rendered | __Fixed__ |
+| Validator in the Vermittlungsdienst | 02.04.2024 | 04/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __In analysis__ |
 | Integration with BKMS | 14.03.2024 | 14.03.2024 | Authentication problem with BKMS leads to disruptions during the delivery process | __Fixed__ |
 | Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Disruptions in the processing of individual announcements due to heavy load | __Fixed__ |
 
@@ -48,7 +48,7 @@ If you have domains that do not correspond to this, please open a support ticket
 
 The preview environment is only available between 06:00 and 20:00. Please also use the staging environment for testing purposes, which is available around the clock.
 
-On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted to staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
+On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted in staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
 
 ## Past maintenance windows or disruptions
 
