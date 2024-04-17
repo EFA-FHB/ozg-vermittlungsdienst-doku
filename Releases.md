@@ -4,6 +4,7 @@
 <br />
 
 - April 2024
+  - [Hotfix Release für Notice-Viewer](#Hotfix-Release-for-Notice-Viewer)
   - [Hotfix Release für eSender and Notice-Viewer](#Hotfix-Release-for-eSender-and-Notice-Viewer)
 - März 2024
   - [Hotfix Release für eForms-DE-v1.2 Patch](#Release-for-DE-1.2-patch)
@@ -32,6 +33,23 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Hotfix-Release-for-Notice-Viewer></a>
+## Hotfix Release für Notice-Viewer
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 17.04.2024                  | veröffentlicht |
+| Staging    | 18.04.2024                  | Ausstehend |
+| Produktion | 19.04.2024                  | Ausstehend |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Notice-Viewer
+- Diverse Darstellungs- und Sortierungsfehler wurden behoben
+
+</details>
 
 <a id=Hotfix-Release-for-eSender-and-Notice-Viewer></a>
 ## Hotfix Release für eSender and Notice-Viewer
