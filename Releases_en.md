@@ -4,16 +4,17 @@
 <br />
 
 - April 2024
+  - Hotfix release for Notice-Viewer](#Hotfix-Release-for-Notice-Viewer)
   - Hotfix release for eSender and Notice-Viewer](#Hotfix-Release-for-eSender-and-Notice-Viewer)
 - March 2024
   - Hotfix release for eForms-DE-v1.2 patch](#Release-for-DE-1.2-patch)
 - February 2024
   - Release Standard eForms-DE v1.2.0 and SDK-DE](#Release-Standard-eForms-DE-v1.2.0-and-SDK-DE)
 - January 2024
-  - Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - [Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - December 2023
   - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
-  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - November 2023
   - Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
   - Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
@@ -32,6 +33,23 @@
   - Preview Release May - Vermittlungsdienst & Validator Webservice](#Preview-Release-May-Mediation-Service-&-Validator-Webservice)
 
 <br />
+
+<a id=Hotfix-Release-for-Notice-Viewer></a>
+## Hotfix release for notice viewer
+| Environment Vermittlungsdienst | Period | Status |
+|------------|-----------------------------|----------------|
+| Preview | 17.04.2024 | published |
+| Staging | 18.04.2024 | Pending |
+| Production | 19.04.2024 | Pending |
+
+Status: In QA <br>
+<details>
+<summary>Release notes</summary>
+
+### Notice viewer
+- Various display and sorting errors have been fixed
+
+</details>
 
 <a id=Hotfix-Release-for-eSender-and-Notice-Viewer></a>
 ## Hotfix release for eSender and Notice-Viewer
@@ -176,7 +194,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
