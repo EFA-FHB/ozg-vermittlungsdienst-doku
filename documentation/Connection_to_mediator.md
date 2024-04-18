@@ -73,15 +73,15 @@ Es ist zukünftig möglich, Bekanntmachungen auch über das eDelivery-Network PE
 
 1. Self-Service Portal der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Spalte _Self Service Portal_ ).
 
-2. Auf 'Passwort vergessen?' klicken.<br>
+2. Auf ‚Passwort vergessen?' klicken.<br>
 ![Auf Passwort vergessen](images/kc_login.png)
 <br>
 
-3. E-Mail-Adresse eintragen und auf 'Absenden' klicken.<br>
+3. E-Mail-Adresse eintragen und auf ‚Absenden' klicken.<br>
 ![E-Mail eintragen](images/kc_passwort_vergessen.png)
 <br>
 
-4. Die Meldung 'Sie sollten in Kürze eine E-Mail mit weiteren Instruktionen erhalten' wird angezeigt.<br>
+4. Die Meldung ‚Sie sollten in Kürze eine E-Mail mit weiteren Instruktionen erhalten' wird angezeigt.<br>
 ![Meldung](images/kc_nachricht_best%C3%A4tigungsemail.png)
 <br>
 
@@ -89,14 +89,14 @@ Es ist zukünftig möglich, Bekanntmachungen auch über das eDelivery-Network PE
 ![Bestätigungs-E-Mail](images/e-mail_passwort_zuruecksetzen.png)
 <br>
 
-6. Auf 'Link zum Zurücksetzen von Anmeldeinformationen' klicken.
+6. Auf ‚Link zum Zurücksetzen von Anmeldeinformationen' klicken.
 <br>
 
-7. Der Benutzer wird auf die Seite 'Passwort aktualisieren' umgeleitet.<br>
+7. Der Benutzer wird auf die Seite ‚Passwort aktualisieren' umgeleitet.<br>
 ![PAsswort aktualisieren](images/kc_passwort_aktualisieren.png)
 <br>
 
-8. Neues Passwort eintragen und bestätigen und auf 'Absenden' klicken.<br>
+8. Neues Passwort eintragen und bestätigen und auf ‚Absenden' klicken.<br>
 Das Passwort muss aus mindestens 8 Zeichen bestehen, 1 Großbuchstaben und 1 Zahl enthalten.
 <br>
 
