@@ -13,9 +13,9 @@ The POST /v2/notices endpoint is used to send an announcement. The description o
 
 `authorEmail`: The e-mail address of the author of a notice. This is forwarded to TED in the case of Europe-wide publication.
 
-`buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optional parameters which enable the announcement to be found in the announcement service via the Peppol network.
+`buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optional parameters which enable the submitted announcement to be found in the announcement service via the Peppol network.
 ```
-If the posting was successful, the response code `202` means that the notice has been received and is now being processed further.
+If the posting is successful, the response code `202` means that the notice has been received and is now being processed further.
 
 To track the notice, you will receive a tracking code and the following information in the response after posting:
 ```
