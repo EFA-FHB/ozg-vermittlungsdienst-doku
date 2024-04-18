@@ -21,13 +21,13 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
         <br/>
       </th>
       <th style="text-align: left;">
-        <p>Preview Umgebung</p>
+        <p>Preview-Umgebung</p>
       </th>
       <th style="text-align: left;">
-        <p>Staging Umgebung </p>
+        <p>Staging-Umgebung </p>
       </th>
       <th style="text-align: left;">
-        <p>Production Umgebung </p>
+        <p>Production-Umgebung </p>
       </th>
     </tr>
   </thead>
@@ -48,13 +48,13 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
       </td>
     </tr>
     <tr>
-      <td style="text-align: left;">IP Address(es)</td>
+      <td style="text-align: left;">IP-Addresse(n)</td>
       <td style="text-align: left;">4.245.108.202</td>
       <td style="text-align: left;">185.158.224.47</td>
       <td style="text-align: left;">185.158.224.47 + 185.158.224.58</td>
     </tr>
     <tr>
-      <td style="text-align: left;">Self-Service Portal</td>
+      <td style="text-align: left;">Self-Service-Portal</td>
       <td style="text-align: left;">
         <a class="external-link" href="https://portal.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://portal.preview-ozg-vermittlungsdienst.de/</a>
       </td>
@@ -66,7 +66,7 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
       </td>
     </tr>
     <tr>
-      <td style="text-align: left;">eForms Validator</td>
+      <td style="text-align: left;">eForms-Validator</td>
       <td style="text-align: left;">
         <a class="external-link" href="https://validator.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://validator.preview-ozg-vermittlungsdienst.de/</a>
       </td>
@@ -78,7 +78,7 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
       </td>
     </tr>
         <tr>
-      <td style="text-align: left;">Notice Viewer</td>
+      <td style="text-align: left;">Notice-Viewer</td>
       <td style="text-align: left;">
         <a class="external-link" href="https://viewer.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://viewer.preview-ozg-vermittlungsdienst.de/</a>
       </td>
