@@ -2,36 +2,36 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
-# Change Notices/ Stop-und-Update-Funktionalität
+# Change-Notices/ Stop-und-Update-Funktionalität
 
 ## Inhalt
 - [1. Verwendung von Versionsnummern und Notice-IDs im Kontext der Weitergabe von Bekanntmachungen ](#versions-explained)
     - [1.1 Versionen und die Verwendung von Versionsnummern [Funktionalität ‚Update Notice‘]](#versions-update)
-    - [1.2 Neue Notice-ID für Changes [Funktionalität ‚Change Notice‘]](#versions-change)
+    - [1.2 Neue Notice-ID für Changes [Funktionalität ‚Change-Notice‘]](#versions-change)
     - [1.3 Changes, die aufeinanderfolgen](#versions-changes)
-- [2. Anpassen des Inhalts einer Bekanntmachung](#stop-oder-change)
+- [2. Anpassen des Inhalts einer Bekanntmachung](#stop-or-change)
     - [2.1 Update zu einer Bekanntmachung](#update)
-    - [2.2 Change Notices](#change-notice)
+    - [2.2 Change-Notices](#change-notice)
 - [3. STOP-Publikation Funktionalität](#stop-func)
 
 ## 1. Verwendung von Versionsnummern und Notice-IDs im Kontext der Weitergabe von Bekanntmachungen <span id='versions-explained'>
 
-Zum Umgang mit Versionsnummern und Notice-IDs im Kontext von Änderungen an Bekanntmachungen, die bereits (in Deutschland mit Hilfe des Datenservice Öffentlicher Einkauf) an die Veröffentlichungsplattform der EU (TED) geschickt wurden, sind seitens der EU zwei Konzepte vorgegeben, die durch die Vergabeplattformen im Umgang mit dem Datenservice Öffentlicher Einkauf umgesetzt sein müssen. Da der Datenservice Öffentlicher Einkauf keine Inhaltlichen Veränderungen an den Bekanntmachungen vornimmt, sind die Betreiber der Vergabeplattformen gehalten, diese beiden Konzepte umzusetzen.<br><br>
+Zum Umgang mit Versionsnummern und Notice-IDs im Kontext von Änderungen an Bekanntmachungen, die bereits (in Deutschland mit Hilfe des Datenservice Öffentlicher Einkauf) an die Veröffentlichungsplattform der EU (TED) geschickt wurden, sind seitens der EU zwei Konzepte vorgegeben, die durch die Vergabeplattformen im Umgang mit dem Datenservice Öffentlicher Einkauf umgesetzt sein müssen. Da der Datenservice Öffentlicher Einkauf keine inhaltlichen Veränderungen an den Bekanntmachungen vornimmt, sind die Betreiber der Vergabeplattformen angehalten, diese beiden Konzepte umzusetzen.<br><br>
 Das erste Konzept betrifft die Verwendung von Versionsnummern in einer Bekanntmachung. Das Versenden aktualisierter Bekanntmachungen mit neuen (aufsteigenden) Versionsnummern zu einer (bereits versendeten) Bekanntmachung an den Datenservice Öffentlicher Einkauf ist so lange möglich, bis die Bekanntmachung auf TED veröffentlicht ist. Anschließend kann keine weitere Bekanntmachung mit derselben Notice-ID und hochgezählter Versionsnummer versendet werden. Nun greift das zweite Konzept.<br><br>
-Das zweite Konzept beschreibt den Umgang mit bereits veröffentlichten Bekanntmachungen (auf TED und im Datenservice Öffentlicher Einkauf) und hier wird das Konzept der Change Notices angewendet. (vgl. https://docs.ted.europa.eu/eforms/latest/schema/change-notice.html und https://github.com/OP-TED/eForms-SDK/discussions/88 ):
+Das zweite Konzept beschreibt den Umgang mit bereits veröffentlichten Bekanntmachungen (auf TED und im Datenservice Öffentlicher Einkauf) und hier wird das Konzept der Change-Notices angewendet. (vgl. https://docs.ted.europa.eu/eforms/latest/schema/change-notice.html und https://github.com/OP-TED/eForms-SDK/discussions/88 ):
 <br><br>
 
 ### 1.1 Versionen und die Verwendung von Versionsnummern [Funktionalität ‚Update Notice‘]<span id='versions-update'>
 
 Das Konzept der Versionen bei Bekanntmachungen dient dazu, Änderungen an einer Bekanntmachung gegenüber TED anzuzeigen, die nach Absendung der ersten Bekanntmachung an TED bis zur Veröffentlichung einer höheren Version dieser Bekanntmachung (auf TED und im Datenservice Öffentlicher Einkauf) erfolgten.<br><br>
-Bekanntmachungen könnte also über Nachfolgeversionen zu einer Notice-ID geändert werden, NACHDEM sie von TED angenommen wurden (Status „Accepted“) aber noch nicht veröffentlicht sind (Status „Published“). Versionen dürfen zu einer Notice-ID nur so lange hochgezählt werden, bis die Bekanntmachung bei TED veröffentlicht worden ist.<br><br>
+Bekanntmachungen könnten also über Nachfolgeversionen zu einer Notice-ID geändert werden, NACHDEM sie von TED angenommen wurden (Status „Accepted“), aber noch nicht veröffentlicht sind (Status „Published“). Versionen dürfen zu einer Notice-ID nur so lange hochgezählt werden, bis die Bekanntmachung bei TED veröffentlicht worden ist.<br><br>
 Sobald der Status einer Bekanntmachung von TED den Status „published“ erreicht hat, darf keine neue Version mehr verschickt werden. Die nachfolgende grafische Darstellung veranschaulicht das oben Gesagte. 
 
 ![stop_chain1](/documentation/images/stop_chain1.png)
 *Abbildung 1: Kette von unveröffentlichten Versionen zu einer Bekanntmachung bei TED*
 <br><br>
 
-### 1.2	Neue Notice-ID für Changes [Funktionalität ‚Change Notice‘]<span id='versions-change'>
+### 1.2	Neue Notice-ID für Changes [Funktionalität ‚Change-Notice‘]<span id='versions-change'>
 
 Sobald eine Bekanntmachung auf TED veröffentlicht (also im Status „Published“) ist, kann eine Korrektur zu dieser Bekanntmachung nur als „Change“ erfolgen. Changes werden technisch als vollkommen neue Bekanntmachung verstanden und benötigen somit auch eine neue Notice-ID. Die Version wird auf 01 zurückgesetzt, damit das Prinzip der Versionierung auch für Änderungen an Changes (für den Veröffentlichungsprozess bei TED) wieder genutzt werden kann (s. Punkt 1).<br><br>
 Eine Bekanntmachung, die als Change veröffentlicht werden soll, muss im Change-Block (BT-758) auf die Bekanntmachung (inkl. Versionsnummer) verweisen, die bei TED veröffentlicht ist. Der Inhalt enthält die gesamte neu zu veröffentlichende Bekanntmachung inkl. neuer Notice-ID in BT-701.<br><br>
@@ -67,7 +67,7 @@ Die nachfolgende Darstellung der entsprechenden BTs im XML einer beliebigen Beka
 …
 </ContractNotice>
 ```
-*Abbildung 2: Darstellung der BTs, die als Identifikator von Vorgänger-Bekanntmachung im Change sowie als Identifikator der neuen Bekanntmachung diene*
+*Abbildung 2: Darstellung der BTs, die als Identifikator der Vorgänger-Bekanntmachung im Change sowie als Identifikator der neuen Bekanntmachung dienen*
 
 <br>
 Bis zur Veröffentlichung dieses Changes könnte dann eine Änderung der Bekanntmachung wiederum mit Hilfe von hochgezählten Versionen über die Funktionalität ‚Update Notice‘ erfolgen.
@@ -85,13 +85,13 @@ Die nachfolgende Grafik illustriert das oben Gesagte.
 *Abbildung 4: Ketten von veröffentlichten Changes zu einer Bekanntmachung, die aufeinander folgen*
 <br><br>
 
-## 2. Anpassen des Inhalts einer Bekanntmachung<span id='stop-oder-change'>
+## 2. Anpassen des Inhalts einer Bekanntmachung<span id='stop-or-change'>
 
-Es gibt zwei Möglichkeiten, den Inhalt einer Bekanntmachung zu ändern: Durch *Stop + Update* vor Veröffentlichung oder durch eine Änderungsmitteilung (*Change Notice*) nach der Veröffentlichung.
+Es gibt zwei Möglichkeiten, den Inhalt einer Bekanntmachung zu ändern: Durch *Stop + Update* vor Veröffentlichung oder durch eine Änderungsmitteilung (*Change-Notice*) nach der Veröffentlichung.
 <br><br>
 
 ### 2.1 Update zu einer Bekanntmachung<span id='update'>
-Eine Aktualisierung oder Neueinreichung (auch als Update bezeichnet) einer Bekanntmachung ist ein einfacher Bearbeitungsprozess, wenn die Bekanntmachung noch nicht in TED und/oder BKMS veröffentlicht ist. Wenn eine Bekanntmachung korrigiert werden muss, muss die vorherige Version zuerst gestoppt werden oder sich im Status "rejected" befinden. Andernfalls ist eine Aktualisierung nicht möglich, um sicherzustellen, dass zu jedem Zeitpunkt nur eine gültige Version eines Dokuments im Vermittlungsservice existiert. Um eine Aktualisierung zu erstellen, sollte die gleiche noticeID wie im vorhergehenden zu korrigierenden Dokument verwendet werden, nur die versionID muss erhöht werden (Lücken sind möglich). Eine Aktualisierung ist NICHT dasselbe wie eine Change Notice. Eine Aktualisierung enthält nicht die UBL-Extension einer Change Notice und kann nur eingereicht werden, bevor die Bekanntmachung veröffentlicht wurde.
+Eine Aktualisierung oder Neueinreichung (auch als Update bezeichnet) einer Bekanntmachung ist ein einfacher Bearbeitungsprozess, wenn die Bekanntmachung noch nicht in TED und/oder BKMS veröffentlicht ist. Wenn eine Bekanntmachung korrigiert werden muss, muss die vorherige Version zuerst gestoppt werden oder sich im Status "rejected" befinden. Andernfalls ist eine Aktualisierung nicht möglich, um sicherzustellen, dass zu jedem Zeitpunkt nur eine gültige Version eines Dokuments im Vermittlungsservice existiert. Um eine Aktualisierung zu erstellen, sollte die gleiche noticeID wie im vorhergehenden zu korrigierenden Dokument verwendet werden, nur die versionID muss erhöht werden (Lücken sind möglich). Eine Aktualisierung ist NICHT dasselbe wie eine Change-Notice. Eine Aktualisierung enthält nicht die UBL-Extension einer Change-Notice und kann nur eingereicht werden, bevor die Bekanntmachung veröffentlicht wurde.
 <br>
 
 #### **Beispiele**
@@ -99,41 +99,41 @@ Eine Aktualisierung oder Neueinreichung (auch als Update bezeichnet) einer Bekan
 Szenario A: Korrektur einer abgelehnten Bekanntmachung durch eine Aktualisierung (Update)
 
 1. Bekanntmachung A mit der noticeID ABC *Version 01* wird eingereicht und abgelehnt, z. B. weil sie falsch ausgefüllt wurde. Da sie abgelehnt wurde, wird sie nicht veröffentlicht.
-2. Der FVH möchte diese Bekanntmachung korrigieren
+2. Der FVH möchte diese Bekanntmachung korrigieren.
 3. Der FVH reicht eine Aktualisierung mit noticeID ABC *Version 02* ein.
 4. Die Aktualisierung wird akzeptiert, da die vorherige Version des Dokuments den Status REJECTED hat.
 
 Szenario B: Verwendung einer Aktualisierung (Update) zur Bearbeitung einer eingereichten Bekanntmachung
 
-1. Bekanntmachung A mit der noticeID ABC *Version 01* wird eingereicht und angenommen. Sie ist noch nicht veröffentlicht, z.B. weil das gewünschte Veröffentlichungsdatum in der Zukunft liegt.
-2. Der FVH möchte etwas in dieser Bekanntmachung bearbeiten, z.B. weil sich einige Informationen geändert haben und angepasst werden müssen.
-3. Der FVH stoppt die zuvor eingereichte Bekanntmachung noticeID ABC *version 01* mit Hilfe des Stop-Endpoints (Dies ist obligatorisch, bevor eine Aktualisierung gesendet wird. TED hat angekündigt, dass dies in Zukunft wahrscheinlich auch in TED so restriktiert wird)
-4. Der Vermittlungsdienst stoppt die Bekanntmachung in TED und BKMS (je nachdem, wohin sie bereits gesendet wurde)
+1. Bekanntmachung A mit der noticeID ABC *Version 01* wird eingereicht und angenommen. Sie ist noch nicht veröffentlicht, z. B. weil das gewünschte Veröffentlichungsdatum in der Zukunft liegt.
+2. Der FVH möchte etwas in dieser Bekanntmachung bearbeiten, z. B. weil sich einige Informationen geändert haben und angepasst werden müssen.
+3. Der FVH stoppt die zuvor eingereichte Bekanntmachung noticeID ABC *Version 01* mit Hilfe des Stop-Endpoints (Dies ist obligatorisch, bevor eine Aktualisierung gesendet wird. TED hat angekündigt, dass dies in Zukunft wahrscheinlich auch in TED so restriktiert wird).
+4. Der Vermittlungsdienst stoppt die Bekanntmachung in TED und BKMS (je nachdem, wohin sie bereits gesendet wurde).
 5. Der FVH reicht eine Aktualisierung mit noticeID ABC *Version 02* ein.
 6. Die Aktualisierung wird akzeptiert, da sich die Vorgängerversion der Bekanntmachung im Status STOPPED befindet.
 <br><br>
 
-### 2.2 Change Notice<span id='change-notice'>
-Eine Änderungsmitteilung (auch als Change Notice bezeichnet) ist eine Änderung, die eine bereits veröffentlichte Bekanntmachung verändert. Wenn eine Änderungsmitteilung eingereicht wird, hat diese Bekanntmachung ihre eigene noticeID und versionID. Eine Change Notice enthält immer eine UBL-Extension, in der angegeben werden muss, welche konkrete Bekanntmachung geändert werden soll. Dies wird in dem Feld BT-738 Change Notice Identifier angegeben. Hier muss die noticeID-versionID oder die Notice Publication Number (wenn die referenzierte Notice im alten TED-XML Format eingereicht wurde) in der xml angegeben werden.
+### 2.2 Change-Notice<span id='change-notice'>
+Eine Änderungsmitteilung (auch als Change-Notice bezeichnet) ist eine Änderung, die eine bereits veröffentlichte Bekanntmachung verändert. Wenn eine Änderungsmitteilung eingereicht wird, hat diese Bekanntmachung ihre eigene noticeID und versionID. Eine Change-Notice enthält immer eine UBL-Extension, in der angegeben werden muss, welche konkrete Bekanntmachung geändert werden soll. Dies wird in dem Feld BT-738 Changed-Notice-Identifier angegeben. Hier muss die noticeID-versionID oder die Notice-Publication-Number (wenn die referenzierte Notice im alten TED-XML-Format eingereicht wurde) in der XML angegeben werden.
 
 Beispiel für einen Referenzverweis mit noticeID-versionID:
 
 `<efbc:ChangedNoticeIdentifier>c4c415ee-ac08-4465-8fa6-57568cf69462-01</efbc:ChangedNoticeIdentifier>`
 
-Beispiel für einen Referenzverweis unter Verwendung der Notice Publication ID:
+Beispiel für einen Referenzverweis unter Verwendung der Notice-Publication-ID:
 
 `<efbc:ChangedNoticeIdentifier>01234567-2022</efbc:ChangedNoticeIdentifier>`
 
-Das Verfahren zur Einreichung einer Change Notice ist das gleiche wie bei jeder anderen Bekanntmachung. Auch der Prozess der Übermittlung an TED und BKMS ist für Änderungsmitteilungen identisch wie für jede andere Bekanntmachung.
+Das Verfahren zur Einreichung einer Change-Notice ist das gleiche wie bei jeder anderen Bekanntmachung. Auch der Prozess der Übermittlung an TED und BKMS ist für Änderungsmitteilungen identisch wie für jede andere Bekanntmachung.
 <br><br>
 
-## 3. STOP-Publikation Funktionalität<span id='stop-func'>
-Die Funktion "Stop Publication" wird verwendet, um die Veröffentlichung von Bekanntmachungen auf TED/BKMS (Oberschwellenvergabe) oder nur BKMS (Unterschwellenvergabe) zu stoppen. Das Stoppen einer Bekanntmachung ist nur möglich, wenn eine Bekanntmachung intern vollständig prozessiert, aber noch nicht veröffentlicht wurde. 
+## 3. STOP-Publikation-Funktionalität<span id='stop-func'>
+Die Funktion „Stop Publication“ wird verwendet, um die Veröffentlichung von Bekanntmachungen auf TED/BKMS (Oberschwellenvergabe) oder nur BKMS (Unterschwellenvergabe) zu stoppen. Das Stoppen einer Bekanntmachung ist nur möglich, wenn eine Bekanntmachung intern vollständig prozessiert, aber noch nicht veröffentlicht wurde. 
 
 Die Veröffentlichung einer Bekanntmachung kann aus folgenden Gründen gestoppt werden:
 1. Manuell durch einen externen Benutzer (FVH):
-Der Benutzer kann das Stoppen einer Bekanntmachung mithilfe des TrackingCodes über die API V1/notices/stop/{trackingCode} im Vermittlungsdienst anfordern. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen manuellen Stop-Vorgang handelte.
-2. Automatisch: Wenn TED eine eingereichte Bekanntmachung aufgrund von [Lawfullness Warnings](Status_information.md/#lawfullness) manuell ablehnt, wird diese Bkeanntmachung in TED nicht veröffentlicht. Falls diese Bekanntmachung bereits an den BKMS versendet wurde, wird diese nun automatisch auch im BKMS gestoppt. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen automatischen Stop-Vorgang handelte.
+Der Benutzer kann das Stoppen einer Bekanntmachung mithilfe des TrackingCodes über die API V1/notices/stop/{trackingCode} im Vermittlungsdienst anfordern. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen manuellen Stopp-Vorgang handelte.
+2. Automatisch: Wenn TED eine eingereichte Bekanntmachung aufgrund von [Lawfullness Warnings](Status_information.md/#lawfullness) manuell ablehnt, wird diese Bekanntmachung in TED nicht veröffentlicht. Falls diese Bekanntmachung bereits an den BKMS versendet wurde, wird diese nun automatisch auch im BKMS gestoppt. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen automatischen Stopp-Vorgang handelte.
 
 Es gibt einige Unterschiede in der Art und Weise, wie ober- und  unterschwellige Bekanntmachungen gestoppt werden können.
  <br> <br>
@@ -144,20 +144,20 @@ Die Veröffentlichung kann nur vor dem in der Bekanntmachung angegebenen bevorzu
 ![nat-flow-stop](images/nat-flow-stop.png)
  <br> <br>
 
-**Oberschwellige Vergabe: manuelle Stop** <br>
-Die Veröffentlichung kann nur manuell gestoppt werden, bevor die Bekanntmachung auf TED veröffentlicht wird. Ob die Bekanntmachung in BKMS bereits veröffentlicht wurde ist hierbei nicht relevant. Ein manueller Stop ist nur möglich wenn keine zur Veröffentlichung vorgesehenen Vorgängerversionen existieren (Siehe Beispiele oben).
+**Oberschwellige Vergabe: manueller Stopp** <br>
+Die Veröffentlichung kann nur manuell gestoppt werden, bevor die Bekanntmachung auf TED veröffentlicht wird. Ob die Bekanntmachung in BKMS bereits veröffentlicht wurde, ist hierbei nicht relevant. Ein manueller Stopp ist nur möglich, wenn keine zur Veröffentlichung vorgesehenen Vorgängerversionen existieren (siehe Beispiele oben).
 
 ![eu-manual-stop](images/eu-manual-stop.png)
  <br> <br>
 
-**Oberschwellige Vergabe: automatische Stop** <br>
-Bei manueller Ablehnung durch TED wird die Veröffentlichung automatisch im BKMSgestoppt, auch wenn sie im BKMS vorher schon veröffentlicht worden sein sollte. 
+**Oberschwellige Vergabe: automatischer Stopp** <br>
+Bei manueller Ablehnung durch TED wird die Veröffentlichung automatisch im BKMS gestoppt, auch wenn sie im BKMS vorher schon veröffentlicht worden sein sollte. 
 
 ![eu-auto-stop](images/eu-auto-stop.png)
 
  <br>
 
 **Stopp-Antworten** <br>
-Welche Rückmeldungen Sie beim Versenden von Stop-Anfragen erhalten können Sie der API entnehmen unter https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
+Welche Rückmeldungen Sie beim Versenden von Stopp-Anfragen erhalten können Sie der API entnehmen unter https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
 
 

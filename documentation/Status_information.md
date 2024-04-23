@@ -4,7 +4,7 @@
 
 # Status - und Transferinformationen
 
-Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst bzw. eSender-Hub abgefragt und gespeichert, so liegt jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
+Mit Hilfe der REST-API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst bzw. eSender-Hub abgefragt und gespeichert, so liegen jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
 <br>
 
 ## Inhalte
@@ -14,7 +14,7 @@ Mit Hilfe der REST API des Vermittlungsdienstes können alle Status- und Fehleri
     - [Statustabelle: Oberschwellenvergabe](#statustabelle-oberschwelle)
     - [Statustabelle: Unterschwellenvergabe](#statustabelle-unterschwelle)
 - [Struktur der Transferinformationen](#transfer-info)
-- [Lawfullness Warnings](#lawfullness)
+- [Lawfulness Warnings](#lawfulness)
 
 
 <br><br>
@@ -28,7 +28,7 @@ Die zugehörige OpenAPI-Spezifikation finden Sie unter https://ozg-vermittlungsd
 <br><br>
 
 ## Struktur der Statusinformationen<span id="info-struktur">
-Die Endpunkte zur Abfrage der Statusinformationen, geben die Statusinformationen für jede Bekanntmachung innerhalb des Delivery Schemas wie folgt zurück.
+Die Endpunkte zur Abfrage der Statusinformationen geben die Statusinformationen für jede Bekanntmachung innerhalb des Delivery-Schemas wie folgt zurück.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -107,20 +107,20 @@ Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Staus `tedStatus` 
 
 ### Statustabelle: Übermittlung einer Bekanntmachung<span id="statustabelle-uebermittlung">
 
-| DÖE-Status        | finaler Status?|Statusbeschreibung                                                                                       |
+| DÖE-Status        | Finaler Status?|Statusbeschreibung                                                                                       |
 | ----------------- | -|--------------------------------------------------------------------------------------------------------- |
 | AWAITING_TRANSFER | nein |Die Bekanntmachung wurde vom Mediator angenommen und akzeptiert. Die weitere Versendung wird vorbereitet. |
 
-Nachdem die Übermittlung einer Bekanntmachung erfolgriech abgeschlossen ist, wird der Status der Bekanntmachung auf AWAITING_TRANSFER gesetzt und der Vermittlungsdienst beginnt mit weiteren Schritten der Verarbeitung der Unter- oder Oberschwellenvergabe. In den folgenden Statustabellen werden die möglichen Status für die Verarbeitung der Unter- und Oberschwellenvergabe aufgelistet.
+Nachdem die Übermittlung einer Bekanntmachung erfolgreich abgeschlossen ist, wird der Status der Bekanntmachung auf AWAITING_TRANSFER gesetzt und der Vermittlungsdienst beginnt mit weiteren Schritten der Verarbeitung der Unter- oder Oberschwellenvergabe. In den folgenden Statustabellen werden die möglichen Status für die Verarbeitung der Unter- und Oberschwellenvergabe aufgelistet.
 <br><br>
 
 ### Statustabelle: Oberschwellenvergabe<span id="statustabelle-oberschwelle">
 
-Die folgenden Statuskombinationen, können bei der Statusabfrage eine Oberschwellenvergabe übermittelt werden.
+Die folgenden Statuskombinationen können bei der Statusabfrage einer Oberschwellenvergabe übermittelt werden.
 
 | TED-Status        | DÖE-Status     |finaler Status? |Statusbeschreibung                                                                                                  						  |  Auf Vergabeplattform publizieren? | 
 | ----------------- | -------------- | ---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | - | 
-| PENDING           | PENDING        |nein      |Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice stehen noch aus. | noch abwarten  | 
+| PENDING           | PENDING        |nein      |Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice steht noch aus. | noch abwarten  | 
 | NO_RESPONSE       | PENDING        | nein     |Die Übermittlung an TED wird erneut versucht. Die Übermittlung der Bekanntmachung an den Bekanntmachungsservice steht noch aus.                                          |  noch abwarten | 
 | ACCEPTED          | PENDING        | nein     |Die Bekanntmachung wurde von TED akzeptiert, die Übermittlung an den Bekanntmachungsservice steht noch aus.                                                              |  48h nach tedAcceptedTimestamp | 
 | ACCEPTED          | ACCEPTED       | nein     |Die Bekanntmachung wurde von TED und dem Bekanntmachungsservice akzeptiert, aber noch nicht veröffentlicht.                                                              |  48h nach tedAcceptedTimestamp  | 
@@ -149,12 +149,12 @@ Die folgenden Statuskombinationen, können bei der Statusabfrage eine Oberschwel
 
 ### Statustabelle: Unterschwellenvergabe<span id="statustabelle-unterschwelle">
 
-Die folgenden Statuskombinationen, können bei der Statusabfrage eine Unterschwellenvergabe übermittelt werden.
+Die folgenden Statuskombinationen können bei der Statusabfrage einer Unterschwellenvergabe übermittelt werden.
 
-| DÖE status | finaler Status?| Statusbeschreibung                                             |
+| DÖE-Status | Finaler Status?| Statusbeschreibung                                             |
 |------------| ----| --------------------------------------------------------------- |
 | ACCEPTED   | nein | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert. |
-| REJECTED   | ja   | Die Bekanntmachung wurde von BKMS abgelehnt.                    |
+| REJECTED   | ja   | Die Bekanntmachung wurde vom BKMS abgelehnt.                    |
 | PROCESSING | nein | Die Bekanntmachung wird vom BKMS verarbeitet.                   |
 | PUBLISHED  | ja   | Die Bekanntmachung wurde im BKMS veröffentlicht.                |
 | STOPPED    | ja   | Die Bekanntmachung wurde  im Bekanntmachungsservice gestoppt.   |
@@ -164,7 +164,7 @@ Die folgenden Statuskombinationen, können bei der Statusabfrage eine Unterschwe
 <br>
 
 ## Struktur der Transferinformationen<span id="transfer-info">
-Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery Schema enthalten. Diese Informationen beinhalten Warnungen und Fehlermeldungen vom Vermittlungsdienst, dem Bekanntmachungsservice und TED.
+Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery-Schema enthalten. Diese Informationen beinhalten Warnungen und Fehlermeldungen vom Vermittlungsdienst, dem Bekanntmachungsservice und TED.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <delivery>
@@ -193,24 +193,24 @@ Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery Sc
 </delivery>
 ```
 
-Innerhalb der Transferinformationen `transferResponse` werden Warnungen `warnings` von Fehlermeldungen `errors` getrennt aufgelistet. Pro Bekanntmachung ist es möglich mehrere Warnungen und Fehlermeldungen als Rückantwort zu erhalten. 
+Innerhalb der Transferinformationen `transferResponse` werden Warnungen `warnings` von Fehlermeldungen `errors` getrennt aufgelistet. Pro Bekanntmachung ist es möglich, mehrere Warnungen und Fehlermeldungen als Rückantwort zu erhalten. 
 
-Eine einzelne Warnung und eine einzelne Fehlermeldung haben den selben Aufbau. `source` gibt an in welchem System die Warnung oder der Fehler entstand. Folgende Werte sind in `source` möglich:
+Eine einzelne Warnung und eine einzelne Fehlermeldung haben den selben Aufbau. `source` gibt an, in welchem System die Warnung oder der Fehler entstand. Folgende Werte sind in `source` möglich:
 
-| source         | Beschreibung                                                                                                                                                                                                                 |
+| Werte in Source  | Beschreibung                   |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| TED            | Fehler und Warnungen die von TED kommen, dies beinhaltet sowohl die http-Codes (5\*\*, 4\*\*) welche bei einer erfolglosen Übermittlung zurückgegeben werden, als auch Fehler und Warnungen aus dem TED-Validierungs Report. |
-| BKMS           | Fehler, die von BKMS kommen, wenn BKMS einen http-Code zurückgibt, der eine erfolglose Übermittlung darstellt (5\*\*, 4\*\*).                                                                                                |
+| TED            | Fehler und Warnungen, die von TED kommen. Dies beinhaltet sowohl die http-Codes (5\*\*, 4\*\*), welche bei einer erfolglosen Übermittlung zurückgegeben werden, als auch Fehler und Warnungen aus dem TED-Validierungsreport. |
+| BKMS           | Fehler, die vom BKMS kommen, wenn BKMS einen http-Code zurückgibt, der eine erfolglose Übermittlung darstellt (5\*\*, 4\*\*).                                                                                                |
 | PRE_VALIDATION | Fehler und Warnungen aus dem internen Validierungsdienst.                                                                                                                                                                    |
 
-Die `description` enthält die Beschreibung der Warnung oder der Fehlermeldung. Im `path` wird die Position angegeben an der der Fehler oder die Warnung auftrat. Der Tag `rule` enthält die Bezeichnung der angewandten Regel und `ruleContent` die dazu tatsächlich angewandte Regel.
+Die `description` enthält die Beschreibung der Warnung oder der Fehlermeldung. Im `path` wird die Position angegeben, an der der Fehler oder die Warnung auftrat. Der Tag `rule` enthält die Bezeichnung der angewandten Regel und `ruleContent` die dazu tatsächlich angewandte Regel.
 
 Warnungen und Fehlermeldungen vom Bekanntmachungsservice und von TED werden unverändert durchgereicht.
 <br><br>
 
-## Lawfullness Warnings<span id="lawfullness">
-Zusätzlich zu Fehlern gibt es Warnungen. Diese kommen ausschießlich aus den EU Regeln und verhindern anders als Fehler nicht die Annahme der Bekanntmachung. TED hat derzeit nur eine Art von Warnungen definiert, sogenannte "Lawfullness Warnings". Diese werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. 
+## Lawfulness Warnings<span id="lawfulness">
+Zusätzlich zu Fehlern gibt es Warnungen. Diese kommen ausschießlich aus den EU-Regeln und verhindern anders als Fehler nicht die Annahme der Bekanntmachung. TED hat derzeit nur eine Art von Warnungen definiert, sogenannte "Lawfulness Warnings". Diese werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. 
 
-Eine Lawfullness Warning bedeutet, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. TED prüft dann den Inhalt der Bekanntmachung und entscheidet, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Für diese Entscheidung hat TED bis zu 5 Tage Zeit. Aus diesem Grund werden Bekanntmachungen mit einer Lawfullness Warning erst bei Veröffentlichung oder 5 Tage nach erfolgreicher Einlieferung bei TED an den BKMS weitergeleitet. 
+Eine Lawfulness Warning bedeutet, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. TED prüft dann den Inhalt der Bekanntmachung und entscheidet, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Für diese Entscheidung hat TED bis zu 5 Tage Zeit. Aus diesem Grund werden Bekanntmachungen mit einer Lawfulness Warning erst bei Veröffentlichung oder 5 Tage nach erfolgreicher Einlieferung bei TED an den BKMS weitergeleitet. 
 
 
