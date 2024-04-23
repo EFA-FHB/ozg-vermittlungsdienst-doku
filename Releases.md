@@ -42,7 +42,7 @@
 | Staging    | 22.04.2024                  | veröffentlicht |
 | Produktion | 22.04.2024                  | veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht in Produktion am 22.04.2024 <br>
 <details>
 <summary>Release Notes</summary>
 
