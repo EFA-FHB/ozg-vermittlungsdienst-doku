@@ -21,7 +21,7 @@
   - Hotfix release for Notice Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-mediator-and-validator)
 - October 2023
   - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
-  - Release for Self-Service Portal, registration form for a separate Vermittlungsdienst account](#Release-for-Self-Service-Portal,-registration-form-for-a-separate Vermittlungsdienst-account)
+  - Release for self-service portal, registration form for a separate Vermittlungsdienst account](#Release-for-self-service-portal,-registration-form-for-a-separate- Vermittlungsdienst-account)
 - September 2023
   - Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
   - Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
@@ -42,7 +42,7 @@
 | Staging | 22.04.2024 | published |
 | Production | 22.04.2024 | published |
 
-Status: In QA <br>
+Status: Published in production on 22.04.2024 <br>
 <details>
 <summary>Release notes</summary>
 
@@ -194,7 +194,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
