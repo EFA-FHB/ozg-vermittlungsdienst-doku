@@ -4,17 +4,17 @@
 
 # Status and transfer information
 
-All status and error information of an announcement can be queried using the REST API of the Vermittlungsdienst. The status and error information of the BKMS and TED are regularly queried and stored by the Vermittlungsdienst or eSender Hub, so the status and further information on an announcement is available for further retrieval at any time.
+All status and error information of an announcement can be queried using the REST API of the Vermittlungsdienst. The status and error information of the BKMS and TED is regularly queried and stored by the Vermittlungsdienst or eSender Hub, so that the status and further information on an announcement is available for further retrieval at any time.
 <br>
 
 ## Contents
-- Endpoints for querying the status and transfer information](#endpoints)
+- Endpoints for querying status and transfer information](#endpoints)
 - Structure of the status information](#info-struktur)
     - [Status table: Transmission of a notice](#statustabelle-uebermittlung)
     - [Status table: Upper threshold award](#statustabelle-oberschwellen)
     - [Status table: Sub-threshold award](#statustabelle-unterschwelle)
 - Structure of the transfer information](#transfer-info)
-- Lawfullness Warnings](#lawfullness)
+- Lawfulness Warnings](#lawfulness)
 
 
 <br><br>
@@ -99,7 +99,7 @@ The endpoints for querying the status information return the status information 
 </deliveries>
 ```
 
-The status information contains the status of the Public Purchasing data service `doeStatus`, the last change date of the DoE status `doeStatusUpdate` and a description of the currently set status `statusDescription` for both subthreshold and above-threshold notifications.
+The status information contains the status of the Public Procurement data service `doeStatus`, the last change date of the public procurement status `doeStatusUpdate` and a description of the currently set status `statusDescription` for both subthreshold and above-threshold notifications.
 
 For above-threshold announcements, the TED status `tedStatus` with the last change date `tedStatusUpdate` is also transmitted. The TED status values are based on the EU status values.
 <br><br>
@@ -107,20 +107,20 @@ For above-threshold announcements, the TED status `tedStatus` with the last chan
 
 ### Status table: Transmission of a notification<span id="statustabelle-uebermittlung">
 
-| DöE status | final status?| status description |
+| DÖE-Status | Final Status?|Status Description |
 | ----------------- | -|--------------------------------------------------------------------------------------------------------- |
 | AWAITING_TRANSFER | no | The notice has been accepted and approved by the mediator. The further dispatch is being prepared. |
 
-Once the transmission of a contract notice has been successfully completed, the status of the contract notice is set to AWAITING_TRANSFER and the Vermittlungsdienst begins with further steps in the processing of the sub- or overthreshold award. The following status tables list the possible statuses for processing subthreshold and superthreshold awards.
+Once the transmission of a contract notice has been successfully completed, the status of the contract notice is set to AWAITING_TRANSFER and the Vermittlungsdienst begins with further steps in the processing of the sub- or overthreshold award. The following status tables list the possible statuses for the processing of the subthreshold and superthreshold award.
 <br><br>
 
 ### Status table: Upper threshold award<span id="status-table-upper-threshold">
 
-The following status combinations can be transmitted when requesting the status of an above-threshold award.
+The following status combinations can be transmitted when querying the status of an upper-threshold award.
 
-| TED status | DöE status |final status? |Status description | Publish on award platform? |
+| TED status | DÖE status |final status? |Status description | Publish on award platform? |
 | ----------------- | -------------- | ---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | - |
-| PENDING | PENDING | no | The announcement has been accepted by the eSender for further processing. Transmission of the announcement to TED and the announcement service is still pending. | still waiting |
+| PENDING | PENDING | no | The announcement has been accepted by the eSender for further processing. The announcement has not yet been sent to TED and the announcement service. | still waiting |
 | NO_RESPONSE | PENDING | no | Transmission to TED will be attempted again. The transmission of the announcement to the announcement service is still pending.                                          | still waiting |
 | ACCEPTED | PENDING | no | The announcement has been accepted by TED, transmission to the announcement service is still pending.                                                              | 48h after tedAcceptedTimestamp |
 | ACCEPTED | ACCEPTED | no | The announcement has been accepted by TED and the announcement service, but has not yet been published.                                                              | 48h after tedAcceptedTimestamp |
@@ -149,13 +149,13 @@ The following status combinations can be transmitted when requesting the status 
 
 ### Status table: Sub-threshold award<span id="statustabelle-unterschwelle">
 
-The following status combinations can be transmitted when requesting the status of a subthreshold award.
+The following status combinations can be transmitted when querying the status of a subthreshold award.
 
-| DöE status | final status | status description |
-| ---------- | ----| --------------------------------------------------------------- |
+| DÖE status | Final status?| Status description |
+|------------| ----| --------------------------------------------------------------- |
 | ACCEPTED | no | The announcement has been accepted by the announcement service. |
-| REJECTED | yes | The announcement has been rejected by BKMS.                    |
-| PROCESSING | no | The announcement is being processed by BKMS.                   |
+| REJECTED | yes | The announcement has been rejected by the BKMS.                    |
+| PROCESSING | no | The announcement is being processed by the BKMS.                   |
 | PUBLISHED | yes | The announcement has been published in the BKMS.                |
 | STOPPED | yes | The announcement has been stopped in the announcement service.   |
 
@@ -195,22 +195,22 @@ The transfer information is also contained in the delivery schema for each annou
 
 Within the transfer information `transferResponse`, warnings `warnings` are listed separately from error messages `errors`. It is possible to receive several warnings and error messages as a response for each notification.
 
-A single warning and a single error message have the same structure. `source` indicates the system in which the warning or error occurred. The following values are possible in `source`:
+A single warning and a single error message have the same structure. `source` specifies the system in which the warning or error originated. The following values are possible in `source`:
 
-| source | description |
+| values in source | description |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| TED | Errors and warnings coming from TED, this includes both the http codes (5\*\*, 4\*\*) which are returned in the event of an unsuccessful transmission, as well as errors and warnings from the TED validation report. |
+| TED | Errors and warnings that come from TED. This includes both the http codes (5\*\*, 4\*\*), which are returned in the event of an unsuccessful transmission, as well as errors and warnings from the TED validation report. |
 | BKMS | Errors that come from BKMS when BKMS returns an http code that represents an unsuccessful transmission (5\*\*, 4\*\*).                                                                                                |
 | PRE_VALIDATION | Errors and warnings from the internal validation service.                                                                                                                                                                    |
 
-The `description` contains the description of the warning or error message. The `path` indicates the position at which the error or warning occurred. The `rule` tag contains the name of the rule applied and `ruleContent` contains the rule actually applied.
+The `description` contains the description of the warning or error message. The `path` indicates the position where the error or warning occurred. The `rule` tag contains the name of the rule applied and `ruleContent` contains the rule actually applied.
 
 Warnings and error messages from the announcement service and from TED are passed through unchanged.
 <br><br>
 
-## Lawfullness Warnings<span id="lawfullness">
-In addition to errors, there are also warnings. These come exclusively from the EU rules and, unlike errors, do not prevent the notice from being accepted. TED has currently only defined one type of warning, so-called "lawfullness warnings". These will most likely be almost irrelevant for German notices, but are technically possible.
+## Lawfulness Warnings<span id="lawfulness">
+In addition to errors, there are also warnings. These come exclusively from the EU rules and, unlike errors, do not prevent the notice from being accepted. TED has currently only defined one type of warning, so-called "lawfulness warnings". These will most likely be almost irrelevant for German notices, but are technically possible.
 
-A lawfulness warning means that a manual check of a notice at TED is necessary. TED then checks the content of the announcement and decides whether it will be published or rejected and not published. TED has up to 5 days to make this decision. For this reason, notices with a Lawfullness Warning are only forwarded to the BKMS upon publication or 5 days after successful submission to TED.
+A lawfulness warning means that a manual review of a notice at TED is necessary. TED then checks the content of the announcement and decides whether it will be published or rejected and not published. TED has up to 5 days to make this decision. For this reason, notices with a lawfulness warning are only forwarded to the BKMS upon publication or 5 days after successful submission to TED.
 
 
