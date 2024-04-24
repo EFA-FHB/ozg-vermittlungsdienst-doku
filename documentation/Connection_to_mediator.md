@@ -71,7 +71,7 @@ Es ist zukünftig möglich, Bekanntmachungen auch über das eDelivery-Network PE
 > Das Passwort des Benutzers ist gleichzeitig das Passwort, welches für die Einlieferung bei der Vermittlungsdienstschnittstelle genutzt wird! <br>
 > Sollten Sie das Passwort ändern, stellen Sie sicher, dass es auch in der Software zur Einlieferung in den Vermittlungsdienst geändert wird! 
 
-1. Self-Service Portal der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Spalte _Self Service Portal_ ).
+1. Self-Service-Portal der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Spalte _Self Service Portal_ ).
 
 2. Auf ‚Passwort vergessen?' klicken.<br>
 ![Auf Passwort vergessen](images/kc_login.png)

@@ -27,7 +27,7 @@ Bitte senden Sie uns nach Erstellung Ihres Accounts schnellstmöglich eine Liste
 <br><br>Nach Verifizierung Ihres SSP-Admin-Accounts können Sie mit diesem Account sogenannte Dashboard-Nutzer mit eigener E-Mail und Passwort erstellen. Sie können für jeden Dashboard-Nutzer explizit auswählen, von welchen einliefernden Systemen (VD-Accounts) dieser Nutzer die Bekanntmachungen einsehen können soll.
 
 > **TIP**
-> Nur Dashboard-Nutzer können die Bekanntmachungstabelle sehen, NICHT SSP-Admin-User oder VD-Accounts. Sie müssen sich also ggf. als SSP-Admin zusätzlich einen Dashboard-Nutzer mit einer separaten E-Mail Adresse einrichten, wenn Sie selbst die Bekanntmachungsübersicht sehen möchten.
+> Nur Dashboard-Nutzer können die Bekanntmachungstabelle sehen, NICHT SSP-Admin-User oder VD-Accounts. Sie müssen sich also ggf. als SSP-Admin zusätzlich einen Dashboard-Nutzer mit einer separaten E-Mail-Adresse einrichten, wenn Sie selbst die Bekanntmachungsübersicht sehen möchten.
 
 ### Rollen-Übersicht
 
