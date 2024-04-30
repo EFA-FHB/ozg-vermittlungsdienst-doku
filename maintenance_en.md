@@ -15,12 +15,12 @@ The CPV codes are interpreted as follows:
     - Construction work: Main CPV code from division 45
     - If you are affected by this (notification fails due to rule **BR-BT-00262-0211**), please contact our support support-oeffentlichevergabe@bdr.de immediately for specific assistance
 - For filling in the **BT-501 identification number (of the organization)**, please refer to the information on the routing ID in our FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
-- If your system no longer automatically updates the announcement status after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
+- If your system no longer updates the announcement status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
 
 
 ## Notes for specialist procedure manufacturers
 - The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support will take a closer look at the announcement and then, depending on the error message (e.g. 502 Gateway Timeout from TED or a content error as mentioned above, e.g. IssueDate incorrect), will either set it to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in the event of a doe_status INTERNAL_ERROR.
-- We are currently seeing an increasing number of rejections when submitting based on incorrect email syntax for the "authorEmail" specification. Please ensure that a valid email with the correct syntax is included in this field when submitting to the Vermittlungsdienst for each announcement. If the email is not correct, the following error message will appear: "NOTICE_METADATA_INVALID - Required data is missing or the data entered does not match the schema". We validate emails using the following regex expression provided by TED: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b <br>
+- We are currently seeing an increasing number of rejections when submitting based on incorrect email syntax for the "authorEmail" specification. Please make sure that a valid email with the correct syntax is included in this field when submitting to the Vermittlungsdienst for each announcement. If the email is not correct, the following error message will appear: "NOTICE_METADATA_INVALID - Required data is missing or the data entered does not match the schema". We validate emails using the following regex expression provided by TED: \b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+(?:_[A-Za-z0-9.-])*\.[A-Za-z]{2,5}\b <br>
 If you have domains that do not correspond to this, please open a support ticket with TED.
 
 ## Upcoming maintenance windows
@@ -38,9 +38,9 @@ If you have domains that do not correspond to this, please open a support ticket
 
 | system | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not accessible | __In progress__ |
+| All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not available | __Fixed__ |
-| Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 announcements with certain indicator values cannot be rendered | __Fixed__ |
+| Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 notices with certain indicator values cannot be rendered | __Fixed__ |
 | Validator in the Vermittlungsdienst | 02.04.2024 | 04/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __In analysis__ |
 | Integration with BKMS | 14.03.2024 | 14.03.2024 | Authentication problem with BKMS leads to disruptions during the delivery process | __Fixed__ |
 | Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Disruptions in the processing of individual announcements due to heavy load | __Fixed__ |
