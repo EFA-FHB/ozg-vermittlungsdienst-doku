@@ -38,8 +38,9 @@ If you have domains that do not correspond to this, please open a support ticket
 
 | system | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not accessible | __In progress__ |
-| Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 notices with certain indicator values cannot be rendered | __Fixed__ |
+| All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not accessible | __In progress__ |
+| All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not available | __Fixed__ |
+| Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 announcements with certain indicator values cannot be rendered | __Fixed__ |
 | Validator in the Vermittlungsdienst | 02.04.2024 | 04/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __In analysis__ |
 | Integration with BKMS | 14.03.2024 | 14.03.2024 | Authentication problem with BKMS leads to disruptions during the delivery process | __Fixed__ |
 | Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Disruptions in the processing of individual announcements due to heavy load | __Fixed__ |
