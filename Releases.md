@@ -3,6 +3,8 @@
 
 <br />
 
+- Mai 2024
+  - [Hotfix Release für SSP-Portal](#Hotfix-Release-for-SSP-Portal)
 - April 2024
   - [Hotfix Release für Notice-Viewer](#Hotfix-Release-for-Notice-Viewer)
   - [Hotfix Release für eSender and Notice-Viewer](#Hotfix-Release-for-eSender-and-Notice-Viewer)
@@ -33,6 +35,23 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Hotfix-Release-for-SSP-Portal></a>
+## Hotfix Release für SSP-Portal
+| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 30.04.2024                  | veröffentlicht |
+| Staging    | 02.05.2024                  | ausstehend |
+| Produktion | 02.05.2024                  | ausstehend |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### SSP-Portal
+- Weiterleitung zur Seite 'Ihre Sitzung ist abgelaufen' ist jetzt behoben.
+  
+</details>
 
 <a id=Hotfix-Release-for-Notice-Viewer></a>
 ## Hotfix Release für Notice-Viewer
