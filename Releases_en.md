@@ -3,6 +3,8 @@
 
 <br />
 
+- May 2024
+  - Hotfix release for SSP portal](#Hotfix-Release-for-SSP-Portal)
 - April 2024
   - Hotfix release for Notice-Viewer](#Hotfix-Release-for-Notice-Viewer)
   - Hotfix release for eSender and Notice-Viewer](#Hotfix-Release-for-eSender-and-Notice-Viewer)
@@ -34,8 +36,25 @@
 
 <br />
 
+<a id=Hotfix-Release-for-SSP-Portal></a>
+## Hotfix release for SSP portal
+| Environment Vermittlungsdienst | Period | Status |
+|------------|-----------------------------|----------------|
+| Preview | 30.04.2024 | published |
+| Staging | 02.05.2024 | pending |
+| Production | 02.05.2024 | pending |
+
+Status: In QA <br>
+<details>
+<summary>Release notes</summary>
+
+### SSP portal
+- Redirect to 'Your session has expired' page is now fixed.
+  
+</details>
+
 <a id=Hotfix-Release-for-Notice-Viewer></a>
-## Hotfix release for notice viewer
+## Hotfix release for Notice Viewer
 | Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 17.04.2024 | published |
@@ -194,7 +213,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
