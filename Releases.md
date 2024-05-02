@@ -41,15 +41,15 @@
 | Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 30.04.2024                  | veröffentlicht |
-| Staging    | 02.05.2024                  | ausstehend |
-| Produktion | 02.05.2024                  | ausstehend |
+| Staging    | 02.05.2024                  | veröffentlicht |
+| Produktion | 02.05.2024                  | veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht in Produktion am 02.05.2024 <br>
 <details>
 <summary>Release Notes</summary>
 
 ### SSP-Portal
-- Weiterleitung zur Seite 'Ihre Sitzung ist abgelaufen' ist jetzt behoben.
+- Fehlerhafte Weiterleitung zur Seite 'Ihre Sitzung ist abgelaufen' ist jetzt behoben.
   
 </details>
 
