@@ -4,35 +4,35 @@
 <br />
 
 - May 2024
-  - [Hotfix release for SSP portal](#Hotfix-Release-for-SSP-Portal)
+  - Hotfix release for SSP portal](#Hotfix-Release-for-SSP-Portal)
 - April 2024
-  - [Hotfix release for Notice-Viewer](#Hotfix-Release-for-Notice-Viewer)
-  - [Hotfix release for eSender and Notice-Viewer](#Hotfix-Release-for-eSender-and-Notice-Viewer)
+  - Hotfix release for Notice-Viewer](#Hotfix-Release-for-Notice-Viewer)
+  - Hotfix release for eSender and Notice-Viewer](#Hotfix-Release-for-eSender-and-Notice-Viewer)
 - March 2024
-  - [Hotfix release for eForms-DE-v1.2 patch](#Release-for-DE-1.2-patch)
+  - Hotfix release for eForms-DE-v1.2 patch](#Release-for-DE-1.2-patch)
 - February 2024
-  - [Release Standard eForms-DE v1.2.0 and SDK-DE](#Release-Standard-eForms-DE-v1.2.0-and-SDK-DE)
+  - Release Standard eForms-DE v1.2.0 and SDK-DE](#Release-Standard-eForms-DE-v1.2.0-and-SDK-DE)
 - January 2024
-  - [Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - December 2023
-  - [Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
-  - [Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
+  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - November 2023
-  - [Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
-  - [Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
-  - [Hotfix release for Notice Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-mediator-and-validator)
+  - Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
+  - Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
+  - Hotfix release for Notice Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-mediator-and-validator)
 - October 2023
-  - [Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
-  - [Release for self-service portal, registration form for a separate Vermittlungsdienst account](#Release-for-self-service-portal,-registration-form-for-a-separate-Vermittlungsdienst-account)
+  - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
+  - Release for self-service portal, registration form for a separate Vermittlungsdienst account](#Release-for-self-service-portal,-registration-form-for-a-separate- Vermittlungsdienst-account)
 - September 2023
-  - [Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
-  - [Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
+  - Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
+  - Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
 - August 2023
-  - [Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
+  - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
 - June 2023
-  - [Production Release June - Vermittlungsdienst & eSender-Hub](#Production-Release-June-Vermittlungsdienst-&-eSender-Hub)
+  - Production Release June - Vermittlungsdienst & eSender-Hub](#Production-Release-June-Vermittlungsdienst-&-eSender-Hub)
 - May 2023
-  - [Preview Release May - Vermittlungsdienst & Validator Webservice](#Preview-Release-May-Mediation-Service-&-Validator-Webservice)
+  - Preview Release May - Vermittlungsdienst & Validator Webservice](#Preview-Release-May-Mediation-Service-&-Validator-Webservice)
 
 <br />
 
@@ -41,20 +41,20 @@
 | Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 30.04.2024 | published |
-| Staging | 02.05.2024 | pending |
-| Production | 02.05.2024 | pending |
+| Staging | 02.05.2024 | published |
+| Production | 02.05.2024 | published |
 
-Status: In QA <br>
+Status: Published in production on 02.05.2024 <br>
 <details>
 <summary>Release notes</summary>
 
 ### SSP portal
-- Redirect to 'Your session has expired' page is now fixed.
+- Incorrect redirection to 'Your session has expired' page is now fixed.
   
 </details>
 
 <a id=Hotfix-Release-for-Notice-Viewer></a>
-## Hotfix release for Notice Viewer
+## Hotfix release for notice viewer
 | Environment Vermittlungsdienst | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 17.04.2024 | published |
@@ -213,7 +213,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
