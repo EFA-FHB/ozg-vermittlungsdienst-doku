@@ -118,7 +118,7 @@ Nachdem die Übermittlung einer Bekanntmachung erfolgreich abgeschlossen ist, wi
 
 Die folgenden Statuskombinationen können bei der Statusabfrage einer Oberschwellenvergabe übermittelt werden.
 
-| TED-Status        | DÖE-Status     |finaler Status? |Statusbeschreibung                                                                                                  						  |  Auf Vergabeplattform publizieren? | 
+| TED-Status        | DÖE-Status     |Finaler Status? |Statusbeschreibung                                                                                                  						  |  Auf Vergabeplattform publizieren? | 
 | ----------------- | -------------- | ---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | - | 
 | PENDING           | PENDING        |nein      |Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice steht noch aus. | noch abwarten  | 
 | NO_RESPONSE       | PENDING        | nein     |Die Übermittlung an TED wird erneut versucht. Die Übermittlung der Bekanntmachung an den Bekanntmachungsservice steht noch aus.                                          |  noch abwarten | 

@@ -88,7 +88,7 @@ Die neuen Regeln zum Ersetzen der EU-Regeln wurden bereits durch die KoSIT verö
 Schematron-Release für eForms-DE 1.0.1:
 https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3
 
-Schematron-Release für eForms-DE 1.1.0
+Schematron-Release für eForms-DE 1.1.0:
 https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1
 
 
