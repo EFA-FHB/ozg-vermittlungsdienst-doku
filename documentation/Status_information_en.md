@@ -109,7 +109,7 @@ For above-threshold announcements, the TED status `tedStatus` with the last chan
 
 | DÖE-Status | Final Status?|Status Description |
 | ----------------- | -|--------------------------------------------------------------------------------------------------------- |
-| AWAITING_TRANSFER | no | The notice has been accepted and approved by the mediator. The further dispatch is being prepared. |
+| AWAITING_TRANSFER | no | The notice has been accepted and approved by the mediator. Further dispatch is being prepared. |
 
 Once the transmission of a contract notice has been successfully completed, the status of the contract notice is set to AWAITING_TRANSFER and the Vermittlungsdienst begins with further steps in the processing of the sub- or overthreshold award. The following status tables list the possible statuses for the processing of the subthreshold and superthreshold award.
 <br><br>
@@ -118,7 +118,7 @@ Once the transmission of a contract notice has been successfully completed, the 
 
 The following status combinations can be transmitted when querying the status of an upper-threshold award.
 
-| TED status | DÖE status |final status? |Status description | Publish on award platform? |
+| TED status | DÖE status | Final status? | Status description | Publish on award platform? |
 | ----------------- | -------------- | ---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | - |
 | PENDING | PENDING | no | The announcement has been accepted by the eSender for further processing. The announcement has not yet been sent to TED and the announcement service. | still waiting |
 | NO_RESPONSE | PENDING | no | Transmission to TED will be attempted again. The transmission of the announcement to the announcement service is still pending.                                          | still waiting |

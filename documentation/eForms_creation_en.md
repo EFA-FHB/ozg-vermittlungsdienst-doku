@@ -88,7 +88,7 @@ The new rules to replace the EU rules have already been published by KoSIT:
 Schematron release for eForms-DE 1.0.1:
 https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.5.3
 
-Schematron release for eForms-DE 1.1.0
+Schematron release for eForms-DE 1.1.0:
 https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.6.1
 
 
