@@ -25,8 +25,9 @@ If you have domains that do not correspond to this, please open a support ticket
 
 ## Upcoming maintenance windows
 
-| environment | system | date | time | comment |
+| Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
+| Staging and Preview | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | Infrastructure Maintenance |
 | Staging | All services of the DÖE except BKMS | 18.04.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
 | Production | All services of the DÖE except BKMS | 27-28.04.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
 | Production | All services of the DÖE except BKMS | 27-28.07.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
