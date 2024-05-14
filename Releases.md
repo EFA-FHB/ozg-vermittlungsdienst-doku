@@ -38,7 +38,7 @@
 
 <a id=Hotfix-Release-for-SSP-Portal></a>
 ## Hotfix Release für SSP-Portal
-| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+| Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 30.04.2024                  | veröffentlicht |
 | Staging    | 02.05.2024                  | veröffentlicht |
@@ -55,7 +55,7 @@ Status: Veröffentlicht in Produktion am 02.05.2024 <br>
 
 <a id=Hotfix-Release-for-Notice-Viewer></a>
 ## Hotfix Release für Notice-Viewer
-| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+| Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 17.04.2024                  | veröffentlicht |
 | Staging    | 22.04.2024                  | veröffentlicht |
@@ -72,7 +72,7 @@ Status: Veröffentlicht in Produktion am 22.04.2024 <br>
 
 <a id=Hotfix-Release-for-eSender-and-Notice-Viewer></a>
 ## Hotfix Release für eSender and Notice-Viewer
-| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+| Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 08.04.2024                  | veröffentlicht |
 | Staging    | 09.04.2024                  | veröffentlicht |
@@ -93,7 +93,7 @@ Status: Veröffentlicht in Produktion am 10.04.2024 <br>
 
 <a id=Release-for-DE-1.2-patch></a>
 ## Hotfix Release für eForms-DE-v1.2 Patch (eForms-DE 1.2 Neue Regeln)
-| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+| Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 25.03.2024                  | veröffentlicht |
 | Staging    | 26.03.2024                  | veröffentlicht |
@@ -167,7 +167,7 @@ Schriftliches Feedback zu eForms-DE **v.1.2.0** kann bis zum 23.02.2024 eingerei
 
 <a id=Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator></a>
 ## Release für Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer und Validator
-| Umgebung Vermittlungsdienst  | Zeitraum  | Status         |
+| Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 15.01.2024        | veröffentlicht |
 | Staging    | 22.01.2024        | veröffentlicht |
