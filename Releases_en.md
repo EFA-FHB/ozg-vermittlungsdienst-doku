@@ -38,7 +38,7 @@
 
 <a id=Hotfix-Release-for-SSP-Portal></a>
 ## Hotfix release for SSP portal
-| Environment Vermittlungsdienst | Period | Status |
+| Environment | Timeframe | Status |
 |------------|-----------------------------|----------------|
 | Preview | 30.04.2024 | published |
 | Staging | 02.05.2024 | published |
@@ -55,9 +55,9 @@ Status: Published in production on 02.05.2024 <br>
 
 <a id=Hotfix-Release-for-Notice-Viewer></a>
 ## Hotfix release for notice viewer
-| Environment Vermittlungsdienst | Period | Status |
+| environment | period | status |
 |------------|-----------------------------|----------------|
-| Preview | 17.04.2024 | published |
+| Preview | 04/17/2024 | published |
 | Staging | 22.04.2024 | published |
 | Production | 22.04.2024 | published |
 
@@ -72,7 +72,7 @@ Status: Published in production on 22.04.2024 <br>
 
 <a id=Hotfix-Release-for-eSender-and-Notice-Viewer></a>
 ## Hotfix release for eSender and Notice-Viewer
-| Environment Vermittlungsdienst | Period | Status |
+| Environment | Timeframe | Status |
 |------------|-----------------------------|----------------|
 | Preview | 08.04.2024 | published |
 | Staging | 09.04.2024 | published |
@@ -93,7 +93,7 @@ Status: Published in production on 10.04.2024 <br>
 
 <a id=Release-for-DE-1.2-patch></a>
 ## Hotfix release for eForms-DE-v1.2 patch (eForms-DE 1.2 new rules)
-| Environment Vermittlungsdienst | Period | Status |
+| Environment | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 25.03.2024 | published |
 | Staging | 26.03.2024 | published |
@@ -166,8 +166,8 @@ Written feedback on eForms-DE **v.1.2.0** can be submitted until 23.02.2024 to: 
 </details>
 
 <a id=release-for-self-service-portal,-self-service-portal,-eSender,-notice-viewer-and-validator></a>
-## Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer and Validator
-| Environment Vermittlungsdienst | Period | Status |
+## Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator
+| Environment | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 15.01.2024 | published |
 | Staging | 22.01.2024 | published |
@@ -213,7 +213,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
