@@ -3,12 +3,12 @@
 ## Important notes on creating eForms
 To ensure a smooth submission, please always observe the following aspects:
 
-- The **BT-05 Notice Dispatch date** **(IssueDate)** field must be between yesterday and tomorrow at the time of sending to the Vermittlungsdienst, otherwise TED will reject the notice. This is currently NOT checked in the Vermittlungsdienst as it is a new dynamic rule from TED
-- The role **ted-esen** must NOT be used in announcements, neither as org-role nor as org-sub-role. This leads to problems in the transformation, as the procurement office is always automatically set as ted-esen
+- The **BT-05 Notice Dispatch date** **(IssueDate)** field must be between yesterday and tomorrow at the time of dispatch to the Vermittlungsdienst, otherwise TED will reject the notice.
+- The role **ted-esen** must NOT be used in notices, neither as org-role nor as org-sub-role.
 
 - The field **Preferred Publication Date BT-738 (RequestedPublicationDate)** can be set to the same date as the Notice Dispatch date or up to 2 days after the Notice Dispatch date according to the German standard. Please make sure to specify the same time zone for both values, as otherwise TED may reject the request in individual cases
 - The filling of the field **BT-165 Winner Size (Winner Size)** is currently not checked by the German rules. Please make sure that this field is filled correctly for the following notice types: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
-- Currently there is a bug in TED that based on restrictive rules on CPV codes **grant recipients** can only tender for works but <u>not for supplies and services</u>. TED is still working on fixing this.
+- Currently there is a bug in TED that based on restrictive rules on CPV codes **grant recipients** can only tender for works, but <u>not for supplies and services</u>. TED is still working on fixing this.
 The CPV codes are interpreted as follows:
     - Supply services: Main CPV code from divisions 0 to 44 or 48
     - Services: Main CPV code from divisions 49 to 98
@@ -25,7 +25,7 @@ If you have domains that do not correspond to this, please open a support ticket
 
 ## Upcoming maintenance windows
 
-| environment | system | date | time | comment |
+| Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
 | Production | TED Production | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
 | Staging and Preview | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
@@ -42,7 +42,7 @@ If you have domains that do not correspond to this, please open a support ticket
 |--------------|--------------------------|-----------------------------|---------------------|----|
 | All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not available | __Fixed__ |
-| Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 notices with certain indicator values cannot be rendered | __Fixed__ |
+| Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 announcements with certain indicator values cannot be rendered | __Fixed__ |
 | Validator in Vermittlungsdienst | 02.04.2024 | 05/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __In progress__ |
 | Integration with BKMS | 14.03.2024 | 14.03.2024 | Authentication problem with BKMS leads to disruptions during the delivery process | __Fixed__ |
 | Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Disruptions in the processing of individual announcements due to heavy load | __Fixed__ |
