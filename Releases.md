@@ -45,24 +45,36 @@
 | Staging    | 22.05.2024                  | Ausstehend |
 | Produktion | 28.05.2024                  | Ausstehend |
 
+> **WICHTIG** <br>
+Bitte beachten Sie, dass die API-Key Autorisierung im Vermittlungsdienst nicht mehr möglich ist
+
 Status: In QS <br>
 <details>
 <summary>Release Notes</summary>
 
 ### SSP-Portal
--
+- Es wurden neue interne Rollen eingeführt, um den Status von Lieferungen verfolgen und überprüfen sowie die Benutzerverwaltung durchführen zu können
+- Diverse Bugs wurden gefix
 
 ### Vermittlungsdienst
--
+- Changes-Notice Verhalten wurde verbessert
+- Die Annahme von Bekanntmachungen wurde auf 6mb eingestellt
+- Erwartetes Veröffentlichungsdatum des TEDs ('tedExpectedPublicationDate') wird jetzt zurückgegeben
 
 ### eSender-Hub
--
+- Fehlerbehandlung wurde verbessert wenn TED nicht erreichbar ist
+- Informationen in 'ted-esen' Organisation wurden upgedatet
 
 ### Notice-Viewer
--
+- Haftungsausschluss wurde überarbeitet bzw. erweitert und zusätzlich in Swagger-UI dargestellt
+- Die Generierung von Bekanntmachungen wurde auf 6mb eingestellt
+- Notice-Viewer 1.2 von TED wurde angewendet
+- Diverse Bugs wurden gefixt
 
 ### Validators
--
+- Validierungslogik wurde geändert um die Validierungsleistung zu verbessern
+- Validierung von Bekanntmachungen wurde auf 6mb eingestellt
+- SDK-EU patch wurde angewendet
   
 </details>
 
