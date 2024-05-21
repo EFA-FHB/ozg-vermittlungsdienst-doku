@@ -46,7 +46,7 @@
 | Produktion | 28.05.2024                  | Ausstehend |
 
 > **WICHTIG** <br>
-Bitte beachten Sie, dass die API-Key Autorisierung im Vermittlungsdienst nicht mehr möglich ist
+Bitte beachten Sie, dass die API-Key Autorisierung im Vermittlungsdienst nicht mehr möglich ist. Bitte benutzen Sie nur die Tokenbasierte Autorisierung.
 
 Status: In QS <br>
 <details>
