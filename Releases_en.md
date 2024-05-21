@@ -45,24 +45,36 @@
 | Staging | 22.05.2024 | Pending |
 | Production | 28.05.2024 | Pending |
 
+> **IMPORTANT** <br>
+Please note that API key authorization is no longer possible in the Vermittlungsdienst
+
 Status: In QA <br>
 <details>
 <summary>Release notes</summary>
 
 ### SSP portal
--
+- New internal roles have been introduced to track and check the status of deliveries and perform user management
+- Various bugs have been fixed
 
 ### Vermittlungsdienst
--
+- Changes-Notice behavior has been improved
+- The acceptance of notices has been set to 6mb
+- Expected publication date of the TED ('tedExpectedPublicationDate') is now returned
 
 ### eSender Hub
--
+- Error handling has been improved if TED is not reachable
+- Information in 'ted-esen' organization has been updated
 
 ### Notice-Viewer
--
+- Disclaimer has been revised or extended and additionally displayed in Swagger UI
+- The generation of notices has been set to 6mb
+- Notice-Viewer 1.2 from TED has been applied
+- Various bugs have been fixed
 
 ### Validators
--
+- Validation logic has been changed to improve validation performance
+- Validation of notices has been set to 6mb
+- SDK-EU patch has been applied
   
 </details>
 
@@ -243,7 +255,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
@@ -440,7 +452,7 @@ Status: Published on 4.10.2023 <br>
 <summary>Release notes</summary>
 
 ### Self-Service Portal
->**environments** <br>
+>**Environments** <br>
 >NEW: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
 >NEW: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEW: Production https://portal.ozg-vermittlungsdienst.de<br>
