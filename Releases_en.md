@@ -46,7 +46,7 @@
 | Production | 28.05.2024 | Pending |
 
 > **IMPORTANT** <br>
-Please note that API key authorization is no longer possible in the Vermittlungsdienst
+Please note that API key authorization is no longer possible in the Vermittlungsdienst. Please only use token-based authorization.
 
 Status: In QA <br>
 <details>
@@ -255,7 +255,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
@@ -452,7 +452,7 @@ Status: Published on 4.10.2023 <br>
 <summary>Release notes</summary>
 
 ### Self-Service Portal
->**Environments** <br>
+>**environments** <br>
 >NEW: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
 >NEW: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEW: Production https://portal.ozg-vermittlungsdienst.de<br>
