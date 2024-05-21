@@ -4,6 +4,7 @@
 <br />
 
 - Mai 2024
+  - [Release für SSP-Portal, Vermittlungsdienst, eSender-Hub, Notice-Viewer and all Validators](#Release-für-SSP-Portal,-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-and-Validators)
   - [Hotfix Release für SSP-Portal](#Hotfix-Release-for-SSP-Portal)
 - April 2024
   - [Hotfix Release für Notice-Viewer](#Hotfix-Release-for-Notice-Viewer)
@@ -35,6 +36,35 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-für-SSP-Portal,-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-and-Validators></a>
+## Release für SSP-Portal, Vermittlungsdienst, eSender-Hub, Notice-Viewer and all Validators
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 14.05.2024                  | veröffentlicht |
+| Staging    | 22.05.2024                  | Ausstehend |
+| Produktion | 28.05.2024                  | Ausstehend |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### SSP-Portal
+-
+
+### Vermittlungsdienst
+-
+
+### eSender-Hub
+-
+
+### Notice-Viewer
+-
+
+### Validators
+-
+  
+</details>
 
 <a id=Hotfix-Release-for-SSP-Portal></a>
 ## Hotfix Release für SSP-Portal
