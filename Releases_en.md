@@ -4,7 +4,7 @@
 <br />
 
 - May 2024
-  - Release for SSP-Portal, Vermittlungsdienst, eSender-Hub, Notice-Viewer and all Validators](#Release-for-SSP-Portal,- Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-and-Validators)
+  - Release for SSP portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators](#Release-for-SSP-portal,- Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-and-all-Validators)
   - Hotfix release for SSP portal](#Hotfix-Release-for-SSP-Portal)
 - April 2024
   - Hotfix release for Notice Viewer](#Hotfix-Release-for-Notice-Viewer)
@@ -37,8 +37,8 @@
 
 <br />
 
-<a id=release-for-ssp-portal,-mediation-service,-eSender-Hub,-notice-viewer-and-validators></a>
-## Release for SSP-Portal, Vermittlungsdienst, eSender-Hub, Notice-Viewer and all Validators
+<a id=release-for-SSP-portal,-mediation-service,-eSender-Hub,-notice-viewer-and-all-validators></a>
+## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 14.05.2024 | published |
@@ -454,7 +454,7 @@ Status: Published on 4.10.2023 <br>
 <summary>Release notes</summary>
 
 ### Self-Service Portal
->**environments** <br>
+>**Environments** <br>
 >NEW: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
 >NEW: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEW: Production https://portal.ozg-vermittlungsdienst.de<br>
