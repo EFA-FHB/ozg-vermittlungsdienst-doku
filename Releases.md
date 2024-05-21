@@ -54,7 +54,7 @@ Status: In QS <br>
 
 ### SSP-Portal
 - Es wurden neue interne Rollen eingeführt, um den Status von Lieferungen verfolgen und überprüfen sowie die Benutzerverwaltung durchführen zu können
-- Diverse Bugs wurden gefix
+- Diverse Bugs wurden gefixt
 
 ### Vermittlungsdienst
 - Changes-Notice Verhalten wurde verbessert
