@@ -74,7 +74,9 @@ Status: In QA <br>
 ### Validators
 - Validation logic has been changed to improve validation performance
 - Validation of notices has been set to 6mb
-- SDK-EU patch has been applied
+- The following SDK-EU patches have been applied:
+  - SDK 1.7.4
+  - SDK 1.10.2
   
 </details>
 
