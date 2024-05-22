@@ -53,7 +53,8 @@ Status: In QA <br>
 <summary>Release notes</summary>
 
 ### SSP portal
-- New internal roles have been introduced to track and check the status of deliveries and perform user management
+- New internal roles have been introduced to track and check the status of deliveries and to manage users
+- If an announcement is manually rejected (MANUALLY_REJECTED), both the SSP admins contact person and 'authorEmail' are automatically notified via email with a reason
 - Various bugs have been fixed
 
 ### Vermittlungsdienst
