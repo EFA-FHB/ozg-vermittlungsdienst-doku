@@ -42,7 +42,7 @@
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 14.05.2024                  | veröffentlicht |
-| Staging    | 22.05.2024                  | Ausstehend |
+| Staging    | 22.05.2024                  | veröffentlicht |
 | Produktion | 28.05.2024                  | Ausstehend |
 
 > **WICHTIG** <br>
