@@ -73,7 +73,7 @@ Status: In QA <br>
 
 ### Validators
 - Validation logic has been changed to improve validation performance
-- Validation of notices has been set to 6mb
+- Validation of notices has been set to 6mb (web version)
 - The following SDK-EU patches have been applied:
   - SDK 1.7.4
   - SDK 1.10.2
@@ -257,7 +257,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
