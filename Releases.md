@@ -73,7 +73,7 @@ Status: In QS <br>
 
 ### Validators
 - Validierungslogik wurde geändert um die Validierungsleistung zu verbessern
-- Validierung von Bekanntmachungen wurde auf 6mb eingestellt
+- Validierung von Bekanntmachungen wurde auf 6mb eingestellt (Web-Version)
 - Folgende SDK-EU patchs wurden angewendet:
   - SDK 1.7.4
   - SDK 1.10.2
