@@ -42,7 +42,7 @@
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 14.05.2024 | published |
-| Staging | 22.05.2024 | Pending |
+| Staging | 22.05.2024 | published |
 | Production | 28.05.2024 | Pending |
 
 > **IMPORTANT** <br>
@@ -258,7 +258,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
