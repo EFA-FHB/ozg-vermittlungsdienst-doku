@@ -29,8 +29,8 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 |-------------|----------------------------------|------------|-------------------|---------------------|
 | Produktion | TED Produktion | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastrukturwartung |
 | Staging und Preview | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastrukturwartung |
-| Staging | Alle Services des DÖE außer BKMS | 18.04.2024 | 09:00 - 12:00 CEST | Infrastrukturwartung |
-| Produktion | Alle Services des DÖE außer BKMS | 27.-28.04.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
+| Staging | Alle Services des DÖE außer BKMS | 22.05.2024 | 09:00 - 12:00 CEST | Infrastrukturwartung |
+| Produktion | Alle Services des DÖE außer BKMS | 29.05.2024 | 16:00 - 17:00 CEST | Infrastrukturwartung |
 | Produktion | Alle Services des DÖE außer BKMS | 27.-28.07.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
 | Produktion | Alle Services des DÖE außer BKMS | 26.-27.10.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
 
@@ -40,6 +40,7 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| Alle Services des DÖE außer BKMS | 22.05.2024 | 22.05.2024 | Preview Umgebung ist nicht erreichbar | __In Arbeit__ |
 | Alle Services des DÖE außer BKMS | 30.04.2024 | 30.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Alle Services des DÖE außer BKMS | 22.04.2024 | 22.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Viewer | 02.04.2024 | 04/2024 | Teilweise können eFormsDE 1.2 Bekanntmachungen mit bestimmten Indicator-Werten nicht gerendert werden | __Behoben__ |
@@ -58,6 +59,8 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion | Alle Services des DÖE außer BKMS | 27.-28.04.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
+| Staging | Alle Services des DÖE außer BKMS | 18.04.2024 | 09:00 - 12:00 CEST | Infrastrukturwartung |
 | Produktion               | Alle Services des DÖE außer BKMS | 21.03.2024 | 16:00-17:00 CEST | Wartungsarbeiten: Autorisierungstoken soll neu erstellt werden |
 | Produktion               | Alle Services des DÖE außer BKMS | 27.-28.01.2024 | 20:00 - 20:00 CEST | Infrastrukturwartung |
 | Staging                  | Alle Services des DÖE außer BKMS | 17.01.2024 | 19:00 - 20:00 CEST | Infrastrukturwartung | 
