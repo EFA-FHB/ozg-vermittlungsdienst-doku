@@ -55,6 +55,7 @@ Status: In QS <br>
 ### SSP-Portal
 - Es wurden neue interne Rollen eingeführt, um den Status von Lieferungen verfolgen und überprüfen sowie die Benutzerverwaltung durchführen zu können
 - Falls eine Bekanntmachung manuell abgelehnt (MANUALLY_REJECTED) wird, es werden automatisch sowohl der SSP-Admins Ansprechpartner als auch 'authorEmail' via Email mit einer Begründung benachrichtigt
+- Aktualisierung der Erklärung zur Barrierefreiheit 
 - Diverse Bugs wurden gefixt
 
 ### Vermittlungsdienst
