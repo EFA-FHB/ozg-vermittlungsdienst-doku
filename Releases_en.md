@@ -53,13 +53,14 @@ Status: In QA <br>
 <summary>Release notes</summary>
 
 ### SSP portal
-- New internal roles have been introduced to track and check the status of deliveries and to manage users
+- New internal roles have been introduced to track and check the status of deliveries and perform user management
 - If an announcement is manually rejected (MANUALLY_REJECTED), both the SSP admins contact person and 'authorEmail' are automatically notified via email with a reason
+- Update of the accessibility statement
 - Various bugs have been fixed
 
 ### Vermittlungsdienst
 - Changes-Notice behavior has been improved
-- The acceptance of notices has been set to 6mb
+- The acceptance of announcements has been set to 6mb
 - Expected publication date of the TED ('tedExpectedPublicationDate') is now returned
 
 ### eSender Hub
@@ -258,7 +259,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
