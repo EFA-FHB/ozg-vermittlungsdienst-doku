@@ -681,6 +681,22 @@ Details: https://op.europa.eu/en/publication-detail/-/publication/73a78487-cc8b-
 </summary>
 <br>
 
+### Optionen (BT-53 Options)
+<details>
+<summary>
+Warum ist BT-53 (Options) Bestandteil der Spezifikation eForms-DE, der BT aber kein Element in TED Darstellungen und dem EU-XML?
+</summary>
+<br>
+
+eForms-DE ist die Umsetzung der "Durchführungsverordnung (EU) 2022/2303 der Kommission vom 24. November 2022 zur Änderung der Durchführungsverordnung (EU) 2019/1780 zur Einführung von Standardformularen für die Veröffentlichung von Bekanntmachungen für öffentliche Aufträge". BT-53 (Options) ist in dieser Richtline fachlich explizit spezifiziert und ein Indikator der angibt, ob der Käufer sich das Recht zu "Nachbestellungen" beim gleichen Käufer vorbehält.
+Fachlich ausgedrückt, wäre ein möglicher Eintrag „Ja“ oder „Nein“.
+Der BT-53 ist für den Fall nicht erforderlich, dass BT-54 (Optionen — Beschreibung) gefüllt ist. Wenn also ein Text vorhanden ist, der die Optionen, welche sich der Käufer vorbehält, beschreibt. Da für diesen Fall BT-53 automatisch auf "Ja" gesetzt werden kann. Wenn BT-54 nicht vorhanden ist, dann ist BT-53 automatisch auf "Nein" gesetzt.
+Daraus folgt technisch, dass es keine explizite Umsetzung von BT-53 braucht, da dies aus BT-54 "automatisch" folgt.
+
+</details>
+</summary>
+<br>
+
 ### Zuschlagskriterien (BG-707, BG-38, BT-53 et al.)
 <details>
 <summary>
