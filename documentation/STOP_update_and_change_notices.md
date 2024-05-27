@@ -114,7 +114,7 @@ Szenario B: Verwendung einer Aktualisierung (Update) zur Bearbeitung einer einge
 <br><br>
 
 ### 2.2 Change-Notice<span id='change-notice'>
-Eine Änderungsmitteilung (auch als Change-Notice bezeichnet) ist eine Änderung, die eine bereits veröffentlichte Bekanntmachung verändert. Wenn eine Änderungsmitteilung eingereicht wird, hat diese Bekanntmachung ihre eigene noticeID und versionID. Eine Change-Notice enthält immer eine UBL-Extension, in der angegeben werden muss, welche konkrete Bekanntmachung geändert werden soll. Dies wird in dem Feld BT-738 Changed-Notice-Identifier angegeben. Hier muss die noticeID-versionID oder die Notice-Publication-Number (wenn die referenzierte Notice im alten TED-XML-Format eingereicht wurde) in der XML angegeben werden.
+Eine Änderungsmitteilung (auch als Change-Notice bezeichnet) ist eine Änderung, die eine bereits veröffentlichte Bekanntmachung verändert. Wenn eine Änderungsmitteilung eingereicht wird, hat diese Bekanntmachung ihre eigene noticeID und versionID. Eine Change-Notice enthält immer eine UBL-Extension, in der angegeben werden muss, welche konkrete Bekanntmachung geändert werden soll. Dies wird in dem Feld BT-758 Changed-Notice-Identifier angegeben. Hier muss die noticeID-versionID oder die Notice-Publication-Number (wenn die referenzierte Notice im alten TED-XML-Format eingereicht wurde) in der XML angegeben werden.
 
 Beispiel für einen Referenzverweis mit noticeID-versionID:
 
