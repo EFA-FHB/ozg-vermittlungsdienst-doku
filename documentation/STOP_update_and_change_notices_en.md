@@ -114,7 +114,7 @@ Scenario B: Using an update to process a submitted notice
 <br><br>
 
 ### 2.2 Change notice<span id='change-notice'>
-A change-notice is an amendment that changes an already published announcement. When a change notice is submitted, this notice has its own noticeID and versionID. A change notice always contains a UBL extension in which the specific notice to be changed must be specified. This is specified in the BT-738 Changed-Notice-Identifier field. The noticeID-versionID or the notice publication number (if the referenced notice was submitted in the old TED XML format) must be specified here in the XML.
+A change-notice is an amendment that changes an already published announcement. When a change notice is submitted, this notice has its own noticeID and versionID. A change notice always contains a UBL extension in which the specific notice to be changed must be specified. This is specified in the BT-758 Changed-Notice-Identifier field. The noticeID-versionID or the notice publication number (if the referenced notice was submitted in the old TED XML format) must be specified here in the XML.
 
 Example of a reference with noticeID-versionID:
 
@@ -158,6 +158,6 @@ In the event of manual rejection by TED, the publication is automatically stoppe
  <br>
 
 **Stop responses** <br>
-The responses you receive when sending stop requests can be found in the API at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
+You can find out which responses you receive when sending stop requests in the API at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
 
 
