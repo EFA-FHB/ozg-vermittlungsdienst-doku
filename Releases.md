@@ -43,12 +43,12 @@
 |------------|-----------------------------|----------------|
 | Preview    | 14.05.2024                  | veröffentlicht |
 | Staging    | 22.05.2024                  | veröffentlicht |
-| Produktion | 28.05.2024                  | Ausstehend |
+| Produktion | 28.05.2024                  | veröffentlicht |
 
 > **WICHTIG** <br>
 Bitte beachten Sie, dass die API-Key Autorisierung im Vermittlungsdienst nicht mehr möglich ist. Bitte benutzen Sie nur die Tokenbasierte Autorisierung und ggf. generieren Sie einen neuen Token.
 
-Status: In QS <br>
+Status: Veröffentlicht am 28.05.2024 <br>
 <details>
 <summary>Release Notes</summary>
 
