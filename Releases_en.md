@@ -43,17 +43,17 @@
 |------------|-----------------------------|----------------|
 | Preview | 14.05.2024 | published |
 | Staging | 22.05.2024 | published |
-| Production | 28.05.2024 | Pending |
+| Production | 28.05.2024 | published |
 
 > **IMPORTANT** <br>
-Please note that API key authorization is no longer possible in the Vermittlungsdienst. Please only use token-based authorization.
+Please note that API key authorization is no longer possible in the Vermittlungsdienst. Please only use token-based authorization and generate a new token if necessary.
 
-Status: In QA <br>
+Status: Published on 28.05.2024 <br>
 <details>
 <summary>Release notes</summary>
 
 ### SSP portal
-- New internal roles have been introduced to track and check the status of deliveries and perform user management
+- New internal roles have been introduced to track and check the status of deliveries and to manage users
 - If an announcement is manually rejected (MANUALLY_REJECTED), both the SSP admins contact person and 'authorEmail' are automatically notified via email with a reason
 - Update of the accessibility statement
 - Various bugs have been fixed
