@@ -73,8 +73,8 @@ Status: Veröffentlicht am 28.05.2024 <br>
 - Notice-Viewer 1.2 von TED wurde angewendet
 - Diverse Bugs wurden gefixt
 
-### Validators
-- Validierungslogik wurde geändert um die Validierungsleistung zu verbessern
+### Validatoren
+- Validierungslogik wurde geändert um die Validierungsleistung zu verbessern. Die Änderungen wirken sich auf die Validierungsantworten aus, so dass die Struktur der Fehlermeldungen und Beschreibungen nun ein anderes Format haben kann.
 - Validierung von Bekanntmachungen wurde auf 6mb eingestellt (Web-Version)
 - Folgende SDK-EU patchs wurden angewendet:
   - SDK 1.7.4
