@@ -8,12 +8,6 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 - Das Feld **Preferred Publication Date BT-738 (RequestedPublicationDate)** kann laut deutschem Standard auf den selben Zeitpunkt wie das Notice Dispatch date oder bis zu 2 Tage nach dem Notice Dispatch date gesetzt werden. Bitte achten Sie darauf, für beide Werte die selbe Zeitzone anzugeben, da es sonst in Einzelfällen zu Ablehnungen bei TED kommen kann
 - Die Befüllung des Feldes **BT-165 Winner Size (Winner Size)** wird derzeit nicht von den deutschen Regeln geprüft. Bitte stellen Sie selbstständig sicher, dass dieses Feld für die folgenden Notice Types korrekt befüllt wird: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
-- Derzeit besteht ein Bug bei TED, dass basierend auf einschränkenden Regeln zu CPV-Codes **Zuwendungsempfänger** nur Bauleistungen, aber <u>keine Liefer- und Dienstleistungen</u> ausschreiben können. TED arbeitet noch daran, dies zu beheben.
-Die CPV-Codes werden wie folgt interpretiert:
-    - Lieferleistungen: Haupt-CPV-Code aus den Abteilungen 0 bis 44 oder 48
-    - Dienstleistungen: Haupt-CPV-Code aus den Abteilungen 49 bis 98
-    - Bauarbeiten: Haupt-CPV-Code aus der Abteilung 45
-    - Sollten Sie hiervon betroffen sein (Bekanntmachung schlägt fehl wegen Regel **BR-BT-00262-0211**), melden Sie sich bitte umgehend bei unserem Support support-oeffentlichevergabe@bdr.de für spezifische Hilfestellungen
 - Für die Befüllung der **BT-501 Identifikationsnummer (der Organisation)** beachten Sie bitte die Hinweise u. A. zur Leitweg-ID in unserer FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
 - Sollte ihr System nach dem doe_status INTERNAL_ERROR (welcher NICHT final ist) den Bekanntmachungsstatus nicht mehr automatisch aktualisieren, können Sie den Status auch über die Notices Tabelle im Self-Service Portal (portal.ozg-vermittlungsdienst.de) mit den Login Daten ihres Systems beim Vermittlungsdienst prüfen. Bekanntmachungen werden nicht im INTERNAL_ERROR Status verbleiben. Bitte eröffnen sie hierzu keine Tickets bei der BDR, sondern wenden Sie sich an Ihren Fachverfahrenshersteller. Lediglich der doe_status REJECTED is final, in diesem Fall müssen sie die Bekanntmachung mit einer neuen Notice-ID oder Version einliefern. 
 
@@ -44,7 +38,7 @@ Falls sie Domains haben, die dem nicht entsprechen, eröffnen Sie gern ein Suppo
 | Alle Services des DÖE außer BKMS | 30.04.2024 | 30.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Alle Services des DÖE außer BKMS | 22.04.2024 | 22.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Viewer | 02.04.2024 | 04/2024 | Teilweise können eFormsDE 1.2 Bekanntmachungen mit bestimmten Indicator-Werten nicht gerendert werden | __Behoben__ |
-| Validator im Vermittlungsdienst | 02.04.2024 | 05/2024 | Bei sehr großen Bekanntmachungen mit sehr vielen Regeln kommt es vereinzelt zu timeouts bei der Einlieferung | __In Arbeit__ |
+| Validator im Vermittlungsdienst | 02.04.2024 | 05/2024 | Bei sehr großen Bekanntmachungen mit sehr vielen Regeln kommt es vereinzelt zu timeouts bei der Einlieferung | __Behoben__ |
 | Integration mit BKMS   | 14.03.2024 | 14.03.2024 | Authentifizierungsproblem beim BKMS führt zur Störungen während des Lieferungsprozesses | __Behoben__ |
 | Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Störungen bei der Verarbeitung einzelner Bekanntmachungen aufgrund von  starker Belastung | __Behoben__ |
 
