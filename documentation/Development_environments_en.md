@@ -48,12 +48,6 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
       </td>
     </tr>
     <tr>
-      <td style="text-align: left;">IP address(es)</td>
-      <td style="text-align: left;">4.245.108.202</td>
-      <td style="text-align: left;">185.158.224.47</td>
-      <td style="text-align: left;">185.158.224.47 + 185.158.224.58</td>
-    </tr>
-    <tr>
       <td style="text-align: left;">Self-service portal</td>
       <td style="text-align: left;">
         <a class="external-link" href="https://portal.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://portal.preview-ozg-vermittlungsdienst.de/</a>
