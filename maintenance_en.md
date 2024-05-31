@@ -19,13 +19,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Production | TED Production | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
-| Staging and Preview | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
-| Staging | All services of the DÖE except BKMS | 22.05.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
-| Production | All services of the DÖE except BKMS | 29.05.2024 | 16:00 - 17:00 CEST | Infrastructure maintenance |
-| Production | All services of the DÖE except BKMS | 27-28.07.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
-| Production | All services of the DÖE except BKMS | 26-27.10.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
-
+| _None known_ |
 
 
 ## Known bugs and malfunctions
@@ -34,7 +28,7 @@ To ensure a smooth submission, please always observe the following aspects:
 |--------------|--------------------------|-----------------------------|---------------------|----|
 | All services of the DÖE except BKMS | 22.05.2024 | 22.05.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not available | __Fixed__ |
-| All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not accessible | __Fixed__ |
+| All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not available | __Fixed__ |
 | Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 notices with certain indicator values cannot be rendered | __Fixed__ |
 | Validator in Vermittlungsdienst | 02.04.2024 | 05/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __Fixed__ |
 | Integration with BKMS | 14.03.2024 | 14.03.2024 | Authentication problem with BKMS leads to disruptions during the delivery process | __Fixed__ |
@@ -51,9 +45,14 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
-| Production | All services of the DÖE except BKMS | 27-28.04.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
+| Production | TED Production | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
+| Staging and Preview | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
+| Staging | All services of the DÖE except BKMS | 22.05.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
+| Production | All services of the DÖE except BKMS | 29.05.2024 | 16:00 - 17:00 CEST | Infrastructure maintenance |
+| Production | All services of the DÖE except BKMS | 27-28.07.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
+| Production | All services of the DÖE except BKMS | 26-27.10.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
 | Staging | All services of the DÖE except BKMS | 18.04.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
-| Production | All services of the DÖE except BKMS | 21.03.2024 | 16:00-17:00 CEST | Maintenance work: Authorization token to be recreated |
+| Production | All services of the DÖE except BKMS | 21.03.2024 | 16:00 - 17:00 CEST | Maintenance work: Authorization token to be recreated |
 | Production | All services of the DÖE except BKMS | 27-28.01.2024 | 20:00 - 20:00 CEST | Infrastructure maintenance |
 | Staging | All services of the DÖE except BKMS | 17.01.2024 | 19:00 - 20:00 CEST | Infrastructure maintenance |
 | Production and staging | All services of the DÖE except BKMS | 09.01.2024 | 20:00 - 22:00 CEST | Infrastructure maintenance |
