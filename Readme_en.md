@@ -13,10 +13,10 @@ make nationwide tenders easily accessible to companies. You can find out how to 
 This repository contains the following documents to support a connection to the Vermittlungsdienst:
 
 - [Documentation Vermittlungsdienst](/documentation/documentation.md)
-- FAQ](/faq.md)
-- Release Notes](/Releases.md)
-- Known maintenance windows](/maintenance.md)
-- Events](/events.md)
+- [FAQ](/faq.md)
+- [Release Notes](/Releases.md)
+- [Known maintenance windows](/maintenance.md)
+- [Events](/events.md)
 <br>
 
 ## The tasks of the Vermittlungsdienst
