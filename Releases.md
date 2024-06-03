@@ -37,7 +37,7 @@
 
 <br />
 
-<a id=Release-für-SSP-Portal,-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und--alle-Validatoren></a>
+<a id=Release-für-SSP-Portal,-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren></a>
 ## Release für SSP-Portal, Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
