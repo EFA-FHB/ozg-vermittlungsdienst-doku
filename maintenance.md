@@ -26,6 +26,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| Alle Validatoren | 28.05.2024 | 08/2024 | Validierungsprozess bricht ab wenn eine Bekanntmachung unter _<cac:AwardingCriterion>_ den Tag _<efac:AwardCriterionParameter>_ doppelt beinhaltet. Es wird ein __500 Internal Sever Error__ Fehler zurückgegeben | __In Arbeit__ |
 | Alle Services des DÖE außer BKMS | 22.05.2024 | 22.05.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Alle Services des DÖE außer BKMS | 30.04.2024 | 30.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Alle Services des DÖE außer BKMS | 22.04.2024 | 22.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
