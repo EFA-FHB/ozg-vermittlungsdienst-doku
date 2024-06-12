@@ -19,8 +19,8 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| _Keine Bekannt_ |
-
+| Produktion | Alle Services des DÖE außer BKMS | 27-28 Juli 2024 |  |Quartalswartungen |
+| Produktion | Alle Services des DÖE außer BKMS | 26-27 Oktober 2024 |  | Quartalswartungen (inkl. Zeitumstellung) |
 
 ## Bekannte Bugs und Störungen
 
