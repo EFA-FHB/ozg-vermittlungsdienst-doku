@@ -13,7 +13,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 
 ## Notes for specialist procedure manufacturers
-- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support will take a closer look at the announcement and then, depending on the error message (e.g. 502 Gateway Timeout from TED or a content error as mentioned above, e.g. IssueDate incorrect), will either set it to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in case of a doe_status INTERNAL_ERROR.
+- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 Gateway Timeout from TED or an error in content as mentioned above, e.g. IssueDate incorrect), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in case of a doe_status INTERNAL_ERROR.
 
 ## Upcoming maintenance windows
 
@@ -26,7 +26,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| All validators | 28.05.2024 | 08/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:AwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __In progress__ |
+| All validators | 28.05.2024 | 08/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __In progress__ |
 | All services of the DÖE except BKMS | 22.05.2024 | 22.05.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not available | __Fixed__ |
 | All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not accessible | __Fixed__ |
