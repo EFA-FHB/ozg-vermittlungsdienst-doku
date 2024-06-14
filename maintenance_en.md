@@ -26,6 +26,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| All services of the DÖE except BKMS (production + staging) | 14.06.2024 | 14.06.2024 | Currently the production and staging environment is not available due to problems in the data center. We expect a timely fix | __In progress__ |
 | All validators | 28.05.2024 | 08/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __In progress__ |
 | All services of the DÖE except BKMS | 22.05.2024 | 22.05.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not available | __Fixed__ |
