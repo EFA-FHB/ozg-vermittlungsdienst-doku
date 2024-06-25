@@ -33,7 +33,7 @@ Please note that you must apply for one access per development environment (prev
 <br>
 
 ### Authentication and authorization (access token, refresh token)
-The endpoint `POST /api/token` is used with the parameters `username` and `password` to be passed in order to obtain an `access_token` and `refresh_token`. The username is the e-mail address you have specified.
+The endpoint `POST /api/token` is used with the parameters `username` and `password` to be passed in order to obtain an `access_token` and `refresh_token`. The `username` is the e-mail address you have specified.
 
 The `access_token` is valid for 24 hours and can be used for authorization for all subsequent requests in the header as follows: `Authorization: Bearer <<access_token>>`. After 24 hours, a new authentication is required. To avoid regular authentication with `username` and `password`, a new `access_token` can be generated using the `refresh_token` and the endpoint `POST /api/token/refresh` without having to perform a new full authentication.
 
@@ -104,7 +104,7 @@ The password must consist of at least 8 characters, contain 1 capital letter and
 <br>
 
 ## Delete access
-To delete your access, please send an e-mail to Nortal AG support [oeffentliche-vergabe-support@nortal.com](mailto:oeffentliche-vergabe-support@nortal.com).<br>
+To delete your access, please send an e-mail to Bundesdruckerei support [support-oeffentlichevergabe@bdr.de ](mailto:support-oeffentlichevergabe@bdr.de ).<br>
 The e-mail must contain the following information
 
 - System environment in which the access data is to be deleted
