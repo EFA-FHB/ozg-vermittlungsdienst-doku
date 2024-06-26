@@ -47,6 +47,7 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Alle Umgebungen          | Vermittlungsdienst | 31.05.2024 | ab 14:00 CEST | Infrastrukturwartung: entfernung von statischen IP-Adressen |
 | Produktion               | TED Produktion | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastrukturwartung |
 | Staging und Preview      | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastrukturwartung |
 | Staging                  | Alle Services des DÖE außer BKMS | 22.05.2024 | 09:00 - 12:00 CEST | Infrastrukturwartung |
