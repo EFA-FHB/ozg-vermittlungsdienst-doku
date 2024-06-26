@@ -26,13 +26,13 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview environment is not available | __In progress__ |
+| Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS (production + staging) | 14.06.2024 | 14.06.2024 | Currently the production and staging environment is not available due to problems in the data center. We expect a timely resolution | __Fixed__ |
 | All validators | 28.05.2024 | 08/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __In progress__ |
 | All services of the DÖE except BKMS | 22.05.2024 | 22.05.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not available | __Fixed__ |
 | All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not accessible | __Fixed__ |
-| Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 announcements with certain indicator values cannot be rendered | __Fixed__ |
+| Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 notices with certain indicator values cannot be rendered | __Fixed__ |
 | Validator in Vermittlungsdienst | 02.04.2024 | 05/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __Fixed__ |
 | Integration with BKMS | 14.03.2024 | 14.03.2024 | Authentication problem with BKMS leads to disruptions during the delivery process | __Fixed__ |
 | Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Disruptions in the processing of individual announcements due to heavy load | __Fixed__ |
@@ -42,7 +42,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 The preview environment is only available between 06:00 and 20:00. Please also use the staging environment for testing purposes, which is available around the clock.
 
-On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted in staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
+On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted to staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
 
 ## Past maintenance windows or disruptions
 
