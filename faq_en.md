@@ -1,9 +1,9 @@
 ### Public procurement data service
 # Frequently asked questions
 
-- [Data service for public procurement](#datenservice-öffentlicher-einkauf)
-- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- [General](#general)
+- Data service for public procurement](#datenservice-öffentlicher-einkauf)
+- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- General](#general)
 
 ## Data service public purchasing
 
@@ -34,7 +34,7 @@ What information is required to apply for an account? (updated on 11.10.23)
 <br>
 
 
-Since 04.10, accounts should be requested in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de). All required information is requested in the registration form for a VD account. These are:
+Since 04.10, accounts should be applied for in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de). All required information is requested in the registration form for a VD account. These are:
 
 <br>
 
@@ -105,7 +105,7 @@ In all environments, the same validation and the same delay in publishing is per
 The URL of the awarding platform should be specified to request access. What is the purpose of this information?
 </summary>
 <br>
-The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Procurement platforms are the systems in which notices are published; the URL of the procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account for each system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DöE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
+The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Procurement platforms are the systems in which notices are published; the URL of the procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account for each system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
 </details>
 <br>
 
@@ -114,7 +114,7 @@ The purpose of specifying the URL is to be able to distinguish between the syste
 Which system environment is the environment to which our test systems can send notifications? What is the difference between the preview and staging environment?
 </summary>
 <br>
-The preview environment is only used for testing. Updates are often installed here and this is also our test environment for future releases. The staging environment is a 100% copy of the production environment and should only be used for production-related tests. Both environments deliver into the Alpha environment of BKMS and TED Preview. On staging, your tests should be performed exactly as you plan to do in production. In principle, however, both environments are suitable for testing.
+The preview environment is only used for testing. Updates are often installed here and this is also our test environment for future releases. The staging environment is a 100% copy of the production environment and should only be used for production-related tests. Both environments feed into the Alpha environment of BKMS and TED Preview. On staging, your tests should be performed exactly as you plan to do in production. In principle, however, both environments are suitable for testing.
 </details>
 <br>
 
@@ -311,7 +311,7 @@ Does the documentation for the Vermittlungsdienst (https://github.com/EFA-FHB/oz
 </summary>
 <br>
 
-The Github documentation will continue to be maintained and is the official documentation until further notice. It can also be read in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) of the DöE.
+The Github documentation will continue to be maintained and is the official documentation until further notice. It can also be read in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) of the DÖE.
 </details>
 <br>
 
@@ -381,7 +381,7 @@ We process the status, the time of submission and, if applicable, the time of pu
 How are rejected announcements in error states such as 'REJECTED' status of TED or an 'INTERNAL ERROR' status of BKMS further processed?
 </summary>
 <br>
-There will be an internal monitoring to react to error states (status InternalError) or bugs. Currently, Nortal is the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de if you have problems with your submissions and your notifications run into an error status. Generally, such error statuses indicate bugs in the DöE, in TED or in the announcement sent. Whenever errors occur in the system (e.g. rejection by TED), they are logged so that a support ticket can be created and a technical analysis carried out if necessary. An individual decision is then made as to which measures are appropriate to rectify the error. In the event of technical errors, the notification can either be resent as a new version after rectification or processed again manually internally. However, this depends on the individual case. If TED rejects the notice, it is possible that an error exists in the notice, e.g. the notice-id is already in use. In this case, the error message returned by TED on rejection is saved so that it can react accordingly.
+There will be an internal monitoring to react to error states (status InternalError) or bugs. Currently, Nortal is the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de if you have problems with your submissions and your notifications run into an error status. Generally, such error statuses indicate bugs in the DOE, in TED or in the announcement sent. Whenever errors occur in the system (e.g. rejection by TED), they are logged so that a support ticket can be created and a technical analysis carried out if necessary. An individual decision is then made as to which measures are appropriate to rectify the error. In the event of technical errors, the notification can either be resent as a new version after rectification or processed again manually internally. However, this depends on the individual case. If TED rejects the notice, it is possible that an error exists in the notice, e.g. the notice-id is already in use. In this case, the error message returned by TED on rejection is saved so that it can react accordingly.
 
 If your system no longer automatically updates the notice status after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) using your system's login data for the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
 </details>
@@ -392,9 +392,9 @@ If your system no longer automatically updates the notice status after the doe_s
 Is it possible for an above-threshold announcement to change to NOT_PUBLISHED after the deadline if it has already been published in the BKMS? Because then we would have TED:NOT_PUBLISHED / DSE:PUBLISHED, a status that I could not find in the flowchart.
 </summary>
 <br>
-The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is performed by TED, so the status NOT_PUBLISHED based on a manual rejection cannot occur.
+The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is carried out by TED, so the status NOT_PUBLISHED cannot occur based on a manual rejection.
 
-In the case of lawfulness warnings, an announcement is only forwarded to the BKMS 5 days after SUBMITTED in TED in order to await the manual check. However, if a situation arises in which an announcement has already been published in BKMS and then changes to NOT_PUBLISHED in TED, our system automatically stops this announcement in BKMS so that the status changes to DöE:Stopped. In this way, we ensure that no announcements rejected by TED remain published in the BKMS. However, this scenario is very unlikely.
+In the case of lawfulness warnings, an announcement is only forwarded to the BKMS 5 days after SUBMITTED in TED in order to await the manual check. However, if a situation arises in which an announcement has already been published in BKMS and then changes to NOT_PUBLISHED in TED, our system automatically stops this announcement in BKMS so that the status changes to DÖE:Stopped. In this way, we ensure that no announcements rejected by TED remain published in the BKMS. However, this scenario is very unlikely.
 </details>
 <br>
 
@@ -404,7 +404,6 @@ In the case of lawfulness warnings, an announcement is only forwarded to the BKM
 <details>
 <summary>
 How can platform operators obtain the information of the EU CVS report on a notice?
-</summary>
 <br>
 All errors and warnings from the CVS report are passed in the status information. Here we pass the ID, the path, the content and the text of each rule that has been struck. It is not intended to return the CVS report as a file.
 </details>
@@ -448,7 +447,7 @@ The v1/notices endpoint returns status information on all notices that have been
 
 <details>
 <summary>
-Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Are there plans for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
+Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Is it planned for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
 </summary>
 <br>
 Thank you for this suggestion; we will look into implementing it.
@@ -611,6 +610,22 @@ There will be a support structure to respond to error states (InternalError stat
   For publishing entities that are not classified as public authorities, publication without German is fine. As of 31.01.2024, the rule CR-DE-26 for BT-300 is temporarily deactivated for validation in the Vermittlungsdienst, but the error is still returned in the online validator (validator.ozg-vermittlungsdienst.de).
 </details>
 
+<details>
+  <summary>
+    Are there any pre-forms that are not taken into account in eForms-DE?
+  </summary>
+  <br>
+    The following forms are not included in the eForms-DE standard:
+  
+| Form | Type | Description | Reason for non-implementation in eForms-DE |
+|-------------|----------------------------------|------------|---------------------|
+| 1 | Planning | Announcement of the publication of prior information in a buyer profile - general guideline | Information is contained in the buyer profile |
+| 2 | Planning | Publication of a periodic indicative notice in a buyer profile - __sectoral directive__ | Information is included in the buyer profile |
+| 3 | Planning | Notice of publication of a prior information notice on a buyer profile - Defense Procurement Directive | Information is included in the buyer profile |
+| T01 | Planning | Prior information notice on public passenger transport services | This is based on Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, data collection for T1 is carried out directly at TED in the "eNotices" application. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
+| T02 | Result | Notice on contracts awarded for public passenger transport services | The basis is Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, data collection for T2 is carried out directly at TED in the "eNotices" application. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
+</details>
+
 ## Questions about the SDK-DE
 
 <details>
@@ -678,6 +693,22 @@ Why is it mandatory to specify the time limit for fields that are not to be publ
 
 The specification follows the EU Implementation Handbook on this point. It is a target formulation that does not require a business rule.
 Details: https://op.europa.eu/en/publication-detail/-/publication/73a78487-cc8b-11ea-adf7-01aa75ed71a1
+</details>
+</summary>
+<br>
+
+### Options (BT-53 Options)
+<details>
+<summary>
+Why is BT-53 (Options) part of the eForms-DE specification, but BT is not an element in TED representations and the EU XML?
+</summary>
+<br>
+
+eForms-DE is the implementation of the "Commission Implementing Regulation (EU) 2022/2303 of November 24, 2022 amending Implementing Regulation (EU) 2019/1780 establishing standard forms for the publication of notices for public contracts". BT-53 (Options) is explicitly specified in this directive and is an indicator that indicates whether the buyer reserves the right to "reorder" from the same buyer.
+In technical terms, a possible entry would be "Yes" or "No".
+BT-53 is not required if BT-54 (Options - Description) is filled. In other words, if there is a text that describes the options that the buyer reserves. In this case, BT-53 can automatically be set to "Yes". If BT-54 is not present, then BT-53 is automatically set to "No".
+This technically means that there is no need to explicitly implement BT-53, as this follows "automatically" from BT-54.
+
 </details>
 </summary>
 <br>
@@ -797,7 +828,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be specified. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
@@ -830,7 +861,7 @@ BT-3202-Contract - Order Bid ID, as this field is used to determine the underlyi
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
-Setting up these references in this way according to the pattern described also fulfills another purpose: only if all references exist correctly can the requirements of BT-165 (Company size) must be filled in and BT-706 (Nationality of the beneficial owner of the winner) must be filled in, of the eForms-DE standard be fulfilled.
+Setting up these references in this way according to the pattern described also fulfills another purpose: Only if all references exist correctly can the requirements of BT-165 (Company size) must be filled in and BT-706 (Nationality of the beneficial owner of the winner) must be filled in, of the eForms-DE standard be fulfilled.
 
  </details>
 
@@ -1024,7 +1055,7 @@ New features and details (added on 27.09.23)
 ### BT-1501(n) Linking of old SIMAP/non-eForms notices
 <details>
 <summary>
-What ID do I need to use to link to old notices prior to the eForms commitment?</summary>
+What ID do I need to use to link to old notices prior to the eForms commitment?
 <br>
 Please use the Notice Publication ID or document number, which is uniquely assigned by TED for each notice. This can be seen both in the search results of the notices on the TED website in the column 'Document number' and in the direct link from TED to the notice as well as in the detail page of the notice in the heading. It consists of a series of numbers, a hyphen and the year of publication of the announcement. e.g. 1234576-2022. The number of numbers before the hyphen may vary.
   </details>
@@ -1032,8 +1063,7 @@ Please use the Notice Publication ID or document number, which is uniquely assig
 ### BT-1501(s)-Contract
 <details>
 <summary>
-What value do I need to use for BT-1501(s)-Contract?
-</summary>
+What value do I need to use for BT-1501(s)-Contract?</summary>
 <br>
 Please create a contract and then link its ID in this field. This can have the value CON-0001, for example.
 </details>
