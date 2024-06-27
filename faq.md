@@ -610,6 +610,22 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
   Für Veröffentlichende Entitäten die nicht als Behörde klassifiziert werden ist die Veröffentlichung auch ohne deutsche Sprache in Ordnung. Ab dem 31.01.2024 ist die Regel CR-DE-26 zum BT-300 temporär für die Validierung im Vermittlungsdienst deaktiviert, im Online Validator (validator.ozg-vermittlungsdienst.de) wird der Fehler jedoch weiterhin zurückgegeben. 
 </details>
 
+<details>
+  <summary>
+    Gibt es Vormulare , die in eForms-DE nicht berücksichtigt werden?
+  </summary>
+  <br>
+    Folgende Formulare sind nicht im eForms-DE Standard vorgesehen:
+  
+| Formular    | Typ                           | Beschreibung  | Grund für die Nichtumsetzung in eForms-DE |
+|-------------|----------------------------------|------------|---------------------|
+| 1 | Plannung | Bekanntmachung der Veröffentlichung einer Vorinformation in einem Beschafferprofil – allgemeine Richtlinie  | Informationen sind im Beschafferprofil enthalten |
+| 2 | Plannung | Bekanntmachung der Veröffentlichung einer regelmäßigen nicht verbindlichen Bekanntmachung in einem Beschafferprofil – __Sektorenrichtlinie__ | Informationen sind im Beschafferprofil enthalten |
+| 3 | Plannung | Bekanntmachung der Veröffentlichung einer Vorinformation in einem Beschafferprofil – Richtlinie für Beschaffung im Bereich Verteidigung | Informationen sind im Beschafferprofil enthalten |
+| T01 | Plannung | Vorinformation zu öffentlichen Personenverkehrsdiensten | Grundlage ist die Verordnung (EG) Nr. 1370/2007 diese gilt weiterhin mit Aktualisierungen. Aktuell erfolgt die Datenerfassung für T1 in der Anwendung „eNotices“ direkt bei TED. Die eForms-Verordnung ((EU) 2019/1780) die zentrale Grundlage für die seit 25.10.2023 gültige VgV. Die Verordnung (EG) Nr. 1370/2007 ist nicht Bestandteil der eForms-Verordnung. |
+| T02 | Result | Bekanntmachung über vergebene Aufträge für öffentliche Personenverkehrsdienste | Grundlage ist die Verordnung (EG) Nr. 1370/2007 diese gilt weiterhin mit Aktualisierungen. Aktuell erfolgt die Datenerfassung für T2 in der Anwendung „eNotices“ direkt bei TED. Die eForms-Verordnung ((EU) 2019/1780) die zentrale Grundlage für die seit 25.10.2023 gültige VgV. Die Verordnung (EG) Nr. 1370/2007 ist nicht Bestandteil der eForms-Verordnung. |
+</details>
+
 ## Fragen zum SDK-DE
 
 <details>
