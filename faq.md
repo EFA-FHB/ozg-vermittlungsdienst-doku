@@ -615,7 +615,7 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
     Gibt es Vormulare , die in eForms-DE nicht berücksichtigt werden?
   </summary>
   <br>
-    Folgende Formulare sind nicht im eForms-DE Standard vorgesehen:
+    Folgende Formulare sind im eForms-DE Standard nicht vorgesehen:
   
 | Formular    | Typ                           | Beschreibung  | Grund für die Nichtumsetzung in eForms-DE |
 |-------------|----------------------------------|------------|---------------------|
