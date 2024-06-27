@@ -114,7 +114,7 @@ The purpose of specifying the URL is to be able to distinguish between the syste
 Which system environment is the environment to which our test systems can send notifications? What is the difference between the preview and staging environment?
 </summary>
 <br>
-The preview environment is only used for testing. Updates are often installed here and this is also our test environment for future releases. The staging environment is a 100% copy of the production environment and should only be used for production-related tests. Both environments feed into the Alpha environment of BKMS and TED Preview. On staging, your tests should be performed exactly as you plan to do in production. In principle, however, both environments are suitable for testing.
+The preview environment is only used for testing. Updates are often installed here and this is also our test environment for future releases. The staging environment is a 100% copy of the production environment and should only be used for production-related tests. Both environments deliver into the Alpha environment of BKMS and TED Preview. On staging, your tests should be performed exactly as you plan to do in production. In principle, however, both environments are suitable for testing.
 </details>
 <br>
 
@@ -828,7 +828,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be specified. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
