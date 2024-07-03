@@ -3,6 +3,8 @@
 
 <br />
 
+- Juli 2024
+  - [Hotfix Release für den Core-Validator](#Hotfix-Release-for-Core-Validator)
 - Mai 2024
   - [Release für SSP-Portal, Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren](#Release-für-SSP-Portal,-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren)
   - [Hotfix Release für SSP-Portal](#Hotfix-Release-for-SSP-Portal)
@@ -36,6 +38,22 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Hotfix-Release-for-Core-Validator></a>
+## Hotfix Release für den Core-Validator
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Kein Deploy ist vorgesehen    | 3.07.2024                  | In Arbeit |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Core-Validator
+- Schematron-0.8.4 Patch von eForms-DE-1.2.0 wurde implementiert
+- eForms SDK 1.10.3 Patch wurde implementiert
+  
+</details>
 
 <a id=Release-für-SSP-Portal,-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren></a>
 ## Release für SSP-Portal, Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren
