@@ -6,7 +6,7 @@
 - July 2024
   - Hotfix release for the core validator](#Hotfix-Release-for-Core-Validator)
 - May 2024
-  - [Release for SSP portal, Vermittlungsdienst, eSender hub, notice viewer and all validators](#Release-for-SSP-portal,- Vermittlungsdienst,-eSender-hub,-notice-viewer-and-all-validators)
+  - [Release for SSP portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators](#Release-for-SSP-portal,- Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-and-all-validators)
   - Hotfix release for SSP portal](#Hotfix-Release-for-SSP-Portal)
 - April 2024
   - Hotfix release for Notice Viewer](#Hotfix-Release-for-Notice-Viewer)
@@ -43,7 +43,7 @@
 ## Hotfix release for the core validator
 | environment | period | status |
 |------------|-----------------------------|----------------|
-| No deploy is planned | 3.07.2024 | Published |
+| No deploy is planned | 1.07.2024 - 4.05.2024 | Published |
 
 Status: Published on 4.07.2024 <br>
 <details>
@@ -56,7 +56,7 @@ Status: Published on 4.07.2024 <br>
 </details>
 
 <a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
-## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
+## Release for SSP portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 14.05.2024 | published |
@@ -525,7 +525,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering notices that have already been submitted using the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
