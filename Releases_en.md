@@ -43,14 +43,14 @@
 ## Hotfix release for the core validator
 | environment | period | status |
 |------------|-----------------------------|----------------|
-| No deploy is planned | 3.07.2024 | In progress |
+| No deploy is planned | 3.07.2024 | Published |
 
-Status: In QA <br>
+Status: Published on 4.07.2024 <br>
 <details>
-<summary>Release notes</summary>
+<summary>Release Notes</summary>
 
 ### Core Validator
-- Schematron-0.8.4 patch from eForms-DE-1.2.0 has been implemented
+- Schematron-0.8.4 patch of eForms-DE-1.2.0 has been implemented
 - eForms SDK 1.10.3 patch has been implemented
   
 </details>
