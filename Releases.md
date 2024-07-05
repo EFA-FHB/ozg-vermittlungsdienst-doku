@@ -43,9 +43,9 @@
 ## Hotfix Release für den Core-Validator
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Kein Deploy ist vorgesehen    | 3.07.2024                  | In Arbeit |
+| Kein Deploy ist vorgesehen | 3.07.2024 | Veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht am 4.07.2024 <br>
 <details>
 <summary>Release Notes</summary>
 
