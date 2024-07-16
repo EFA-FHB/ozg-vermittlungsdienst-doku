@@ -52,7 +52,7 @@ Status: In QS <br>
 <details>
 <summary>Release Notes</summary>
 
-### Intrenal und External Validatoren
+### Internal und External Validatoren
 - Schematron-0.8.4 Patch von eForms-DE-1.2.0 wurde implementiert
 - eForms SDK 1.10.3 Patch wurde implementiert
   
