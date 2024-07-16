@@ -52,8 +52,8 @@ Status: In QA <br>
 <details>
 <summary>Release notes</summary>
 
-### Intrenal and external validators
-- Schematron-0.8.4 patch of eForms-DE-1.2.0 has been implemented
+### Internal and external validators
+- Schematron-0.8.4 patch from eForms-DE-1.2.0 has been implemented
 - eForms SDK 1.10.3 patch has been implemented
   
 </details>
@@ -74,7 +74,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -272,7 +272,7 @@ Status: Published on 31.01.2024<br>
   - Improved display of error messages;
   - Display of the sender of the notice;
   - Display and filtering of change notices in the notice table;
-  - Display of the VD user assigned to a dashboard user;
+  - Display of the assigned VD user to a dashboard user;
   - Copying IDs in the notice table is now possible;
   - Registered user type is now displayed;
   - Users not confirmed by e-mail are now marked accordingly;
@@ -296,7 +296,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
@@ -365,7 +365,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented if BKMS does not respond
+- Retry delivery is now implemented when BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
@@ -544,7 +544,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering notices that have already been submitted using the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
