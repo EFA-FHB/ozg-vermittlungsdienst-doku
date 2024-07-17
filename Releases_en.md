@@ -62,7 +62,7 @@ Status: Published on 17.07.2024 <br>
 ## Hotfix release for the core validator
 | environment | period | status |
 |------------|-----------------------------|----------------|
-| No deploy is planned | 4.05.2024 | Published |
+| No deploy is planned | 4.06.2024 | Published |
 
 Status: Published on 4.07.2024 <br>
 <details>
@@ -296,7 +296,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
