@@ -62,7 +62,7 @@ Status: Published on 17.07.2024 <br>
 ## Hotfix release for the core validator
 | environment | period | status |
 |------------|-----------------------------|----------------|
-| No deploy is planned | 4.06.2024 | Published |
+| No deploy is planned | 4.07.2024 | Published |
 
 Status: Published on 4.07.2024 <br>
 <details>
@@ -74,7 +74,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -365,7 +365,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented if BKMS does not respond
+- Retry delivery is now implemented when BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
