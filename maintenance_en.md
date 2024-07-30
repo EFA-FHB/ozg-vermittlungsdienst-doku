@@ -26,6 +26,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| Announcement service | 30.07.2024 | 30.07.2024 | Integration error between Vermittlungsdienst and eSender due to deployment of the new version of the announcement service | __Fixed__ |
 | Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS (production + staging) | 14.06.2024 | 14.06.2024 | Currently the production and staging environment is not available due to problems in the data center. We expect a timely resolution | __Fixed__ |
 | All validators | 28.05.2024 | 08/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __In progress__ |
@@ -48,7 +49,7 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
-| All environments | Vermittlungsdienst | 31.05.2024 | as of 14:00 CEST | Infrastructure maintenance: removal of static IP addresses |
+| All environments | Vermittlungsdienst | 31.05.2024 | from 14:00 CEST | Infrastructure maintenance: removal of static IP addresses |
 | Production | TED Production | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
 | Staging and Preview | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
 | Staging | All services of the DÖE except BKMS | 22.05.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
