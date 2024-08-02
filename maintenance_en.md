@@ -26,6 +26,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| All services of the DÖE except BKMS (staging) | 01.08.2024 | 02.08.2024 | Technical malfunction due to certificate renewal | __Fixed__ |
 | Announcement service | 30.07.2024 | 30.07.2024 | Integration error between Vermittlungsdienst and eSender due to deployment of the new version of the announcement service | __Fixed__ |
 | Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS (production + staging) | 14.06.2024 | 14.06.2024 | Currently the production and staging environment is not available due to problems in the data center. We expect a timely resolution | __Fixed__ |
