@@ -26,6 +26,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| Alle Services des DÖE außer BKMS (Staging) | 01.08.2024 | 02.08.2024 | Technische Störung wegen Zertifikatserneuerung | __Behoben__ |
 | Bekanntmachungsservice | 30.07.2024 | 30.07.2024 | Integrationsstörung zwischen Vermittlungsdienst und eSender aufgrund des Deployments der neuen Version des Bekanntmachungsservices | __Behoben__ |
 | Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Alle Services des DÖE außer BKMS (Produktion + Staging) | 14.06.2024 | 14.06.2024 | Derzeit ist die Produktions- und Stagingumgebung nicht erreichbar aufgrung von Problemen im Rechenzentrum. Wir erwarten eine zeitnahe Behebung | __Behoben__ |
