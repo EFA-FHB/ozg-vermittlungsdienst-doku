@@ -19,7 +19,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Production | All services of the DÖE except BKMS | July 27-28, 2024 | | Quarterly maintenance |
+| Production | TED Apps for eForms | August 20, 2024 | 07:00-09:00 | Announced by TED |
 | Production | All services of the DÖE except BKMS | October 26-27, 2024 | | Quarterly maintenance (incl. time changeover) |
 
 ## Known bugs and malfunctions
@@ -50,7 +50,8 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
-| All environments | Vermittlungsdienst | 31.05.2024 | from 14:00 CEST | Infrastructure maintenance: removal of static IP addresses |
+| Production | All services of the DÖE except BKMS | July 27-28, 2024 | | Quarterly maintenance |
+| All environments | Vermittlungsdienst | May 31, 2024 | from 14:00 CEST | Infrastructure maintenance: removal of static IP addresses |
 | Production | TED Production | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
 | Staging and Preview | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
 | Staging | All services of the DÖE except BKMS | 22.05.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
