@@ -19,7 +19,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion | TED Apps for eForms | 20. August 2024 | 07:00-09:00 |Angekündigt von TED  |
+| Produktion | TED Apps for eForms | 03. September 2024 | 07:00-09:00 |Angekündigt von TED  |
 | Produktion | Alle Services des DÖE außer BKMS | 26-27 Oktober 2024 |  | Quartalswartungen (inkl. Zeitumstellung) |
 
 ## Bekannte Bugs und Störungen
@@ -50,6 +50,7 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion | TED Apps for eForms | 20. August 2024 | 07:00-09:00 CET |Angekündigt von TED  |
 | Produktion | Alle Services des DÖE außer BKMS | 27-28 Juli 2024 |  |Quartalswartungen |
 | Alle Umgebungen          | Vermittlungsdienst | 31.05.2024 | ab 14:00 CEST | Infrastrukturwartung: entfernung von statischen IP-Adressen |
 | Produktion               | TED Produktion | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastrukturwartung |
