@@ -19,6 +19,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
+| Production | TED Apps for eForms | September 05, 2024 | 07:00-10:30 | Announced by TED |
 | Production | TED Apps for eForms | September 03, 2024 | 07:00-09:00 | Announced by TED |
 | Production | All services of the DÖE except BKMS | October 26-27, 2024 | | Quarterly maintenance (incl. time changeover) |
 
