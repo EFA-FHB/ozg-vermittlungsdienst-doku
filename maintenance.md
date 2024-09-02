@@ -19,8 +19,8 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion | TED Apps for eForms | 05. September 2024 | 07:00-10:30 |Angekündigt von TED  |
 | Produktion | TED Apps for eForms | 03. September 2024 | 07:00-09:00 |Angekündigt von TED  |
+| Produktion | TED Apps for eForms | 05. September 2024 | 07:00-10:30 |Angekündigt von TED  |
 | Produktion | Alle Services des DÖE außer BKMS | 26-27 Oktober 2024 |  | Quartalswartungen (inkl. Zeitumstellung) |
 
 ## Bekannte Bugs und Störungen
