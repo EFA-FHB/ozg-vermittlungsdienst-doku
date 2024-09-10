@@ -1,9 +1,9 @@
-- Important notes on the creation of eForms](#Important-notes-on-the-creation-of-eForms)
-- Notes for specialist procedure manufacturers](#sNotes-for-specialist-procedure-manufacturers)
-- Upcoming maintenance windows](#Upcoming-maintenance-window)
-- Known bugs and errors](#Known-bugs-and-errors)
-- Notes](#Notes)
-- Past maintenance windows or faults](#Past-maintenance-windows-or-faults)
+- Important notes for creating eForms](#important-notes-for-creating-eForms)
+- Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
+- Upcoming maintenance windows](#upcoming-maintenance-window)
+- Known bugs and errors](#known-bugs-and-errors)
+- Notes](#notes)
+- Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
 
 ## Important notes on the creation of eForms
 To ensure smooth submission, please always observe the following aspects:
@@ -40,7 +40,7 @@ To ensure smooth submission, please always observe the following aspects:
 | All validators | 28.05.2024 | 08/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __In progress__ |
 | All services of the DÖE except BKMS | 22.05.2024 | 22.05.2024 | Preview environment is not accessible | __Fixed__ |
 | All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not available | __Fixed__ |
-| All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not available | __Fixed__ |
+| All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not accessible | __Fixed__ |
 | Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 notices with certain indicator values cannot be rendered | __Fixed__ |
 | Validator in Vermittlungsdienst | 02.04.2024 | 05/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __Fixed__ |
 | Integration with BKMS | 14.03.2024 | 14.03.2024 | Authentication problem with BKMS leads to disruptions during the delivery process | __Fixed__ |
