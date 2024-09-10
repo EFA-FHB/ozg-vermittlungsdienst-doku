@@ -27,6 +27,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| TED Apps for eForms | 06.08.2024 | 09.09.2024 | Technical error when assigning publicationIds from TED: Incorrect publicationIds were initially assigned, which were subsequently replaced by the correct ones. __A corresponding update in the DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
 | All services of the DÖE except BKMS (staging) | 01.08.2024 | 02.08.2024 | Technical malfunction due to certificate renewal | __Fixed__ |
 | Announcement service | 30.07.2024 | 30.07.2024 | Integration error between Vermittlungsdienst and eSender due to deployment of the new version of the announcement service | __Fixed__ |
 | Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview environment is not accessible | __Fixed__ |
