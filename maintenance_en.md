@@ -27,7 +27,7 @@ To ensure a smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| TED Apps for eForms | 06.08.2024 | 09.09.2024 | Technical error when assigning publicationIds from TED: Incorrect publicationIds were initially assigned, which were subsequently replaced by the correct ones. __A corresponding update in the DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
+| TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technical error when assigning publicationIds from TED: Incorrect publicationIds were initially assigned, which were subsequently replaced by the correct ones. __A corresponding update in the DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
 | All services of the DÖE except BKMS (staging) | 01.08.2024 | 02.08.2024 | Technical malfunction due to certificate renewal | __Fixed__ |
 | Announcement service | 30.07.2024 | 30.07.2024 | Integration error between Vermittlungsdienst and eSender due to deployment of the new version of the announcement service | __Fixed__ |
 | Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview environment is not accessible | __Fixed__ |
@@ -54,7 +54,7 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 |--------------------------|---------------------|------------|-------------------|---------------------|
 | Production | TED Apps for eForms | August 20, 2024 | 07:00-09:00 CET | Announced by TED |
 | Production | All services of the DÖE except BKMS | July 27-28, 2024 | | Quarterly maintenance |
-| All environments | Vermittlungsdienst | 31 May 2024 | from 14:00 CEST | Infrastructure maintenance: removal of static IP addresses |
+| All environments | Vermittlungsdienst | 31.05.2024 | from 14:00 CEST | Infrastructure maintenance: removal of static IP addresses |
 | Production | TED Production | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
 | Staging and Preview | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
 | Staging | All services of the DÖE except BKMS | 22.05.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
