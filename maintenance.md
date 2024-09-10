@@ -1,4 +1,9 @@
-### Datenservice Öffentlicher Einkauf
+- [Wichtige Hinweise zur Erstellung von eForms](#Wichtige-Hinweise-zur-Erstellung-von-eForms)
+- [Hinweise für Fachverfahrenshersteller](#sHinweise-für-Fachverfahrenshersteller)
+- [Anstehende Wartungsfenster](#Anstehende-Wartungsfenster)
+- [Bekannte Bugs und Störungen](#Bekannte-Bugs-und-Störungen)
+- [Hinweise](#Hinweise)
+- [Vergangene Wartungsfenster oder Störungen](#Vergangene-Wartungsfenster-oder-Störungen)
 
 ## Wichtige Hinweise zur Erstellung von eForms 
 Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer die folgenden Aspekte: 
