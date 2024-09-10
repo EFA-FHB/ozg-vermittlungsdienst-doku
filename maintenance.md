@@ -27,6 +27,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| TED Apps for eForms | 06.08.2024 | 09.09.2024 | Technische Störung bei der Zuweisung von publicationIds von TED: Es wurden zunächst falsche publicationIds zugewiesen, die anschließend durch die korrekten ersetzt wurden. __Ein entsprechendes Update im DÖE ist derzeit aus technischen Gründen leider nicht möglich.__| __Behoben seitens TED__ |
 | Alle Services des DÖE außer BKMS (Staging) | 01.08.2024 | 02.08.2024 | Technische Störung wegen Zertifikatserneuerung | __Behoben__ |
 | Bekanntmachungsservice | 30.07.2024 | 30.07.2024 | Integrationsstörung zwischen Vermittlungsdienst und eSender aufgrund des Deployments der neuen Version des Bekanntmachungsservices | __Behoben__ |
 | Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
