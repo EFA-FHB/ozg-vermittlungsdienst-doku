@@ -33,21 +33,11 @@ To ensure smooth submission, please always observe the following aspects:
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
 | TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technical error when assigning publicationIds from TED: Incorrect publicationIds were initially assigned, which were subsequently replaced by the correct ones. __A corresponding update in the DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
-| All services of the DÖE except BKMS (staging) | 01.08.2024 | 02.08.2024 | Technical malfunction due to certificate renewal | __Fixed__ |
-| Announcement service | 30.07.2024 | 30.07.2024 | Integration error between Vermittlungsdienst and eSender due to deployment of the new version of the announcement service | __Fixed__ |
-| Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview environment is not accessible | __Fixed__ |
-| All services of the DÖE except BKMS (production + staging) | 14.06.2024 | 14.06.2024 | Currently the production and staging environment is not available due to problems in the data center. We expect a timely resolution | __Fixed__ |
 | All validators | 28.05.2024 | 10/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __In progress__ |
-| All services of the DÖE except BKMS | 22.05.2024 | 22.05.2024 | Preview environment is not accessible | __Fixed__ |
-| All services of the DÖE except BKMS | 30.04.2024 | 30.04.2024 | Preview environment is not available | __Fixed__ |
-| All services of the DÖE except BKMS | 22.04.2024 | 22.04.2024 | Preview environment is not accessible | __Fixed__ |
-| Viewer | 02.04.2024 | 04/2024 | Some eFormsDE 1.2 notices with certain indicator values cannot be rendered | __Fixed__ |
-| Validator in Vermittlungsdienst | 02.04.2024 | 05/2024 | For very large announcements with a large number of rules, there are occasional timeouts during submission | __Fixed__ |
-| Integration with BKMS | 14.03.2024 | 14.03.2024 | Authentication problem with BKMS leads to disruptions during the delivery process | __Fixed__ |
-| Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Disruptions in the processing of individual announcements due to heavy load | __Fixed__ |
 
 
-## Notes
+
+## Hints
 
 The preview environment is only available between 06:00 and 20:00. Please also use the staging environment for testing purposes, which is available around the clock.
 
@@ -58,8 +48,19 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
 | Production | TED Apps for eForms | August 20, 2024 | 07:00-09:00 CET | Announced by TED |
+| Production | All services of the DÖE except BKMS (Staging) | 01.08.2024 | | Technical disruption due to certificate renewal |
 | Production | All services of the DÖE except BKMS | July 27-28, 2024 | | Quarterly maintenance |
-| All environments | Vermittlungsdienst | 31 May 2024 | from 14:00 CEST | Infrastructure maintenance: removal of static IP addresses |
+| Production | Announcement service | 30 July 2024 | | Integration disruption between Vermittlungsdienst and eSender due to deployment of the new version of the announcement service |
+| Preview | Vermittlungsdienst | 26.06.2024 | | Preview environment is not accessible |
+| Production + Staging | All services of the DÖE except BKMS (Production + Staging) | 14.06.2024 | | Currently the production and staging environment is not available due to problems in the data center. We expect a prompt resolution |
+| Preview | All services of the DÖE except BKMS | 22.05.2024 | | Preview environment is not available |
+| Preview | All services of the DÖE except BKMS | 30.04.2024 | | Preview environment is not available |
+| Preview | All services of the DÖE except BKMS | 22.04.2024 | | Preview environment is not available |
+| Production | Validator in the Vermittlungsdienst | 02.04.2024 | | In the case of very large announcements with a large number of rules, there are occasional timeouts during delivery |
+| Production | Viewer | 02.04.2024 | | In some cases, eFormsDE 1.2 announcements with certain indicator values cannot be rendered |
+| Production | Integration with BKMS | 14.03.2024 | | Authentication problem with BKMS leads to disruptions during the delivery process |
+| Production | Vermittlungsdienst | 29.02.2024 | | Disruptions in the processing of individual announcements due to heavy load |
+| All environments | Vermittlungsdienst | 31.05.2024 | from 14:00 CEST | Infrastructure maintenance: removal of static IP addresses |
 | Production | TED Production | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
 | Staging and Preview | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastructure Maintenance |
 | Staging | All services of the DÖE except BKMS | 22.05.2024 | 09:00 - 12:00 CEST | Infrastructure maintenance |
