@@ -33,18 +33,8 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
 | TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technische Störung bei der Zuweisung von publicationIds von TED: Es wurden zunächst falsche publicationIds zugewiesen, die anschließend durch die korrekten ersetzt wurden. __Ein entsprechendes Update im DÖE ist derzeit aus technischen Gründen leider nicht möglich.__| __Behoben seitens TED__ |
-| Alle Services des DÖE außer BKMS (Staging) | 01.08.2024 | 02.08.2024 | Technische Störung wegen Zertifikatserneuerung | __Behoben__ |
-| Bekanntmachungsservice | 30.07.2024 | 30.07.2024 | Integrationsstörung zwischen Vermittlungsdienst und eSender aufgrund des Deployments der neuen Version des Bekanntmachungsservices | __Behoben__ |
-| Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
-| Alle Services des DÖE außer BKMS (Produktion + Staging) | 14.06.2024 | 14.06.2024 | Derzeit ist die Produktions- und Stagingumgebung nicht erreichbar aufgrung von Problemen im Rechenzentrum. Wir erwarten eine zeitnahe Behebung | __Behoben__ |
 | Alle Validatoren | 28.05.2024 | 10/2024 | __BR-DE-23__: Validierungsprozess bricht ab wenn eine Bekanntmachung unter _<cac:SubordinateAwardingCriterion>_ den Tag _<efac:AwardCriterionParameter>_ doppelt beinhaltet. Es wird ein __500 Internal Sever Error__ Fehler zurückgegeben | __In Arbeit__ |
-| Alle Services des DÖE außer BKMS | 22.05.2024 | 22.05.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
-| Alle Services des DÖE außer BKMS | 30.04.2024 | 30.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
-| Alle Services des DÖE außer BKMS | 22.04.2024 | 22.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
-| Viewer | 02.04.2024 | 04/2024 | Teilweise können eFormsDE 1.2 Bekanntmachungen mit bestimmten Indicator-Werten nicht gerendert werden | __Behoben__ |
-| Validator im Vermittlungsdienst | 02.04.2024 | 05/2024 | Bei sehr großen Bekanntmachungen mit sehr vielen Regeln kommt es vereinzelt zu timeouts bei der Einlieferung | __Behoben__ |
-| Integration mit BKMS   | 14.03.2024 | 14.03.2024 | Authentifizierungsproblem beim BKMS führt zur Störungen während des Lieferungsprozesses | __Behoben__ |
-| Vermittlungsdienst | 29.02.2024 | 21.03.2024 | Störungen bei der Verarbeitung einzelner Bekanntmachungen aufgrund von  starker Belastung | __Behoben__ |
+
 
 
 ## Hinweise
@@ -58,7 +48,18 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
 | Produktion | TED Apps for eForms | 20. August 2024 | 07:00-09:00 CET |Angekündigt von TED  |
+| Produktion | Alle Services des DÖE außer BKMS (Staging) | 01.08.2024 |  | Technische Störung wegen Zertifikatserneuerung |
 | Produktion | Alle Services des DÖE außer BKMS | 27-28 Juli 2024 |  |Quartalswartungen |
+| Produktion | Bekanntmachungsservice | 30.07.2024 |  | Integrationsstörung zwischen Vermittlungsdienst und eSender aufgrund des Deployments der neuen Version des Bekanntmachungsservices |
+| Preview | Vermittlungsdienst | 26.06.2024 | | Preview Umgebung ist nicht erreichbar |
+|Produktion + Staging | Alle Services des DÖE außer BKMS (Produktion + Staging) | 14.06.2024 |  | Derzeit ist die Produktions- und Stagingumgebung nicht erreichbar aufgrung von Problemen im Rechenzentrum. Wir erwarten eine zeitnahe Behebung |
+| Preview | Alle Services des DÖE außer BKMS | 22.05.2024 |  | Preview Umgebung ist nicht erreichbar |
+| Preview | Alle Services des DÖE außer BKMS | 30.04.2024 |  | Preview Umgebung ist nicht erreichbar |
+| Preview | Alle Services des DÖE außer BKMS | 22.04.2024 |  | Preview Umgebung ist nicht erreichbar |
+| Produktion | Validator im Vermittlungsdienst | 02.04.2024 |  | Bei sehr großen Bekanntmachungen mit sehr vielen Regeln kommt es vereinzelt zu timeouts bei der Einlieferung |
+| Produktion | Viewer | 02.04.2024 | | Teilweise können eFormsDE 1.2 Bekanntmachungen mit bestimmten Indicator-Werten nicht gerendert werden |
+| Produktion | Integration mit BKMS   | 14.03.2024 |  | Authentifizierungsproblem beim BKMS führt zur Störungen während des Lieferungsprozesses |
+| Produktion | Vermittlungsdienst | 29.02.2024 |  | Störungen bei der Verarbeitung einzelner Bekanntmachungen aufgrund von  starker Belastung |
 | Alle Umgebungen          | Vermittlungsdienst | 31.05.2024 | ab 14:00 CEST | Infrastrukturwartung: entfernung von statischen IP-Adressen |
 | Produktion               | TED Produktion | 16.05.2024 | 07:00 - 09:00 CEST | TED Infrastrukturwartung |
 | Staging und Preview      | TED Preview | 15.05.2024 | 07:00 - 09:00 CEST | TED Infrastrukturwartung |
