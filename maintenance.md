@@ -37,7 +37,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 | Bekanntmachungsservice | 30.07.2024 | 30.07.2024 | Integrationsstörung zwischen Vermittlungsdienst und eSender aufgrund des Deployments der neuen Version des Bekanntmachungsservices | __Behoben__ |
 | Vermittlungsdienst | 26.06.2024 | 26.06.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Alle Services des DÖE außer BKMS (Produktion + Staging) | 14.06.2024 | 14.06.2024 | Derzeit ist die Produktions- und Stagingumgebung nicht erreichbar aufgrung von Problemen im Rechenzentrum. Wir erwarten eine zeitnahe Behebung | __Behoben__ |
-| Alle Validatoren | 28.05.2024 | 08/2024 | __BR-DE-23__: Validierungsprozess bricht ab wenn eine Bekanntmachung unter _<cac:SubordinateAwardingCriterion>_ den Tag _<efac:AwardCriterionParameter>_ doppelt beinhaltet. Es wird ein __500 Internal Sever Error__ Fehler zurückgegeben | __In Arbeit__ |
+| Alle Validatoren | 28.05.2024 | 10/2024 | __BR-DE-23__: Validierungsprozess bricht ab wenn eine Bekanntmachung unter _<cac:SubordinateAwardingCriterion>_ den Tag _<efac:AwardCriterionParameter>_ doppelt beinhaltet. Es wird ein __500 Internal Sever Error__ Fehler zurückgegeben | __In Arbeit__ |
 | Alle Services des DÖE außer BKMS | 22.05.2024 | 22.05.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Alle Services des DÖE außer BKMS | 30.04.2024 | 30.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Alle Services des DÖE außer BKMS | 22.04.2024 | 22.04.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
