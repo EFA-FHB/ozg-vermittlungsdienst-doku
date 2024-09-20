@@ -32,7 +32,8 @@ To ensure smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technical error when assigning publicationIds from TED: Incorrect publicationIds were initially assigned, which were subsequently replaced by the correct ones. __A corresponding update in the DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
+| Announcement service | 19.09.2024 | 20.09.2024 | Authorization error at BKMS: the delivery process is disrupted, but all transmitted announcements will be forwarded immediately as soon as BKMS accepts them again. | __In progress__ |
+| TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technical error in the assignment of publicationIds from TED: Initially incorrect publicationIds were assigned, which were subsequently replaced by the correct ones. __A corresponding update in the DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
 | All validators | 28.05.2024 | 10/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __In progress__ |
 
 
