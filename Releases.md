@@ -61,7 +61,6 @@ Status: In QS <br>
 - eForms-DE 2.0 wurde implementiert
 - Ein neuer Parameter 'publishToTed' wurde implementiert um eine Unterschwellige Bekanntmachung freiwilleg in TED zu veröffentlcihen
 - Diverse Bugs wurden gefixt
-- 
 
 ### eSender-Hub
 - eForms-DE 2.0 wurde implementiert
