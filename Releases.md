@@ -3,6 +3,8 @@
 
 <br />
 
+- November 2024
+  - [Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator](#Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validatoren)
 - Juli 2024
   - [Hotfix Release für Web-Validator](#Hotfix-Release-for-Web-Validators)
   - [Hotfix Release für den Core-Validator](#Hotfix-Release-for-Core-Validator)
@@ -39,6 +41,42 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validatoren></a>
+## Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 07.10.2024                  | Veröffentlicht |
+| Staging    | 14.10.2024                  | In Arbeit |
+| Produktion | 01.11.2024                  | In Arbeit |
+
+> **WICHTIG** <br>
+Bitte beachten Sie, der neue Parameter 'publishToTed' ist derzeit ohne Funktion. Eine Vollständige Implementierung kommt voraussichtlich im Dezember 2024.
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Vermittlungsdienst
+- eForms-DE 2.0 wurde implementiert
+- Ein neuer Parameter 'publishToTed' wurde implementiert um eine Unterschwellige Bekanntmachung freiwilleg in TED zu veröffentlcihen
+- Diverse Bugs wurden gefixt
+- 
+
+### eSender-Hub
+- eForms-DE 2.0 wurde implementiert
+
+### Notice-Viewer
+- Veralteter Endpunkt POST /view wurde entfernt
+- Patch 1.2.0_1.10.3 SDK-DE wurde implementiert
+- T01/02 in der eForms-EU 1.10 und in der eForms-EU 1.12 sind jetzt unterstützt
+- Diverse Bugs wurden gefixt
+
+### Validator
+- eForms-DE 2.0 und SDK 1.12 wurden implementiert
+- Diverse Bugs wurden gefixt
+  
+</details>
 
 <a id=Hotfix-Release-for-Web-Validators></a>
 ## Hotfix Release für Web-Validator
