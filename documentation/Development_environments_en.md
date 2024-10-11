@@ -22,28 +22,28 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
       </th>
       <th style="text-align: left;">
         <p>Preview environment</p>
+        <i>Available from 06:00 to 20:00</i>
       </th>
       <th style="text-align: left;">
         <p>Staging environment</p>
+         <i>Available 24/7</i>
       </th>
       <th style="text-align: left;">
-        <p>Production environment </p>
+        <p>Production environment</p>
+         <i>Available 24/7</i>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left;">URL</td>
+      <td style="text-align: left;">Vermlungsdienst</td>
       <td style="text-align: left;">
-        Available only from 06:00 to 20:00 <br>
         <a class="external-link" href="https://preview-ozg-vermittlungsdienst.de" rel="nofollow">https://preview-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
-        Available 24/7 <br>
        <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
-        Available 24/7 <br>
         <a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">https://ozg-vermittlungsdienst.de</a>
       </td>
     </tr>
