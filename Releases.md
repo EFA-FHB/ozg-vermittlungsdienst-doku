@@ -51,7 +51,8 @@
 | Produktion | 01.11.2024                  | In Arbeit |
 
 > **WICHTIG** <br>
-Bitte beachten Sie, der neue Parameter 'publishToTed' ist derzeit ohne Funktion. Eine Vollständige Implementierung kommt voraussichtlich im Dezember 2024.
+ - Der veraltete POST-Endpunkt /view im Viewer steht ab dem 10.10.2024 nicht mehr zur Verfügung.
+ - Bitte beachten Sie, der neue Parameter 'publishToTed' ist derzeit ohne Funktion. Eine Vollständige Implementierung kommt voraussichtlich im Dezember 2024.
 
 Status: In QS <br>
 <details>
