@@ -22,28 +22,28 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
       </th>
       <th style="text-align: left;">
         <p>Preview-Umgebung</p>
+        <i>Verfügbar von 06:00 bis 20:00 Uhr</i>
       </th>
       <th style="text-align: left;">
         <p>Staging-Umgebung </p>
+         <i>Verfügbar 24/7</i>
       </th>
       <th style="text-align: left;">
         <p>Production-Umgebung </p>
+         <i>Verfügbar 24/7</i>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left;">URL</td>
+      <td style="text-align: left;">Vermittlungsdienst</td>
       <td style="text-align: left;">
-        Verfügbar nur von 06:00 bis 20:00 Uhr <br>
         <a class="external-link" href="https://preview-ozg-vermittlungsdienst.de" rel="nofollow">https://preview-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
-        Verfügbar 24/7 <br>
        <a class="external-link" href="https://staging-ozg-vermittlungsdienst.de" rel="nofollow">https://staging-ozg-vermittlungsdienst.de</a>
       </td>
       <td style="text-align: left;">
-        Verfügbar 24/7 <br>
         <a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">https://ozg-vermittlungsdienst.de</a>
       </td>
     </tr>
