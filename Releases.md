@@ -4,7 +4,7 @@
 <br />
 
 - November 2024
-  - [Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator](#Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validatoren)
+  - [Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator](#Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validator)
 - Juli 2024
   - [Hotfix Release für Web-Validator](#Hotfix-Release-for-Web-Validators)
   - [Hotfix Release für den Core-Validator](#Hotfix-Release-for-Core-Validator)
@@ -42,12 +42,12 @@
 
 <br />
 
-<a id=Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validatoren></a>
+<a id=Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validator></a>
 ## Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 07.10.2024                  | Veröffentlicht |
-| Staging    | 14.10.2024                  | In Arbeit |
+| Preview    | 17.10.2024                  | In Arbeit |
+| Staging    | 21.10.2024                  | In Arbeit |
 | Produktion | 01.11.2024                  | In Arbeit |
 
 > **WICHTIG** <br>
