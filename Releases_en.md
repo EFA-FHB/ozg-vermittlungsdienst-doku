@@ -7,7 +7,7 @@
   - Release for the Vermittlungsdienst, eSender-Hub, Notice-Viewer and the Validator](#Release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-Validator)
 - July 2024
   - Hotfix release for Web Validator](#Hotfix-Release-for-Web-Validators)
-  - Hotfix release for the core validator](#Hotfix-Release-for-Core-Validator)
+  - Hotfix release for the Core Validator](#Hotfix-Release-for-Core-Validator)
 - May 2024
   - [Release for SSP portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators](#Release-for-SSP-portal,- Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-and-all-validators)
   - Hotfix release for SSP portal](#Hotfix-Release-for-SSP-Portal)
@@ -42,16 +42,17 @@
 
 <br />
 
-<a id=release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-validators></a>
+<a id=release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-Validator></a>
 ## Release for the Vermittlungsdienst, eSender-Hub, Notice-Viewer and the Validator
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
-| Preview | 07.10.2024 | Published |
-| Staging | 14.10.2024 | In progress |
+| Preview | 10/17/2024 | In progress |
+| Staging | 21.10.2024 | In progress |
 | Production | 01.11.2024 | In progress |
 
 > **IMPORTANT** <br>
-Please note, the new parameter 'publishToTed' is currently without function. A full implementation is expected in December 2024.
+ - The obsolete POST endpoint /view in the viewer will no longer be available from 10.10.2024.
+ - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in December 2024.
 
 Status: In QA <br>
 <details>
@@ -581,7 +582,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering notices that have already been submitted using the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
