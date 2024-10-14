@@ -51,7 +51,7 @@
 | Production | 01.11.2024 | In progress |
 
 > **IMPORTANT** <br>
- - The obsolete POST endpoint /view in the viewer will no longer be available from 10.10.2024.
+ - The obsolete POST endpoint /view in the viewer will no longer be available in all environments from 10.10.2024.
  - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in December 2024.
 
 Status: In QA <br>
