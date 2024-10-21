@@ -46,8 +46,8 @@
 ## Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 17.10.2024                  | In Arbeit |
-| Staging    | 21.10.2024                  | In Arbeit |
+| Preview    | 17.10.2024                  | Veröffentlicht |
+| Staging    | 21.10.2024                  | Veröffentlicht |
 | Produktion | 01.11.2024                  | In Arbeit |
 
 > **WICHTIG** <br>
