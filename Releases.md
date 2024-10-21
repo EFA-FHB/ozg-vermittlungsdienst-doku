@@ -60,7 +60,7 @@ Status: In QS <br>
 
 ### Vermittlungsdienst
 - eForms-DE 2.0 wurde implementiert
-- Ein neuer Parameter 'publishToTed' wurde implementiert um eine Unterschwellige Bekanntmachung freiwilleg in TED zu veröffentlcihen
+- Ein neuer Parameter 'publishToTed' wurde implementiert um eine Unterschwellige Bekanntmachung freiwillig in TED zu veröffentlcihen
 - Diverse Bugs wurden gefixt
 
 ### eSender-Hub
