@@ -52,7 +52,7 @@
 
 > **IMPORTANT** <br>
  - The obsolete POST endpoint /view in the viewer will no longer be available in all environments from 10.10.2024.
- - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in December 2024.
+ - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in January 2025.
 
 Status: In QA <br>
 <details>
@@ -112,7 +112,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -334,7 +334,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
@@ -403,7 +403,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented when BKMS does not respond
+- Retry delivery is now implemented if BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
