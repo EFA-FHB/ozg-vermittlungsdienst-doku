@@ -68,6 +68,7 @@ Status: In QS <br>
 
 ### Notice-Viewer
 - Veralteter Endpunkt POST /view wurde entfernt
+- eForms-DE 2.0 wurde implementiert
 - Patch 1.2.0_1.10.3 SDK-DE wurde implementiert
 - T01/02 in der eForms-EU 1.10 und in der eForms-EU 1.12 sind jetzt unterstützt
 - Diverse Bugs wurden gefixt
