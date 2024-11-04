@@ -48,7 +48,7 @@
 |------------|-----------------------------|----------------|
 | Preview    | 17.10.2024                  | Veröffentlicht |
 | Staging    | 21.10.2024                  | Veröffentlicht |
-| Produktion | 01.11.2024                  | In Arbeit |
+| Produktion | 01.11.2024                  | Veröffentlicht |
 
 > **WICHTIG** <br>
  - Der veraltete POST-Endpunkt /view im Viewer steht ab dem 10.10.2024 nicht mehr zur Verfügung in allen Umgebungen.
