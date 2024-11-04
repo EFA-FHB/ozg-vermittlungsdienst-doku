@@ -18,7 +18,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 
 ## Notes for specialist procedure manufacturers
-- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 Gateway Timeout from TED or an error in content as mentioned above, e.g. IssueDate incorrect), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in case of a doe_status INTERNAL_ERROR.
+- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support will take a closer look at the announcement and then, depending on the error message (e.g. 502 Gateway Timeout from TED or a content error as mentioned above, e.g. IssueDate incorrect), will either set it to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in case of a doe_status INTERNAL_ERROR.
 
 ## Upcoming maintenance windows
 
@@ -44,7 +44,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 The preview environment is only available between 06:00 and 20:00. Please also use the staging environment for testing purposes, which is available around the clock.
 
-On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted to staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
+On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted in staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
 
 ## Past maintenance windows or disruptions
 
