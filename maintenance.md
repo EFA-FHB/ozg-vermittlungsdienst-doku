@@ -33,6 +33,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| TED Apps for eForms | 31.10.2024 | nicht bekannt | Validierungsstörung: Es werden Formulare 16, 17 und 29 in eForms-SDK-1.7 Version nicht richtig bei der Validierung annerkannt. Dies führt bei der Übermittlung zur Ablehnungen | __In Klärung__ |
 | Bekanntmachungsservice | 19.09.2024 | 20.09.2024 | Autorisierungsstörung beim BKMS: der Lieferprozess ist gestört, dabei alle übermittelte Bekanntmachungen werden umgehend weitergeleitet sobald BKMS sie wieder annimmt. | __Behoben__ |
 | TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technische Störung bei der Zuweisung von publicationIds von TED: Es wurden zunächst falsche publicationIds zugewiesen, die anschließend durch die korrekten ersetzt wurden. __Ein entsprechendes Update im DÖE ist derzeit aus technischen Gründen leider nicht möglich.__| __Behoben seitens TED__ |
 | Alle Validatoren | 28.05.2024 | 10/2024 | __BR-DE-23__: Validierungsprozess bricht ab wenn eine Bekanntmachung unter _<cac:SubordinateAwardingCriterion>_ den Tag _<efac:AwardCriterionParameter>_ doppelt beinhaltet. Es wird ein __500 Internal Sever Error__ Fehler zurückgegeben | __Behoben__ |
