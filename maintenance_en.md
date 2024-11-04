@@ -18,7 +18,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 
 ## Notes for specialist procedure manufacturers
-- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support will take a closer look at the announcement and then, depending on the error message (e.g. 502 Gateway Timeout from TED or a content error as mentioned above, e.g. IssueDate incorrect), will either set it to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in case of a doe_status INTERNAL_ERROR.
+- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 Gateway Timeout from TED or an error in content as mentioned above, e.g. IssueDate incorrect), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in case of a doe_status INTERNAL_ERROR.
 
 ## Upcoming maintenance windows
 
@@ -33,6 +33,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| TED Apps for eForms | 31.10.2024 | not known | Validation error: Forms 16, 17 and 29 in eForms-SDK-1.7 version are not recognized correctly during validation. This leads to rejections during transmission | __In clarification__ |
 | Announcement service | 19.09.2024 | 20.09.2024 | Authorization error at BKMS: the delivery process is disrupted, but all transmitted announcements will be forwarded immediately as soon as BKMS accepts them again. | __Fixed__ |
 | TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technical error in the assignment of publicationIds from TED: Initially incorrect publicationIds were assigned, which were subsequently replaced by the correct ones. __A corresponding update in the DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
 | All validators | 28.05.2024 | 10/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __Fixed__ |
