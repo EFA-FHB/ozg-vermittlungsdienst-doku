@@ -14,7 +14,7 @@ To ensure smooth submission, please always observe the following aspects:
 - The field **Preferred Publication Date BT-738 (RequestedPublicationDate)** can be set to the same date as the Notice Dispatch date or up to 2 days after the Notice Dispatch date according to the German standard. Please make sure to specify the same time zone for both values, as otherwise TED may reject the request in individual cases
 - The filling of the field **BT-165 Winner Size (Winner Size)** is currently not checked by the German rules. Please make sure that this field is filled correctly for the following notice types: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
 - To fill in the **BT-501 identification number (of the organization)**, please refer to the notes on the routing ID in our FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
-- If your system no longer automatically updates the announcement status after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
+- If your system no longer updates the announcement status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
 
 
 ## Notes for specialist procedure manufacturers
@@ -27,13 +27,13 @@ To ensure smooth submission, please always observe the following aspects:
 | Production | TED Apps for eForms, including API interfaces | October 31, 2024 | 07:00-09:00 | Announced by TED: The application and its API may not be available during the specified period |
 | Production | TED Apps for eForms | September 03, 2024 | 07:00-09:00 | Announced by TED |
 | Production | TED Apps for eForms | September 05, 2024 | 07:00-10:30 |Announced by TED |
-| Production | All services of the DÖE except BKMS | October 26-27, 2024 | Quarterly maintenance (incl. time changeover) |
+| Production | All services of the DÖE except BKMS | October 26-27, 2024 | | Quarterly maintenance (incl. time changeover) |
 
 ## Known bugs and malfunctions
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| TED Apps for eForms | 31.10.2024 | not known | Validation error: Forms 16, 17 and 29 in eForms-SDK-1.7 version are not recognized correctly during validation. This leads to rejections during transmission.
+| TED Apps for eForms | 31.10.2024 | 05.11.2024 | Validation error: Forms 16, 17 and 29 in eForms-SDK-1.7 version are not recognized correctly during validation. This leads to rejections during transmission. The notices can be resubmitted by increasing the version number accordingly.__ | __Fixed by TED__ |
 | Announcement service | 19.09.2024 | 20.09.2024 | Authorization error at BKMS: the delivery process is disrupted, but all transmitted announcements will be forwarded immediately as soon as BKMS accepts them again. | __Fixed__ |
 | TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technical error in the assignment of publicationIds from TED: Initially incorrect publicationIds were assigned, which were subsequently replaced by the correct ones. __A corresponding update in the DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
 | All validators | 28.05.2024 | 10/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __Fixed__ |
@@ -44,7 +44,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 The preview environment is only available between 06:00 and 20:00. Please also use the staging environment for testing purposes, which is available around the clock.
 
-On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted in staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
+On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted to staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
 
 ## Past maintenance windows or disruptions
 
