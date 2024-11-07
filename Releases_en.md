@@ -34,7 +34,7 @@
   - [Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
   - Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
 - August 2023
-  - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
+  - Release offline validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
 - June 2023
   - Production Release June - Vermittlungsdienst & eSender-Hub](#Production-Release-June-Vermittlungsdienst-&-eSender-Hub)
 - May 2023
@@ -52,9 +52,9 @@
 
 > **IMPORTANT** <br>
  - The obsolete POST endpoint /view in the viewer will no longer be available in all environments from 10.10.2024.
- - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in January 2025.
+ - Please note, the new parameter 'publishToTed' is currently without function. A full implementation is expected in January 2025.
 
-Status: In QA <br>
+Status: Published <br>
 <details>
 <summary>Release Notes</summary>
 
@@ -113,7 +113,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -404,7 +404,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented when BKMS does not respond
+- Retry delivery is now implemented if BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
