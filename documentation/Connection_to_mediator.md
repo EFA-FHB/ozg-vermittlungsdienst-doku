@@ -101,7 +101,7 @@ PEPPOL-Nachrichten bestehen aus mehreren Schichten, die durch verschiedene Stand
 - Genau eine Datei ist in `META-INF/ASiCManifest.xml` mit `RootFile=true` markiert. Diese Datei ist das Geschäfts- oder Prozessdokument, das verarbeitet werden soll;
 - Das Geschäfts- oder Prozessdokument kann andere Dateien im ASiC-Container referenzieren.
 
-#### **3. Geschäftsdokument:**
+#### **3. Geschäftsdokument (Business document):**
 - Enthält die technische Transaktion, die der Absender ausführen soll;
 - Der Vermittlungsdienst kann *Publish Notice Requests* (Transaction ID: `urn:fdc:peppol.eu:prac:trns:t015:1.2`) empfangen, um Bekanntmachungen zu veröffentlichen;
 - Als Antwort sendet der Vermittlungsdienst eine *Notice Publication Response* (Transaction ID: `urn:fdc:peppol.eu:prac:trns:t016:1.1`);
