@@ -60,7 +60,75 @@ Weitere Informationen zum Konzept des Refresh-Token und Hinweise zur Umsetzung w
 
 
 ## Anbindung per PEPPOL
-Es ist zukünftig möglich, Bekanntmachungen auch über das eDelivery-Network PEPPOL an den Vermittlungsdienst zu übermitteln. Details und weitere Informationen folgen. 
+Es ist möglich, Bekanntmachungen auch über das eDelivery-Network PEPPOL an den Vermittlungsdienst zu übermitteln. 
+
+### Verbindung von Beschaffungsplattformen mit dem Vermittlungsdienst über PEPPOL
+
+Die primäre Schnittstelle für die Übermittlung von Bekanntmachungen ist das PEPPOL-Netzwerk. Bekanntmachungen können wie folgt übermittelt werden:
+
+### PEPPOL-Adresse des Vermittlungsdienstes (Participant ID)
+- **Produktivumgebung**: `0204:994-doevd-83`
+- **Staging**: `0204:994-doevdtest-85`
+
+#### Übermittlung über den Geschäftsprozess mit der ID:
+- `urn:fdc:peppol.eu:prac:bis:p008:1.2`
+  - **Senden**: Der Sender übermittelt eine *Publish Notice Request* (Transaction ID: `urn:fdc:peppol.eu:prac:trns:t015:1.2`).
+  - **Empfangen**: Der Vermittlungsdienst sendet eine *Notice Publication Response* (Transaction ID: `urn:fdc:peppol.eu:prac:trns:t016:1.2`).
+
+### SMP Inbox Document Owner:
+- **Produktivumgebung**: `oeffentliche-vergabe-peppol`
+- **Staging**: `oeffentliche-vergabe-peppol-test`
+
+#### URL:
+- **Produktivumgebung**: [https://ws.b2brouter.com/transactions](https://ws.b2brouter.com/transactions)
+- **Staging**: [https://ws-staging.b2brouter.com/transactions](https://ws-staging.b2brouter.com/transactions)
+
+---
+
+### Aufbau einer PEPPOL-Nachricht
+
+PEPPOL-Nachrichten bestehen aus mehreren Schichten, die durch verschiedene Standards definiert sind. Jede Schicht umschließt die Daten der nächsten Schicht und erweitert sie um spezifische Aspekte, die erforderlich sind. Die Schichten von außen nach innen:
+
+#### **1. Standard Business Document Header (SBDH):**
+- Wird verwendet, um Nachrichten im PEPPOL-Netzwerk zu routen;
+- Beinhaltet die PEPPOL-Absender- und Empfängeradressen;
+- Zugangspunkte benötigen nur die Daten dieser Schicht für das Routing;
+- SBDH ist ein XML-Format. Die nächste Schicht ist in einem XML-Tag Base64-kodiert enthalten.
+
+#### **2. Associated Signature Containers (ASiC):**
+- Ein ZIP-Archiv beliebiger Daten, die kryptographisch signiert sind;
+- Enthält die Datei `META-INF/ASiCManifest.xml`, die alle enthaltenen Dateien mit Prüfsummen auflistet;
+- Genau eine Datei ist in `META-INF/ASiCManifest.xml` mit `RootFile=true` markiert. Diese Datei ist das Geschäfts- oder Prozessdokument, das verarbeitet werden soll;
+- Das Geschäfts- oder Prozessdokument kann andere Dateien im ASiC-Container referenzieren.
+
+#### **3. Geschäftsdokument:**
+- Enthält die technische Transaktion, die der Absender ausführen soll;
+- Der Vermittlungsdienst kann *Publish Notice Requests* (Transaction ID: `urn:fdc:peppol.eu:prac:trns:t015:1.2`) empfangen, um Bekanntmachungen zu veröffentlichen;
+- Als Antwort sendet der Vermittlungsdienst eine *Notice Publication Response* (Transaction ID: `urn:fdc:peppol.eu:prac:trns:t016:1.1`);
+- Im Falle einer *Publish Notice Request* enthält das Geschäftsdokument relative Pfade zu BKMS-Dateien, die veröffentlicht werden sollen. Diese Pfade beziehen sich auf andere Dateien im ASiC-Container.
+
+---
+
+#### **Bekanntmachungsdokumente (bei Publish Notice Request):**
+- Bekanntmachung im XML-eForms-Format;
+- Es wird das *Peppol BIS Profile P008 Publish Notice* der Pre-Award-Version 1.2 verwendet. Frühere Versionen unterstützen den eForms DE-Standard noch nicht;
+- Das Profil umfasst die Transaktionen:
+  - **T015 Publish Notice**: Für die Übermittlung von Bekanntmachungen;
+  - **T016 Notice Publication Response**: Für Statusinformationen, die der Vermittlungsdienst an den Absender zurücksendet.
+
+---
+
+### Der PEPPOL-Zugangspunkt
+Der PEPPOL-Zugangspunkt für den Vermittlungsdienst und das BKMS wird vom Beschaffungsamt des BMI (BeschA) selbst betrieben.
+
+---
+
+### Webressourcen
+- **Peppol-Startseite:** [https://peppol.eu/](https://peppol.eu/)
+- **SBDH/UBL-Identifikatoren/Prozesse/Profile für Peppol:** [https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.2.pdf](https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.2.pdf)
+- **PEPPOL Pre-Award-Standarddokumentation:** [https://docs.peppol.eu/pracc/](https://docs.peppol.eu/pracc/)
+- **Peppol BIS Profile P008:** [https://docs.peppol.eu/pracc/profiles/p008/index.html](https://docs.peppol.eu/pracc/profiles/p008/index.html)
+
 <br>
 
 
