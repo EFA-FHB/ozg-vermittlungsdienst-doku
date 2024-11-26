@@ -128,6 +128,8 @@ Der PEPPOL-Zugangspunkt für den Vermittlungsdienst und das BKMS wird vom Bescha
 - **SBDH/UBL-Identifikatoren/Prozesse/Profile für Peppol:** [https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.2.pdf](https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.2.pdf)
 - **PEPPOL Pre-Award-Standarddokumentation:** [https://docs.peppol.eu/pracc/](https://docs.peppol.eu/pracc/)
 - **Peppol BIS Profile P008:** [https://docs.peppol.eu/pracc/profiles/p008/index.html](https://docs.peppol.eu/pracc/profiles/p008/index.html)
+- **PEPPOL T015 - Publish Notice 1.2:** [https://docs.peppol.eu/pracc/transactions/T015/index.html](https://docs.peppol.eu/pracc/transactions/T015/index.html)
+- **PEPPOL T016 - Publish Notice 1.2:** [https://docs.peppol.eu/pracc/transactions/T016/index.html](https://docs.peppol.eu/pracc/transactions/T016/index.html)
 
 <br>
 
