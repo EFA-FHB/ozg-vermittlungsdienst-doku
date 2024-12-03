@@ -60,7 +60,6 @@ Weitere Informationen zum Konzept des Refresh-Token und Hinweise zur Umsetzung w
 
 
 ## Anbindung per PEPPOL
-### Einlieferung von Bekanntmachungen an den Datenservice Öffentlicher Einkauf
 
 Die Einlieferung von Bekanntmachungen an den **Datenservice Öffentlicher Einkauf** kann von Vergabeplattformen auch über die **Peppol-Infrastruktur** zum gesicherten Datenaustausch erfolgen.
 
