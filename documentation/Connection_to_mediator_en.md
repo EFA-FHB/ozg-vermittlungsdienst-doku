@@ -18,7 +18,7 @@ To use the API, access data must be requested once. Authorization takes place vi
 ### Applying for an account to deliver announcements
 
 >**Note** <br>
->After the production release in June 2023, a new user must be requested for the production and staging environment, even if a user already exists in Preview.
+>After the production release in June 2023, a user must be requested again for the production and staging environment, even if a user already exists in Preview.
 
 From October 4, 2023, a new account will be set up via the self-service portal (production environment: https://portal.ozg-vermittlungsdienst.de). An account can be created in the portal by specifying an e-mail address and a password. After confirming the e-mail address, the user can log in and fill out the application form for a new VD account. A separate user is required for each awarding platform. <br>
 
@@ -60,7 +60,6 @@ Further information on the concept of the refresh token and instructions for imp
 
 
 ## Connection via PEPPOL
-### Submission of notices to the public procurement data service
 
 Public procurement platforms can also submit notices to the **Public Procurement Data Service** via the **Peppol infrastructure** for secure data exchange.
 
