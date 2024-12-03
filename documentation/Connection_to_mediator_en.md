@@ -18,7 +18,7 @@ To use the API, access data must be requested once. Authorization takes place vi
 ### Applying for an account to deliver announcements
 
 >**Note** <br>
->After the production release in June 2023, a user must be requested again for the production and staging environment, even if a user already exists in Preview.
+>After the production release in June 2023, a new user must be requested for the production and staging environment, even if a user already exists in Preview.
 
 From October 4, 2023, a new account will be set up via the self-service portal (production environment: https://portal.ozg-vermittlungsdienst.de). An account can be created in the portal by specifying an e-mail address and a password. After confirming the e-mail address, the user can log in and fill out the application form for a new VD account. A separate user is required for each awarding platform. <br>
 
@@ -63,12 +63,12 @@ Further information on the concept of the refresh token and instructions for imp
 
 Public procurement platforms can also submit notices to the **Public Procurement Data Service** via the **Peppol infrastructure** for secure data exchange.
 
-#### Use of the Peppol infrastructure
+### Use of the Peppol infrastructure
 Systems registered in the Peppol infrastructure can send notices to the addressee with the **Peppol ID "0204:994-DOEVD-83" (production)** using the **Peppol profile "P008 - Publish Notices "**.
 
 - Further information on the Peppol profile can be found here: [Peppol Documentation - Publish Notices](https://peppol.org/documentation/technical-documentation/pre-award-documentation)
 
-#### Communication
+### Communication
 Communication takes place via the use of a **pre-award-capable AccessPoint**, which are either:
 - are provided by commercial providers, or
 - can be implemented independently in a Peppol-compliant manner (possibly based on open source).
@@ -76,11 +76,11 @@ Communication takes place via the use of a **pre-award-capable AccessPoint**, wh
 **Important:** Full pre-award capability of the AccessPoint includes support for **"REM Evidence "**, as described in the following documentation:
 [Peppol BIS eDelivery Guide for Pre-Award v1.3](https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.3.pdf)
 
-#### Registration
-Questions regarding registration must be clarified via a **Peppol Authority**:
+### Registration
+Questions regarding registration must be clarified via a **Peppol-Authority**:
 [List of Peppol Authorities](https://peppol.org/members/peppol-authorities)
 
-#### Further information
+### Further information
 - Official Peppol website: [peppol.org](https://peppol.org)
 - For additional technical information, please refer to the following explanations.
 
@@ -184,7 +184,7 @@ The PEPPOL access point for the Vermittlungsdienst and the BKMS is operated by t
 6. click on 'Link to reset credentials'.
 <br>
 
-7. the user is redirected to the 'Update password' page<br>.
+7. the user will be redirected to the 'Update password' page<br>.
 ![Update password](images/kc_password_update.png)
 <br>
 
