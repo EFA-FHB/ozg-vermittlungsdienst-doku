@@ -63,12 +63,12 @@ Weitere Informationen zum Konzept des Refresh-Token und Hinweise zur Umsetzung w
 
 Die Einlieferung von Bekanntmachungen an den **Datenservice Öffentlicher Einkauf** kann von Vergabeplattformen auch über die **Peppol-Infrastruktur** zum gesicherten Datenaustausch erfolgen.
 
-#### Nutzung der Peppol-Infrastruktur
+### Nutzung der Peppol-Infrastruktur
 In der Peppol-Infrastruktur registrierte Systeme können unter Verwendung des **Peppol-Profils „P008 – Publish Notices“** Bekanntmachungen an den Adressaten mit der **Peppol-ID „0204:994-DOEVD-83“ (Produktion)** senden.
 
 - Weitere Informationen zum Peppol-Profil finden Sie hier: [Peppol Documentation - Publish Notices](https://peppol.org/documentation/technical-documentation/pre-award-documentation)
 
-#### Kommunikation
+### Kommunikation
 Die Kommunikation erfolgt über die Verwendung eines **pre-award-fähigen AccessPoints**, die entweder:
 - von kommerziellen Anbietern bereitgestellt werden, oder
 - eigenständig Peppol-konform implementiert werden können (ggf. auf Basis von Open Source).
@@ -76,11 +76,11 @@ Die Kommunikation erfolgt über die Verwendung eines **pre-award-fähigen Access
 **Wichtig:** Zur vollständigen pre-award-Fähigkeit des AccessPoints gehört die Unterstützung von **„REM Evidence“**, wie in der folgenden Dokumentation beschrieben:  
 [Peppol BIS eDelivery Guide for Pre-Award v1.3](https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.3.pdf)
 
-#### Registrierung
+### Registrierung
 Fragen zur Registrierung sind über eine **Peppol-Authority** zu klären:  
 [Liste der Peppol-Authorities](https://peppol.org/members/peppol-authorities)
 
-#### Weitere Informationen
+### Weitere Informationen
 - Offizielle Peppol-Website: [peppol.org](https://peppol.org)  
 - Zusätzliche technische Informationen entnehmen Sie bitte den folgenden Ausführungen.
 
