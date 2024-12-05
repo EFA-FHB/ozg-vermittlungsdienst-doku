@@ -1,6 +1,6 @@
 # Data service Public procurement
 
->**Go-Live 25.10.** <br>
+>**Go-Live 25.10.2023** <br>
 > Important notes and known errors for productive delivery can be found under [Maintenance](/maintenance.md)!
 
 You want to support companies and public administration in reducing bureaucratic hurdles in the procurement process
@@ -13,10 +13,10 @@ make nationwide tenders easily accessible to companies. You can find out how to 
 This repository contains the following documents to support a connection to the Vermittlungsdienst:
 
 - [Documentation Vermittlungsdienst](/documentation/documentation.md)
-- [FAQ](/faq.md)
-- [Release Notes](/Releases.md)
-- [Known maintenance windows](/maintenance.md)
-- [Events](/events.md)
+- FAQ](/faq.md)
+- Release Notes](/Releases.md)
+- Known maintenance windows](/maintenance.md)
+- Events](/events.md)
 <br>
 
 ## The tasks of the Vermittlungsdienst
