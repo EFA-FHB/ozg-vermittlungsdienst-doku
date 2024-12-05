@@ -1,6 +1,6 @@
 # Datenservice Öffentlicher Einkauf
 
->**Go-Live 25.10.** <br>
+>**Go-Live 25.10.2023** <br>
 > Wichtige Hinweise und bekannte Fehler für die produktive Einlieferung finden Sie unter [Maintenance](/maintenance.md)! 
 
 Sie möchten Unternehmen und die öffentliche Verwaltung dabei unterstützen, bürokratische Hürden im Beschaffungsprozess abzubauen
