@@ -8,11 +8,24 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 <br>
 
 *Übersicht an bestehenden eForms-DE-Versionen und den dazugehörigen technischen Artefakten und Hilfsmitteln:*
-| eForms-DE-Standard | KoSIT-Schematron  | KoSIT-Codelisten   | SDK-DE  | eForms-DE-Offline-Validator      | Akzeptiert ab | Akzeptiert bis |
-|--------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------|------------|
-| [eForms-DE 2.0](https://xeinkauf.de/app/uploads/2024/02/specification-eforms-de-v1.2.0.pdf)      | [0.9.1](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.9.1) | [2024-09-02](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2024-09-02) | [1.12.1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/1.12.1) | [1.2.6](https://projekte.kosit.org/eforms/validator-edition-eforms-de/-/releases/1.2.6) unterstützt eForms-DE 1.1.0, 1.2.0, 2.0.0           | 01.11.2024 | 18.07.2025 |
-| [eForms-DE 1.2](https://xeinkauf.de/app/uploads/2024/02/specification-eforms-de-v1.2.0.pdf)      | [0.8.4](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.4) | [2024-02-06](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2024-02-06) | [1.2.0_1.10.3](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.2.0_1.10.3_0) | [1.0.15](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.15) unterstützt eForms-DE 1.1.0 & 1.2.0           | 08.07.2024 | 30.04.2025 |
-| [eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf)      | [0.7.2](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.2) | [2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07) | [1.1.0_1.7.3_1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/1.1.0_1.7.3_1) | [1.0.12](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.12) unterstützt eForms-DE 1.0.1 & 1.1.0           | 13.09.2023 | 30.04.2025 |
+
+|eForms-DE-Standard|KoSIT-Schematron|KoSIT-Codelisten|SDK-DE|eForms-DE-Offline-Validator|Akzeptiert ab|Akzeptiert bis|
+|--|--|--|--|--|--|--|
+|[eForms-DE 2.0](https://projekte.kosit.org/api/v4/projects/356/packages/maven/de/xeinkauf/eforms-de/2.0.0/eforms-de-2.0.0.zip)|[0.9.1](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.9.1) [Blacklist](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.1/src/main/ted-excluded-rules.txt?ref_type=tags)|[2024-09-02](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2024-09-02)|[1.12.1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.1)|[1.2.6](https://projekte.kosit.org/eforms/validator-edition-eforms-de/-/releases/1.2.6) unterstützt eForms-DE 1.1.0, 1.2.0, 2.0.0|01.11.2024|18.07.2025|
+|[eForms-DE 1.2](https://xeinkauf.de/app/uploads/2024/02/specification-eforms-de-v1.2.0.pdf)|[0.8.4](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.4) [Blacklist](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.8.4/src/main/ted-excluded-rules.txt?ref_type=tags) |[2024-02-06](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2024-02-06)|[1.2.0_1.10.3](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/SDK-DE_1.2.0_1.10.3_0)|[1.0.15](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.15) unterstützt eForms-DE 1.1.0 & 1.2.0|08.07.2024|30.04.2025
+|[eForms-DE 1.2](https://xeinkauf.de/app/uploads/2024/02/specification-eforms-de-v1.2.0.pdf)|[0.8.3](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.8.3) [Blacklist](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.8.3/src/main/ted-excluded-rules.txt?ref_type=tags) |[2024-02-06](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2024-02-06)|[1.2.0_1.10.2](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/SDK-DE_1.2.0_1.10.2_0)|[1.0.14](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.14) unterstützt eForms-EU 1.10 (nur TO1+T02), eForms-DE 1.1.0 und eForms-DE 1.2.0|27.03.2024|30.04.2025|
+|[eForms-DE 1.1](https://xeinkauf.de/app/uploads/2023/08/specification-eforms-de-v1.1.0.pdf)|[0.7.2](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.7.2) [Blacklist](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.7.2/src/main/ted-excluded-rules.txt?ref_type=tags) |[2023-07-07](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2023-07-07)|[1.1.0_1.7.3_1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/tags/1.1.0_1.7.3_1)|[1.0.12](https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.12) unterstützt eForms-DE 1.0.1 & 1.1.0|13.09.2023|30.04.2025
+
+_Zusätzlich unterstützt der Datenservice Öffentlicher Einkauf die Annahme der T01 und T02 Formulare auf Basis des SDK-EU. Sie sind nicht Bestandteil der eForms Direktive_
+
+SDK-EU|Akzeptiert ab|Akzeptiert bis|
+|--|--|--|
+[1.12.0](https://github.com/OP-TED/eForms-SDK/tree/1.12.0)|01.11.2024|18.07.2025|
+[1.10.3](https://github.com/OP-TED/eForms-SDK/tree/1.10.3)|08.07.2024|30.04.2025|
+
+
+
+
 
 ## eForms-Validierung
 Alle Bekanntmachungen werden bei der Übermittlung an den Vermittlungsdienst, bevor sie vom System angenommen werden, validiert. Die Validierung erfolgt anhand einer Kombination aus einer XML-Schema-Validierung und einer Schematron-Validierung. Als Ergebnis wird ein Validierungsreport im JSON-Format zurückgegeben.
