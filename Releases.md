@@ -3,6 +3,8 @@
 
 <br />
 
+- Dezember 2024
+  - [Hotfix Release für alle Validatoren und für den eSender](#Hotfix-Release-für-alle-Validatoren-und-für-den-eSender)
 - November 2024
   - [Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator](#Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validator)
 - Juli 2024
@@ -41,6 +43,26 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Hotfix-Release-für-alle-Validatoren-und-für-den-eSender></a>
+## Hotfix Release für alle Validator und für den eSender
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview | 11.12.2024 | Veröffentlicht |
+| Staging | 11.12.2024 | Veröffentlicht |
+| Produktion | 12.12.2024 | In Arbeit |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Alle Validatoren
+- Schematron-0.9.2 Patch von eForms-DE-2.0.0 wurde implementiert
+
+### eSender-Hub
+- Healthcheckbug, dass der Bekanntmachungsservice offline ist wurde gefixt
+  
+</details>
 
 <a id=Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validator></a>
 ## Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator
