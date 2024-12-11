@@ -4,9 +4,9 @@
 <br />
 
 - December 2024
-  - Hotfix release for all validators and for the eSender](#Hotfix-Release-for-all-validators-and-for-the-eSender)
+  - Hotfix release for all validators and for the SSP portal](#Hotfix-release-for-all-validators-and-for-the-SSP-portal)
 - November 2024
-  - [Release for the Vermittlungsdienst, eSender Hub, Notice Viewer and the Validator](#Release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-Validator)
+  - [Release for the Vermittlungsdienst, eSender-Hub, Notice-Viewer and the Validator](#Release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-Validator)
 - July 2024
   - Hotfix release for Web Validator](#Hotfix-Release-for-Web-Validators)
   - Hotfix release for the Core Validator](#Hotfix-Release-for-Core-Validator)
@@ -31,9 +31,9 @@
   - Hotfix release for Notice Viewer, Validator and Vermittlungsdienst](#Release-for-notice-viewer-mediator-and-validator)
 - October 2023
   - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
-  - Release for Self-Service Portal, registration form for a separate Vermittlungsdienst account](#Release-for-Self-Service-Portal,-registration-form-for-a-separate Vermittlungsdienst-account)
+  - Release for self-service portal, registration form for a separate Vermittlungsdienst account](#Release-for-self-service-portal,-registration-form-for-a-separate- Vermittlungsdienst-account)
 - September 2023
-  - [Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
+  - Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
   - Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
 - August 2023
   - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
@@ -44,9 +44,9 @@
 
 <br />
 
-<a id=Hotfix-release-for-all-validators-and-for-the-eSender></a>
-## Hotfix release for all validators and for the eSender
-| environment | period | status |
+<a id=Hotfix-release-for-all-validators-and-for-the-SSP-portal></a>
+## Hotfix release for all validators and for the SSP portal
+| Environment | Timeframe | Status |
 |------------|-----------------------------|----------------|
 | Preview | 11.12.2024 | Published |
 | Staging | 11.12.2024 | Published |
@@ -59,12 +59,12 @@ Status: In QA <br>
 ### All validators
 - Schematron-0.9.2 patch from eForms-DE-2.0.0 has been implemented
 
-### eSender Hub
-- Healthcheck bug that the announcement service is offline has been fixed
+### SSP portal
+- Healthcheckbug that the announcement service is offline has been fixed
   
 </details>
 
-<a id=release-for-the-Mediation-Service,-eSender-Hub,-notice-viewer-and-the-validator></a>
+<a id=release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-validator></a>
 ## Release for the Vermittlungsdienst, eSender-Hub, Notice-Viewer and the Validator
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -74,7 +74,7 @@ Status: In QA <br>
 
 > **IMPORTANT** <br>
  - The obsolete POST endpoint /view in the viewer will no longer be available in all environments from 10.10.2024.
- - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in January 2025.
+ - Please note, the new parameter 'publishToTed' is currently without function. A full implementation is expected in January 2025.
 
 Status: Published <br>
 <details>
@@ -135,7 +135,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -357,7 +357,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
@@ -547,7 +547,7 @@ Status: Published on 20.10.2023 <br>
 |------------|-----------------------------|----------------|
 | Preview | Documentation + registration form: **KW38** , status overview: **KW39** | published |
 | Staging | Documentation + registration form: **KW39** , Status overview: **KW40** | published |
-| production | documentation + registration form: **KW40** , status overview **KW41** | published |
+| production | documentation + registration form: **KW40** , Status overview **KW41** | published |
 
 Status: Published on 4.10.2023 <br>
 <details>
