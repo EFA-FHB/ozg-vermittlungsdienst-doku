@@ -50,9 +50,9 @@
 |------------|-----------------------------|----------------|
 | Preview | 11.12.2024 | Veröffentlicht |
 | Staging | 11.12.2024 | Veröffentlicht |
-| Produktion | 12.12.2024 | In Arbeit |
+| Produktion | 12.12.2024 | Veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht am 12.12.2024 <br>
 <details>
 <summary>Release Notes</summary>
 
