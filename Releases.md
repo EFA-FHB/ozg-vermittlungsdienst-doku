@@ -45,7 +45,7 @@
 <br />
 
 <a id=Hotfix-Release-für-alle-Validatoren-und-für-den-SSP-Portal></a>
-## Hotfix Release für alle Validator und für den SSP-Portal
+## Hotfix Release für alle Validatoren und für den SSP-Portal
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview | 11.12.2024 | Veröffentlicht |
