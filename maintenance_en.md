@@ -27,17 +27,18 @@ To ensure smooth submission, please always observe the following aspects:
 | Production | TED Apps for eForms, including API interfaces | October 31, 2024 | 07:00-09:00 | Announced by TED: The application and its API may not be available during the specified period |
 | Production | TED Apps for eForms | September 03, 2024 | 07:00-09:00 | Announced by TED |
 | Production | TED Apps for eForms | September 05, 2024 | 07:00-10:30 |Announced by TED |
-| Production | All services of the DÖE except BKMS | October 26-27, 2024 | | Quarterly maintenance (incl. time changeover) |
+| Production | All services of DÖE except BKMS | October 26-27, 2024 | | Quarterly maintenance (incl. time changeover) |
 
 ## Known bugs and malfunctions
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| All services except BKMS and TED | 07.01.2025 | 09.01.2025 | There may currently be sporadic app failures | In progress |
 | Vermittlungsdienst Preview | 06.01.2025 | 08.01.2025 | Preview environment is not accessible | Fixed |
 | Vermittlungsdienst Preview | 26.11.2024 | 27.11.2024 | Preview environment is not accessible | Fixed |
 | TED Apps for eForms | 31.10.2024 | 05.11.2024 | Validation error: Forms 16, 17 and 29 in eForms-SDK-1.7 version are not recognized correctly during validation. This leads to rejections during transmission. The notices can be resubmitted by increasing the version number under <cbc:VersionID> accordingly.__ | __Fixed by TED__ |
 | Announcement service | 19.09.2024 | 20.09.2024 | Authorization error at BKMS: the delivery process is disrupted, but all transmitted announcements will be forwarded immediately as soon as BKMS accepts them again. | __Fixed__ |
-| TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technical error in the assignment of publicationIds from TED: Initially incorrect publicationIds were assigned, which were subsequently replaced by the correct ones. __A corresponding update in the DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
+| TED Apps for eForms | 06.09.2024 | 09.09.2024 | Technical error in the assignment of publicationIds from TED: Initially incorrect publicationIds were assigned, which were subsequently replaced by the correct ones. __A corresponding update in DÖE is currently not possible for technical reasons.__| __Fixed by TED__ |
 | All validators | 28.05.2024 | 10/2024 | __BR-DE-23__: Validation process aborts if an announcement under _<cac:SubordinateAwardingCriterion>_ contains the tag _<efac:AwardCriterionParameter>_ twice. A __500 Internal Sever Error__ error is returned | __Fixed__ |
 
 
@@ -46,7 +47,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 The preview environment is only available between 06:00 and 20:00. Please also use the staging environment for testing purposes, which is available around the clock.
 
-On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted in staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
+On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted to staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
 
 ## Past maintenance windows or disruptions
 
