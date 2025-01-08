@@ -33,6 +33,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| Alle Services außer BKMS und TED | 07.01.2025 | 09.01.2025 | Es kann aktuell zu sporadischen App-Ausfällen kommen | In Arbeit |
 | Vermittlungsdienst Preview | 06.01.2025 | 08.01.2025 | Preview Umgebung ist nicht erreichbar | Behoben |
 | Vermittlungsdienst Preview | 26.11.2024 | 27.11.2024 | Preview Umgebung ist nicht erreichbar | Behoben |
 | TED Apps for eForms | 31.10.2024 | 05.11.2024 | Validierungsstörung: Es werden Formulare 16, 17 und 29 in eForms-SDK-1.7 Version bei der Validierung nicht richtig erkannt. Dies führt bei der Übermittlung zur Ablehnungen. __Die Bekanntmachungen können erneut übermittelt werden, indem die Versionsnummer unter <cbc:VersionID> entsprechend erhöht wird.__ | __Behoben seitens TED__ |
