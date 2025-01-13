@@ -24,16 +24,13 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion | TED Apps for eForms, einschließlich API-Schnitstellen | 31. Oktober 2024 | 07:00-09:00 | Angekündigt von TED: Die Anwendung und ihre API sind möglicherweise in dem gennanten Zeitraum nicht verfügbar |
-| Produktion | TED Apps for eForms | 03. September 2024 | 07:00-09:00 |Angekündigt von TED  |
-| Produktion | TED Apps for eForms | 05. September 2024 | 07:00-10:30 |Angekündigt von TED  |
-| Produktion | Alle Services des DÖE außer BKMS | 26-27 Oktober 2024 |  | Quartalswartungen (inkl. Zeitumstellung) |
+| Staging | Alle Apps des DÖE außer BKMS und TED | 16. Januar 2025 | 08:00-12:00 | Quartalswartungen: Im angegebenen Zeitraum stehen die Services nicht zur Verfügung |
 
 ## Bekannte Bugs und Störungen
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| Vermittlungsdienst Preview | 08.01.2025 | 09.01.2025 | Preview Umgebung ist nicht erreichbar | __In Arbeit__ |
+| Vermittlungsdienst Preview | 08.01.2025 | 14.01.2025 | Preview Umgebung ist nicht erreichbar | __In Arbeit__ |
 | Alle Services außer BKMS und TED | 07.01.2025 | 09.01.2025 | Es kann aktuell zu sporadischen App-Ausfällen kommen | __Behoben__ |
 | Vermittlungsdienst Preview | 06.01.2025 | 07.01.2025 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Vermittlungsdienst Preview | 26.11.2024 | 27.11.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
@@ -54,6 +51,10 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion | TED Apps for eForms, einschließlich API-Schnitstellen | 31. Oktober 2024 | 07:00-09:00 | Angekündigt von TED: Die Anwendung und ihre API sind möglicherweise in dem gennanten Zeitraum nicht verfügbar |
+| Produktion | Alle Services des DÖE außer BKMS | 26-27 Oktober 2024 |  | Quartalswartungen (inkl. Zeitumstellung) |
+| Produktion | TED Apps for eForms | 03. September 2024 | 07:00-09:00 |Angekündigt von TED  |
+| Produktion | TED Apps for eForms | 05. September 2024 | 07:00-10:30 |Angekündigt von TED  |
 | Produktion | TED Apps for eForms | 20. August 2024 | 07:00-09:00 CET |Angekündigt von TED  |
 | Produktion | Alle Services des DÖE außer BKMS (Staging) | 01.08.2024 |  | Technische Störung wegen Zertifikatserneuerung |
 | Produktion | Alle Services des DÖE außer BKMS | 27-28 Juli 2024 |  |Quartalswartungen |
