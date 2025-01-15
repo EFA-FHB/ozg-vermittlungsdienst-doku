@@ -30,7 +30,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| Vermittlungsdienst Preview | 08.01.2025 | 14.01.2025 | Preview Umgebung ist nicht erreichbar | __In Arbeit__ |
+| Vermittlungsdienst Preview | 08.01.2025 | 15.01.2025 | Preview Umgebung ist nicht erreichbar | __In Arbeit__ |
 | Alle Services außer BKMS und TED | 07.01.2025 | 09.01.2025 | Es kann aktuell zu sporadischen App-Ausfällen kommen | __Behoben__ |
 | Vermittlungsdienst Preview | 06.01.2025 | 07.01.2025 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Vermittlungsdienst Preview | 26.11.2024 | 27.11.2024 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
