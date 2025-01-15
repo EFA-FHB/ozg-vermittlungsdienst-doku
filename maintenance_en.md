@@ -28,9 +28,9 @@ To ensure smooth submission, please always observe the following aspects:
 
 ## Known bugs and malfunctions
 
-| System | available since | expected fix | error | status |
+| system | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| Vermittlungsdienst Preview | 08.01.2025 | 15.01.2025 | Preview environment is not accessible | __In progress__ |
+| Vermittlungsdienst Preview | 08.01.2025 | 17.01.2025 | Preview environment is not accessible | __In progress__ |
 | All services except BKMS and TED | 07.01.2025 | 09.01.2025 | There may currently be sporadic app failures | __Fixed__ |
 | Vermittlungsdienst Preview | 06.01.2025 | 07.01.2025 | Preview environment is not available | __Fixed__ |
 | Vermittlungsdienst Preview | 26.11.2024 | 27.11.2024 | Preview environment is not available | __Fixed__ |
