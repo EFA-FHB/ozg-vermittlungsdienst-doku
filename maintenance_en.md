@@ -18,7 +18,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 
 ## Notes for specialist procedure manufacturers
-- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support will take a closer look at the announcement and then, depending on the error message (e.g. 502 Gateway Timeout from TED or a content error as mentioned above, e.g. IssueDate incorrect), will either set it to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in case of a doe_status INTERNAL_ERROR.
+- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 Gateway Timeout from TED or an error in content as mentioned above, e.g. IssueDate incorrect), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in case of a doe_status INTERNAL_ERROR.
 
 ## Upcoming maintenance windows
 
@@ -28,9 +28,9 @@ To ensure smooth submission, please always observe the following aspects:
 
 ## Known bugs and malfunctions
 
-| system | available since | expected fix | error | status |
+| System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| Vermittlungsdienst Preview | 08.01.2025 | 17.01.2025 | Preview environment is not accessible | __In progress__ |
+| Vermittlungsdienst Preview | 08.01.2025 | 17.01.2025 | Preview environment is not accessible | __Fixed__ |
 | All services except BKMS and TED | 07.01.2025 | 09.01.2025 | There may currently be sporadic app failures | __Fixed__ |
 | Vermittlungsdienst Preview | 06.01.2025 | 07.01.2025 | Preview environment is not available | __Fixed__ |
 | Vermittlungsdienst Preview | 26.11.2024 | 27.11.2024 | Preview environment is not available | __Fixed__ |
