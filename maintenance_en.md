@@ -12,7 +12,7 @@ To ensure smooth submission, please always observe the following aspects:
 - The role **ted-esen** must NOT be used in notices, neither as org-role nor as org-sub-role.
 
 - The field **Preferred Publication Date BT-738 (RequestedPublicationDate)** can be set to the same date as the Notice Dispatch date or up to 2 days after the Notice Dispatch date according to the German standard. Please make sure to specify the same time zone for both values, as otherwise TED may reject the request in individual cases
-- The filling of the field **BT-165 Winner Size (Winner Size)** is currently not checked by the German rules. Please make sure that this field is filled correctly for the following Notice Types: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
+- The filling of the field **BT-165 Winner Size (Winner Size)** is currently not checked by the German rules. Please make sure that this field is filled correctly for the following notice types: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
 - To fill in the **BT-501 identification number (of the organization)**, please refer to the notes on the routing ID in our FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
 - If your system no longer automatically updates the announcement status after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
 
@@ -30,7 +30,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 | System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| DÖE Preview and Staging | 21.01.2025 | 24.01.2025 | Delivery on the test environments is currently not possible due to a faulty API integration | __Fixed__ |
+| DÖE Preview and Staging | 21.01.2025 | 23.01.2025 | Delivery on the test environments is currently not possible due to a faulty API integration | __Fixed__ |
 | Vermittlungsdienst Preview | 08.01.2025 | 17.01.2025 | Preview environment is not available | __Fixed__ |
 | All services except BKMS and TED | 07.01.2025 | 09.01.2025 | There may currently be sporadic app failures | __Fixed__ |
 | Vermittlungsdienst Preview | 06.01.2025 | 07.01.2025 | Preview environment is not available | __Fixed__ |
