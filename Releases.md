@@ -3,6 +3,8 @@
 
 <br />
 
+- Februar 2025
+  - [Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer](#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer)
 - Dezember 2024
   - [Hotfix Release für alle Validatoren und für den SSP-Portal](#Hotfix-Release-für-alle-Validatoren-und-für-den-SSP-Portal)
 - November 2024
@@ -43,6 +45,27 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer></a>
+## Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview | 11.02 - 14.12.2024 | In Arbeit |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Alle Validatoren
+- Der erster Release-Kandidat - [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) wurde impelementiert
+
+### Vermittlungsdienst
+- Unterstützung von eForms-DE v2.1 wurde implementiert
+
+### Notice-Viewer
+- Der erster Release-Kandidat - SDK-DE 1.13.RC1 wurde impelementiert
+  
+</details>
 
 <a id=Hotfix-Release-für-alle-Validatoren-und-für-den-SSP-Portal></a>
 ## Hotfix Release für alle Validatoren und für den SSP-Portal
