@@ -57,13 +57,13 @@ Status: In QS <br>
 <summary>Release Notes</summary>
 
 ### Alle Validatoren
-- Der erster Release-Kandidat - [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) wurde impelementiert
+- Der erster Release-Kandidat des [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) wurde impelementiert
 
 ### Vermittlungsdienst
 - Unterstützung von eForms-DE v2.1 wurde implementiert
 
 ### Notice-Viewer
-- Der erster Release-Kandidat - SDK-DE 1.13.RC1 wurde impelementiert
+- Der erster Release-Kandidat des SDK-DE 1.13.RC1 wurde impelementiert
   
 </details>
 
