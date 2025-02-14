@@ -3,8 +3,10 @@
 
 <br />
 
+- February 2025
+  - [Preview release for the Vermittlungsdienst, all validators and the notice viewer](#preview-release-for-the-vermittlungsdienst-all-validators-and-the-notice-viewer)
 - December 2024
-  - Hotfix release for all validators and for the SSP portal](#Hotfix-release-for-all-validators-and-for-the-SSP-portal)
+  - [Hotfix release for all validators and for the SSP portal](#hotfix-release-for-all-validators-and-for-the-SSP-portal)
 - November 2024
   - [Release for the Vermittlungsdienst, eSender-Hub, Notice-Viewer and the Validator](#Release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-Validator)
 - July 2024
@@ -44,6 +46,27 @@
 
 <br />
 
+<a id=#preview-release-may-preview-release-for-the-validator-&-validator-webservice</a>
+## Preview release for the Vermittlungsdienst, all validators and the Notice Viewer
+| Environment | Period | Status |
+|------------|-----------------------------|----------------|
+| Preview | 11.02 - 14.12.2024 | In progress |
+
+Status: In QA <br>
+<details>
+<summary>Release notes</summary>
+
+### All validators
+- The first release candidate - [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) has been implemented
+
+### Vermittlungsdienst
+- Support for eForms-DE v2.1 has been implemented
+
+### Notice viewer
+- The first release candidate - SDK-DE 1.13.RC1 has been implemented
+  
+</details>
+
 <a id=Hotfix-release-for-all-validators-and-for-the-SSP-portal></a>
 ## Hotfix release for all validators and for the SSP portal
 | Environment | Timeframe | Status |
@@ -74,7 +97,7 @@ Status: Published on 12.12.2024 <br>
 
 > **IMPORTANT** <br>
  - The obsolete POST endpoint /view in the viewer will no longer be available in all environments from 10.10.2024.
- - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in January 2025.
+ - Please note, the new parameter 'publishToTed' is currently without function. A full implementation is expected in January 2025.
 
 Status: Published <br>
 <details>
@@ -426,7 +449,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented when BKMS does not respond
+- Retry delivery is now implemented if BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
@@ -547,7 +570,7 @@ Status: Published on 20.10.2023 <br>
 |------------|-----------------------------|----------------|
 | Preview | Documentation + registration form: **KW38** , status overview: **KW39** | published |
 | Staging | Documentation + registration form: **KW39** , Status overview: **KW40** | published |
-| production | documentation + registration form: **KW40** , status overview **KW41** | published |
+| production | documentation + registration form: **KW40** , Status overview **KW41** | published |
 
 Status: Published on 4.10.2023 <br>
 <details>
