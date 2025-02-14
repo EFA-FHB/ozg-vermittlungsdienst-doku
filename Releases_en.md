@@ -57,18 +57,15 @@ Status: In QA <br>
 <details>
 <summary>Release notes</summary>
 
-  ### All validators
-- The first release candidate of [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) has been implemented
+  ### All validators and notice viewers
+- The first release candidate of the [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) has been implemented
 
 ### Vermittlungsdienst
 - Support for eForms-DE v2.1 has been implemented
-
-### Notice viewer
-- The first release candidate of SDK-DE 1.13.RC1 has been implemented
   
 </details>
 
-<a id=Hotfix-release-for-all-validators-and-for-the-SSP-portal></a>
+<a id=Hotfix-release-for-all-validators-and-for-the-SSP-Portal></a>
 ## Hotfix release for all validators and for the SSP portal
 | Environment | Timeframe | Status |
 |------------|-----------------------------|----------------|
@@ -98,7 +95,7 @@ Status: Published on 12.12.2024 <br>
 
 > **IMPORTANT** <br>
  - The obsolete POST endpoint /view in the viewer will no longer be available in all environments from 10.10.2024.
- - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in January 2025.
+ - Please note, the new parameter 'publishToTed' is currently without function. A full implementation is expected in January 2025.
 
 Status: Published <br>
 <details>
@@ -159,7 +156,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -381,7 +378,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
@@ -680,7 +677,7 @@ https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
 <a id=Production-Release-June-Mediation-Service-&-eSender-Hub></a>
-## Production Release June - Vermittlungsdienst & eSender Hub
+## Production Release June - Vermittlungsdienst & eSender-Hub
 Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
