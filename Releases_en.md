@@ -4,7 +4,8 @@
 <br />
 
 - February 2025
-  - [Preview release for the Vermittlungsdienst, all validators and the notice viewer](#preview-release-for-the-vermittlungsdienst-all-validators-and-the-notice-viewer)
+  - [Hotfix release for all validators and for the notice viewer](#hotfix-release-for-all-validators-and-for-the-notice-viewer)
+  - [Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
 - December 2024
   - [Hotfix release for all validators and for the SSP portal](#hotfix-release-for-all-validators-and-for-the-SSP-portal)
 - November 2024
@@ -26,7 +27,7 @@
   - Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - December 2023
   - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
-  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - November 2023
   - Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
   - Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
@@ -46,7 +47,22 @@
 
 <br />
 
-<a id=#preview-release-may-preview-release-for-the-validator-&-validator-webservice</a>
+<a id=Hotfix-release-for-all-validators-as-well-as-for-the-voice-viewer></a>
+## Hotfix release for all validators and for the notice viewer
+| Environment | Period | Status |
+|------------|-----------------------------|----------------|
+| Preview | 02/18/2025 | In progress |
+| Staging | 02/18/2025 | In progress |
+| Production | 02/18/2025 | In progress |
+
+Status: In QA <br>
+<details>
+<summary>Release notes</summary>
+  
+### All validators and notice viewers
+- The [SDK-DE 1.12.3](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.3) patch has been implemented
+
+<a id=#preview-release-for-the-mediation-service-all-validators-and-notice-viewer></a>
 ## Preview release for the Vermittlungsdienst, all validators and the Notice Viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -156,7 +172,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -378,7 +394,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
@@ -626,7 +642,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering notices that have already been submitted using the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
@@ -677,7 +693,7 @@ https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
 <a id=Production-Release-June-Mediation-Service-&-eSender-Hub></a>
-## Production Release June - Vermittlungsdienst & eSender-Hub
+## Production Release June - Vermittlungsdienst & eSender Hub
 Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
