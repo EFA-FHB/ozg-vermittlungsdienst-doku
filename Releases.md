@@ -4,6 +4,7 @@
 <br />
 
 - Februar 2025
+  - [Hotfix Release für alle Validatoren sowie für den Notice-Viewer](#Hotfix-Release-für-alle-Validatoren-sowie-für-den-Noice-Viewer)
   - [Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer](#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer)
 - Dezember 2024
   - [Hotfix Release für alle Validatoren und für den SSP-Portal](#Hotfix-Release-für-alle-Validatoren-und-für-den-SSP-Portal)
@@ -45,6 +46,21 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Hotfix-Release-für-alle-Validatoren-sowie-für-den-Noice-Viewer></a>
+## Hotfix Release für alle Validatoren sowie für den Notice-Viewer
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview | 18.02.2025 | In Arbeit |
+| Staging | 18.02.2025 | In Arbeit |
+| Produktion | 18.02.2025 | In Arbeit |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+  
+### Alle Validatoren und Notice-Viewer
+- Das Patch des [SDK-DE 1.12.3](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.3) wurde impelementiert
 
 <a id=#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer></a>
 ## Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer
