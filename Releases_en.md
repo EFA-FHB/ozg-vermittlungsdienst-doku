@@ -35,7 +35,7 @@
   - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
   - Release for self-service portal, registration form for a separate Vermittlungsdienst account](#Release-for-self-service-portal,-registration-form-for-a-separate- Vermittlungsdienst-account)
 - September 2023
-  - [Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
+  - Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
   - Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
 - August 2023
   - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
@@ -53,11 +53,12 @@
 | Preview | 11.02 - 14.12.2024 | In progress |
 
 Status: In QA <br>
+
 <details>
 <summary>Release notes</summary>
 
-### All validators
-- The first release candidate of the [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) has been implemented
+  ### All validators
+- The first release candidate of [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) has been implemented
 
 ### Vermittlungsdienst
 - Support for eForms-DE v2.1 has been implemented
@@ -679,7 +680,7 @@ https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
 <a id=Production-Release-June-Mediation-Service-&-eSender-Hub></a>
-## Production Release June - Vermittlungsdienst & eSender-Hub
+## Production Release June - Vermittlungsdienst & eSender Hub
 Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
