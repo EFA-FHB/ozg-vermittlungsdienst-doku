@@ -56,15 +56,18 @@
 
 > **IMPORTANT** <br>
  - The preview environment will not be provided as it will be equipped with the SDK-DE 1.13 RC1 version.
- 
+
 Status: In QA <br>
+
 <details>
 <summary>Release Notes</summary>
   
 ### All validators and notice viewers
 - The [SDK-DE 1.12.3](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.3) patch has been implemented
 
-<a id=#preview-release-for-the-mediation-service-all-validators-and-notice-viewer></a>
+</details>
+
+<a id=#preview-release-for-all-validators-and-the-notice-viewer- for-the-Mediation-Service></a>
 ## Preview release for the Vermittlungsdienst, all validators and the Notice Viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -78,7 +81,7 @@ Status: In QA <br>
 <details>
 <summary>Release Notes</summary>
 
-  ### All validators and notice viewers
+### All validators and notice viewers
 - The first release candidate of the [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) has been implemented
 
 ### Vermittlungsdienst
@@ -116,7 +119,7 @@ Status: Published on 12.12.2024 <br>
 
 > **IMPORTANT** <br>
  - The obsolete POST endpoint /view in the viewer will no longer be available in all environments from 10.10.2024.
- - Please note, the new parameter 'publishToTed' is currently without function. A full implementation is expected in January 2025.
+ - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in January 2025.
 
 Status: Published <br>
 <details>
@@ -375,7 +378,7 @@ Status: Published on 31.01.2024<br>
   - Improved display of error messages;
   - Display of the sender of the notice;
   - Display and filtering of change notices in the notice table;
-  - Display of the assigned VD user to a dashboard user;
+  - Display of the VD user assigned to a dashboard user;
   - Copying IDs in the notice table is now possible;
   - Registered user type is now displayed;
   - Users not confirmed by e-mail are now marked accordingly;
@@ -399,7 +402,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
@@ -468,7 +471,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented when BKMS does not respond
+- Retry delivery is now implemented if BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
@@ -605,7 +608,7 @@ Status: Published on 4.10.2023 <br>
 - Full documentation in the portal incl. releases and maintenance pages
 - Registration form for requesting new Vermittlungsdienst accounts
   1. create a new portal account
-  2. fill in the registration form for a separate Vermittlungsdienst account
+  2. filling out the registration form for a separate Vermittlungsdienst account
 
 ### Feature Status overview of announcements
 - Status overview of all notices submitted for Vermittlungsdienst accounts
@@ -647,7 +650,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering notices that have already been submitted using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
