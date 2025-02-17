@@ -74,6 +74,7 @@ Status: In QS <br>
 | Preview | 11.02 - 14.12.2024 | In Arbeit |
 
 > **WICHTIG** <br>
+ - Der Bekanntmachungsservice wird ab Mitte März Bekanntmachungen im eForms-DE v2.1-Format auf der Preview(Alpha)-Umgebung annehmen.
  - Die Umsetzung mit der SDK-DE 1.13 RC1-Version wird ausschließlich zu Testzwecken in der Preview-Umgebung bereitgestellt.
 
 Status: In QS <br>
