@@ -51,10 +51,12 @@
 ## Hotfix Release für alle Validatoren sowie für den Notice-Viewer
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview | 18.02.2025 | In Arbeit |
-| Staging | 18.02.2025 | In Arbeit |
+| Staging | 17.02.2025 | In Arbeit |
 | Produktion | 18.02.2025 | In Arbeit |
 
+> **WICHTIG** <br>
+ - Die Preview-Umgebung wird nicht bereitgestellt, da sie mit der SDK-DE 1.13 RC1-Version ausgestattet wird.
+ 
 Status: In QS <br>
 <details>
 <summary>Release Notes</summary>
@@ -67,6 +69,9 @@ Status: In QS <br>
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview | 11.02 - 14.12.2024 | In Arbeit |
+
+> **WICHTIG** <br>
+ - Die Umsetzung mit der SDK-DE 1.13 RC1-Version wird ausschließlich zu Testzwecken in der Preview-Umgebung bereitgestellt.
 
 Status: In QS <br>
 
