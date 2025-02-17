@@ -5,7 +5,7 @@
 
 - February 2025
   - [Hotfix release for all validators and for the notice viewer](#hotfix-release-for-all-validators-and-for-the-notice-viewer)
-  - [Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
+  - Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
 - December 2024
   - [Hotfix release for all validators and for the SSP portal](#hotfix-release-for-all-validators-and-for-the-SSP-portal)
 - November 2024
@@ -51,13 +51,15 @@
 ## Hotfix release for all validators and for the notice viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
-| Preview | 02/18/2025 | In progress |
-| Staging | 02/18/2025 | In progress |
+| Staging | 02/17/2025 | In progress |
 | Production | 02/18/2025 | In progress |
 
+> **IMPORTANT** <br>
+ - The preview environment will not be provided as it will be equipped with the SDK-DE 1.13 RC1 version.
+ 
 Status: In QA <br>
 <details>
-<summary>Release notes</summary>
+<summary>Release Notes</summary>
   
 ### All validators and notice viewers
 - The [SDK-DE 1.12.3](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.3) patch has been implemented
@@ -68,10 +70,13 @@ Status: In QA <br>
 |------------|-----------------------------|----------------|
 | Preview | 11.02 - 14.12.2024 | In progress |
 
+> **IMPORTANT** <br>
+ - The implementation with the SDK-DE 1.13 RC1 version is provided exclusively for testing purposes in the preview environment.
+
 Status: In QA <br>
 
 <details>
-<summary>Release notes</summary>
+<summary>Release Notes</summary>
 
   ### All validators and notice viewers
 - The first release candidate of the [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) has been implemented
@@ -394,7 +399,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
@@ -693,7 +698,7 @@ https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
 <a id=Production-Release-June-Mediation-Service-&-eSender-Hub></a>
-## Production Release June - Vermittlungsdienst & eSender Hub
+## Production Release June - Vermittlungsdienst & eSender-Hub
 Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
