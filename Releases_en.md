@@ -74,7 +74,8 @@ Status: In QA <br>
 | Preview | 11.02 - 14.12.2024 | In progress |
 
 > **IMPORTANT** <br>
- - The implementation with the SDK-DE 1.13 RC1 version is provided exclusively for testing purposes in the preview environment.
+ - The announcement service will accept announcements in eForms-DE v2.1 format on the preview (alpha) environment from mid-March.
+ - The implementation with the SDK-DE 1.13 RC1 version will be provided exclusively for testing purposes in the preview environment.
 
 Status: In QA <br>
 
@@ -378,7 +379,7 @@ Status: Published on 31.01.2024<br>
   - Improved display of error messages;
   - Display of the sender of the notice;
   - Display and filtering of change notices in the notice table;
-  - Display of the VD user assigned to a dashboard user;
+  - Display of the assigned VD user to a dashboard user;
   - Copying IDs in the notice table is now possible;
   - Registered user type is now displayed;
   - Users not confirmed by e-mail are now marked accordingly;
@@ -471,7 +472,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented if BKMS does not respond
+- Retry delivery is now implemented when BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
@@ -592,7 +593,7 @@ Status: Published on 20.10.2023 <br>
 |------------|-----------------------------|----------------|
 | Preview | Documentation + registration form: **KW38** , status overview: **KW39** | published |
 | Staging | Documentation + registration form: **KW39** , Status overview: **KW40** | published |
-| production | documentation + registration form: **KW40** , Status overview **KW41** | published |
+| production | documentation + registration form: **KW40** , status overview **KW41** | published |
 
 Status: Published on 4.10.2023 <br>
 <details>
@@ -608,7 +609,7 @@ Status: Published on 4.10.2023 <br>
 - Full documentation in the portal incl. releases and maintenance pages
 - Registration form for requesting new Vermittlungsdienst accounts
   1. create a new portal account
-  2. filling out the registration form for a separate Vermittlungsdienst account
+  2. fill in the registration form for a separate Vermittlungsdienst account
 
 ### Feature Status overview of announcements
 - Status overview of all notices submitted for Vermittlungsdienst accounts
