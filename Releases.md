@@ -56,13 +56,16 @@
 
 > **WICHTIG** <br>
  - Die Preview-Umgebung wird nicht bereitgestellt, da sie mit der SDK-DE 1.13 RC1-Version ausgestattet wird.
- 
+
 Status: In QS <br>
+
 <details>
 <summary>Release Notes</summary>
   
 ### Alle Validatoren und Notice-Viewer
 - Das Patch des [SDK-DE 1.12.3](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.3) wurde impelementiert
+
+</details>
 
 <a id=#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer></a>
 ## Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer
@@ -78,7 +81,7 @@ Status: In QS <br>
 <details>
 <summary>Release Notes</summary>
 
-  ### Alle Validatoren und Notice-Viewer
+### Alle Validatoren und Notice-Viewer
 - Der erste Release-Kandidat des [SDK-DE 1.13.RC1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.RC1) wurde impelementiert
 
 ### Vermittlungsdienst
