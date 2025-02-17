@@ -5,7 +5,7 @@
 
 - February 2025
   - [Hotfix release for all validators and for the notice viewer](#hotfix-release-for-all-validators-and-for-the-notice-viewer)
-  - Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
+  - [Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
 - December 2024
   - [Hotfix release for all validators and for the SSP portal](#hotfix-release-for-all-validators-and-for-the-SSP-portal)
 - November 2024
@@ -27,7 +27,7 @@
   - Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - December 2023
   - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
-  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - November 2023
   - Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
   - Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
@@ -51,13 +51,13 @@
 ## Hotfix release for all validators and for the notice viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
-| Staging | 02/17/2025 | In progress |
-| Production | 02/18/2025 | In progress |
+| Staging | 02/17/2025 | Published |
+| Production | 02/18/2025 | Published |
 
 > **IMPORTANT** <br>
  - The preview environment will not be provided as it will be equipped with the SDK-DE 1.13 RC1 version.
 
-Status: In QA <br>
+Status: Published on 02/18/2025 <br>
 
 <details>
 <summary>Release Notes</summary>
@@ -73,8 +73,7 @@ Status: In QA <br>
 |------------|-----------------------------|----------------|
 | Preview | 11.02 - 14.12.2024 | In progress |
 
-> **IMPORTANT** <br>
- - The announcement service will accept announcements in eForms-DE v2.1 format on the preview (alpha) environment from mid-March.
+**IMPORTANT** <br>The announcement service is expected to accept announcements in eForms-DE v2.1 format in the preview (alpha) environment from March 17.
  - The implementation with the SDK-DE 1.13 RC1 version will be provided exclusively for testing purposes in the preview environment.
 
 Status: In QA <br>
@@ -651,7 +650,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering notices that have already been submitted using the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
