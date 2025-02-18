@@ -30,6 +30,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | System       | vorhanden seit      | voraussichtliche Behebung   | Fehler           | Status           |
 |--------------|--------------------------|-----------------------------|---------------------|----|
+| DÖE Staging | 18.01.2025 | 18.01.2025 | Die Lieferung der Testbekanntmachungen ist derzeit aufgrund einer gestörten API-Integration nicht möglich | __In Arbeit__ |
 | DÖE Preview und Staging | 21.01.2025 | 23.01.2025 | Die Lieferung auf den Testumgebungen ist derzeit aufgrund einer gestörten API-Integration nicht möglich | __Behoben__ |
 | Vermittlungsdienst Preview | 08.01.2025 | 17.01.2025 | Preview Umgebung ist nicht erreichbar | __Behoben__ |
 | Alle Services außer BKMS und TED | 07.01.2025 | 09.01.2025 | Es kann aktuell zu sporadischen App-Ausfällen kommen | __Behoben__ |
