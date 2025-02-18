@@ -71,12 +71,12 @@ Status: Veröffentlicht am 18.02.2025 <br>
 ## Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview | 11.02 - 14.12.2024 | In Arbeit |
+| Preview | 11.02 - 14.12.2024 | Veröffentlicht |
 
 > **WICHTIG** <br>Der Bekanntmachungsservice wird voraussichtlich ab dem 17. März Bekanntmachungen im eForms-DE v2.1-Format in der Preview (Alpha)-Umgebung annehmen.
  - Die Umsetzung mit der SDK-DE 1.13 RC1-Version wird ausschließlich zu Testzwecken in der Preview-Umgebung bereitgestellt.
 
-Status: In QS <br>
+Status: Veröffentlicht am 17.02.2025 <br>
 
 <details>
 <summary>Release Notes</summary>
