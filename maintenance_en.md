@@ -28,9 +28,9 @@ To ensure smooth submission, please always observe the following aspects:
 
 ## Known bugs and malfunctions
 
-| system | available since | expected fix | error | status |
+| System | available since | expected fix | error | status |
 |--------------|--------------------------|-----------------------------|---------------------|----|
-| DÖE Staging | 18.01.2025 | 18.01.2025 | The delivery of test announcements is currently not possible due to a faulty API integration | __In progress__ |
+| DÖE Staging | 18.02.2025 | 18.02.2025 | The delivery of test announcements is currently not possible due to a faulty API integration | __In progress__ |
 | DÖE Preview and Staging | 21.01.2025 | 23.01.2025 | Delivery to the test environments is currently not possible due to a faulty API integration | __Fixed__ |
 | Vermittlungsdienst Preview | 08.01.2025 | 17.01.2025 | Preview environment is not available | __Fixed__ |
 | All services except BKMS and TED | 07.01.2025 | 09.01.2025 | There may currently be sporadic app failures | __Fixed__ |
