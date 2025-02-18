@@ -5,7 +5,7 @@
 
 - February 2025
   - [Hotfix release for all validators and for the notice viewer](#hotfix-release-for-all-validators-and-for-the-notice-viewer)
-  - [Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
+  - Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
 - December 2024
   - [Hotfix release for all validators and for the SSP portal](#hotfix-release-for-all-validators-and-for-the-SSP-portal)
 - November 2024
@@ -71,12 +71,12 @@ Status: Published on 02/18/2025 <br>
 ## Preview release for the Vermittlungsdienst, all validators and the Notice Viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
-| Preview | 11.02 - 14.12.2024 | In progress |
+| Preview | 11.02 - 14.12.2024 | Published |
 
 **IMPORTANT** <br>The announcement service is expected to accept announcements in eForms-DE v2.1 format in the preview (alpha) environment from March 17.
  - The implementation with the SDK-DE 1.13 RC1 version will be provided exclusively for testing purposes in the preview environment.
 
-Status: In QA <br>
+Status: Published on 17.02.2025 <br>
 
 <details>
 <summary>Release Notes</summary>
@@ -592,7 +592,7 @@ Status: Published on 20.10.2023 <br>
 |------------|-----------------------------|----------------|
 | Preview | Documentation + registration form: **KW38** , status overview: **KW39** | published |
 | Staging | Documentation + registration form: **KW39** , Status overview: **KW40** | published |
-| production | documentation + registration form: **KW40** , status overview **KW41** | published |
+| production | documentation + registration form: **KW40** , Status overview **KW41** | published |
 
 Status: Published on 4.10.2023 <br>
 <details>
@@ -650,7 +650,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering notices that have already been submitted using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
