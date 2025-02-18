@@ -73,7 +73,7 @@ Status: Veröffentlicht am 18.02.2025 <br>
 |------------|-----------------------------|----------------|
 | Preview | 11.02 - 14.12.2024 | Veröffentlicht |
 
-> **WICHTIG** <br>Der Bekanntmachungsservice wird voraussichtlich ab dem 17. März Bekanntmachungen im eForms-DE v2.1-Format in der Preview (Alpha)-Umgebung annehmen.
+> **WICHTIG** <br>Der Bekanntmachungsservice wird voraussichtlich ab dem 17. März Bekanntmachungen im eForms-DE v2.1-Version in der Preview (Alpha)-Umgebung annehmen.
  - Die Umsetzung mit der SDK-DE 1.13 RC1-Version wird ausschließlich zu Testzwecken in der Preview-Umgebung bereitgestellt.
 
 Status: Veröffentlicht am 17.02.2025 <br>
