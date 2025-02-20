@@ -5,7 +5,7 @@
 
 - February 2025
   - [Hotfix release for all validators and for the notice viewer](#hotfix-release-for-all-validators-and-for-the-notice-viewer)
-  - [Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
+  - Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
 - December 2024
   - [Hotfix release for all validators and for the SSP portal](#hotfix-release-for-all-validators-and-for-the-SSP-portal)
 - November 2024
@@ -27,7 +27,7 @@
   - Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - December 2023
   - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
-  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - November 2023
   - Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
   - Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
@@ -67,13 +67,14 @@ Status: Published on 02/18/2025 <br>
 
 </details>
 
-<a id=#preview-release-for-the-vendor-service-all-validators-and-notice-viewer></a>
+<a id=#preview-release-for-all-validators-and-the-notice-viewer- for-the-Mediation-Service></a>
 ## Preview release for the Vermittlungsdienst, all validators and the Notice Viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 11.02 - 14.12.2024 | Published |
 
-**IMPORTANT** <br>The announcement service is expected to accept announcements in the eForms-DE v2.1 version in the preview (alpha) environment from March 17.
+> **IMPORTANT** <br>
+ - The announcement service is expected to accept announcements in the eForms-DE v2.1 version in the preview (alpha) environment from March 17.
  - The implementation with the SDK-DE 1.13 RC1 version will be provided exclusively for testing purposes in the preview environment.
 
 Status: Published on 17.02.2025 <br>
@@ -109,7 +110,7 @@ Status: Published on 12.12.2024 <br>
   
 </details>
 
-<a id=release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-validator></a>
+<a id=release-for-the-Mediation-Service,-eSender-Hub,-notice-viewer-and-the-validator></a>
 ## Release for the Vermittlungsdienst, eSender-Hub, Notice-Viewer and the Validator
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -119,7 +120,7 @@ Status: Published on 12.12.2024 <br>
 
 > **IMPORTANT** <br>
  - The obsolete POST endpoint /view in the viewer will no longer be available in all environments from 10.10.2024.
- - Please note, the new parameter 'publishToTed' is currently without function. A full implementation is expected in January 2025.
+ - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in January 2025.
 
 Status: Published <br>
 <details>
@@ -180,7 +181,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -378,7 +379,7 @@ Status: Published on 31.01.2024<br>
   - Improved display of error messages;
   - Display of the sender of the notice;
   - Display and filtering of change notices in the notice table;
-  - Display of the assigned VD user to a dashboard user;
+  - Display of the VD user assigned to a dashboard user;
   - Copying IDs in the notice table is now possible;
   - Registered user type is now displayed;
   - Users not confirmed by e-mail are now marked accordingly;
@@ -402,7 +403,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
@@ -592,7 +593,7 @@ Status: Published on 20.10.2023 <br>
 |------------|-----------------------------|----------------|
 | Preview | Documentation + registration form: **KW38** , status overview: **KW39** | published |
 | Staging | Documentation + registration form: **KW39** , Status overview: **KW40** | published |
-| production | documentation + registration form: **KW40** , Status overview **KW41** | published |
+| production | documentation + registration form: **KW40** , status overview **KW41** | published |
 
 Status: Published on 4.10.2023 <br>
 <details>
