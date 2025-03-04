@@ -25,7 +25,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
 | Staging, Preview und Alpha | DÖE inkl. BKMS | 05. März 2025 | 10:00-18:00 |Wartungsarbeiten: Im angegebenen Zeitraum kann es zu Störungen bei der Einlieferung und den Status-Updates kommen |
-| Produktion und Staging | DÖE inkl. BKMS | 13. und 14. März 2025 | 08:00-17:00 | Wartungsarbeiten: Im angegebenen Zeitraum kann es zur Verzögerungen bei der Einliefrung und den Status-Updates kommen |
+| Produktion und Staging | DÖE inkl. BKMS | 13. und 14. März 2025 | 08:00-17:00 | Wartungsarbeiten: Im angegebenen Zeitraum kann es zur Verzögerungen bei der Einliefrung an den BKMS und den Status-Updates kommen |
 
 ## Bekannte Bugs und Störungen
 
