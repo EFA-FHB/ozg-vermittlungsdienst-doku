@@ -24,7 +24,8 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion und Staging | Alle TED Apps für eForms, einschließlich API-Schnitstellen | 12. Februar 2025 | 07:00-09:00 | Quartalswartungen: Im angegebenen Zeitraum stehen die Services nicht zur Verfügung |
+| Staging, Preview und Alpha | DÖE inkl. BKMS | 05. März 2025 | 10:00-18:00 |Wartungsarbeiten: Im angegebenen Zeitraum kann es zu Störungen bei der Einlieferung und den Status-Updates kommen |
+| Produktion und Staging | DÖE inkl. BKMS | 13-14 März 2025 | 08:00-17:00 | Wartungsarbeiten: Im angegebenen Zeitraum kann es zur Verzögerungen bei der Einliefrung und den Status-Updates kommen |
 
 ## Bekannte Bugs und Störungen
 
@@ -53,6 +54,7 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion und Staging | Alle TED Apps für eForms, einschließlich API-Schnitstellen | 12. Februar 2025 | 07:00-09:00 | Quartalswartungen: Im angegebenen Zeitraum stehen die Services nicht zur Verfügung |
 | Staging | Alle Apps des DÖE außer BKMS und TED | 16. Januar 2025 | 08:00-12:00 | Quartalswartungen: Im angegebenen Zeitraum stehen die Services nicht zur Verfügung |
 | Produktion | TED Apps for eForms, einschließlich API-Schnitstellen | 31. Oktober 2024 | 07:00-09:00 | Angekündigt von TED: Die Anwendung und ihre API sind möglicherweise in dem gennanten Zeitraum nicht verfügbar |
 | Produktion | Alle Services des DÖE außer BKMS | 26-27 Oktober 2024 |  | Quartalswartungen (inkl. Zeitumstellung) |
