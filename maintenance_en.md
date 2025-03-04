@@ -25,7 +25,7 @@ To ensure smooth submission, please always observe the following aspects:
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
 | Staging, Preview and Alpha | DÖE incl. BKMS | March 06, 2025 | 10:00-18:00 | Maintenance work: During the specified period, there may be disruptions to delivery and status updates |
-| Production and staging | DÖE incl. BKMS | March 13 and 14, 2025 | 08:00-17:00 | Maintenance work: During the specified period, there may be delays in delivery to the BKMS and status updates |
+| Production and staging | DÖE incl. BKMS | March 13 and 14, 2025 | 08:00-17:00 | Maintenance work: During the specified period, there may be delays in forwarding to the BKMS and status updates |
 
 ## Known bugs and malfunctions
 
