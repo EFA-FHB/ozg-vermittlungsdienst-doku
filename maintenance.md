@@ -24,7 +24,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Staging, Preview und Alpha | DÖE inkl. BKMS | 06. März 2025 | 07:00-17:00 |Wartungsarbeiten: Im angegebenen Zeitraum kann es zu Störungen bei der Einlieferung und den Status-Updates kommen. Alle angenommenen Bekanntmachungen werden anschließend weitergeleitet |
+| Staging, Preview und Alpha | DÖE inkl. BKMS | 06. März 2025 | 07:00-17:00 |Wartungsarbeiten: Im angegebenen Zeitraum kann es zu Störungen bei der Weiterleitung an den BKMS und den Status-Updates kommen. Alle angenommenen Bekanntmachungen werden anschließend weitergeleitet |
 | Produktion und Staging | DÖE inkl. BKMS | 13. und 14. März 2025 | 07:00-17:00 | Wartungsarbeiten: Im angegebenen Zeitraum kann es zur Verzögerungen bei der Weiterleitung an den BKMS und den Status-Updates kommen. Alle angenommenen Bekanntmachungen werden anschließend weitergeleitet |
 
 ## Bekannte Bugs und Störungen
