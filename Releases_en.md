@@ -4,8 +4,9 @@
 <br />
 
 - February 2025
-  - [Hotfix release for all validators and for the notice viewer](#hotfix-release-for-all-validators-and-for-the-notice-viewer)
-  - Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
+  - Hotfix release for all validators](#Hotfix-release-for-all-validators)
+  - [Hotfix release for all validators and for the Notice Viewer](#Hotfix-release-for-all-validators-and-for-the-notice-viewer)
+  - [Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungsdienst-all-validators-and-the-notice-viewer)
 - December 2024
   - [Hotfix release for all validators and for the SSP portal](#hotfix-release-for-all-validators-and-for-the-SSP-portal)
 - November 2024
@@ -47,17 +48,37 @@
 
 <br />
 
-<a id=Hotfix-release-for-all-validators-as-well-as-for-the-voice-viewer></a>
-## Hotfix release for all validators and for the notice viewer
+<a id=Hotfix-release-for-all-validators></a>
+## Hotfix release for all validators
+| environment | period | status |
+|------------|-----------------------------|----------------|
+| Staging | 05.03.2025 | Published |
+| Production | 07.03.2025 | In progress |
+
+> **IMPORTANT** <br>
+> - The preview environment is not provided as it is currently equipped with the SDK-DE 1.13 RC1 version.
+
+Status: In QA <br>
+
+<details>
+<summary>Release Notes</summary>
+  
+### All validators
+- The [SDK-DE 1.12.4](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.4) patch has been implemented
+
+</details>
+
+<a id=Hotfix-release-for-all-validators-as-well-as-for-the-notice-viewer></a>
+## Hotfix release for all validators and for the Notice Viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
 | Staging | 02/17/2025 | Published |
 | Production | 02/18/2025 | Published |
 
 > **IMPORTANT** <br>
- - The preview environment will not be provided as it will be equipped with the SDK-DE 1.13 RC1 version.
+> - The preview environment will not be provided as it will be equipped with the SDK-DE 1.13 RC1 version.
 
-Status: Published on 02/18/2025 <br>
+Status: Published on 18.02.2025 <br>
 
 <details>
 <summary>Release Notes</summary>
@@ -74,8 +95,8 @@ Status: Published on 02/18/2025 <br>
 | Preview | 11.02 - 14.12.2024 | Published |
 
 > **IMPORTANT** <br>
- - The announcement service is expected to accept announcements in the eForms-DE v2.1 version in the preview (alpha) environment from March 17.
- - The implementation with the SDK-DE 1.13 RC1 version will be provided exclusively for testing purposes in the preview environment.
+> - The announcement service is expected to accept announcements in the eForms-DE v2.1 version in the preview (alpha) environment from March 17.
+> - The implementation with the SDK-DE 1.13 RC1 version is provided exclusively for testing purposes in the preview environment.
 
 Status: Published on 17.02.2025 <br>
 
@@ -110,7 +131,7 @@ Status: Published on 12.12.2024 <br>
   
 </details>
 
-<a id=release-for-the-Mediation-Service,-eSender-Hub,-notice-viewer-and-the-validator></a>
+<a id=release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-validator></a>
 ## Release for the Vermittlungsdienst, eSender-Hub, Notice-Viewer and the Validator
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -379,7 +400,7 @@ Status: Published on 31.01.2024<br>
   - Improved display of error messages;
   - Display of the sender of the notice;
   - Display and filtering of change notices in the notice table;
-  - Display of the VD user assigned to a dashboard user;
+  - Display of the assigned VD user to a dashboard user;
   - Copying IDs in the notice table is now possible;
   - Registered user type is now displayed;
   - Users not confirmed by e-mail are now marked accordingly;
@@ -651,7 +672,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering notices that have already been submitted using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
