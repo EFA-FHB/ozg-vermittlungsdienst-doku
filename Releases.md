@@ -3,8 +3,9 @@
 
 <br />
 
-- Februar 2025
+- März 2025
   - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)
+- Februar 2025
   - [Hotfix Release für alle Validatoren sowie für den Notice-Viewer](#Hotfix-Release-für-alle-Validatoren-sowie-für-den-Noice-Viewer)
   - [Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer](#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer)
 - Dezember 2024
