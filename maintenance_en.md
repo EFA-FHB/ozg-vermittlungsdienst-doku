@@ -12,7 +12,7 @@ To ensure smooth submission, please always observe the following aspects:
 - The role **ted-esen** must NOT be used in notices, neither as org-role nor as org-sub-role.
 
 - The field **Preferred Publication Date BT-738 (RequestedPublicationDate)** can be set to the same date as the Notice Dispatch date or up to 2 days after the Notice Dispatch date according to the German standard. Please make sure to specify the same time zone for both values, as otherwise TED may reject the request in individual cases
-- The filling of the field **BT-165 Winner Size (Winner Size)** is currently not checked by the German rules. Please make sure that this field is filled correctly for the following Notice Types: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
+- The filling of the field **BT-165 Winner Size (Winner Size)** is currently not checked by the German rules. Please make sure that this field is filled correctly for the following notice types: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
 - To fill in the **BT-501 identification number (of the organization)**, please refer to the notes on the routing ID in our FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
 - If your system no longer automatically updates the announcement status after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
 
@@ -24,8 +24,8 @@ To ensure smooth submission, please always observe the following aspects:
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Staging, Preview and Alpha | DÖE incl. BKMS | March 06, 2025 | 07:00-17:00 | Maintenance work: During the specified period, there may be disruptions to submissions and status updates. All accepted announcements will be forwarded afterwards |
-| Production and staging | DÖE incl. BKMS | March 13 and 14, 2025 | 07:00-17:00 | Maintenance work: There may be delays in forwarding to the BKMS and status updates during the specified period. All accepted announcements will be forwarded afterwards.
+| Staging, Preview and Alpha | DÖE incl. BKMS | March 06, 2025 | 07:00-17:00 | Maintenance work: During the specified period, there may be disruptions in forwarding to the BKMS and status updates. All accepted announcements will be forwarded afterwards.
+| Production and staging | DÖE incl. BKMS | March 13 and 14, 2025 | 07:00-17:00 | Maintenance work: During the specified period, there may be delays in forwarding to the BKMS and status updates. All accepted announcements will be forwarded afterwards.
 
 ## Known bugs and malfunctions
 
