@@ -4,6 +4,7 @@
 <br />
 
 - Februar 2025
+  - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)
   - [Hotfix Release für alle Validatoren sowie für den Notice-Viewer](#Hotfix-Release-für-alle-Validatoren-sowie-für-den-Noice-Viewer)
   - [Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer](#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer)
 - Dezember 2024
@@ -46,6 +47,26 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Hotfix-Release-für-alle-Validatoren></a>
+## Hotfix Release für alle Validatoren
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Staging | 05.03.2025 | Veröffentlicht |
+| Produktion | 07.03.2025 | In Arbeit |
+
+> **WICHTIG** <br>
+> - Die Preview-Umgebung wird nicht bereitgestellt, da sie mit der SDK-DE 1.13 RC1-Version derzeit ausgestattet ist.
+
+Status: In QS <br>
+
+<details>
+<summary>Release Notes</summary>
+  
+### Alle Validatoren
+- Das Patch des [SDK-DE 1.12.4](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.4) wurde impelementiert
+
+</details>
 
 <a id=Hotfix-Release-für-alle-Validatoren-sowie-für-den-Noice-Viewer></a>
 ## Hotfix Release für alle Validatoren sowie für den Notice-Viewer
