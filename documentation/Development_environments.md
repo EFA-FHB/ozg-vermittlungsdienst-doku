@@ -88,13 +88,13 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
   <td style="text-align: left;">
     <a href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
     <br>
-    <span>Ab dem 14. März 2025:</span> 
+    <strong>Ab dem 14. März 2025:</strong>  
     <a href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
   </td>
   <td style="text-align: left;">
     <a class="external-link" href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
     <br>
-    <span>Ab dem 14. März 2025:</span> 
+    <strong>Ab dem 14. März 2025:</strong>  
     <a class="external-link" href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
   </td>
   <td style="text-align: left;">
