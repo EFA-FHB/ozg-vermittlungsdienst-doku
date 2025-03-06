@@ -84,17 +84,23 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
       </td>
     </tr>
     <tr>
-      <td style="text-align: left;">BKMS</td>
-      <td style="text-align: left;">
-        <a href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
-      </td>
-      <td style="text-align: left;">
-        <a class="external-link" href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
-      </td>
-      <td style="text-align: left;">
-        <a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">https://www.oeffentlichevergabe.de</a>
-      </td>
-    </tr>
+  <td style="text-align: left;">BKMS</td>
+  <td style="text-align: left;">
+    <a href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
+    <br>
+    <span>From March 14, 2025:</span>
+    <a href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
+  </td>
+  <td style="text-align: left;">
+    <a class="external-link" href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
+    <br>
+    <span>From March 14, 2025:</span>
+    <a class="external-link" href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
+  </td>
+  <td style="text-align: left;">
+    <a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">https://www.oeffentlichevergabe.de</a>
+  </td>
+</tr>
     <tr>
       <td style="text-align: left;">
         <p>TED</p>
