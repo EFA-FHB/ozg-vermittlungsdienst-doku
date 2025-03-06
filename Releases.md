@@ -54,12 +54,12 @@
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Staging | 05.03.2025 | Veröffentlicht |
-| Produktion | 07.03.2025 | In Arbeit |
+| Produktion | 07.03.2025 | Veröffentlicht |
 
 > **WICHTIG** <br>
 > - Die Preview-Umgebung wird nicht bereitgestellt, da sie mit der SDK-DE 1.13 RC1-Version derzeit ausgestattet ist.
 
-Status: In QS <br>
+Status: Veröffentlicht am 06.03.2025 <br>
 
 <details>
 <summary>Release Notes</summary>
