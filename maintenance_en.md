@@ -24,8 +24,8 @@ To ensure smooth submission, please always observe the following aspects:
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Staging, Preview and Alpha | DÖE incl. BKMS | March 06, 2025 | 07:00-17:00 | Maintenance work: During the specified period, there may be delays in forwarding to the BKMS and status updates. All accepted announcements will be forwarded afterwards.
 | Production and staging | DÖE incl. BKMS | March 13 and 14, 2025 | 07:00-17:00 | Maintenance work: There may be delays in forwarding to the BKMS and status updates during the specified period. All accepted announcements will be forwarded afterwards.
+| Production | TED Apps for eForms, including API interfaces | March 13, 2025 | 07:00-09:00 | Maintenance work: all TED apps in production environments and their APIs may experience disruptions |
 
 ## Known bugs and malfunctions
 
@@ -54,7 +54,8 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
-| Production and Staging | All TED Apps for eForms, including API interfaces | February 12, 2025 | 07:00-09:00 | Quarterly maintenance: The services are not available during the specified period |
+| Staging, preview and alpha | DÖE incl. BKMS | March 06, 2025 | 07:00-17:00 | Maintenance work: During the specified period, there may be delays in forwarding to the BKMS and status updates. All accepted announcements will be forwarded afterwards.
+| Production and staging | All TED apps for eForms, including API interfaces | February 12, 2025 | 07:00-09:00 | Quarterly maintenance: The services are not available during the specified period |
 | Staging | All DÖE apps except BKMS and TED | January 16, 2025 | 08:00-12:00 | Quarterly maintenance: The services are not available during the specified period |
 | Production | TED Apps for eForms, including API interfaces | October 31, 2024 | 07:00-09:00 | Announced by TED: The application and its API may not be available during the specified period |
 | Production | All services of the DÖE except BKMS | October 26-27, 2024 | Quarterly maintenance (incl. time changeover) |
