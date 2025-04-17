@@ -3,6 +3,8 @@
 
 <br />
 
+- April 2025
+  - [Release für alle DÖE Komponenten](#Release-für-alle-DÖE-Komponenten)
 - März 2025
   - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)
 - Februar 2025
@@ -49,6 +51,44 @@
 
 <br />
 
+<a id=Release-für-alle-DÖE-Komponenten></a>
+## Release für alle DÖE-Komponenten
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview | 17.03. - 27.03.2025 | Veröffentlicht |
+| Staging | 15.04. - 25.04.2025 | Veröffentlicht |
+| Produktion | ab 28.04.2025 | In Arbeit |
+
+Status: In QS <br>
+
+<details>
+<summary>Release Notes</summary>
+  
+### Alle Validatoren
+- Die Unterstützung von eForms-DE 2.1 wurde implementiert
+- [SDK-DE 1.13.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.0) wurde impelementiert
+
+### Vermittlungsdienst
+- Die Unterstützung von eForms-DE 2.1 wurde implementiert
+- Die Unterstützung der Formulare 1 bis 3 wurde eingestellt
+- TED-Benachrichtigungen werden ab sofort in deutscher Sprache bereitgestellt
+- Diverse Bugs wurden gefixt
+
+### eSender-Hub
+- Die Unterstützung von eForms-DE 2.1 wurde implementiert
+- Diverse Bugs wurden gefixt
+
+### SSP-Portal
+- Kritische Schwachstellen wurden behoben
+- Diverse Bugs wurden gefixt
+
+### Notice-Viewer
+- Die Unterstützung von eForms-DE 2.1 wurde implementiert
+- [SDK-DE 1.13.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.0) wurde impelementiert
+- Diverse Bugs wurden gefixt
+
+</details>
+
 <a id=Hotfix-Release-für-alle-Validatoren></a>
 ## Hotfix Release für alle Validatoren
 | Umgebung   | Zeitraum  | Status         |
@@ -93,10 +133,10 @@ Status: Veröffentlicht am 18.02.2025 <br>
 ## Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview | 11.02 - 14.12.2024 | Veröffentlicht |
+| Preview | 11.02 - 14.02.2025 | Veröffentlicht |
 
 > **WICHTIG** <br>
-> - Der Bekanntmachungsservice wird voraussichtlich ab dem 17. März Bekanntmachungen im eForms-DE v2.1-Version in der Preview (Alpha)-Umgebung annehmen.
+> - Der Bekanntmachungsservice wird voraussichtlich ab dem 17. Februar Bekanntmachungen im eForms-DE v2.1-Version in der Preview (Alpha)-Umgebung annehmen.
 > - Die Umsetzung mit der SDK-DE 1.13 RC1-Version wird ausschließlich zu Testzwecken in der Preview-Umgebung bereitgestellt.
 
 Status: Veröffentlicht am 17.02.2025 <br>
