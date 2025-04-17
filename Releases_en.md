@@ -3,10 +3,12 @@
 
 <br />
 
+- April 2025
+  - Release for all DÖE components](#Release-for-all-DÖE-components)
 - March 2025
   - Hotfix release for all validators](#Hotfix-release-for-all-validators)
 - February 2025
-  - [Hotfix release for all validators and for the notice viewer](#Hotfix-release-for-all-validators-and-for-the-notice-viewer)
+  - Hotfix release for all validators and for the notice viewer](#Hotfix-release-for-all-validators-and-for-the-notice-viewer)
   - [Preview release for the Vermittlungsdienst, all validators and the Notice Viewer](#preview-release-for-the-vermittlungdienst-all-validators-and-the-notice-viewer)
 - December 2024
   - [Hotfix release for all validators and for the SSP portal](#hotfix-release-for-all-validators-and-for-the-SSP-portal)
@@ -29,7 +31,7 @@
   - Release for Vermittlungsdienst, Self-Service Portal, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - December 2023
   - Release for validation (eForms-DE 1.1 multilingualism)](#Release-for-validation)
-  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermitlungsdienst,-eSender,-Notice-Viewer-and-Validator)
+  - Release for Self-Service Portal, Vermittlungsdienst, eSender, Notice Viewer and Validator](#Release-for-Self-Service-Portal,-Vermlungsdienst,-eSender,-Notice-Viewer-and-Validator)
 - November 2023
   - Hotfix release for Vermittlungsdienst and eSender](#Release-for-Mediation-Service-and-eSender)
   - Hotfix release for Validator, Vermittlungsdienst and eSender](#Release-for-Validator-Mediator-and-eSender)
@@ -38,7 +40,7 @@
   - Release for Notice Viewer - PDF documents + synchronous calls](#Release-for-notice-viewer-PDF-documents+-synchronous-calls)
   - Release for self-service portal, registration form for a separate Vermittlungsdienst account](#Release-for-self-service-portal,-registration-form-for-a-separate- Vermittlungsdienst-account)
 - September 2023
-  - [Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
+  - Release for RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-for-RequestedPublicationDate-Fix-+-Notice-Viewer-Mediation-Service,-eSender-Hub,-Notice-Viewer)
   - Release for eForms-DE 1.1 - Vermittlungsdienst and eSender-Hub](#Release-for-eForms-DE-1.1-Vermittlungsdienst-and-eSender-Hub)
 - August 2023
   - Release Offline Validator for eForms-DE 1.0.1 and 1.1.0](#Release-Offline-Validator-for-eForms-DE-1.0.1-and-1.1.0)
@@ -49,17 +51,55 @@
 
 <br />
 
+<a id=release-for-all-DÖE-components></a>
+## Release for all DÖE components
+| Environment | Period | Status |
+|------------|-----------------------------|----------------|
+| Preview | 17.03. - 27.03.2025 | Published |
+| Staging | 15.04. - 25.04.2025 | Published |
+| Production | as of 28.04.2025 | In progress |
+
+Status: In QA <br>
+
+<details>
+<summary>Release notes</summary>
+  
+### All validators
+- Support for eForms-DE 2.1 has been implemented
+- SDK-DE 1.13.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.0) has been implemented
+
+### Vermittlungsdienst
+- Support for eForms-DE 2.1 has been implemented
+- Support for forms 1 to 3 has been discontinued
+- TED notifications are now provided in German language
+- Various bugs have been fixed
+
+### eSender Hub
+- Support for eForms-DE 2.1 has been implemented
+- Various bugs have been fixed
+
+### SSP portal
+- Critical vulnerabilities have been fixed
+- Various bugs have been fixed
+
+### Notice Viewer
+- Support for eForms-DE 2.1 has been implemented
+- SDK-DE 1.13.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.0) has been implemented
+- Various bugs have been fixed
+
+</details>
+
 <a id=Hotfix-release-for-all-validators></a>
 ## Hotfix release for all validators
 | environment | period | status |
 |------------|-----------------------------|----------------|
 | Staging | 05.03.2025 | Published |
-| Production | 07.03.2025 | In progress |
+| Production | 07.03.2025 | Published |
 
 > **IMPORTANT** <br>
 > - The preview environment is not provided as it is currently equipped with the SDK-DE 1.13 RC1 version.
 
-Status: In QA <br>
+Status: Published on 06.03.2025 <br>
 
 <details>
 <summary>Release Notes</summary>
@@ -89,14 +129,14 @@ Status: Published on 18.02.2025 <br>
 
 </details>
 
-<a id=#preview-release-for-all-validators-and-the-notice-viewer- for-the-Mediation-Service></a>
+<a id=#preview-release-for-the-vendor-service-all-validators-and-notice-viewer></a>
 ## Preview release for the Vermittlungsdienst, all validators and the Notice Viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
-| Preview | 11.02 - 14.12.2024 | Published |
+| Preview | 11.02 - 14.02.2025 | Published |
 
 > **IMPORTANT** <br>
-> - The announcement service is expected to accept announcements in the eForms-DE v2.1 version in the preview (alpha) environment from March 17.
+> - The announcement service is expected to accept announcements in the eForms-DE v2.1 version in the preview (alpha) environment from February 17.
 > - The implementation with the SDK-DE 1.13 RC1 version is provided exclusively for testing purposes in the preview environment.
 
 Status: Published on 17.02.2025 <br>
@@ -142,7 +182,7 @@ Status: Published on 12.12.2024 <br>
 
 > **IMPORTANT** <br>
  - The obsolete POST endpoint /view in the viewer will no longer be available in all environments from 10.10.2024.
- - Please note, the new parameter 'publishToTed' is currently without function. A full implementation is expected in January 2025.
+ - Please note, the new parameter 'publishToTed' is currently without function. A complete implementation is expected in January 2025.
 
 Status: Published <br>
 <details>
@@ -203,7 +243,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -425,7 +465,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice viewer
+### Notice-Viewer
 - Various bugs have been fixed
 
 </details>
@@ -494,7 +534,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented when BKMS does not respond
+- Retry delivery is now implemented if BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
@@ -615,7 +655,7 @@ Status: Published on 20.10.2023 <br>
 |------------|-----------------------------|----------------|
 | Preview | Documentation + registration form: **KW38** , status overview: **KW39** | published |
 | Staging | Documentation + registration form: **KW39** , Status overview: **KW40** | published |
-| production | documentation + registration form: **KW40** , Status overview **KW41** | published |
+| production | documentation + registration form: **KW40** , status overview **KW41** | published |
 
 Status: Published on 4.10.2023 <br>
 <details>
@@ -673,7 +713,7 @@ Status: published on 11.10.2023 <br>
 - Latest DE-SDK version added - 1.1.0 - 1.7.1
 - Removal of files that are 24 hours older
 
-Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering previously submitted notices using the
+Available as a standalone web service with token authentication (same token as in the Vermittlungsdienst can be used) for uploading XML files and as an endpoint in the Vermittlungsdienst for rendering notices that have already been submitted using the
 
 ### eSender Hub
 - New transformation from eForms-DE to eForms-EU regarding 'requestedPublicationDate', detailed explanation [here](/documentation/eForms_creation.md)
