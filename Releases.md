@@ -57,9 +57,9 @@
 |------------|-----------------------------|----------------|
 | Preview | 17.03. - 27.03.2025 | Veröffentlicht |
 | Staging | 15.04. - 25.04.2025 | Veröffentlicht |
-| Produktion | ab 28.04.2025 | In Arbeit |
+| Produktion | ab 28.04.2025 | Veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht am 28.04.2025 <br>
 
 <details>
 <summary>Release Notes</summary>
