@@ -57,9 +57,9 @@
 |------------|-----------------------------|----------------|
 | Preview | 17.03. - 27.03.2025 | Published |
 | Staging | 15.04. - 25.04.2025 | Published |
-| Production | as of 28.04.2025 | In progress |
+| Production | from 28.04.2025 | Published |
 
-Status: In QA <br>
+Status: Published on 28.04.2025 <br>
 
 <details>
 <summary>Release notes</summary>
@@ -82,7 +82,7 @@ Status: In QA <br>
 - Critical vulnerabilities have been fixed
 - Various bugs have been fixed
 
-### Notice Viewer
+### Notice viewer
 - Support for eForms-DE 2.1 has been implemented
 - SDK-DE 1.13.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.0) has been implemented
 - Various bugs have been fixed
@@ -129,7 +129,7 @@ Status: Published on 18.02.2025 <br>
 
 </details>
 
-<a id=#preview-release-for-the-vendor-service-all-validators-and-notice-viewer></a>
+<a id=#preview-release-for-all-validators-and-the-notice-viewer- for-the-Mediation-Service></a>
 ## Preview release for the Vermittlungsdienst, all validators and the Notice Viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -534,7 +534,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented if BKMS does not respond
+- Retry delivery is now implemented when BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
