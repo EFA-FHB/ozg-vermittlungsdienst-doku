@@ -57,7 +57,7 @@
 ## Hotfix Release für alle Validatoren
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
-| Staging | 28.03 - 29.04.2025 | Veröffentlicht |
+| Preview | 28.03 - 29.04.2025 | Veröffentlicht |
 | Staging | 29.04 - 30.04.2025 | Veröffentlicht |
 | Produktion | ab 01.05.2025 | In Arbeit |
 
