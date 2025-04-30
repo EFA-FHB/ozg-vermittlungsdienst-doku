@@ -3,6 +3,8 @@
 
 <br />
 
+- Mai 2025
+  - [Hotfix Release für den Vermittlungsdienst](#Hotfix-Release-für-den-Vermittlungsdienst)     
 - April 2025
   - [Release für alle DÖE Komponenten](#Release-für-alle-DÖE-Komponenten)
 - März 2025
@@ -50,6 +52,27 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Hotfix-Release-für-den-Vermittlungsdienst></a>
+## Hotfix Release für alle Validatoren
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Staging | 28.03 - 29.04.2025 | Veröffentlicht |
+| Staging | 29.04 - 30.04.2025 | Veröffentlicht |
+| Produktion | ab 01.05.2025 | In Arbeit |
+
+> **WICHTIG** <br>
+> - Mit diesem Release wird die Unterstützung der eForms-DE v1.1 eingestellt. Mehr Infos hier: [TED eForms Versions – SDK 1.7 End of Life](https://docs.ted.europa.eu/eforms-common/active-versions/index.html)
+
+Status: In QS <br>
+
+<details>
+<summary>Release Notes</summary>
+  
+### Vermittlungsdienst
+- eForms-DE v1.1 Bekanntmachungen können nicht mehr verarbeitet, validiert oder übermittelt werden.
+
+</details>
 
 <a id=Release-für-alle-DÖE-Komponenten></a>
 ## Release für alle DÖE-Komponenten
