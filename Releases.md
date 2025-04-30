@@ -54,7 +54,7 @@
 <br />
 
 <a id=Hotfix-Release-für-den-Vermittlungsdienst></a>
-## Hotfix Release für alle Validatoren
+## Hotfix Release für den Vermittlungsdienst
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview | 28.03 - 29.04.2025 | Veröffentlicht |
