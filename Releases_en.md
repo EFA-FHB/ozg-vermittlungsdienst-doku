@@ -3,6 +3,8 @@
 
 <br />
 
+- May 2025
+  - Hotfix release for the Vermittlungsdienst](#Hotfix-Release-for-the-Mediation-Service)
 - April 2025
   - Release for all DÖE components](#Release-for-all-DÖE-components)
 - March 2025
@@ -51,7 +53,28 @@
 
 <br />
 
-<a id=release-for-all-DÖE-components></a>
+<a id=Hotfix-Release-for-the-Mediation-Service></a>
+## Hotfix release for all validators
+| environment | period | status |
+|------------|-----------------------------|----------------|
+| Staging | 28.03 - 29.04.2025 | Published |
+| Staging | 29.04 - 30.04.2025 | Published |
+| Production | as of 01.05.2025 | In progress |
+
+> **IMPORTANT** <br>
+> - With this release, support for eForms-DE v1.1 will be discontinued. More info here: [TED eForms Versions - SDK 1.7 End of Life](https://docs.ted.europa.eu/eforms-common/active-versions/index.html)
+
+Status: In QA <br>
+
+<details>
+<summary>Release Notes</summary>
+  
+### Vermittlungsdienst
+- eForms-DE v1.1 notices can no longer be processed, validated or transmitted.
+
+</details>
+
+<a id=Release-for-all-DÖE-components></a>
 ## Release for all DÖE components
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -82,7 +105,7 @@ Status: Published on 28.04.2025 <br>
 - Critical vulnerabilities have been fixed
 - Various bugs have been fixed
 
-### Notice viewer
+### Notice Viewer
 - Support for eForms-DE 2.1 has been implemented
 - SDK-DE 1.13.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.0) has been implemented
 - Various bugs have been fixed
@@ -243,7 +266,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -655,7 +678,7 @@ Status: Published on 20.10.2023 <br>
 |------------|-----------------------------|----------------|
 | Preview | Documentation + registration form: **KW38** , status overview: **KW39** | published |
 | Staging | Documentation + registration form: **KW39** , Status overview: **KW40** | published |
-| production | documentation + registration form: **KW40** , status overview **KW41** | published |
+| production | documentation + registration form: **KW40** , Status overview **KW41** | published |
 
 Status: Published on 4.10.2023 <br>
 <details>
@@ -764,7 +787,7 @@ https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
 <a id=Production-Release-June-Mediation-Service-&-eSender-Hub></a>
-## Production Release June - Vermittlungsdienst & eSender-Hub
+## Production Release June - Vermittlungsdienst & eSender Hub
 Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
