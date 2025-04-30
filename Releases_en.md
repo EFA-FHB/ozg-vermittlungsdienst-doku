@@ -57,7 +57,7 @@
 ## Hotfix release for all validators
 | environment | period | status |
 |------------|-----------------------------|----------------|
-| Staging | 28.03 - 29.04.2025 | Published |
+| Preview | 28.03 - 29.04.2025 | Published |
 | Staging | 29.04 - 30.04.2025 | Published |
 | Production | as of 01.05.2025 | In progress |
 
@@ -266,7 +266,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -787,7 +787,7 @@ https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
 <a id=Production-Release-June-Mediation-Service-&-eSender-Hub></a>
-## Production Release June - Vermittlungsdienst & eSender Hub
+## Production Release June - Vermittlungsdienst & eSender-Hub
 Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
