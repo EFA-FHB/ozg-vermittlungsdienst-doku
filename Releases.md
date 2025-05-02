@@ -59,12 +59,12 @@
 |------------|-----------------------------|----------------|
 | Preview | 28.03 - 29.04.2025 | Veröffentlicht |
 | Staging | 29.04 - 30.04.2025 | Veröffentlicht |
-| Produktion | ab 01.05.2025 | In Arbeit |
+| Produktion | ab 01.05.2025 | Veröffentlicht |
 
 > **WICHTIG** <br>
 > - Mit diesem Release wird die Unterstützung der eForms-DE v1.1 eingestellt. Mehr Infos hier: [TED eForms Versions – SDK 1.7 End of Life](https://docs.ted.europa.eu/eforms-common/active-versions/index.html)
 
-Status: In QS <br>
+Status: Veröffentlicht am 01.05.2025 <br>
 
 <details>
 <summary>Release Notes</summary>
