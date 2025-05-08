@@ -1,9 +1,9 @@
-- Important notes for creating eForms](#important-notes-for-creating-eForms)
-- Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
-- Upcoming maintenance windows](#upcoming-maintenance-window)
-- Known bugs and errors](#known-bugs-and-errors)
-- Notes](#notes)
-- Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
+- [Important notes for creating eForms](#important-notes-for-creating-eForms)
+- [Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
+- [Upcoming maintenance windows](#upcoming-maintenance-window)
+- [Known bugs and errors](#known-bugs-and-errors)
+- [Notes](#notes)
+- [Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
 
 ## Important notes on the creation of eForms
 To ensure smooth submission, please always observe the following aspects:
