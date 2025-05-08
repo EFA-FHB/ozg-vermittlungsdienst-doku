@@ -24,7 +24,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion und Staging | DÖE inkl. BKMS | 26./27. April 2025 | 07:00-12:00 | Quartalswartungen |
+| Staging | DÖE exkl. BKMS | 13. Mai 2025 | 09:00-13:00 | Quartalswartungen |
 | Produktion und Staging | DÖE inkl. BKMS | 26./27. Juli 2025 | 07:00-12:00 | Quartalswartungen |
 | Produktion und Staging | DÖE inkl. BKMS | 25./26. Oktober 2025 | 07:00-12:00 | Quartalswartungen (inkl. Zeitumstellung) |
 
