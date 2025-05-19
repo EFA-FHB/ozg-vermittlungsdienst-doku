@@ -21,7 +21,7 @@
   - [Hotfix release for Web Validator](#Hotfix-Release-for-Web-Validators)
   - [Hotfix release for the Core Validator](#Hotfix-Release-for-Core-Validator)
 - May 2024
-  - [Release for SSP portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators](#Release-for-SSP-portal,- Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-and-all-validators)
+  - [Release for SSP portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators](#Release-for-SSP-portal,-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-and-all-validators)
   - [Hotfix release for SSP portal](#Hotfix-Release-for-SSP-Portal)
 - April 2024
   - [Hotfix release for Notice Viewer](#Hotfix-Release-for-Notice-Viewer)
