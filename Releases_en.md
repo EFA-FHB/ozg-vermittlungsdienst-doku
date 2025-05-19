@@ -4,8 +4,8 @@
 <br />
 
 - May 2025
-  - Hotfix release for the Vermittlungsdienst](#Hotfix-Release-for-the-Validators)
   - Hotfix release for all validators](#Hotfix-release-for-all-validators)
+  - Hotfix release for the Vermittlungsdienst](#Hotfix-Release-for-the-Validators)
 - April 2025
   - Release for all DÖE components](#Release-for-all-DÖE-components)
 - March 2025
@@ -68,7 +68,7 @@ Status: Published on 19.05.2025 <br>
 <summary>Release notes</summary>
   
 ### All validators
-- The patch of [SDK-DE 1.12.4](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.4) and [SDK-DE 1.13.1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.1) have been implemented
+- The patch of [SDK-DE 1.12.5](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.5) and [SDK-DE 1.13.1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.1) have been implemented
 
 </details>
 
@@ -285,7 +285,7 @@ Status: Published on 4.07.2024 <br>
   
 </details>
 
-<a id=release-for-SSP-Portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
+<a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
 ## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -713,7 +713,7 @@ Status: Published on 4.10.2023 <br>
 - Full documentation in the portal incl. releases and maintenance pages
 - Registration form for requesting new Vermittlungsdienst accounts
   1. create a new portal account
-  2. fill in the registration form for a separate Vermittlungsdienst account
+  2. filling out the registration form for a separate Vermittlungsdienst account
 
 ### Feature Status overview of announcements
 - Status overview of all notices submitted for Vermittlungsdienst accounts
