@@ -4,8 +4,8 @@
 <br />
 
 - Mai 2025
-  - [Hotfix Release für den Vermittlungsdienst](#Hotfix-Release-für-den-Vermittlungsdienst)
   - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)     
+  - [Hotfix Release für den Vermittlungsdienst](#Hotfix-Release-für-den-Vermittlungsdienst)
 - April 2025
   - [Release für alle DÖE Komponenten](#Release-für-alle-DÖE-Komponenten)
 - März 2025
@@ -68,7 +68,7 @@ Status: Veröffentlicht am 19.05.2025 <br>
 <summary>Release Notes</summary>
   
 ### Alle Validatoren
-- Das Patch des [SDK-DE 1.12.4](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.4) sowie [SDK-DE 1.13.1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.1) wurden impelementiert
+- Das Patch des [SDK-DE 1.12.5](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.5) sowie [SDK-DE 1.13.1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.1) wurden impelementiert
 
 </details>
 
