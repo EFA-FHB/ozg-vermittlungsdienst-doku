@@ -136,7 +136,9 @@ Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
 Bitte nutzen Sie unsere Kontaktformulare:
 Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal: https://portal.ozg-vermittlungsdienst.de/contact
+<br>
 Fragen/Anmerkungen zum Redaktionssystem: https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
+<br>
 Fragen/Anmerkungen zum Bekanntmachungsservice: https://oeffentlichevergabe.de/ui/de/contact
 <br>
 Wir sind offen für Ihre Vorschläge!
