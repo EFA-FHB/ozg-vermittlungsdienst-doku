@@ -1,11 +1,11 @@
 ### Public procurement data service
 # Frequently asked questions
 
-- [Data service public procurement](#Data-service-public-procurement)
-- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- [General](#general)
+- Data service for public procurement](#datenservice-öffentlicher-einkauf)
+- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- General](#general)
 
-# Data service public procurement
+# Data service public purchasing
 
 ### Connection
 
@@ -19,7 +19,7 @@ Which systems are available and where do I need an account?
 Does your public procurement office not have software from a specialist procedure manufacturer for creating notices, does it not support all the forms you need or have you previously used TED's eNotices2? Then the editorial system is right for you!
 <br><br>
 **[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service. <br>
-Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually implemented by the specialist procedure manufacturer.
+Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually carried out by the specialist procedure manufacturer.
 <br><br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of Vermittlungsdienst accounts.
 <br> Mainly used by specialist procedure manufacturers. Dashboard accounts are possible for viewing the status information of submitted notices, please contact your specialist procedure manufacturer!
@@ -33,8 +33,7 @@ What information is required to apply for an account? (updated on 11.10.23)
 </summary>
 <br>
 
-
-Since 04.10, accounts should be applied for in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de). All required information is requested in the registration form for a VD account. These are:
+Since 04.10.2023, accounts should be applied for in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de). All required information is requested in the registration form for a VD account. These are:
 
 <br>
 
@@ -44,19 +43,18 @@ Since 04.10, accounts should be applied for in the [Self-Service Portal](https:/
   
 - URL of the awarding platform on which the notices are published
   
-- First name, surname and email address of the representative of the FVH (specialist procedure manufacturer)
+- First name, surname and e-mail address of the representative of the FVH (specialist procedure manufacturer)
   
 - Name of the FVH
 </details>
 <br>
-
 
 <details>
 <summary>
 One e-mail address must be entered as the user name for each registration. Is it possible to enter the same e-mail address for several systems?
 </summary>
 <br>
-We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email per account is required for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
+We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email is required per account for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
 </details>
 <br>
 
@@ -75,7 +73,7 @@ This email is used when we want to proactively contact you. This may be the case
 Can multiple accounts be requested at the same time? How many accounts are recommended for the preview and staging environment?
 </summary>
 <br>
-The URL of the awarding platform is used purely to assign the accounts/clients; it has nothing to do with the link to the award documents.
+The URL of the awarding platform is purely for assigning the accounts/clients, it has nothing to do with the link to the award documents.
 
 Some awarding platforms use e.g. Dropbox or google drive or similar for hosting the award documents, which is why the platform behind it cannot be clearly identified. For this reason, this information is also necessary. The link to the tender documents remains in the XML document and this is primarily displayed in the BKMS interface. The link provided when the account is created is only displayed at the bottom right, below the notice itself, as a disclaimer/source.
 </details>
@@ -105,7 +103,7 @@ In all environments, the same validation and the same delay in publishing is per
 The URL of the awarding platform should be specified to request access. What is the purpose of this information?
 </summary>
 <br>
-The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Procurement platforms are the systems in which notices are published; the URL of the procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account for each system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
+The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account per system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
 </details>
 <br>
 
@@ -114,46 +112,7 @@ The purpose of specifying the URL is to be able to distinguish between the syste
 Which system environment is the environment to which our test systems can send notifications? What is the difference between the preview and staging environment?
 </summary>
 <br>
-The preview environment is only used for testing. Updates are often installed here and this is also our test environment for future releases. The staging environment is a 100% copy of the production environment and should only be used for production-related tests. Both environments deliver into the Alpha environment of BKMS and TED Preview. On staging, your tests should be performed exactly as you plan to do in production. In principle, however, both environments are suitable for testing.
-</details>
-<br>
-
-<details>
-<summary>
-Where can I find examples of eForms-DE? What different types are there? ?
-</summary>
-<br>
-Sample documents for eForms-DE can be found in the KoSIT schematron repository: https://projekte.kosit.org/eforms/eforms-de-schematron/-/tree/main/src/test/eforms-de-base-samples
-The different versions of the documents can be accessed via the respective tags and releases.
-
-The abbreviations are to be understood as follows:
-
-PIN
-Eng: Prior Information Notice
-Deu: Prior information
-Subtype 1-14, E2
-PINs are announcements that are published before the start of the "call for competition".
-
-CN
-Eng: Contract Notice
-Deu: Open procedure / public invitation to tender
-Subtype 15-24, E3
-CNs are notices that initiate the "call for competition".
-
-CAN
-Eng: Contract Award Notice
-Deu: Notice (awarded contract)
-Subtype 25-40, E4
-CANs are used to create contract award notices, which are published shortly after the contract is signed. They refer to the contract notice and contain information about the award procedure, such as the contract award, the winner, etc.
-
-The naming of the reference documents involves the following:
-
-eforms = standard document type
-PIN/CN/CAN = see above; indicates the type of notice
-Number 1-40 or E1-E4 = subtype of notice, where E is for subliminal notices
-DE = standard is eForms-DE
-(in)/valid = whether the file is valid or invalid according to the eForms-de specification
-There is not yet an example file for all types of notices. If you need an example for a specific type that does not exist in the above link, we will be happy to forward a request. Unfortunately, the EU does not provide examples for all types of notices either, which means that providing examples is sometimes quite time-consuming.
+The preview environment is only used for testing. Updates are often installed here and this is also our test environment for future releases. The staging environment is a 100% copy of the production environment and should only be used for production-related tests. Both environments feed into the staging environment of BKMS and TED Preview. On staging, your tests should be performed exactly as you plan to do in production. In principle, however, both environments are suitable for testing.
 </details>
 <br>
 
@@ -165,94 +124,6 @@ Is there a roadmap regarding the further development of the Vermittlungsdienst, 
 </summary>
 <br>
 As things currently stand, two more releases are planned for the data service after 25.10.2023. The content of the releases primarily relates to convenience functions and evaluation options. API changes and extensions are not planned according to the current planning status.
-</details>
-<br>
-
-
-<details>
-<summary>
-Will there be a roadmap for the further development of the SDK? This is particularly interesting for platform operators in view of the adaptation times for new SDK-EU versions, as the SDK-DE and SDK-EU currently still differ in their versioning.
-</summary>
-<br>
-
-The version designations of the SDK for the respective national eForms-DE standard are based on the version designations of the eForms-DE standard. For each eForms-DE SDK, the European SDK version on which it is based is indicated. (see also explanation at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de)
-
-It is not planned that a new eForms-DE version will be published for every minor version of eForms-EU. Therefore, the versioning of eForms-EU and eForms-DE will not be directly identical in the future. However, there will always be exactly one corresponding eForms-EU version for each eForms-DE version.
-</details>
-<br>
-
-<details>
-<summary>
-In what time frame will a DE update be made available after an EU update has been released?
-</summary>
-<br>
-
-Please note that a DE update is not automatically required for every EU update.
-<br>
-The GDK is not the responsibility of KoSIT. However, the eForms-DE specification. As was jointly determined at the 1st technical working meeting, we are currently unable to provide a simple answer with clear dates in view of the uncertainties that still exist regarding the entry into force and lifespan of the versions of the EU-SDK. What is certain is that a specific version of eForms-DE will declare itself compatible with a specific version of eForms-SDK and that this should happen as soon as possible. As currently eForms-DE 1.0.1 is compatible with eForms-SDK 1.5.1 (SDK 1.5.1 was released on January 20, 2023 and eForms-DE on February 5). This implicitly means that there will not be an eForms-DE version for every eForms-SDK version. The current eForms-DE version 1.1.0 is compatible with SDK 1.7.
-</details>
-<br>
-
-
-### Go-Live
-
-<details>
-<summary>
-What are the submission deadlines? (added on 12.10.23)
-</summary>
-<br>
-To ensure that the announcement is published on TED on the same day, we recommend that the announcement is submitted to the Vermittlungsdienst by 23:00 on the same day.
-
-Example for the FVH:
- To ensure that the notice is sent to the Vermittlungsdienst on the same day, we recommend that the notice be submitted to the specialized procedure manufacturer by 22:00 on the same day.
-</details>
-<br>
-
-<details>
-<summary>
- When will the public procurement data service start? (added on 25.09.23)
-</summary>
-<br>
-The productive start of the Public Procurement Data Service is regulated by §83a of the current Public Procurement Ordinance (VgV). This is expected to be 25.10.2023.
-</details>
-<br>
-
-<details>
-<summary>
-Are all 40 EU notice types supported at go-live?
-</summary>
-<br>
-All document types from eForms-DE are accepted (40 for the upper threshold and 3 for the lower threshold). Where necessary, these are generically converted into the eForms-EU format. This corresponds to the contents of the current eForms-DE standard.
-</details>
-<br>
-
-<details>
-<summary>
-Is it possible to continue submitting notices via eNotices2 from 25.10.2023?
-</summary>
-<br>
-From 25.10.2023, all above-threshold notices must legally be submitted in eForms-DE format via the public procurement data service. Direct submission via eNotices2 is not standard-compliant, as the adaptations to the eForms-DE standard would not be taken into account and is no longer legally permissible.
-</details>
-
-<br>
-
-<details>
-<summary>
-Does the introduction of eForms apply to both upper (EU) and lower thresholds (national) or only to the EU level?
-</summary>
-<br>
-From 25.10.23, EU-wide notices in eForms-DE format must be transmitted via the interface. If the interface is also to be used for national notices, this must also be done via the eForms format so that the data service can process them. You can find out which formats are currently supported and processed in our preview at https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/development/documentation/eForms_support.md.
-</details>
-<br>
-
-<details>
-<summary>
-How is a change of eSender for an announcement handled if it is to be corrected? How is a change of eSender handled within a procedure with multiple notices? How can corrections or references for subsequent notices be made in relation to notices submitted in the old format?
-</summary>
-<br>
-
-It will not be possible to query the status of an old announcement via the data service or to stop an old announcement that was not submitted via the data service, as the data service cannot send queries about announcements sent in the old format. However, the change of eSender has no influence on the possibility of referencing old notices.
-How references and corrections to old notices are possible is described in detail here: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_creation.md
 </details>
 <br>
 
@@ -271,7 +142,6 @@ For *support requests regarding the operation* of the Vermittlungsdienst and the
 We are open to your suggestions!
 </details>
 <br>
-
 
 <details>
 <summary>
@@ -299,9 +169,6 @@ https://www.finanzen.bremen.de/digitalisierung/digitalisierung-von-verwaltungsle
 Questions about the DE-SDK can be opened via issues in the repository.
 </details>
 <br>
-
-
-
 
 ### Documentation
 
@@ -337,69 +204,7 @@ Yes, the Github documentation is updated regularly and is the official documenta
 </details>
 <br>
 
-
-### Status model
-
-<details>
-<summary>
-Stop, change or cancel announcement? (added on 09/27/2013)
-</summary>
-<br>
--"Publishing" visible in eNotices2 Web and API next month
-- Buyer/API can stop the publication of a notice in "Submitted" status
-- Once the status "Published" (i.e. on TED) is reached, the notice can be changed or the procedure can be continued
-- Lot or procedure can be canceled via award notice without winner
-- Change notice with the reason "cancel" = the announcement is null and void - this is possible, but not recommended!
-</details>
-<br>
-
-<details>
-<summary>
-How can the start of the 48-hour standstill period be tracked when the announcement is received by TED?
-</summary>
-<br>
-There are two ways to read the time of successful submission to TED from the status information in the Vermittlungsdienst. Either via the technical timestamp when the eSender received confirmation of the submission from the TED API (<tedStatus>ACCEPTED</tedStatus> tedStatusUpdate>2023-07-31T08:02:02.442Z</tedStatusUpdate>) or via the submittedAt value transmitted by TED, which is included in the status query (<ted_accepted_timestamp>). Both values are only slightly different, as there can be a minimal delay between the time when TED accepts the notification and when a success message is returned to the eSender as a response.
-</details>
-<br>
-
-<details>
-<summary>
-With the EU's status change notifications, platform providers have also received further metadata on the respective status, e.g. the submission ID, the specific time of publication on TED, the OJ number, etc. With the OJ number, customers previously had the option of no longer having to enter these numbers manually for subsequent notices relating to this contract ("previous notice of the same contract"), as they could be pre-filled. Is it still possible to obtain the above-mentioned information for publication in order to offer customers this range of functionalities?
-</summary>
-<br>
-TED no longer provides the same metadata per disclosure as before, we return all relevant info we receive.
-The following data is provided by TED for an announcement.
-
-![Data of an announcement from TED](images/faq/Announcement_Data_of_TED.png)
-
-We process the status, the time of submission and, if applicable, the time of publication. The OJ number is no longer used in eNotices2. If you require further data from this query, please send us an email with your requirements to: support-oeffentlichevergabe@bdr.de. We will be happy to organize a bilateral exchange.
-</details>
-<br>
-
-<details>
-<summary>
-How are rejected announcements in error states such as 'REJECTED' status of TED or an 'INTERNAL ERROR' status of BKMS further processed?
-</summary>
-<br>
-There will be an internal monitoring to react to error states (status InternalError) or bugs. Currently, Nortal is the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de if you have problems with your submissions and your notifications run into an error status. Generally, such error statuses indicate bugs in the DOE, in TED or in the announcement sent. Whenever errors occur in the system (e.g. rejection by TED), they are logged so that a support ticket can be created and a technical analysis carried out if necessary. An individual decision is then made as to which measures are appropriate to rectify the error. In the event of technical errors, the notification can either be resent as a new version after rectification or processed again manually internally. However, this depends on the individual case. If TED rejects the notice, it is possible that an error exists in the notice, e.g. the notice-id is already in use. In this case, the error message returned by TED on rejection is saved so that it can react accordingly.
-
-If your system no longer automatically updates the notice status after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) using your system's login data for the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
-</details>
-<br>
-
-<details>
-<summary>
-Is it possible for an above-threshold announcement to change to NOT_PUBLISHED after the deadline if it has already been published in the BKMS? Because then we would have TED:NOT_PUBLISHED / DSE:PUBLISHED, a status that I could not find in the flowchart.
-</summary>
-<br>
-The NOT_PUBLISHED status is only relevant for announcements with lawfulness warnings. If an announcement has no lawfulness warnings, no manual check is carried out by TED, so the status NOT_PUBLISHED cannot occur based on a manual rejection.
-
-In the case of lawfulness warnings, an announcement is only forwarded to the BKMS 5 days after SUBMITTED in TED in order to await the manual check. However, if a situation arises in which an announcement has already been published in BKMS and then changes to NOT_PUBLISHED in TED, our system automatically stops this announcement in BKMS so that the status changes to DÖE:Stopped. In this way, we ensure that no announcements rejected by TED remain published in the BKMS. However, this scenario is very unlikely.
-</details>
-<br>
-
-### API mediation service
-
+### API brokering service
 
 <details>
 <summary>
@@ -447,7 +252,7 @@ The v1/notices endpoint returns status information on all notices that have been
 
 <details>
 <summary>
-Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Is it planned for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
+Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Are there plans for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
 </summary>
 <br>
 Thank you for this suggestion; we will look into implementing it.
@@ -459,7 +264,7 @@ Thank you for this suggestion; we will look into implementing it.
 How can platform operators obtain the information from the EU CVS report on a notice if it is not included in the response on publication (POST → /v2/notices) or in the status information (GET → /v1/notices/{trackingCode})?
 </summary>
 <br>
-All errors and warnings from the CVS report will be transferred to the status information in future. We will pass the ID, the path, the content and the text of each rule that has been struck. It is currently not planned to return the CVS report as a file.
+All errors and warnings from the CVS report will be transferred to the status information in future. We will pass the ID, the path, the content and the text of each rule that has been struck. It is not currently planned to return the CVS report as a file.
 </details>
 <br>
 
@@ -472,122 +277,16 @@ Yes, productive use of the Online Validator is supported. In the production envi
 </details>
 <br>
 
-### Ongoing allocation procedures and changeover to the new data service
-
-<details>
-<summary>
- How was the link to or reference to previous announcements made? (added on 27.09.23)
-
- </summary>
-
-- The notices are linked to the procedure ID.
-
-  Special features:
-
-   --> Planning/PINs are not part of procedures: Use BT-125
-
-   --> Surcharges within a framework agreement: Use OPT-100
-
-   --> Change notice: Use BT-758
-
-   --> Contract amendment: Use BT-1501
-
-   --> Notices before eForms (and all other cases): Use OPP-090
-
-- Use TED publication number ([1-8 digits]-[year]) or eForms UUID
-
-- You can also find this information in the [Developer Docs FAQ](https://docs.ted.europa.eu/home/eforms/FAQ/index.html#_forms_and_procedures)
-
-  - For further details on linking the announcements, see
-https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_creation.md
-
-- Details on the use of the references can be found here: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection
-
- The components of the data service can only accept the new eForms structures. The award platforms currently communicate with the EU using the TED schema structures. For ongoing award procedures, it will be the case that, for example, a contract award notice is published after a contract notice or, for example, a contract modification is published for a contract award notice. Can notices for ongoing procurement procedures continue to be sent to the data service in TED 2.0.9 XML format until the cut-off date of 25.10.2023 or should they be sent directly to TED as before until the cut-off date?
-
-Until eForms-DE becomes mandatory, the old format can be submitted directly to TED. For future submissions to the Public Procurement Data Service, only the new format of the eForms-DE standard can be used.
-</details>
-<br>
-
-<details>
-<summary>
-Will it be possible to send corrections to the data service, which will submit them to TED as a separate, new eSender Hub, even if the notices were previously submitted to TED by the platform operator as a former eSender Hub? <br>
-More precisely:
-
-- How is a change of eSender for an announcement handled if it is to be corrected?
-- How is a change of eSender handled within a procedure with multiple notices?
-</summary>
-<br>
-It will not be possible to use the data service to query the status of an old announcement or to stop an old announcement that was not submitted via the data service, as the data service cannot perform queries on announcements from other eSenders. This is a restriction imposed by TED on submitting eSenders.
-
-In principle, it is possible to correct an announcement by sending a new version of an announcement in eForms format to the data service before publication. This update is then sent to TED and TED publishes the latest version of the announcement. If the original announcement has already been published, a "change notice" must be sent.
-
-It is currently being clarified with TED how a previous announcement in the old format can be referenced in order to link them together and to what extent the change of the submitting eSender has an influence on changes.
-</details>
-<br>
-
-
-
-<details>
-<summary>
-Is OPP-090-Procedure used exclusively for the case of old notices (old TED scheme) with further processing in eForms?
- </summary>
-
-Both change notices and therefore the "Change Notice Version Identifier" (BT-758) as well as the "Framework Notice Identifier" (OPT-100) and "Previous Notice" (OPP-090) are TED-specific solutions that can be used directly.
-
-</details>
-<br>
-
 ### Accepted SDK versions
 
 <details>
 <summary>
-As far as we know, the eForms-DE format is no longer compatible with the eForms-EU format, as it is no longer a pure subset of it. This means that no API functions of the EU can be called with the eForms DE format, be it the new eForms API or the APIs of the viewer services (PDF/HTML rendering). Is it correct that the new data service does not offer a render method and that the EU render methods can no longer be used due to incompatibility? How can functions such as PDF/HTML rendering still be used?
+ Which versions of the eForms-DE standard are currently supported?
 </summary>
 <br>
-
-Question 2 under [Roadmap](#roadmap) - The need for a rendering method has already been recorded and is currently being analyzed.
-
-The eSender Hub will ensure that this announcement is transformed into a valid eForms-EU document in accordance with the eForms-DE version submitted in order to be able to use the TED functions.
+You can find detailed information on the support of the eForms versions at the following [link](https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support)
 </details>
 <br>
-
-<details>
-<summary>
- Which versions of the eForms-DE standard are currently supported? (added on (29.09.23)
-</summary>
-<br>
-In October 2023, the Public Procurement Data Service will support versions 1.0 and 1.1 of the eForms-DE standard, technically this corresponds to a CustomizationID (see field OPT-002-notice) with the values "eforms-de-1.1" or "eforms-de-1.0". To support the implementation, the SDK-DE versions SDK-DE-1.1.0_1.7.1 and SDK-DE-1.0.1_1.5.3:20230727 are currently available at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.
-</details>
-<br>
-
-<details>
-<summary>
-Currently, Mediator also seems to accept eForm-EU up to SDK version 1.5. How long will this still be available? The background to this is that contracting authorities often require a longer period of time (often weeks) between the creation of the contract notice (or start of the procedure) and its publication. Therefore, a longer period is necessary between the start of production of eForms-DE and the shutdown of eForms-EU.
-</summary>
-<br>
-It is currently planned to switch off support for eForms-EU 1.5 with the release in July, as it is also not supported in the announcement service. If it is necessary to support this or other EU versions for longer, this can be discussed.
-</details>
-<br>
-
-### Special cases
-
-<details>
-<summary>
-Will there be corresponding procedure models for any rare, but conceivable, special cases that can be invoked if the cases occur?
- </summary>
- Here are two examples:
-Example 1:<br>
-The Vermittlungsdienst accepts a notice which is valid according to the Vermittlungsdienst/eSenderHub. The EU later rejects acceptance ("rejected" status), for example because the SDK version is no longer supported. The platform operator receives the status "internalError" according to the status mapping. What would the next steps be in this case?<br>
-Example 2:<br>
-According to the EU, a business rule will soon be introduced that no longer allows the "dispatch date" in a notice (date of dispatch of the notice), which is set by the platform operators and the time of transmission of the data service to the EU, to deviate by a maximum of 24 hours, otherwise acceptance by the EU will be blocked. Any technical problems in the data service must therefore always be resolved within 24 hours.
-
-<br>
-There will be a support structure to respond to error states (InternalError status) or bugs. It is currently being clarified what this support structure will look like and when it will be operational. From June onwards, Nortal will be the first point of contact at the e-mail address support-oeffentlichevergabe@bdr.de. Whenever errors occur in the system (e.g. rejection by TED), these will be logged so that a support ticket can be created and a technical analysis carried out if necessary.
-</details>
-<br>
-
-
 
 # Standard eForms-DE and SDK-DE
 
@@ -596,8 +295,6 @@ There will be a support structure to respond to error states (InternalError stat
 **Please note that we answer all questions regarding the eForms-DE standard according to our current state of knowledge. The information is subject to change at any time**.
 
 **For further questions about the <u>eForms-DE</u> standard, please contact the Coordination Office for IT Standards (KoSIT) as the operator by e-mail: eforms@finanzen.bremen.de**
-
-**If you have any further questions about the <u>SDK-DE</u>, please contact Bundesdruckerei's support team by e-mail at [support-oeffentlichevergabe@bdr.de](mailto:support-oeffentlichevergabe@bdr.de)**, stating explicitly which version of the SDK-DE you have questions about.
 
 ## General questions
 
@@ -622,7 +319,7 @@ There will be a support structure to respond to error states (InternalError stat
 | 1 | Planning | Announcement of the publication of prior information in a buyer profile - general guideline | Information is contained in the buyer profile |
 | 2 | Planning | Publication of a periodic indicative notice in a buyer profile - __sectoral directive__ | Information is included in the buyer profile |
 | 3 | Planning | Notice of publication of a prior information notice on a buyer profile - Defense Procurement Directive | Information is included in the buyer profile |
-| T01 | Planning | Prior information notice on public passenger transport services | This is based on Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, data collection for T1 is carried out directly at TED in the "eNotices" application. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
+| T01 | Planning | Prior information notice on public passenger transport services | This is based on Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, the data collection for T1 takes place in the "eNotices" application directly at TED. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
 | T02 | Result | Notice on contracts awarded for public passenger transport services | The basis is Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, data collection for T2 is carried out directly at TED in the "eNotices" application. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
 </details>
 
@@ -632,7 +329,6 @@ There will be a support structure to respond to error states (InternalError stat
 <summary>
 Where can I find the latest version of the SDK-DE, which is supported by Datenservice Öffentlicher Einkauf (DÖE) and conforms to the German eForms-DE standard? (updated on 16.11.2023)</summary>
 <br>
-
 
 The SDK-DE can be found at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.<br>The latest version of the SDK-DE belonging to the standard eForms-DE version 1.1.0 published on [xeinkauf.de](https://xeinkauf.de/eforms-de/) is **1.1.0_1.7.2**:
 
@@ -646,37 +342,10 @@ https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/SDK-DE_1.1.0_
 
 Sorted by BT/BG number.
 
-### Procurer legal nature (BT-11) and CPV
-<details>
-<summary>
-CPV code Main subject and cross-dependencies to the legal form of the bidder. Restrictive rule BR-BT-00262-0211 of the EU. (updated on 27.09.23)</summary>
-<br>
-
-According to this rule, recipients of grants under VgV can only tender for construction services, but not services. Even in award procedures under SektVO, KonzVgV or VSVgV, there are restrictions on the selection of forms applicable in an award procedure for grant recipients issuing tenders compared to other awarding bodies, which is incomprehensible.
-
-**This is a BUG in TED. This has now been fixed and is built into both the DÖE and the SDK from version 1.1.0_1.7.2;
-https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/blob/SDK-DE_1.1.0_1.7.2/sdk/examples/de/notices/ContractAwardNotice_CVD3.xml?ref_type=tags**
-</details>
-<br>
-
-### BT-743 (electronic invoicing) must be set to "required"
-<details>
-<summary>
-BT-743 (Electronic invoicing) must be set to "required" by an EU rule as soon as the legal basis BT-01 is not set to "Other" </summary
-<br>
-
-TED will unfortunately only fix this error of an overly strict rule regarding BT-743 (electronic invoicing) in version 1.10 of the TEd-SDK and higher, but not for previous versions. Platforms that send notices to the Datenservice Öffentlicher Einkauf Vermittlungsdienst in Germany will unfortunately have to deal with the error until the expected introduction of SDK-DE 1.2.0_1.10.0 in February 2024 and the subsequent implementation in the awarding platforms or editorial system.
-
-As a transitional solution until then, contracting authorities can enter "required" in BT-743 (Electronic invoicing), but then note in BT-77 (Provisions - Financing) that although "required" is entered in BT-743, this is NOT "required" according to this regulation, but that electronic invoicing is "permitted" and desired instead.
-
-**This is a BUG at TED. This will be fixed in 1.10 and therefore in eForms 1.2. The above workaround must be used for older versions **.
-</details>
-<br>
-
 ### Announcement of results (BG-7), Offer (BG-320 Offer)
 <details>
 <summary>
-In the element "Announcement of results" (BG-7) > "Tender" (BG-320), should only awarded tenders/lots or all tenders/lots received be listed?
+Should the element "Announcement of results" (BG-7) > "Tender" (BG-320) only list awarded tenders/lots or all tenders/lots received?
 </summary>
 <br>
 
@@ -722,7 +391,7 @@ Are award criteria with a weighting not to be specified or optional?
 
 For award criteria >=10%, the information is mandatory for eForms-en; for award criteria <10%, the cardinalities of the information provided by TED currently remain unchanged.
 
-It is strongly recommended to also enter the information for the award criteria whose weighting is below 10% in order to comply with the 100% rule of TED.
+It is strongly recommended that you also enter the information for the award criteria whose weighting is below 10% in order to comply with the 100% rule of TED.
 </details>
 </summary>
 <br>
@@ -731,7 +400,7 @@ It is strongly recommended to also enter the information for the award criteria 
 
 <details>
 <summary>
-Why have the codes for national exclusion grounds of the code list "Criterion Exclusion Grounds" been changed in the eForms-DE v1.1.0 version?
+Why have the codes for national exclusion grounds of the code list "Criterion Exclusion Grounds" been changed in version eForms-DE v1.1.0?
 </summary>
 <br>
 
@@ -784,11 +453,10 @@ For which case is BT-125-Lot and BT-1251-Lot used?
 <br>
 
 An awarding authority has published a prior information notice in which it announces that an invitation to tender for subject X is to take place soon. This prior information notice is now given an announcement number. Some time later, the contracting authority invites tenders for subject X in a contract notice (CN). The publication number of the prior information notice is now entered in BT-125(i) in order to refer to the prior information notice that was published some time ago.
-BT-1251 is a specification of where information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
+BT-1251 is a specification of the point at which information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
 </details>
 </summary>
 <br>
-
 
 ### Display of the winner in an award notice (supplemented 27.10.23)
 (BT-142, BT-13713, , OPT-320, BT-13714, , OPT-310, OPT-300, BT-721, BT-145, BT-1451, BT-768, BT-3202)
@@ -798,7 +466,7 @@ BT-1251 is a specification of where information on subject X was provided. This 
 
 <br>
 
-Please note that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
+It should be noted that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
 
 The client is stored in the Contract structure.
 An offer is assigned to a contract and bidders are assigned to the offer. These bidders represent the contractors of the contract.
@@ -828,12 +496,12 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Result of the lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
-    The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
+    The description of the tenders takes place in the "Tenders" form module (<efac:LotTender>)
+    Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
@@ -857,11 +525,11 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid in a backward chaining process and the bidder or head of a bidding consortium who signed the contract for the bidders
+BT-3202-Contract - Order bid identifier, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
-Setting up these references in this way according to the pattern described also fulfills another purpose: Only if all references exist correctly can the requirements of BT-165 (Company size) must be filled in and BT-706 (Nationality of the beneficial owner of the winner) must be filled in, of the eForms-DE standard be fulfilled.
+Setting up these references in this way according to the pattern described also fulfills another purpose: only if all references exist correctly can the requirements of BT-165 (Company size) must be filled in and BT-706 (Nationality of the beneficial owner of the winner) must be filled in, of the eForms-DE standard be fulfilled.
 
  </details>
 
@@ -945,7 +613,6 @@ The name for BT-634 (new edition of the procedure) is less confusing in English:
   </details>
 <br>
 
-
 ### Vehicle class (BT-723)
 <details>
 <summary>
@@ -958,7 +625,7 @@ Assistance can be found in Annex II of the framework directive https://eur-lex.e
 |---|---|
 |M1|Light commercial vehicle of vehicle category M1 or passenger car (motor vehicles for the carriage of passengers with no more than eight seats in addition to the driver's seat).
 |M2|Light commercial vehicle of vehicle category M2 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of up to 5 tons).
-|N1|Light commercial vehicle of vehicle category N1 (motor vehicles for the carriage of goods with a maximum authorized mass of up to 3.5 tons).
+|N1|Light commercial vehicle of vehicle category N1 (motor vehicles for the carriage of goods with a maximum permissible mass of up to 3.5 tons).
 |N2|Heavy commercial vehicle of vehicle category N2 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 3.5 tons and up to 12 tons.)|
 |N3|Heavy commercial vehicle of vehicle category N3 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 12 tons.)|
 |M3|Bus of vehicle category M3 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of more than 5 tons).
@@ -1011,11 +678,11 @@ In principle, there is no automatic translation of field contents, i.e. German t
 <br>
 <details>
 <summary>
-Can further information be written to the field, e.g. by the user or automatically by the application?
+Can additional information be written to the field, e.g. by the user or automatically by the application?
 </summary>
 <br>
 
-It is possible to add free text after the code as long as the total character limit is observed. The following note has been added to BT-300 for clarification:
+It is possible to insert free text after the code, as long as the total character limit is observed. The following note has been added to BT-300 for clarification:
 "To the extent that it is necessary to specify one of the codes (freelance, self, startup) because of rule BR-DE-26, the code must be specified on the first line and separated from other additional information by two blank lines. The format of the first line is defined as follows: #Specially suitable for:{freelance|self|startup}."
   </details>
 <br>
@@ -1092,37 +759,6 @@ While reviewing the documents of the national tailoring, some inconsistencies re
 For the sake of simplicity and to avoid inconsistencies with Schematron rules supplied by the EU, the SDK for the national eForms-DE standard contains fields at a technical level that are not used in accordance with the eForms-DE standard.
 
 Lot groups are not provided for in eForms-DE.
-</details>
-<br>
-
-### NUTS codes
-
-<details>
-<summary>
-Is there a code list with country codes where it is not possible to specify the NUTS code?
-</summary>
-<br>
-
-Country-specific NUTS code lists are available in the TED SDK (https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/country.gc )
-  </details>
-<br>
-
-<details>
-<summary>
-Conversely, if you can specify NUTS codes, do you never have to specify the country?
-</summary>
-<br>
-
-As the country is part of the NUTS code, it is not necessary to specify it separately.
-  </details>
-<br>
-
-<details>
-<summary>
-Is it still mandatory to specify the NUTS lvl3 codes?
-</summary>
-<br>
-Yes, if NUTS codes are available, they must be provided
 </details>
 <br>
 
