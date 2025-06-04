@@ -733,7 +733,7 @@ Welchen Wert muss ich für BT-1501(s)-Contract nutzen?</summary>
 <br>
 Bitte legen sie einen Vertrag an und Verlinken sie die ID dessen anschließend in diesem Feld. Diese kann z.B. den Wert CON-0001 haben.
 </details>
-
+<br>
 
 ### Lose
 <details>
