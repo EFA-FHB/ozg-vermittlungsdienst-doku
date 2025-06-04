@@ -19,7 +19,7 @@ Which systems are available and where do I need an account?
 Does your public procurement office not have software from a specialist procedure manufacturer for creating notices, does it not support all the forms you need or have you previously used TED's eNotices2? Then the editorial system is right for you!
 <br><br>
 **[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service. <br>
-Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually carried out by the specialist procedure manufacturer.
+Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually implemented by the specialist procedure manufacturer.
 <br><br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of Vermittlungsdienst accounts.
 <br> Mainly used by specialist procedure manufacturers. Dashboard accounts are possible for viewing the status information of submitted notices, please contact your specialist procedure manufacturer!
@@ -63,7 +63,7 @@ We generally request two emails per account (sometimes also referred to as a cli
 When creating an account, a contact email address of an FVH must be specified. What is this used for?
 </summary>
 <br>
-This email is used when we want to proactively contact you. This may be the case, for example, if there are anomalies with your account or the notices submitted or if we send general information to all account managers.
+This email is used when we want to proactively contact you. This may be the case, for example, if there are anomalies with your account or the notifications submitted or if we send general information to all account managers.
 </details>
 
 <br>
@@ -103,7 +103,7 @@ In all environments, the same validation and the same delay in publishing is per
 The URL of the awarding platform should be specified to request access. What is the purpose of this information?
 </summary>
 <br>
-The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account per system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
+The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Procurement platforms are the systems in which notices are published; the URL of the procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account for each system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
 </details>
 <br>
 
@@ -123,7 +123,7 @@ The preview environment is only used for testing. Updates are often installed he
 Is there a roadmap regarding the further development of the Vermittlungsdienst, eSenderHub, etc. components after the deadline of 25.10.2023, in particular with regard to feature and API enhancements, milestones and the respective go-live dates?
 </summary>
 <br>
-As things currently stand, two more releases are planned for the data service after 25.10.2023. The content of the releases primarily relates to convenience functions and evaluation options. API changes and enhancements are not planned according to the current planning status.
+As things currently stand, two more releases are planned for the data service after 25.10.2023. The content of the releases primarily relates to convenience functions and evaluation options. API changes and extensions are not planned according to the current planning status.
 </details>
 <br>
 
@@ -252,7 +252,7 @@ The v1/notices endpoint returns status information on all notices that have been
 
 <details>
 <summary>
-Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Is it planned for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
+Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Are there plans for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
 </summary>
 <br>
 Thank you for this suggestion; we will look into implementing it.
@@ -304,7 +304,7 @@ You can find detailed information on the support of the eForms versions at the f
   </summary>
   <br>
   Although there is no statement on the choice of language for invitations to tender in the procurement regulations, Section 23 (1) of the Administrative Procedure Act (VwVfG) stipulates that the official language is German. Accordingly, it is to be expected that German authorities must always prepare their documents at least in German. Multilingualism is of course possible and permitted.
-  For publishing entities that are not classified as public authorities, publication without German is fine. As of 31.01.2024, the rule CR-DE-26 for BT-300 is temporarily deactivated for validation in the Vermittlungsdienst, but the error is still returned in the online validator (validator.ozg-vermittlungsdienst.de).
+  For publishing entities that are not classified as public authorities, publication without German is fine. As of 31.01.2024, rule CR-DE-26 for BT-300 is temporarily deactivated for validation in the Vermittlungsdienst, but the error is still returned in the online validator (validator.ozg-vermittlungsdienst.de).
 </details>
 
 <details>
@@ -331,7 +331,7 @@ You can find detailed information on the support of the eForms versions at the f
 Where can I find the latest version of the SDK-DE, which is supported by Datenservice Öffentlicher Einkauf (DÖE) and conforms to the German eForms-DE standard?
 <br>
 
-The latest SDK-DE can be found at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.
+The latest SDK-DE can be found at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
 </details>
 
 <br>
@@ -343,7 +343,7 @@ Sorted by BT/BG number.
 ### Announcement of results (BG-7), Offer (BG-320 Offer)
 <details>
 <summary>
-Should the element "Announcement of results" (BG-7) > "Tender" (BG-320) only list awarded tenders/lots or all tenders/lots received?
+In the element "Announcement of results" (BG-7) > "Tender" (BG-320), should only awarded tenders/lots or all tenders/lots received be listed?
 </summary>
 <br>
 
@@ -451,7 +451,7 @@ For which case is BT-125-Lot and BT-1251-Lot used?
 <br>
 
 An awarding authority has published a prior information notice in which it announces that an invitation to tender for subject X is to take place soon. This prior information notice is now given an announcement number. Some time later, the contracting authority invites tenders for subject X in a contract notice (CN). The publication number of the prior information notice is now entered in BT-125(i) in order to refer to the prior information notice that was published some time ago.
-BT-1251 is a specification of where information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
+BT-1251 is a specification of the point at which information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
 </details>
 </summary>
 <br>
@@ -464,7 +464,7 @@ BT-1251 is a specification of where information on subject X was provided. This 
 
 <br>
 
-Please note that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
+It should be noted that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
 
 The client is stored in the Contract structure.
 An offer is assigned to a contract and bidders are assigned to the offer. These bidders represent the contractors of the contract.
@@ -477,7 +477,7 @@ The following long version describes exactly what needs to be done to enable thi
   </summary>
 
 <br>
-The following illustration is intended to help you fill out the eForms form for the notification of results (CAN) so that the associated awarded contracts can be displayed correctly in the notification service (www.oeffentlichevergabe.de).
+The following illustration is intended to help you complete the eForms form for the notification of results (CAN) so that the associated awarded contracts can be displayed correctly in the notification service (www.oeffentlichevergabe.de).
 These completion instructions are aimed at specialist procedure manufacturers for the technical implementation of the following fields in the specialist procedure. If necessary, this can be used as a guide for users. For this reason, the technical field identifiers and their German interface designations (used in accordance with the eforms-DE standard, if available, otherwise those from the SDK-DE) are specified:
 <br>
 
@@ -498,7 +498,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 3. description of the tender
    
-    The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
+    The description of the tenders takes place in the "Tenders" form module (<efac:LotTender>)
     Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
@@ -523,7 +523,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who signed the contract for the bidders
+BT-3202-Contract - Order bid identifier, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who has signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
@@ -584,7 +584,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 | Hamburg| Public Procurement Chamber at the Finance Authority | t:040428231690 |
 | Hamburg|Awarding Chamber at the Authority for Urban Development and Housing |t:040428403230 |
 | Hesse| Procurement Chamber of the State of Hesse at the Darmstadt Regional Council | t:06151126603 |
-| Mecklenburg-Western Pomerania| Public Procurement Chambers at the Ministry of Economic Affairs, Labor and Health | t:03855885160 |
+| Mecklenburg-Western Pomerania| Public Procurement Chambers at the Ministry of Economics, Labor and Health | t:03855885160 |
 | Lower Saxony| Public Procurement Chamber of Lower Saxony at the Ministry of Economic Affairs, Labour and Digitalization of Lower Saxony | t:04131153308 |
 | North Rhine-Westphalia| Rhineland Public Procurement Chamber via Cologne District Government | t:02211473055 |
 | North Rhine-Westphalia|Westphalia Chamber of Public Procurement | t:02514111691 |
@@ -723,7 +723,8 @@ New features and details (added on 27.09.23)
 What ID do I need to use to link to old notices prior to the eForms commitment?
 <br>
 Please use the Notice Publication ID or document number, which is uniquely assigned by TED for each notice. This can be seen both in the search results of the notices on the TED website in the column 'Document number' and in the direct link from TED to the notice as well as in the detail page of the notice in the heading. It consists of a series of numbers, a hyphen and the year of publication of the announcement. e.g. 1234576-2022. The number of numbers before the hyphen may vary.
-  </details>
+</details>
+<br>
 
 ### BT-1501(s)-Contract
 <details>
