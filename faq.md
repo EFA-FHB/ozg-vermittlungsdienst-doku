@@ -11,18 +11,20 @@
 
 <details>
 <summary>
-Welche Systeme gibt es und wo brauche ich einen Account?
+Aus welchen Komponenten besteht der Datenservice Öffentlicher Einkauf und wo brauche ich einen Account?
 </summary>
 
 <br><br>
-**[Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Web-Oberfläche zum Erstellen von Bekanntmachungen und der Veröffentlichung bei TED sowie im Bekanntmachungsservice. <br> 
-Haben Sie in Ihrer Vergabestelle keine Software eines Fachverfahrensherstellers zum Erstellen von Bekanntmachungen,  unterstützt diese nicht alle von Ihnen benötigte Formulare oder haben Sie bisher die eNotices2 von TED genutzt? Dann ist das Redaktionssystem richtig! 
-<br><br>
-**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Rein technische Schnittstelle zur Annahme, Validierung und Weiterleitung von Bekanntmachungen an TED und den Bekanntmachungsservice. <br> 
+**[Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Web-Oberfläche zum Erstellen von Bekanntmachungen und der Veröffentlichung bei TED sowie im Bekanntmachungsservice. 
+Haben Sie in Ihrer Vergabestelle keine Software eines Fachverfahrensherstellers zum Erstellen von Bekanntmachungen, unterstützt diese nicht alle von Ihnen benötigte Formulare oder haben Sie bisher die eNotices2 von TED genutzt? Dann ist das Redaktionssystem richtig!
+<br>
+**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Rein technische Schnittstelle zur Annahme, Validierung und Weiterleitung von Bekanntmachungen an TED und den Bekanntmachungsservice. 
 Bietet KEINE Oberfläche zum Erstellen von Bekanntmachungen! Es ist ausschließlich Maschine-zu-Maschine Kommunikation möglich, wie z.B. von einer Vergabestellensoftware. Diese Anbindung wird meist durch den Fachverfahrenshersteller durchgeführt. 
-<br><br>
+<br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web-Oberfläche für das Accountmanagement von Accounts des Vermittlungsdienstes. 
-<br> Hauptsächlich genutzt durch Fachverfahrenshersteller. Dashboard Accounts sind möglich zur Ansicht der Statusinformationen von eingelieferten Bekanntmachungen, dazu wenden Sie sich bitte an Ihren Fachverfahrenshersteller wenden! 
+Hauptsächlich genutzt durch Fachverfahrenshersteller. Dashboard Accounts sind möglich zur Ansicht der Statusinformationen von eingelieferten Bekanntmachungen, dazu wenden Sie sich bitte an Ihren Fachverfahrenshersteller!
+<br>
+**[Bekanntmachungsservice](https://oeffentlichevergabe.de/)**: Im Bekanntmachungsservice werden sämtliche Bekanntmachung, welche über den Datenservice Öffentlicher Einkauf versendet werden, veröffentlicht. Der Bekanntmachungsservice bietet eine Vielzahl an Recherchemöglichkeiten, damit Bietende ihrem Leistungsspektrum entsprechend zielgenau Bekanntmachungen finden können. Mit Nutzung des ELSTER-Unternehmenskontos stehen zudem weitere komfortable Funktionen wie Speicherung von Suchfunktionen und Benachrichtigungsservices zur Verfügung. Des Weiteren können die Daten des Bekanntmachungsservice über eine Open Data Schnittstelle in den Formaten eForms-DE, CSV und OCDS nachgenutzt werden.
 <br>
 </details>
 <br>
@@ -120,10 +122,10 @@ Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespie
 
 <details>
 <summary>
-Gibt es eine Roadmap bezüglich der Weiterentwicklung auch nach Stichtag 25.10.2023 der Komponenten Vermittlungsdienst, eSenderHub, usw., insbesondere im Hinblick auf Feature- und API-Erweiterungen, Meilensteine und die jeweiligen Go-live-Zeitpunkte?
+Gibt es eine Roadmap zur Weiterentwicklung der Komponenten des Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
-Zum derzeitigen Stand sind nach dem 25.10.2023 noch zwei Releases für den Datenservice geplant. Der Inhalt der Releases bezieht sich primär auf Komfortfunktionen und Auswertungsmöglichkeiten. API-Änderungen und Erweiterungen sind nach aktuellem Planungsstand nicht vorgesehen.
+Ja. Unter: https://portal.ozg-vermittlungsdienst.de/roadmap
 </details>
 <br>
 
@@ -131,14 +133,13 @@ Zum derzeitigen Stand sind nach dem 25.10.2023 noch zwei Releases für den Daten
 
 <details>
 <summary> 
-Erreichbarkeiten:
+Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
-*Fragen und Verbesserungsvorschläge* gegenüber dem Vermittlungsdienst und dem eSender-Hub können an oeffentliche-vergabe@nortal.com gerichtet werden. Alternativ können Github Issues im Dokumentationsrepository und dem SDK-eForms-DE Repository erstellt werden.
-
-Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs wenden Sie sich bitte an: support-oeffentlichevergabe@bdr.de.
-
-*Fragen zum Bekanntmachungsservice* können an support-oeffentlichevergabe@bdr.de gerichtet werden.
-
+Bitte nutzen Sie unsere Kontaktformulare:
+Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal: https://portal.ozg-vermittlungsdienst.de/contact
+Fragen/Anmerkungen zum Redaktionssystem: https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
+Fragen/Anmerkungen zum Bekanntmachungsservice: https://oeffentlichevergabe.de/ui/de/contact
+<br>
 Wir sind offen für Ihre Vorschläge!
 </details>
 <br>
@@ -187,10 +188,8 @@ Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizi
 Wie kann für ein Release ermittelt werden, welche Versionen der Teilkomponenten unterstützt werden?  
 </summary>
 <br>
-
-Unter [eForms Unterstützung](/documentation/eForms_support.md) ist dokumentiert welche eForms-Versionen die Teilkomponenten unterstützen.
-<br>
-Für jedes Release verffentlichen wir releasenotes, um zu beschreiben, welche Komponente welche Version unterstützt. Die Versionen eForms-DE 1.0.1 und 1.1.0 werden ab 13. September in allen Komponenten des Datenservice öffentlicher Einkauf unterstützt. 
+Unter eForms Unterstützung ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. 
+Für jedes Release veröffentlichen wir Release Notes, um zu beschreiben, welche Komponente welche Version unterstützt.
 </details>
 <br>
 
@@ -309,7 +308,7 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie u
 
 <details>
   <summary>
-    Gibt es Vormulare , die in eForms-DE nicht berücksichtigt werden?
+    Gibt es Formulare , die in eForms-DE nicht berücksichtigt werden?
   </summary>
   <br>
     Folgende Formulare sind im eForms-DE Standard nicht vorgesehen:
@@ -330,8 +329,7 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie u
 <summary>
 Wo ist die neueste Version des vom Datenservice Öffentlicher Einkauf (DÖE) unterstützten und zum deutschen Standard eForms-DE konformen SDK-DE zu finden?</summary>
 <br>
-
-Das neueste SDK-DE ist auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de zu finden.
+Die Publikation des SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
 </details>
 
 <br>
@@ -646,12 +644,12 @@ Dies geschieht in der Abwägung, dass der BKMS etwaige Daten sofort ab 25. Oktob
 
 <details>
 <summary>
-Entfernt der Datenservice diese Informationen, oder werden diese auch zur EU übermittelt?
+Entfernt der Datenservice diese Informationen oder werden diese auch zur EU übermittelt?
 </summary>
 <br>
 
-Der eSender-Hub entfernt diese Daten nicht, die Eingaben aus diesem Feld werden auch 1:1 an die EU weitergelitet. Da es sich um ein Textfeld handelt, gibt es hier auch kein technisches Problem. Es kann nur ein Wert für den Beginn des Textfeldes eingefügt werden: #Besonders geeignet für:{freelance ODER selbst ODER startup}#'. Nach dieser Angabe können aber weitere Erläuterungen als Freitext eingefügt werden.
-  </details>
+Der eSender-Hub entfernt diese Daten nicht, die Eingaben aus diesem Feld werden auch 1:1 an die EU weitergeleitet.
+</details>
 
 <br>
 <details>
@@ -742,10 +740,8 @@ Wie sind die LOT-Einträge bei "keinem", einen oder mehreren Losen zu verwenden?
 </summary>
 <br>
 
-Laut TED muss, bei 'keinem' Los nur ein technischer Lot eintrag vorhanden sein mit dem Wert LOT-0000. 
-Wenn es zwei Lose gibt, gibt es zwei Lots mit den Werten LOT-0001 und LOT-0002. Bei 5 Losen z.B. LOT-0001, LOT-0002, LOT-0003, LOT-0004, LOT-0005. Die Struktur von LOT-0000 ist komplett identisch wie von jedem anderen LOT, also auch LOT-0001. Lediglich die ID ist anders.
-
-Doku ist hier zu finden: https://docs.ted.europa.eu/eforms/1.5/schema/procedure-lot-part-information.html
+Laut TED muss, bei 'keinem' Los nur ein technischer Lot eintrag vorhanden sein mit dem Wert LOT-0000. Wenn es zwei Lose gibt, gibt es zwei Lots mit den Werten LOT-0001 und LOT-0002. Bei 5 Losen z.B. LOT-0001, LOT-0002, LOT-0003, LOT-0004, LOT-0005. Die Struktur von LOT-0000 ist komplett identisch wie von jedem anderen LOT, also auch LOT-0001. Lediglich die ID ist anders.
+Siehe auch: https://docs.ted.europa.eu/eforms-common/FAQ/index.html#_schema_and_field_definitions
 </details>
 <br>
 
@@ -768,36 +764,25 @@ Losgruppen sind in eForms-DE nicht vorgesehen.
 
  <details> 
 <summary>
-Informationen von TED per 27.09.23
+Wie erfolgt die Kommunikation mit TED?
 
  </summary>
 
 <br>
 
-- Bei API-Übermittlungen sollte NoticeAuthorEmail die E-Mail des Käufers sein - eSender müssen die wahre E-Mail-Adresse des Auftraggebers in den Metadaten angeben 
-
-- Der E-Mail-Autor der Bekanntmachung erhält Benachrichtigungen über Statusänderungen:  
-       --> Einreichung, Validierung fehlgeschlagen, gestoppt, nicht veröffentlicht, veröffentlicht
-  
-- Der eSender erhält eine Kopie an die E-Mail-Adresse, die von EU Login für den API-Schlüssel verwendet wird.
-
-- laufende Verbesserungen des Inhalts und der Übersetzung dieser E-Mail-Benachrichtigungen 
-  
-- Neue Funktion in Kürze: Käufer erhalten eine E-Mail-Benachrichtigung, wenn eine Bekanntmachung mit demselben Käufernamen veröffentlicht wurde
-
-- Beachten Sie bei API-Tests (Risiko, viele E-Mails zu erhalten): verwenden Sie einen eindeutigen "Hauptkäufernamen" für wiederkehrende Käufer und einen zufälligen Namen für mehrere Käufer
-  
-- **Vermittlungsdienst API Parameter: authorEmail
-               ​Bitte die E-Mail Ihrer Endkunden entsprechend angeben​**
-           </details>
-           <br>
+- Bei API-Übermittlungen muss die NoticeAuthorEmail die E-Mail des Beschaffers (Endanwender) sein
+-	Der E-Mail-Autor der Bekanntmachung erhält Benachrichtigungen über Statusänderungen:
+--> Einreichung, gestoppt, nicht veröffentlicht, veröffentlicht
+-	Der eSender erhält eine Kopie an die E-Mail-Adresse, die von EU-Login für den API-Schlüssel verwendet wird.
+</details>
+<br>
 
 <details>
 <summary>
-Nach Angabe der EU (siehe https://simap.ted.europa.eu/de_DE/web/simap/statistical-production-files - Statistik 2023 nach Format und Übermittlungskanal) haben bisher noch viele Auftraggeber das EU-Portal eNotices zur Erstellung und Veröffentlichung der Bekanntmachung genutzt. eNotices2, das neue Portal mit den integrierten eForms, kennt und berücksichtigt nicht das nationale Tailoring. Dürften Vergabestellen weiterhin eNotices2 verwenden, obwohl dort das nationale Tailoring nicht berücksichtigt ist?
+Ist es möglich weiterhin Bekanntmachungen über eNotices2 einzuliefern?
 </summary>
 <br>
-eNotices2 darf für oberschwellige Einlieferungen ab dem 25.10. nicht mehr genutzt werden, da die Anpassungen des eForms Standards nicht berücksichtig würden, sodass die direkte Einlieferung über eNotices2 an TED nicht mehr rechtlich zulässig ist. 
+Seit dem 25.10.2023 müssen rechtlich alle oberschwelligen Bekanntmachungen im eForms-DE Format über den Datenservice Öffentlicher Einkauf eingeliefert werden. Eine direkte Einlieferung über eNotices2 ist rechtlich nicht zulässig, da dort die Anpassungen des eForms-DE Standards nicht berücksichtig werden. (Siehe auch VgV § 10a) 
 </details>
 <br>
 
