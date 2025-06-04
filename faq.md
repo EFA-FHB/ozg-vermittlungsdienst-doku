@@ -5,7 +5,7 @@
 - [Standard eForms-DE und SDK-DE](#standard-eForms-DE-und-SDK-DE)
 - [Allgemein](#allgemein)
 
-## Datenservice Öffentlicher Einkauf
+# Datenservice Öffentlicher Einkauf
 
 ### Anbindung
 
@@ -33,8 +33,7 @@ Welche Informationen werden benötigt, um einen Account zu beantragen? (aktualis
 </summary>
 <br>
 
-
-Seit dem 04.10 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt werden. Alle benötigte Informationen werden im Registrierungsformular für einen VD Account abgefragt. Diese sind:
+Seit dem 04.10.2023 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt werden. Alle benötigte Informationen werden im Registrierungsformular für einen VD Account abgefragt. Diese sind:
 
 <br>
 
@@ -49,7 +48,6 @@ Seit dem 04.10 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermi
 - Name des FVH
 </details>
 <br>
-
 
 <details>
 <summary>
@@ -114,46 +112,7 @@ Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden z
 Welche Systemumgebung ist die Umgebung, an die unsere Testsysteme Bekanntmachungen versenden können? Worin besteht der Unterschied zwischen der Preview und Staging Umgebung?
 </summary>
 <br>
-Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespielt und dies ist auch unsere Testumgebung für zukünftige Releases. Die Staging-Umgebung ist eine 100% Kopie der Produktionsumgebung und sollte nur für produktionsnahe Tests genutzt werden. Beide Umgebungen liefern in die Alpha Umgebung des BKMS und TED Preview ein. Auf Staging sollten Ihre Tests genauso durchgeführt werden, wie sie es in Produktion planen, zu tun. Prinzipiell sind aber beide Umgebungen zum Test geeignet.
-</details>
-<br>
-
-<details>
-<summary>
-Wo sind Beispiele zu eForms-DE zu finden? Welche unterschiedlichen Typen gibt es? ? 
-</summary>
-<br>
-Beispieldokumente für eForms-DE sind im schematron Repository der KoSIT zu finden: https://projekte.kosit.org/eforms/eforms-de-schematron/-/tree/main/src/test/eforms-de-base-samples 
-ÜBer die jeweiligen tags und releases können die unterschiedlichen Versionen der Dokumente abgerufen werden.
-
-Die Abkürzungen sind wie folgt zu verstehen: 
-
-PIN
-Eng: Prior Information Notice
-Deu: Vorinformation
-Subtyp 1-14, E2
-PINs sind Bekanntmachungen, die vor Beginn des "Aufrufs zum Wettbewerb" veröffentlicht werden.
-
-CN
-Eng: Contract Notice
-Deu: Offenes Verfahren / Öffentliche Ausschreibung
-Subtyp 15-24, E3
-CNs sind Bekanntmachungen, die den "Aufruf zum Wettbewerb" einleiten.
-
-CAN
-Eng: Contract Award Notice
-Deu: Bekanntmachung (vergebener Vertrag)
-Subtyp 25-40, E4
-CANs werden zur Erstellung von Ergebnisbekanntmachungen verwendet, die kurz nach der Vertragsunterzeichnung veröffentlicht werden. Sie beziehen sich auf die Bekanntmachung und enthalten Informationen über das Vergabeverfahren, wie z. B. die Auftragsvergabe, den Gewinner usw.
-
-Bei der Bennenung der Beispeieldokumente geht es um folgendes:
-
-eforms = Standard Dokumenttyp
-PIN/CN/CAN = siehe oben; bezeichnet das Art von Bekanntmachung
-Nummer 1-40 oder E1-E4 = Subtyp der Bekanntmachung, wobei E für unterschwellige Bekanntmachungen sind
-DE = Standard ist eForms-DE
-(in)/valid = ob das file laut Spezifikation eForms-de gültig oder ungültig ist
-Es existieren derzeit noch nicht für alle Bekanntmachungstypen eine Beispieldatei. Wenn sie für einen bestimmten Typ ein Beispiel benötigen, das im vorher genannten Link nicht existiert, können wir gern eine Anfrage hierzu weiterleiten. Leider stellt auch die EU nicht für alle Bekanntmachungstypen Beispiele bereit, sodass die zur Verfügungstellung von Beispiel teilweise recht zeitintensiv ist. 
+Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespielt und dies ist auch unsere Testumgebung für zukünftige Releases. Die Staging-Umgebung ist eine 100% Kopie der Produktionsumgebung und sollte nur für produktionsnahe Tests genutzt werden. Beide Umgebungen liefern in die Staging-Umgebung des BKMS und TED Preview ein. Auf Staging sollten Ihre Tests genauso durchgeführt werden, wie sie es in Produktion planen, zu tun. Prinzipiell sind aber beide Umgebungen zum Test geeignet.
 </details>
 <br>
 
@@ -165,94 +124,6 @@ Gibt es eine Roadmap bezüglich der Weiterentwicklung auch nach Stichtag 25.10.2
 </summary>
 <br>
 Zum derzeitigen Stand sind nach dem 25.10.2023 noch zwei Releases für den Datenservice geplant. Der Inhalt der Releases bezieht sich primär auf Komfortfunktionen und Auswertungsmöglichkeiten. API-Änderungen und Erweiterungen sind nach aktuellem Planungsstand nicht vorgesehen.
-</details>
-<br>
-
-
-<details>
-<summary>
-Wird es eine Roadmap bezüglich der Weiterentwicklung des SDK geben? Dies ist für Plattformbetreiber insbesondere vor dem Hintergrund der Anpassungszeitpunkte an neue SDK-EU-Versionen interessant, da das SDK-DE und SDK-EU aktuell in ihrer Versionierung noch auseinandergehen.
-</summary>
-<br>
-
-Die Versionsbezeichnungen der SDK zum jeweiligen nationalen Standard eForms-DE orientieren sich an den Versionsbezeichnungen des Standards eForms-DE. Zu jedem eForms-DE-SDK ist angegeben, auf welcher europäischen SDK-Version diese beruht. (siehe auch Erläuterung auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de)
-
-Es ist nicht geplant, dass zu jeder minor Version des eForms-EU auch eine neue Version eForms-DE veröffentlicht wird. Deshalb wird die Versionierung von eForms-EU und eForms-DE auch in Zukunft nicht direkt übereinstimmen. Es wird aber immer für jede eForms-DE Version exakt eine korrespondierende eForms-EU Version geben.
-</details>
-<br>
-
-<details>
-<summary>
-In welchem Zeitrahmen wird ein DE-Update zur Verfügung gestellt, nachdem ein EU-Update veröffentlicht wurde?
-</summary>
-<br>
-
-Es ist hierbei zu beachten, dass nicht für jedes EU-Update automatisch ein DE-Update notwendig ist.
-<br>
-Das GDK liegt nicht in der Verantwortung der KoSIT. Jedoch die Spezifikation eForms-DE. Wie beim 1. technischen Arbeitstreffen gemeinsam festgestellt wurde, können wir angesichts noch vorliegenden Unklarheiten über in Kraft treten und Lebensdauer der Versionen des EU-SDK, derzeit noch keine einfache Antwort mit klaren Daten geben. Was feststeht ist, dass eine bestimmte Version eForms-DE sich kompatibel zu einer bestimmten Version eForms-SDK erklärt und dies möglichst zeitnah geschehen soll. Wie derzeit eForms-DE 1.0.1 kompatibel zu eForms-SDK 1.5.1 ist (SDK 1.5.1 wurde am 20. Januar 2023 veröffentlicht und eForms-DE am 5. Februar). D.h. implizit, dass es nicht zu jeder Version eForms-SDK eine Version eForms-DE geben wird. Die aktuelle eForms-DE Version 1.1.0 ist kompatibel zu SDK 1.7. 
-</details>
-<br>
-
-
-### Go-Live
-
-<details>
-<summary>
-Welche Einreichungsfristen sind zu beachten? (ergänzt am 12.10.23)
-</summary>
-<br>
-Um sicherzustellen, dass die Bekanntmachung noch am selben Tag auf TED veröffentlicht wird, empfehlen wir  die Bekanntmachung bis 23:00 Uhr desselben Tages beim Vermittlungsdienst eingereicht sein.
-
-Bsp. für die FVH:
- Um sicherzustellen, dass die Bekanntmachung noch am selben Tag an den Vermittlungsdienst gesendet wird, empfehlen wir die Bekanntmachung bis 22:00 Uhr desselben Tages beim Fachverfahrenshersteller eingereicht sein.
-</details>
-<br>
-
-<details>
-<summary>
- Wann startet der Datenservice Öffentlicher Einkauf? (ergänzt am 25.09.23)
-</summary>
-<br>
-Der Produktivstart des Datenservice Öffentlicher Einkauf ist durch §83a der aktuellen Vergabeverordnung (VgV) geregelt. Dies wird voraussichtlich der 25.10.2023 sein.
-</details>
-<br>
-
-<details>
-<summary>
-Werden zum Go-live alle 40 EU-Bekanntmachungstypen unterstützt?
-</summary>
-<br>
-Es werden alle Dokumententypen aus eForms-DE angenommen (40 für die Oberschwelle und 3 für die Unterschwelle). Wo notwendig werden diese generisch in das eForms-EU Format konvertiert. Dies entspricht den Inhalten des aktuellen eForms-DE Standards.
-</details>
-<br>
-
-<details>
-<summary>
-Ist es möglich ab dem 25.10.2023 weiterhin Bekanntmachungen über eNotices2 einzuliefern? 
-</summary>
-<br>
-Ab dem 25.10.2023 müssen rechtlich alle oberschwelligen Bekanntmachungen im eForms-DE Format über den Datenservice Offentlicher Einkauf eingeliefert werden. Eine direkte Einlieferung über eNotices2 ist nicht standardkonform, da die Anpassungen des eForms-DE Standards nicht berücksichtigt würden und ist rechtlich nicht mehr zulässig. 
-</details>
-
-<br>
-
-<details>
-<summary>
-Gilt die Einführung von eForms sowohl für Ober- (EU) als auch Unterschwellenwerte (National) oder nur für die EU-Ebene?
-</summary>
-<br>
-Ab dem 25.10.23 müssen EU-weite Mitteilungen im Format eForms-DE verpflichtend über die Schnittstelle übermittelt werden. Wenn die Schnittstelle auch für nationale Bekanntmachungen genutzt werden soll, muss dies ebenfalls über das eForms Format geschehen, damit der Datenservice diese verarbeiten kann. Welche Formate derzeit unterstützt und verarbeitet werden, erfahren Sie in unserer Vorschau unter https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/development/documentation/eForms_support.md.
-</details>
-<br>
-
-<details>
-<summary>
-Wie wird mit einem Wechsel des eSenders für eine Bekanntmachung umgegangen, wenn diese berichtigt werden soll? Wie wird mit einem Wechsel des eSenders innerhalb eines Verfahrens mit mehreren Bekanntmachungen umgegangen? Wie können Korrekturen oder Verweise für Folgebekanntmachungen in Bezug auf im alten Format eingereichte Bekannmachungen durchgeführt werden? 
-</summary>
-<br>
-
-Es wird nicht möglich sein, über den Datenservice den Status einer alten Bekanntmachung abzufragen oder eine alte Bekanntmachung zu stoppen, die nicht über den Datenservice eingeliefert wurde, da der Datenservice keine Anfragen zu im alten Format versendeten Bekanntmachungen versenden kann. Der Wechsel des eSender hat jedoch keinen Einfluss auf die Möglichkeit, auf alte Bekanntmachungen zu referenzieren. 
-Wie Verweise und Korrekturen alter Bekanntmachungen möglich sind, finden Sie hier ausführlich beschrieben: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_creation.md
 </details>
 <br>
 
@@ -271,7 +142,6 @@ Bei *Supportanfragen zum Betrieb* des Vermittlungsdienst und des eSender-Hubs we
 Wir sind offen für Ihre Vorschläge!
 </details>
 <br>
-
 
 <details>
 <summary>
@@ -299,9 +169,6 @@ https://www.finanzen.bremen.de/digitalisierung/digitalisierung-von-verwaltungsle
 Fragen zum DE-SDK sind über Issues im Repository zu eröffnen.
 </details>
 <br>
-
-
-
 
 ### Dokumentation
 
@@ -337,69 +204,7 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 </details>
 <br>
 
-
-### Statusmodell
-
-<details>
-<summary>
-Bekanntmachung anhalten, ändern oder abbrechen? (ergänzt am 27.09.23)
-</summary>
-<br>
--"Publishing" im nächsten Monat in eNotices2 Web und API sichtbar 
-- Käufer/API kann die Veröffentlichung einer Bekanntmachung im Status "Submitted" stoppen
-- Sobald der Status "Published" (d.h. auf TED) erreicht ist, kann die Bekanntmachung geändert oder das Verfahren fortgesetzt werden
-- Los oder Verfahren können über Vergabebekanntmachung ohne Gewinner storniert werden
-- Change notice mit dem Grund "cancel" = die Bekanntmachung ist null und nichtig - dies ist möglich, wird aber nicht empfohlen!
-</details>
-<br>
-
-<details>
-<summary>
-Wie kann der Beginn der Stillhaltezeit von 48 Stunden nachvollzogen, wann die Bekanntmachung bei TED eingegangen ist?
-</summary>
-<br>
-Es bestehen zwei Möglichkeiten, den Zeitpunkt der erfolgreichen Einlieferung bei TED aus den Statusinformationen im Vermittlungsdienst abzulesen. Entweder über den technischen Zeitstempel, wann der eSender eine Bestätigung für die Einlieferung von der TED API erhalten hat (<tedStatus>ACCEPTED</tedStatus>  tedStatusUpdate>2023-07-31T08:02:02.442Z</tedStatusUpdate>) oder über den von TED übermittelten Wert submittedAt, der bei der Statusabfrage mitgeliefert wird (<ted_accepted_timestamp>). Beide Werte liegen nur minimal auseinander, da es eine minimale Verzögerung geben kann zwischen dem Zeitpunkt, wann TED die Bekanntmachung annimmt und wann eine Erfolgsmeldung an den eSender als Response zurückgeliefert wird. 
-</details>
-<br>
-
-<details>
-<summary>
-Mit den Statusänderungsmeldungen der EU haben Plattformanbieter auch weitergehende Metadaten zum jeweiligen Status erhalten, bspw. die Submission-ID, den konkreten Zeitpunkt der Veröffentlichung auf TED, die ABl.-Nummer etc. Mit der ABl.-Nummer hatten Kunden bisher die Möglichkeit, bei Folgebekanntmachungen zu diesem Auftrag (Angabe "frühere Bekanntmachung desselben Auftrags") diese Nummern nicht mehr manuell eintragen zu müssen, da diese vorbefüllt werden konnten. Besteht auch weiterhin die Möglichkeit, o. g. Informationen zur Veröffentlichung zu erhalten, um den Kunden diese Reihe an Funktionalitäten zu bieten?
-</summary>
-<br>
-TED stellt nicht mehr dieselben Metadaten pro Bekanntmachung zur Verfügung wie früher, wir geben alle relevanten Infos zurück, die wir bekommen.
-Die folgenden Daten werden von TED zu einer Bekanntmachung zur Verfügung gestellt.
-
-![Daten einer Bekanntmachung von TED](images/faq/Bekanntmachung_Daten_von_TED.png) 
-
-Wir prozessieren dabei den Status, den Zeitpunkt der Einlieferung und wenn gegeben den Zeitpunkt der Veröffentlichung. Die ABl.-Nummer wird in eNotices2 nicht mehr verwendet. Wenn Sie weitere Daten aus dieser Abfrage benötigen, schreiben Sie uns bitte eine Mail mit Ihren Anforderungen an: support-oeffentlichevergabe@bdr.de. Gerne organisieren wir einen bilateralen Austausch.
-</details>
-<br>
-
-<details>
-<summary>
-Wie werden abgelehnte Bekanntmachungen in Fehlerzuständen wie 'REJECTED' Status von TED oder einem 'INTERNAL ERROR' Status von BKMS weiter prozessiert? 
-</summary>
-<br>
-Es wird ein internes Monitoring geben, um auf Fehlerzustände (Status InternalError) oder Bugs zu reagieren. Aktuell ist Nortal unter der E-Mail Adresse support-oeffentlichevergabe@bdr.de der erste Ansprechpartner, wenn Sie Probleme mit Ihren Einlieferungen haben udn Ihre Bekanntmachungen in einen Fehlerstatus laufen. Generell deuten solche Fehlerzustände auf Bugs im DÖE, in TED oder in der versendeten Bekanntmachung hin. Wann immer Fehler im System passieren (Beispielsweise bei Ablehnung durch TED), werden diese geloggt, sodass bei Bedarf ein Support Ticket erstellt und eine technische Analyse durchgeführt werden kann. Es wird dann individuell entschieden, welche Maßnahmen zur behebung des Fehlers zielführend sind. Bei technischen Fehlern kann die Bekanntmachung entweder nach Behebung erneut als neue Version versendet oder intern manuell erneut prozessiert werden. Dies ist jedoch vom Einzelfall abhängig. Sollte TED ablehnen besteht die Möglichkeit, dass ein Fehler in der Bekanntmachung existiert, beispilesweise die notice-id bereits genutzt wird. In diesem Fall wird gespeichert, welche Fehlermeldung TED bei der Ablehnung zurückgeliefert hat, sodass entsprechend reagiert werden kann. 
-
-Sollte ihr System nach dem doe_status INTERNAL_ERROR (welcher NICHT final ist) den Bekanntmachungsstatus nicht mehr automatisch aktualisieren, können Sie den Status auch über die Notices Tabelle im Self-Service Portal (portal.ozg-vermittlungsdienst.de) mit den Login Daten ihres Systems beim Vermittlungsdienst prüfen. Bekanntmachungen werden nicht im INTERNAL_ERROR Status verbleiben. Bitte eröffnen sie hierzu keine Tickets bei der BDR, sondern wenden Sie sich an Ihren Fachverfahrenshersteller. Lediglich der doe_status REJECTED is final, in diesem Fall müssen sie die Bekanntmachung mit einer neuen Notice-ID oder Version einliefern. 
-</details>
-<br>
-
-<details>
-<summary>
-Kann es vorkommen, dass eine oberschwellige Bekanntmachung nach Ablauf der Frist in NOT_PUBLISHED übergeht, wenn sie schon im BKMS veröffentlicht wurde? Denn dann hätten wir ja TED:NOT_PUBLISHED / DSE:PUBLISHED, einen Status, den ich im Ablaufdiagramm nicht entdecken konnte.
-</summary>
-<br>
-Der Status NOT_PUBLISHED ist nur für Bekanntmachungen mit lawfullness warnings relevant. Wenn eine Bekanntmachung keine lawfulness warnings hat, wird keine manuelle Prüfung durch TED durchgeführt, sodass es auch nicht zum Status NOT_PUBLISHED basierend auf einer manuellen Ablehnung kommen kann. 
-
-Bei lawfullness warnings wird eine Bekanntmachung erst 5 Tage nach SUBMITTED in TED an den BKMS weitergeleitet, um die manuelle Prüfung abzuwarten. Sollte es aber dennoch zu einer Situation kommen, bei der eine Bekanntmachung bereits im BKMS veröffentlicht ist, die dann in TED auf NOT_PUBLISHED wechselt, dann wird diese Bekanntmachung automatisch durch unser System im BKMS gestoppt, sodass der Status auf DÖE:Stopped wechseln würde. So stellen wir sicher, dass keine von TED abgelehnten Bekanntmachungen im BKMS veröffentlicht bleiben. Dieses Szenario ist aber sehr sehr unwahrscheinlich. 
-</details>
-<br>
-
 ### API-Vermittlungsservice
-
 
 <details>
 <summary>
@@ -472,122 +277,16 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
 </details>
 <br>
 
-### Laufende Vergabeverfahren und Umstellung auf den neuen Datenservice
-
-<details>
-<summary>
- Wie erfolgte die Verlinkung mit bzw. der Verweis auf vorherige Bekanntmachungen? (ergänzt am 27.09.23)
-
- </summary> 
-
-- Die Bekanntmachungen sind mit der Verfahrens-ID verknüpft.
-
-  Besonderheiten:
-
-   --> Planung/PINs sind nicht Teil von Verfahren: BT-125 verwenden 
-
-   --> Zuschläge innerhalb eines Rahmenvertrags: OPT-100 verwenden 
-
-   --> Änderungsmitteilung: BT-758 verwenden 
-
-   --> Vertragsänderung: BT-1501 verwenden 
-
-   --> Bekanntmachungen vor eForms (und alle anderen Fälle): OPP-090 verwenden 
-
-- TED-Veröffentlichungsnummer ([1-8 Ziffern]-[Jahr]) oder eForms UUID verwenden 
-
-- In den [Developer Docs FAQ](https://docs.ted.europa.eu/home/eforms/FAQ/index.html#_forms_and_procedures) finden Sie diese Informationen ebenfalls
-
-  - Weitere Details zur Verlinkung der Bekanntmachungen siehe
-https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/eForms_creation.md
-
--  Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection 
-
- Die Komponenten des Datenservice können nur die neuen eForms-Strukturen entgegennehmen. In den Vergabeplattformen wird aktuell zur EU mit den TED-Schema-Strukturen kommuniziert. Für laufende Vergabeverfahren wird es so sein, dass bspw. nach einer Auftragsbekanntmachung eine Bekanntmachung vergebener Aufträge veröffentlicht wird oder bspw. für eine Bekanntmachung vergebener Aufträge eine Auftragsänderung. Können Bekanntmachungen bis zum Stichtag 25.10.2023 für laufende Vergabeverfahren weiterhin im TED-2.0.9-XML-Format an den Datenservice gesendet werden oder sollen diese bis zum Stichtag wie bisher direkt an TED übermittelt werden?
-
-Bis eForms-DE verpflichtend wird, kann im alten Format direkt bei TED eingeliefert werden. Für die zukünftige Einlieferung an den Datenservice Öffentlicher Einkauf kann ausschließlich das neue Format des Standards eForms-DE genutzt werden.
-</details>
-<br>
-
-<details>
-<summary>
-Wird es möglich sein, Berichtigungen zum Datenservice zu senden, welcher diese als eigenständiger, neuer eSender-Hub an TED übermittelt, auch wenn die Bekanntmachungen zuvor durch den Plattformbetreiber als ehemaliger eSender-Hub an TED übermittelt wurde? <br>
-Genauer gesagt:
-
-- Wie wird mit einem Wechsel des eSenders für eine Bekanntmachung umgegangen, wenn diese berichtigt werden soll?
-- Wie wird mit einem Wechsel des eSenders innerhalb eines Verfahrens mit mehreren Bekanntmachungen umgegangen?
-</summary>
-<br>
-Es wird nicht möglich sein, über den Datenservice den Status einer alten Bekanntmachung abzufragen oder eine alte Bekanntmachung zu stoppen, die nicht über den Datenservice eingeliefert wurde, da der Datenservice keine Anfragen zu Bekanntmachungen von anderen eSendern durchführen kann. Dies ist eine Restriktion von TED zu einliefernden eSendern.
-
-Die Berichtigung einer Bekanntmachung ist prinzipiell möglich, indem vor Veröffentlichung einer Bekanntmachung eine neue Version einer Bekanntmachung im eForms Format an den Datenservice verschickt wird. Dieses Update wird dann zu TED versendet und TED veröffentlicht die aktuellste Version der Bekanntmachung. Wenn die ursprüngliche Bekanntmachung bereits veröffentlicht ist, muss eine „Change Notice“ versendet werden.
-
-Es ist derzeit in Klärung mit TED, wie auf eine vorherige Bekanntmachung im alten Format referenziert werden kann, um diese miteinander zu verknüpfen und inwiefern der Wechsel des einliefernden eSenders Einfluss auf Änderungen hat.
-</details>
-<br>
-
-
-
-<details>
-<summary>
-Wird OPP-090-Procedure ausschließlich für den Fall alter Bekanntmachungen (altes TED Schema) mit Weiterbearbeitung in eForms genutzt?
- </summary> 
-
-Sowohl Change Notices und somit der "Change Notice Version Identifier" (BT-758) als auch "Framework Notice Identifier" (OPT-100) und "Previous Notice" (OPP-090) sind TED spezifische Lösungen, die direkt genutzt werden können.
-
-</details>
-<br>
-
 ### Akzeptierte SDK-Versionen
 
 <details>
 <summary>
-Laut unseres Kenntnisstands ist das eForms-DE-Format nicht mehr kompatibel zum eForms-EU-Format, da es kein reines Subset mehr davon ist. Somit können mit dem eForms-DE-Format keinerlei API-Funktionen der EU aufgerufen werden, sei es die neue eForms-API oder die APIs der Viewer-Services (PDF-/HTML-Rendering). Ist es korrekt, dass der neue Datenservice keine Render-Methode anbietet und auch die Render-Methoden der EU aufgrund der Inkompatibilität nicht mehr verwendet werden können? Wie können Funktionen wie PDF-/HTML-Rendering dennoch genutzt werden?
+ Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
 </summary>
 <br>
-
-Frage 2 unter [Roadmap](#roadmap) - Der Bedarf für eine Rendering Methode wurde bereits aufgenommen und wird derzeit analysiert.
-
-Der eSender-Hub trägt Sorge dafür, entsprechend der eingelieferten eForms-DE Version diese Bekanntmachung in ein valides eForms-EU Dokument zu transformieren, um damit die TED-Funktionen nutzen zu können.
+Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie unter folgendem [Link](https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support)
 </details>
 <br>
-
-<details>
-<summary>
- Welche Versionen des Standards eForms-DE werden aktuell unterstützt? (ergäntz am (29.09.23)
-</summary>
-<br>
-Im Oktober 2023 werden vom Datenservice Öffentlicher Einkauf die Versionen 1.0 und 1.1 des Standards eForms-DE unterstützt, technisch entspricht dies einer CustomizationID (siehe Feld OPT-002-notice) mit den Werten "eforms-de-1.1" bzw. "eforms-de-1.0" . Zur Unterstützung der Implementierung stehen aktuell auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de die SDK-DE mit den Versionen SDK-DE-1.1.0_1.7.1 bzw. SDK-DE-1.0.1_1.5.3:20230727 bereit.
-</details>
-<br>
-
-<details>
-<summary>
-Derzeit scheint der Mediator auch eForm-EU bis SDK-Version 1.5 zu akzeptieren. Wie lange wird dies noch zur Verfügung stehen? Hintergrund ist, dass Vergabestellen häufig längere Zeit (oft Wochen) zwischen Anlage der Bekanntmachung (bzw. Verfahrensstart) und deren Veröffentlichung benötigen. Daher ist ein längerer Zeitraum zwischen Beginn der Produktivstellung der eForms-DE und Abschaltung der eForms-EU notwendig.
-</summary>
-<br>
-Aktuell ist geplant, die Unterstützung für eforms-EU 1.5 mit dem Release im Juli abzuschalten, da sie auch im Bekanntmachungsservice nicht unterstützt wird. Falls es notwendig ist, diese oder andere EU Versionen länger zu unterstützen, kann darüber diskutiert werden.
-</details>
-<br>
-
-### Sonderfälle
-
-<details>
-<summary>
-Wird es für etwaige seltene, jedoch denkbare, Sonderfälle entsprechende Vorgehensmodelle geben, auf die sich bei Eintreten der Fälle berufen werden kann?<br>
- </summary>
- Hierzu sollen zwei Beispiele dienen:
-Beispiel 1:<br>
-Der Vermittlungsdienst nimmt eine Bekanntmachung entgegen, welche laut Vermittlungsdienst/eSenderHub valide ist. Die EU lehnt später die Entgegennahme ab (Status "rejected"), etwa weil die SDK-Version nicht mehr unterstützt wird. Der Plattformbetreiber erhält gemäß Statusmapping den Status "internalError". Wie würde das weitere Vorgehen in dem Falle aussehen?<br>
-Beispiel 2:<br>
-Laut der EU wird demnächst eine Business-Rule eingeführt, die es nicht mehr erlaubt, dass das "dispatch date" in einer Bekanntmachung (Tag der Absendung der Bekanntmachung), welches von den Plattformbetreibern gesetzt wird und der Zeitpunkt der Übermittlung des Datenservice an die EU, max. um 24 Stunden abweichen darf, sonst wird die Annahme durch die EU blockiert. Etwaige technische Probleme im Datenservice müssten somit immer innerhalb von 24 Stunden gelöst werden.
-
-<br>
-Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError) oder Bugs zu reagieren. Es ist derzeit in Klärung, wie diese Supportstruktur zu welchem Zeitpunkt des Betriebs aussehen wird. Zu Beginn ab Juni ist Nortal unter der E-Mail Adresse support-oeffentlichevergabe@bdr.de der erste Ansprechpartner. Wann immer Fehler im System passieren (Beispielsweise bei Ablehnung durch TED), werden diese geloggt, sodass bei Bedarf ein Support Ticket erstellt und eine technische Analyse durchgeführt werden kann.
-</details>
-<br>
-
-
 
 # Standard eForms-DE und SDK-DE
 
@@ -596,8 +295,6 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 **Bitte beachten Sie, dass wir alle Fragen bezüglich des Standards eForms-DE gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit möglich.**
 
 **Bei weiteren Fragen zum <u>Standard eForms-DE</u> wenden Sie sich gerne per E-Mail an die Koordinierungsstelle für IT-Standards (KoSIT) als Betreiberin: eforms@finanzen.bremen.de** 
-
-**Bei weiteren Fragen zum <u>SDK-DE</u> wenden Sie sich gerne per E-Mail an den Support der Bundesdruckerei mit dem expliziten Hinweis, zu welcher Version des SDK-DE Sie Fragen haben, unter [support-oeffentlichevergabe@bdr.de](mailto:support-oeffentlichevergabe@bdr.de)**
 
 ## Allgemeine Fragen
 
@@ -633,7 +330,6 @@ Es wird eine Supportstruktur geben, um auf Fehlerzustände (Status InternalError
 Wo ist die neueste Version des vom Datenservice Öffentlicher Einkauf (DÖE) unterstützten und zum deutschen Standard eForms-DE konformen SDK-DE zu finden? (aktualisiert am 16.11.2023)</summary>
 <br>
 
-
 Das SDK-DE ist auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de zu finden.<br>Die neueste Version zu dem auf [xeinkauf.de](https://xeinkauf.de/eforms-de/) publizierten Standard eForms-DE Version 1.1.0 gehörenden SDK-DE ist **1.1.0_1.7.2**:
 
 https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/SDK-DE_1.1.0_1.7.2<br>
@@ -645,33 +341,6 @@ https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/SDK-DE_1.1.0_
 ## Fragen zu Business Terms und Groups (BT/BG)
 
 Sortiert nach BT/BG Nummer.
-
-###  Beschaffer Rechtsnatur (BT-11) und CPV
-<details>
-<summary>
-CPV-Code Hauptgegenstand und Querabhängigkeiten zur Rechtsform des Bieters. Einschränkende Regel BR-BT-00262-0211 der EU. (aktualisiert am 27.09.23)</summary>
-<br>
-
-Gemäß dieser Regel können Zuwendungsempfänger nach VgV nur Bauleistungen ausschreiben, jedoch keine Dienstleistungen. Auch bei Vergabeverfahren nach SektVO, KonzVgV oder VSVgV gibt es bei ausschreibenden Zuwendungsempfängern Einschränkungen gegenüber sonstigen Vergabestellen bei der Auswahl der in einem Vergabeverfahren anwendbaren Formulare, was unverständlich ist.
-
-**Es handelt sich um einen BUG bei TED. Dieser wurde inzwischen behoben und ist sowohl im DÖE als auch im SDK ab Version 1.1.0_1.7.2 eingebaut; 
-https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/blob/SDK-DE_1.1.0_1.7.2/sdk/examples/de/notices/ContractAwardNotice_CVD3.xml?ref_type=tags**
-</details>
-<br>
-
-###  BT-743 (Elektronische Rechnungslegung) muss auf "erforderlich" gesetzt werden
-<details>
-<summary>
-BT-743 (Elektronische Rechnungslegung) muss durch eine EU-Regel auf "erforderlich" gesetzt werden, sobald die Rechtsgrundlage BT-01 nicht auf "Sonstige" gesetzt wird</summary>
-<br>
-
-TED wird diesen Fehler einer zu strengen Regel bzgl. BT-743 (Elektronische Rechnungslegung) leider nur in ab der Version 1.10 des TEd-SDK beheben, nicht aber für vorherige Versionen. Plattformen, die in Deutschland Bekanntmachungen an den Vermittlungsdienst des Datenservice Öffentlicher Einkauf senden, werden bedauerlicherweise mit dem Fehler bis zur voraussichtlichen Einführung des SDK-DE 1.2.0_1.10.0 im Februar 2024 und der nachfolgenden Implementierung in den Vergabeplattformen bzw. Redaktionssystem zurechtkommen müssen.
-
-Vergabestellen können als Übergangslösung bis dahin in BT-743 (Elektronische Rechnungslegung) zwar "erforderlich" eintragen, aber dann in BT-77 (Bestimmungen - Finanzierung) vermerken, dass obwohl in BT-743 "erforderlich" eingetragen sei, laut hiesiger Verordnung dies NICHT "erforderlich" sei, sondern stattdessen die elektronische Rechnung "zulässig" und gewünscht sei.
-
-**Es handelt sich um einen BUG bei TED. Dieser wird in 1.10 und somit in eForms 1.2 behoben sein. Für ältere Versionen muss der obige Workaround verwendet werden.**
-</details>
-<br>
 
 ### Bekanntmachung der Ergebnisse (BG-7), Angebot (BG-320 Angebot)
 <details>
@@ -788,7 +457,6 @@ BT-1251 ist eine Konkretisierung, an welcher Stelle auf Gegenstand X informiert 
 </details>
 </summary>
 <br>
-
 
 ### Anzeige des Gewinners in einer Vergabebekanntmachung  (ergänzt 27.10.23)
 (BT-142, BT-13713, , OPT-320, BT-13714, , OPT-310, OPT-300, BT-721, BT-145, BT-1451, BT-768, BT-3202)
@@ -945,7 +613,6 @@ Die Bezeichnung für BT-634 (Neuauflage des Verfahren) ist in Englisch weniger v
   </details>
 <br>
 
-
 ### Fahrzeugklasse (BT-723)
 <details>
 <summary>
@@ -1092,37 +759,6 @@ Bei der Durchsicht der Dokumente des nationalen Tailorings sind einige Unstimmig
 Der Einfachheit halber und zur Vermeidung von Inkonsistenzen mit von EU gelieferten Schematron-Regeln enthält das SDK zum nationalen Standard eForms-DE auf technischer Ebene Felder, die dennoch gemäß des Standards eForms-DE nicht genutzt werden.
 
 Losgruppen sind in eForms-DE nicht vorgesehen.
-</details>
-<br>
-
-### NUTS-Codes
-
-<details>
-<summary>
-Gibt es eine Codeliste mit Ländercodes, bei denen die Angabe des NUTS Codes nicht möglich ist? 
-</summary>
-<br>
-
-Länderspezifische NUTS-Code-Listen sind im TED SDK vorhanden (https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/country.gc )
-  </details>
-<br>
-
-<details>
-<summary>
-Muss im Umkehrschluss das Land nie angegeben werden, wenn man NUTS Codes angeben kann? 
-</summary>
-<br>
-
-Da das Land Bestandteil des NUTS-Codes ist, ist eine zusätzliche separate Nennung nicht erforderlich.
-  </details>
-<br>
-
-<details>
-<summary>
-Bleibt die Angabe der NUTS-lvl3-Codes weiterhin pflichtig?
-</summary>
-<br>
-Ja, soweit NUTS-Codes vorhanden sind, sind diese anzugeben
 </details>
 <br>
 
