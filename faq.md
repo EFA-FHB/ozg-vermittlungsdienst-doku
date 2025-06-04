@@ -322,6 +322,7 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie u
 | T01 | Plannung | Vorinformation zu öffentlichen Personenverkehrsdiensten | Grundlage ist die Verordnung (EG) Nr. 1370/2007 diese gilt weiterhin mit Aktualisierungen. Aktuell erfolgt die Datenerfassung für T1 in der Anwendung „eNotices“ direkt bei TED. Die eForms-Verordnung ((EU) 2019/1780) die zentrale Grundlage für die seit 25.10.2023 gültige VgV. Die Verordnung (EG) Nr. 1370/2007 ist nicht Bestandteil der eForms-Verordnung. |
 | T02 | Result | Bekanntmachung über vergebene Aufträge für öffentliche Personenverkehrsdienste | Grundlage ist die Verordnung (EG) Nr. 1370/2007 diese gilt weiterhin mit Aktualisierungen. Aktuell erfolgt die Datenerfassung für T2 in der Anwendung „eNotices“ direkt bei TED. Die eForms-Verordnung ((EU) 2019/1780) die zentrale Grundlage für die seit 25.10.2023 gültige VgV. Die Verordnung (EG) Nr. 1370/2007 ist nicht Bestandteil der eForms-Verordnung. |
 </details>
+<br>
 
 ## Fragen zum SDK-DE
 
