@@ -284,7 +284,7 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
  Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
 </summary>
 <br>
-Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie unter folgendem [Link](https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support)
+Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie unter folgendem <a href="https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support" target="_blank">Link</a>.
 </details>
 <br>
 
