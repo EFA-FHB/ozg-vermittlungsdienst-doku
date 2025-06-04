@@ -1,9 +1,9 @@
-- [Important notes for creating eForms](#important-notes-for-creating-eForms)
-- [Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
-- [Upcoming maintenance windows](#upcoming-maintenance-window)
-- [Known bugs and errors](#known-bugs-and-errors)
-- [Notes](#notes)
-- [Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
+- Important notes for creating eForms](#important-notes-for-creating-eForms)
+- Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
+- Upcoming maintenance windows](#upcoming-maintenance-window)
+- Known bugs and errors](#known-bugs-and-errors)
+- Notes](#notes)
+- Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
 
 ## Important notes on the creation of eForms
 To ensure smooth submission, please always observe the following aspects:
@@ -24,7 +24,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Staging | DÖE excl. BKMS | May 13, 2025 | 09:00-13:00 | Quarterly maintenance: Affected services are not available during the specified period |
+| Production | DoE excl. BKMS | June 17, 2025 | 18:00-22:00 | Quarterly maintenance: Affected services are not available during the specified period |
 | Production and staging | DoE incl. BKMS | July 26/27, 2025 | 07:00-12:00 | Quarterly maintenance |
 | Production and staging | DÖE incl. BKMS | October 25/26, 2025 | 07:00-12:00 | Quarterly maintenance (incl. time changeover) |
 
@@ -55,6 +55,7 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Staging | DÖE excl. BKMS | May 13, 2025 | 09:00-13:00 | Quarterly maintenance: Affected services are not available during the specified period |
 | Production and staging | DÖE incl. BKMS | March 13 and 14, 2025 | 07:00-17:00 | Maintenance work: During the specified period, there may be delays in forwarding to the BKMS and status updates. All accepted announcements will be forwarded afterwards.
 | Production | TED Apps for eForms, including API interfaces | March 13, 2025 | 07:00-09:00 | Maintenance work: all TED apps in production environments and their APIs may experience disruptions |
 | Staging, preview and alpha | DÖE incl. BKMS | March 06, 2025 | 07:00-17:00 |Maintenance work: During the specified period, there may be delays in forwarding to the BKMS and status updates. All accepted announcements will be forwarded afterwards.
