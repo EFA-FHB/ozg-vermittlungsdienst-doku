@@ -328,13 +328,10 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie u
 
 <details>
 <summary>
-Wo ist die neueste Version des vom Datenservice Öffentlicher Einkauf (DÖE) unterstützten und zum deutschen Standard eForms-DE konformen SDK-DE zu finden? (aktualisiert am 16.11.2023)</summary>
+Wo ist die neueste Version des vom Datenservice Öffentlicher Einkauf (DÖE) unterstützten und zum deutschen Standard eForms-DE konformen SDK-DE zu finden?</summary>
 <br>
 
-Das SDK-DE ist auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de zu finden.<br>Die neueste Version zu dem auf [xeinkauf.de](https://xeinkauf.de/eforms-de/) publizierten Standard eForms-DE Version 1.1.0 gehörenden SDK-DE ist **1.1.0_1.7.2**:
-
-https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/SDK-DE_1.1.0_1.7.2<br>
-
+Das neueste SDK-DE ist auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de zu finden.
 </details>
 
 <br>
