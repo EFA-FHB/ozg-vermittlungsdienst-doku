@@ -1,7 +1,7 @@
 ### Public procurement data service
 # Frequently asked questions
 
-- Data service for public procurement](#datenservice-öffentlicher-einkauf)
+- Data service public procurement](#datenservice-öffentlicher-einkauf)
 - Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 - General](#general)
 
@@ -123,7 +123,7 @@ The preview environment is only used for testing. Updates are often installed he
 Is there a roadmap regarding the further development of the Vermittlungsdienst, eSenderHub, etc. components after the deadline of 25.10.2023, in particular with regard to feature and API enhancements, milestones and the respective go-live dates?
 </summary>
 <br>
-As things currently stand, two more releases are planned for the data service after 25.10.2023. The content of the releases primarily relates to convenience functions and evaluation options. API changes and extensions are not planned according to the current planning status.
+As things currently stand, two more releases are planned for the data service after 25.10.2023. The content of the releases primarily relates to convenience functions and evaluation options. API changes and enhancements are not planned according to the current planning status.
 </details>
 <br>
 
@@ -328,13 +328,10 @@ You can find detailed information on the support of the eForms versions at the f
 
 <details>
 <summary>
-Where can I find the latest version of the SDK-DE, which is supported by Datenservice Öffentlicher Einkauf (DÖE) and conforms to the German eForms-DE standard? (updated on 16.11.2023)</summary>
+Where can I find the latest version of the SDK-DE, which is supported by Datenservice Öffentlicher Einkauf (DÖE) and conforms to the German eForms-DE standard?
 <br>
 
-The SDK-DE can be found at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.<br>The latest version of the SDK-DE belonging to the standard eForms-DE version 1.1.0 published on [xeinkauf.de](https://xeinkauf.de/eforms-de/) is **1.1.0_1.7.2**:
-
-https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/SDK-DE_1.1.0_1.7.2<br>
-
+The latest SDK-DE can be found at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.
 </details>
 
 <br>
@@ -346,7 +343,7 @@ Sorted by BT/BG number.
 ### Announcement of results (BG-7), Offer (BG-320 Offer)
 <details>
 <summary>
-In the element "Announcement of results" (BG-7) > "Tender" (BG-320), should only awarded tenders/lots or all tenders/lots received be listed?
+Should the element "Announcement of results" (BG-7) > "Tender" (BG-320) only list awarded tenders/lots or all tenders/lots received?
 </summary>
 <br>
 
@@ -453,7 +450,7 @@ For which case is BT-125-Lot and BT-1251-Lot used?
 </summary>
 <br>
 
-An awarding authority has published a prior information notice in which it announces that an invitation to tender for subject X is to take place soon. This prior information notice is now given an announcement number. Some time later, the contracting authority invites tenders for subject X in a contract notice (CN). The announcement number of the prior information notice is now entered in BT-125(i) in order to refer to the prior information notice that was published some time ago.
+An awarding authority has published a prior information notice in which it announces that an invitation to tender for subject X is to take place soon. This prior information notice is now given an announcement number. Some time later, the contracting authority invites tenders for subject X in a contract notice (CN). The publication number of the prior information notice is now entered in BT-125(i) in order to refer to the prior information notice that was published some time ago.
 BT-1251 is a specification of where information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
 </details>
 </summary>
@@ -467,7 +464,7 @@ BT-1251 is a specification of where information on subject X was provided. This 
 
 <br>
 
-It should be noted that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
+Please note that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
 
 The client is stored in the Contract structure.
 An offer is assigned to a contract and bidders are assigned to the offer. These bidders represent the contractors of the contract.
@@ -497,12 +494,12 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Result of the lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
     The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
+    Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
@@ -526,7 +523,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid in a backward chaining process and the bidder or head of a bidding consortium who signed the contract for the bidders
+BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
@@ -587,7 +584,7 @@ https://www.bundeskartellamt.de/DE/UeberUns/LinksundAdressen/Vergabekammern_der_
 | Hamburg| Public Procurement Chamber at the Finance Authority | t:040428231690 |
 | Hamburg|Awarding Chamber at the Authority for Urban Development and Housing |t:040428403230 |
 | Hesse| Procurement Chamber of the State of Hesse at the Darmstadt Regional Council | t:06151126603 |
-| Mecklenburg-Western Pomerania| Public Procurement Chambers at the Ministry of Economics, Labor and Health | t:03855885160 |
+| Mecklenburg-Western Pomerania| Public Procurement Chambers at the Ministry of Economic Affairs, Labor and Health | t:03855885160 |
 | Lower Saxony| Public Procurement Chamber of Lower Saxony at the Ministry of Economic Affairs, Labour and Digitalization of Lower Saxony | t:04131153308 |
 | North Rhine-Westphalia| Rhineland Public Procurement Chamber via Cologne District Government | t:02211473055 |
 | North Rhine-Westphalia|Westphalia Chamber of Public Procurement | t:02514111691 |
@@ -628,7 +625,7 @@ Assistance can be found in Annex II of the framework directive https://eur-lex.e
 |M2|Light commercial vehicle of vehicle category M2 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of up to 5 tons).
 |N1|Light commercial vehicle of vehicle category N1 (motor vehicles for the carriage of goods with a maximum permissible mass of up to 3.5 tons).
 |N2|Heavy commercial vehicle of vehicle category N2 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 3.5 tons and up to 12 tons.)|
-|N3|Heavy commercial vehicle of vehicle category N3 (motor vehicles for the carriage of goods with a maximum authorized mass of more than 12 tons.)|
+|N3|Heavy commercial vehicle of vehicle category N3 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 12 tons.)|
 |M3|Bus of vehicle category M3 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of more than 5 tons).
 
 </details>
