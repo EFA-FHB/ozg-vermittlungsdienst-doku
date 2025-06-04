@@ -11,18 +11,20 @@
 
 <details>
 <summary>
-Which systems are available and where do I need an account?
+What are the components of the Public Procurement Data Service and where do I need an account?
 </summary>
 
 <br><br>
-**[Editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Web interface for creating announcements and publishing them on TED and in the announcement service. <br>
+**[Editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Web interface for creating notices and publishing them on TED and in the notice service.
 Does your public procurement office not have software from a specialist procedure manufacturer for creating notices, does it not support all the forms you need or have you previously used TED's eNotices2? Then the editorial system is right for you!
-<br><br>
-**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service. <br>
+<br>
+**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the Notice Service.
 Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually carried out by the specialist procedure manufacturer.
-<br><br>
-**[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of Vermittlungsdienst accounts.
-<br> Mainly used by specialist procedure manufacturers. Dashboard accounts are possible for viewing the status information of submitted notices, please contact your specialist procedure manufacturer!
+<br>
+**Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of Vermittlungsdienst accounts.
+Mainly used by specialist procedure manufacturers. Dashboard accounts are possible for viewing the status information of submitted notices, please contact your specialist procedure manufacturer!
+<br>
+**Announcement service](https://oeffentlichevergabe.de/)**: All notices sent via the public procurement data service are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, further convenient functions such as saving search functions and notification services are also available. Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
 <br>
 </details>
 <br>
@@ -54,13 +56,13 @@ Since 04.10.2023, accounts should be applied for in the [Self-Service Portal](ht
 One e-mail address must be entered as the user name for each registration. Is it possible to enter the same e-mail address for several systems?
 </summary>
 <br>
-We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email per account is required for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
+We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email is required per account for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
 </details>
 <br>
 
 <details>
 <summary>
-When creating an account, a contact email address of an FVH must be entered. What is this used for?
+When creating an account, a contact email address of an FVH must be specified. What is this used for?
 </summary>
 <br>
 This email is used when we want to proactively contact you. This may be the case, for example, if there are anomalies with your account or the notices submitted or if we send general information to all account managers.
@@ -84,7 +86,7 @@ Some awarding platforms use e.g. Dropbox or google drive or similar for hosting 
 What is the difference between the URL of the procurement platform requested when creating the account and the link to the procurement documents in the eForms document?
 </summary>
 <br>
-Please send us a list of required accounts to support-oeffentlichevergabe@bdr.de including all required information per account. We recommend using exactly as many accounts for staging as you plan to use for production. In addition, any number of test accounts are of course possible on Preview and Staging.  
+Please send us a list of required accounts to support-oeffentlichevergabe@bdr.de including all required information per account. We recommend using exactly as many accounts for staging as you plan to use for production. In addition, any number of test accounts on Preview and Staging are of course possible.  
 </details>
 
 <br>
@@ -103,7 +105,7 @@ In all environments, the same validation and the same delay in publishing is per
 The URL of the awarding platform should be specified to request access. What is the purpose of this information?
 </summary>
 <br>
-The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account per system that is to be used for future delivery to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
+The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account per system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
 </details>
 <br>
 
@@ -120,10 +122,10 @@ The preview environment is only used for testing. Updates are often installed he
 
 <details>
 <summary>
-Is there a roadmap regarding the further development of the Vermittlungsdienst, eSenderHub, etc. components after the deadline of 25.10.2023, in particular with regard to feature and API enhancements, milestones and the respective go-live dates?
+Is there a roadmap for the further development of the components of the Public Procurement Data Service?
 </summary>
 <br>
-As things currently stand, two more releases are planned for the data service after 25.10.2023. The content of the releases primarily relates to convenience functions and evaluation options. API changes and extensions are not planned according to the current planning status.
+Yes, at: https://portal.ozg-vermittlungsdienst.de/roadmap
 </details>
 <br>
 
@@ -131,14 +133,13 @@ As things currently stand, two more releases are planned for the data service af
 
 <details>
 <summary>
-Accessibility:
+How can the Public Procurement Data Service team be contacted?
 </summary>
-*Questions and suggestions for improvement* regarding the Vermittlungsdienst and the eSender Hub can be directed to oeffentliche-vergabe@nortal.com. Alternatively, Github issues can be created in the documentation repository and the SDK-eForms-DE repository.
-
-For *support requests regarding the operation* of the Vermittlungsdienst and the eSender Hub, please contact: support-oeffentlichevergabe@bdr.de.
-
-*Questions about the announcement service* can be directed to support-oeffentlichevergabe@bdr.de.
-
+Please use our contact forms:
+Questions/comments about the Vermittlungsdienst/self-service portal: https://portal.ozg-vermittlungsdienst.de/contact
+Questions/comments about the editorial system: https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
+Questions/comments about the announcement service: https://oeffentlichevergabe.de/ui/de/contact
+<br>
 We are open to your suggestions!
 </details>
 <br>
@@ -187,10 +188,8 @@ The Github documentation will continue to be maintained and is the official docu
 How can I determine which versions of the subcomponents are supported for a release?  
 </summary>
 <br>
-
-Under [eForms Support](/documentation/eForms_support.md) it is documented which eForms versions the subcomponents support.
-<br>
-For each release, we publish releasenotes to describe which component supports which version. The versions eForms-DE 1.0.1 and 1.1.0 will be supported in all components of the public procurement data service from September 13th.
+The eForms versions supported by the subcomponents are documented under eForms support.
+For each release, we publish release notes to describe which component supports which version.
 </details>
 <br>
 
@@ -309,7 +308,7 @@ You can find detailed information on the support of the eForms versions at the f
 
 <details>
   <summary>
-    Are there any pre-forms that are not taken into account in eForms-DE?
+    Are there forms that are not taken into account in eForms-DE?
   </summary>
   <br>
     The following forms are not included in the eForms-DE standard:
@@ -330,13 +329,12 @@ You can find detailed information on the support of the eForms versions at the f
 <summary>
 Where can I find the latest version of the SDK-DE, which is supported by Datenservice Öffentlicher Einkauf (DÖE) and conforms to the German eForms-DE standard?
 <br>
-
-The latest SDK-DE can be found at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
+The SDK-DE is published on https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
 </details>
 
 <br>
 
-## Questions about Business Terms and Groups (BT/BG)
+## Questions about business terms and groups (BT/BG)
 
 Sorted by BT/BG number.
 
@@ -374,7 +372,7 @@ Why is BT-53 (Options) part of the eForms-DE specification, but BT is not an ele
 eForms-DE is the implementation of the "Commission Implementing Regulation (EU) 2022/2303 of November 24, 2022 amending Implementing Regulation (EU) 2019/1780 establishing standard forms for the publication of notices for public contracts". BT-53 (Options) is explicitly specified in this directive and is an indicator that indicates whether the buyer reserves the right to "reorder" from the same buyer.
 In technical terms, a possible entry would be "Yes" or "No".
 BT-53 is not required if BT-54 (Options - Description) is filled. In other words, if there is a text that describes the options that the buyer reserves. In this case, BT-53 can automatically be set to "Yes". If BT-54 is not present, then BT-53 is automatically set to "No".
-This technically means that no explicit implementation of BT-53 is required, as this follows "automatically" from BT-54.
+This technically means that there is no need to explicitly implement BT-53, as this follows "automatically" from BT-54.
 
 </details>
 </summary>
@@ -451,7 +449,7 @@ For which case is BT-125-Lot and BT-1251-Lot used?
 <br>
 
 An awarding authority has published a prior information notice in which it announces that an invitation to tender for subject X is to take place soon. This prior information notice is now given an announcement number. Some time later, the contracting authority invites tenders for subject X in a contract notice (CN). The publication number of the prior information notice is now entered in BT-125(i) in order to refer to the prior information notice that was published some time ago.
-BT-1251 is a specification of the point at which information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
+BT-1251 is a specification of where information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
 </details>
 </summary>
 <br>
@@ -464,7 +462,7 @@ BT-1251 is a specification of the point at which information on subject X was pr
 
 <br>
 
-It should be noted that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
+Please note that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
 
 The client is stored in the Contract structure.
 An offer is assigned to a contract and bidders are assigned to the offer. These bidders represent the contractors of the contract.
@@ -477,7 +475,7 @@ The following long version describes exactly what needs to be done to enable thi
   </summary>
 
 <br>
-The following illustration is intended to help you complete the eForms form for the notification of results (CAN) so that the associated awarded contracts can be displayed correctly in the notification service (www.oeffentlichevergabe.de).
+The following illustration is intended to help you fill out the eForms form for the notification of results (CAN) so that the associated awarded contracts can be displayed correctly in the notification service (www.oeffentlichevergabe.de).
 These completion instructions are aimed at specialist procedure manufacturers for the technical implementation of the following fields in the specialist procedure. If necessary, this can be used as a guide for users. For this reason, the technical field identifiers and their German interface designations (used in accordance with the eforms-DE standard, if available, otherwise those from the SDK-DE) are specified:
 <br>
 
@@ -494,12 +492,12 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot>, BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Result of the lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
     The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
+    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
@@ -625,7 +623,7 @@ Assistance can be found in Annex II of the framework directive https://eur-lex.e
 |M2|Light commercial vehicle of vehicle category M2 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of up to 5 tons).
 |N1|Light commercial vehicle of vehicle category N1 (motor vehicles for the carriage of goods with a maximum permissible mass of up to 3.5 tons).
 |N2|Heavy commercial vehicle of vehicle category N2 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 3.5 tons and up to 12 tons.)|
-|N3|Heavy commercial vehicle of vehicle category N3 (motor vehicles for the carriage of goods with a maximum permissible mass of more than 12 tons.)|
+|N3|Heavy commercial vehicle of vehicle category N3 (motor vehicles for the carriage of goods with a maximum authorized mass of more than 12 tons.)|
 |M3|Bus of vehicle category M3 (motor vehicles for the carriage of passengers with more than eight seats in addition to the driver's seat and a maximum permissible mass of more than 5 tons).
 
 </details>
@@ -646,12 +644,12 @@ This is being done in consideration of the fact that the BKMS will be able to ev
 
 <details>
 <summary>
-Does the data service remove this information, or is it also sent to the EU?
+Does the data service remove this information or is it also transmitted to the EU?
 </summary>
 <br>
 
-The eSender Hub does not remove this data, the entries from this field are also forwarded 1:1 to the EU. As this is a text field, there is no technical problem here. Only one value can be inserted at the beginning of the text field: #Specially suitable for:{freelance OR self OR startup}#'. After this value, however, further explanations can be inserted as free text.
-  </details>
+The eSender Hub does not remove this data, the entries from this field are also forwarded 1:1 to the EU.
+</details>
 
 <br>
 <details>
@@ -680,7 +678,7 @@ Can additional information be written to the field, e.g. by the user or automati
 </summary>
 <br>
 
-It is possible to add free text after the code as long as the total character limit is observed. The following note has been added to BT-300 for clarification:
+It is possible to insert free text after the code, as long as the total character limit is observed. The following note has been added to BT-300 for clarification:
 "To the extent that it is necessary to specify one of the codes (freelance, self, startup) because of rule BR-DE-26, the code must be specified on the first line and separated from other additional information by two blank lines. The format of the first line is defined as follows: #Specially suitable for:{freelance|self|startup}."
   </details>
 <br>
@@ -742,10 +740,8 @@ How to use the LOT entries for "none", one or more lots?
 </summary>
 <br>
 
-According to TED, if there is 'no' lot, there must only be one technical lot entry with the value LOT-0000.
-If there are two lots, there are two lots with the values LOT-0001 and LOT-0002. For 5 lots, for example, LOT-0001, LOT-0002, LOT-0003, LOT-0004, LOT-0005. The structure of LOT-0000 is completely identical to that of any other LOT, including LOT-0001. Only the ID is different.
-
-Documentation can be found here: https://docs.ted.europa.eu/eforms/1.5/schema/procedure-lot-part-information.html
+According to TED, if there is 'no' lot, there must only be one technical lot entry with the value LOT-0000. If there are two lots, there are two lots with the values LOT-0001 and LOT-0002. For 5 lots, for example, LOT-0001, LOT-0002, LOT-0003, LOT-0004, LOT-0005. The structure of LOT-0000 is completely identical to that of any other LOT, including LOT-0001. Only the ID is different.
+See also: https://docs.ted.europa.eu/eforms-common/FAQ/index.html#_schema_and_field_definitions
 </details>
 <br>
 
@@ -768,36 +764,25 @@ Lot groups are not provided for in eForms-DE.
 
  <details>
 <summary>
-Information from TED as of 27.09.23
+How to communicate with TED?
 
  </summary>
 
 <br>
 
-- For API submissions, NoticeAuthorEmail should be the buyer's email - eSenders must specify the true email address of the originator in the metadata
-
-- Notice author email receives notifications of status changes:
-       --> Submission, Validation Failed, Stopped, Not Published, Published
-  
-- The eSender receives a copy to the e-mail address used by EU Login for the API key.
-
-- Ongoing improvements to the content and translation of these email notifications
-  
-- New feature coming soon: Buyers will receive an email notification when an announcement with the same buyer name has been published
-
-- Note for API testing (risk of receiving many emails): use a unique "main buyer name" for recurring buyers and a random name for multiple buyers
-  
-- Vermittlungsdienst API parameter: authorEmail
-               Please enter the email of your end customers accordingly**
-           </details>
-           <br>
+- For API submissions, the NoticeAuthorEmail must be the email of the procurer (end user)
+- The email author of the notice receives notifications about status changes:
+--> Submission, Stopped, Not Published, Published
+- The eSender receives a copy to the email address used by EU-Login for the API key
+</details>
+<br>
 
 <details>
 <summary>
-According to the EU (see https://simap.ted.europa.eu/de_DE/web/simap/statistical-production-files - Statistics 2023 by format and transmission channel), many contracting authorities have so far used the EU portal eNotices to create and publish the contract notice. eNotices2, the new portal with integrated eForms, does not recognize or take into account national tailoring. May contracting authorities continue to use eNotices2 even though it does not take national tailoring into account?
+Is it still possible to submit notices via eNotices2?
 </summary>
 <br>
-eNotices2 may no longer be used for above-threshold submissions from 25.10., as the adjustments to the eForms standard would not be taken into account, so that direct submission via eNotices2 to TED is no longer legally permissible.
+Since 25.10.2023, all above-threshold notices must legally be submitted in eForms-DE format via the public procurement data service. Direct submission via eNotices2 is not legally permissible, as the adaptations to the eForms-DE standard are not taken into account there. (See also VgV § 10a)
 </details>
 <br>
 
