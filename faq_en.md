@@ -56,7 +56,7 @@ Since 04.10.2023, accounts should be applied for in the [Self-Service Portal](ht
 One e-mail address must be entered as the user name for each registration. Is it possible to enter the same e-mail address for several systems?
 </summary>
 <br>
-We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email per account is required for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
+We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email is required per account for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
 </details>
 <br>
 
@@ -75,7 +75,7 @@ This email is used when we want to proactively contact you. This may be the case
 Can multiple accounts be requested at the same time? How many accounts are recommended for the preview and staging environment?
 </summary>
 <br>
-The URL of the awarding platform is used purely to assign the accounts/clients; it has nothing to do with the link to the award documents.
+The URL of the awarding platform is purely for assigning the accounts/clients, it has nothing to do with the link to the award documents.
 
 Some awarding platforms use e.g. Dropbox or google drive or similar for hosting the award documents, which is why the platform behind it cannot be clearly identified. For this reason, this information is also necessary. The link to the tender documents remains in the XML document and this is primarily displayed in the BKMS interface. The link provided when the account is created is only displayed at the bottom right, below the notice itself, as a disclaimer/source.
 </details>
@@ -105,7 +105,7 @@ In all environments, the same validation and the same delay in publishing is per
 The URL of the awarding platform should be specified to request access. What is the purpose of this information?
 </summary>
 <br>
-The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account for each system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support@datenservice-oeffentlicher-einkauf.de
+The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account per system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support@datenservice-oeffentlicher-einkauf.de
 </details>
 <br>
 
@@ -448,8 +448,8 @@ For which case is BT-125-Lot and BT-1251-Lot used?
 </summary>
 <br>
 
-An awarding authority has published a prior information notice in which it announces that an invitation to tender for subject X is to take place soon. This prior information notice is now given an announcement number. Some time later, the contracting authority invites tenders for subject X in a contract notice (CN). The publication number of the prior information notice is now entered in BT-125(i) in order to refer to the prior information notice that was published some time ago.
-BT-1251 is a specification of the point at which information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
+An awarding authority has published a prior information notice in which it announces that an invitation to tender for subject X is to take place soon. This prior information notice is now given an announcement number. Some time later, the contracting authority invites tenders for subject X in a contract notice (CN). The announcement number of the prior information notice is now entered in BT-125(i) in order to refer to the prior information notice that was published some time ago.
+BT-1251 is a specification of where information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
 </details>
 </summary>
 <br>
@@ -475,7 +475,7 @@ The following long version describes exactly what needs to be done to enable thi
   </summary>
 
 <br>
-The following illustration is intended to help you complete the eForms form for the notification of results (CAN) so that the associated awarded contracts can be displayed correctly in the notification service (www.oeffentlichevergabe.de).
+The following illustration is intended to help you fill out the eForms form for the notification of results (CAN) so that the associated awarded contracts can be displayed correctly in the notification service (www.oeffentlichevergabe.de).
 These completion instructions are aimed at specialist procedure manufacturers for the technical implementation of the following fields in the specialist procedure. If necessary, this can be used as a guide for users. For this reason, the technical field identifiers and their German interface designations (used in accordance with the eforms-DE standard, if available, otherwise those from the SDK-DE) are specified:
 <br>
 
@@ -492,18 +492,18 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Result of the lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
-    The description of the tenders takes place in the "Tenders" form module (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
+    The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
+    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
 
     In the form module "Bidder" <efac:TenderingParty>, the details of the bidder(s) of a tender(s) must be stored. The main purpose here is to indicate whether the tender was submitted by an individual bidder or by a bidding party or by a bidder who will employ subcontractors. Only references to the bidder organizations are therefore required here. If it is a bidder in this tender, then the reference to the bidder organization must be entered in the <efac:Tenderer> OPT-300-Tenderer (ID - Bidder ) field.
-    The field efac:Tenderer/efbc:GroupLeadIndicator OPT-170-Tenderer (head of the tenderer) must also be completed for each specified tenderer. At least one of the specified bidder organizations must be qualified as "leader of the tender". Bidding parties that have joined forces in subcontracts can also be specified here (however, the corresponding description of these fields is omitted here).
+    The field efac:Tenderer/efbc:GroupLeadIndicator OPT-170-Tenderer (head of the tenderer) must also be completed for each specified tenderer. At least one of the specified bidder organizations must be qualified as "leader of the tender". Bidding parties that have joined together in subcontracts can also be specified here (however, the corresponding description of these fields is omitted here).
 
 5. description of the contract
     
@@ -521,7 +521,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order bid identifier, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who signed the contract for the bidders
+BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid in a backward chaining process and the bidder or head of a bidding consortium who signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
@@ -783,15 +783,6 @@ Is it still possible to submit notices via eNotices2?
 </summary>
 <br>
 Since 25.10.2023, all above-threshold notices must legally be submitted in eForms-DE format via the public procurement data service. Direct submission via eNotices2 is not legally permissible, as the adaptations to the eForms-DE standard are not taken into account there. (See also VgV § 10a)
-</details>
-<br>
-
-<details>
-<summary>
-Will there be a new portal for interested companies to replace the current service.bund.de site?
-</summary>
-<br>
-There are no plans for another portal to replace sevice.bund.de. The project wish is for all notices (upper and lower threshold) to be available in the Public Procurement Data Service.
 </details>
 <br>
 
