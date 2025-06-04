@@ -19,7 +19,7 @@ Which systems are available and where do I need an account?
 Does your public procurement office not have software from a specialist procedure manufacturer for creating notices, does it not support all the forms you need or have you previously used TED's eNotices2? Then the editorial system is right for you!
 <br><br>
 **[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service. <br>
-Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually implemented by the specialist procedure manufacturer.
+Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually carried out by the specialist procedure manufacturer.
 <br><br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of Vermittlungsdienst accounts.
 <br> Mainly used by specialist procedure manufacturers. Dashboard accounts are possible for viewing the status information of submitted notices, please contact your specialist procedure manufacturer!
@@ -54,16 +54,16 @@ Since 04.10.2023, accounts should be applied for in the [Self-Service Portal](ht
 One e-mail address must be entered as the user name for each registration. Is it possible to enter the same e-mail address for several systems?
 </summary>
 <br>
-We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email is required per account for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
+We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email per account is required for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
 </details>
 <br>
 
 <details>
 <summary>
-When creating an account, a contact email address of an FVH must be specified. What is this used for?
+When creating an account, a contact email address of an FVH must be entered. What is this used for?
 </summary>
 <br>
-This email is used when we want to proactively contact you. This may be the case, for example, if there are anomalies with your account or the notifications submitted or if we send general information to all account managers.
+This email is used when we want to proactively contact you. This may be the case, for example, if there are anomalies with your account or the notices submitted or if we send general information to all account managers.
 </details>
 
 <br>
@@ -73,7 +73,7 @@ This email is used when we want to proactively contact you. This may be the case
 Can multiple accounts be requested at the same time? How many accounts are recommended for the preview and staging environment?
 </summary>
 <br>
-The URL of the awarding platform is purely for assigning the accounts/clients, it has nothing to do with the link to the award documents.
+The URL of the awarding platform is used purely to assign the accounts/clients; it has nothing to do with the link to the award documents.
 
 Some awarding platforms use e.g. Dropbox or google drive or similar for hosting the award documents, which is why the platform behind it cannot be clearly identified. For this reason, this information is also necessary. The link to the tender documents remains in the XML document and this is primarily displayed in the BKMS interface. The link provided when the account is created is only displayed at the bottom right, below the notice itself, as a disclaimer/source.
 </details>
@@ -103,7 +103,7 @@ In all environments, the same validation and the same delay in publishing is per
 The URL of the awarding platform should be specified to request access. What is the purpose of this information?
 </summary>
 <br>
-The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Procurement platforms are the systems in which notices are published; the URL of the procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account for each system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
+The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account per system that is to be used for future delivery to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support-oeffentlichevergabe@bdr.de.
 </details>
 <br>
 
@@ -190,7 +190,7 @@ How can I determine which versions of the subcomponents are supported for a rele
 
 Under [eForms Support](/documentation/eForms_support.md) it is documented which eForms versions the subcomponents support.
 <br>
-For each release, we publish releasenotes to describe which component supports which version. The versions eForms-DE 1.0.1 and 1.1.0 will be supported in all components of the public procurement data service from September 13.
+For each release, we publish releasenotes to describe which component supports which version. The versions eForms-DE 1.0.1 and 1.1.0 will be supported in all components of the public procurement data service from September 13th.
 </details>
 <br>
 
@@ -252,7 +252,7 @@ The v1/notices endpoint returns status information on all notices that have been
 
 <details>
 <summary>
-Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Are there plans for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
+Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Is it planned for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
 </summary>
 <br>
 Thank you for this suggestion; we will look into implementing it.
@@ -304,7 +304,7 @@ You can find detailed information on the support of the eForms versions at the f
   </summary>
   <br>
   Although there is no statement on the choice of language for invitations to tender in the procurement regulations, Section 23 (1) of the Administrative Procedure Act (VwVfG) stipulates that the official language is German. Accordingly, it is to be expected that German authorities must always prepare their documents at least in German. Multilingualism is of course possible and permitted.
-  For publishing entities that are not classified as public authorities, publication without German is fine. As of 31.01.2024, rule CR-DE-26 for BT-300 is temporarily deactivated for validation in the Vermittlungsdienst, but the error is still returned in the online validator (validator.ozg-vermittlungsdienst.de).
+  For publishing entities that are not classified as public authorities, publication without German is fine. As of 31.01.2024, the rule CR-DE-26 for BT-300 is temporarily deactivated for validation in the Vermittlungsdienst, but the error is still returned in the online validator (validator.ozg-vermittlungsdienst.de).
 </details>
 
 <details>
@@ -343,7 +343,7 @@ Sorted by BT/BG number.
 ### Announcement of results (BG-7), Offer (BG-320 Offer)
 <details>
 <summary>
-In the element "Announcement of results" (BG-7) > "Tender" (BG-320), should only awarded tenders/lots or all tenders/lots received be listed?
+Should the element "Announcement of results" (BG-7) > "Tender" (BG-320) only list awarded tenders/lots or all tenders/lots received?
 </summary>
 <br>
 
@@ -374,7 +374,7 @@ Why is BT-53 (Options) part of the eForms-DE specification, but BT is not an ele
 eForms-DE is the implementation of the "Commission Implementing Regulation (EU) 2022/2303 of November 24, 2022 amending Implementing Regulation (EU) 2019/1780 establishing standard forms for the publication of notices for public contracts". BT-53 (Options) is explicitly specified in this directive and is an indicator that indicates whether the buyer reserves the right to "reorder" from the same buyer.
 In technical terms, a possible entry would be "Yes" or "No".
 BT-53 is not required if BT-54 (Options - Description) is filled. In other words, if there is a text that describes the options that the buyer reserves. In this case, BT-53 can automatically be set to "Yes". If BT-54 is not present, then BT-53 is automatically set to "No".
-This technically means that there is no need to explicitly implement BT-53, as this follows "automatically" from BT-54.
+This technically means that no explicit implementation of BT-53 is required, as this follows "automatically" from BT-54.
 
 </details>
 </summary>
@@ -494,11 +494,11 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Result of the lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot>, BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
-    The description of the tenders takes place in the "Tenders" form module (<efac:LotTender>)
+    The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
     Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
@@ -523,7 +523,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order bid identifier, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who has signed the contract for the bidders
+BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid in a backward chaining process and the bidder or head of a bidding consortium who signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
@@ -733,12 +733,12 @@ What value do I need to use for BT-1501(s)-Contract?</summary>
 <br>
 Please create a contract and then link its ID in this field. This can have the value CON-0001, for example.
 </details>
-
+<br>
 
 ### Lots
 <details>
 <summary>
-How are the LOT entries to be used for "none", one or more lots?
+How to use the LOT entries for "none", one or more lots?
 </summary>
 <br>
 
