@@ -788,15 +788,6 @@ Seit dem 25.10.2023 müssen rechtlich alle oberschwelligen Bekanntmachungen im e
 
 <details>
 <summary>
-Wird es ein neues Portal für interessierte Unternehmen geben, das die jetzige service.bund.de-Seite ersetzt? 
-</summary>
-<br>
-Es ist kein weiteres Portal zum Ersatz von sevice.bund.de geplant. Projektwunsch ist es, dass alle Bekanntmachungen (Ober- und Unterschwelle) im Datenservice Öffentlicher Einkauf vorhanden sind. 
-</details>
-<br>
-
-<details>
-<summary>
 Existiert ein Mapping von XVergabe auf eForms?
 </summary>
 <br>
