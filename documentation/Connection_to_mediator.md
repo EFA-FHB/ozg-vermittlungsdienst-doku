@@ -196,7 +196,7 @@ Das Passwort muss aus mindestens 8 Zeichen bestehen, 1 Großbuchstaben und 1 Zah
 <br>
 
 ## Zugang löschen
-Um Ihren Zugang zu löschen, senden Sie bitte eine E-Mail an den Support der Bundesdruckerei [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
+Um Ihren Zugang zu löschen, senden Sie bitte eine E-Mail an den Support des DÖE [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
 - Systemumgebung, in der die Zugangsdaten gelöscht werden sollen
