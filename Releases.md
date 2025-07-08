@@ -3,6 +3,8 @@
 
 <br />
 
+- Juli 2025
+  - [Release für eSender-Hub](#Release-für-eSender-Hub)     
 - Mai 2025
   - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)     
   - [Hotfix Release für den Vermittlungsdienst](#Hotfix-Release-für-den-Vermittlungsdienst)
@@ -53,6 +55,24 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-für-eSender-Hub></a>
+## Release für eSender-Hub
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview | 16.06.2025 | Veröffentlicht |
+| Staging | 23.06.2025 | Veröffentlicht |
+| Produktion | 04.07.2025 | Veröffentlicht |
+
+Status: Veröffentlicht am 04.07.2025 <br>
+
+<details>
+<summary>Release Notes</summary>
+  
+### eSender-Hub
+- Die neue [TED API v3 Anbindung](https://docs.ted.europa.eu/api/latest/index.html#_new_in_ted_api_v3) wurde impelementiert
+
+</details>
 
 <a id=Hotfix-Release-für-alle-Validatoren></a>
 ## Hotfix Release für alle Validatoren
