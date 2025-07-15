@@ -24,7 +24,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion | DÖE exkl. BKMS | 17. Juni 2025 | 18:00-22:00 | Quartalswartungen: Im angegebenen Zeitraum stehen betroffene Services nicht zur Verfügung |
+| Produktion und Staging | DÖE  | 31. Juli 2025 | ab 16:00 | Ende der Supportfrist für eForms v1.2: Ab diesem Zeitpunkt werden Bekanntmachungen im Format v1.2 nicht mehr angenommen. Alle bis dahin akzeptierten und gültigen Bekanntmachungen werden weiterhin an TED und den Bekanntmachungsservice übermittelt und dort veröffentlicht. |
 | Produktion und Staging | DÖE inkl. BKMS | 26./27. Juli 2025 | 07:00-12:00 | Quartalswartungen |
 | Produktion und Staging | DÖE inkl. BKMS | 25./26. Oktober 2025 | 07:00-12:00 | Quartalswartungen (inkl. Zeitumstellung) |
 
@@ -55,6 +55,7 @@ Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus die
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion | DÖE exkl. BKMS | 17. Juni 2025 | 18:00-22:00 | Quartalswartungen: Im angegebenen Zeitraum stehen betroffene Services nicht zur Verfügung |
 | Staging | DÖE exkl. BKMS | 13. Mai 2025 | 09:00-13:00 | Quartalswartungen: Im angegebenen Zeitraum stehen betroffene Services nicht zur Verfügung |
 | Produktion und Staging | DÖE inkl. BKMS | 13. und 14. März 2025 | 07:00-17:00 | Wartungsarbeiten: Im angegebenen Zeitraum kann es zur Verzögerungen bei der Weiterleitung an den BKMS und den Status-Updates kommen. Alle angenommenen Bekanntmachungen werden anschließend weitergeleitet |
 | Produktion | TED Apps for eForms, einschließlich API-Schnitstellen | 13. März 2025 | 07:00-09:00 |Wartungsarbeiten: es kann bei allen TED-Apps in Produktionsumgebungen und ihren APIs zu Störungen kommen |
