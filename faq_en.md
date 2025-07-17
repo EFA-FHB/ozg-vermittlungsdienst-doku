@@ -1,7 +1,7 @@
 ### Public procurement data service
 # Frequently asked questions
 
-- Data service public procurement](#datenservice-öffentlicher-einkauf)
+- Data service for public procurement](#datenservice-öffentlicher-einkauf)
 - Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 - General](#general)
 
@@ -104,7 +104,7 @@ In all environments, the same validation and the same delay in publishing is per
 The URL of the awarding platform should be specified to request access. What is the purpose of this information?
 </summary>
 <br>
-The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account for each system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support@datenservice-oeffentlicher-einkauf.de
+The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account per system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support@datenservice-oeffentlicher-einkauf.de
 </details>
 <br>
 
@@ -253,7 +253,7 @@ The v1/notices endpoint returns status information on all notices that have been
 
 <details>
 <summary>
-Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Is it planned for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
+Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Are there plans for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
 </summary>
 <br>
 Thank you for this suggestion; we will look into implementing it.
@@ -464,7 +464,7 @@ BT-1251 is a specification of the point at which information on subject X was pr
 
 <br>
 
-Please note that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
+It should be noted that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
 
 The client is stored in the Contract structure.
 An offer is assigned to a contract and bidders are assigned to the offer. These bidders represent the contractors of the contract.
@@ -523,7 +523,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order bid identifier, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who signed the contract for the bidders
+BT-3202-Contract - Order bid identifier, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who has signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
