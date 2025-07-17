@@ -124,7 +124,7 @@ Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespie
 Gibt es eine Roadmap zur Weiterentwicklung der Komponenten des Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
-Ja. Die Onformationen finden Sie unter folgendem [Link](https://portal.ozg-vermittlungsdienst.de/roadmap)
+Ja. Die Informationen finden Sie hier: (https://portal.ozg-vermittlungsdienst.de/roadmap)
 </details>
 <br>
 
@@ -136,11 +136,11 @@ Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
 Bitte nutzen Sie unsere Kontaktformulare:
 <br>
-Fragen/Anmerkungen zum [Vermittlungsdienst/Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/contact)
+Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal auf https://portal.ozg-vermittlungsdienst.de/contact
 <br>
-Fragen/Anmerkungen zum [Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/kontakt)
+Fragen/Anmerkungen zum Redaktionssystem auf https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
 <br>
-Fragen/Anmerkungen zum [Bekanntmachungsservice](https://oeffentlichevergabe.de/ui/de/contact)
+Fragen/Anmerkungen zum Bekanntmachungsservice auf https://oeffentlichevergabe.de/ui/de/contact
 <br>
 Wir sind offen für Ihre Vorschläge!
 </details>
@@ -151,7 +151,7 @@ Wir sind offen für Ihre Vorschläge!
 Wie kann sichergestellt werden, dass Plattformanbieter regelmäßig über Neuigkeiten bzgl. des Datenservice informiert bleiben, insbesondere bzgl. neuer Versionen der Komponenten (Vermittlungsdienst, eSenderHub, REST-API, usw.), neuer Features, einer Aktualisierung der Roadmap etc.?
 </summary>
 <br>
-Eine Kommunikation erfolgt durch Regelmäßige Informationstermine für die Fachverfahrenshersteller, Ankündigungen per E-Mail, aktuelle Roadmap, Versionshinweise und FAQ sind in dem veröffentlichten Dokumentationsrepository: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku. Ebenfalls gibt es das SDK-eForms-DE Repository: https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.
+Eine Kommunikation erfolgt durch Regelmäßige Informationstermine für die Fachverfahrenshersteller, Ankündigungen per E-Mail, aktuelle Roadmap, Versionshinweise und FAQ sind in dem veröffentlichten Dokumentationsrepository: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku . Ebenfalls gibt es das SDK-eForms-DE Repository: https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.
 </details>
 
 <br>
@@ -161,9 +161,9 @@ Wie kann sichergestellt werden, dass Plattformanbieter regelmäßig über Neuigk
 </summary>
 <br>
 
-Die offiziellen Publikation zum Standard eForms-DE erfolgt auf https://xeinkauf.de/eforms-de/ .
+Die offiziellen Publikation zum Standard eForms-DE erfolgt auf https://xeinkauf.de/eforms-de/ 
 
-Die Publikation des zugehörigen SDK erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de .
+Die Publikation des zugehörigen SDK erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de 
 
 Publikationen zum organisatorischen Rahmen siehe:
 
@@ -190,7 +190,7 @@ Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizi
 Wie kann für ein Release ermittelt werden, welche Versionen der Teilkomponenten unterstützt werden?  
 </summary>
 <br>
-Unter [eForms Unterstützung](https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support) ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. 
+Unter https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. 
 Für jedes Release veröffentlichen wir Release Notes, um zu beschreiben, welche Komponente welche Version unterstützt.
 </details>
 <br>
@@ -285,7 +285,7 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
  Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
 </summary>
 <br>
-Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie unter folgendem <a href="https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support" target="_blank">Link</a>.
+Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie unter folgendem hier: https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support
 </details>
 <br>
 
