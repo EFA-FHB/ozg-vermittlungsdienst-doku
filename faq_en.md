@@ -1,9 +1,9 @@
 ### Public procurement data service
 # Frequently asked questions
 
-- Data service for public procurement](#datenservice-öffentlicher-einkauf)
-- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- General](#general)
+- [Data service for public procurement](#datenservice-öffentlicher-einkauf)
+- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- [General](#general)
 
 # Data service public purchasing
 
@@ -20,10 +20,10 @@ Does your contracting authority not have software from a specialist procedure ma
 **[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Purely technical interface for accepting, validating and forwarding notices to TED and the notice service.
 Does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. from an awarding authority software. This connection is usually carried out by the specialist procedure manufacturer.
 <br>
-**Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of Vermittlungsdienst accounts.
+**[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Web interface for the account management of Vermittlungsdienst accounts.
 Mainly used by specialist procedure manufacturers. Dashboard accounts are possible for viewing the status information of submitted notices, please contact your specialist procedure manufacturer!
 <br>
-**Announcement service](https://oeffentlichevergabe.de/)**: All notices sent via the public procurement data service are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, further convenient functions such as saving search functions and notification services are also available. Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
+**[Announcement service](https://oeffentlichevergabe.de/)**: All notices sent via the public procurement data service are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, further convenient functions such as saving search functions and notification services are also available. Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
 <br>
 </details>
 <br>
