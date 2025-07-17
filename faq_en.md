@@ -1,7 +1,7 @@
 ### Public procurement data service
 # Frequently asked questions
 
-- Data service for public procurement](#datenservice-öffentlicher-einkauf)
+- Data service public procurement](#datenservice-öffentlicher-einkauf)
 - Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 - General](#general)
 
@@ -61,7 +61,7 @@ We generally request two emails per account (sometimes also referred to as a cli
 
 <details>
 <summary>
-When creating an account, a contact email address of an FVH must be specified. What is this used for?
+When creating an account, a contact email address of an FVH must be entered. What is this used for?
 </summary>
 <br>
 This email is used when we want to proactively contact you. This may be the case, for example, if there are anomalies with your account or the notices submitted or if we send general information to all account managers.
@@ -124,7 +124,7 @@ The preview environment is only used for testing. Updates are often installed he
 Is there a roadmap for the further development of the components of the Public Procurement Data Service?
 </summary>
 <br>
-Yes, you can find the information at the following [link](https://portal.ozg-vermittlungsdienst.de/roadmap)
+Yes, you can find the information here: (https://portal.ozg-vermittlungsdienst.de/roadmap)
 </details>
 <br>
 
@@ -136,11 +136,11 @@ How can the Public Procurement Data Service team be contacted?
 </summary>
 Please use our contact forms:
 <br>
-Questions/comments about the [Vermittlungsdienst/Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/contact)
+Questions/comments about the Vermittlungsdienst/self-service portal at https://portal.ozg-vermittlungsdienst.de/contact
 <br>
-Questions/comments about the [Editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/kontakt)
+Questions/comments about the editorial system at https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
 <br>
-Questions/comments about the [Announcement service](https://oeffentlichevergabe.de/ui/de/contact)
+Questions/comments about the announcement service at https://oeffentlichevergabe.de/ui/de/contact
 <br>
 We are open to your suggestions!
 </details>
@@ -151,7 +151,7 @@ We are open to your suggestions!
 How can it be ensured that platform providers are regularly informed about news regarding the data service, in particular regarding new versions of the components (Vermittlungsdienst, eSenderHub, REST API, etc.), new features, an update of the roadmap, etc.?
 </summary>
 <br>
-Communication takes place through regular information dates for the specialist procedure manufacturers, announcements by e-mail, current roadmap, release notes and FAQs are available in the published documentation repository: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku. There is also the SDK-eForms-DE repository: https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.
+Communication takes place through regular information dates for the specialist procedure manufacturers, announcements by email, current roadmap, release notes and FAQs are available in the published documentation repository: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku . There is also the SDK-eForms-DE repository: https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.
 </details>
 
 <br>
@@ -161,9 +161,9 @@ How to ensure that platform providers are regularly informed about news regardin
 </summary>
 <br>
 
-The official publication of the eForms-DE standard is available at https://xeinkauf.de/eforms-de/ .
+The official publication of the eForms-DE standard is available at https://xeinkauf.de/eforms-de/
 
-The associated SDK is published at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de .
+The associated SDK is published at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
 
 For publications on the organizational framework, see
 
@@ -190,7 +190,7 @@ The Github documentation will continue to be maintained and is the official docu
 How can I determine which versions of the subcomponents are supported for a release?  
 </summary>
 <br>
-The eForms versions supported by the subcomponents are documented at [eForms support](https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support).
+The eForms versions supported by the subcomponents are documented at https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support.
 For each release, we publish release notes to describe which component supports which version.
 </details>
 <br>
@@ -253,7 +253,7 @@ The v1/notices endpoint returns status information on all notices that have been
 
 <details>
 <summary>
-Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Is it planned for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
+Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Are there plans for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
 </summary>
 <br>
 Thank you for this suggestion; we will look into implementing it.
@@ -285,7 +285,7 @@ Yes, productive use of the Online Validator is supported. In the production envi
  Which versions of the eForms-DE standard are currently supported?
 </summary>
 <br>
-You can find detailed information on the support of the eForms versions at the following <a href="https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support" target="_blank">link</a>.
+You can find detailed information on the support of the eForms versions here: https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support
 </details>
 <br>
 
@@ -320,7 +320,7 @@ You can find detailed information on the support of the eForms versions at the f
 | 1 | Planning | Announcement of the publication of prior information in a buyer profile - general guideline | Information is contained in the buyer profile |
 | 2 | Planning | Publication of a periodic indicative notice in a buyer profile - __sectoral directive__ | Information is included in the buyer profile |
 | 3 | Planning | Notice of publication of a prior information notice on a buyer profile - Defense Procurement Directive | Information is included in the buyer profile |
-| T01 | Planning | Prior information notice on public passenger transport services | This is based on Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, data collection for T1 is carried out directly at TED in the "eNotices" application. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
+| T01 | Planning | Prior information notice on public passenger transport services | This is based on Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, the data collection for T1 takes place in the "eNotices" application directly at TED. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
 | T02 | Result | Notice on contracts awarded for public passenger transport services | The basis is Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, data collection for T2 is carried out directly at TED in the "eNotices" application. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
 </details>
 <br>
@@ -331,7 +331,7 @@ You can find detailed information on the support of the eForms versions at the f
 <summary>
 Where can I find the latest version of the SDK-DE, which is supported by Datenservice Öffentlicher Einkauf (DÖE) and conforms to the German eForms-DE standard?
 <br>
-The SDK-DE is published on https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
+The SDK-DE is published at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
 </details>
 
 <br>
@@ -343,7 +343,7 @@ Sorted by BT/BG number.
 ### Announcement of results (BG-7), Offer (BG-320 Offer)
 <details>
 <summary>
-Should the element "Announcement of results" (BG-7) > "Tender" (BG-320) only list awarded tenders/lots or all tenders/lots received?
+In the element "Announcement of results" (BG-7) > "Tender" (BG-320), should only awarded tenders/lots or all tenders/lots received be listed?
 </summary>
 <br>
 
@@ -451,7 +451,7 @@ For which case is BT-125-Lot and BT-1251-Lot used?
 <br>
 
 An awarding authority has published a prior information notice in which it announces that an invitation to tender for subject X is to take place soon. This prior information notice is now given an announcement number. Some time later, the contracting authority invites tenders for subject X in a contract notice (CN). The publication number of the prior information notice is now entered in BT-125(i) in order to refer to the prior information notice that was published some time ago.
-BT-1251 is a specification of where information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
+BT-1251 is a specification of the point at which information on subject X was provided. This is done in the prior information notice in Parts. So BT-1251 is the information in which part of the prior information was provided.
 </details>
 </summary>
 <br>
@@ -464,7 +464,7 @@ BT-1251 is a specification of where information on subject X was provided. This 
 
 <br>
 
-Please note that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
+It should be noted that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
 
 The client is stored in the Contract structure.
 An offer is assigned to a contract and bidders are assigned to the offer. These bidders represent the contractors of the contract.
@@ -477,7 +477,7 @@ The following long version describes exactly what needs to be done to enable thi
   </summary>
 
 <br>
-The following illustration is intended to help you fill out the eForms form for the notification of results (CAN) so that the associated awarded contracts can be displayed correctly in the notification service (www.oeffentlichevergabe.de).
+The following illustration is intended to help you complete the eForms form for the notification of results (CAN) so that the associated awarded contracts can be displayed correctly in the notification service (www.oeffentlichevergabe.de).
 These completion instructions are aimed at specialist procedure manufacturers for the technical implementation of the following fields in the specialist procedure. If necessary, this can be used as a guide for users. For this reason, the technical field identifiers and their German interface designations (used in accordance with the eforms-DE standard, if available, otherwise those from the SDK-DE) are specified:
 <br>
 
@@ -498,8 +498,8 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 3. description of the tender
    
-    The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
+    The description of the tenders takes place in the "Tenders" form module (<efac:LotTender>)
+    Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
@@ -523,7 +523,7 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
 The following field is the most important for determining the winner:
 
-BT-3202-Contract - Order Bid ID, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who signed the contract for the bidders
+BT-3202-Contract - Order bid identifier, as this field is used to determine the underlying bid as part of a backward chain and the bidder or head of a bidding consortium who signed the contract for the bidders
 
 In order to also be able to map which organization on the client side signed the contract, the following field should also contain ID - contract signatory <cac:SignatoryParty> (OPT-300-Contract-Signatory) with a reference to the organization on the client side that signed the contract.
 
@@ -680,7 +680,7 @@ Can additional information be written to the field, e.g. by the user or automati
 </summary>
 <br>
 
-It is possible to insert free text after the code, as long as the total character limit is observed. The following note has been added to BT-300 for clarification:
+It is possible to add free text after the code as long as the total character limit is observed. The following note has been added to BT-300 for clarification:
 "To the extent that it is necessary to specify one of the codes (freelance, self, startup) because of rule BR-DE-26, the code must be specified on the first line and separated from other additional information by two blank lines. The format of the first line is defined as follows: #Specially suitable for:{freelance|self|startup}."
   </details>
 <br>
@@ -738,7 +738,7 @@ Please create a contract and then link its ID in this field. This can have the v
 ### Lots
 <details>
 <summary>
-How to use the LOT entries for "none", one or more lots?
+How are the LOT entries to be used for "none", one or more lots?
 </summary>
 <br>
 
