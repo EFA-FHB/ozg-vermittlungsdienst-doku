@@ -124,7 +124,7 @@ Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespie
 Gibt es eine Roadmap zur Weiterentwicklung der Komponenten des Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
-Ja. Die Informationen finden Sie hier: (https://portal.ozg-vermittlungsdienst.de/roadmap)
+Ja. Die Informationen finden Sie hier: https://portal.ozg-vermittlungsdienst.de/roadmap
 </details>
 <br>
 
