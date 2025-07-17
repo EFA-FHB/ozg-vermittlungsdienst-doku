@@ -55,13 +55,13 @@ Since 04.10.2023, accounts should be applied for in the [Self-Service Portal](ht
 One e-mail address must be entered as the user name for each registration. Is it possible to enter the same e-mail address for several systems?
 </summary>
 <br>
-We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email is required per account for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
+We generally request two emails per account (sometimes also referred to as a client): An account email to activate the account and a contact email. An individual email per account is required for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. However, the account email can also be a functional mailbox and is only required to manage the account. The contact email address is only used if questions arise during operation regarding a notification sent from this account. The contact email and account email may be identical if necessary and the same contact email (e.g. a central contact person) may be used for several accounts. However, you can reuse your account email once between the system environments, for example the same account email address for preview, staging and production. We generally recommend one account per awarding platform.
 </details>
 <br>
 
 <details>
 <summary>
-When creating an account, a contact email address of an FVH must be entered. What is this used for?
+When creating an account, a contact email address of an FVH must be specified. What is this used for?
 </summary>
 <br>
 This email is used when we want to proactively contact you. This may be the case, for example, if there are anomalies with your account or the notices submitted or if we send general information to all account managers.
@@ -74,7 +74,7 @@ This email is used when we want to proactively contact you. This may be the case
 Can multiple accounts be requested at the same time? How many accounts are recommended for the preview and staging environment?
 </summary>
 <br>
-The URL of the awarding platform is purely for assigning the accounts/clients, it has nothing to do with the link to the award documents.
+The URL of the awarding platform is used purely to assign the accounts/clients; it has nothing to do with the link to the award documents.
 
 Some awarding platforms use e.g. Dropbox or google drive or similar for hosting the award documents, which is why the platform behind it cannot be clearly identified. For this reason, this information is also necessary. The link to the tender documents remains in the XML document and this is primarily displayed in the BKMS interface. The link provided when the account is created is only displayed at the bottom right, below the notice itself, as a disclaimer/source.
 </details>
@@ -104,7 +104,7 @@ In all environments, the same validation and the same delay in publishing is per
 The URL of the awarding platform should be specified to request access. What is the purpose of this information?
 </summary>
 <br>
-The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account per system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support@datenservice-oeffentlicher-einkauf.de
+The purpose of specifying the URL is to be able to distinguish between the systems mentioned, to enable you to access them correctly and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment BKMS), for example. This URL is used to identify the platform on which you are currently publishing your notices. We are aware that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you will need one account for each system that is to be used for future deliveries to the brokerage service. If you are unsure which systems/platforms should be connected to the DÖE for you, we will be happy to support you in this decision. Please send us an inquiry to support@datenservice-oeffentlicher-einkauf.de
 </details>
 <br>
 
@@ -124,7 +124,7 @@ The preview environment is only used for testing. Updates are often installed he
 Is there a roadmap for the further development of the components of the Public Procurement Data Service?
 </summary>
 <br>
-Yes, you can find the information here: (https://portal.ozg-vermittlungsdienst.de/roadmap)
+Yes, you can find the information here: https://portal.ozg-vermittlungsdienst.de/roadmap
 </details>
 <br>
 
@@ -253,7 +253,7 @@ The v1/notices endpoint returns status information on all notices that have been
 
 <details>
 <summary>
-Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Are there plans for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
+Allocation platforms would like to recognize status changes promptly (currently a status query is made approximately every 10 minutes for each relevant data delivery). Is it planned for "GET /v1/notices" to be able to restrict or filter the list to those data deliveries for which a TED or DOE status change has taken place since a submitted time in order to reduce the query load on the system?
 </summary>
 <br>
 Thank you for this suggestion; we will look into implementing it.
@@ -331,7 +331,7 @@ You can find detailed information on the support of the eForms versions here: ht
 <summary>
 Where can I find the latest version of the SDK-DE, which is supported by Datenservice Öffentlicher Einkauf (DÖE) and conforms to the German eForms-DE standard?
 <br>
-The SDK-DE is published at https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
+The SDK-DE is published on https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
 </details>
 
 <br>
@@ -343,7 +343,7 @@ Sorted by BT/BG number.
 ### Announcement of results (BG-7), Offer (BG-320 Offer)
 <details>
 <summary>
-In the element "Announcement of results" (BG-7) > "Tender" (BG-320), should only awarded tenders/lots or all tenders/lots received be listed?
+Should the element "Announcement of results" (BG-7) > "Tender" (BG-320) only list awarded tenders/lots or all tenders/lots received?
 </summary>
 <br>
 
@@ -464,7 +464,7 @@ BT-1251 is a specification of the point at which information on subject X was pr
 
 <br>
 
-It should be noted that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
+Please note that in eForms, contractors and clients are stored in different places in the eForms structure for awarded tenders (contracts).
 
 The client is stored in the Contract structure.
 An offer is assigned to a contract and bidders are assigned to the offer. These bidders represent the contractors of the contract.
@@ -494,12 +494,12 @@ These completion instructions are aimed at specialist procedure manufacturers fo
 
        c. At least one winner has been determined (code: selec-w).
 
-    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Result of the lots" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
+    Only in the event that "c" was selected can a result be reported for this lot and at least the winning bid for this lot must be indicated. If several bids have been awarded, all winning bids must be listed below. In the section "Lot result" (<efac:LotResult>), the relationship between the lot <efac:TenderLot> , BT-13713-LotResult, (procedural result lot identifier) and the tender (<efac:LotTender>, OPT-320-LotResult) is established.
 
 3. description of the tender
    
-    The description of the tenders takes place in the "Tenders" form module (<efac:LotTender>)
-    Here it is important to set an internal form reference number to the tender, as this should already be used in the previous section, for example - in the reference to the tender (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
+    The description of the tenders takes place in the form module "Tenders" (<efac:LotTender>)
+    Here it is important to set an internal form reference number to the offer, as this should already be used in the previous section, for example - in the reference to the offer (see <efac:LotTender>, OPT-320-LotResult in section 2). Here, too, the LOS to which the tender refers must be referenced again (in the Tender Lot ID field): <efac:TenderLot>, BT-13714-Tender>. In addition, a further reference must now be inserted at this point to the section
     <efac:TenderingParty> in the OPT-310-Tender field (identifier - bidder). This reference refers to the "Bidder" form module, which is described below.
 
 4. description of the bidder(s) for a tender
