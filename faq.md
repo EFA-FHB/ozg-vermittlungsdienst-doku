@@ -124,7 +124,7 @@ Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespie
 Gibt es eine Roadmap zur Weiterentwicklung der Komponenten des Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
-Ja. Unter: https://portal.ozg-vermittlungsdienst.de/roadmap
+Ja. Die Onformationen finden Sie unter folgendem [Link](https://portal.ozg-vermittlungsdienst.de/roadmap)
 </details>
 <br>
 
@@ -135,11 +135,12 @@ Ja. Unter: https://portal.ozg-vermittlungsdienst.de/roadmap
 Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
 Bitte nutzen Sie unsere Kontaktformulare:
-Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal: https://portal.ozg-vermittlungsdienst.de/contact
 <br>
-Fragen/Anmerkungen zum Redaktionssystem: https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
+Fragen/Anmerkungen zum [Vermittlungsdienst/Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/contact)
 <br>
-Fragen/Anmerkungen zum Bekanntmachungsservice: https://oeffentlichevergabe.de/ui/de/contact
+Fragen/Anmerkungen zum [Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/kontakt)
+<br>
+Fragen/Anmerkungen zum [Bekanntmachungsservice](https://oeffentlichevergabe.de/ui/de/contact)
 <br>
 Wir sind offen für Ihre Vorschläge!
 </details>
@@ -189,7 +190,7 @@ Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizi
 Wie kann für ein Release ermittelt werden, welche Versionen der Teilkomponenten unterstützt werden?  
 </summary>
 <br>
-Unter eForms Unterstützung ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. 
+Unter [eForms Unterstützung](https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support) ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. 
 Für jedes Release veröffentlichen wir Release Notes, um zu beschreiben, welche Komponente welche Version unterstützt.
 </details>
 <br>
