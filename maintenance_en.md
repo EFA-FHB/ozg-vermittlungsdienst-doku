@@ -1,9 +1,9 @@
-- [Important notes for creating eForms](#important-notes-for-creating-eForms)
-- [Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
-- [Upcoming maintenance windows](#upcoming-maintenance-window)
-- [Known bugs and errors](#known-bugs-and-errors)
-- [Notes](#notes)
-- [Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
+- Important notes for creating eForms](#important-notes-for-creating-eForms)
+- Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
+- Upcoming maintenance windows](#upcoming-maintenance-window)
+- Known bugs and errors](#known-bugs-and-errors)
+- Notes](#notes)
+- Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
 
 ## Important notes on the creation of eForms
 To ensure smooth submission, please always observe the following aspects:
@@ -14,11 +14,11 @@ To ensure smooth submission, please always observe the following aspects:
 - The field **Preferred Publication Date BT-738 (RequestedPublicationDate)** can be set to the same date as the Notice Dispatch date or up to 2 days after the Notice Dispatch date according to the German standard. Please make sure to specify the same time zone for both values, as otherwise TED may reject the request in individual cases
 - The filling of the field **BT-165 Winner Size (Winner Size)** is currently not checked by the German rules. Please make sure that this field is filled correctly for the following notice types: '25', '26', '27', '28', '29', '30', '31', '32', 'E4', '33', '34', '35', '36' & '37'
 - To fill in the **BT-501 identification number (of the organization)**, please refer to the notes on the routing ID in our FAQ: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/faq.md#identifikationsnummer-organisation-bt-501
-- If your system no longer automatically updates the announcement status after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open any tickets with the BDR for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED is final, in which case you must submit the notice with a new notice ID or version.
+- If your system no longer automatically updates the announcement status after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open support tickets for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED (also known as TED = Manually rejected on the Self-Service Portal) is final, in which case you must submit the notice with a new notice ID or version.
 
 
-## Notes for specialist procedure manufacturers
-- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 Gateway Timeout from TED or an error in content as mentioned above, e.g. IssueDate incorrect), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED.  This process will be further optimized and automated in the future, but please do not stop querying the status for the announcement in case of a doe_status INTERNAL_ERROR.
+## Notes for manufacturers of specialized procedures
+- The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 gateway timeout from TED or a Schematron error in terms of content), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED. This process is partially automated so that the announcement is automatically retransmitted in the event of connection errors with TED.
 
 ## Upcoming maintenance windows
 
