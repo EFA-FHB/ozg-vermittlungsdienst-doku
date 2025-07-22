@@ -74,6 +74,8 @@ Status: In QA <br>
 - Various bugs in HTML generation have been fixed
 - The number format for totals amounts in PDF generation has been corrected
 
+</details>
+
 <a id=Release for eSender Hub></a>
 ## Release for eSender Hub
 | Environment | Period | Status |
@@ -96,7 +98,7 @@ Status: Published on 04.07.2025 <br>
 ## Hotfix release for all validators
 | environment | period | status |
 |------------|-----------------------------|----------------|
-| Preview | 16.05.2025 | Published |
+| Preview | 05/16/2025 | Published |
 | Staging | 16.05.2025 | Published |
 | Production | 19.05.2025 | Published |
 
@@ -162,7 +164,7 @@ Status: Published on 28.04.2025 <br>
 - Critical vulnerabilities have been fixed
 - Various bugs have been fixed
 
-### Notice Viewer
+### Notice viewer
 - Support for eForms-DE 2.1 has been implemented
 - SDK-DE 1.13.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.0) has been implemented
 - Various bugs have been fixed
@@ -193,7 +195,7 @@ Status: Published on 06.03.2025 <br>
 ## Hotfix release for all validators and for the notice viewer
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
-| Staging | 02/17/2025 | Published |
+| Staging | 17.02.2025 | Published |
 | Production | 02/18/2025 | Published |
 
 > **IMPORTANT** <br>
@@ -844,7 +846,7 @@ https://github.com/EFA-FHB/eforms-validator-core/releases/tag/1.0.3
 <br><br>
 
 <a id=Production-Release-June-Mediation-Service-&-eSender-Hub></a>
-## Production Release June - Vermittlungsdienst & eSender-Hub
+## Production Release June - Vermittlungsdienst & eSender Hub
 Status: Published 28.06.2023<br>
 <details>
 <summary>Release notes</summary>
