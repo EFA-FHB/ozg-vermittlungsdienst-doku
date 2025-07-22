@@ -4,6 +4,7 @@
 <br />
 
 - Juli 2025
+  - [Release für Notice-Viewer](#Release-für-Notice-Viewer)
   - [Release für eSender-Hub](#Release-für-eSender-Hub)     
 - Mai 2025
   - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)     
@@ -55,6 +56,23 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-für-Notice-Viewer></a>
+## Release für Notice-Viewer
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview | 07.07.2025 | Veröffentlicht |
+| Staging | 14.07.2025 | Veröffentlicht |
+| Produktion | 24.07.2025 | In Arbeit |
+
+Status: In QS <br>
+
+<details>
+<summary>Release Notes</summary>
+  
+### Notice-Viewer
+- Es wurden diverse Bugs bei der HTML-Generierung gefixt
+- Es wurde das Zahlenformat für Summenbeträge bei der PDF-Generierung korrigiert 
 
 <a id=Release-für-eSender-Hub></a>
 ## Release für eSender-Hub
