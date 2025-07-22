@@ -72,7 +72,9 @@ Status: In QS <br>
   
 ### Notice-Viewer
 - Es wurden diverse Bugs bei der HTML-Generierung gefixt
-- Es wurde das Zahlenformat für Summenbeträge bei der PDF-Generierung korrigiert 
+- Es wurde das Zahlenformat für Summenbeträge bei der PDF-Generierung korrigiert
+
+</details>
 
 <a id=Release-für-eSender-Hub></a>
 ## Release für eSender-Hub
