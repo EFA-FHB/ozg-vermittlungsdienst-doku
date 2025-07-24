@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+    # limit on open pull requests
+    open-pull-requests-limit: 10
+    pull-request-branch-name:
+      separator: "/"
+    target-branch: "main"
+    rebase-strategy: "auto"
