@@ -7,7 +7,7 @@
 Unter der URL https://validator.ozg-vermittlungsdienst.de/ ist der eForms-Validierungsservice verfügbar.<br>
 Mit Hilfe des Validierungsservices können Sie Ihre eForms-DE-Dokumente in den aktuell unterstützten Versionen vorab validieren, um Validierungsfehler bei der Übertragung von Bekanntmachungen an den Vermittlungsdienst zu vermeiden.
 <br><br>
-Sollten Sie den Validator selbst offline nutzen wollen (entweder als Java-Dependency oder als selbst gehosteten Webservice), ist der Code Open Source zu  finden unter https://github.com/EFA-FHB/eforms-validator-core. 
+Sollten Sie den Validator selbst offline nutzen wollen (entweder als Java-Dependency oder als selbst gehosteten Webservice), ist der Code Open Source zu  finden unter https://projekte.kosit.org/eforms/validator-edition-eforms-de. 
 <br><br>
 Es wird eine Kombination aus einer XML-Schema-Validierung und einer Schematron-Validierung der Dokumente durchgeführt. Als Ergebnis wird ein Validierungsreport, der dem Aufbau des Validierungsreports aus dem Vermittlungsdienst entspricht, im JSON-Format zurückgegeben.
 <br><br>
