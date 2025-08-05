@@ -92,7 +92,7 @@ jobs:
 
       - name: Get all md files that have changed
         id: changed-files-md-yaml
-        uses: tj-actions/changed-files@v39
+        uses: tj-actions/changed-files@v46
         with:
           files_yaml: |
             doc:
