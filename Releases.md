@@ -63,9 +63,9 @@
 |------------|-----------------------------|----------------|
 | Preview | 07.07.2025 | Veröffentlicht |
 | Staging | 14.07.2025 | Veröffentlicht |
-| Produktion | 24.07.2025 | In Arbeit |
+| Produktion | 24.07.2025 | Veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht am 24.07.2025 <br>
 
 <details>
 <summary>Release Notes</summary>
@@ -925,3 +925,4 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 </details>
 <br>
 </details>
+
