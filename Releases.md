@@ -3,6 +3,8 @@
 
 <br />
 
+- August 2025
+  - [Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren](#Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren)
 - Juli 2025
   - [Release für Notice-Viewer](#Release-für-Notice-Viewer)
   - [Release für eSender-Hub](#Release-für-eSender-Hub)     
@@ -56,6 +58,37 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren></a>
+## Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 14.08.2025                  | Veröffentlicht |
+| Staging    | 21.08.2025                  | Veröffentlicht |
+| Produktion | 28.08.2025                  | In Arbeit |
+
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Vermittlungsdienst
+- Das E1-Formular wird nun standardmäßig an TED übermittelt und dort veröffentlicht
+- Die optionale Veröffentlichung der Formulare E2, E3 und E4 ist nun ebenfalls möglich
+
+### eSender-Hub
+- Die Verarbeitung von E-Formularen wurde implementiert
+
+### Notice-Viewer
+- Der SDK-DE Patch 1.13.2 wurde integriert
+- Diverse Fehlerbehebungen wurden vorgenommen
+
+### Validatoren
+- Folgende SDK-DE patchs wurden angewendet:
+  - SDK-DE 1.12.6
+  - SDK-DE 1.13.2
+  
+</details>
 
 <a id=Release-für-Notice-Viewer></a>
 ## Release für Notice-Viewer
@@ -925,4 +958,5 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 </details>
 <br>
 </details>
+
 
