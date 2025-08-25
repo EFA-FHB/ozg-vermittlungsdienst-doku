@@ -1,9 +1,9 @@
-- [Important notes for creating eForms](#important-notes-for-creating-eForms)
-- [Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
-- [Upcoming maintenance windows](#upcoming-maintenance-window)
-- [Known bugs and errors](#known-bugs-and-errors)
-- [Notes](#notes)
-- [Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
+- Important notes for creating eForms](#important-notes-for-creating-eForms)
+- Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
+- Upcoming maintenance windows](#upcoming-maintenance-window)
+- Known bugs and errors](#known-bugs-and-errors)
+- Notes](#notes)
+- Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
 
 ## Important notes on the creation of eForms
 To ensure smooth submission, please always observe the following aspects:
@@ -24,8 +24,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Production and Staging | DÖE | July 31, 2025 | from 16:00 | End of support period for eForms v1.2: From this point on, announcements in v1.2 format will no longer be accepted. All notices accepted and valid until then will continue to be sent to TED and the announcement service and published there. |
-| Production and Staging | DÖE incl. BKMS | July 26/27, 2025 | 07:00-12:00 | Quarterly maintenance |
+| Production | All TED apps and their APIs | August 28, 2025 | 07:00-09:00 | Maintenance work: All TED applications in production environments and their APIs may be affected by disruptions |
 | Production and staging | DÖE incl. BKMS | October 25/26, 2025 | 07:00-12:00 | Quarterly maintenance (incl. time changeover) |
 
 ## Known bugs and malfunctions of the last months
@@ -44,5 +43,7 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
-| Production | DOE excl. BKMS | June 17, 2025 | 18:00-22:00 | Quarterly maintenance: Affected services are not available during the specified period |
+| Production and Staging | DÖE | July 31, 2025 | from 16:00 | End of support period for eForms v1.2: From this point on, announcements in v1.2 format will no longer be accepted. All notices accepted and valid until then will continue to be transmitted to TED and the announcement service and published there. |
+| Production and staging | DÖE incl. BKMS | July 26/27, 2025 | 07:00-12:00 | Quarterly maintenance |
+| Production | DÖE excl. BKMS | June 17, 2025 | 18:00-22:00 | Quarterly maintenance: Affected services are not available during the specified period |
 | Staging | DÖE excl. BKMS | May 13, 2025 | 09:00-13:00 | Quarterly maintenance: Affected services are not available during the specified period |
