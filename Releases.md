@@ -65,16 +65,16 @@
 |------------|-----------------------------|----------------|
 | Preview    | 14.08.2025                  | Veröffentlicht |
 | Staging    | 21.08.2025                  | Veröffentlicht |
-| Produktion | 28.08.2025                  | In Arbeit |
+| Produktion | 28.08.2025                  | Veröffentlicht |
 
 
-Status: In QS <br>
+Status: Veröffentlicht am 28.08.2025 <br>
 <details>
 <summary>Release Notes</summary>
 
 ### Vermittlungsdienst
 - Das E1-Formular wird nun standardmäßig an TED übermittelt und dort veröffentlicht
-- Die optionale Veröffentlichung der Formulare E2, E3 und E4 ist nun ebenfalls möglich
+- Die optionale Veröffentlichung der Formulare E2, E3 und E4 auf TED ist nun ebenfalls möglich
 
 ### eSender-Hub
 - Die Verarbeitung von E-Formularen wurde implementiert
@@ -958,5 +958,6 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 </details>
 <br>
 </details>
+
 
 
