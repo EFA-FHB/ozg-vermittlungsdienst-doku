@@ -14,8 +14,6 @@ Field: *entire section ```<efac:Organization>````*
 The DÖE assumes the role of the eSender for all above-threshold notices to be transmitted to TED. For the organizations, the type "ted-esen" must therefore NOT be used in the announcements, as this information is automatically inserted by the eSender Hub.
 When you create a notice and specify an organization, you must define for each organization what role it plays in the notice. The roles are defined in the EU code list: https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/organisation-role.gc.
 One value in the EU code list is "ted-esen". This value may not be used in Germany.
-
-Please note: This role is still partially present in the sample files for eForms-DE 1.0 currently available in the KoSIT repository. With the release of version eForms-DE 1.1, the sample files will also be adapted accordingly so that the ted-esen role is no longer used.
 <br>
 
 ## Relationship between Dispatch Date (BT-05) and Preferred Publication Date (BT-738)
@@ -124,3 +122,4 @@ In connection with this discussion, TED has confirmed that changing the eSender 
 Further details on the use of references can be found here: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection
 
 In general, this is a representation of the specification currently known to us by TED. This may change at any time. We therefore strongly recommend that you follow TED's communication channels on this topic.
+
