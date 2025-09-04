@@ -14,8 +14,10 @@ The POST /v2/notices endpoint is used to send an announcement. The description o
 `authorEmail`: The e-mail address of the author of a notice. This is forwarded to TED in the case of Europe-wide publication.
 
 `buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optional parameters which enable the submitted announcement to be found in the announcement service via the Peppol network.
+
+`publishToTed`: Optional parameter. Specifies whether the notice should be sent to TED. Only applies to forms E1 to E4, if the parameter for 1-40 is set to false, this is ignored. If this parameter is not filled, E1 is sent to TED by default, E2-E4 are not. This parameter does not affect the transmission to the announcement service. If E1-E4 forms are sent to TED, transmission to the announcement service takes place immediately without a 48-hour delay.
 ```
-If the posting is successful, the response code `202` means that the notice has been received and is now being processed further.
+If the submission is successful, the response code `202` means that the announcement has been received and is now being processed further.
 
 To track the notice, you will receive a tracking code and the following information in the response after posting:
 ```
@@ -37,4 +39,5 @@ Alternatively, either the status of all notices submitted can be queried via `GE
 >The `GET /v1/notices/status` is recommended, as this is the most efficient way to query the current status information.
 
 The meaning of the other response codes can be found at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.
+
 
