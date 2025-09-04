@@ -14,11 +14,12 @@ Bei erfolgreicher Einlieferung wird die Bekanntmachung weiter prozessiert. Abhä
 <br><br>
 Nach erfolgreicher Transformation in die zur DE-Version passende EU-Version des eForms wird die Bekanntmachung an TED weitergeleitet. Die Rückmeldung von TED (erfolgreiche Einlieferung oder Ablehnung) wird gespeichert und triggert einen entsprechenden Statuswechsel. Auch der Zeitpunkt dieses Statuswechsels wird gespeichert, sodass der Zeitpunkt der Einlieferung persistiert. Im Anschluss wird von TED der zugehörige Validierungsreport abgerufen, gespeichert und eventuelle Fehler oder Warnungen (zum Beispiel Lawfulness Warnings) extrahiert.
 <br><br>
-Bei erfolgreicher Einlieferung wird der exakte Zeitpunkt der Einlieferung erfasst, um die 48h-Frist für eine nationale Veröffentlichung zu berechnen. Wenn keine Warnungen existieren wird spätestens nach Ablauf der 48h die Bekanntmachung an den BKMS weitergeleitet. Sollten Lawfulness Warnings existieren, wird die Bekanntmachung spätestens nach 5 Tagen an den BKMS weitergeleitet, um die manuelle Prüfung von TED abzuwarten. Sollte eine Bekanntmachung vorher bei TED veröffentlicht werden, erfolgt sofort eine Weiterleitung an den BKMS. Der Veröffentlichungszeitpunkt wird ebenfalls gespeichert.
+Bei erfolgreicher Einlieferung wird der exakte Zeitpunkt der Einlieferung erfasst, um die 48h-Frist für eine nationale Veröffentlichung zu berechnen. Ausgenommen sind die Formulare E1 bis E4 – diese werden ohne die übliche Verzögerung von 48 Stunden unmittelbar an den Bekanntmachungsservice übermittelt. Wenn keine Warnungen existieren wird spätestens nach Ablauf der 48h die Bekanntmachung an den BKMS weitergeleitet. Sollten Lawfulness Warnings existieren, wird die Bekanntmachung spätestens nach 5 Tagen an den BKMS weitergeleitet, um die manuelle Prüfung von TED abzuwarten. Sollte eine Bekanntmachung vorher bei TED veröffentlicht werden, erfolgt sofort eine Weiterleitung an den BKMS. Der Veröffentlichungszeitpunkt wird ebenfalls gespeichert.
 <br><br>
 Während des gesamten Prozesses werden Statusänderungen z. B. ausgelöst durch eine Rückmeldung von TED sowie aufgetretene Fehler oder Warnungen intern gespeichert. Relevante Statusinformationen können jederzeit durch die FVH über den Vermittlungsdienst abgefragt werden. Details zu Statusmeldungen und Fehlern finden Sie unter [Statusinformationen](documentation\Status_information.md).
 <br><br>
 
 ![Workflow Diagramm](/documentation/images/workflow_2.png)
+
 
 
