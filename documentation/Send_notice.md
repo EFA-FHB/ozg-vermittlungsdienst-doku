@@ -13,7 +13,9 @@ Für die Übersendung einer Bekanntmachung wird der Endpoint POST /v2/notices ve
 
 `authorEmail`: Die E-Mail-Adresse des Verfassers einer Bekanntmachung. Diese wird bei europaweiter Veröffentlichung an TED weitergegeben.
 
-`buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optionale Parameter, welche es ermöglichen, die eingelieferte Bekanntmachung im Bekanntmachungsservice über das Peppol Netzwerk zu finden. 
+`buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optionale Parameter, welche es ermöglichen, die eingelieferte Bekanntmachung im Bekanntmachungsservice über das Peppol Netzwerk zu finden.
+
+`publishToTed': Optionaler Parameter. Gibt an, ob die Bekanntmachung an TED übermittelt werden soll. Gilt nur für die Formulare E1 bis E4, falls der Parameter für 1-40 auf false gesetzt wird, wird dies ignoriert. Wenn dieser Parameter nicht befüllt ist, wird E1 standardmäßig an TED versendet, E2-E4 nicht. Dieser Parameter beeinflusst die Übermittlung an den Bekanntmachungsservice nicht. Wenn E1-E4 Formulare an TED versendet werden, erfolgt eine Übermittlung an den Bekanntmachungsservice unmittelbar ohne 48h Verzögerung.
 ``` 
 Bei erfolgreicher Einlieferung bedeutet der Response-Code `202`, dass die Bekanntmachung entgegengenommen wurde und nun weiter vearbeitet wird. 
 
@@ -37,4 +39,5 @@ Alternativ kann entweder der Status aller eingelieferten Bekanntmachungen abgefr
 >Der `GET /v1/notices/status` wird empfohlen, da so die aktuellen Statusinformationen am effizientesten abgefragt werden können.
 
 Die Bedeutung der weiteren Response-Codes entnehmen Sie https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.
+
 
