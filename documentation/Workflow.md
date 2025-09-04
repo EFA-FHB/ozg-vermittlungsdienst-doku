@@ -8,7 +8,7 @@ Im folgenden Diagramm ist der generelle Workflow einer Bekanntmachung beschriebe
 <br><br>
 Der zentrale Punkt zum Einliefern von Bekanntmachungen und Abfragen von Statusinformationen für Fachverfahrenshersteller (FVH) ist der Vermittlungsdienst. Bevor in den Vermittlungsdienst eingeliefert werden kann, muss sich jede Vergabeplattform einen Account in Keycloak erstellen lassen und sich im Vermittlungsdienst ein Token generieren. Der Account kann im Self-Service-Portal beantragt werden (siehe [Connection to Mediator](/documentation/Connection_to_mediator.md)). Mit diesem Token erfolgt die Authentifikation zum Einsenden in den Vermittlungsdienst.
 <br><br>
-Bevor eine Bekanntmachung an das Vermittlungssystem gesendet wird, ist es empfehlenswert, diese Bekanntmachung an den eForms-DE-Validierungsservice zu schicken (Externer Validator). So kann bereits vor Einlieferung geprüft werden, dass das eForms-DE-Dokument valide ist. Beim Einsenden wird der Vermittlungsdienst das eForms entsprechend seiner Version ebenfalls validieren (eForms-EU 0.1.1, 1.0, 1.5 & eForms-DE 1.0.0, 1.0.1) und diese annehmen oder ablehnen. 
+Bevor eine Bekanntmachung an das Vermittlungssystem gesendet wird, ist es empfehlenswert, diese Bekanntmachung an den eForms-DE-Validierungsservice zu schicken (Externer Validator). So kann bereits vor Einlieferung geprüft werden, dass das eForms-DE-Dokument valide ist. Beim Einsenden wird der Vermittlungsdienst das eForms entsprechend seiner Version ebenfalls validieren und diese annehmen oder ablehnen. 
 <br><br>
 Bei erfolgreicher Einlieferung wird die Bekanntmachung weiter prozessiert. Abhängig davon, ob es sich um ein unterschwelliges oder oberschwelliges eForms-Dokument handelt, werden Bekanntmachungen entweder direkt an den BKMS (unterschwellig) oder an den eSender-Hub (oberschwellig) weitergeleitet - siehe [Ober- oder Unterschwellenvergabe](/documentation/Upper-or_lower-threshold-award.md). Im eSender-Hub erfolgt bei Einlieferung von eForms-DE eine Transformation in eForms-EU. Welche eForms-Versionen die einzelnen Komponenten unterstützen können Sie unter [eForms-Support](/documentation/eForms_support.md) nachlesen.
 <br><br>
@@ -20,6 +20,7 @@ Während des gesamten Prozesses werden Statusänderungen z. B. ausgelöst durch 
 <br><br>
 
 ![Workflow Diagramm](/documentation/images/workflow_2.png)
+
 
 
 
