@@ -14,8 +14,6 @@ Feld: *ganzer Abschnitt ```<efac:Organization>```*
 Der DÖE übernimmt die Rolle des eSenders für alle an TED zu übermittelnden oberschwelligen Bekanntmachungen. Für die Organisationen darf deshalb der Typ „ted-esen“ NICHT in den Bekanntmachungen verwendet werden, da diese Angabe automatisch vom eSender-Hub eingefügt wird.
 Wenn Sie eine Bekanntmachung erstellen und eine Organisation angeben, müssen Sie für jede Organisation definieren, welche Rolle diese im Rahmen der Bekanntmachung spielt. Die Rollen sind definiert in der EU-Codeliste: https://github.com/OP-TED/eForms-SDK/blob/1.7.0/codelists/organisation-role.gc.
 Ein Wert in der EU-Codeliste ist „ted-esen“. Dieser Wert darf in Deutschland nicht verwendet werden. 
-
-Hierbei zu beachten: In den derzeit im KoSIT-Repository vorhandenen Beispieldateien zu eForms-DE 1.0 ist diese Rolle teilweise noch vorhanden. Mit Veröffentlichung der Version eForms-DE 1.1 werden auch die Beispieldateien entsprechend angepasst, sodass die Rolle ted-esen nicht mehr verwendet wird. 
 <br>
 
 ## Zusammenhang zwischen Dispatch Date (BT-05) und Preferred Publication Date (BT-738)
@@ -124,3 +122,4 @@ TED hat im Zusammenhang mit dieser Diskussion bestätigt, dass ein Wechsel des e
 Weitere Details zur Verwendung der Referenzen können hier nachgelesen werden: https://docs.ted.europa.eu/eforms/latest/schema/procedure-lot-part-information.html#previousNoticeSection
 
 Generell handelt es sich hierbei um eine Darstellung der derzeit uns bekannten Spezifikation durch TED. Diese kann sich jederzeit ändern. Daher empfehlen wir dringend, die Kommunikationskanäle von TED zu dieser Thematik zu verfolgen. 
+
