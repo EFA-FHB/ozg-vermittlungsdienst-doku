@@ -21,7 +21,7 @@ Ab den 04.10.2023 erfolgt die Einrichtung eines neuen Accounts über das Self-Se
 
 Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer-E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Wenn Sie 10 Accounts beantragen auf einer Umgebung, benötigen Sie auch 10 individuelle E-Mail-Adressen. Die E-Mail-Adresse dient zum Abruf der Tokens, die Sie zur eindeutigen Authentifizierung mit dem Account benötigen. Deshalb muss diese einzigartig sein.
 <br><br>
-Der Link ist 10 Tage gültig.<br>
+Der Link ist 5 Tage gültig.<br>
 Klicken Sie auf den Link und folgen Sie den Anweisungen zur Passwort-Erstellung.
 <br><br>
 Mit den erstellten Zugangsdaten kann mit Hilfe der API ein Access-Token und ein Refresh-Token generiert werden.
@@ -203,4 +203,5 @@ In der E-Mail müssen folgende Angaben enthalten sein:
 - Name des FVH
 
 Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen.
+
 
