@@ -17,9 +17,6 @@ Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Aut
 
 ### Beantragen eines Accounts zum Einliefern von Bekanntmachungen
 
->**Hinweis** <br>
->Nach dem Produktionsrelease im Juni 2023 muss für die Produktions- und Stagingumgebung erneut ein User angefragt werden, auch wenn in Preview bereits ein User besteht. 
-
 Ab den 04.10.2023 erfolgt die Einrichtung eines neuen Accounts über das Self-Service-Portal (Produktionumgebung: https://portal.ozg-vermittlungsdienst.de). Ein Konto kann im Portal erstellt werden, indem eine E-Mail-Adresse und ein Passwort festgelegt werden. Nach Bestätigung der E-Mail-Adresse kann der Nutzer sich anmelden und das Antragsformular für einen neuen VD-Account ausfüllen. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
 
 Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer-E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Wenn Sie 10 Accounts beantragen auf einer Umgebung, benötigen Sie auch 10 individuelle E-Mail-Adressen. Die E-Mail-Adresse dient zum Abruf der Tokens, die Sie zur eindeutigen Authentifizierung mit dem Account benötigen. Deshalb muss diese einzigartig sein.
@@ -206,3 +203,4 @@ In der E-Mail müssen folgende Angaben enthalten sein:
 - Name des FVH
 
 Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen.
+
