@@ -17,10 +17,7 @@ To use the API, access data must be requested once. Authorization takes place vi
 
 ### Applying for an account to deliver announcements
 
->**Note** <br>
->After the production release in June 2023, a new user must be requested for the production and staging environment, even if a user already exists in Preview.
-
-From October 4, 2023, a new account will be set up via the self-service portal (production environment: https://portal.ozg-vermittlungsdienst.de). An account can be created in the portal by specifying an e-mail address and a password. After confirming the e-mail address, the user can log in and fill out the application form for a new VD account. A separate user is required for each awarding platform. <br>
+From 04.10.2023, a new account will be set up via the self-service portal (production environment: https://portal.ozg-vermittlungsdienst.de). An account can be created in the portal by specifying an email address and password. After confirming the e-mail address, the user can log in and fill out the application form for a new VD account. A separate user is required for each awarding platform. <br>
 
 Once the user has been created, an authentication email containing a link for authentication and password creation is sent to the specified user email address for verification. If you apply for 10 accounts on one environment, you will also need 10 individual e-mail addresses. The e-mail address is used to retrieve the tokens that you need for unique authentication with the account. It must therefore be unique.
 <br><br>
@@ -184,7 +181,7 @@ The PEPPOL access point for the Vermittlungsdienst and the BKMS is operated by t
 6. click on 'Link to reset credentials'.
 <br>
 
-7. the user will be redirected to the 'Update password' page<br>.
+7. the user is redirected to the 'Update password' page<br>.
 ![Update password](images/kc_password_update.png)
 <br>
 
@@ -196,7 +193,7 @@ The password must consist of at least 8 characters, contain 1 capital letter and
 <br>
 
 ## Delete access
-To delete your access, please send an e-mail to Bundesdruckerei support [support-oeffentlichevergabe@bdr.de ](mailto:support-oeffentlichevergabe@bdr.de ).<br>
+To delete your access, please send an e-mail to the DÖE support team [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
 The e-mail must contain the following information
 
 - System environment in which the access data is to be deleted
@@ -206,3 +203,4 @@ The e-mail must contain the following information
 - Name of the FVH
 
 After checking the data provided in the e-mail, we will delete the access and send you a confirmation by e-mail.
+
