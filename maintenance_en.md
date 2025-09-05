@@ -31,7 +31,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 | system | available since | expected fix | error | status |
 |--------------|----------------|----------------------------|--------|--------|
-| *No entries* | - | - | **Currently no bugs or malfunctions are documented** | - |
+| DÖE Staging except BKMS | September 05, 2025 | September 08, 2025 | Authentication error | In progress |
 
 ## Notes
 
@@ -43,7 +43,7 @@ On 27.09.2023 the API key for submission to TED was adjusted. For this reason, s
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
-| Production and Staging | DÖE | July 31, 2025 | from 16:00 | End of support period for eForms v1.2: From this point on, announcements in v1.2 format will no longer be accepted. All notices accepted and valid until then will continue to be sent to TED and the announcement service and published there. |
+| Production and Staging | DÖE | July 31, 2025 | from 16:00 | End of support period for eForms v1.2: From this point on, announcements in v1.2 format will no longer be accepted. All notices accepted and valid until then will continue to be transmitted to TED and the announcement service and published there. |
 | Production and staging | DÖE incl. BKMS | July 26/27, 2025 | 07:00-12:00 | Quarterly maintenance |
 | Production | DÖE excl. BKMS | June 17, 2025 | 18:00-22:00 | Quarterly maintenance: Affected services are not available during the specified period |
 | Staging | DÖE excl. BKMS | May 13, 2025 | 09:00-13:00 | Quarterly maintenance: Affected services are not available during the specified period |
