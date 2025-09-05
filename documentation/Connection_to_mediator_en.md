@@ -21,10 +21,10 @@ From 04.10.2023, a new account will be set up via the self-service portal (produ
 
 Once the user has been created, an authentication email containing a link for authentication and password creation is sent to the specified user email address for verification. If you apply for 10 accounts on one environment, you will also need 10 individual e-mail addresses. The e-mail address is used to retrieve the tokens that you need for unique authentication with the account. It must therefore be unique.
 <br><br>
-The link is valid for 5 days.<br>
+The link is valid for 10 days.<br>
 Click on the link and follow the instructions to create a password.
 <br><br>
-With the created access data, an access token and a refresh token can be generated using the API.
+With the access data created, an access token and a refresh token can be generated using the API.
 <br><br>
 Please note that you must apply for one access per development environment (preview, staging, production). The access data is not synchronized. [Preview](https://portal.preview-ozg-vermittlungsdienst.de/) and [Staging](https://portal.staging-ozg-vermittlungsdienst.de/) accounts can be requested in the corresponding self-service portal environment.
 <br>
@@ -203,5 +203,6 @@ The e-mail must contain the following information
 - Name of the FVH
 
 After checking the data provided in the e-mail, we will delete the access and send you a confirmation by e-mail.
+
 
 
