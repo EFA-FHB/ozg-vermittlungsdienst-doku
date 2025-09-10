@@ -17,7 +17,7 @@ To ensure smooth submission, please always observe the following aspects:
 - If your system no longer updates the announcement status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open support tickets for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED (also known as TED = Manually rejected on the Self-Service Portal) is final, in which case you must submit the notice with a new notice ID or version.
 
 
-## Notes for manufacturers of specialized procedures
+## Notes for specialist procedure manufacturers
 - The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 gateway timeout from TED or a Schematron error in terms of content), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED. This process is partially automated so that the announcement is automatically retransmitted in the event of connection errors with TED.
 
 ## Upcoming maintenance windows
@@ -37,9 +37,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 The preview environment is only available between 06:00 and 20:00. Please also use the staging environment for testing purposes, this is available around the clock.
 
-On 27.09.2023 the API key for submission to TED was adjusted. For this reason, status information for announcements that were submitted in staging or preview before this date will no longer be requested from TED. This is a one-time adjustment and will not occur again in the future.
-
-## Past maintenance windows or disruptions in the last few months
+## Past maintenance windows or disruptions in recent months
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
