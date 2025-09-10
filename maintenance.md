@@ -37,8 +37,6 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar. Nutzen Sie bitte auch die Staging-Umgebung für Testzwecke, diese ist rund um die Uhr verfügbar.
 
-Am 27.09.2023 wurde der API-Key für die Einlieferung bei TED angepasst. Aus diesem Grund werden Statusinformationen für Bekanntmachungen, die vor diesem Datum in Staging oder Preview eingeliefert wurden, nicht mehr bei TED abgefragt. Dies ist eine einmalige Anpassung und wird in Zukunft nicht wieder vorkommen. 
-
 ## Vergangene Wartungsfenster oder Störungen der letzten Monate
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
