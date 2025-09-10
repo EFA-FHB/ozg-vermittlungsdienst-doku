@@ -17,14 +17,13 @@ To ensure smooth submission, please always observe the following aspects:
 - If your system no longer updates the announcement status automatically after the doe_status INTERNAL_ERROR (which is NOT final), you can also check the status via the Notices table in the Self-Service Portal (portal.ozg-vermittlungsdienst.de) with the login data of your system at the Vermittlungsdienst. Notices will not remain in INTERNAL_ERROR status. Please do not open support tickets for this, but contact your specialist procedure manufacturer. Only the doe_status REJECTED (also known as TED = Manually rejected on the Self-Service Portal) is final, in which case you must submit the notice with a new notice ID or version.
 
 
-## Notes for specialist procedure manufacturers
+## Notes for manufacturers of specialized procedures
 - The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 gateway timeout from TED or a Schematron error in terms of content), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED. This process is partially automated so that the announcement is automatically retransmitted in the event of connection errors with TED.
 
 ## Upcoming maintenance windows
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Production | All TED apps and their APIs | August 28, 2025 | 07:00-09:00 | Maintenance work: All TED apps in production environments and their APIs may be affected by disruptions |
 | Production and staging | DÖE incl. BKMS | October 25/26, 2025 | 07:00-12:00 | Quarterly maintenance (incl. time changeover) |
 
 ## Known bugs and malfunctions of the last months
@@ -41,7 +40,6 @@ The preview environment is only available between 06:00 and 20:00. Please also u
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
-| Production and Staging | DÖE | July 31, 2025 | from 16:00 | End of support period for eForms v1.2: From this point on, announcements in v1.2 format will no longer be accepted. All notices accepted and valid until then will continue to be sent to TED and the announcement service and published there. |
+| Production | All TED apps and their APIs | August 28, 2025 | 07:00-09:00 | Maintenance work: All TED apps in production environments and their APIs may be affected by disruptions |
+| Production and staging | DÖE | July 31, 2025 | from 16:00 | End of support period for eForms v1.2: From this point on, announcements in v1.2 format will no longer be accepted. All notices accepted and valid until then will continue to be sent to TED and the announcement service and published there. |
 | Production and staging | DÖE incl. BKMS | July 26/27, 2025 | 07:00-12:00 | Quarterly maintenance |
-| Production | DÖE excl. BKMS | June 17, 2025 | 18:00-22:00 | Quarterly maintenance: Affected services are not available during the specified period |
-| Staging | DÖE excl. BKMS | May 13, 2025 | 09:00-13:00 | Quarterly maintenance: Affected services are not available during the specified period |
