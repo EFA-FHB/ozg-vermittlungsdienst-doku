@@ -30,7 +30,7 @@ Um eine reibungslose Einlieferung zu gewährleisten, beachten Sie bitte immer di
 
 | System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status |
 |--------------|----------------|----------------------------|--------|--------|
-| DÖE Staging außer BKMS | 05. September 2025 | 11. September 2025 | Authentifizierungsstörung | In Arbeit |
+| DÖE Staging außer BKMS | 05. September 2025 | 11. September 2025 | Authentifizierungsstörung | Behoben am 11. September 2025 |
 
 ## Hinweise
 
