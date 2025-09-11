@@ -30,7 +30,7 @@ To ensure smooth submission, please always observe the following aspects:
 
 | system | available since | expected fix | error | status |
 |--------------|----------------|----------------------------|--------|--------|
-| DÖE staging except BKMS | September 05, 2025 | September 11, 2025 | Authentication error | In progress |
+| DÖE staging except BKMS | September 05, 2025 | September 11, 2025 | Authentication error | Fixed on September 11, 2025 |
 
 ## Notes
 
