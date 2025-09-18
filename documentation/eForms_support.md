@@ -37,12 +37,13 @@ SDK-EU|Akzeptiert ab|Akzeptiert bis|
 ## eForms-Validierung
 Alle Bekanntmachungen werden bei der Übermittlung an den Vermittlungsdienst, bevor sie vom System angenommen werden, validiert. Die Validierung erfolgt anhand einer Kombination aus einer XML-Schema-Validierung und einer Schematron-Validierung. Als Ergebnis wird ein Validierungsreport im JSON-Format zurückgegeben.
 
-Eine Möglichkeit zur Offline-Validierung, so wie sie auch der Vermittlungsdienst durchführt, bietet der Open-Source-Validator: https://projekte.kosit.org/eforms/validator-edition-eforms-de
+Eine Möglichkeit zur Offline-Validierung, wie sie auch der Vermittlungsdienst durchführt, bietet der von KoSIT bereitgestellte [Open-Source-Validator](https://projekte.kosit.org/eforms/validator-edition-eforms-de)
 
 ### Validierungs-Blacklist
 
 Durch das nationale Tailoring entstehen Unterschiede zwischen in der EU und national zugelassenen Werten, beispielsweise bei Codelisten und der customizationID: Deshalb müssen bestimmte EU-Regeln übersprungen werden, um nach deutschem Tailoring valide Dokumente zu validieren. 
 Die aktuelle Liste der ignorierten Regeln finden Sie im [KoSIT-Repository für den deutschen eForms-Standard](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.4/src/main/ted-excluded-rules.txt)
+
 
 
 
