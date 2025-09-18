@@ -42,22 +42,7 @@ Eine Möglichkeit zur Offline-Validierung, so wie sie auch der Vermittlungsdiens
 ### Validierungs-Blacklist
 
 Durch das nationale Tailoring entstehen Unterschiede zwischen in der EU und national zugelassenen Werten, beispielsweise bei Codelisten und der customizationID: Deshalb müssen bestimmte EU-Regeln übersprungen werden, um nach deutschem Tailoring valide Dokumente zu validieren. 
-
-Die folgenden Regeln sollten ignoriert werden:
-
-| Content                       | BT Field | Rule to be ignored |
-| ----------------------------- | -------- | ------------------ |
-| CustomizationID               |          | BR-OPT-00002-0052  |
-| buyer-contracting-type.gc     | BT-740   | BR-BT-00740-0052   |
-| buyer-legal-type.gc           | BT-11    | BR-BT-00011-0052   |
-| criterion-exclusion-ground.gc | BT-67    | BR-BT-00067-0104   |
-| gpp-criteria.gc               | BT-165   | BR-BT-00165-0052   |
-| missing-info-submission.gc    | BT-771   | BR-BT-00001-0155   |
-| procurement-procedure-type.gc | BT-105   | BR-BT-00105-0052   |
-| received-submission-type.gc   | BT-760   | BR-BT-00760-0052   |
-| social-objective.gc           | BT-775   | BR-BT-00775-0051   |
-
-
+Die aktuelle Liste der ignorierten Regeln finden Sie im [KoSIT-Repository für den deutschen eForms-Standard](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.4/src/main/ted-excluded-rules.txt)
 
 
 
