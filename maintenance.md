@@ -1,4 +1,3 @@
-- [Wichtige Hinweise zur Erstellung von eForms](#wichtige-hinweise-zur-erstellung-von-eforms)
 - [Hinweise für Fachverfahrenshersteller](#hinweise-für-fachverfahrenshersteller)
 - [Anstehende Wartungsfenster](#anstehende-wartungsfenster)
 - [Bekannte Bugs und Störungen](#bekannte-bugs-und-störungen)
