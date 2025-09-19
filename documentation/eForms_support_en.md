@@ -37,25 +37,12 @@ SDK-EU|Accepted from|Accepted until|
 ## eForms validation
 All notices are validated when they are sent to the Vermittlungsdienst before they are accepted by the system. Validation is carried out using a combination of XML schema validation and Schematron validation. As a result, a validation report is returned in JSON format.
 
-One option for offline validation, as performed by the Vermittlungsdienst, is the open source validator: https://projekte.kosit.org/eforms/validator-edition-eforms-de
+An option for offline validation, as also performed by the Vermittlungsdienst, is provided by the [Open-Source-Validator](https://projekte.kosit.org/eforms/validator-edition-eforms-de) made available by KoSIT.
 
 ### Validation blacklist
 
-National tailoring results in differences between values permitted in the EU and nationally, for example in code lists and the customizationID: certain EU rules must therefore be skipped in order to validate valid documents according to German tailoring.
-
-The following rules should be ignored:
-
-| Content | BT Field | Rule to be ignored |
-| ----------------------------- | -------- | ------------------ |
-| CustomizationID | BR-OPT-00002-0052 |
-| buyer-contracting-type.gc | BT-740 | BR-BT-00740-0052 |
-| buyer-legal-type.gc | BT-11 | BR-BT-00011-0052 |
-| criterion-exclusion-ground.gc | BT-67 | BR-BT-00067-0104 |
-| gpp-criteria.gc | BT-165 | BR-BT-00165-0052 |
-| missing-info-submission.gc | BT-771 | BR-BT-00001-0155 |
-| procurement-procedure-type.gc | BT-105 | BR-BT-00105-0052 |
-| received-submission-type.gc | BT-760 | BR-BT-00760-0052 |
-| social-objective.gc | BT-775 | BR-BT-00775-0051 |
+National tailoring results in differences between values permitted in the EU and nationally, for example in code lists and the customizationID: certain EU rules must therefore be skipped in order to validate valid documents according to German tailoring. 
+The current list of ignored rules can be found in the [KoSIT repository for the German eForms standard](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.4/src/main/ted-excluded-rules.txt).
 
 
 
