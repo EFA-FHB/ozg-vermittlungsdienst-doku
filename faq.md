@@ -34,7 +34,7 @@ Welche Informationen werden benötigt, um einen Account zu beantragen? (aktualis
 </summary>
 <br>
 
-Seit dem 04.10.2023 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt werden. Alle benötigte Informationen werden im Registrierungsformular für einen VD Account abgefragt. Diese sind:
+Seit dem 04.10.2023 sollen Accounts im [Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de) beantragt werden. Alle benötigte Informationen werden im Registrierungsformular für einen VD Account abgefragt. Diese sind:
 
 <br>
 
@@ -124,7 +124,7 @@ Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespie
 Gibt es eine Roadmap zur Weiterentwicklung der Komponenten des Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
-Ja. Die Informationen finden Sie hier: https://portal.ozg-vermittlungsdienst.de/roadmap
+Ja. Die Informationen finden Sie hier: https://self-service.datenservice-oeffentlicher-einkauf.de/roadmap
 </details>
 <br>
 
@@ -136,7 +136,7 @@ Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
 Bitte nutzen Sie unsere Kontaktformulare:
 <br>
-Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal auf https://portal.ozg-vermittlungsdienst.de/contact
+Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal auf https://self-service.datenservice-oeffentlicher-einkauf.de/contact
 <br>
 Fragen/Anmerkungen zum Redaktionssystem auf https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
 <br>
@@ -181,7 +181,7 @@ Gibt es durch die Dokumentation zum Vermittlungsdienst (https://github.com/EFA-F
 </summary>
 <br>
 
-Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizielle Dokumentation. Die kann auch im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) des DÖEs gelesen werden. 
+Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizielle Dokumentation. Die kann auch im [Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/) des DÖEs gelesen werden.
 </details>
 <br>
 
@@ -190,7 +190,7 @@ Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizi
 Wie kann für ein Release ermittelt werden, welche Versionen der Teilkomponenten unterstützt werden?  
 </summary>
 <br>
-Unter https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. 
+Unter https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. 
 Für jedes Release veröffentlichen wir Release Notes, um zu beschreiben, welche Komponente welche Version unterstützt.
 </details>
 <br>
@@ -201,7 +201,7 @@ Ist die Dokumentation zum Vermittlungsdienst (https://github.com/EFA-FHB/ozg-ver
 </summary>
 <br>
 
-Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weiteres die offizielle Dokumentation. Die Dokumentation wird zugleich im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) veröffentlicht.
+Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weiteres die offizielle Dokumentation. Die Dokumentation wird zugleich im [Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/) veröffentlicht.
 </details>
 <br>
 
@@ -285,7 +285,7 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
  Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
 </summary>
 <br>
-Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie hier: https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support
+Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie hier: https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support
 </details>
 <br>
 
