@@ -34,7 +34,7 @@ What information is required to apply for an account? (updated on 11.10.23)
 </summary>
 <br>
 
-Since 04.10.2023, accounts should be applied for in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de). All required information is requested in the registration form for a VD account. These are:
+Since 04.10.2023, accounts should be applied for in the [Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de). All required information is requested in the registration form for a VD account. These are:
 
 <br>
 
@@ -124,7 +124,7 @@ The preview environment is only used for testing. Updates are often installed he
 Is there a roadmap for the further development of the components of the Public Procurement Data Service?
 </summary>
 <br>
-Yes, you can find the information here: https://portal.ozg-vermittlungsdienst.de/roadmap
+Yes, you can find the information here: https://self-service.datenservice-oeffentlicher-einkauf.de/roadmap
 </details>
 <br>
 
@@ -136,7 +136,7 @@ How can the Public Procurement Data Service team be contacted?
 </summary>
 Please use our contact forms:
 <br>
-Questions/comments about the Vermittlungsdienst/self-service portal at https://portal.ozg-vermittlungsdienst.de/contact
+Questions/comments about the Vermittlungsdienst/self-service portal at https://self-service.datenservice-oeffentlicher-einkauf.de/contact
 <br>
 Questions/comments about the editorial system at https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
 <br>
@@ -181,7 +181,7 @@ Does the documentation for the Vermittlungsdienst (https://github.com/EFA-FHB/oz
 </summary>
 <br>
 
-The Github documentation will continue to be maintained and is the official documentation until further notice. It can also be read in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) of the DÖE.
+The Github documentation will continue to be maintained and is the official documentation until further notice. It can also be read in the [Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/) of the DÖE.
 </details>
 <br>
 
@@ -190,7 +190,7 @@ The Github documentation will continue to be maintained and is the official docu
 How can I determine which versions of the subcomponents are supported for a release?  
 </summary>
 <br>
-The eForms versions supported by the subcomponents are documented at https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support.
+The eForms versions supported by the subcomponents are documented at https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support.
 For each release, we publish release notes to describe which component supports which version.
 </details>
 <br>
@@ -201,7 +201,7 @@ Is the documentation for the Vermittlungsdienst (https://github.com/EFA-FHB/ozg-
 </summary>
 <br>
 
-Yes, the Github documentation is updated regularly and is the official documentation until further notice. The documentation is also published in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/).
+Yes, the Github documentation is updated regularly and is the official documentation until further notice. The documentation is also published in the [Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/).
 </details>
 <br>
 
@@ -285,7 +285,7 @@ Yes, productive use of the Online Validator is supported. In the production envi
  Which versions of the eForms-DE standard are currently supported?
 </summary>
 <br>
-You can find detailed information on the support of the eForms versions here: https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support
+You can find detailed information on the support of the eForms versions here: https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support
 </details>
 <br>
 

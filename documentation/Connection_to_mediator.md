@@ -17,7 +17,7 @@ Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Aut
 
 ### Beantragen eines Accounts zum Einliefern von Bekanntmachungen
 
-Die Einrichtung eines neuen Accounts erfolgt über das Self-Service-Portal (Produktionsumgebung: https://portal.ozg-vermittlungsdienst.de). Ein Konto kann im Portal erstellt werden, indem eine E-Mail-Adresse und ein Passwort festgelegt werden. Nach Bestätigung der E-Mail-Adresse kann der Nutzer sich anmelden und das Antragsformular für einen neuen VD-Account ausfüllen. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
+Die Einrichtung eines neuen Accounts erfolgt über das Self-Service-Portal (Produktionsumgebung: https://self-service.datenservice-oeffentlicher-einkauf.de). Ein Konto kann im Portal erstellt werden, indem eine E-Mail-Adresse und ein Passwort festgelegt werden. Nach Bestätigung der E-Mail-Adresse kann der Nutzer sich anmelden und das Antragsformular für einen neuen VD-Account ausfüllen. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
 
 Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer-E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Werden z.B. 10 Accounts eine Umgebung beantragt, werden auch 10 individuelle E-Mail-Adressen benötigt. Die E-Mail-Adresse dient zum Abruf der Tokens, die zur eindeutigen Authentifizierung mit dem Account erforderlich sind. Deshalb muss E-Mail-Adresse einzigartig sein.
 <br><br>
@@ -26,7 +26,7 @@ Nach einem Klick auf den Link erscheinen Anweisungen zur Passwort-Erstellung.
 <br><br>
 Mit den erstellten Zugangsdaten können mit Hilfe der API ein Access-Token und ein Refresh-Token generiert werden.
 <br><br>
-Es ist zu beachten, dass pro Entwicklungsumgebung (Preview, Staging, Produktion) ein Zugang zu beantragen ist. Es wird keine Synchronisierung der Zugangsdaten durchgeführt. [Preview](https://portal.preview-ozg-vermittlungsdienst.de/)- und [Staging](https://portal.staging-ozg-vermittlungsdienst.de/)-Accounts können in der entsprechenden Self-Service-Portalumgebung angefordert werden.
+Es ist zu beachten, dass pro Entwicklungsumgebung (Preview, Staging, Produktion) ein Zugang zu beantragen ist. Es wird keine Synchronisierung der Zugangsdaten durchgeführt. [Preview](https://self-service.preview.datenservice-oeffentlicher-einkauf.de/)- und [Staging](https://self-service.staging.datenservice-oeffentlicher-einkauf.de/)-Accounts können in der entsprechenden Self-Service-Portalumgebung angefordert werden.
 <br>
 
 ### Authentifizierung und Autorisierung (Access-Token, Refresh-Token)
