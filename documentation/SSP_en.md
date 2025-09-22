@@ -5,10 +5,10 @@
 
 # Self-service portal of the DÖE
 
-The self-service portal of the Public Purchasing Data Service for the production environment is available at the URL https://portal.ozg-vermittlungsdienst.de/.
-There is also the portal for the staging environment https://portal.staging-ozg-vermittlungsdienst.de/ and the portal for the preview environment https://portal.preview-ozg-vermittlungsdienst.de/.
+The self-service portal of the Public Purchasing Data Service for the production environment is available at the URL https://self-service.datenservice-oeffentlicher-einkauf.de/.
+There is also the portal for the staging environment https://self-service.staging.datenservice-oeffentlicher-einkauf.de/ and the portal for the preview environment https://self-service.preview.datenservice-oeffentlicher-einkauf.de/.
 <br><br>
-The Self-Service Portal (SSP) offers user-friendly access to all [documents](https://portal.ozg-vermittlungsdienst.de/documentation) of the Data Service Public Procurement (DÖE).
+The Self-Service Portal (SSP) offers user-friendly access to all [documents](https://self-service.datenservice-oeffentlicher-einkauf.de/documentation) of the Data Service Public Procurement (DÖE).
 
 The portal will be an operational and support platform for users. It will help you with the transition and allow you to get away from emails. In future, it will offer more options for managing users and access yourself.
 

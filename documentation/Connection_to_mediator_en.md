@@ -17,7 +17,7 @@ To use the API, access data must be requested once. Authorization takes place vi
 
 ### Applying for an account to deliver announcements
 
-From 04.10.2023, a new account will be set up via the self-service portal (production environment: https://portal.ozg-vermittlungsdienst.de). An account can be created in the portal by specifying an email address and password. After confirming the e-mail address, the user can log in and fill out the application form for a new VD account. A separate user is required for each awarding platform. <br>
+From 04.10.2023, a new account will be set up via the self-service portal (production environment: https://self-service.datenservice-oeffentlicher-einkauf.de). An account can be created in the portal by specifying an email address and password. After confirming the e-mail address, the user can log in and fill out the application form for a new VD account. A separate user is required for each awarding platform. <br>
 
 Once the user has been created, an authentication email containing a link for authentication and password creation is sent to the specified user email address for verification. If you apply for 10 accounts on one environment, you will also need 10 individual e-mail addresses. The e-mail address is used to retrieve the tokens that you need for unique authentication with the account. It must therefore be unique.
 <br><br>
@@ -26,7 +26,7 @@ Click on the link and follow the instructions to create a password.
 <br><br>
 With the access data created, an access token and a refresh token can be generated using the API.
 <br><br>
-Please note that you must apply for one access per development environment (preview, staging, production). The access data is not synchronized. [Preview](https://portal.preview-ozg-vermittlungsdienst.de/) and [Staging](https://portal.staging-ozg-vermittlungsdienst.de/) accounts can be requested in the corresponding self-service portal environment.
+Please note that you must apply for one access per development environment (preview, staging, production). The access data is not synchronized. [Preview](https://self-service.preview.datenservice-oeffentlicher-einkauf.de/) and [Staging](https://self-service.staging.datenservice-oeffentlicher-einkauf.de/) accounts can be requested in the corresponding self-service portal environment.
 <br>
 
 ### Authentication and authorization (access token, refresh token)
