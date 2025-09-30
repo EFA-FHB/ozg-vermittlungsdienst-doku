@@ -93,7 +93,7 @@ Aktuell stehen eine **Test-, Referenz- und eine Produktionsumgebung** des Vermit
       </td>
     </tr>
     <tr>
-  <td style="text-align: left;">BKMS</td>
+  <td style="text-align: left;">Bekanntmachungsservice</td>
   <td style="text-align: left;">
     <a href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
   </td>
