@@ -19,18 +19,18 @@ Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Aut
 
 Die Einrichtung eines neuen Accounts erfolgt über das Self-Service-Portal (Produktionsumgebung: https://portal.ozg-vermittlungsdienst.de). Ein Konto kann im Portal erstellt werden, indem eine E-Mail-Adresse und ein Passwort festgelegt werden. Nach Bestätigung der E-Mail-Adresse kann der Nutzer sich anmelden und das Antragsformular für einen neuen VD-Account ausfüllen. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
 
-Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer-E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Wenn Sie 10 Accounts beantragen auf einer Umgebung, benötigen Sie auch 10 individuelle E-Mail-Adressen. Die E-Mail-Adresse dient zum Abruf der Tokens, die Sie zur eindeutigen Authentifizierung mit dem Account benötigen. Deshalb muss diese einzigartig sein.
+Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer-E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Werden z.B. 10 Accounts eine Umgebung beantragt, werden auch 10 individuelle E-Mail-Adressen benötigt. Die E-Mail-Adresse dient zum Abruf der Tokens, die zur eindeutigen Authentifizierung mit dem Account erforderlich sind. Deshalb muss E-Mail-Adresse einzigartig sein.
 <br><br>
 Der Link ist 10 Tage gültig.<br>
-Klicken Sie auf den Link und folgen Sie den Anweisungen zur Passwort-Erstellung.
+Nach einem Klick auf den Link erscheinen Anweisungen zur Passwort-Erstellung.
 <br><br>
-Mit den erstellten Zugangsdaten kann mit Hilfe der API ein Access-Token und ein Refresh-Token generiert werden.
+Mit den erstellten Zugangsdaten können mit Hilfe der API ein Access-Token und ein Refresh-Token generiert werden.
 <br><br>
-Bitte beachten Sie, dass Sie pro Entwicklungsumgebung (Preview, Staging, Produktion) einen Zugang beantragen müssen. Es wird keine Synchronisierung der Zugangsdaten durchgeführt. [Preview](https://portal.preview-ozg-vermittlungsdienst.de/)- und [Staging](https://portal.staging-ozg-vermittlungsdienst.de/)-Accounts können in der entsprechenden Self-Service-Portalumgebung angefordert werden.
+Es ist zu beachten, dass pro Entwicklungsumgebung (Preview, Staging, Produktion) ein Zugang zu beantragen ist. Es wird keine Synchronisierung der Zugangsdaten durchgeführt. [Preview](https://portal.preview-ozg-vermittlungsdienst.de/)- und [Staging](https://portal.staging-ozg-vermittlungsdienst.de/)-Accounts können in der entsprechenden Self-Service-Portalumgebung angefordert werden.
 <br>
 
 ### Authentifizierung und Autorisierung (Access-Token, Refresh-Token)
-Der Endpunkt `POST /api/token` wird mit den zu übergebenden Parametern `username` und `password` genutzt, um einen `access_token` und `refresh_token` zu erhalten. `username` ist hierbei die von Ihnen angegebene E-Mail-Adresse. 
+Der Endpunkt `POST /api/token` wird mit den zu übergebenden Parametern `username` und `password` genutzt, um einen `access_token` und `refresh_token` zu erhalten. `username` ist hierbei die angegebene E-Mail-Adresse. 
 
 Der `access_token` ist 24 Stunden gültig und kann bei allen folgenden Anfragen im Header folgendermaßen zur Autorisierung genutzt werden: `Authorization: Bearer <<access_token>>`. Nach Ablauf der 24 Stunden ist eine erneute Authentifizierung nötig. Um eine regelmäßige Authentifizierung mit `username` und `password` zu vermeiden, kann mit Hilfe des `refresh_token` und dem Endpunkt `POST /api/token/refresh` ein neuer `access_token` generiert werden, ohne eine erneute vollständige Authentifizierung durchführen zu müssen. 
 
@@ -58,19 +58,19 @@ Weitere Informationen zum Konzept des Refresh-Token und Hinweise zur Umsetzung w
 
 ## Anbindung per PEPPOL
 
-Die Einlieferung von Bekanntmachungen an den **Datenservice Öffentlicher Einkauf** kann von Vergabeplattformen auch über die **Peppol-Infrastruktur** zum gesicherten Datenaustausch erfolgen.
+Die Einlieferung von Bekanntmachungen an den **Datenservice Öffentlicher Einkauf** kann von Vergabeplattformen auch über die **Peppol-Infrastruktur** erfolgen.
 
 ### Nutzung der Peppol-Infrastruktur
 In der Peppol-Infrastruktur registrierte Systeme können unter Verwendung des **Peppol-Profils „P008 – Publish Notices“** Bekanntmachungen an den Adressaten mit der **Peppol-ID „0204:994-DOEVD-83“ (Produktion)** senden.
 
-- Weitere Informationen zum Peppol-Profil finden Sie hier: [Peppol Documentation - Publish Notices](https://peppol.org/documentation/technical-documentation/pre-award-documentation)
+- Weitere Informationen zum Peppol-Profil sind hier zu finden: [Peppol Documentation - Publish Notices](https://peppol.org/documentation/technical-documentation/pre-award-documentation)
 
 ### Kommunikation
-Die Kommunikation erfolgt über die Verwendung eines **pre-award-fähigen AccessPoints**, die entweder:
-- von kommerziellen Anbietern bereitgestellt werden, oder
-- eigenständig Peppol-konform implementiert werden können (ggf. auf Basis von Open Source).
+Die Kommunikation erfolgt über die Verwendung eines **pre-award-fähigen AccessPoints**, der entweder:
+- von kommerziellen Anbietern bereitgestellt wird, oder
+- eigenständig Peppol-konform implementiert werden kann (ggf. auf Basis von Open Source).
 
-**Wichtig:** Zur vollständigen pre-award-Fähigkeit des AccessPoints gehört die Unterstützung von **„REM Evidence“**, wie in der folgenden Dokumentation beschrieben:  
+**Wichtig:** Zur vollständigen pre-award-Fähigkeit des AccessPoints gehört die Unterstützung von **„REM Evidence“**, wie in der Dokumentation unter folgendem Link beschrieben:  
 [Peppol BIS eDelivery Guide for Pre-Award v1.3](https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.3.pdf)
 
 ### Registrierung
@@ -79,9 +79,9 @@ Fragen zur Registrierung sind über eine **Peppol-Authority** zu klären:
 
 ### Weitere Informationen
 - Offizielle Peppol-Website: [peppol.org](https://peppol.org)  
-- Zusätzliche technische Informationen entnehmen Sie bitte den folgenden Ausführungen.
+- Zusätzliche technische Informationen entnehmen enthalten die folgenden Ausführungen.
 
-### Verbindung von Beschaffungsplattformen mit dem Vermittlungsdienst über PEPPOL
+### Verbindung von Vergabeplattformen mit dem Vermittlungsdienst über PEPPOL
 
 Die primäre Schnittstelle für die Übermittlung von Bekanntmachungen ist das PEPPOL-Netzwerk. Bekanntmachungen können wie folgt übermittelt werden:
 
@@ -138,7 +138,7 @@ PEPPOL-Nachrichten bestehen aus mehreren Schichten, die durch verschiedene Stand
 ---
 
 ### Der PEPPOL-Zugangspunkt
-Der PEPPOL-Zugangspunkt für den Vermittlungsdienst und das BKMS wird vom Beschaffungsamt des BMI (BeschA) selbst betrieben.
+Der PEPPOL-Zugangspunkt für den Vermittlungsdienst und der Bekanntmachungsservice werden vom Beschaffungsamt des BMI (BeschA) betrieben.
 
 ---
 
@@ -158,9 +158,9 @@ Der PEPPOL-Zugangspunkt für den Vermittlungsdienst und das BKMS wird vom Bescha
 
 >**Hinweis** <br>
 > Das Passwort des Benutzers ist gleichzeitig das Passwort, welches für die Einlieferung bei der Vermittlungsdienstschnittstelle genutzt wird! <br>
-> Sollten Sie das Passwort ändern, stellen Sie sicher, dass es auch in der Software zur Einlieferung in den Vermittlungsdienst geändert wird! 
+> Sollte das Passwort geändert werden, ist sicherzustellen, dass es auch in der Software zur Einlieferung in den Vermittlungsdienst geändert wird! 
 
-1. Self-Service-Portal der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Spalte _Self Service Portal_ ).
+1. Self-Service-Portal der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Zeile _Self Service Portal_ ).
 
 2. Auf ‚Passwort vergessen?' klicken.<br>
 ![Auf Passwort vergessen](images/kc_login.png)
@@ -189,20 +189,20 @@ Der PEPPOL-Zugangspunkt für den Vermittlungsdienst und das BKMS wird vom Bescha
 Das Passwort muss aus mindestens 8 Zeichen bestehen, 1 Großbuchstaben und 1 Zahl enthalten.
 <br>
 
-9. Das Passwort muss in der FVH-Software hinterlegt werden, um sicher zu gehen, dass die Verbindung mit dem Vermittlungsdienst funktioniert.
+9. Das Passwort muss in der Software des Fachverfahrensherstellers hinterlegt werden, um sicher zu gehen, dass die Verbindung mit dem Vermittlungsdienst funktioniert.
 <br>
 
 ## Zugang löschen
-Um Ihren Zugang zu löschen, senden Sie bitte eine E-Mail an den Support des DÖE [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
+Um einen Zugang zu löschen, ist eine E-Mail an den Support des Datenservices Öffentlicher Einkauf [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
 - Systemumgebung, in der die Zugangsdaten gelöscht werden sollen
 - E-Mail-Adresse, welche als Benutzername verwendet wird
 - URL der Vergabeplattform
-- Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH
-- Name des FVH
+- Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des Fachverfahrensherstellers
+- Name des Fachverfahrensherstellers
 
-Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen.
+Nach Prüfung der angegebenen Daten in der E-Mail werden die Löschung des Zugangs durchführt und eine Bestätigung per E-Mail versendet.
 
 
 
