@@ -99,9 +99,6 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
   </td>
   <td style="text-align: left;">
     <a class="external-link" href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
-    <br>
-    <strong>From March 14, 2025:</strong>
-    <a class="external-link" href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
   </td>
   <td style="text-align: left;">
     <a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">https://www.oeffentlichevergabe.de</a>
@@ -132,4 +129,5 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
     </tr>
   </tbody>
 </table>
+
 
