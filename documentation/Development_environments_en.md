@@ -51,12 +51,21 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
       <td style="text-align: left;">Self-service portal</td>
       <td style="text-align: left;">
         <a class="external-link" href="https://portal.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://portal.preview-ozg-vermittlungsdienst.de/</a>
+        <br>
+    <strong>From September 18, 2025:</strong>
+    <a href="https://self-service.preview.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.preview.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
       <td style="text-align: left;">
         <a href="https://portal.staging-ozg-vermittlungsdienst.de/">https://portal.staging-ozg-vermittlungsdienst.de/</a>
+        <br>
+    <strong>From October 02, 2025:</strong>
+    <a href="https://self-service.staging.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.staging.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
       <td style="text-align: left;">
         <a href="https://portal.ozg-vermittlungsdienst.de/">https://portal.ozg-vermittlungsdienst.de/</a>
+        <br>
+    <strong>From October 06, 2025:</strong>
+    <a href="https://self-service.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
     </tr>
     <tr>
@@ -87,9 +96,6 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
   <td style="text-align: left;">BKMS</td>
   <td style="text-align: left;">
     <a href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
-    <br>
-    <strong>From March 14, 2025:</strong>
-    <a href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
   </td>
   <td style="text-align: left;">
     <a class="external-link" href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
@@ -126,3 +132,4 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
     </tr>
   </tbody>
 </table>
+
