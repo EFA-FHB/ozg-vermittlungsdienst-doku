@@ -51,12 +51,21 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
       <td style="text-align: left;">Self-Service-Portal</td>
       <td style="text-align: left;">
         <a class="external-link" href="https://portal.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://portal.preview-ozg-vermittlungsdienst.de/</a>
+        <br>
+    <strong>Ab dem 18. September 2025:</strong>  
+    <a href="https://self-service.preview.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.preview.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
       <td style="text-align: left;">
         <a href="https://portal.staging-ozg-vermittlungsdienst.de/">https://portal.staging-ozg-vermittlungsdienst.de/</a>
+        <br>
+    <strong>Ab dem 02. Oktober 2025:</strong>  
+    <a href="https://self-service.staging.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.staging.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
       <td style="text-align: left;">
         <a href="https://portal.ozg-vermittlungsdienst.de/">https://portal.ozg-vermittlungsdienst.de/</a>
+        <br>
+    <strong>Ab dem 06. Oktober 2025:</strong>  
+    <a href="https://self-service.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
     </tr>
     <tr>
@@ -87,15 +96,9 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
   <td style="text-align: left;">BKMS</td>
   <td style="text-align: left;">
     <a href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
-    <br>
-    <strong>Ab dem 14. März 2025:</strong>  
-    <a href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
   </td>
   <td style="text-align: left;">
     <a class="external-link" href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
-    <br>
-    <strong>Ab dem 14. März 2025:</strong>  
-    <a class="external-link" href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
   </td>
   <td style="text-align: left;">
     <a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">https://www.oeffentlichevergabe.de</a>
@@ -126,3 +129,4 @@ Aktuell steht eine **Test-, Referenz- und eine Produktionsumgebung** des Vermitt
     </tr>
   </tbody>
 </table>
+
