@@ -4,20 +4,20 @@
 <br>
 
 >**Hinweis** <br>
->Bitte beachten Sie: Wenn unterschwellige Bekanntmachungen weiterhin an service.bund.de gesendet werden, dürfen diese NICHT zusätzlich an den Vermittlungsdienst gesendet werden!
+>Bitte beachten: Wenn unterschwellige Bekanntmachungen weiterhin an service.bund.de gesendet werden, dürfen diese NICHT zusätzlich an den Vermittlungsdienst gesendet werden!
 
 # Anbindung an den Vermittlungsdienst
 Die Übermittlung von Bekanntmachungen an den Vermittlungsdienst kann über die [REST-API](#anbindung-per-rest-api) des Vermittlungsdienst oder über das [eDelivery-Network PEPPOL](#anbindung-per-peppol) erfolgen.
 <br>
 
 ## Anbindung per REST-API
-Unter https://ozg-vermittlungsdienst.de wird die REST-API und die dazugehörige Dokumentation der vorhandenen Endpoints zur Verfügung gestellt.
+Unter https://ozg-vermittlungsdienst.de werden die REST-API und die dazugehörige Dokumentation der vorhandenen Endpoints zur Verfügung gestellt.
 Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Autorisierung erfolgt über OAuth 2.0.
 <br>
 
 ### Beantragen eines Accounts zum Einliefern von Bekanntmachungen
 
-Ab den 04.10.2023 erfolgt die Einrichtung eines neuen Accounts über das Self-Service-Portal (Produktionumgebung: https://portal.ozg-vermittlungsdienst.de). Ein Konto kann im Portal erstellt werden, indem eine E-Mail-Adresse und ein Passwort festgelegt werden. Nach Bestätigung der E-Mail-Adresse kann der Nutzer sich anmelden und das Antragsformular für einen neuen VD-Account ausfüllen. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
+Die Einrichtung eines neuen Accounts erfolgt über das Self-Service-Portal (Produktionsumgebung: https://portal.ozg-vermittlungsdienst.de). Ein Konto kann im Portal erstellt werden, indem eine E-Mail-Adresse und ein Passwort festgelegt werden. Nach Bestätigung der E-Mail-Adresse kann der Nutzer sich anmelden und das Antragsformular für einen neuen VD-Account ausfüllen. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
 
 Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer-E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Wenn Sie 10 Accounts beantragen auf einer Umgebung, benötigen Sie auch 10 individuelle E-Mail-Adressen. Die E-Mail-Adresse dient zum Abruf der Tokens, die Sie zur eindeutigen Authentifizierung mit dem Account benötigen. Deshalb muss diese einzigartig sein.
 <br><br>
@@ -203,6 +203,7 @@ In der E-Mail müssen folgende Angaben enthalten sein:
 - Name des FVH
 
 Nach Prüfung der angegebenen Daten in der E-Mail werden wir die Löschungs des Zugangs durchführen und Ihnen eine Bestätigung per E-Mail zukommen lassen.
+
 
 
 
