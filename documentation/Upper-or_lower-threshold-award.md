@@ -6,12 +6,12 @@
 
 Bei der Verarbeitung einer Bekanntmachung im Vermittlungsdienst wird anhand bestimmter Kriterien geprüft, ob eine unterschwellige oder oberschwellige Bekanntmachung übermittelt wurde.
 <br><br>
-Handelt es sich um eine unterschwellige Bekanntmachung, wird diese nach der Validierung direkt an den BKMS weitergeleitet. Eine Übermittlung der Bekanntmachung an TED wird nicht durchgeführt. 
+Handelt es sich um eine unterschwellige Bekanntmachung, wird diese nach der Validierung direkt an den Bekanntmachungsservice weitergeleitet. Eine Übermittlung der Bekanntmachung an TED wird nicht durchgeführt. 
 <br><br>
-Eine oberschwellige Bekanntmachung wird vom Vermittlungsdienst an den eSender-Hub weitergeleitet. Dort wird das eingelieferte Format in ein für TED benötigtes eForms-EU-Format der Bekanntmachung umgewandelt. Nach erfolgreicher Validierung wird die Bekanntmachung an TED übermittelt und anschließend unter Einhaltung rechtlicher Vorgaben (z. B. 48h-Frist) an den BKMS gesendet. 
+Eine oberschwellige Bekanntmachung wird vom Vermittlungsdienst an den eSender-Hub weitergeleitet. Dort wird das eingelieferte Format eForms-DE in das für TED benötigtes eForms-EU-Format der Bekanntmachung umgewandelt. Nach erfolgreicher Validierung wird die Bekanntmachung an TED übermittelt und anschließend unter Einhaltung rechtlicher Vorgaben (z. B. 48h-Frist) an den BKMS gesendet. 
 <br>
 
-## Kriterien zur Entscheidung
+## Kriterien für die Unterscheidung
 Das System entscheidet zwischen Unterschwellen- und Oberschwellenvergabe basierend auf den folgenden Kriterien:
 1. Subtype der Bekanntmachung
 2. eForms-Version
@@ -25,4 +25,4 @@ Diese Information wird aus dem XML-Feld `SubTypeCode` ausgelesen. Fängt der Sub
 
 ### eForms-Version
 Diese Information wird aus dem XML-Feld `CustomizationID` ausgelesen. TED akzeptiert nur bestimmte eForms-EU-Versionen und nur bestimmte eForms-Versionen können vom eSender-Hub verarbeitet werden.
-Weitere Details zur Versionsunterstützung finden Sie hier: [eForms Versionsunterstützung](/documentation/eForms_support.md).
+Weitere Details zur Versionsunterstützung sind hier dokumentiert: [eForms Versionsunterstützung](/documentation/eForms_support.md).
