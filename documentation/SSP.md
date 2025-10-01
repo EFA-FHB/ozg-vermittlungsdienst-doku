@@ -34,7 +34,7 @@ Folgende Rollen gibt es im Self-Service-Portal:
 |---------------------|--|--|
 | SSP-Admin | Verantwortlich für alle Nutzeraccounts der FVH; Admin für den FVH <br> Muss von Support verifiziert sein, um alle Nutzerverwaltungsrechte freizuschalten <br><br> <b>Wichtig: Um alle Funktionen der Nutzerverwaltung freizuschalten, müssen Sie uns mitteilen, welcher VD-Account mit Ihrem SSP-Admin-Account verknüpft sein soll</b> | <ul><li>Anlegen von neuen VD-Accounts (Anbindungen an den Vermittlungsdienst)</li> <li>Anlegen von neuen Dashboard-Nutzern</li><li> Nutzerverwaltung für Ihre eigene Organisation</li><li>Dokumentation ansehen</li></ul>|
 | Dashboard-Nutzer    | Service-Mitarbeiterin/Kundenbetreuungskonto mit Übersicht aller Bekanntmachungen der verknüpften VD-Accounts | <ul><li>Übersicht über alle Bekanntmachungen der verknüpften VD-Accounts</li> <li>Ein Nutzer kann mit mehreren VD-Accounts verknüpft sein</li><li>Dokumentation ansehen</li></ul>| |
-| VD-Account          | Nur für die technische Anbindung an den Vermittlungsdienst | <li>Dokumentation ansehen</li></ul> |
+| VD-Account          | Nur für die technische Anbindung an den Vermittlungsdienst | <ul><li>Dokumentation ansehen</li></ul> |
 
 ## Verfügbare Services
 
