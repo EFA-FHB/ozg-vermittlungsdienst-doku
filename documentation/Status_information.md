@@ -22,9 +22,9 @@ Mit Hilfe der REST-API des Vermittlungsdienstes können alle Status- und Fehleri
 ## Endpunkte zur Abfrage der Status- und Transferinformationen<span id="endpunkte">
 Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte `GET /v1/notices` für eine Liste von Datenlieferungen, `GET /v1/notices/status` für eine Liste von Datenlieferungen in einem bestimmten Zeitraum und `GET /v1/notices/{trackingcode}` sowie `GET /v1/notices/by-notice/{noticeId}/{version}` für eine einzelne Datenlieferung zur Verfügung.
 
-Der Vermittlungsdienst führt die Statusabfragen an BKMS und TED alle drei Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
+Der Vermittlungsdienst führt die Statusabfragen an den Bekanntmachungsservice und TED alle drei Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
 
-Die zugehörige OpenAPI-Spezifikation finden Sie unter https://ozg-vermittlungsdienst.de/ und steht Ihnen im JSON-Format zum Download unter https://ozg-vermittlungsdienst.de/Vermittlungsdienst_REST-API.json bereit.
+Die zugehörige OpenAPI-Spezifikation ist hier https://ozg-vermittlungsdienst.de/  zu finden und steht im JSON-Format zum Download unter https://ozg-vermittlungsdienst.de/Vermittlungsdienst_REST-API.json bereit.
 <br><br>
 
 ## Struktur der Statusinformationen<span id="info-struktur">
@@ -164,7 +164,7 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Unterschwe
 <br>
 
 ## Struktur der Transferinformationen<span id="transfer-info">
-Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery-Schema enthalten. Diese Informationen beinhalten Warnungen und Fehlermeldungen vom Vermittlungsdienst, dem Bekanntmachungsservice und TED.
+Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery-Schema enthalten. Diese Informationen beinhalten Warnungen und Fehlermeldungen vom Vermittlungsdienst, dem Bekanntmachungsservice und von TED.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <delivery>
@@ -195,7 +195,7 @@ Die Transferinformationen sind ebenfalls für jede Bekanntmachung im Delivery-Sc
 
 Innerhalb der Transferinformationen `transferResponse` werden Warnungen `warnings` von Fehlermeldungen `errors` getrennt aufgelistet. Pro Bekanntmachung ist es möglich, mehrere Warnungen und Fehlermeldungen als Rückantwort zu erhalten. 
 
-Eine einzelne Warnung und eine einzelne Fehlermeldung haben den selben Aufbau. `source` gibt an, in welchem System die Warnung oder der Fehler entstand. Folgende Werte sind in `source` möglich:
+Eine einzelne Warnung und eine einzelne Fehlermeldung haben denselben Aufbau. `source` gibt an, in welchem System die Warnung oder der Fehler entstand. Folgende Werte sind in `source` möglich:
 
 | Werte in Source  | Beschreibung                   |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -209,8 +209,7 @@ Warnungen und Fehlermeldungen vom Bekanntmachungsservice und von TED werden unve
 <br><br>
 
 ## Lawfulness Warnings<span id="lawfulness">
-Zusätzlich zu Fehlern gibt es Warnungen. Diese kommen ausschießlich aus den EU-Regeln und verhindern anders als Fehler nicht die Annahme der Bekanntmachung. TED hat derzeit nur eine Art von Warnungen definiert, sogenannte "Lawfulness Warnings". Diese werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. 
+Zusätzlich zu Fehlern gibt es Warnungen. Diese kommen ausschließlich aus den EU-Regeln und verhindern anders als Fehler nicht die Annahme der Bekanntmachung. TED hat derzeit nur eine Art von Warnungen definiert, sogenannte "Lawfulness Warnings". Diese werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. 
 
-Eine Lawfulness Warning bedeutet, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. TED prüft dann den Inhalt der Bekanntmachung und entscheidet, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Für diese Entscheidung hat TED bis zu 5 Tage Zeit. Aus diesem Grund werden Bekanntmachungen mit einer Lawfulness Warning erst bei Veröffentlichung oder 5 Tage nach erfolgreicher Einlieferung bei TED an den BKMS weitergeleitet. 
-
+Eine Lawfulness Warning bedeutet, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. Dort wird dann der Inhalt der Bekanntmachung geprüft und entschieden, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Eine Entscheidung muss nach maximal fünf Tagen getroffen sein. Aus diesem Grund werden Bekanntmachungen mit einer Lawfulness Warning erst bei Veröffentlichung oder spätestens fünf Tage nach erfolgreicher Einlieferung bei TED an den Bekanntmachungsservice weitergeleitet.
 
