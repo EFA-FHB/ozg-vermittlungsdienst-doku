@@ -5,7 +5,7 @@
 - [Standard eForms-DE und SDK-DE](#standard-eForms-DE-und-SDK-DE)
 - [Allgemein](#allgemein)
 
-# Datenservice Öffentlicher Einkauf
+## Datenservice Öffentlicher Einkauf
 
 ### Anbindung
 
