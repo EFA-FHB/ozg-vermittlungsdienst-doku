@@ -500,7 +500,7 @@ Die neue Release-Planung sieht wie folgt aus:
 | 20.03.2024         | Geplante Veröffentlichung eines Patches zu eForms-DE v1.2.0 | Fertig |
 | 22.03.2024         | Geplante Veröffentlichung eines Patches zu SDK-DE 1.2.0_1.10.1 | Fertig |
 | 27.03.2024         | **Geplante Unterstützung eForms-DE 1.2 in DÖE Produktion** | Veröffentlicht |
-| **30.09.2024**     | Akzeptanz von eForms-DE v1.1.0 (basierend auf eForms-EU 1.7) läuft aus       | Ausstehend         |
+| **30.09.2024**     | Akzeptanz von eForms-DE v1.1.0 (basierend auf eForms-EU 1.7) läuft aus       | Fertig         |
 
 **<u>Wichtig</u>: Der Datenservice Öffentlicher Einkauf (DÖE) wird sowohl die Versionen 1.2.0 von eForms-DE (bzw. die Versionen 1.2.0_1.10.1 und zukünftige Patches des SDK-DE) unterstützen.
 
@@ -957,7 +957,6 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 - Mehrere Optimierungen und Fehlerbehebungen
 </details>
 <br>
-</details>
 
 
 

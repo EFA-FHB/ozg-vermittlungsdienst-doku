@@ -24,7 +24,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 ## Hinweise
 
-Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar. Nutzen Sie bitte auch die Staging-Umgebung für Testzwecke, diese ist rund um die Uhr verfügbar.
+Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar. Die Staging-Umgebung sollte auch für Testzwecke genutzt werden, sie ist rund um die Uhr verfügbar.
 
 ## Vergangene Wartungsfenster oder Störungen der letzten Monate
 
