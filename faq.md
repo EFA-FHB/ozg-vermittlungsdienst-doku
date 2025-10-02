@@ -289,7 +289,7 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie h
 </details>
 <br>
 
-# Standard eForms-DE und SDK-DE
+## Standard eForms-DE und SDK-DE
 
 [Zum Anfang](#häufig-gestellte-fragen)<br>
 
@@ -297,7 +297,7 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie h
 
 **Bei weiteren Fragen zum <u>Standard eForms-DE</u> wenden Sie sich gerne per E-Mail an die Koordinierungsstelle für IT-Standards (KoSIT) als Betreiberin: eforms@finanzen.bremen.de** 
 
-## Allgemeine Fragen
+### Allgemeine Fragen
 
 <details>
   <summary>
@@ -325,7 +325,7 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie h
 </details>
 <br>
 
-## Fragen zum SDK-DE
+### Fragen zum SDK-DE
 
 <details>
 <summary>
@@ -336,7 +336,7 @@ Die Publikation des SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155
 
 <br>
 
-## Fragen zu Business Terms und Groups (BT/BG)
+### Fragen zu Business Terms und Groups (BT/BG)
 
 Sortiert nach BT/BG Nummer.
 
@@ -759,7 +759,7 @@ Losgruppen sind in eForms-DE nicht vorgesehen.
 </details>
 <br>
 
-# Allgemein
+## Allgemein
 [Zum Anfang](#häufig-gestellte-fragen)
 
 ### eNotices Portal der EU
