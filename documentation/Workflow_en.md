@@ -8,7 +8,7 @@ The following diagram describes the general workflow of an announcement.
 <br><br>
 The central point for submitting notices and querying status information for specialized procedure manufacturers (FVH) is the Vermittlungsdienst. Before being able to submit to the Vermittlungsdienst, each awarding platform must have an account created in Keycloak and generate a token in the Vermittlungsdienst. The account can be requested in the self-service portal (see [Connection to Mediator](/documentation/Connection_to_mediator.md)). This token is used for authentication for submission to the Vermittlungsdienst.
 <br><br>
-Before a notification is sent to the mediation system, it is advisable to send this notification to the eForms-DE validation service (external validator). This allows you to check that the eForms-DE document is valid before submitting it. Upon submission, the Vermittlungsdienst will also validate the eForms according to its version and accept or reject it.
+Before a notice is sent to the intermediary service, it is optional to send it beforehand to the eForms-DE Validation Service (external validator). This allows you to check that the eForms-DE document is valid before submitting it. Upon submission, the Vermittlungsdienst will also validate the eForms according to its version and accept or reject it.
 <br><br>
 If the submission is successful, the notification is processed further. Depending on whether it is a subthreshold or upper-threshold eForms document, notices are either forwarded directly to the BKMS (subthreshold) or to the eSender Hub (upper-threshold) - see [Upper or subthreshold award](/documentation/Upper-or_lower-threshold-award.md). In the eSender Hub, a transformation to eForms-EU takes place when eForms-DE is submitted. You can find out which eForms versions the individual components support under [eForms-Support](/documentation/eForms_support.md).
 <br><br>
@@ -20,6 +20,7 @@ During the entire process, status changes, e.g. triggered by feedback from TED, 
 <br><br>
 
 ![Workflow diagram](/documentation/images/workflow_2.png)
+
 
 
 
