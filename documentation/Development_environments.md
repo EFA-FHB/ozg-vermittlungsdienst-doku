@@ -125,7 +125,7 @@ Aktuell stehen eine **Test-, Referenz- und eine Produktionsumgebung** des Vermit
           TED-Portal:
           <a class="external-link" href="https://ted.europa.eu/de/" rel="nofollow">https://ted.europa.eu/de/</a>
           <br>
-          TED Swagger-UI
+          TED Swagger-UI:
           <a class="external-link" href="https://api.ted.europa.eu/swagger-ui/index.html" rel="nofollow">https://api.ted.europa.eu/swagger-ui/index.html</a>
         </p>
         <p></p>
@@ -133,5 +133,6 @@ Aktuell stehen eine **Test-, Referenz- und eine Produktionsumgebung** des Vermit
     </tr>
   </tbody>
 </table>
+
 
 
