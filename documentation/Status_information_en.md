@@ -22,7 +22,7 @@ All status and error information of an announcement can be queried using the RES
 ## Endpoints for querying status and transfer information<span id="endpoints">
 To query the status and transfer information, the Vermittlungsdienst provides the endpoints `GET /v1/notices` for a list of data deliveries, `GET /v1/notices/status` for a list of data deliveries in a specific period and `GET /v1/notices/{trackingcode}` and `GET /v1/notices/by-notice/{noticeId}/{version}` for a single data delivery.
 
-The Vermittlungsdienst performs status queries to BKMS and TED every three minutes. It therefore makes sense to query the status information of the notices to the Vermittlungsdienst every 5 minutes at most.
+The Vermittlungsdienst performs status queries to BKMS and to TED every three minutes. It therefore makes sense to query the status information of the notices to the Vermittlungsdienst every five minutes at most.
 
 The corresponding OpenAPI specification can be found at https://ozg-vermittlungsdienst.de/ and is available for download in JSON format at https://ozg-vermittlungsdienst.de/Vermittlungsdienst_REST-API.json.
 <br><br>
@@ -212,5 +212,6 @@ Warnings and error messages from the announcement service and from TED are passe
 In addition to errors, there are also warnings. These come exclusively from the EU rules and, unlike errors, do not prevent the notice from being accepted. TED has currently only defined one type of warning, so-called "lawfulness warnings". These will most likely be almost irrelevant for German notices, but are technically possible.
 
 A lawfulness warning means that a manual review of a notice at TED is necessary. TED then checks the content of the announcement and decides whether it will be published or rejected and not published. TED has up to 5 days to make this decision. For this reason, notices with a lawfulness warning are only forwarded to the BKMS upon publication or 5 days after successful submission to TED.
+
 
 
