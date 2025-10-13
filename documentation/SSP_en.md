@@ -12,12 +12,9 @@ The Self-Service Portal (SSP) offers user-friendly access to all [documents](htt
 
 The portal will be an operational and support platform for users. It will help you with the transition and allow you to get away from emails. In future, it will offer more options for managing users and access yourself.
 
-## From 11.12.23: Roles in the SSP
-### Important information about the release on 11.12.
+## Roles in the SSP
 
-
-On 11.12. there will be a new release of the SSP. From this date, your technical VD account will no longer work for logging into the SSP, but will only be used for the technical connection to the Vermittlungsdienst, Validator and Viewer.
-<br> <br>To log in to the portal, you must create a user. To do this, simply click on "Register" in the portal and create a new account. If you already have an SSP portal account, you can use it. You can now verify this user via a new process. In the verification process, you can also upload a PDF with a declaration of commitment. However, there is no fixed template for this. The document only serves to assure us that you are authorized to manage accounts for your company as a specialist procedure manufacturer.
+To log in to the portal, you must create a user. To do this, simply click on "Register" in the portal and create a new account. If you already have an SSP portal account, you can use it. You can now verify this user via a new process. In the verification process, you can also upload a PDF with a declaration of commitment. However, there is no fixed template for this. The document only serves to assure us that you are authorized to manage accounts for your company as a specialist procedure manufacturer.
 
 > **WARNING**
 > For the SSP admin account, please use the e-mail address of a mailbox, not a personal one, so that other people from your organization can also manage the VD accounts and dashboard accounts.
@@ -64,3 +61,4 @@ It is also possible to create new dashboard users. To do this, the SSP admin use
 
 ### View sent notifications (notice table)
 With a dashboard user account (see above), you can log in to the portal and view all notifications sent by the linked account or accounts as well as their current status and (if available) error messages. The user can also download the XML file from the table of submitted notices and stop notices in the notice table with a configurable right.
+
