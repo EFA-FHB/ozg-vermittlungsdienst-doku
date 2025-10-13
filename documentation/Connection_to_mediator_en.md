@@ -77,10 +77,6 @@ Communication takes place via the use of a **pre-award-capable AccessPoint**, wh
 Questions regarding registration must be clarified via a **Peppol-Authority**:
 [List of Peppol Authorities](https://peppol.org/members/peppol-authorities)
 
-### Further information
-- Official Peppol website: [peppol.org](https://peppol.org)
-- For additional technical information, please refer to the following explanations.
-
 ### Connecting procurement platforms to the Vermittlungsdienst via PEPPOL
 
 The primary interface for the transmission of notices is the PEPPOL network. Notices can be transmitted as follows:
@@ -143,7 +139,7 @@ The PEPPOL access point for the Vermittlungsdienst and the BKMS is operated by t
 ---
 
 ### Web resources
-- **Peppol homepage:** [https://peppol.eu/](https://peppol.eu/)
+- **Peppol homepage:** [peppol.org](https://peppol.org)
 - **SBDH/UBL identifiers/processes/profiles for Peppol:** [https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.2.pdf](https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.2.pdf)
 - **PEPPOL pre-award standard documentation:** [https://docs.peppol.eu/pracc/](https://docs.peppol.eu/pracc/)
 - Peppol BIS Profile P008:** [https://docs.peppol.eu/pracc/profiles/p008/index.html](https://docs.peppol.eu/pracc/profiles/p008/index.html)
@@ -203,6 +199,7 @@ The e-mail must contain the following information
 - Name of the FVH
 
 After checking the data provided in the e-mail, we will delete the access and send you a confirmation by e-mail.
+
 
 
 
