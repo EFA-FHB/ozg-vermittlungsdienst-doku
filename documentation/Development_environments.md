@@ -64,7 +64,7 @@ Aktuell stehen eine **Test-, Referenz- und eine Produktionsumgebung** des Vermit
       <td style="text-align: left;">
         <a href="https://portal.ozg-vermittlungsdienst.de/">https://portal.ozg-vermittlungsdienst.de/</a>
         <br>
-    <strong>Ab dem 06. Oktober 2025:</strong>  
+    <strong>Vsl. ab dem 06. Oktober 2025:</strong>  
     <a href="https://self-service.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
     </tr>
@@ -95,10 +95,10 @@ Aktuell stehen eine **Test-, Referenz- und eine Produktionsumgebung** des Vermit
     <tr>
   <td style="text-align: left;">Bekanntmachungsservice</td>
   <td style="text-align: left;">
-    <a href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
+    <a href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
   </td>
   <td style="text-align: left;">
-    <a class="external-link" href="https://alpha.oeffentlichevergabe.de" rel="nofollow">https://alpha.oeffentlichevergabe.de</a>
+    <a class="external-link" href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
   </td>
   <td style="text-align: left;">
     <a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">https://www.oeffentlichevergabe.de</a>
@@ -112,21 +112,26 @@ Aktuell stehen eine **Test-, Referenz- und eine Produktionsumgebung** des Vermit
         </p>
       </td>
       <td style="text-align: left;">
-        <a class="external-link" href="https://enotices2.preview.ted.europa.eu/esenders/webjars/swagger-ui/index.html#/" rel="nofollow">https://enotices2.preview.ted.europa.eu</a>
+        <a class="external-link" href="https://api.preview.ted.europa.eu/swagger-ui/index.html" rel="nofollow">https://api.preview.ted.europa.eu/swagger-ui/index.html</a>
         <br/></td>
       <td style="text-align: left;">
         <p>
-          <a class="external-link" href="https://enotices2.preview.ted.europa.eu/esenders/webjars/swagger-ui/index.html#/" rel="nofollow">https://enotices2.preview.ted.europa.eu</a>
+          <a class="external-link" href="https://api.preview.ted.europa.eu/swagger-ui/index.html" rel="nofollow">https://api.preview.ted.europa.eu/swagger-ui/index.html</a>
         </p>
         <p></p>
       </td>
       <td style="text-align: left;">
         <p>
-          <a class="external-link" href="https://enotices2.preview.ted.europa.eu/esenders/webjars/swagger-ui/index.html#/" rel="nofollow">https://enotices2.ted.europa.eu</a>
+          TED-Portal:
+          <a class="external-link" href="https://ted.europa.eu/de/" rel="nofollow">https://ted.europa.eu/de/</a>
+          <br>
+          TED Swagger-UI
+          <a class="external-link" href="https://api.ted.europa.eu/swagger-ui/index.html" rel="nofollow">https://api.ted.europa.eu/swagger-ui/index.html</a>
         </p>
         <p></p>
       </td>
     </tr>
   </tbody>
 </table>
+
 
