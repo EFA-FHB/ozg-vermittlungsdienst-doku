@@ -11,7 +11,6 @@ Des Weiteren gibt es das Portal für die Staging-Umgebung https://portal.staging
 Das Self-Service-Portal (SSP) bietet als Betriebs- und Supportplattform einen benutzerfreundlichen Zugang zu allen [Unterlagen](https://portal.ozg-vermittlungsdienst.de/documentation) des Datenservice Öffentlicher Einkauf (DÖE).
 
 ## Rollen im SSP
-### Wichtige Informationen zum Release am 11.12.2023
 
 Für den Login im Portal muss Nutzer angelegt werden, indem über einen Klick auf 'Registrieren' ein neuer Account erstellt wird. Ist bereits einen SSP-Portal-Account vorhanden, kann dieser genutzt werden. Dieser Nutzer kann nun über einen neuen Prozess verifizieren. Im Verifizierungsprozess kann ebenfalls ein PDF mit einer Verpflichtungserklärung hochgeladen werden. Hierfür gibt es aber keine feste Vorlage. Mit diesem Dokument wird versichert, dass die dort benannte Person befugt ist, Accounts für ihre Firma als Fachverfahrenshersteller zu verwalten.
 
@@ -57,3 +56,4 @@ Es besteht auch die Möglichkeit, neue Dashboard-User anzulegen. Dazu muss der S
 
 ### Gesendete Bekanntmachungen (Notice-Tabelle) ansehen
 Mit einem Dashboard-User-Account (siehe oben) kann man sich im Portal anmelden und alle von dem verknüpften Konto bzw. den verknüpften Kontos gesendeten Benachrichtigungen sowie deren aktuellen Status und (falls vorhanden) Fehlermeldungen einsehen. Der Dashboard-User kann auch die XML-Datei aus der Tabelle der eingereichten Bekanntmachungen herunterladen und mit einem konfigurierbaren Recht Bekanntmachungen in der Notice-Tabelle stoppen.
+
