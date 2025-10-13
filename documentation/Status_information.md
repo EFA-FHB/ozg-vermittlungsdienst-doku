@@ -22,7 +22,7 @@ Mit Hilfe der REST-API des Vermittlungsdienstes können alle Status- und Fehleri
 ## Endpunkte zur Abfrage der Status- und Transferinformationen<span id="endpunkte">
 Zur Abfrage der Status- und Transferinformationen stellt der Vermittlungsdienst die Endpunkte `GET /v1/notices` für eine Liste von Datenlieferungen, `GET /v1/notices/status` für eine Liste von Datenlieferungen in einem bestimmten Zeitraum und `GET /v1/notices/{trackingcode}` sowie `GET /v1/notices/by-notice/{noticeId}/{version}` für eine einzelne Datenlieferung zur Verfügung.
 
-Der Vermittlungsdienst führt die Statusabfragen an den Bekanntmachungsservice und TED alle drei Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle 5 Minuten sinnvoll.
+Der Vermittlungsdienst führt die Statusabfragen an den Bekanntmachungsservice und an TED alle drei Minuten durch. Daher ist eine Abfrage der Statusinformationen der Bekanntmachungen an den Vermittlungsdienst maximal alle fünf Minuten sinnvoll.
 
 Die zugehörige OpenAPI-Spezifikation ist hier https://ozg-vermittlungsdienst.de/  zu finden und steht im JSON-Format zum Download unter https://ozg-vermittlungsdienst.de/Vermittlungsdienst_REST-API.json bereit.
 <br><br>
@@ -212,4 +212,5 @@ Warnungen und Fehlermeldungen vom Bekanntmachungsservice und von TED werden unve
 Zusätzlich zu Fehlern gibt es Warnungen. Diese kommen ausschließlich aus den EU-Regeln und verhindern anders als Fehler nicht die Annahme der Bekanntmachung. TED hat derzeit nur eine Art von Warnungen definiert, sogenannte "Lawfulness Warnings". Diese werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. 
 
 Eine Lawfulness Warning bedeutet, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. Dort wird dann der Inhalt der Bekanntmachung geprüft und entschieden, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Eine Entscheidung muss nach maximal fünf Tagen getroffen sein. Aus diesem Grund werden Bekanntmachungen mit einer Lawfulness Warning erst bei Veröffentlichung oder spätestens fünf Tage nach erfolgreicher Einlieferung bei TED an den Bekanntmachungsservice weitergeleitet.
+
 
