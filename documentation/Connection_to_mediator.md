@@ -77,10 +77,6 @@ Die Kommunikation erfolgt über die Verwendung eines **pre-award-fähigen Access
 Fragen zur Registrierung sind über eine **Peppol-Authority** zu klären:  
 [Liste der Peppol-Authorities](https://peppol.org/members/peppol-authorities)
 
-### Weitere Informationen
-- Offizielle Peppol-Website: [peppol.org](https://peppol.org)  
-- Zusätzliche technische Informationen entnehmen enthalten die folgenden Ausführungen.
-
 ### Verbindung von Vergabeplattformen mit dem Vermittlungsdienst über PEPPOL
 
 Die primäre Schnittstelle für die Übermittlung von Bekanntmachungen ist das PEPPOL-Netzwerk. Bekanntmachungen können wie folgt übermittelt werden:
@@ -143,7 +139,7 @@ Der PEPPOL-Zugangspunkt für den Vermittlungsdienst und der Bekanntmachungsservi
 ---
 
 ### Webressourcen
-- **Peppol-Startseite:** [https://peppol.eu/](https://peppol.eu/)
+- **Peppol-Startseite:**: [peppol.org](https://peppol.org)  
 - **SBDH/UBL-Identifikatoren/Prozesse/Profile für Peppol:** [https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.2.pdf](https://docs.peppol.eu/pracc/files/BIS-eDelivery-guide-for-pre-award-v1.2.pdf)
 - **PEPPOL Pre-Award-Standarddokumentation:** [https://docs.peppol.eu/pracc/](https://docs.peppol.eu/pracc/)
 - **Peppol BIS Profile P008:** [https://docs.peppol.eu/pracc/profiles/p008/index.html](https://docs.peppol.eu/pracc/profiles/p008/index.html)
@@ -203,6 +199,7 @@ In der E-Mail müssen folgende Angaben enthalten sein:
 - Name des Fachverfahrensherstellers
 
 Nach Prüfung der angegebenen Daten in der E-Mail werden die Löschung des Zugangs durchführt und eine Bestätigung per E-Mail versendet.
+
 
 
 
