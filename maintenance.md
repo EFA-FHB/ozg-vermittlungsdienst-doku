@@ -20,7 +20,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status |
 |--------------|----------------|----------------------------|--------|--------|
-| DÖE Staging außer BKMS | 05. September 2025 | 11. September 2025 | Authentifizierungsstörung | Behoben am 11. September 2025 |
+| SSP-Portal Staging | 06. Oktober 2025 | 17. Oktober 2025 | Authentifizierungsstörung | In Arbeit |
 
 ## Hinweise
 
@@ -30,6 +30,7 @@ Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Staging | DÖE außer BKMS | 05-11. September 2025 | -- | Authentifizierungsstörung - Behoben am 11. September 2025 |
 | Produktion | Alle TED Apps und deren APIs | 28. August 2025 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs können von Störungen betroffen sein |
 | Produktion und Staging | DÖE  | 31. Juli 2025 | ab 16:00 | Ende der Supportfrist für eForms v1.2: Ab diesem Zeitpunkt werden Bekanntmachungen im Format v1.2 nicht mehr angenommen. Alle bis dahin akzeptierten und gültigen Bekanntmachungen werden weiterhin an TED und den Bekanntmachungsservice übermittelt und dort veröffentlicht. |
 | Produktion und Staging | DÖE inkl. BKMS | 26./27. Juli 2025 | 07:00-12:00 | Quartalswartungen |
