@@ -295,8 +295,7 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie h
 
 **Bitte beachten Sie, dass wir alle Fragen bezüglich des Standards eForms-DE gemäß unserem aktuellen Wissensstand beantworten. Änderungen der Informationen sind jederzeit möglich.**
 
-**Bei weiteren Fragen zum <u>Standard eForms-DE</u> wenden Sie sich gerne per E-Mail an die Koordinierungsstelle für IT-Standards (KoSIT) als Betreiberin: eforms@finanzen.bremen.de. Weitere Informationen sind in der von der KoSIT bereitgestellten [FAQ](https://xeinkauf.de/eforms-de/faq/) zu finden.
-** 
+**Bei weiteren Fragen zum <u>Standard eForms-DE</u> wenden Sie sich gerne per E-Mail an die Koordinierungsstelle für IT-Standards (KoSIT) als Betreiberin: eforms@finanzen.bremen.de. Zusätzliche Informationen sind in der von der KoSIT bereitgestellten [FAQ](https://xeinkauf.de/eforms-de/faq/) zu finden.** 
 
 ### Allgemeine Fragen
 
@@ -376,4 +375,5 @@ Der Standard XVergabe wird dauerhaft durch eForms-DE ersetzt und nicht weiterent
 
 ---
 [Zum Anfang](#häufig-gestellte-fragen)
+
 
