@@ -30,53 +30,28 @@ Hauptsächlich genutzt durch Fachverfahrenshersteller. Dashboard Accounts sind m
 
 <details>
 <summary>
-Welche Informationen werden benötigt, um einen Account zu beantragen? (aktualisiert am 11.10.23)
-</summary>
-<br>
-
-Seit dem 04.10.2023 sollen Accounts im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de) beantragt werden. Alle benötigte Informationen werden im Registrierungsformular für einen VD Account abgefragt. Diese sind:
-
-<br>
-
-- Systemumgebung, für die Zugangsdaten beantragt werden (Preview, Staging, Produktion). Die Registrierung im Portal erfolgt für die entsprechende Umgebung, d. h. wenn ein Konto für die Staging-Umgebung erforderlich ist, sollte dieses im Staging-Portal beantragt werden.
-
--  E-Mail-Adresse, welche als Benutzername verwendet werden soll (diese muss pro Umgebung eindeutig sein, keine Dopplungen erlaubt)
-  
-- URL der Vergabeplattform auf der die Bekanntmachungen veröffentlicht werden
-  
-- Vor- und Nachname sowie die E-Mail-Adresse des Vertreters des FVH (Fachverfahrenshersteller)
-  
-- Name des FVH
-</details>
-<br>
-
-<details>
-<summary>
 Pro Registrierung muss eine E-Mail Adresse als Benutzername angegeben werden. Ist es möglich dieselbe E-Mail-Adresse für mehrere Systeme anzugeben?
 </summary>
 <br>
-Generell erfragen wir zwei Emails pro Account (teils auch als Mandant bezeichnet): Eine Accountemail zur Aktivierung des Accounts und eine Kontaktemail. Es wird eine individuelle Email pro Account zur Aktivierung benötigt, um das Passwort für den Account zu setzen und eine eindeutige Authentifizierung mit der Kombination aus Email und Passwort zu ermöglichen. Die Account-Email kann aber auch ein Funktionspostfach sein und wird nur zur Verwaltung des Accounts benötigt. Die Kontakt-Emailadresse wird nur genutzt, falls beim Betrieb Fragen aufkommen zu einer Bekanntmachung, die von diesem Account versendet wurden. Kontakt-Email und Account Email dürfen bei Bedarf identisch sein und dieselbe Kontakt-Email (z.b. ein zentraler Ansprechpartner) darf bei mehreren Accounts verwendet werden. Es können allerdings zwischen den Systemumgebungen Ihre Account E-Mail je einmal wiederverwenden, zum Beispiel dieselbe Account Mail-Adresse für Preview, Staging und Production. Generell empfehlen wir einen Account pro Vergabeplattform.
+Generell werden zwei E-Mail-Adressen pro Account erfragt (teils auch als Mandant bezeichnet): Eine E-Mail-Adresse zur Aktivierung des Accounts und eine Kontakt E-Mail-Adresse. Es wird eine individuelle E-Mail-Adresse pro Account zur Aktivierung benötigt, um das Passwort für den Account zu setzen und um eine eindeutige Authentifizierung mit der Kombination aus E-Mail und Passwort zu ermöglichen. Die Account E-Mail-Adresse kann auch ein Funktionspostfach sein und wird nur zur Verwaltung des Accounts benötigt. Die Kontakt E-Mail-Adresse wird genutzt, falls beim Betrieb Fragen aufkommen zu einer Bekanntmachung, die von diesem Account versendet wurde. Kontakt E-Mail-Adresse und Account E-Mail-Adresse dürfen identisch sein und dieselbe Kontakt E-Mail-Adresse (z.B. ein zentraler Ansprechpartner) darf bei mehreren Accounts verwendet werden. Es kann allerdings für die drei Systemumgebungen Preview, Staging und Produktion dieselbe Account E-Mail-Adresse verwendet werden. Generell empfehlen wir einen Account pro Vergabeplattform. 
 </details>
 <br>
 
 <details>
 <summary>
-Bei der Accounterstellung muss eine Kontakt-E-Mmail-Adresse eines FVH angegeben werden. Wozu wird diese verwendet?
+Bei der Accounterstellung muss eine Kontakt-E-Mail-Adresse eines Fachverfahrensherstellers angegeben werden. Wozu wird diese verwendet?
 </summary>
 <br>
-Diese Email wird verwendet, wenn wir proaktiv auf Sie zugehen wollen. Dies kann der Fall sein, wenn es beispielsweise Auffälligkeiten mit ihrem Account oder den eingelieferten Bekanntmachungen gibt oder wir generelle Informationen an alle Accountverantwortlichen versenden. 
+Diese E-Mail-Adresse wird verwendet, um proaktiv auf Nutzer des Self-Service-Portals zugehen zu können. Dieses kann der Fall sein, wenn es beispielsweise Auffälligkeiten mit dem Account oder den eingelieferten Bekanntmachungen gibt oder wenn generelle Informationen an alle Accountverantwortlichen versenden werden sollen. 
 </details>
-
 <br>
 
 <details>
 <summary>
-Können mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts empfehlen sich jeweils für die Preview- und Staging-Umgebung?
+Können für die einzelnen Systeme mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts für die Preview- und Staging-Umgebung jeweils empfehlenswert?
 </summary>
 <br>
-Die URL der Vergabeplattform dient rein der Zuordnung dr Accounts/ Mandanten, diese hat nichts mit der Verlinkung auf die Vergabeunterlagen zu tun. 
-
-Manche Vergabeplattformen nutzen z.B. Dropbox oder google drive oder Ähnliches für das Hosten der Vergabeunterlagen, weshalb sich daraus nicht eindeutig die dahinterliegende Plattform identifizieren lässt. Aus diesem Grund ist diese Information zusätzlich notwendig. Die Verlinkung zu den Vergabeunterlagen bleibt weiterhin im XML Dokument und diese wird primär in der BKMS Oberfläche angezeigt. Der bei der Accounterstellung mitgegebene Link wird nur rechts unten, unter der Bekanntmachung selbst, als Disclaimer/ Quelle angezeigt. 
+Wir empfehlen, auf Staging exakt so viele Accounts zu verwenden, wie sie für Produktion planen, zu nutzen. Zusätzlich sind natürlich beliebig viele Testaccounts auf Preview und Staging möglich. 
 </details>
 <br>
 
@@ -85,35 +60,36 @@ Manche Vergabeplattformen nutzen z.B. Dropbox oder google drive oder Ähnliches 
 Worin besteht der Unterschied zwischen der bei der Accounterstellung angefragten URL der Vergabeplattform und der Verlinkung zu den Vergabeunterlagen im eForms-Dokument?
 </summary>
 <br>
-Senden Sie uns gern eine Liste von benötigten Accounts an support@datenservice-oeffentlicher-einkauf.de Inklusive aller benötigter Informationen pro Account. Wir empfehlen, auf Staging exakt so viele Accounts zu verwenden, wie sie für Produktion planen, zu nutzen. Zusätzlich sind natürlich beliebig viele Testaccounts auf Preview und Staging möglich.  
-</details>
-
-<br>
-
-<details>
-<summary>
-Wird auf Staging oder Preview der Veröffentlichungszyklus und die Validierung auf die selbe Art wie in Produktion durchgeführt oder werden die Statuswechsel beschleunigt? Mit welchen Verzägerungen zwischen Annahme und Veröffentlichung ist zu rechnen? 
-</summary>
-<br>
-In allen Umgebungen wird die gleiche Validierung und die gleiche Verzögerung in der Veröffentlichung durchgeführt wie in der Produktionsumgebung. Die Zeitverzögerungen liegen in diesem Fall bei TED (Veröffentlichung werktags frühestens am nächsten Werktag bei Annahme bis 16 Uhr) bzw der rechtlich notwendigen Logik der nationalen Veröffentlichung (Weiterleitung an den BKMS) nach frühestens 48h. Der BKMS veröffentlicht sofort, wenn eine Bekanntmachung entgegengenommen wurde, es sei den das Bevorzugte Veröffentlichungsdatum liegt in der Zukunft. In diesem Fall würde die Veröffentlichung sowohl in TED als auch in BKMS erst am gewünschten Tag stattfinden unter den bei TED geltenden Einschränkungen (z.B. keine Veröffentlichung am Wochenende).
+Die URL der Vergabeplattform dient rein der Zuordnung der Accounts/ Mandanten, diese hat nichts mit der Verlinkung auf die Vergabeunterlagen zu tun. 
+Manche Vergabeplattformen nutzen z.B. Dropbox oder Google Drive oder Ähnliches für das Hosten der Vergabeunterlagen, weshalb sich daraus nicht eindeutig die dahinterliegende Plattform identifizieren lässt. Aus diesem Grund ist die URL zusätzlich notwendig. Die Verlinkung zu den Vergabeunterlagen bleibt weiterhin im XML-Dokument. Der bei der Accounterstellung mitgegebene Link wird bei der Veröffentlichung im Bekanntmachungsservice, unter der Bekanntmachung selbst, als Disclaimer/Quelle angezeigt.
 </details>
 <br>
 
 <details>
 <summary>
-Zur Anforderung von Zugängen soll die URL der Vergabeplattform angegeben werden. Wozu dient diese Angabe?
+Werden auf Staging oder Preview der Veröffentlichungszyklus und die Validierung auf dieselbe Art wie in Produktion durchgeführt oder werden die Statuswechsel beschleunigt? Mit welchen Verzögerungen zwischen Annahme und Veröffentlichung ist zu rechnen? 
 </summary>
 <br>
-Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden zu können, Ihnen den korrekten Zugang zu ermöglichen und Duplikate zu vermeiden. Vergabeplattformen sind die Systeme, in denen Bekanntmachungen veröffentlicht werden, die URL der Vergabeplattform kann so z.B. alpha.oeffentlichevergabe.de (Test-Umgebung BKMS) sein. Diese URL dient dazu, zu identifizieren, auf welcher Plattform Sie Ihre Bekanntmachungen derzeit veröffentlichen. Zu diesem Thema ist uns bewusst, dass es hier unterschiedliche Vorgehensweisen je nach Struktur des Systems der jeweiligen FVH geben kann. Prinzipiell gilt, dass sie einen Account pro System benötigen, dass zukünftig in den Vermittlungsdient einliefern soll. Wenn Sie unsicher sind, welche Systeme/ Plattformen für Sie an den DÖE anzuschließen sind, unterstützen wir Sie gern bei dieser Entscheidung. Senden Sie uns dazu gern eine Anfrage an support@datenservice-oeffentlicher-einkauf.de 
+In allen Umgebungen werden eine vollständige Validierung und alle Statuswechsel durchgeführt. Da neue eForms-Versionen zunächst auf Preview, dann auf Staging und zuletzt in Produktion ausgerollt werden, können kurzzeitig unterschiedliche Validierungsregeln angewendet werden.
+Da die Bekanntmachungen bei TED auf Preview und Staging etwas schneller prozessiert werden, erfolgt auch die Veröffentlichung auf der Staging-Umgebung des Bekanntmachungsservice etwas schneller als in Produktion.
 </details>
 <br>
 
 <details>
 <summary>
-Welche Systemumgebung ist die Umgebung, an die unsere Testsysteme Bekanntmachungen versenden können? Worin besteht der Unterschied zwischen der Preview und Staging Umgebung?
+Zur Anforderung von Accounts soll die URL der Vergabeplattform angegeben werden. Wozu dient diese Angabe?
 </summary>
 <br>
-Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespielt und dies ist auch unsere Testumgebung für zukünftige Releases. Die Staging-Umgebung ist eine 100% Kopie der Produktionsumgebung und sollte nur für produktionsnahe Tests genutzt werden. Beide Umgebungen liefern in die Staging-Umgebung des BKMS und TED Preview ein. Auf Staging sollten Ihre Tests genauso durchgeführt werden, wie sie es in Produktion planen, zu tun. Prinzipiell sind aber beide Umgebungen zum Test geeignet.
+Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden zu können, den korrekten Zugang zu ermöglichen und Duplikate zu vermeiden. Vergabeplattformen sind die Systeme, in denen Bekanntmachungen veröffentlicht werden, die URL der Vergabeplattform kann so z.B. alpha.oeffentlichevergabe.de (Test-Umgebung des Bekanntmachungsservices) sein. Mit dieser URL wird identifiziert, auf welcher Plattform Bekanntmachungen derzeit veröffentlicht werden. Bei diesem Thema ist es klar, dass es hier unterschiedliche Vorgehensweisen je nach Struktur des Systems der jeweiligen FVH geben kann. Prinzipiell gilt, dass sie einen Account pro System benötigen, das zukünftig in den Vermittlungsdient einliefern soll. Bei Unsicherheiten, welche Systeme/ Plattformen an den Vermittlungsdienst anzuschließen sind, kann eine Klärung mit Nutzung des Kontaktformulars herbeigeführt werden https://portal.ozg-vermittlungsdienst.de/contact. 
+</details>
+<br>
+
+<details>
+<summary>
+Welche Systemumgebung ist die Umgebung, an die die Testsysteme der Fachverfahrenshersteller Bekanntmachungen versenden können? Worin besteht der Unterschied zwischen der Preview- und Staging-Umgebung?
+</summary>
+<br>
+Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespielt und dieses ist auch die Testumgebung für zukünftige Releases. Die Staging-Umgebung ist eine 100% Kopie der Produktionsumgebung und sollte nur für produktionsnahe Tests genutzt werden. Beide Umgebungen liefern in die Staging-Umgebung des Bekanntmachungsservices und TED Preview ein. Auf Staging sollten Tests genauso durchgeführt werden, wie sie es auch für Produktion vorgesehen ist. Prinzipiell sind aber beide Umgebungen zum Test geeignet.
 </details>
 <br>
 
@@ -124,7 +100,7 @@ Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespie
 Gibt es eine Roadmap zur Weiterentwicklung der Komponenten des Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
-Ja. Die Informationen finden Sie hier: https://portal.ozg-vermittlungsdienst.de/roadmap
+Ja. Die Informationen stehen hier: https://portal.ozg-vermittlungsdienst.de/roadmap
 </details>
 <br>
 
@@ -134,42 +110,36 @@ Ja. Die Informationen finden Sie hier: https://portal.ozg-vermittlungsdienst.de/
 <summary> 
 Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
-Bitte nutzen Sie unsere Kontaktformulare:
+Das Team ist über das folgende Kontaktformular zu erreichen:
 <br>
 Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal auf https://portal.ozg-vermittlungsdienst.de/contact
 <br>
 Fragen/Anmerkungen zum Redaktionssystem auf https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
 <br>
 Fragen/Anmerkungen zum Bekanntmachungsservice auf https://oeffentlichevergabe.de/ui/de/contact
-<br>
-Wir sind offen für Ihre Vorschläge!
 </details>
 <br>
 
 <details>
 <summary>
-Wie kann sichergestellt werden, dass Plattformanbieter regelmäßig über Neuigkeiten bzgl. des Datenservice informiert bleiben, insbesondere bzgl. neuer Versionen der Komponenten (Vermittlungsdienst, eSenderHub, REST-API, usw.), neuer Features, einer Aktualisierung der Roadmap etc.?
+Wie wird sichergestellt, dass Fachverfahrenshersteller regelmäßig über Neuigkeiten zum Datenservice Öffentlicher Einkauf informiert bleiben, insbesondere bzgl. neuer Versionen der Komponenten (Vermittlungsdienst, eSender-Hub, REST-API, usw.), neuer Features, einer Aktualisierung der Roadmap etc.?
 </summary>
 <br>
-Eine Kommunikation erfolgt durch Regelmäßige Informationstermine für die Fachverfahrenshersteller, Ankündigungen per E-Mail, aktuelle Roadmap, Versionshinweise und FAQ sind in dem veröffentlichten Dokumentationsrepository: https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku . Ebenfalls gibt es das SDK-eForms-DE Repository: https://gitlab.opencode.de/OC000008125155/SDK-eforms-de.
+Es finden regelmäßig Informationstermine für die Fachverfahrenshersteller statt, diese werden per E-Mail angekündigt.
 </details>
 
 <br>
 <details>
 <summary>
-Wie kann sichergestellt werden, dass Plattformanbieter regelmäßig über Neuigkeiten bzgl. des eForms-DE Standard/ SDK-eForms-DE informiert bleiben.
+Wie kann sichergestellt werden, dass Fachverfahrenshersteller regelmäßig über Neuigkeiten bzgl. des eForms-DE Standard/SDK-eForms-DE informiert bleiben.
 </summary>
 <br>
+Die offizielle Publikation zum Standard eForms-DE erfolgt auf https://xeinkauf.de/eforms-de/
+<br>
+Die Publikation des zugehörigen SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
+<br>
+Fragen zum SDK-DE sind über Issues im Repository zu eröffnen.
 
-Die offiziellen Publikation zum Standard eForms-DE erfolgt auf https://xeinkauf.de/eforms-de/ 
-
-Die Publikation des zugehörigen SDK erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de 
-
-Publikationen zum organisatorischen Rahmen siehe:
-
-https://www.finanzen.bremen.de/digitalisierung/digitalisierung-von-verwaltungsleistungen-fuer-unternehmen/digitale-beschaffung-103422
-
-Fragen zum DE-SDK sind über Issues im Repository zu eröffnen.
 </details>
 <br>
 
@@ -375,5 +345,6 @@ Der Standard XVergabe wird dauerhaft durch eForms-DE ersetzt und nicht weiterent
 
 ---
 [Zum Anfang](#häufig-gestellte-fragen)
+
 
 
