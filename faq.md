@@ -13,7 +13,7 @@
 <summary>
 Aus welchen Komponenten besteht der Datenservice Öffentlicher Einkauf und wo brauche ich einen Account?
 </summary>
-
+<br>
 **[Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Das Redaktionssystem ist ein Angebot für Vergabestellen und beispielsweise Dienstleister von öffentlichen Auftraggebern oder Zuwendungsempfängern, die kein elektronisches Vergabesystem nutzen. 
 Mit dem Redaktionssystem können Bekanntmachungen zu europaweiten Vergabeverfahren erfasst, bearbeitet, korrigiert und über den Vermittlungsdienst an TED versendet werden.
 <br>
@@ -146,21 +146,20 @@ Fragen zum SDK-DE sind über Issues im Repository zu eröffnen.
 
 <details>
 <summary>
-Gibt es durch die Dokumentation zum Vermittlungsdienst (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) bereits weiterführende Informationen zum Konstrukt des Datenservice. Inwieweit ist geplant, diese auf dem neusten Stand zu halten und ggf. durch Informationen in Form von FAQs ö. Ä. zu ergänzen? Handelt es sich bei dieser GitHub-Dokumentation um die offizielle Bereitstellung von Informationen zu diesem Thema?
+Wo ist die aktuelle Dokumentation zum Datenservice Öffentlicher Einkauf zu finden? Inwieweit ist geplant, diese auf dem neusten Stand zu halten? Handelt es sich bei dieser GitHub-Dokumentation um die offizielle Bereitstellung von Informationen zu diesem Thema? 
 </summary>
 <br>
 
-Die Github-Dokumentation wird weitergepflegt und ist bis auf weiteres die offizielle Dokumentation. Die kann auch im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) des DÖEs gelesen werden. 
+Die Github-Dokumentation (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) wird weitergepflegt und ist die offizielle Dokumentation. Diese kann auch im Self-Service Portal des Datenservice Öffentlicher Einkauf gelesen werden.
 </details>
 <br>
 
 <details>
 <summary>
-Wie kann für ein Release ermittelt werden, welche Versionen der Teilkomponenten unterstützt werden?  
+Wie kann für ein Release ermittelt werden, welche eForms-Versionen die Teilkomponenten unterstützen?   
 </summary>
 <br>
-Unter https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. 
-Für jedes Release veröffentlichen wir Release Notes, um zu beschreiben, welche Komponente welche Version unterstützt.
+Unter https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. Für jedes Release werden Release Notes veröffentlicht, um zu beschreiben, welche Komponente welche Version unterstützt.
 </details>
 <br>
 
@@ -178,9 +177,37 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 
 <details>
 <summary>
-Wie können Plattformbetreiber die Informationen des CVS-Reports der EU zu einer Bekanntmachung erhalten?</summary>
+Wie können Fachverfahrenshersteller die Informationen des CVS-Reports der EU zu einer Bekanntmachung erhalten?
+</summary>
 <br>
-Alle Fehler und Warnungen aus dem CVS Report werden in den Statusinformationen übergeben. Dabei übergeben wir die ID, den Pfad, den Inhalt und den Text jeder angeschlagenen Regel. Es ist nicht vorgesehen, den CVS Report als Datei zurückzugeben.
+Alle Fehler und Warnungen aus dem CVS Report werden in den Statusinformationen übergeben. Dabei werden die ID, der Pfad, der Inhalt und der Text jeder angeschlagenen Regel übergeben. Es ist nicht vorgesehen, den CVS Report als Datei zurückzugeben.
+</details>
+<br>
+
+<details>
+<summary>
+In der REST-API-Beschreibung wird von "aktuellen Datenlieferungen" gesprochen. Was ist damit genau gemeint?
+</summary>
+<br>
+Der Endpunkt v1/notices gibt Statusinformationen zu allen Bekanntmachungen zurück, die vom authentifizierten Mandanten erfolgreich eingeliefert wurden.
+</details>
+<br>
+
+<details>
+<summary>
+Kann auch ein API-Key zur Authentifizierung genutzt werden oder nur die Authentifizierung über Token? 
+</summary>
+<br>
+Die Authentifikation via API-Keys ist nicht mehr möglich, auch auf Preview. Langfristig können Sie sich nur über die Tokens mit Refresh alle 24h authentifizieren.
+</details>
+<br>
+
+<details>
+<summary>
+In der REST-API wird von Mandanten gesprochen. Bedeutet 1 Mandant = 1 Vergabeplattform? 
+</summary>
+<br>
+Ja, das ist korrekt.
 </details>
 <br>
 
@@ -195,46 +222,10 @@ Der Endpunkt v1/notices gibt Statusinformationen zu allen Bekanntmachungen zurü
 
 <details>
 <summary>
-Kann auch ein API-Key zur Authentifizierung genutz werden oder nur die Authentifizierung über Token?
+Wie können Fachverfahrenshersteller die Informationen des CVS-Reports der EU zu einer Bekanntmachung erhalten, wenn diese weder in der Antwort bei Veröffentlichung (POST → /v2/notices), noch in den Statusinformationen (GET → /v1/notices/{trackingCode}) enthalten sind?
 </summary>
 <br>
-Die Authentifikation via API-Keys wird bald abgeschaltet, auch auf Preview. Langfristig können Sie sich nur über die Tokens mit Refresh alle 24h authentifizieren. In Einzelfällen werden API-Keys noch zu Test- und Debuggingzwecken genutzt. 
-</details>
-<br>
-
-<details>
-<summary>
-In der REST-API wird von Mandanten gesprochen. Bedeutet 1 Mandant = 1 API-Key = 1 Vergabeplattform?
-</summary>
-<br>
-Diese Annahme ist korrekt.
-</details>
-<br>
-
-<details>
-<summary>
-In der REST-API-Beschreibung wird von "aktuellen Datenlieferungen" gesprochen. Was ist damit genau gemeint?
-</summary>
-<br>
-Der Endpunkt v1/notices gibt Statusinformationen zu allen Bekanntmachungen zurück, die vom derzeit authentifizierten Mandanten erfolgreich eingeliefert wurden.
-</details>
-<br>
-
-<details>
-<summary>
-Vergabeplattformen möchten zeitnah Statusänderungen erkennen (derzeit erfolgt eine Statusabfrage pro relevanter Datenlieferung etwa alle 10 Minuten). Ist für "GET /v1/notices" geplant, die Liste auf solche Datenlieferungen einschränken oder filtern zu können, bei denen ein TED- oder DÖE-Statuswechsel seit einem übergebenen Zeitpunkt stattfand, um die Abfragelast auf dem System zu senken?
-</summary>
-<br>
-Vielen Dank für diesen Vorschlag; wir werden eine Umsetzung prüfen.
-</details>
-<br>
-
-<details>
-<summary>
-Wie können Plattformbetreiber die Informationen des CVS-Reports der EU zu einer Bekanntmachung erhalten, wenn diese weder in der Antwort bei Veröffentlichung (POST → /v2/notices), noch in den Statusinformationen (GET → /v1/notices/{trackingCode}) enthalten sind?
-</summary>
-<br>
-Alle Fehler und Warnungen aus dem CVS Report werden zukünftig in den Statusinformationen übergeben. Dabei übergeben wir die ID, den Pfad, den Inhalt und den Text jeder angeschlagenen Regel. Derzeit ist es nicht vorgesehen, den CVS Report als Datei zurückzugeben.
+Alle Fehler und Warnungen aus dem CVS Report werden in den Statusinformationen übergeben. Dabei übergeben wir die ID, den Pfad, den Inhalt und den Text jeder angeschlagenen Regel. Derzeit ist es nicht vorgesehen, den CVS Report als Datei zurückzugeben. 
 </details>
 <br>
 
@@ -243,7 +234,7 @@ Alle Fehler und Warnungen aus dem CVS Report werden zukünftig in den Statusinfo
 Ist es möglich, die online Validator API produktiv zu nutzen?
 </summary>
 <br>
-Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produktivumgebung und in der Stagingumgebung wird die eforms-de-schematron Bugfix-Version immer die gleiche sein, wie auch im Vermittlungsdienst selbst. Auch die Nutzung des Offline-Validators (https://projekte.kosit.org/eforms/validator-edition-eforms-de) ist empfohlen. 
+Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produktivumgebung und in der Stagingumgebung wird die eforms-de-schematron Bugfix-Version immer die gleiche sein, wie auch im Vermittlungsdienst selbst. Auch die Nutzung des Offline-Validators (https://projekte.kosit.org/eforms/validator-edition-eforms-de) wird empfohlen.
 </details>
 <br>
 
@@ -254,7 +245,7 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
  Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
 </summary>
 <br>
-Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie hier: https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support
+Ausführliche Informationen zur Unterstützung der eForms-Versionen stehen hier: https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support
 </details>
 <br>
 
@@ -273,8 +264,7 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen finden Sie h
     Gibt es Vorgaben zur Sprache der Bekanntmachung oder Mehrsprachigkeit?
   </summary>
   <br>
-  Es gibt zwar keine Aussage zur Wahl der Sprache von Ausschreibungen in der Vergabeordnung, jedoch ist nach § 23 Abs. 1 Verwaltungsverfahrensgesetz (VwVfG) die Amtssprache deutsch. Dementsprechend ist zu erwarten, dass deutsche Behörden ihre Unterlagen immer mindestens in deutscher Sprache ausfertigen müssen. Mehrsprachigkeit ist natürlich möglich und erlaubt. 
-  Für Veröffentlichende Entitäten die nicht als Behörde klassifiziert werden ist die Veröffentlichung auch ohne deutsche Sprache in Ordnung. Ab dem 31.01.2024 ist die Regel CR-DE-26 zum BT-300 temporär für die Validierung im Vermittlungsdienst deaktiviert, im Online Validator (validator.ozg-vermittlungsdienst.de) wird der Fehler jedoch weiterhin zurückgegeben. 
+  Es gibt zwar keine Aussage zur Wahl der Sprache von Ausschreibungen in der Vergabeordnung, jedoch ist nach § 23 Abs. 1 Verwaltungsverfahrensgesetz (VwVfG) die Amtssprache deutsch. Dementsprechend ist zu erwarten, dass deutsche Behörden ihre Unterlagen immer mindestens in deutscher Sprache ausfertigen müssen. Mehrsprachigkeit ist natürlich möglich und erlaubt. Für Veröffentlichende Entitäten, die nicht als Behörde klassifiziert werden, ist die Veröffentlichung auch ohne deutsche Sprache in Ordnung. 
 </details>
 
 <details>
@@ -338,12 +328,14 @@ Seit dem 25.10.2023 müssen rechtlich alle oberschwelligen Bekanntmachungen im e
 Existiert ein Mapping von XVergabe auf eForms?
 </summary>
 <br>
-Der Standard XVergabe wird dauerhaft durch eForms-DE ersetzt und nicht weiterentwickelt. Der Abdeckungsgrad der enthaltenen Informationen ist sehr unterschiedlich. Seitens Datenservice Öffentlicher Einkauf wird kein Mapping von XVergabe auf eForms zur Verfügung gestellt.
+Nein, im Datenservice Öffentlicher Einkauf wird kein Mapping von XVergabe auf eForms zur Verfügung gestellt.
+Der Standard XVergabe wird dauerhaft durch eForms-DE ersetzt und nicht weiterentwickelt. 
 </details>
 <br>
 
 ---
 [Zum Anfang](#häufig-gestellte-fragen)
+
 
 
 
