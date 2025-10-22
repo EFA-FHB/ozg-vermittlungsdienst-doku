@@ -20,7 +20,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status |
 |--------------|----------------|----------------------------|--------|--------|
-|--------------|----------------|----------------------------|--------|--------|
+|SSP-Portal Produktion, Staging und Preview |22. Oktober 2025 | 23. Oktober 2025 |Die STOP-Funktion über das SSP-Portal ist aktuell nicht funktionsfähig. Es wird empfohlen, den direkten Aufruf des Vermittlungsdienstes zu verwenden https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication| In Arbeit |
 
 ## Hinweise
 
