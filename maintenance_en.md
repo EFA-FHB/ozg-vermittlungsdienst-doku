@@ -20,18 +20,18 @@ Further important information on creating eForms can be found in the FAQ provide
 
 | system | available since | expected fix | error | status |
 |--------------|----------------|----------------------------|--------|--------|
-|SSP portal production, staging and preview | October 22, 2025 | October 23, 2025 |The STOP function via the SSP portal is currently not functional. It is recommended to use the direct call of the Vermittlungsdienst https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication| In progress |
+|SSP portal production and staging | October 22, 2025 | October 23, 2025 | The STOP function via the SSP portal is currently not functional. It is recommended to use the direct call of the Vermittlungsdienst https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication| In progress |
 
 ## Notes
 
-The preview environment is only available between 06:00 and 20:00. The staging environment should also be used for testing purposes, it is available around the clock.
+The preview environment is only available between 06:00 and 20:00. The staging environment should also be used for testing purposes; it is available around the clock.
 
-## Past maintenance windows or disruptions in recent months
+## Past maintenance windows or disruptions in the last few months
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
 | Staging | SSP portal | October 06-17, 2025| -- | Authentication error - Fixed on October 17, 2025 |
 | Staging | DÖE except BKMS | September 05-11, 2025 | -- | Authentication error - Fixed on September 11, 2025 |
 | Production | All TED apps and their APIs | August 28, 2025 | 07:00-09:00 | Maintenance work: All TED applications in production environments and their APIs may be affected by disruptions |
-| Production and staging | DoE | July 31, 2025 | from 16:00 | End of support period for eForms v1.2: From this point on, announcements in v1.2 format will no longer be accepted. All notices accepted and valid until then will continue to be transmitted to TED and the announcement service and published there. |
+| Production and staging | DÖE | July 31, 2025 | from 16:00 | End of support period for eForms v1.2: From this point on, announcements in v1.2 format will no longer be accepted. All notices accepted and valid until then will continue to be sent to TED and the announcement service and published there. |
 | Production and staging | DÖE incl. BKMS | July 26/27, 2025 | 07:00-12:00 | Quarterly maintenance |
