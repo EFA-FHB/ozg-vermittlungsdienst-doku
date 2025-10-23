@@ -20,7 +20,7 @@ Further important information on creating eForms can be found in the FAQ provide
 
 | system | available since | expected fix | error | status |
 |--------------|----------------|----------------------------|--------|--------|
-|SSP portal production and staging | October 22, 2025 | October 23, 2025 | The STOP function via the SSP portal is currently not functional. It is recommended to use the direct call of the Vermittlungsdienst https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication| In progress |
+|--------------|----------------|----------------------------|--------|--------|
 
 ## Notes
 
@@ -30,6 +30,7 @@ The preview environment is only available between 06:00 and 20:00. The staging e
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Production and staging | SSP portal | October 22-23, 2025 | -- |The STOP function via the SSP portal is currently not functional. It is recommended to use the direct call of the Vermittlungsdienst https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication - Fixed on October 23, 2025 |
 | Staging | SSP portal | October 06-17, 2025| -- | Authentication error - Fixed on October 17, 2025 |
 | Staging | DÖE except BKMS | September 05-11, 2025 | -- | Authentication error - Fixed on September 11, 2025 |
 | Production | All TED apps and their APIs | August 28, 2025 | 07:00-09:00 | Maintenance work: All TED applications in production environments and their APIs may be affected by disruptions |
