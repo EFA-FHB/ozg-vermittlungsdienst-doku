@@ -20,7 +20,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status |
 |--------------|----------------|----------------------------|--------|--------|
-|SSP-Portal Produktion und Staging |22. Oktober 2025 | 23. Oktober 2025 |Die STOP-Funktion über das SSP-Portal ist aktuell nicht funktionsfähig. Es wird empfohlen, den direkten Aufruf des Vermittlungsdienstes zu verwenden https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication| In Arbeit |
+|--------------|----------------|----------------------------|--------|--------|
 
 ## Hinweise
 
@@ -30,6 +30,7 @@ Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion und Staging | SSP-Portal |22-23. Oktober 2025 | -- |Die STOP-Funktion über das SSP-Portal ist aktuell nicht funktionsfähig. Es wird empfohlen, den direkten Aufruf des Vermittlungsdienstes zu verwenden https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication - Behoben am 23. Oktober 2025 |
 | Staging | SSP-Portal | 06-17. Oktober 2025| -- | Authentifizierungsstörung - Behoben am 17. Oktober 2025 |
 | Staging | DÖE außer BKMS | 05-11. September 2025 | -- | Authentifizierungsstörung - Behoben am 11. September 2025 |
 | Produktion | Alle TED Apps und deren APIs | 28. August 2025 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs können von Störungen betroffen sein |
