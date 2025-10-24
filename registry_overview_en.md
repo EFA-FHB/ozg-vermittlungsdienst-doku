@@ -1,15 +1,14 @@
-# Registry - Vergabestelle
+# Registry - Allocation office
 
-## Available Areas
-<br>
+## Available areas
 
-### [FAQ - Frequently Asked Questions](faq_public_en.md)
+### [Frequently asked questions](faq_public.md)
 
-### [Workflow](/documentation/Workflow_en.md)
+### [Workflow](/documentation/Workflow.md)
 
-### [Change Notices/Updates & STOP Publication Functionality](/documentation/STOP_update_and_change_notices_en.md)
+### [Change Notices/Updates & STOP Publication Functionality](/documentation/STOP_update_and_change_notices.md)
 
 
 ---
 
-*Choose one of the areas mentioned above to get more information.*
+*Select one of the above areas for more information.
