@@ -2,11 +2,11 @@
 
 ## Verfügbare Bereiche
 
-### [Häufig gestellte Fragen](faq/faq_public.md)
+### [Häufig gestellte Fragen](faq/faq_registry.md)
 
-### [Workflow](/documentation/Workflow.md)
+### [Workflow](documentation/Workflow.md)
 
-### [Change Notices/Updates & STOP-Publication-Funktionalität](/documentation/STOP_update_and_change_notices.md)
+### [Change Notices/Updates & STOP-Publication-Funktionalität](documentation/STOP_update_and_change_notices.md)
 
 
 ---

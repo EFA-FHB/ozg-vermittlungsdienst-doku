@@ -2,11 +2,11 @@
 
 ## Available areas
 
-### [Frequently asked questions](faq/faq_public.md)
+### [Frequently asked questions](faq/faq_registry.md)
 
-### [Workflow](/documentation/Workflow.md)
+### [Workflow](documentation/Workflow.md)
 
-### [Change Notices/Updates & STOP Publication Functionality](/documentation/STOP_update_and_change_notices.md)
+### [Change Notices/Updates & STOP Publication Functionality](documentation/STOP_update_and_change_notices.md)
 
 
 ---
