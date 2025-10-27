@@ -17,7 +17,7 @@ This connection is implemented by the specialist procedure manufacturer.
 <br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: The Self-Service Portal (SSP) is a web interface for the account management of Vermittlungsdienst accounts. It is primarily used by specialist procedure manufacturers to view the status information of submitted notices in a dashboard.
 <br>
-**Announcement service](https://oeffentlichevergabe.de/)**: All EU-wide and national notices sent via the eSender HUB are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, additional convenient functions such as saving search functions and notification services are also available.
+**[Announcement service](https://oeffentlichevergabe.de/)**: All EU-wide and national notices sent via the eSender HUB are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, additional convenient functions such as saving search functions and notification services are also available.
 Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
 </details>
 <br>
@@ -54,7 +54,7 @@ How can the Public Procurement Data Service team be contacted?
 </summary>
 The team can be reached via the following contact form.
 <br>
-https://portal.ozg-vermittlungsdienst.de/contact
+[portal.ozg-vermittlungsdienst.de](https://portal.ozg-vermittlungsdienst.de/contact)
 </details>
 <br>
 
@@ -69,5 +69,3 @@ Are there specifications for the language of the notice or for multilingualism?
 Although there is no statement on the choice of language for invitations to tender in the Public Procurement Regulations, the official language is German in accordance with Section 23 (1) of the Administrative Procedure Act (VwVfG). Accordingly, it is to be expected that German authorities must always prepare their documents at least in German. Multilingualism is of course possible and permitted. For publishing entities that are not classified as public authorities, publication without German is fine.
 </details>
 <br>
-
---@include test.md
