@@ -7,4 +7,4 @@
 --@include faq/faq_public.md
 
 ---
-[Back to top](#frequently-asked-questions)
+[Back to top](#business-enterprise)
