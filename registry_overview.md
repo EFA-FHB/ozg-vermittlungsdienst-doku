@@ -2,7 +2,7 @@
 
 ## Verfügbare Bereiche
 
-### [Häufig gestellte Fragen](faq_public.md)
+### [Häufig gestellte Fragen](faq/faq_public.md)
 
 ### [Workflow](/documentation/Workflow.md)
 

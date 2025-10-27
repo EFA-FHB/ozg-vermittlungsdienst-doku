@@ -2,7 +2,7 @@
 
 ## Available areas
 
-### [Frequently asked questions](faq_public.md)
+### [Frequently asked questions](faq/faq_public.md)
 
 ### [Workflow](/documentation/Workflow.md)
 
