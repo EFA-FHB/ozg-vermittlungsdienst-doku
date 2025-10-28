@@ -1,10 +1,10 @@
-### Public procurement data service
-# Business Enterprise
+### Data service Public procurement
+# Commercial enterprises
 
-- [Data service for public procurement](#datenservice-öffentlicher-einkauf)
-- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- Data service public purchasing](#datenservice-öffentlicher-einkauf)
+- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 
 --@include faq/faq_public.md
 
 ---
-[Back to top](#business-enterprise)
+[Go to top](#businessenterprise)

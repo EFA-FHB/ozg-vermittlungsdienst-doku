@@ -1,10 +1,10 @@
-### Public procurement data service
-# Registry
+### Public Procurement Data Service
+# Procurement office
 
-- [Data service for public procurement](#datenservice-öffentlicher-einkauf)
-- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- Data service public procurement](#datenservice-öffentlicher-einkauf)
+- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 
 --@include faq/faq_public.md
 
 ---
-[Back to top](#registry)
+[Back to top](#assigning authority)
