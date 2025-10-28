@@ -1,9 +1,5 @@
 
-- Data service for public procurement](#datenservice-öffentlicher-einkauf)
-- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- General](#general)
-
-# Data service public purchasing
+# Data service Public procurement
 
 ### Connection
 
@@ -45,7 +41,7 @@ The productive and staging (test) environments of the Data Service Public Procur
 <summary>
 In which cycle are announcements published on TED and in the announcement service?
 </summary>
-In principle, all submitted notices are sent to TED or the announcement service without delay. EU-wide notices must first be published on TED. Only after TED has completed the publication and reported back the status "PUBLISHED" will these notices be forwarded to the announcement service. The Public Procurement Data Service (DÖE) waits up to 48 hours for publication by TED. If no feedback on the publication is received within this period, the announcement is still forwarded to the announcement service. TED itself is subject to internal publication rules: Announcements that are delivered and accepted on one day will appear on the platform on the following day at the earliest. Weekends are an exception, as there are usually no publications on Saturdays and Sundays. In these cases, the announcements are published on the following Monday. Another exception is so-called "lawfulness warnings". In these cases, TED reserves the right to check an announcement manually before it is published. This check can take up to five days.
+In principle, all submitted notices are sent to TED or the announcement service without delay. EU-wide notices must first be published on TED. Only after TED has completed the publication and reported back the status "PUBLISHED" will these notices be forwarded to the announcement service. The Public Procurement Data Service (DÖE) waits up to 48 hours for publication by TED. If no feedback on the publication is received within this period, the announcement is still forwarded to the announcement service. TED itself is subject to internal publication rules: Announcements that are delivered and accepted on one day will appear on the platform on the following day at the earliest. Weekends are an exception, as there are usually no publications on Saturdays and Sundays. In these cases, the notices are published on the following Monday. Another exception is so-called "lawfulness warnings". In these cases, TED reserves the right to check an announcement manually before it is published. This check can take up to five days.
 </details>
 <br>
 
@@ -55,9 +51,8 @@ In principle, all submitted notices are sent to TED or the announcement service 
 <summary>
 How can the Public Procurement Data Service team be contacted?
 </summary>
-The team can be reached via the following contact form.
-<br>
-https://portal.ozg-vermittlungsdienst.de/contact
+
+The team can be reached via the following [contact form](https://portal.ozg-vermittlungsdienst.de/contact).
 </details>
 <br>
 
@@ -72,5 +67,3 @@ Are there specifications for the language of the notice or for multilingualism?
 Although there is no statement on the choice of language for invitations to tender in the Public Procurement Regulations, the official language is German in accordance with Section 23 (1) of the Administrative Procedure Act (VwVfG). Accordingly, it is to be expected that German authorities must always prepare their documents at least in German. Multilingualism is of course possible and permitted. For publishing entities that are not classified as public authorities, publication without German is fine.
 </details>
 <br>
-
---@include test.md

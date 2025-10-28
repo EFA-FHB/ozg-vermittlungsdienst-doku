@@ -1,8 +1,4 @@
 
-- [Datenservice Öffentlicher Einkauf](#datenservice-öffentlicher-einkauf)
-- [Standard eForms-DE und SDK-DE](#standard-eForms-DE-und-SDK-DE)
-- [Allgemein](#allgemein)
-
 # Datenservice Öffentlicher Einkauf
 
 ### Anbindung
@@ -55,9 +51,8 @@ Grundsätzlich werden alle übermittelten Bekanntmachungen ohne Verzögerung an 
 <summary>
 Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
-Das Team ist über das folgende Kontaktformular zu erreichen.
-<br>
-https://portal.ozg-vermittlungsdienst.de/contact
+
+Das Team ist über das folgende [Kontaktformular](https://portal.ozg-vermittlungsdienst.de/contact) zu erreichen.
 </details>
 <br>
 
@@ -72,5 +67,3 @@ Gibt es Vorgaben zur Sprache der Bekanntmachung oder zur Mehrsprachigkeit?
 Es gibt zwar keine Aussage zur Wahl der Sprache von Ausschreibungen in der Vergabeordnung, jedoch ist nach § 23 Abs. 1 Verwaltungsverfahrensgesetz (VwVfG) die Amtssprache deutsch. Dementsprechend ist zu erwarten, dass deutsche Behörden ihre Unterlagen immer mindestens in deutscher Sprache ausfertigen müssen. Mehrsprachigkeit ist natürlich möglich und erlaubt. Für Veröffentlichende Entitäten, die nicht als Behörde klassifiziert werden, ist die Veröffentlichung auch ohne deutsche Sprache in Ordnung.
 </details>
 <br>
-
---@include test.md
