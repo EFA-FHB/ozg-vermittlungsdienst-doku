@@ -52,6 +52,7 @@ In principle, all submitted notices are sent to TED or the announcement service 
 <summary>
 How can the Public Procurement Data Service team be contacted?
 </summary>
+
 The team can be reached via the following [contact form](https://portal.ozg-vermittlungsdienst.de/contact).
 </details>
 <br>
