@@ -33,7 +33,7 @@ As soon as the status of a TED notice has reached "published", no new version ma
 ### 1.2 New notice ID for changes [functionality 'Change-Notice']<span id='versions-change'>
 
 As soon as a notice is published on TED (i.e. has the status "Published"), a correction to this notice can only be made as a "Change". Changes are technically understood as a completely new notice and therefore also require a new notice ID. The version is set to 01 so that the versioning principle can also be used for changes to Changes (for the publication process at TED) (see point 1).<br><br>
-An announcement that is to be published as a change must refer in the change block (BT-758) to the announcement (incl. version number) that is published at TED. The content contains the entire new notice to be published including the new notice ID in BT-701.<br><br>
+An announcement that is to be published as a change must refer in the change block (BT-758) to the announcement (incl. version number) that is published at TED. The content contains the entire new notice to be published, including the new notice ID in BT-701.<br><br>
 The following representation of the corresponding BTs in the XML of any notice illustrates the above.
 
 ```
