@@ -14,7 +14,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion und Staging | DÖE inkl. BKMS | 25./26. Oktober 2025 | 07:00-12:00 | Quartalswartungen (inkl. Zeitumstellung) |
+|--------------|----------------|----------------------------|--------|--------|
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
@@ -30,9 +30,8 @@ Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion und Staging | DÖE inkl. BKMS | 25./26. Oktober 2025 | 07:00-12:00 | Quartalswartungen (inkl. Zeitumstellung) |
 | Produktion und Staging | SSP-Portal |22-23. Oktober 2025 | -- |Die STOP-Funktion über das SSP-Portal ist aktuell nicht funktionsfähig. Es wird empfohlen, den direkten Aufruf des Vermittlungsdienstes zu verwenden https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication - Behoben am 23. Oktober 2025 |
 | Staging | SSP-Portal | 06-17. Oktober 2025| -- | Authentifizierungsstörung - Behoben am 17. Oktober 2025 |
 | Staging | DÖE außer BKMS | 05-11. September 2025 | -- | Authentifizierungsstörung - Behoben am 11. September 2025 |
 | Produktion | Alle TED Apps und deren APIs | 28. August 2025 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs können von Störungen betroffen sein |
-| Produktion und Staging | DÖE  | 31. Juli 2025 | ab 16:00 | Ende der Supportfrist für eForms v1.2: Ab diesem Zeitpunkt werden Bekanntmachungen im Format v1.2 nicht mehr angenommen. Alle bis dahin akzeptierten und gültigen Bekanntmachungen werden weiterhin an TED und den Bekanntmachungsservice übermittelt und dort veröffentlicht. |
-| Produktion und Staging | DÖE inkl. BKMS | 26./27. Juli 2025 | 07:00-12:00 | Quartalswartungen |
