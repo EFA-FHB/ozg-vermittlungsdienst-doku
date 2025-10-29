@@ -1,8 +1,8 @@
 - Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
 - Upcoming maintenance windows](#upcoming-maintenance-windows)
-- Known bugs and errors](#known-bugs-and-errors)
+- Known bugs and malfunctions in recent months](#known-bugs-and-malfunctions-in-recent-months)
 - Notes](#notes)
-- Past-maintenance-windows-or-failures](#past-maintenance-windows-or-failures)
+- Past-maintenance-windows-or-bugs-of-the-last-months](#past-maintenance-windows-or-bugs-of-the-last-months)
 
 ## Notes for specialist procedure manufacturers
 - The doe_status INTERNAL_ERROR is NOT a final status, regardless of which ted_status it is combined with. This means that our support team takes a closer look at the notification and then, depending on the error message (e.g. 502 gateway timeout from TED or a Schematron error in terms of content), sets it either to doe_status REJECTED (finally rejected) or to doe_status ACCEPTED. This process is partially automated so that the announcement is automatically resubmitted in the event of connection errors with TED.
