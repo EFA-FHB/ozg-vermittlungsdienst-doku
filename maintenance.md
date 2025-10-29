@@ -1,8 +1,8 @@
 - [Hinweise für Fachverfahrenshersteller](#hinweise-für-fachverfahrenshersteller)
 - [Anstehende Wartungsfenster](#anstehende-wartungsfenster)
-- [Bekannte Bugs und Störungen](#bekannte-bugs-und-störungen)
+- [Bekannte Bugs und Störungen der letzten Monate](#bekannte-bugs-und-störungen-der-letzten-monate)
 - [Hinweise](#hinweise)
-- [Vergangene Wartungsfenster oder Störungen](#vergangene-wartungsfenster-oder-störungen)
+- [Vergangene Wartungsfenster oder Störungen der letzten Monate](#vergangene-wartungsfenster-oder-störungen-der-letzten-monate)
 
 ## Hinweise für Fachverfahrenshersteller
 - Der doe_status INTERNAL_ERROR ist KEIN finaler Status, egal mit welchem ted_status er kombiniert ist. Dieser bedeutet, dass sich unser Support die Bekanntmachung genauer anschaut und sie anschließend, je nach Fehlermeldung (z.B. 502 Gateway Timeout von TED oder ein inhaltlicher Schematron-Fehler) entweder auf doe_status REJECTED setzt (final abgelehnt) oder auf doe_status ACCEPTED. Dieser Prozess ist teilweise automatisiert, sodass bei Verbindungsfehlern mit TED die Bekanntmachung automatisch erneut übermittelt wird.
