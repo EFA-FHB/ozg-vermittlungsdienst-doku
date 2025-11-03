@@ -52,7 +52,7 @@ Grundsätzlich werden alle übermittelten Bekanntmachungen ohne Verzögerung an 
 Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
 
-Das Team ist über das folgende [Kontaktformular](https://portal.ozg-vermittlungsdienst.de/contact) zu erreichen.
+Das Team ist über das folgende [Kontaktformular](https://self-service.datenservice-oeffentlicher-einkauf.de/contact) zu erreichen.
 </details>
 <br>
 
