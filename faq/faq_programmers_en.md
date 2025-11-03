@@ -3,7 +3,7 @@
 
 - [Data service public purchasing](#datenservice-öffentlicher-einkauf)
 - [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- [General](#general)
+- [Open Data](#general)
 
 --@include faq/faq_public.md
 
