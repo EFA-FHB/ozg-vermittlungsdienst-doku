@@ -1,18 +1,18 @@
 ### Data Service Public Purchasing
 # Programmer
 
-- [Data service public purchasing](#datenservice-öffentlicher-einkauf)
-- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- [Open Data](#general)
+- Data service public purchasing](#datenservice-öffentlicher-einkauf)
+- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- OpenData-Interface](#general)
 
 --@include faq/faq_public.md
 
-# Open Data
+# OpenData interface
 ### General
 
 <details>
 <summary>
-Is the data contained in the announcement service freely available via the OpenData interface?
+Is the data contained in the Publication Service freely available via the OpenData interface?
 </summary>
 Yes, the data contained in the announcement service is freely available. It can be accessed via the OpenData interface of the Public Procurement Data Service (DÖE) - either via a REST API or via a PEPPOL query. Both access methods enable open, standardized retrieval of the published announcement data without access restrictions.
 </details>

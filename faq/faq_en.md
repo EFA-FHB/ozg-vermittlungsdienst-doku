@@ -275,11 +275,11 @@ Detailed information on the support of the eForms versions can be found here: ht
     The following forms are not included in the eForms-DE standard:
   
 | Form | Type | Description | Reason for non-implementation in eForms-DE |
-|-------------|----------------------------------|------------|---------------------|
-| 1 | Planning | Announcement of the publication of prior information in a buyer profile - general guideline | Information is contained in the buyer profile |
-| 2 | Planning | Publication of a periodic indicative notice in a buyer profile - __sectoral directive__ | Information is included in the buyer profile |
-| 3 | Planning | Notice of publication of a prior information notice on a buyer profile - Defense Procurement Directive | Information is included in the buyer profile |
-| T01 | Planning | Prior information notice on public passenger transport services | This is based on Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, the data collection for T1 takes place in the "eNotices" application directly at TED. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
+|-------------|------------------------------|------------|---------------------|
+| 1 | Planning | Notice of publication of prior information in a procurer profile - general guideline | Information is included in the procurer profile |
+| 2 | Planning | Publication of a periodic indicative notice in a buyer profile - __sector guideline__ | Information is included in the buyer profile |
+| 3 | Planning | Publication of a prior information notice in a buyer profile - Defense Procurement Directive | Information is included in the buyer profile |
+| T01 | Planning | Prior information notice on public passenger transport services | The basis is Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, data collection for T1 is carried out directly at TED in the "eNotices" application. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
 | T02 | Result | Notice on contracts awarded for public passenger transport services | The basis is Regulation (EC) No. 1370/2007, which continues to apply with updates. Currently, data collection for T2 is carried out directly at TED in the "eNotices" application. The eForms Regulation ((EU) 2019/1780) is the central basis for the VgV valid since 25.10.2023. Regulation (EC) No. 1370/2007 is not part of the eForms Regulation. |
 </details>
 <br>
