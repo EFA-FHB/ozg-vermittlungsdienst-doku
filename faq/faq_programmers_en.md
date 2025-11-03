@@ -7,7 +7,8 @@
 
 --@include faq/faq_public.md
 
-# General
+# Open Data
+### General
 
 <details>
 <summary>
