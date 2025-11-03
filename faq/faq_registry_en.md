@@ -7,4 +7,4 @@
 --@include faq/faq_public.md
 
 ---
-[Back to top](#procurement_office)
+[Back to top](#procurement-office)

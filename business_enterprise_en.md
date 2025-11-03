@@ -7,4 +7,4 @@
 --@include faq/faq_public.md
 
 ---
-[Go to top](#commercial_enterprises)
+[Go to top](#commercial-enterprises)
