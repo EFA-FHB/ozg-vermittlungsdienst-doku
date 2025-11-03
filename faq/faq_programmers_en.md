@@ -1,9 +1,9 @@
 ### Data Service Public Purchasing
 # Programmer
 
-- Data service public purchasing](#datenservice-öffentlicher-einkauf)
-- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- General](#general)
+- [Data service public purchasing](#datenservice-öffentlicher-einkauf)
+- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- [General](#general)
 
 --@include faq/faq_public.md
 
