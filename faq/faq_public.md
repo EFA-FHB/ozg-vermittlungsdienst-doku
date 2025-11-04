@@ -59,7 +59,7 @@ Das Team ist über das folgende [Kontaktformular](https://self-service.datenserv
 
 # Standard eForms-DE und SDK-DE
 
-### Allgemeine Fragen -> Mehrsprachigkeit
+### Fragen zur Mehrsprachigkeit
 <details>
 <summary>
 Gibt es Vorgaben zur Sprache der Bekanntmachung oder zur Mehrsprachigkeit?
