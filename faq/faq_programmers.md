@@ -32,7 +32,7 @@ Ja, die im Bekanntmachungsservice enthaltenen Daten sind frei verfügbar. Sie k�
 <summary>
 Wie aktuell sind die Daten, die über die OpenData-Sachnittstelle abrufbar sind?
 </summary>
- Über die REST-API der OpenData-Schnittstelle sind derzeit die Daten des Vortages verfügbar. Im Gegensatz dazu können über eine PEPPOL-Abfrage auch die am aktuellen Tag veröffentlichten Bekanntmachungen bereitgestellt werden. Dadurch stehen über PEPPOL die Informationen in der Regel **aktueller** zur Verfügung als über die REST-API.
+ Über die REST-API der OpenData-Schnittstelle sind derzeit die Daten des Vortages verfügbar. Im Gegensatz dazu können über eine PEPPOL-Abfrage auch die am aktuellen Tag veröffentlichten Bekanntmachungen bereitgestellt werden. Dadurch stehen über PEPPOL die Informationen in der Regel aktueller zur Verfügung als über die REST-API.
 </details>
 <br>
 
