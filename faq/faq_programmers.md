@@ -8,7 +8,7 @@
 --@include faq/faq_public.md
 
 # OpenData-Schnittstelle
-### Allgemein
+### Allgemeine Fragen
 
 <details>
 <summary>
