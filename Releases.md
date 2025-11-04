@@ -3,6 +3,8 @@
 
 <br />
 
+- November 2025
+  - [Release fürs SSP-Portal und die neue Info-Seite](#Release-fürs-SSP-Portal-und-die-neue-Info-Seite)
 - August 2025
   - [Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren](#Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren)
 - Juli 2025
@@ -58,6 +60,28 @@
   - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <br />
+
+<a id=Release-fürs-SSP-Portal-und-die-neue-Info-Seite></a>
+## Release fürs SSP-Portal und die neue Info-Seite
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 04.11.2025                  | Veröffentlicht |
+| Staging    | 11.11.2025                  | Ausstehend |
+| Produktion | 18.11.2025                  | Ausstehend |
+
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### SSP-Portal
+- Einige Dokumentationsseiten sind nun nur noch für eingeloggte Benutzer zugänglich
+- Die von TED bereitgestellte Einschätzung zur Veröffentlichung wird nun im Dashboard angezeigt
+
+### Info-Seite
+- Eine neue Info-Seite wurde erstellt, um zentrale Inhalte strukturiert und benutzerfreundlich bereitzustellen
+  
+</details>
 
 <a id=Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren></a>
 ## Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren
@@ -957,6 +981,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 - Mehrere Optimierungen und Fehlerbehebungen
 </details>
 <br>
+
 
 
 
