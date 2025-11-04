@@ -76,7 +76,6 @@ Status: In QS <br>
 
 ### SSP-Portal
 - Einige Dokumentationsseiten sind nun nur noch für eingeloggte Benutzer zugänglich
-- Die von TED bereitgestellte Einschätzung zur Veröffentlichung wird nun im Dashboard angezeigt
 
 ### Info-Seite
 - Eine neue Info-Seite wurde erstellt, um zentrale Inhalte strukturiert und benutzerfreundlich bereitzustellen
@@ -981,6 +980,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 - Mehrere Optimierungen und Fehlerbehebungen
 </details>
 <br>
+
 
 
 
