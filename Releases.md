@@ -9,7 +9,7 @@
   - [Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren](#Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren)
 - Juli 2025
   - [Release für Notice-Viewer](#Release-für-Notice-Viewer)
-  - [Release für eSender-Hub](#Release-für-eSender-Hub)     
+  - [Release für eSender-Hub](#Release-für-eSender-Hub)
 - Mai 2025
   - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)     
   - [Hotfix Release für den Vermittlungsdienst](#Hotfix-Release-für-den-Vermittlungsdienst)
@@ -20,6 +20,10 @@
 - Februar 2025
   - [Hotfix Release für alle Validatoren sowie für den Notice-Viewer](#Hotfix-Release-für-alle-Validatoren-sowie-für-den-Notice-Viewer)
   - [Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer](#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer)
+ 
+ <details>
+<summary>Weitere vergangene Releases einsehen</summary>
+    
 - Dezember 2024
   - [Hotfix Release für alle Validatoren und für den SSP-Portal](#Hotfix-Release-für-alle-Validatoren-und-für-den-SSP-Portal)
 - November 2024
@@ -981,6 +985,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 </details>
 <br>
 
+</details>
 
 
 
