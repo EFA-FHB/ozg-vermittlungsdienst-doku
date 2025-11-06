@@ -297,7 +297,7 @@ Die Publikation des SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155
 ## Allgemein
 [Zum Anfang](#häufig-gestellte-fragen)
 
-### eNotices Portal der EU
+### Publikationsplattform der EU (TED)
 
  <details> 
 <summary>
@@ -335,6 +335,7 @@ Der Standard XVergabe wird dauerhaft durch eForms-DE ersetzt und nicht weiterent
 
 ---
 [Zum Anfang](#häufig-gestellte-fragen)
+
 
 
 
