@@ -25,7 +25,7 @@ Status: In QA <br>
 <summary>Release notes</summary>
 
 ### SSP portal
-- Some documentation pages are now only accessible for logged-in users
+- Some documentation pages are now only accessible for logged in users
 
 ### Info page
 - A new info page has been created to provide central content in a structured and user-friendly way
@@ -84,8 +84,8 @@ Status: Published on 24.07.2025 <br>
 
 <br>
 
-  <details>
-<summary>View other past releases</summary>
+<details>
+<summary><strong><span style="font-size:1.5;">View other past releases</span></strong></summary>
 
 <br>
 
@@ -609,7 +609,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
@@ -806,7 +806,7 @@ Status: Published on 4.10.2023 <br>
 <summary>Release notes</summary>
 
 ### Self-Service Portal
->**environments** <br>
+>**Environments** <br>
 >NEW: Preview https://portal.preview-ozg-vermittlungsdienst.de <br>
 >NEW: Staging https://portal.staging-ozg-vermittlungsdienst.de <br>
 >NEW: Production https://portal.ozg-vermittlungsdienst.de<br>
@@ -988,6 +988,7 @@ Preview environment https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
