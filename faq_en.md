@@ -1,7 +1,7 @@
 ### Public procurement data service
 # Frequently asked questions
 
-- Data service public procurement](#datenservice-öffentlicher-einkauf)
+- Data service for public procurement](#datenservice-öffentlicher-einkauf)
 - Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 - General](#general)
 
@@ -22,7 +22,7 @@ It does NOT provide an interface for creating announcements! Only machine-to-mac
 <br>
 **[Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/)**: The Self-Service Portal (SSP) is a web interface for the account management of Vermittlungsdienst accounts. It is primarily used by specialist procedure manufacturers to view the status information of submitted notices in a dashboard.
 <br>
-**Announcement service](https://oeffentlichevergabe.de/)**: All EU-wide and national notices sent via the eSender Hub are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, further convenient functions such as saving search functions and notification services are also available. Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
+**Announcement service](https://oeffentlichevergabe.de/)**: All EU-wide and national notices sent via the eSender Hub are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, additional convenient functions such as saving search functions and notification services are also available. Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
 <br>
 </details>
 <br>

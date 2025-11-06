@@ -42,7 +42,7 @@ The portal offers the following main functions:
 * Create admin accounts in the SSP for specialist procedure manufacturers (SSP admin accounts)
 * After successful verification: Create VD accounts and dashboard users with SSP admin account (replaces account creation by e-mail)
 * With dashboard user account: View overview of announcements
-* SSP admin account can manage users and assign rights (e.g. create users who can view announcements) <br>
+* SSP admin account can perform user management and rights assignment (e.g. create users who can view announcements) <br>
 
 ## User information
 ### Create account

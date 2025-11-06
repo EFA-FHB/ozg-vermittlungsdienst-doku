@@ -29,7 +29,7 @@ It does NOT provide an interface for creating announcements! Only machine-to-mac
 
 <details>
 <summary>
-One e-mail address must be entered as the user name for each registration. Is it possible to enter the same e-mail address for multiple systems?
+One e-mail address must be entered as the user name for each registration. Is it possible to enter the same e-mail address for several systems?
 </summary>
 <br>
 In general, two e-mail addresses are requested per account (sometimes also referred to as a client): An e-mail address for activating the account and a contact e-mail address. An individual e-mail address is required per account for activation in order to set the password for the account and to enable unique authentication with the combination of e-mail and password. The account e-mail address can also be a functional mailbox and is only required to manage the account. The contact e-mail address is used if questions arise during operation regarding an announcement that was sent from this account. The contact e-mail address and account e-mail address may be identical and the same contact e-mail address (e.g. a central contact person) may be used for several accounts. However, the same account e-mail address can be used for the three system environments Preview, Staging and Production. We generally recommend one account per awarding platform.
