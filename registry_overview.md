@@ -1,4 +1,4 @@
-# Registry - Vergabestelle
+# Vergabestelle
 <br>
 
 ## Verfügbare Bereiche

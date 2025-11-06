@@ -1,5 +1,5 @@
 ### Data Service Public Purchasing
-# Programmer
+# Programmers
 
 - Data service public purchasing](#datenservice-öffentlicher-einkauf)
 - Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
@@ -8,7 +8,7 @@
 --@include faq/faq_public.md
 
 # OpenData interface
-### General
+### General questions
 
 <details>
 <summary>
@@ -32,7 +32,7 @@ Yes, the data contained in the announcement service is freely available. It can 
 <summary>
 How up-to-date is the data that can be accessed via the OpenData interface?
 </summary>
- The previous day's data is currently available via the REST API of the OpenData interface. In contrast, the announcements published on the current day can also be made available via a PEPPOL query. This means that the information is usually **more up-to-date** via PEPPOL than via the REST API.
+ The previous day's data is currently available via the REST API of the OpenData interface. In contrast, the announcements published on the current day can also be made available via a PEPPOL query. This means that the information is generally more up-to-date via PEPPOL than via the REST API.
 </details>
 <br>
 

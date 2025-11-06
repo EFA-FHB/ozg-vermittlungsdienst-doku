@@ -16,7 +16,7 @@ This connection is implemented by the specialist procedure manufacturer.
 <br>
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: The Self-Service Portal (SSP) is a web interface for the account management of Vermittlungsdienst accounts. It is primarily used by specialist procedure manufacturers to view the status information of submitted notices in a dashboard.
 <br>
-**Announcement service](https://oeffentlichevergabe.de/)**: All EU-wide and national notices sent via the eSender HUB are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, additional convenient functions such as saving search functions and notification services are also available.
+**Announcement service](https://oeffentlichevergabe.de/)**: All EU-wide and national notices sent via the eSender HUB are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, further convenient functions such as saving search functions and notification services are also available.
 Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
 </details>
 <br>
@@ -52,14 +52,14 @@ In principle, all submitted notices are sent to TED or the announcement service 
 How can the Public Procurement Data Service team be contacted?
 </summary>
 
-The team can be reached via the following [contact form](https://portal.ozg-vermittlungsdienst.de/contact).
+The team can be reached via the following [contact form](https://self-service.datenservice-oeffentlicher-einkauf.de/contact).
 </details>
 <br>
 
 
 # Standard eForms-DE and SDK-DE
 
-### General questions -> Multilingualism
+### Questions about multilingualism
 <details>
 <summary>
 Are there specifications for the language of the notice or for multilingualism?
