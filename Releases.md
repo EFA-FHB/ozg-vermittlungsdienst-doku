@@ -84,8 +84,8 @@ Status: Veröffentlicht am 24.07.2025 <br>
 
 <br>
 
-  <details>
-<summary>Weitere vergangene Releases einsehen</summary>
+<details>
+<summary><strong><span style="font-size:1.5;">Weitere vergangene Releases einsehen</span></strong></summary>
 
 <br>
 
@@ -988,6 +988,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
