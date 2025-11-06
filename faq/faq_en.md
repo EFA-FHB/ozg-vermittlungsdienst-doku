@@ -1,7 +1,7 @@
 ### Public procurement data service
 # Frequently asked questions
 
-- Data service for public procurement](#datenservice-öffentlicher-einkauf)
+- Data service public procurement](#datenservice-öffentlicher-einkauf)
 - Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 - General](#general)
 
@@ -22,17 +22,17 @@ It does NOT provide an interface for creating announcements! Only machine-to-mac
 <br>
 **[Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/)**: The Self-Service Portal (SSP) is a web interface for the account management of Vermittlungsdienst accounts. It is primarily used by specialist procedure manufacturers to view the status information of submitted notices in a dashboard.
 <br>
-**Announcement service](https://oeffentlichevergabe.de/)**: All EU-wide and national notices sent via the eSender Hub are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, additional convenient functions such as saving search functions and notification services are also available. Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
+**Announcement service](https://oeffentlichevergabe.de/)**: All EU-wide and national notices sent via the eSender Hub are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, further convenient functions such as saving search functions and notification services are also available. Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
 <br>
 </details>
 <br>
 
 <details>
 <summary>
-One e-mail address must be entered as the user name for each registration. Is it possible to enter the same e-mail address for several systems?
+One e-mail address must be entered as the user name for each registration. Is it possible to enter the same e-mail address for multiple systems?
 </summary>
 <br>
-In general, two e-mail addresses are requested per account (sometimes also referred to as a client): An e-mail address for activating the account and a contact e-mail address. An individual email address is required per account for activation in order to set the password for the account and to enable unique authentication with the combination of email and password. The account e-mail address can also be a functional mailbox and is only required to manage the account. The contact e-mail address is used if questions arise during operation regarding an announcement that was sent from this account. The contact e-mail address and account e-mail address may be identical and the same contact e-mail address (e.g. a central contact person) may be used for several accounts. However, the same account e-mail address can be used for the three system environments Preview, Staging and Production. We generally recommend one account per awarding platform.
+In general, two e-mail addresses are requested per account (sometimes also referred to as a client): An e-mail address for activating the account and a contact e-mail address. An individual e-mail address is required per account for activation in order to set the password for the account and to enable unique authentication with the combination of e-mail and password. The account e-mail address can also be a functional mailbox and is only required to manage the account. The contact e-mail address is used if questions arise during operation regarding an announcement that was sent from this account. The contact e-mail address and account e-mail address may be identical and the same contact e-mail address (e.g. a central contact person) may be used for several accounts. However, the same account e-mail address can be used for the three system environments Preview, Staging and Production. We generally recommend one account per awarding platform.
 </details>
 <br>
 

@@ -59,7 +59,7 @@ The team can be reached via the following [contact form](https://self-service.da
 
 # Standard eForms-DE and SDK-DE
 
-### General questions -> Multilingualism
+### Questions about multilingualism
 <details>
 <summary>
 Are there specifications for the language of the notice or for multilingualism?
