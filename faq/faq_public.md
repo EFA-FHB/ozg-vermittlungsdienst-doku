@@ -25,7 +25,7 @@ Des Weiteren können die Daten des Bekanntmachungsservice über eine Open Data S
 <summary>
 Welche Vergabeplattformen sind an den Datenservice Öffentlicher Einkauf angebunden?
 </summary>
-Derzeit sind rund 87 Vergabeplattformen aus dem gesamten Bundesgebiet an den Datenservice Öffentlicher Einkauf (DÖE) angebunden. Über diese Anbindungen werden die Bekanntmachungen aus den verschiedenen regionalen und bundesweiten Vergabeplattformen zentral zusammengeführt und bereitgestellt.
+Derzeit sind rund 92 (Stand 2025) Vergabeplattformen aus dem gesamten Bundesgebiet an den Datenservice Öffentlicher Einkauf (DÖE) angebunden. Über diese Anbindungen werden die Bekanntmachungen aus den verschiedenen regionalen und bundesweiten Vergabeplattformen zentral zusammengeführt und bereitgestellt.
 </details>
 <br>
 
