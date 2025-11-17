@@ -20,7 +20,7 @@ Mit dem Redaktionssystem können Bekanntmachungen zu europaweiten Vergabeverfahr
 **[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Der Vermittlungsdienst ist eine rein technische Schnittstelle zur Annahme, Validierung und Weiterleitung von Bekanntmachungen an TED und den Bekanntmachungsservice. 
 Er bietet KEINE Oberfläche zum Erstellen von Bekanntmachungen! Es ist ausschließlich eine Maschine-zu-Maschine Kommunikation möglich, wie z.B. mit einer Vergabestellensoftware. Diese Anbindung wird durch den Fachverfahrenshersteller durchgeführt. 
 <br>
-**[Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/)**: Das Self-Service-Portal (SSP) ist eine Web-Oberfläche für das Accountmanagement von Accounts des Vermittlungsdienstes. Primär genutzt wird es durch Fachverfahrenshersteller zur Ansicht der Statusinformationen von eingelieferten Bekanntmachungen in einem Dashboard.
+**[Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/)**: Das Self-Service-Portal (SSP) ist eine Web-Oberfläche für das Accountmanagement von Accounts des Vermittlungsdienstes. Primär genutzt wird es durch Fachverfahrenshersteller zur Ansicht der Statusinformationen von eingelieferten Bekanntmachungen in einem Dashboard.
 <br>
 **[Bekanntmachungsservice](https://oeffentlichevergabe.de/)**: Im Bekanntmachungsservice werden alle über den eSender-Hub versendeten EU-weiten und nationalen Bekanntmachungen veröffentlicht. Der Bekanntmachungsservice bietet eine Vielzahl an Recherchemöglichkeiten, damit Bietende ihrem Leistungsspektrum entsprechend zielgenau Bekanntmachungen finden können. Mit Nutzung des ELSTER-Unternehmenskontos stehen zudem weitere Komfortfunktionen wie Speicherung von Suchfunktionen und Benachrichtigungsservices zur Verfügung. Des Weiteren können die Daten des Bekanntmachungsservice über eine Open Data Schnittstelle in den Formaten eForms-DE, CSV und OCDS nachgenutzt werden. 
 <br>
@@ -79,7 +79,7 @@ Da die Bekanntmachungen bei TED auf Preview und Staging etwas schneller prozessi
 Zur Anforderung von Accounts soll die URL der Vergabeplattform angegeben werden. Wozu dient diese Angabe?
 </summary>
 <br>
-Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden zu können, den korrekten Zugang zu ermöglichen und Duplikate zu vermeiden. Vergabeplattformen sind die Systeme, in denen Bekanntmachungen veröffentlicht werden, die URL der Vergabeplattform kann so z.B. alpha.oeffentlichevergabe.de (Test-Umgebung des Bekanntmachungsservices) sein. Mit dieser URL wird identifiziert, auf welcher Plattform Bekanntmachungen derzeit veröffentlicht werden. Bei diesem Thema ist es klar, dass es hier unterschiedliche Vorgehensweisen je nach Struktur des Systems der jeweiligen FVH geben kann. Prinzipiell gilt, dass sie einen Account pro System benötigen, das zukünftig in den Vermittlungsdient einliefern soll. Bei Unsicherheiten, welche Systeme/ Plattformen an den Vermittlungsdienst anzuschließen sind, kann eine Klärung mit Nutzung des Kontaktformulars herbeigeführt werden https://portal.ozg-vermittlungsdienst.de/contact. 
+Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden zu können, den korrekten Zugang zu ermöglichen und Duplikate zu vermeiden. Vergabeplattformen sind die Systeme, in denen Bekanntmachungen veröffentlicht werden, die URL der Vergabeplattform kann so z.B. alpha.oeffentlichevergabe.de (Test-Umgebung des Bekanntmachungsservices) sein. Mit dieser URL wird identifiziert, auf welcher Plattform Bekanntmachungen derzeit veröffentlicht werden. Bei diesem Thema ist es klar, dass es hier unterschiedliche Vorgehensweisen je nach Struktur des Systems der jeweiligen FVH geben kann. Prinzipiell gilt, dass sie einen Account pro System benötigen, das zukünftig in den Vermittlungsdient einliefern soll. Bei Unsicherheiten, welche Systeme/ Plattformen an den Vermittlungsdienst anzuschließen sind, kann eine Klärung mit Nutzung des Kontaktformulars herbeigeführt werden https://self-service.datenservice-oeffentlicher-einkauf.de/contact. 
 </details>
 <br>
 
@@ -99,7 +99,7 @@ Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespie
 Gibt es eine Roadmap zur Weiterentwicklung der Komponenten des Datenservice Öffentlicher Einkauf?
 </summary>
 <br>
-Ja. Die Informationen stehen hier: https://portal.ozg-vermittlungsdienst.de/roadmap
+Ja. Die Informationen stehen hier: https://self-service.datenservice-oeffentlicher-einkauf.de/roadmap
 </details>
 <br>
 
@@ -111,7 +111,7 @@ Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
 Das Team ist über das folgende Kontaktformular zu erreichen:
 <br>
-Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal auf https://portal.ozg-vermittlungsdienst.de/contact
+Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal auf https://self-service.datenservice-oeffentlicher-einkauf.de/contact
 <br>
 Fragen/Anmerkungen zum Redaktionssystem auf https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
 <br>
@@ -159,7 +159,7 @@ Die Github-Dokumentation (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku
 Wie kann für ein Release ermittelt werden, welche eForms-Versionen die Teilkomponenten unterstützen?   
 </summary>
 <br>
-Unter https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. Für jedes Release werden Release Notes veröffentlicht, um zu beschreiben, welche Komponente welche Version unterstützt.
+Unter https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. Für jedes Release werden Release Notes veröffentlicht, um zu beschreiben, welche Komponente welche Version unterstützt.
 </details>
 <br>
 
@@ -169,7 +169,7 @@ Ist die Dokumentation zum Vermittlungsdienst (https://github.com/EFA-FHB/ozg-ver
 </summary>
 <br>
 
-Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weiteres die offizielle Dokumentation. Die Dokumentation wird zugleich im [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/) veröffentlicht.
+Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weiteres die offizielle Dokumentation. Die Dokumentation wird zugleich im [Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/) veröffentlicht.
 </details>
 <br>
 
@@ -245,7 +245,7 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
  Welche Versionen des Standards eForms-DE werden aktuell unterstützt?
 </summary>
 <br>
-Ausführliche Informationen zur Unterstützung der eForms-Versionen stehen hier: https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support
+Ausführliche Informationen zur Unterstützung der eForms-Versionen stehen hier: https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support
 </details>
 <br>
 
@@ -297,7 +297,7 @@ Die Publikation des SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155
 ## Allgemein
 [Zum Anfang](#häufig-gestellte-fragen)
 
-### eNotices Portal der EU
+### Publikationsplattform der EU (TED)
 
  <details> 
 <summary>
@@ -335,6 +335,7 @@ Der Standard XVergabe wird dauerhaft durch eForms-DE ersetzt und nicht weiterent
 
 ---
 [Zum Anfang](#häufig-gestellte-fragen)
+
 
 
 

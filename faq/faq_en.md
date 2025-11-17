@@ -1,7 +1,7 @@
 ### Public procurement data service
 # Frequently asked questions
 
-- Data service for public procurement](#datenservice-öffentlicher-einkauf)
+- Data service public procurement](#datenservice-öffentlicher-einkauf)
 - Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 - General](#general)
 
@@ -20,7 +20,7 @@ The editing system can be used to record, edit and correct notices for Europe-wi
 **[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: The Vermittlungsdienst is a purely technical interface for accepting, validating and forwarding notices to TED and the Notice Service.
 It does NOT provide an interface for creating announcements! Only machine-to-machine communication is possible, e.g. with awarding office software. This connection is implemented by the specialist procedure manufacturer.
 <br>
-**[Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/)**: The Self-Service Portal (SSP) is a web interface for the account management of Vermittlungsdienst accounts. It is primarily used by specialist procedure manufacturers to view the status information of submitted notices in a dashboard.
+**[Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/)**: The Self-Service Portal (SSP) is a web interface for the account management of Vermittlungsdienst accounts. It is primarily used by specialist procedure manufacturers to view the status information of submitted notices in a dashboard.
 <br>
 **Announcement service](https://oeffentlichevergabe.de/)**: All EU-wide and national notices sent via the eSender Hub are published in the notice service. The announcement service offers a wide range of search options so that bidders can find announcements in line with their range of services. When using the ELSTER company account, additional convenient functions such as saving search functions and notification services are also available. Furthermore, the data of the announcement service can be reused via an open data interface in the formats eForms-DE, CSV and OCDS.
 <br>
@@ -79,7 +79,7 @@ As the announcements are processed slightly faster on Preview and Staging with T
 The URL of the allocation platform should be specified to request accounts. What is the purpose of this information?
 </summary>
 <br>
-The purpose of specifying the URL is to distinguish between the systems mentioned, to enable correct access and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment of the public procurement service), for example. This URL identifies the platform on which notices are currently published. It is clear that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you need one account for each system that is to be used in the future for delivery to the mediation service. If you are unsure which systems/platforms should be connected to the Vermittlungsdienst, you can clarify this by using the contact form https://portal.ozg-vermittlungsdienst.de/contact.
+The purpose of specifying the URL is to distinguish between the systems mentioned, to enable correct access and to avoid duplicates. Public procurement platforms are the systems in which notices are published; the URL of the public procurement platform can be alpha.oeffentlichevergabe.de (test environment of the public procurement service), for example. This URL identifies the platform on which notices are currently published. It is clear that there may be different procedures depending on the structure of the system of the respective FVH. In principle, you need one account for each system that is to be used in the future for delivery to the brokerage service. If you are unsure which systems/platforms should be connected to the Vermittlungsdienst, you can clarify this by using the contact form https://self-service.datenservice-oeffentlicher-einkauf.de/contact.
 </details>
 <br>
 
@@ -99,7 +99,7 @@ The preview environment is only used for testing. Updates are often installed he
 Is there a roadmap for the further development of the components of the Public Procurement Data Service?
 </summary>
 <br>
-Yes, the information is available here: https://portal.ozg-vermittlungsdienst.de/roadmap
+Yes, the information is available here: https://self-service.datenservice-oeffentlicher-einkauf.de/roadmap
 </details>
 <br>
 
@@ -111,7 +111,7 @@ How can the Public Procurement Data Service team be contacted?
 </summary>
 The team can be reached via the following contact form:
 <br>
-Questions/comments about the Vermittlungsdienst/self-service portal at https://portal.ozg-vermittlungsdienst.de/contact
+Questions/comments about the Vermittlungsdienst/self-service portal at https://self-service.datenservice-oeffentlicher-einkauf.de/contact
 <br>
 Questions/comments about the editorial system at https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
 <br>
@@ -159,7 +159,7 @@ The Github documentation (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku
 How can I determine which eForms versions the subcomponents support for a release?   
 </summary>
 <br>
-The eForms versions supported by the subcomponents are documented at https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support. Release notes are published for each release to describe which component supports which version.
+The eForms versions supported by the subcomponents are documented at https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support. Release notes are published for each release to describe which component supports which version.
 </details>
 <br>
 
@@ -169,7 +169,7 @@ Is the documentation for the Vermittlungsdienst (https://github.com/EFA-FHB/ozg-
 </summary>
 <br>
 
-Yes, the Github documentation is updated regularly and is the official documentation until further notice. The documentation is also published in the [Self-Service Portal](https://portal.ozg-vermittlungsdienst.de/).
+Yes, the Github documentation is updated regularly and is the official documentation until further notice. The documentation is also published in the [Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/).
 </details>
 <br>
 
@@ -245,7 +245,7 @@ Yes, productive use of the Online Validator is supported. In the production envi
  Which versions of the eForms-DE standard are currently supported?
 </summary>
 <br>
-Detailed information on the support of the eForms versions can be found here: https://portal.ozg-vermittlungsdienst.de/documentation/eForms_support
+Detailed information on the support of the eForms versions can be found here: https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support
 </details>
 <br>
 

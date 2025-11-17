@@ -25,7 +25,7 @@ Des Weiteren können die Daten des Bekanntmachungsservice über eine Open Data S
 <summary>
 Welche Vergabeplattformen sind an den Datenservice Öffentlicher Einkauf angebunden?
 </summary>
-Derzeit sind rund 87 Vergabeplattformen aus dem gesamten Bundesgebiet an den Datenservice Öffentlicher Einkauf (DÖE) angebunden. Über diese Anbindungen werden die Bekanntmachungen aus den verschiedenen regionalen und bundesweiten Vergabeplattformen zentral zusammengeführt und bereitgestellt.
+Derzeit sind rund 92 (Stand 2025) Vergabeplattformen aus dem gesamten Bundesgebiet an den Datenservice Öffentlicher Einkauf (DÖE) angebunden. Über diese Anbindungen werden die Bekanntmachungen aus den verschiedenen regionalen und bundesweiten Vergabeplattformen zentral zusammengeführt und bereitgestellt.
 </details>
 <br>
 
@@ -52,14 +52,14 @@ Grundsätzlich werden alle übermittelten Bekanntmachungen ohne Verzögerung an 
 Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
 
-Das Team ist über das folgende [Kontaktformular](https://portal.ozg-vermittlungsdienst.de/contact) zu erreichen.
+Das Team ist über das folgende [Kontaktformular](https://self-service.datenservice-oeffentlicher-einkauf.de/contact) zu erreichen.
 </details>
 <br>
 
 
 # Standard eForms-DE und SDK-DE
 
-### Allgemeine Fragen -> Mehrsprachigkeit
+### Fragen zur Mehrsprachigkeit
 <details>
 <summary>
 Gibt es Vorgaben zur Sprache der Bekanntmachung oder zur Mehrsprachigkeit?

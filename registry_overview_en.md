@@ -1,4 +1,4 @@
-# Registry - Allocation office
+# Awarding authority
 <br>
 
 ## Available areas

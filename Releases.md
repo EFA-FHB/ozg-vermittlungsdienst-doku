@@ -3,61 +3,34 @@
 
 <br />
 
+- November 2025
+  - [Release fürs SSP-Portal und die neue Info-Seite](#Release-fürs-SSP-Portal-und-die-neue-Info-Seite)
 - August 2025
   - [Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren](#Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren)
 - Juli 2025
   - [Release für Notice-Viewer](#Release-für-Notice-Viewer)
-  - [Release für eSender-Hub](#Release-für-eSender-Hub)     
-- Mai 2025
-  - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)     
-  - [Hotfix Release für den Vermittlungsdienst](#Hotfix-Release-für-den-Vermittlungsdienst)
-- April 2025
-  - [Release für alle DÖE Komponenten](#Release-für-alle-DÖE-Komponenten)
-- März 2025
-  - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)
-- Februar 2025
-  - [Hotfix Release für alle Validatoren sowie für den Notice-Viewer](#Hotfix-Release-für-alle-Validatoren-sowie-für-den-Notice-Viewer)
-  - [Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer](#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer)
-- Dezember 2024
-  - [Hotfix Release für alle Validatoren und für den SSP-Portal](#Hotfix-Release-für-alle-Validatoren-und-für-den-SSP-Portal)
-- November 2024
-  - [Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator](#Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validator)
-- Juli 2024
-  - [Hotfix Release für Web-Validator](#Hotfix-Release-for-Web-Validators)
-  - [Hotfix Release für den Core-Validator](#Hotfix-Release-for-Core-Validator)
-- Mai 2024
-  - [Release für SSP-Portal, Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren](#Release-für-SSP-Portal,-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren)
-  - [Hotfix Release für SSP-Portal](#Hotfix-Release-for-SSP-Portal)
-- April 2024
-  - [Hotfix Release für Notice-Viewer](#Hotfix-Release-for-Notice-Viewer)
-  - [Hotfix Release für eSender and Notice-Viewer](#Hotfix-Release-for-eSender-and-Notice-Viewer)
-- März 2024
-  - [Hotfix Release für eForms-DE-v1.2 Patch](#Release-for-DE-1.2-patch)
-- Februar 2024
-  - [Release Standard eForms-DE v1.2.0 und SDK-DE](#Release-Standard-eForms-DE-v1.2.0-und-SDK-DE)
-- Januar 2024
-  - [Release für Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
-- Dezember 2023
-  - [Release für Validierung (eForms-DE 1.1 Mehrsprachigkeit)](#Release-für-Validierung)
-  - [Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
-- November 2023
-  - [Hotfix Release für Vermittlungsdienst und eSender](#Release-für-Vermittlungsdienst-und-eSender)
-  - [Hotfix Release für Validator, Vermittlungsdienst und eSender](#Release-für-Validator-Mediator-und-eSender)  
-  - [Hotfix Release für Notice-Viewer, Validator und Vermittlungsdienst](#Release-für-notice-Viewer-Mediator-und-Validator)
-- Oktober 2023
-  - [Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe](#Release-für-Notice-Viewer-PDF-Dokumente-+-synchrone-Aufrufe)
-  - [Release für Self-Service Portal, Registrierungsform für einen separaten Vermittlungsdienst-Account](#Release-für-Self-Service-Portal,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account)
-- September 2023
-  - [Release für RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-für-RequestedPublicationDate-Fix-+-Notice-Viewer-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer)
-  - [Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub](#Release-für-eForms-DE-1.1-Vermittlungsdienst-und-eSender-Hub)
-- August 2023
-  - [Release Offline-Validator für eForms-DE 1.0.1 und 1.1.0](#Release-Offline-Validator-für-eForms-DE-1.0.1-und-1.1.0)
-- Juni 2023
-  - [Production Release Juni - Vermittlungsdienst & eSender-Hub](#Production-Release-Juni-Vermittlungsdienst-&-eSender-Hub)
-- Mai 2023
-  - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
+  - [Release für eSender-Hub](#Release-für-eSender-Hub)
 
-<br />
+<a id=Release-fürs-SSP-Portal-und-die-neue-Info-Seite></a>
+## Release fürs SSP-Portal und die neue Info-Seite
+| Umgebung   | Zeitraum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 04.11.2025                  | Veröffentlicht |
+| Staging    | 01.12.2025                  | Ausstehend |
+| Produktion | 16.12.2025                  | Ausstehend |
+
+
+Status: In Arbeit <br>
+<details>
+<summary>Release Notes</summary>
+
+### SSP-Portal
+- Einige Dokumentationsseiten sind nun nur noch für eingeloggte Benutzer zugänglich
+
+### Info-Seite
+- Eine neue Info-Seite wurde erstellt, um zentrale Inhalte strukturiert und benutzerfreundlich bereitzustellen
+  
+</details>
 
 <a id=Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren></a>
 ## Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren
@@ -108,6 +81,62 @@ Status: Veröffentlicht am 24.07.2025 <br>
 - Es wurde das Zahlenformat für Summenbeträge bei der PDF-Generierung korrigiert
 
 </details>
+
+<br>
+
+<details>
+<summary><strong><span style="font-size:1.5em;">Weitere vergangene Releases einsehen</span></strong></summary>
+
+<br>
+
+- Mai 2025
+  - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)     
+  - [Hotfix Release für den Vermittlungsdienst](#Hotfix-Release-für-den-Vermittlungsdienst)
+- April 2025
+  - [Release für alle DÖE Komponenten](#Release-für-alle-DÖE-Komponenten)
+- März 2025
+  - [Hotfix Release für alle Validatoren](#Hotfix-Release-für-alle-Validatoren)
+- Februar 2025
+  - [Hotfix Release für alle Validatoren sowie für den Notice-Viewer](#Hotfix-Release-für-alle-Validatoren-sowie-für-den-Notice-Viewer)
+  - [Preview-Release für den Vermittlungsdienst, alle Validatoren und den Notice-Viewer](#preview-release-für-den-vermittlungsdienst-alle-validatoren-und-den-notice-viewer)
+- Dezember 2024
+  - [Hotfix Release für alle Validatoren und für den SSP-Portal](#Hotfix-Release-für-alle-Validatoren-und-für-den-SSP-Portal)
+- November 2024
+  - [Release für den Vermittlungsdienst, eSender-Hub, Notice-Viewer und den Validator](#Release-für-den-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-den-Validator)
+- Juli 2024
+  - [Hotfix Release für Web-Validator](#Hotfix-Release-for-Web-Validators)
+  - [Hotfix Release für den Core-Validator](#Hotfix-Release-for-Core-Validator)
+- Mai 2024
+  - [Release für SSP-Portal, Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren](#Release-für-SSP-Portal,-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren)
+  - [Hotfix Release für SSP-Portal](#Hotfix-Release-for-SSP-Portal)
+- April 2024
+  - [Hotfix Release für Notice-Viewer](#Hotfix-Release-for-Notice-Viewer)
+  - [Hotfix Release für eSender and Notice-Viewer](#Hotfix-Release-for-eSender-and-Notice-Viewer)
+- März 2024
+  - [Hotfix Release für eForms-DE-v1.2 Patch](#Release-for-DE-1.2-patch)
+- Februar 2024
+  - [Release Standard eForms-DE v1.2.0 und SDK-DE](#Release-Standard-eForms-DE-v1.2.0-und-SDK-DE)
+- Januar 2024
+  - [Release für Vermittlungsdienst, Self-Service Portal, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
+- Dezember 2023
+  - [Release für Validierung (eForms-DE 1.1 Mehrsprachigkeit)](#Release-für-Validierung)
+  - [Release für Self-Service Portal, Vermittlungsdienst, eSender, Notice-Viewer und Validator](#Release-für-Self-Service-Portal,-Vermittlungsdienst,-eSender,-Notice-Viewer-und-Validator)
+- November 2023
+  - [Hotfix Release für Vermittlungsdienst und eSender](#Release-für-Vermittlungsdienst-und-eSender)
+  - [Hotfix Release für Validator, Vermittlungsdienst und eSender](#Release-für-Validator-Mediator-und-eSender)  
+  - [Hotfix Release für Notice-Viewer, Validator und Vermittlungsdienst](#Release-für-notice-Viewer-Mediator-und-Validator)
+- Oktober 2023
+  - [Release für Notice-Viewer - PDF Dokumente + synchrone Aufrufe](#Release-für-Notice-Viewer-PDF-Dokumente-+-synchrone-Aufrufe)
+  - [Release für Self-Service Portal, Registrierungsform für einen separaten Vermittlungsdienst-Account](#Release-für-Self-Service-Portal,-Registrierungsform-für-einen-separaten-Vermittlungsdienst-Account)
+- September 2023
+  - [Release für RequestedPublicationDate Fix + Notice-Viewer - Vermittlungsdienst, eSender-Hub, Notice-Viewer](#Release-für-RequestedPublicationDate-Fix-+-Notice-Viewer-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer)
+  - [Release für eForms-DE 1.1 - Vermittlungsdienst und eSender-Hub](#Release-für-eForms-DE-1.1-Vermittlungsdienst-und-eSender-Hub)
+- August 2023
+  - [Release Offline-Validator für eForms-DE 1.0.1 und 1.1.0](#Release-Offline-Validator-für-eForms-DE-1.0.1-und-1.1.0)
+- Juni 2023
+  - [Production Release Juni - Vermittlungsdienst & eSender-Hub](#Production-Release-Juni-Vermittlungsdienst-&-eSender-Hub)
+- Mai 2023
+  - [Preview Release Mai - Vermittlungsdienst & Validator Webservice](#Preview-Release-Mai-Vermittlungsdienst-&-Validator-Webservice)
 
 <a id=Release-für-eSender-Hub></a>
 ## Release für eSender-Hub
@@ -957,6 +986,14 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 - Mehrere Optimierungen und Fehlerbehebungen
 </details>
 <br>
+
+</details>
+
+
+
+
+
+
 
 
 

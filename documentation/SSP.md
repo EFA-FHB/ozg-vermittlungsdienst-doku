@@ -5,10 +5,10 @@
 
 # Self-Service-Portal des Datenservice Öffentlicher Einkauf
 
-Unter der URL https://portal.ozg-vermittlungsdienst.de/ ist das Self-Service-Portal des Datenservice Öffentlicher Einkauf für die Produktionsumgebung verfügbar.
-Des Weiteren gibt es das Portal für die Staging-Umgebung https://portal.staging-ozg-vermittlungsdienst.de/ und das Portal für die Preview-Umgebung https://portal.preview-ozg-vermittlungsdienst.de/. 
+Unter der URL https://self-service.datenservice-oeffentlicher-einkauf.de/ ist das Self-Service-Portal des Datenservice Öffentlicher Einkauf für die Produktionsumgebung verfügbar.
+Des Weiteren gibt es das Portal für die Staging-Umgebung https://self-service.staging.datenservice-oeffentlicher-einkauf.de/ und das Portal für die Preview-Umgebung https://self-service.preview.datenservice-oeffentlicher-einkauf.de/.
 <br><br>
-Das Self-Service-Portal (SSP) bietet als Betriebs- und Supportplattform einen benutzerfreundlichen Zugang zu allen [Unterlagen](https://portal.ozg-vermittlungsdienst.de/documentation) des Datenservice Öffentlicher Einkauf (DÖE).
+Das Self-Service-Portal (SSP) bietet als Betriebs- und Supportplattform einen benutzerfreundlichen Zugang zu allen [Unterlagen](https://self-service.datenservice-oeffentlicher-einkauf.de/documentation) des Datenservice Öffentlicher Einkauf (DÖE).
 
 ## Rollen im SSP
 
