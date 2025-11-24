@@ -14,7 +14,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-|--------------|----------------|----------------------------|--------|--------|
+| Produktion | Alle TED Apps und deren APIs | 27. November 2025 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs können von Störungen betroffen sein |
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
