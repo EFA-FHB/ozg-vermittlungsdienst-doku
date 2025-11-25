@@ -1,9 +1,8 @@
 ### Public procurement data service
-# Documentation
-Connection:
-  - [Connection to the Vermittlungsdienst](Connection_to_mediator.md)
+# Information for contracting authorities
 
-Functionality of the Vermittlungsdienst and eSender Hub:
-- [Self-Service-Portal of the DÖE](SSP.md)
+- Connection to the Vermittlungsdienst](Connection_to_mediator.md)
+
+- Self-service portal of the Public Procurement Data Service](SSP.md)
 
 <br><br>
