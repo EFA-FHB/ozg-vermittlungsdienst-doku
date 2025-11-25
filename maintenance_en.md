@@ -14,11 +14,11 @@ Further important information on creating eForms can be found in the FAQ provide
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-|--------------|----------------|----------------------------|--------|--------|
+| Production | All TED apps and their APIs | November 27, 2025 | 07:00-09:00 | Maintenance work: All TED apps in production environments and their APIs may be affected by disruptions |
 
-## Known bugs and glitches of the last months
+## Known bugs and malfunctions of the last months
 
-| system | available since | expected fix | error | status |
+| system | available since | expected fix | bug | status |
 |--------------|----------------|----------------------------|--------|--------|
 |--------------|----------------|----------------------------|--------|--------|
 
@@ -26,7 +26,7 @@ Further important information on creating eForms can be found in the FAQ provide
 
 The preview environment is only available between 06:00 and 20:00. The staging environment should also be used for testing purposes; it is available around the clock.
 
-## Past maintenance windows or disruptions in recent months
+## Past maintenance windows or disruptions in the last few months
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
