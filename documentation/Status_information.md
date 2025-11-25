@@ -2,17 +2,17 @@
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
-# Status - und Transferinformationen
+# Status- und Transferinformationen
 
-Mit Hilfe der REST-API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst bzw. eSender-Hub abgefragt und gespeichert, so liegen jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit.
+Mit Hilfe der REST-API des Vermittlungsdienstes können alle Status- und Fehlerinformationen einer Bekanntmachung abgefragt werden. Die Status- und Fehlerinformationen des BKMS und von TED werden regelmäßig vom Vermittlungsdienst bzw. eSender-Hub abgefragt und gespeichert, so dass jederzeit der Status und weitere Informationen zu einer Bekanntmachung zum weiteren Abruf bereit liegen.
 <br>
 
 ## Inhalte
 - [Endpunkte zur Abfrage der Status- und Transferinformationen](#endpunkte)
 - [Struktur der Statusinformationen](#info-struktur)
     - [Statustabelle: Übermittlung einer Bekanntmachung](#statustabelle-uebermittlung)
-    - [Statustabelle: Oberschwellenvergabe](#statustabelle-oberschwelle)
-    - [Statustabelle: Unterschwellenvergabe](#statustabelle-unterschwelle)
+    - [Statustabelle: Bekanntmachungen oberhalb der EU-Schwellenwerte](#statustabelle-oberschwelle)
+    - [Statustabelle: Bekanntmachungen unterhalb der EU-Schwellenwerte](#statustabelle-unterschwelle)
 - [Struktur der Transferinformationen](#transfer-info)
 - [Lawfulness Warnings](#lawfulness)
 
@@ -99,9 +99,9 @@ Die Endpunkte zur Abfrage der Statusinformationen geben die Statusinformationen 
 </deliveries>
 ```
 
-Die Statusinformationen enthalten sowohl bei unterschwelligen als auch bei oberschwelligen Bekanntmachungen den Status des Datenservice Öffentlicher Einkauf `doeStatus`, das letzte Änderungsdatum des DÖE-Status `doeStatusUpdate` sowie eine Beschreibung des aktuell gesetzten Status `statusDescription`.
+Die Statusinformationen enthalten bei Bekanntmachungen oberhalb und unterhalb der EU-Schwellenwerte den Status des Datenservice Öffentlicher Einkauf `doeStatus`, das letzte Änderungsdatum des doe-Status `doeStatusUpdate` sowie eine Beschreibung des aktuell gesetzten Status `statusDescription`.
 
-Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Status `tedStatus` mit dem letzten Änderungsdatum `tedStatusUpdate` übermittelt. Die TED-Statuswerte orientieren sich an den Statuswerten der EU. 
+Bei Bekanntmachungen oberhalb der EU-Schwellenwerte wird zusätzlich der TED-Status `tedStatus` mit dem letzten Änderungsdatum `tedStatusUpdate` übermittelt. Die TED-Statuswerte orientieren sich an den Statuswerten der EU. 
 <br><br>
 
 
@@ -109,14 +109,14 @@ Bei oberschwelligen Bekanntmachungen wird zusätzlich der TED-Status `tedStatus`
 
 | DÖE-Status        | Finaler Status?|Statusbeschreibung                                                                                       |
 | ----------------- | -|--------------------------------------------------------------------------------------------------------- |
-| AWAITING_TRANSFER | nein |Die Bekanntmachung wurde vom Mediator angenommen und akzeptiert. Die weitere Versendung wird vorbereitet. |
+| AWAITING_TRANSFER | nein |Die Bekanntmachung wurde vom Vermittlungsdienst angenommen und akzeptiert. Die weitere Versendung wird vorbereitet. |
 
-Nachdem die Übermittlung einer Bekanntmachung erfolgreich abgeschlossen ist, wird der Status der Bekanntmachung auf AWAITING_TRANSFER gesetzt und der Vermittlungsdienst beginnt mit weiteren Schritten der Verarbeitung der Unter- oder Oberschwellenvergabe. In den folgenden Statustabellen werden die möglichen Status für die Verarbeitung der Unter- und Oberschwellenvergabe aufgelistet.
+Nachdem die Übermittlung einer Bekanntmachung erfolgreich abgeschlossen ist, wird der Status der Bekanntmachung auf AWAITING_TRANSFER gesetzt und der Vermittlungsdienst beginnt mit weiteren Schritten der Verarbeitung der Bekanntmachungen oberhalb und unterhalb der EU-Schwellenwerte. In den folgenden Statustabellen werden die möglichen Status für die Verarbeitung der Bekanntmachungen oberhalb und unterhalb der EU-Schwellenwerte aufgelistet.
 <br><br>
 
-### Statustabelle: Oberschwellenvergabe<span id="statustabelle-oberschwelle">
+### Statustabelle: Bekanntmachungen oberhalb der EU-Schwellenwerte<span id="statustabelle-oberschwelle">
 
-Die folgenden Statuskombinationen können bei der Statusabfrage einer Oberschwellenvergabe übermittelt werden.
+Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmachung oberhalb der EU-Schwellenwerte übermittelt werden.
 
 | TED-Status        | DÖE-Status     |Finaler Status? |Statusbeschreibung                                                                                                  						  |  Auf Vergabeplattform publizieren? | 
 | ----------------- | -------------- | ---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | - | 
@@ -147,16 +147,16 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Oberschwel
 
 <br>
 
-### Statustabelle: Unterschwellenvergabe<span id="statustabelle-unterschwelle">
+### Statustabelle: Bekanntmachungen unterhalb der EU-Schwellenwerte<span id="statustabelle-unterschwelle">
 
-Die folgenden Statuskombinationen können bei der Statusabfrage einer Unterschwellenvergabe übermittelt werden.
+Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmachung unterhalb der EU-Schwellenwerte übermittelt werden.
 
 | DÖE-Status | Finaler Status?| Statusbeschreibung                                             |
 |------------| ----| --------------------------------------------------------------- |
 | ACCEPTED   | nein | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert. |
-| REJECTED   | ja   | Die Bekanntmachung wurde vom BKMS abgelehnt.                    |
-| PROCESSING | nein | Die Bekanntmachung wird vom BKMS verarbeitet.                   |
-| PUBLISHED  | ja   | Die Bekanntmachung wurde im BKMS veröffentlicht.                |
+| REJECTED   | ja   | Die Bekanntmachung wurde vom Bekanntmachungsservice abgelehnt.                    |
+| PROCESSING | nein | Die Bekanntmachung wird vom BKBekanntmachungsservice verarbeitet.                   |
+| PUBLISHED  | ja   | Die Bekanntmachung wurde im Bekanntmachungsservice veröffentlicht.                |
 | STOPPED    | ja   | Die Bekanntmachung wurde  im Bekanntmachungsservice gestoppt.   |
 
 
@@ -200,7 +200,7 @@ Eine einzelne Warnung und eine einzelne Fehlermeldung haben denselben Aufbau. `s
 | Werte in Source  | Beschreibung                   |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | TED            | Fehler und Warnungen, die von TED kommen. Dies beinhaltet sowohl die http-Codes (5\*\*, 4\*\*), welche bei einer erfolglosen Übermittlung zurückgegeben werden, als auch Fehler und Warnungen aus dem TED-Validierungsreport. |
-| BKMS           | Fehler, die vom BKMS kommen, wenn BKMS einen http-Code zurückgibt, der eine erfolglose Übermittlung darstellt (5\*\*, 4\*\*).                                                                                                |
+| Bekanntmachungsservice           | Fehler, die vom Bekanntmachungsservice kommen, wenn Bekanntmachungsservice einen http-Code zurückgibt, der eine erfolglose Übermittlung darstellt (5\*\*, 4\*\*).                                                                                                |
 | PRE_VALIDATION | Fehler und Warnungen aus dem internen Validierungsdienst.                                                                                                                                                                    |
 
 Die `description` enthält die Beschreibung der Warnung oder der Fehlermeldung. Im `path` wird die Position angegeben, an der der Fehler oder die Warnung auftrat. Der Tag `rule` enthält die Bezeichnung der angewandten Regel und `ruleContent` die dazu tatsächlich angewandte Regel.
@@ -208,9 +208,7 @@ Die `description` enthält die Beschreibung der Warnung oder der Fehlermeldung. 
 Warnungen und Fehlermeldungen vom Bekanntmachungsservice und von TED werden unverändert durchgereicht.
 <br><br>
 
-## Lawfulness Warnings<span id="lawfulness">
-Zusätzlich zu Fehlern gibt es Warnungen. Diese kommen ausschließlich aus den EU-Regeln und verhindern anders als Fehler nicht die Annahme der Bekanntmachung. TED hat derzeit nur eine Art von Warnungen definiert, sogenannte "Lawfulness Warnings". Diese werden höchstwahrscheinlich für deutsche Bekanntmachungen nahezu irrelevant sein, sind aber technisch möglich. 
-
+## Sonderfall Lawfulness Warnings<span id="lawfulness">
 Eine Lawfulness Warning bedeutet, dass eine manuelle Überprüfung einer Bekanntmachung bei TED notwendig ist. Dort wird dann der Inhalt der Bekanntmachung geprüft und entschieden, ob diese veröffentlicht wird oder abgelehnt und nicht veröffentlicht wird. Eine Entscheidung muss nach maximal fünf Tagen getroffen sein. Aus diesem Grund werden Bekanntmachungen mit einer Lawfulness Warning erst bei Veröffentlichung oder spätestens fünf Tage nach erfolgreicher Einlieferung bei TED an den Bekanntmachungsservice weitergeleitet.
 
 

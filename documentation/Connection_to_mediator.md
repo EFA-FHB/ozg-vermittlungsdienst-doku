@@ -19,7 +19,7 @@ Für die Nutzung der API müssen einmalig Zugangsdaten beantragt werden. Die Aut
 
 Die Einrichtung eines neuen Accounts erfolgt über das Self-Service-Portal (Produktionsumgebung: https://self-service.datenservice-oeffentlicher-einkauf.de). Ein Konto kann im Portal erstellt werden, indem eine E-Mail-Adresse und ein Passwort festgelegt werden. Nach Bestätigung der E-Mail-Adresse kann der Nutzer sich anmelden und das Antragsformular für einen neuen VD-Account ausfüllen. Pro Vergabeplattform ist ein separater Benutzer notwendig. <br>
 
-Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer-E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Werden z.B. 10 Accounts eine Umgebung beantragt, werden auch 10 individuelle E-Mail-Adressen benötigt. Die E-Mail-Adresse dient zum Abruf der Tokens, die zur eindeutigen Authentifizierung mit dem Account erforderlich sind. Deshalb muss E-Mail-Adresse einzigartig sein.
+Nach der Erstellung des Benutzers wird zur Überprüfung an die angegebene Benutzer-E-Mail-Adresse eine Authentifizierungs-E-Mail versendet, welche einen Link zur Authentifizierung und zur Erstellung des Passworts enthält. Werden z.B. 10 Accounts für eine Umgebung beantragt, werden auch 10 individuelle E-Mail-Adressen benötigt. Die E-Mail-Adresse dient zum Abruf der Tokens, die zur eindeutigen Authentifizierung mit dem Account erforderlich sind. Deshalb muss E-Mail-Adresse einzigartig sein.
 <br><br>
 Der Link ist 10 Tage gültig.<br>
 Nach einem Klick auf den Link erscheinen Anweisungen zur Passwort-Erstellung.
@@ -66,8 +66,8 @@ In der Peppol-Infrastruktur registrierte Systeme können unter Verwendung des **
 - Weitere Informationen zum Peppol-Profil sind hier zu finden: [Peppol Documentation - Publish Notices](https://peppol.org/documentation/technical-documentation/pre-award-documentation)
 
 ### Kommunikation
-Die Kommunikation erfolgt über die Verwendung eines **pre-award-fähigen AccessPoints**, der entweder:
-- von kommerziellen Anbietern bereitgestellt wird, oder
+Die Kommunikation erfolgt über die Verwendung eines **pre-award-fähigen AccessPoints**, der entweder
+- von kommerziellen Anbietern bereitgestellt wird oder
 - eigenständig Peppol-konform implementiert werden kann (ggf. auf Basis von Open Source).
 
 **Wichtig:** Zur vollständigen pre-award-Fähigkeit des AccessPoints gehört die Unterstützung von **„REM Evidence“**, wie in der Dokumentation unter folgendem Link beschrieben:  
@@ -189,7 +189,7 @@ Das Passwort muss aus mindestens 8 Zeichen bestehen, 1 Großbuchstaben und 1 Zah
 <br>
 
 ## Zugang löschen
-Um einen Zugang zu löschen, ist eine E-Mail an den Support des Datenservices Öffentlicher Einkauf [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
+Um einen Zugang zu löschen, ist eine E-Mail an den Support des Datenservices Öffentlicher Einkauf [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de) zu senden.<br>
 In der E-Mail müssen folgende Angaben enthalten sein:
 
 - Systemumgebung, in der die Zugangsdaten gelöscht werden sollen

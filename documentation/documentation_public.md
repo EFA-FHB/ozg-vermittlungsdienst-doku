@@ -1,9 +1,8 @@
 ### Datenservice Öffentlicher Einkauf
-# Dokumentation
-Anbindung:
-  - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
+# Informationen für Vergabestellen
 
-Funktionsweise des Vermittlungsdienstes und eSender-Hubs: 
-- [Self-Service-Portal des DÖE](SSP.md)
+- [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)
+
+- [Self-Service-Portal des Datenservice Öffentlicher Einkauf](SSP.md)
 
 <br><br>

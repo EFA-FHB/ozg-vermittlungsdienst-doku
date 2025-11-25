@@ -4,7 +4,7 @@
 
 # Einsenden einer Bekanntmachung
 
-Um eine Bekanntmachung an den Vermittlungsdienst zu senden, muss die zur Verfügung gestellte REST-API verwendet werden, für die Zugangsdaten benötigt werden. Wie die Zugangsdaten beantragt und wie bei der API Authentifizierung erfolgt, ist hier beschrieben [Anbindung an den Vermittlungsdienst](/documentation/Connection_to_mediator.md).
+Um eine Bekanntmachung an den Vermittlungsdienst zu senden, muss die zur Verfügung gestellte REST-API verwendet werden, für die Zugangsdaten benötigt werden. Wie die Zugangsdaten beantragt wird und wie bei der API der Authentifizierung erfolgt, ist hier beschrieben [Anbindung an den Vermittlungsdienst](/documentation/Connection_to_mediator.md).
 <br>
  
 Für die Übersendung einer Bekanntmachung wird der Endpoint POST /v2/notices verwendet. Die Beschreibung des Endpoints steht hier https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata. Der Endpoint erwartet folgende Parameter im Request-Body:
@@ -15,9 +15,9 @@ Für die Übersendung einer Bekanntmachung wird der Endpoint POST /v2/notices ve
 
 `buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optionale Parameter, welche es ermöglichen, die eingelieferte Bekanntmachung im Bekanntmachungsservice über das Peppol Netzwerk zu finden.
 
-`publishToTed': Optionaler Parameter. Gibt an, ob die Bekanntmachung an TED übermittelt werden soll. Gilt nur für die Formulare E1 bis E4. Falls der Parameter für 1-40 auf false gesetzt wird, wird dies ignoriert. Wenn dieser Parameter nicht befüllt ist, wird E1 standardmäßig an TED versendet, E2-E4 nicht. Dieser Parameter beeinflusst die Übermittlung an den Bekanntmachungsservice nicht. Wenn E1-E4 Formulare an TED versendet werden, erfolgt eine Übermittlung an den Bekanntmachungsservice unmittelbar ohne 48h Verzögerung.
+`publishToTed': Optionaler Parameter. Gibt an, ob die Bekanntmachung an TED übermittelt werden soll. Gilt nur für die Formulare E1 bis E4. Falls der Parameter für 1-40 auf false gesetzt wird, wird dies ignoriert. Wenn dieser Parameter nicht befüllt ist, wird E1 standardmäßig an TED versendet, E2-E4 nicht. Dieser Parameter beeinflusst die Übermittlung an den Bekanntmachungsservice nicht. Wenn E1-E4 Formulare an TED versendet werden, erfolgt eine Übermittlung an den Bekanntmachungsservice unmittelbar.
 ``` 
-Bei erfolgreicher Einlieferung bedeutet der Response-Code `202`, dass die Bekanntmachung entgegengenommen wurde und nun weiter vearbeitet wird. 
+Bei erfolgreicher Einlieferung bedeutet der Response-Code `202`, dass die Bekanntmachung entgegengenommen wurde und nun weiter verarbeitet wird. 
 
 Zur Nachverfolgung der Bekanntmachung wird in der Response nach der Einlieferung ein Trackingcode mit folgenden Informationen geliefert:
 ```
@@ -38,6 +38,6 @@ Alternativ kann entweder der Status aller eingelieferten Bekanntmachungen abgefr
 >**Hinweis** <br>
 >Der `GET /v1/notices/status` wird empfohlen, da so die aktuellen Statusinformationen am effizientesten abgefragt werden können.
 
-Die Bedeutung der weiteren Response-Codes entnehmen Sie https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.
+Die Bedeutung der weiteren Response-Codes ist hier dokumentiert: https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.
 
 
