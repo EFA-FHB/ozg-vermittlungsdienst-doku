@@ -1,8 +1,8 @@
 ### Data service public purchasing
 <br>
 
-# eForms support
-Different eForms versions are currently supported and processed according to the following example.
+# Supported eForms versions
+Various eForms versions are currently supported and processed according to the following overview.
 
 <br>
 
@@ -20,9 +20,9 @@ Different eForms versions are currently supported and processed according to the
 |eForms-DE 2.0](https://projekte.kosit.org/api/v4/projects/356/packages/maven/de/xeinkauf/eforms-de/2.0.0/eforms-de-2.0.0.zip)|[0.9.2](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.9.2) [Blacklist](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.2/src/main/ted-excluded-rules.txt?ref_type=tags)|[2024-09-02](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2024-09-02)|[1.12.2](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.2)|[1.2.7](https://projekte.kosit.org/eforms/validator-edition-eforms-de/-/releases/1.2.7) supports eForms-DE 1.1.0, 1.2.0, 2.0.0|12.12.2024|18.07.2025 (without support until 30.06.2026)|
 |eForms-DE 2.0](https://projekte.kosit.org/api/v4/projects/356/packages/maven/de/xeinkauf/eforms-de/2.0.0/eforms-de-2.0.0.zip)|[0.9.1](https://projekte.kosit.org/eforms/eforms-de-schematron/-/releases/v0.9.1) [Blacklist](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.1/src/main/ted-excluded-rules.txt?ref_type=tags)|[2024-09-02](https://projekte.kosit.org/eforms/eforms-de-codelist/-/releases/v2024-09-02)|[1.12.1](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.12.1)|[1.2.6](https://projekte.kosit.org/eforms/validator-edition-eforms-de/-/releases/1.2.6) supports eForms-DE 1.1.0, 1.2.0, 2.0.0 | 01.11.2024|18.07.2025 (without support until 30.06.2026)|
 
-Outside the eForms Implementing Regulation, on which the eForms-DE standard is based, the forms __T01__ (_"Prior information notice on public passenger transport services"_) and __T02__ (_"Contract award notice for public passenger transport services"_) have been defined by the Publications Office of the EU__ for the implementation of __Regulation (EC) No 1370/2007, which are accepted by the European publication platform TED.
+In order to comply with __Regulation (EC) No. 1370/2007 of the Publications Office of the EU__, the forms __T01__ (_"Prior information notice on public passenger transport services"_) and __T02__ (_"Contract award notice for public passenger transport services"_) have been defined. These are part of the SDK-EU, are supported by the Public Procurement Data Service and accepted by TED.
 
-Forms T01 and T02 are also supported by the Public Procurement Data Service, so that they can be submitted here (for forwarding to TED and the publication service) automatically by procurement platforms on the basis of the SDK-EU or manually via the free-to-use [editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/).
+Forms T01 and T02 can therefore be submitted to the [editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/) by procurement platforms on the basis of the SDK-EU.
 
 SDK-EU|Accepted from|Accepted until|
 |--|--|--|
@@ -30,18 +30,14 @@ SDK-EU|Accepted from|Accepted until|
 [1.12.0](https://github.com/OP-TED/eForms-SDK/tree/1.12.0)|01.11.2024|30.06.2026|
 
 
-
-
-
 ## eForms validation
-All notices are validated when they are sent to the Vermittlungsdienst before they are accepted by the system. Validation is carried out using a combination of XML schema validation and Schematron validation. The result is a validation report in JSON format.
+All notices are validated when they are sent to the Vermittlungsdienst before they are accepted by the system. Validation is carried out using a combination of XML schema validation and Schematron validation. As a result, a validation report is returned in JSON format.
 
 The [Open Source Validator](https://projekte.kosit.org/eforms/validator-edition-eforms-de) provided by KoSIT offers an option for offline validation, which is also carried out by the Vermittlungsdienst
 
 ### Validation blacklist
 
-National tailoring results in differences between values permitted in the EU and nationally, for example in code lists and the customizationID: certain EU rules must therefore be skipped in order to validate valid documents according to German tailoring.
-The current list of ignored rules can be found in the [KoSIT repository for the German eForms standard](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.4/src/main/ted-excluded-rules.txt)
+National tailoring results in differences between EU-wide and nationally valid values, as is the case with code lists and the customizationID, for example. Therefore, certain EU rules must be skipped in order to check valid documents according to German tailoring. The current list of ignored rules can be found here: [KoSIT repository for the German eForms standard](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.4/src/main/ted-excluded-rules.txt)
 
 
 

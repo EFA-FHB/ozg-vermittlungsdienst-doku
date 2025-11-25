@@ -1,7 +1,4 @@
-# Awarding authority
-<br>
-
-## Available areas
+# Information for contracting authorities
 <br>
 
 ### [Frequently asked questions](faq/faq_registry.md)
@@ -10,7 +7,7 @@
 
 ### [Change Notices/Updates & STOP Publication Functionality](documentation/STOP_update_and_change_notices_public.md)
 
-### [eForms support](documentation/eForms_support_public.md)
+### [Supported eForms versions](documentation/eForms_support_public.md)
 ---
 
-*Select one of the above areas for more information.
+*Select one of the above topics for more information.
