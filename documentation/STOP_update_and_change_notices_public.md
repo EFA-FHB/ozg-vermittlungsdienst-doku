@@ -17,7 +17,7 @@
 
 Zum Umgang mit Versionsnummern und Notice-IDs im Kontext von Änderungen an Bekanntmachungen, die bereits an die Veröffentlichungsplattform der EU (TED) geschickt wurden, sind seitens der EU zwei Konzepte vorgegeben, die durch die Vergabeplattformen im Umgang mit dem Datenservice Öffentlicher Einkauf umgesetzt sein müssen. Da der Datenservice Öffentlicher Einkauf keine inhaltlichen Veränderungen an den Bekanntmachungen vornimmt, sind die Betreiber der Vergabeplattformen angehalten, diese beiden Konzepte umzusetzen.<br><br>
 Das erste Konzept betrifft die Verwendung von Versionsnummern in einer Bekanntmachung. Das Versenden aktualisierter Bekanntmachungen mit neuen (aufsteigenden) Versionsnummern zu einer (bereits versendeten) Bekanntmachung an den Datenservice Öffentlicher Einkauf ist so lange möglich, bis die Bekanntmachung auf TED veröffentlicht ist. Anschließend kann keine weitere Bekanntmachung mit derselben Notice-ID und hochgezählter Versionsnummer versendet werden. Nun greift das zweite Konzept.<br><br>
-Das zweite Konzept beschreibt den Umgang mit bereits auf TED und im Datenservice Öffentlicher Einkauf veröffentlichten Bekanntmachungen, bei dem das Konzept der Change-Notices angewendet wird. (vgl. https://docs.ted.europa.eu/eforms/latest/schema/change-notice.html und https://github.com/OP-TED/eForms-SDK/discussions/88 ):
+Das zweite Konzept beschreibt den Umgang mit bereits auf TED und im Datenservice Öffentlicher Einkauf veröffentlichten Bekanntmachungen, bei denen das Konzept der Change-Notices angewendet wird. (vgl. https://docs.ted.europa.eu/eforms/latest/schema/change-notice.html und https://github.com/OP-TED/eForms-SDK/discussions/88 ):
 <br><br>
 
 ### 1.1 Versionen und die Verwendung von Versionsnummern [Funktionalität ‚Update Notice‘]<span id='versions-update'>
@@ -107,7 +107,7 @@ Szenario B: Verwendung eines Updates zur Bearbeitung einer eingereichten Bekannt
 1. Bekanntmachung A mit der noticeID ABC *Version 01* wird eingereicht und angenommen. Sie ist noch nicht veröffentlicht, z. B. weil das gewünschte Veröffentlichungsdatum in der Zukunft liegt.
 2. Der Fachverfahrenshersteller möchte etwas in dieser Bekanntmachung bearbeiten, z. B. weil sich einige Informationen geändert haben und angepasst werden müssen.
 3. Der Fachverfahrenshersteller stoppt die zuvor eingereichte Bekanntmachung noticeID ABC *Version 01* mit Hilfe des Stop-Endpoints (Dies ist obligatorisch, bevor eine Aktualisierung gesendet wird. TED hat angekündigt, dass dies in Zukunft wahrscheinlich auch in TED so restriktiert wird).
-4. Der Vermittlungsdienst stoppt die Bekanntmachung in TED und Bekanntmachungsservice (je nachdem, wohin sie bereits gesendet wurde).
+4. Der Vermittlungsdienst stoppt die Bekanntmachung in TED und im Bekanntmachungsservice (je nachdem, wohin sie bereits gesendet wurde).
 5. Der Fachverfahrenshersteller reicht eine Aktualisierung mit noticeID ABC *Version 02* ein.
 6. Das Update wird akzeptiert, da sich die Vorgängerversion der Bekanntmachung im Status STOPPED befindet.
 <br><br>
@@ -127,29 +127,29 @@ Das Verfahren zur Einreichung einer Change-Notice ist das gleiche wie bei jeder 
 <br><br>
 
 ## 3. STOP-Publikation-Funktionalität<span id='stop-func'>
-Die Funktion „Stop Publication“ wird verwendet, um die Veröffentlichung von Bekanntmachungen auf TED oder im Bekanntmachungsservice (Oberschwellenvergabe) oder nur im Bekanntmachungsservice (Unterschwellenvergabe) zu stoppen. Das Stoppen einer Bekanntmachung ist nur möglich, wenn eine Bekanntmachung intern vollständig prozessiert, aber noch nicht veröffentlicht wurde. 
+Die Funktion „Stop Publication“ wird verwendet, um die Veröffentlichung von Bekanntmachungen auf TED oder im Bekanntmachungsservice (oberhalb der EU-Schwellenwerte) oder nur im Bekanntmachungsservice (unterhalb der EU-Schwellenwerte) zu stoppen. Das Stoppen einer Bekanntmachung ist nur möglich, wenn eine Bekanntmachung intern vollständig prozessiert, aber noch nicht veröffentlicht wurde.
 
 Die Veröffentlichung einer Bekanntmachung kann aus folgenden Gründen gestoppt werden:
 1. Manuell durch einen externen Benutzer (Fachverfahrenshersteller):
 Der Benutzer kann das Stoppen einer Bekanntmachung mithilfe des TrackingCodes über die API V1/notices/stop/{trackingCode} im Vermittlungsdienst anfordern. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen manuellen Stopp-Vorgang handelte.
-2. Automatisch: Wenn TED eine eingereichte Bekanntmachung aufgrund von [Lawfullness Warnings](Status_information.md/#lawfullness) manuell ablehnt, wird diese Bekanntmachung in TED nicht veröffentlicht. Falls diese Bekanntmachung bereits an den Bekanntmachungsservice versendet wurde, wird diese nun automatisch auch im Bekanntmachungsservice gestoppt. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen automatischen Stopp-Vorgang handelte.
+2. Automatisch: Wenn TED eine eingereichte Bekanntmachung aufgrund von [Lawfullness Warnings](Status_information.md/#lawfullness) manuell ablehnt, wird diese Bekanntmachung auf TED nicht veröffentlicht. Falls diese Bekanntmachung bereits an den Bekanntmachungsservice versendet wurde, wird diese nun automatisch auch im Bekanntmachungsservice gestoppt. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen automatischen Stopp-Vorgang handelte.
 
-Es gibt einige Unterschiede in der Art und Weise, wie ober- und  unterschwellige Bekanntmachungen gestoppt werden können.
- <br> <br>
+Es gibt einige Unterschiede in der Art und Weise, wie Bekanntmachungen oberhalb und unterhalb der EU-Schwellenwerte gestoppt werden können.
+<br> <br>
 
-**Unterschwellige Vergabe: Manueller Stop** <br>
+**Vergabe unterhalb der EU-Schwellenwerte: Manueller Stopp** <br>
 Die Veröffentlichung kann nur vor dem in der Bekanntmachung angegebenen bevorzugten Veröffentlichungsdatum (BT-738) manuell gestoppt werden, sodass die Bekanntmachung noch nicht auf Bekanntmachungsservice veröffentlicht ist.
 
 ![nat-flow-stop](images/nat-flow-stop.png)
  <br> <br>
 
-**Oberschwellige Vergabe: Manueller Stopp** <br>
+**Vergabe oberhalb der EU-Schwellenwerte: Manueller Stopp** <br>
 Die Veröffentlichung kann nur manuell gestoppt werden, bevor die Bekanntmachung auf TED veröffentlicht wird. Ob die Bekanntmachung in Bekanntmachungsservice bereits veröffentlicht wurde, ist hierbei nicht relevant. Ein manueller Stopp ist nur möglich, wenn keine zur Veröffentlichung vorgesehenen Vorgängerversionen existieren (siehe Beispiele oben).
 
 ![eu-manual-stop](images/eu-manual-stop.png)
  <br> <br>
 
-**Oberschwellige Vergabe: Automatischer Stopp** <br>
+**Vergabe oberhalb der EU-Schwellenwerte: Automatischer Stopp** <br>
 Bei manueller Ablehnung durch TED wird die Veröffentlichung automatisch im Bekanntmachungsservice gestoppt, auch wenn sie dort vorher schon veröffentlicht worden sein sollte. 
 
 ![eu-auto-stop](images/eu-auto-stop.png)
@@ -157,6 +157,6 @@ Bei manueller Ablehnung durch TED wird die Veröffentlichung automatisch im Beka
  <br>
 
 **Stopp-Antworten** <br>
-Welche Rückmeldungen beim Versenden von Stopp-Anfragen erfolgen kann eingesehen werden https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
+Welche Rückmeldungen beim Versenden von Stopp-Anfragen erfolgen, kann hier eingesehen werden https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
 
 
