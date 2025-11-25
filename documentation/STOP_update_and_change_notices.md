@@ -5,14 +5,15 @@
 # Change-Notices/Updates & Stop-Publication Funktionalität
 
 ## Inhalt
-- [1. Verwendung von Versionsnummern und Notice-IDs im Kontext der Weitergabe von Bekanntmachungen ](#versions-explained)
-    - [1.1 Versionen und die Verwendung von Versionsnummern [Funktionalität ‚Update Notice‘]](#versions-update)
-    - [1.2 Neue Notice-ID für Changes [Funktionalität ‚Change-Notice‘]](#versions-change)
-    - [1.3 Changes, die aufeinanderfolgen](#versions-changes)
-- [2. Anpassen des Inhalts einer Bekanntmachung](#stop-or-change)
-    - [2.1 Update zu einer Bekanntmachung](#update)
-    - [2.2 Change-Notices](#change-notice)
-- [3. STOP-Publikation Funktionalität](#stop-func)
+
+1. [Verwendung von Versionsnummern und Notice-IDs im Kontext der Weitergabe von Bekanntmachungen ](#versions-explained)<br>
+    1.1 [Versionen und die Verwendung von Versionsnummern [Funktionalität ‚Update Notice‘]](#versions-update)<br>
+    1.2 [Neue Notice-ID für Changes [Funktionalität ‚Change-Notice‘]](#versions-change)<br>
+    1.3 [Changes, die aufeinanderfolgen](#versions-changes)<br>
+2. [Anpassen des Inhalts einer Bekanntmachung](#stop-or-change)<br>
+    2.1 [Update zu einer Bekanntmachung](#update)<br>
+    2.2 [Change-Notices](#change-notice)<br>
+3. [STOP-Publikation Funktionalität](#stop-func)
 
 ## 1. Verwendung von Versionsnummern und Notice-IDs im Kontext der Weitergabe von Bekanntmachungen <span id='versions-explained'>
 

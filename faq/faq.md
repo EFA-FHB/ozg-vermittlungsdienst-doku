@@ -14,16 +14,20 @@
 Aus welchen Komponenten besteht der Datenservice Öffentlicher Einkauf und wo brauche ich einen Account?
 </summary>
 <br>
-**[Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Das Redaktionssystem ist ein Angebot für Vergabestellen und beispielsweise Dienstleister von öffentlichen Auftraggebern oder Zuwendungsempfängern, die kein elektronisches Vergabesystem nutzen. 
-Mit dem Redaktionssystem können Bekanntmachungen zu europaweiten Vergabeverfahren erfasst, bearbeitet, korrigiert und über den Vermittlungsdienst an TED versendet werden.
+
+**[Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Das Redaktionssystem ist ein Angebot für Vergabestellen und beispielsweise Dienstleister von öffentlichen Auftraggebern oder Zuwendungsempfängern, die kein elektronisches Vergabesystem nutzen. Mit dem Redaktionssystem können Bekanntmachungen zu Vergabeverfahren erfasst, bearbeitet, korrigiert und auf dem Bekanntmachungsservice publiziert werden, die bei europaweiten Vergabeverfahren auch über den Vermittlungsdienst des Datenservice Öffentlicher Einkauf vergaberechtskonform an die Plattform TED des Amtes für Veröffentlichungen der EU versendet werden. Zudem ist das Zurückziehen von Verfahren möglich.
 <br>
-**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Der Vermittlungsdienst ist eine rein technische Schnittstelle zur Annahme, Validierung und Weiterleitung von Bekanntmachungen an TED und den Bekanntmachungsservice. 
-Er bietet KEINE Oberfläche zum Erstellen von Bekanntmachungen! Es ist ausschließlich eine Maschine-zu-Maschine Kommunikation möglich, wie z.B. mit einer Vergabestellensoftware. Diese Anbindung wird durch den Fachverfahrenshersteller durchgeführt. 
+
+**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Der Vermittlungsdienst nimmt als technische Komponente Bekanntmachungen von Vergabeplattformen im Format eForms-DE entgegen. Bekanntmachungen zu Vergabeverfahren oberhalb der EU-Schwellenwerte werden validiert und an den eSender-Hub des Datenservice Öffentlicher Einkauf weitergeleitet. Bekanntmachungen zu Vergabeverfahren unterhalb der EU-Schwellenwerte werden nach Validierung direkt an den Bekanntmachungsservice weitergeleitet.
 <br>
-**[Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/)**: Das Self-Service-Portal (SSP) ist eine Web-Oberfläche für das Accountmanagement von Accounts des Vermittlungsdienstes. Primär genutzt wird es durch Fachverfahrenshersteller zur Ansicht der Statusinformationen von eingelieferten Bekanntmachungen in einem Dashboard.
+
+**[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Das Self-Service-Portal bietet Betreibern von Vergabeplattformen die Möglichkeit, administrative Prozesse zur Entlastung des eigenen Betriebs selbst zu verwalten und sich jederzeit über den Bearbeitungsstatus von Bekanntmachungen im Bekanntmachungsprozess zu informieren.
 <br>
-**[Bekanntmachungsservice](https://oeffentlichevergabe.de/)**: Im Bekanntmachungsservice werden alle über den eSender-Hub versendeten EU-weiten und nationalen Bekanntmachungen veröffentlicht. Der Bekanntmachungsservice bietet eine Vielzahl an Recherchemöglichkeiten, damit Bietende ihrem Leistungsspektrum entsprechend zielgenau Bekanntmachungen finden können. Mit Nutzung des ELSTER-Unternehmenskontos stehen zudem weitere Komfortfunktionen wie Speicherung von Suchfunktionen und Benachrichtigungsservices zur Verfügung. Des Weiteren können die Daten des Bekanntmachungsservice über eine Open Data Schnittstelle in den Formaten eForms-DE, CSV und OCDS nachgenutzt werden. 
+
+**[Bekanntmachungsservice](https://oeffentlichevergabe.de/)**: Der Bekanntmachungsservice ist der zentrale Ort, an dem EU-weite und nationale Bekanntmachungen von Bund, Ländern und Kommunen gefunden werden können. Er bietet eine Vielzahl an Recherchemöglichkeiten, damit Bietende ihrem Leistungsspektrum entsprechend zielgenau Bekanntmachungen zu Vergabeverfahren öffentlicher Auftraggeber finden können. Mit der Nutzung von „Mein Unternehmenskonto“ (Das Unternehmenskonto auf der Basis von ELSTER) stehen zudem weitere komfortable Funktionen wie Speicherung von Suchfunktionen und Benachrichtigungsservices zur Verfügung. Des Weiteren können die Daten des Bekanntmachungsservice über eine Open-Data-Schnittstelle in den Formaten eForms-DE, CSV und OCDS genutzt werden. Außerdem können andere Server über die Peppol-Infrastruktur unter Nutzung des Peppol-Profils „Search Notice“ aktuelle Bekanntmachungsdaten vom Bekanntmachungsservice abrufen.
 <br>
+
+**[eSender-HuB](https://oeffentlichevergabe.de/)**: Der eSender-Hub ist eine interne technische Komponente, der als zentrale Stelle für die Kommunikation mit dem europaweiten Tenders Electronic Daily (TED) des Amtes für Veröffentlichungen der EU dient. Der eSender-Hub konvertiert die vom Vermittlungsdienst übermittelten Bekanntmachungen vom Format eForms-DE in das notwendige eForms-EU-Format und sendet diese an TED. Außerdem leitet der eSender-Hub die Bekanntmachungen zu Vergabeverfahren oberhalb der EU-Schwellenwerte weiter an den Bekanntmachungsservice.
 </details>
 <br>
 
