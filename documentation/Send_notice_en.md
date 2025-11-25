@@ -2,12 +2,12 @@
 [Table of contents](/documentation/documentation.md)
 <br>
 
-# Send an announcement
+# Submitting an announcement
 
-To send an announcement to the Vermittlungsdienst, the REST API provided must be used, for which access data is required. You can find out how to request the access data and how to authenticate yourself with the API in the [Connection to the Vermittlungsdienst](/documentation/Connection_to_mediator.md) section.
+To send an announcement to the Vermittlungsdienst, the REST API provided must be used, for which access data is required. How to request the access data and how to authenticate with the API is described here [Connection to the Vermittlungsdienst](/documentation/Connection_to_mediator.md).
 <br>
  
-The POST /v2/notices endpoint is used to send an announcement. The description of the endpoint can be found at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata. The endpoint expects the following parameters in the request body:
+The POST /v2/notices endpoint is used to send an announcement. The description of the endpoint can be found here https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata. The endpoint expects the following parameters in the request body:
 ```
 `notice`: The XML eForms document
 
@@ -15,11 +15,11 @@ The POST /v2/notices endpoint is used to send an announcement. The description o
 
 `buyerPartyIdentification`, `buyerElectronicAddress`, `procedureIdentifier`: Optional parameters which enable the submitted announcement to be found in the announcement service via the Peppol network.
 
-`publishToTed`: Optional parameter. Specifies whether the notice should be sent to TED. Only applies to forms E1 to E4, if the parameter for 1-40 is set to false, this is ignored. If this parameter is not filled, E1 is sent to TED by default, E2-E4 are not. This parameter does not affect the transmission to the announcement service. If E1-E4 forms are sent to TED, transmission to the announcement service takes place immediately without a 48-hour delay.
+`publishToTed`: Optional parameter. Specifies whether the notice should be sent to TED. Only applies to forms E1 to E4. If the parameter for 1-40 is set to false, this is ignored. If this parameter is not filled, E1 is sent to TED by default, E2-E4 are not. This parameter does not affect the transmission to the announcement service. If E1-E4 forms are sent to TED, transmission to the announcement service takes place immediately.
 ```
-If the submission is successful, the response code `202` means that the announcement has been received and is now being processed further.
+In the event of successful submission, the response code `202` means that the notice has been received and is now being processed further.
 
-To track the notice, you will receive a tracking code and the following information in the response after posting:
+To track the notice, a tracking code with the following information is provided in the response after posting:
 ```
 <delivery status="AWAITING_TRANSFER" created="2023-06-25T23:47:46.470Z" lastUpdated="2023-06-25T23:47:46.470Z">
 	<tracking-code>3446e1ee-5917-4d31-b623-81ddfb038d82</tracking-code>
@@ -38,6 +38,6 @@ Alternatively, either the status of all notices submitted can be queried via `GE
 >**Note** <br>
 >The `GET /v1/notices/status` is recommended, as this is the most efficient way to query the current status information.
 
-The meaning of the other response codes can be found at https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.
+The meaning of the other response codes is documented here: https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/createDeliveryWithMetadata.
 
 

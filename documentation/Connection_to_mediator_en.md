@@ -19,7 +19,7 @@ To use the API, access data must be requested once. Authorization takes place vi
 
 A new account is set up via the self-service portal (production environment: https://self-service.datenservice-oeffentlicher-einkauf.de). An account can be created in the portal by specifying an e-mail address and a password. After confirming the e-mail address, the user can log in and complete the application form for a new VD account. A separate user is required for each awarding platform. <br>
 
-Once the user has been created, an authentication email containing a link for authentication and password creation is sent to the specified user email address for verification. If, for example, 10 accounts apply for an environment, 10 individual e-mail addresses are also required. The e-mail address is used to retrieve the tokens that are required for unique authentication with the account. The email address must therefore be unique.
+Once the user has been created, an authentication email containing a link for authentication and password creation is sent to the specified user email address for verification. If, for example, 10 accounts are requested for an environment, 10 individual e-mail addresses are also required. The e-mail address is used to retrieve the tokens that are required for unique authentication with the account. The email address must therefore be unique.
 <br><br>
 The link is valid for 10 days.<br>
 After clicking on the link, instructions for creating a password appear.
@@ -66,8 +66,8 @@ Systems registered in the Peppol infrastructure can send notices to the addresse
 - Further information on the Peppol profile can be found here: [Peppol Documentation - Publish Notices](https://peppol.org/documentation/technical-documentation/pre-award-documentation)
 
 ### Communication
-Communication takes place via the use of a **pre-award-capable AccessPoint**, which is either:
-- is provided by commercial providers, or
+Communication takes place via the use of a **pre-award-capable AccessPoint**, which is either
+- is provided by commercial providers or
 - can be implemented independently in a Peppol-compliant manner (possibly based on open source).
 
 **Important:** Full pre-award capability of the AccessPoint includes support for **"REM Evidence "**, as described in the documentation at the following link:
@@ -134,7 +134,7 @@ PEPPOL messages consist of several layers that are defined by different standard
 ---
 
 ### The PEPPOL access point
-The PEPPOL access point for the Vermittlungsdienst and the announcement service are operated by the Procurement Office of the Federal Ministry of the Interior (BeschA).
+The PEPPOL access point for the Vermittlungsdienst and the announcement service is operated by the Procurement Office of the Federal Ministry of the Interior (BeschA).
 
 ---
 
@@ -189,12 +189,12 @@ The password must consist of at least 8 characters, contain 1 capital letter and
 <br>
 
 ## Delete access
-To delete an access, send an e-mail to the Public Purchasing Data Service support team [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
+To delete an access, send an e-mail to the Public Procurement Data Service support team [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
 The e-mail must contain the following information:
 
 - System environment in which the access data is to be deleted
 - E-mail address to be used as the user name
-- URL of the procurement platform
+- URL of the awarding platform
 - First name, surname and email address of the representative of the manufacturer of the specialized procedure
 - Name of the manufacturer of the specialized procedure
 
