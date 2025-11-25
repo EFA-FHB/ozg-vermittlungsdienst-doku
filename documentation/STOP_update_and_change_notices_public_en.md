@@ -4,14 +4,14 @@
 # Change-Notices/Updates & Stop-Publication Functionality
 
 ## Content
-- [1. use of version numbers and notice IDs in the context of the dissemination of notices ](#versions-explained)
-    - [1.1 Versions and the use of version numbers [Update Notice functionality](#versions-update)
-    - 1.2 New notice ID for changes [Change notice functionality](#versions-change)
-    - 1.3 Changes that follow each other](#versions-changes)
-- [2. adapting the content of a notice](#stop-or-change)
-    - 2.1 Update to an announcement](#update)
-    - 2.2 Change-notices](#change-notice)
-- 3. STOP publication functionality](#stop-func)
+1 [Use of version numbers and notice IDs in the context of passing on notices](#versions-explained)<br>
+    1.1 [Versions and the use of version numbers [Update Notice functionality](#versions-update)<br>
+    1.2 [New notice ID for changes [change notice functionality](#versions-change)<br>
+    1.3 [Changes that follow each other](#versions-changes)<br>
+2 [Adjusting the content of a notice](#stop-or-change)<br>
+    2.1 [Update to a notice](#update)<br>
+    2.2 [Change notices](#change-notice)<br>
+3. [STOP publication functionality](#stop-func)
 
 ## 1. use of version numbers and notice IDs in the context of passing on notices <span id='versions-explained'>
 
@@ -22,7 +22,7 @@ The second concept describes the handling of notices already published on TED an
 
 ### 1.1 Versions and the use of version numbers [functionality 'Update Notice']<span id='versions-update'>
 
-The concept of versions for notices is used to indicate changes to a notice to TED that were made after the first notice was sent to TED until the publication of a higher version of this notice (on TED and in the Public Procurement Data Service).<br><br>
+The concept of versions in notices is used to indicate changes to a notice to TED that were made after the first notice was sent to TED until the publication of a higher version of this notice (on TED and in the Public Procurement Data Service).<br><br>
 Notices can therefore be changed to a Notice ID via subsequent versions AFTER they have been accepted by TED (status "Accepted") but have not yet been published (status "Published"). Versions may only be incremented to a Notice ID until the announcement has been published by TED.<br><br>
 As soon as the status of a TED notice has reached "published", no new version may be sent. The following graphic illustrates the above.
 
@@ -33,7 +33,7 @@ As soon as the status of a TED notice has reached "published", no new version ma
 ### 1.2 New notice ID for changes [functionality 'Change-Notice']<span id='versions-change'>
 
 As soon as a notice is published on TED (i.e. has the status "Published"), a correction to this notice can only be made as a "Change". Changes are technically understood as a completely new notice and therefore also require a new notice ID. The version is set to 01 so that the versioning principle can also be used for changes to Changes (for the publication process at TED) (see point 1).<br><br>
-An announcement that is to be published as a change must refer in the change block (BT-758) to the announcement (incl. version number) that is published at TED. The content contains the entire new notice to be published including the new notice ID in BT-701.<br><br>
+An announcement that is to be published as a change must refer in the change block (BT-758) to the announcement (incl. version number) that is published at TED. The content contains the entire new notice to be published, including the new notice ID in BT-701.<br><br>
 The following representation of the corresponding BTs in the XML of any notice illustrates the above.
 
 ```
@@ -138,7 +138,7 @@ There are some differences in the way notices above and below the EU thresholds 
 <br> <br>
 
 **Publication below the EU thresholds: manual stop** <br>
-The publication can only be stopped manually before the preferred publication date specified in the notice (BT-738), so that the notice is not yet published on the notice service.
+Publication can only be stopped manually before the preferred publication date specified in the notice (BT-738), so that the notice is not yet published on the Notice Service.
 
 ![nat-flow-stop](images/nat-flow-stop.png)
  <br> <br>

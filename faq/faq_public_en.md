@@ -10,12 +10,16 @@ What is the Public Procurement Data Service and what components does it consist 
 
 **[Editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/)**: The editorial system is an offer for contracting authorities and, for example, service providers of contracting authorities or grant recipients who do not use an electronic procurement system. The editing system can be used to record, edit and correct notices of award procedures and publish them on the notice service, which can also be sent to the TED platform of the Publications Office of the EU via the Vermittlungsdienst of the Public Procurement Data Service in compliance with public procurement law in the case of Europe-wide award procedures. It is also possible to withdraw procedures.
 <br>
+
 **[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: As a technical component, the Vermittlungsdienst accepts notices from procurement platforms in eForms-DE format. Notices for award procedures above the EU thresholds are validated and forwarded to the eSender Hub of the Public Procurement Data Service. Notices for award procedures below the EU thresholds are forwarded directly to the notice service after validation.
 <br>
+
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: The self-service portal offers operators of procurement platforms the opportunity to manage administrative processes themselves to relieve the burden on their own operations and to find out about the processing status of notices in the public procurement process at any time.
 <br>
+
 **[Publication service](https://oeffentlichevergabe.de/)**: The publicity service is the central place where EU-wide and national notices from the federal government, federal states and local authorities can be found. It offers a wide range of search options so that bidders can find notices on public procurement procedures from contracting authorities in line with their range of services. With the use of "My company account" (the company account based on ELSTER), further convenient functions such as storage of search functions and notification services are also available. Furthermore, the data of the notification service can be used via an open data interface in the formats eForms-DE, CSV and OCDS. In addition, other servers can retrieve current announcement data from the announcement service via the Peppol infrastructure using the Peppol profile "Search Notice".
 <br>
+
 **[eSender-HuB](https://oeffentlichevergabe.de/)**: The eSender Hub is an internal technical component that serves as the central point of communication with the EU Publications Office's pan-European Tenders Electronic Daily (TED). The eSender Hub converts the notices transmitted by the Vermittlungsdienst from the eForms-DE format into the required eForms-EU format and sends them to TED. In addition, the eSender Hub forwards the notices for procurement procedures above the EU thresholds to the Notice Service.
 </details>
 <br>
@@ -30,7 +34,7 @@ Around 92 (as of 2025) procurement platforms are currently connected to the Publ
 
 <details>
 <summary>
-What are the service and operating hours of the Public Purchasing Data Service?
+What are the service and operating hours of the Public Procurement Data Service?
 </summary>
 The productive and staging (test) environments of the Public Procurement Data Service are available around the clock (24/7). The preview environment is also available for testing purposes, but can only be accessed daily from 6:00 to 20:00.
 </details>
