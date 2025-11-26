@@ -15,7 +15,7 @@
 
 ## 1. use of version numbers and notice IDs in the context of passing on notices <span id='versions-explained'>
 
-The EU has specified two concepts for dealing with version numbers and notice IDs in the context of changes to notices that have already been sent to the EU's publication platform (TED), which must be implemented by the procurement platforms when dealing with the Public Procurement Data Service. As the Public Procurement Data Service does not make any changes to the content of the notices, the operators of the procurement platforms are required to implement these two concepts.<br><br>
+When dealing with version numbers and notice IDs in the context of changes to notices that have already been sent to the EU's publication platform (TED), the EU has specified two concepts that must be implemented by the procurement platforms when dealing with the Public Procurement Data Service. As the Public Procurement Data Service does not make any changes to the content of the notices, the operators of the procurement platforms are required to implement these two concepts.<br><br>
 The first concept concerns the use of version numbers in a contract notice. Sending updated notices with new (ascending) version numbers for a (previously sent) notice to the Public Procurement Data Service is possible until the notice is published on TED. No further notices with the same notice ID and incremented version number can then be sent. Now the second concept applies.<br><br>
 The second concept describes the handling of notices already published on TED and in the Public Procurement Data Service, where the concept of change notices is applied. (see https://docs.ted.europa.eu/eforms/latest/schema/change-notice.html and https://github.com/OP-TED/eForms-SDK/discussions/88 ):
 <br><br>
@@ -33,7 +33,7 @@ As soon as the status of a TED notice has reached "published", no new version ma
 ### 1.2 New notice ID for changes [functionality 'Change-Notice']<span id='versions-change'>
 
 As soon as a notice is published on TED (i.e. has the status "Published"), a correction to this notice can only be made as a "Change". Changes are technically understood as a completely new notice and therefore also require a new notice ID. The version is set to 01 so that the versioning principle can also be used for changes to Changes (for the publication process at TED) (see point 1).<br><br>
-An announcement that is to be published as a change must refer in the change block (BT-758) to the announcement (incl. version number) that is published at TED. The content contains the entire new notice to be published, including the new notice ID in BT-701.<br><br>
+An announcement that is to be published as a change must refer in the change block (BT-758) to the announcement (incl. version number) that is published at TED. The content contains the entire new notice to be published including the new notice ID in BT-701.<br><br>
 The following representation of the corresponding BTs in the XML of any notice illustrates the above.
 
 ```
@@ -132,13 +132,13 @@ The "Stop Publication" function is used to stop the publication of notices on TE
 The publication of a contract notice can be stopped for the following reasons:
 1. manually by an external user (specialist procedure manufacturer):
 The user can request the stopping of an announcement using the tracking code via the API V1/notices/stop/{trackingCode} in the Vermittlungsdienst. It is stored in the Vermittlungsdienst that this was a manual stop process.
-2. automatically: If TED manually rejects a submitted notice due to [Lawfullness Warnings](Status_information.md/#lawfullness), this notice will not be published on TED. If this announcement has already been sent to the announcement service, it will now also be automatically stopped in the announcement service. It is stored in the Vermittlungsdienst that this was an automatic stop process.
+2. automatically: If TED manually rejects a submitted notice due to [Lawfulness Warnings](Status_information.md/#lawfullness), this notice will not be published on TED. If this announcement has already been sent to the announcement service, it will now also be automatically stopped in the announcement service. It is stored in the Vermittlungsdienst that this was an automatic stop process.
 
 There are some differences in the way notices above and below the EU thresholds can be stopped.
 <br> <br>
 
 **Publication below the EU thresholds: manual stop** <br>
-Publication can only be stopped manually before the preferred publication date specified in the notice (BT-738), so that the notice is not yet published on the Notice Service.
+The publication can only be stopped manually before the preferred publication date specified in the notice (BT-738), so that the notice is not yet published on the notice service.
 
 ![nat-flow-stop](images/nat-flow-stop.png)
  <br> <br>
@@ -154,9 +154,7 @@ In the event of manual rejection by TED, the publication is automatically stoppe
 
 ![eu-auto-stop](images/eu-auto-stop.png)
 
- <br>
+<br>
 
 **Stop responses** <br>
 The responses that are sent when stop requests are sent can be viewed here https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
-
-
