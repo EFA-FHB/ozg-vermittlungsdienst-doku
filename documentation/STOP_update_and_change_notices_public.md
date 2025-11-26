@@ -132,7 +132,7 @@ Die Funktion „Stop Publication“ wird verwendet, um die Veröffentlichung von
 Die Veröffentlichung einer Bekanntmachung kann aus folgenden Gründen gestoppt werden:
 1. Manuell durch einen externen Benutzer (Fachverfahrenshersteller):
 Der Benutzer kann das Stoppen einer Bekanntmachung mithilfe des TrackingCodes über die API V1/notices/stop/{trackingCode} im Vermittlungsdienst anfordern. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen manuellen Stopp-Vorgang handelte.
-2. Automatisch: Wenn TED eine eingereichte Bekanntmachung aufgrund von [Lawfullness Warnings](Status_information.md/#lawfullness) manuell ablehnt, wird diese Bekanntmachung auf TED nicht veröffentlicht. Falls diese Bekanntmachung bereits an den Bekanntmachungsservice versendet wurde, wird diese nun automatisch auch im Bekanntmachungsservice gestoppt. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen automatischen Stopp-Vorgang handelte.
+2. Automatisch: Wenn TED eine eingereichte Bekanntmachung aufgrund von [Lawfulness Warnings](Status_information.md/#lawfullness) manuell ablehnt, wird diese Bekanntmachung auf TED nicht veröffentlicht. Falls diese Bekanntmachung bereits an den Bekanntmachungsservice versendet wurde, wird diese nun automatisch auch im Bekanntmachungsservice gestoppt. Im Vermittlungsdienst wird hierbei hinterlegt, dass es sich um einen automatischen Stopp-Vorgang handelte.
 
 Es gibt einige Unterschiede in der Art und Weise, wie Bekanntmachungen oberhalb und unterhalb der EU-Schwellenwerte gestoppt werden können.
 <br> <br>
@@ -154,9 +154,7 @@ Bei manueller Ablehnung durch TED wird die Veröffentlichung automatisch im Beka
 
 ![eu-auto-stop](images/eu-auto-stop.png)
 
- <br>
+<br>
 
 **Stopp-Antworten** <br>
 Welche Rückmeldungen beim Versenden von Stopp-Anfragen erfolgen, kann hier eingesehen werden https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication.
-
-
