@@ -20,7 +20,7 @@ Was ist der Datenservice Öffentlicher Einkauf und aus welchen Komponenten beste
 **[Bekanntmachungsservice](https://oeffentlichevergabe.de/)**: Der Bekanntmachungsservice ist der zentrale Ort, an dem EU-weite und nationale Bekanntmachungen von Bund, Ländern und Kommunen gefunden werden können. Er bietet eine Vielzahl an Recherchemöglichkeiten, damit Bietende ihrem Leistungsspektrum entsprechend zielgenau Bekanntmachungen zu Vergabeverfahren öffentlicher Auftraggeber finden können. Mit der Nutzung von „Mein Unternehmenskonto“ (Das Unternehmenskonto auf der Basis von ELSTER) stehen zudem weitere komfortable Funktionen wie Speicherung von Suchfunktionen und Benachrichtigungsservices zur Verfügung. Des Weiteren können die Daten des Bekanntmachungsservice über eine Open-Data-Schnittstelle in den Formaten eForms-DE, CSV und OCDS genutzt werden. Außerdem können andere Server über die Peppol-Infrastruktur unter Nutzung des Peppol-Profils „Search Notice“ aktuelle Bekanntmachungsdaten vom Bekanntmachungsservice abrufen.
 <br>
 
-**[eSender-HuB](https://oeffentlichevergabe.de/)**: Der eSender-Hub ist eine interne technische Komponente, der als zentrale Stelle für die Kommunikation mit dem europaweiten Tenders Electronic Daily (TED) des Amtes für Veröffentlichungen der EU dient. Der eSender-Hub konvertiert die vom Vermittlungsdienst übermittelten Bekanntmachungen vom Format eForms-DE in das notwendige eForms-EU-Format und sendet diese an TED. Außerdem leitet der eSender-Hub die Bekanntmachungen zu Vergabeverfahren oberhalb der EU-Schwellenwerte weiter an den Bekanntmachungsservice.
+**eSender-HuB**: Der eSender-Hub ist eine interne technische Komponente, der als zentrale Stelle für die Kommunikation mit dem europaweiten Tenders Electronic Daily (TED) des Amtes für Veröffentlichungen der EU dient. Der eSender-Hub konvertiert die vom Vermittlungsdienst übermittelten Bekanntmachungen vom Format eForms-DE in das notwendige eForms-EU-Format und sendet diese an TED. Außerdem leitet der eSender-Hub die Bekanntmachungen zu Vergabeverfahren oberhalb der EU-Schwellenwerte weiter an den Bekanntmachungsservice.
 </details>
 <br>
 
@@ -56,17 +56,5 @@ Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
 
 Das Team ist über das folgende [Kontaktformular](https://self-service.datenservice-oeffentlicher-einkauf.de/contact) zu erreichen.
-</details>
-<br>
-
-
-# Standard eForms-DE und SDK-DE
-
-### Fragen zur Mehrsprachigkeit
-<details>
-<summary>
-Gibt es Vorgaben zur Sprache der Bekanntmachung oder zur Mehrsprachigkeit?
-</summary>
-Es gibt zwar keine Aussage zur Wahl der Sprache von Ausschreibungen in der Vergabeordnung, jedoch ist nach § 23 Abs. 1 Verwaltungsverfahrensgesetz (VwVfG) die Amtssprache deutsch. Dementsprechend ist zu erwarten, dass deutsche Behörden ihre Unterlagen immer mindestens in deutscher Sprache ausfertigen müssen. Mehrsprachigkeit ist natürlich möglich und erlaubt. Für Veröffentlichende Entitäten, die nicht als Behörde klassifiziert werden, ist die Veröffentlichung auch ohne deutsche Sprache in Ordnung.
 </details>
 <br>

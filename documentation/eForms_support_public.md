@@ -33,7 +33,8 @@ SDK-EU|Akzeptiert ab|Akzeptiert bis|
 ## eForms-Validierung
 Alle Bekanntmachungen werden bei der Übermittlung an den Vermittlungsdienst validiert, bevor sie vom System angenommen werden. Die Validierung erfolgt anhand einer Kombination aus einer XML-Schema-Validierung und einer Schematron-Validierung. Als Ergebnis wird ein Validierungsreport im JSON-Format zurückgegeben.
 
-Eine Möglichkeit zur Offline-Validierung, wie sie auch der Vermittlungsdienst durchführt, bietet der von KoSIT bereitgestellte [Open-Source-Validator](https://projekte.kosit.org/eforms/validator-edition-eforms-de)
+Eine Möglichkeit zur Offline-Validierung, wie sie auch der Vermittlungsdienst durchführt, bietet der von KoSIT bereitgestellte [Open-Source-Validator](https://projekte.kosit.org/eforms/validator-edition-eforms-de). <br>
+Wir stellen Ihnen auch einen [Online-Validator](https://validator.ozg-vermittlungsdienst.de/q/swagger-ui/) zur Verfügung, mit dem Sie die Validierung Ihrer eForms überprüfen können.
 
 ### Validierungs-Blacklist
 
