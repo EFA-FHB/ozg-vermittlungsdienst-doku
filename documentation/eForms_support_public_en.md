@@ -33,7 +33,8 @@ SDK-EU|Accepted from|Accepted until|
 ## eForms validation
 All notices are validated when they are sent to the Vermittlungsdienst before they are accepted by the system. Validation is carried out using a combination of XML schema validation and Schematron validation. As a result, a validation report is returned in JSON format.
 
-The [Open Source Validator](https://projekte.kosit.org/eforms/validator-edition-eforms-de) provided by KoSIT offers an option for offline validation, which is also carried out by the Vermittlungsdienst
+The [Open-Source-Validator](https://projekte.kosit.org/eforms/validator-edition-eforms-de) provided by KoSIT offers an option for offline validation, which is also carried out by the Vermittlungsdienst. <br>
+We also provide you with an [online validator](https://validator.ozg-vermittlungsdienst.de/q/swagger-ui/), which you can use to check the validation of your eForms.
 
 ### Validation blacklist
 

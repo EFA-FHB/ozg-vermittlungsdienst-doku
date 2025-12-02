@@ -20,7 +20,7 @@ What is the Public Procurement Data Service and what components does it consist 
 **[Publication service](https://oeffentlichevergabe.de/)**: The publicity service is the central place where EU-wide and national notices from the federal government, federal states and local authorities can be found. It offers a wide range of search options so that bidders can find notices on public procurement procedures from contracting authorities in line with their range of services. With the use of "My company account" (the company account based on ELSTER), further convenient functions such as storage of search functions and notification services are also available. Furthermore, the data of the notification service can be used via an open data interface in the formats eForms-DE, CSV and OCDS. In addition, other servers can retrieve current announcement data from the announcement service via the Peppol infrastructure using the Peppol profile "Search Notice".
 <br>
 
-**[eSender-HuB](https://oeffentlichevergabe.de/)**: The eSender Hub is an internal technical component that serves as the central point of communication with the EU Publications Office's pan-European Tenders Electronic Daily (TED). The eSender Hub converts the notices transmitted by the Vermittlungsdienst from the eForms-DE format into the required eForms-EU format and sends them to TED. In addition, the eSender Hub forwards the notices for procurement procedures above the EU thresholds to the Notice Service.
+**eSender-Hub**: The eSender Hub is an internal technical component that serves as the central point of communication with the EU Publications Office's pan-European Tenders Electronic Daily (TED). The eSender Hub converts the notices transmitted by the Vermittlungsdienst from the eForms-DE format into the required eForms-EU format and sends them to TED. In addition, the eSender Hub forwards the notices for procurement procedures above the EU thresholds to the Notice Service.
 </details>
 <br>
 
@@ -56,17 +56,5 @@ How can the Public Procurement Data Service team be contacted?
 </summary>
 
 The team can be reached via the following [contact form](https://self-service.datenservice-oeffentlicher-einkauf.de/contact).
-</details>
-<br>
-
-
-# Standard eForms-DE and SDK-DE
-
-### Questions about multilingualism
-<details>
-<summary>
-Are there specifications for the language of the notice or for multilingualism?
-</summary>
-Although there is no statement on the choice of language for invitations to tender in the Public Procurement Regulations, the official language is German in accordance with Section 23 (1) of the Administrative Procedure Act (VwVfG). Accordingly, it is to be expected that German authorities must always prepare their documents at least in German. Multilingualism is of course possible and permitted. For publishing entities that are not classified as public authorities, publication without German is fine.
 </details>
 <br>

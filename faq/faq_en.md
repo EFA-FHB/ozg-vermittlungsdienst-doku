@@ -265,15 +265,7 @@ Detailed information on the support of the eForms versions can be found here: ht
 
 <details>
   <summary>
-    Are there any requirements for the language of the announcement or multilingualism?
-  </summary>
-  <br>
-  Although there is no statement on the choice of language for invitations to tender in the procurement regulations, Section 23 (1) of the Administrative Procedure Act (VwVfG) stipulates that the official language is German. Accordingly, it is to be expected that German authorities must always prepare their documents at least in German. Multilingualism is of course possible and permitted. For publishing entities that are not classified as public authorities, publication without German is fine.
-</details>
-
-<details>
-  <summary>
-    Are there forms that are not considered in eForms-DE?
+    Are there forms that are not included in eForms-DE?
   </summary>
   <br>
     The following forms are not included in the eForms-DE standard:
