@@ -1,5 +1,4 @@
 
-### Datenservice Öffentlicher Einkauf
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 

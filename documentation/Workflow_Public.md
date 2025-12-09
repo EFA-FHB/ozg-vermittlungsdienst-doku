@@ -1,5 +1,4 @@
-### Datenservice Öffentlicher Einkauf
-<br>
+
 
 # Workflow einer Bekanntmachung im Datenservice Öffentlicher Einkauf
 

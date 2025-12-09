@@ -1,4 +1,3 @@
-### Datenservice Öffentlicher Einkauf
 # Informationen für Vergabestellen
  
 - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)

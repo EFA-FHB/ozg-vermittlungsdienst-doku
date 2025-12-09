@@ -1,5 +1,4 @@
-### Datenservice Öffentlicher Einkauf
-<br>
+
 
 # Unterstützte eForms-Versionen
 Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend der folgenden Übersicht verarbeitet.

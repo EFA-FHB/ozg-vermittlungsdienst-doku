@@ -1,4 +1,4 @@
-### Datenservice Öffentlicher Einkauf
+
 # Informationen für Wirtschaftsunternehmen
 
 - [Datenservice Öffentlicher Einkauf](#datenservice-öffentlicher-einkauf)

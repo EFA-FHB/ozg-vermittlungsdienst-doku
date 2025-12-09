@@ -1,4 +1,4 @@
-### Datenservice Öffentlicher Einkauf
+
 # Häufig gestellte Fragen
 
 - [Datenservice Öffentlicher Einkauf](#datenservice-öffentlicher-einkauf)
@@ -14,16 +14,20 @@
 Aus welchen Komponenten besteht der Datenservice Öffentlicher Einkauf und wo brauche ich einen Account?
 </summary>
 <br>
-**[Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Das Redaktionssystem ist ein Angebot für Vergabestellen und beispielsweise Dienstleister von öffentlichen Auftraggebern oder Zuwendungsempfängern, die kein elektronisches Vergabesystem nutzen. 
-Mit dem Redaktionssystem können Bekanntmachungen zu europaweiten Vergabeverfahren erfasst, bearbeitet, korrigiert und über den Vermittlungsdienst an TED versendet werden.
+
+**[Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/)**: Das Redaktionssystem ist ein Angebot für Vergabestellen und beispielsweise Dienstleister von öffentlichen Auftraggebern oder Zuwendungsempfängern, die kein elektronisches Vergabesystem nutzen. Mit dem Redaktionssystem können Bekanntmachungen zu Vergabeverfahren erfasst, bearbeitet, korrigiert und auf dem Bekanntmachungsservice publiziert werden, die bei europaweiten Vergabeverfahren auch über den Vermittlungsdienst des Datenservice Öffentlicher Einkauf vergaberechtskonform an die Plattform TED des Amtes für Veröffentlichungen der EU versendet werden. Zudem ist das Zurückziehen von Verfahren möglich.
 <br>
-**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Der Vermittlungsdienst ist eine rein technische Schnittstelle zur Annahme, Validierung und Weiterleitung von Bekanntmachungen an TED und den Bekanntmachungsservice. 
-Er bietet KEINE Oberfläche zum Erstellen von Bekanntmachungen! Es ist ausschließlich eine Maschine-zu-Maschine Kommunikation möglich, wie z.B. mit einer Vergabestellensoftware. Diese Anbindung wird durch den Fachverfahrenshersteller durchgeführt. 
+
+**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: Der Vermittlungsdienst nimmt als technische Komponente Bekanntmachungen von Vergabeplattformen im Format eForms-DE entgegen. Bekanntmachungen zu Vergabeverfahren oberhalb der EU-Schwellenwerte werden validiert und an den eSender-Hub des Datenservice Öffentlicher Einkauf weitergeleitet. Bekanntmachungen zu Vergabeverfahren unterhalb der EU-Schwellenwerte werden nach Validierung direkt an den Bekanntmachungsservice weitergeleitet.
 <br>
-**[Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/)**: Das Self-Service-Portal (SSP) ist eine Web-Oberfläche für das Accountmanagement von Accounts des Vermittlungsdienstes. Primär genutzt wird es durch Fachverfahrenshersteller zur Ansicht der Statusinformationen von eingelieferten Bekanntmachungen in einem Dashboard.
+
+**[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: Das Self-Service-Portal bietet Betreibern von Vergabeplattformen die Möglichkeit, administrative Prozesse zur Entlastung des eigenen Betriebs selbst zu verwalten und sich jederzeit über den Bearbeitungsstatus von Bekanntmachungen im Bekanntmachungsprozess zu informieren.
 <br>
-**[Bekanntmachungsservice](https://oeffentlichevergabe.de/)**: Im Bekanntmachungsservice werden alle über den eSender-Hub versendeten EU-weiten und nationalen Bekanntmachungen veröffentlicht. Der Bekanntmachungsservice bietet eine Vielzahl an Recherchemöglichkeiten, damit Bietende ihrem Leistungsspektrum entsprechend zielgenau Bekanntmachungen finden können. Mit Nutzung des ELSTER-Unternehmenskontos stehen zudem weitere Komfortfunktionen wie Speicherung von Suchfunktionen und Benachrichtigungsservices zur Verfügung. Des Weiteren können die Daten des Bekanntmachungsservice über eine Open Data Schnittstelle in den Formaten eForms-DE, CSV und OCDS nachgenutzt werden. 
+
+**[Bekanntmachungsservice](https://oeffentlichevergabe.de/)**: Der Bekanntmachungsservice ist der zentrale Ort, an dem EU-weite und nationale Bekanntmachungen von Bund, Ländern und Kommunen gefunden werden können. Er bietet eine Vielzahl an Recherchemöglichkeiten, damit Bietende ihrem Leistungsspektrum entsprechend zielgenau Bekanntmachungen zu Vergabeverfahren öffentlicher Auftraggeber finden können. Mit der Nutzung von „Mein Unternehmenskonto“ (Das Unternehmenskonto auf der Basis von ELSTER) stehen zudem weitere komfortable Funktionen wie Speicherung von Suchfunktionen und Benachrichtigungsservices zur Verfügung. Des Weiteren können die Daten des Bekanntmachungsservice über eine Open-Data-Schnittstelle in den Formaten eForms-DE, CSV und OCDS genutzt werden. Außerdem können andere Server über die Peppol-Infrastruktur unter Nutzung des Peppol-Profils „Search Notice“ aktuelle Bekanntmachungsdaten vom Bekanntmachungsservice abrufen.
 <br>
+
+**eSender-HuB**: Der eSender-Hub ist eine interne technische Komponente, der als zentrale Stelle für die Kommunikation mit dem europaweiten Tenders Electronic Daily (TED) des Amtes für Veröffentlichungen der EU dient. Der eSender-Hub konvertiert die vom Vermittlungsdienst übermittelten Bekanntmachungen vom Format eForms-DE in das notwendige eForms-EU-Format und sendet diese an TED. Außerdem leitet der eSender-Hub die Bekanntmachungen zu Vergabeverfahren oberhalb der EU-Schwellenwerte weiter an den Bekanntmachungsservice.
 </details>
 <br>
 
@@ -32,7 +36,7 @@ Er bietet KEINE Oberfläche zum Erstellen von Bekanntmachungen! Es ist ausschlie
 Pro Registrierung muss eine E-Mail Adresse als Benutzername angegeben werden. Ist es möglich dieselbe E-Mail-Adresse für mehrere Systeme anzugeben?
 </summary>
 <br>
-Generell werden zwei E-Mail-Adressen pro Account erfragt (teils auch als Mandant bezeichnet): Eine E-Mail-Adresse zur Aktivierung des Accounts und eine Kontakt E-Mail-Adresse. Es wird eine individuelle E-Mail-Adresse pro Account zur Aktivierung benötigt, um das Passwort für den Account zu setzen und um eine eindeutige Authentifizierung mit der Kombination aus E-Mail und Passwort zu ermöglichen. Die Account E-Mail-Adresse kann auch ein Funktionspostfach sein und wird nur zur Verwaltung des Accounts benötigt. Die Kontakt E-Mail-Adresse wird genutzt, falls beim Betrieb Fragen aufkommen zu einer Bekanntmachung, die von diesem Account versendet wurde. Kontakt E-Mail-Adresse und Account E-Mail-Adresse dürfen identisch sein und dieselbe Kontakt E-Mail-Adresse (z.B. ein zentraler Ansprechpartner) darf bei mehreren Accounts verwendet werden. Es kann allerdings für die drei Systemumgebungen Preview, Staging und Produktion dieselbe Account E-Mail-Adresse verwendet werden. Generell empfehlen wir einen Account pro Vergabeplattform. 
+Generell werden zwei E-Mail-Adressen pro Account erfragt (in der RST-API als Mandant bezeichnet): Eine E-Mail-Adresse zur Aktivierung des Accounts und eine Kontakt E-Mail-Adresse. Es wird eine individuelle E-Mail-Adresse pro Account zur Aktivierung benötigt, um das Passwort für den Account zu setzen und um eine eindeutige Authentifizierung mit der Kombination aus E-Mail und Passwort zu ermöglichen. Die Account E-Mail-Adresse kann auch ein Funktionspostfach sein und wird nur zur Verwaltung des Accounts benötigt. Die Kontakt E-Mail-Adresse wird genutzt, falls beim Betrieb Fragen aufkommen zu einer Bekanntmachung, die von diesem Account versendet wurde. Kontakt E-Mail-Adresse und Account E-Mail-Adresse dürfen identisch sein und dieselbe Kontakt E-Mail-Adresse (z.B. ein zentraler Ansprechpartner) darf bei mehreren Accounts verwendet werden. Für die drei Systemumgebungen Preview, Staging und Produktion kann dieselbe Account E-Mail-Adresse verwendet werden. Generell empfehlen wir einen Account pro Vergabeplattform.
 </details>
 <br>
 
@@ -41,17 +45,16 @@ Generell werden zwei E-Mail-Adressen pro Account erfragt (teils auch als Mandant
 Bei der Accounterstellung muss eine Kontakt-E-Mail-Adresse eines Fachverfahrensherstellers angegeben werden. Wozu wird diese verwendet?
 </summary>
 <br>
-Diese E-Mail-Adresse wird verwendet, um proaktiv auf Nutzer des Self-Service-Portals zugehen zu können. Dieses kann der Fall sein, wenn es beispielsweise Auffälligkeiten mit dem Account oder den eingelieferten Bekanntmachungen gibt oder wenn generelle Informationen an alle Accountverantwortlichen versenden werden sollen. 
+Diese E-Mail-Adresse wird verwendet, um proaktiv auf Nutzer des Self-Service-Portals zugehen zu können. Dieses kann der Fall sein, wenn es beispielsweise Auffälligkeiten mit dem Account oder den eingelieferten Bekanntmachungen gibt oder wenn Informationen an alle Accountverantwortlichen versenden werden sollen. 
 </details>
 <br>
 
 <details>
 <summary>
-Können für die einzelnen Systeme mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts für die Preview- und Staging-Umgebung jeweils empfehlenswert?
+Können für die einzelnen Systeme mehrere Accounts gleichzeitig beantragt werden? Wie viele Accounts sind für die Preview- und Staging-Umgebung jeweils empfehlenswert?
 </summary>
 <br>
-Wir empfehlen, auf Staging exakt so viele Accounts zu verwenden, wie sie für Produktion planen, zu nutzen. Zusätzlich sind natürlich beliebig viele Testaccounts auf Preview und Staging möglich. 
-</details>
+Wir empfehlen, auf Staging exakt so viele Accounts zu verwenden, wie für die Produktion geplant sind. Zusätzlich sind beliebig viele Testaccounts auf Preview und Staging möglich.</details>
 <br>
 
 <details>
@@ -59,8 +62,7 @@ Wir empfehlen, auf Staging exakt so viele Accounts zu verwenden, wie sie für Pr
 Worin besteht der Unterschied zwischen der bei der Accounterstellung angefragten URL der Vergabeplattform und der Verlinkung zu den Vergabeunterlagen im eForms-Dokument?
 </summary>
 <br>
-Die URL der Vergabeplattform dient rein der Zuordnung der Accounts/ Mandanten, diese hat nichts mit der Verlinkung auf die Vergabeunterlagen zu tun. 
-Manche Vergabeplattformen nutzen z.B. Dropbox oder Google Drive oder Ähnliches für das Hosten der Vergabeunterlagen, weshalb sich daraus nicht eindeutig die dahinterliegende Plattform identifizieren lässt. Aus diesem Grund ist die URL zusätzlich notwendig. Die Verlinkung zu den Vergabeunterlagen bleibt weiterhin im XML-Dokument. Der bei der Accounterstellung mitgegebene Link wird bei der Veröffentlichung im Bekanntmachungsservice, unter der Bekanntmachung selbst, als Disclaimer/Quelle angezeigt.
+Die URL der Vergabeplattform dient rein der Zuordnung der Accounts / Mandanten, sie hat nichts mit der Verlinkung auf die Vergabeunterlagen zu tun. Manche Vergabeplattformen nutzen z.B. Dropbox oder Google Drive oder Ähnliches für das Hosten der Vergabeunterlagen, weshalb sich daraus nicht eindeutig die dahinterliegende Plattform identifizieren lässt. Aus diesem Grund ist die URL zusätzlich notwendig. Die Verlinkung zu den Vergabeunterlagen bleibt weiterhin im XML-Dokument. Der bei der Accounterstellung mitgegebene Link wird bei der Veröffentlichung im Bekanntmachungsservice, unter der Bekanntmachung selbst, als Quelle angezeigt.
 </details>
 <br>
 
@@ -79,7 +81,7 @@ Da die Bekanntmachungen bei TED auf Preview und Staging etwas schneller prozessi
 Zur Anforderung von Accounts soll die URL der Vergabeplattform angegeben werden. Wozu dient diese Angabe?
 </summary>
 <br>
-Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden zu können, den korrekten Zugang zu ermöglichen und Duplikate zu vermeiden. Vergabeplattformen sind die Systeme, in denen Bekanntmachungen veröffentlicht werden, die URL der Vergabeplattform kann so z.B. alpha.oeffentlichevergabe.de (Test-Umgebung des Bekanntmachungsservices) sein. Mit dieser URL wird identifiziert, auf welcher Plattform Bekanntmachungen derzeit veröffentlicht werden. Bei diesem Thema ist es klar, dass es hier unterschiedliche Vorgehensweisen je nach Struktur des Systems der jeweiligen FVH geben kann. Prinzipiell gilt, dass sie einen Account pro System benötigen, das zukünftig in den Vermittlungsdient einliefern soll. Bei Unsicherheiten, welche Systeme/ Plattformen an den Vermittlungsdienst anzuschließen sind, kann eine Klärung mit Nutzung des Kontaktformulars herbeigeführt werden https://self-service.datenservice-oeffentlicher-einkauf.de/contact. 
+Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden zu können, den korrekten Zugang zum Bekanntmachungsservice zu ermöglichen und um Duplikate zu vermeiden. Mit der URL wird identifiziert, auf welcher Plattform Bekanntmachungen derzeit veröffentlicht und abrufbar sind. Je nach Struktur des Systems der jeweiligen Fachverfahrenshersteller kann es unterschiedliche Vorgehensweisen geben. Prinzipiell gilt, dass pro System, das zukünftig in den Vermittlungsdient einliefern soll ein Account benötigt wird. Bei Unsicherheiten, welche Systeme/ Plattformen an den Vermittlungsdienst anzuschließen sind, kann eine Klärung mit Nutzung des Kontaktformulars herbeigeführt werden https://self-service.datenservice-oeffentlicher-einkauf.de/contact. 
 </details>
 <br>
 
@@ -88,16 +90,14 @@ Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden z
 Welche Systemumgebung ist die Umgebung, an die die Testsysteme der Fachverfahrenshersteller Bekanntmachungen versenden können? Worin besteht der Unterschied zwischen der Preview- und Staging-Umgebung?
 </summary>
 <br>
-Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespielt und dieses ist auch die Testumgebung für zukünftige Releases. Die Staging-Umgebung ist eine 100% Kopie der Produktionsumgebung und sollte nur für produktionsnahe Tests genutzt werden. Beide Umgebungen liefern in die Staging-Umgebung des Bekanntmachungsservices und TED Preview ein. Auf Staging sollten Tests genauso durchgeführt werden, wie sie es auch für Produktion vorgesehen ist. Prinzipiell sind aber beide Umgebungen zum Test geeignet.
-</details>
+Die Preview-Umgebung dient nur zum Testen. Hier werden häufig Updates eingespielt und sie ist auch die Testumgebung für zukünftige Releases. Die Staging-Umgebung ist eine 100% Kopie der Produktionsumgebung und sollte nur für produktionsnahe Tests genutzt werden. Beide Umgebungen liefern in die Staging-Umgebung des Bekanntmachungsservices und TED Preview ein. Auf Staging sollten Tests genauso durchgeführt werden, wie es auch für Produktion vorgesehen ist. Prinzipiell sind aber beide Umgebungen zum Test geeignet.</details>
 <br>
 
 ### Roadmap
 
 <details>
 <summary>
-Gibt es eine Roadmap zur Weiterentwicklung der Komponenten des Datenservice Öffentlicher Einkauf?
-</summary>
+Gibt es eine Roadmap zu den Komponenten des Datenservice Öffentlicher Einkauf? </summary>
 <br>
 Ja. Die Informationen stehen hier: https://self-service.datenservice-oeffentlicher-einkauf.de/roadmap
 </details>
@@ -109,13 +109,14 @@ Ja. Die Informationen stehen hier: https://self-service.datenservice-oeffentlich
 <summary> 
 Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
-Das Team ist über das folgende Kontaktformular zu erreichen:
+
+Das Team ist je nach Komponente über folgende Kontaktformulare zu erreichen: 
 <br>
-Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal auf https://self-service.datenservice-oeffentlicher-einkauf.de/contact
+Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal auf https://self-service.datenservice-oeffentlicher-einkauf.de/contact 
 <br>
 Fragen/Anmerkungen zum Redaktionssystem auf https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
 <br>
-Fragen/Anmerkungen zum Bekanntmachungsservice auf https://oeffentlichevergabe.de/ui/de/contact
+Fragen/Anmerkungen zum Bekanntmachungsservice auf https://oeffentlichevergabe.de/ui/de/contact 
 </details>
 <br>
 
@@ -125,6 +126,8 @@ Wie wird sichergestellt, dass Fachverfahrenshersteller regelmäßig über Neuigk
 </summary>
 <br>
 Es finden regelmäßig Informationstermine für die Fachverfahrenshersteller statt, diese werden per E-Mail angekündigt.
+<br>
+Eine aktuelle Roadmap ist hier zu finden: https://self-service.datenservice-oeffentlicher-einkauf.de/roadmap 
 </details>
 
 <br>
@@ -133,11 +136,13 @@ Es finden regelmäßig Informationstermine für die Fachverfahrenshersteller sta
 Wie kann sichergestellt werden, dass Fachverfahrenshersteller regelmäßig über Neuigkeiten bzgl. des eForms-DE Standard/SDK-eForms-DE informiert bleiben.
 </summary>
 <br>
-Die offizielle Publikation zum Standard eForms-DE erfolgt auf https://xeinkauf.de/eforms-de/
+Die offizielle Publikation der KoSIT https://xeinkauf.de/eforms-de/zum Standard eForms-DE erfolgt auf https://xeinkauf.de/eforms-de/ 
 <br>
-Die Publikation des zugehörigen SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
+Auf dieser Seite kann auch Kontakt mit der KoSIT aufgenommen werden.
+Die Publikation des SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
 <br>
-Fragen zum SDK-DE sind über Issues im Repository zu eröffnen.
+Fragen zum SDK-DE sind über Issues im dortigen Repository zu eröffnen.
+
 
 </details>
 <br>
@@ -150,7 +155,7 @@ Wo ist die aktuelle Dokumentation zum Datenservice Öffentlicher Einkauf zu find
 </summary>
 <br>
 
-Die Github-Dokumentation (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) wird weitergepflegt und ist die offizielle Dokumentation. Diese kann auch im Self-Service Portal des Datenservice Öffentlicher Einkauf gelesen werden.
+Die Github-Dokumentation (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) wird weitergepflegt und ist die offizielle Dokumentation.
 </details>
 <br>
 
@@ -159,7 +164,7 @@ Die Github-Dokumentation (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku
 Wie kann für ein Release ermittelt werden, welche eForms-Versionen die Teilkomponenten unterstützen?   
 </summary>
 <br>
-Unter https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. Für jedes Release werden Release Notes veröffentlicht, um zu beschreiben, welche Komponente welche Version unterstützt.
+Unter https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/eForms_support ist dokumentiert, welche eForms-Versionen die Teilkomponenten unterstützen. Für jedes Release werden Release Notes veröffentlicht, aus denen hervorgeht, welche Komponente welche Version unterstützt.
 </details>
 <br>
 
@@ -168,8 +173,7 @@ Unter https://self-service.datenservice-oeffentlicher-einkauf.de/documentation/e
 Ist die Dokumentation zum Vermittlungsdienst (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) die offizielle Dokumentation?
 </summary>
 <br>
-
-Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weiteres die offizielle Dokumentation. Die Dokumentation wird zugleich im [Self-Service Portal](https://self-service.datenservice-oeffentlicher-einkauf.de/) veröffentlicht.
+Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weiteres die offizielle Dokumentation.
 </details>
 <br>
 
@@ -180,7 +184,7 @@ Ja, die Github-Dokumentation wird regelmäßig aktualisiert und ist bis auf weit
 Wie können Fachverfahrenshersteller die Informationen des CVS-Reports der EU zu einer Bekanntmachung erhalten?
 </summary>
 <br>
-Alle Fehler und Warnungen aus dem CVS Report werden in den Statusinformationen übergeben. Dabei werden die ID, der Pfad, der Inhalt und der Text jeder angeschlagenen Regel übergeben. Es ist nicht vorgesehen, den CVS Report als Datei zurückzugeben.
+Alle Fehler und Warnungen aus dem CVS Report werden in den Statusinformationen zur Bekanntmachung übergeben. Dabei werden die ID, der Pfad, der Inhalt und der Text jeder angeschlagenen Regel übergeben. Es ist nicht vorgesehen, den CVS Report als Datei zurückzugeben.
 </details>
 <br>
 
@@ -198,7 +202,7 @@ Der Endpunkt v1/notices gibt Statusinformationen zu allen Bekanntmachungen zurü
 Kann auch ein API-Key zur Authentifizierung genutzt werden oder nur die Authentifizierung über Token? 
 </summary>
 <br>
-Die Authentifikation via API-Keys ist nicht mehr möglich, auch auf Preview. Langfristig können Sie sich nur über die Tokens mit Refresh alle 24h authentifizieren.
+Die Authentifikation via API-Keys ist nicht mehr möglich, auch nicht auf Preview. Eine Authentifizierung ist nur über die Tokens mit Refresh alle 24 Stunden möglich.
 </details>
 <br>
 
@@ -225,7 +229,7 @@ Der Endpunkt v1/notices gibt Statusinformationen zu allen Bekanntmachungen zurü
 Wie können Fachverfahrenshersteller die Informationen des CVS-Reports der EU zu einer Bekanntmachung erhalten, wenn diese weder in der Antwort bei Veröffentlichung (POST → /v2/notices), noch in den Statusinformationen (GET → /v1/notices/{trackingCode}) enthalten sind?
 </summary>
 <br>
-Alle Fehler und Warnungen aus dem CVS Report werden in den Statusinformationen übergeben. Dabei übergeben wir die ID, den Pfad, den Inhalt und den Text jeder angeschlagenen Regel. Derzeit ist es nicht vorgesehen, den CVS Report als Datei zurückzugeben. 
+Alle Fehler und Warnungen aus dem CVS Report werden in den Statusinformationen übergeben. Dabei übergeben wir die ID, den Pfad, den Inhalt und den Text jeder angeschlagenen Regel. Es ist nicht vorgesehen, den CVS Report als Datei zurückzugeben. 
 </details>
 <br>
 
@@ -238,7 +242,7 @@ Ja, die produktive Nutzung des Online Validators wird unterstützt. In der Produ
 </details>
 <br>
 
-### Akzeptierte SDK-Versionen
+### Akzeptierte SDK-DE-Versionen
 
 <details>
 <summary>
@@ -261,25 +265,17 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen stehen hier:
 
 <details>
   <summary>
-    Gibt es Vorgaben zur Sprache der Bekanntmachung oder Mehrsprachigkeit?
-  </summary>
-  <br>
-  Es gibt zwar keine Aussage zur Wahl der Sprache von Ausschreibungen in der Vergabeordnung, jedoch ist nach § 23 Abs. 1 Verwaltungsverfahrensgesetz (VwVfG) die Amtssprache deutsch. Dementsprechend ist zu erwarten, dass deutsche Behörden ihre Unterlagen immer mindestens in deutscher Sprache ausfertigen müssen. Mehrsprachigkeit ist natürlich möglich und erlaubt. Für Veröffentlichende Entitäten, die nicht als Behörde klassifiziert werden, ist die Veröffentlichung auch ohne deutsche Sprache in Ordnung. 
-</details>
-
-<details>
-  <summary>
     Gibt es Formulare , die in eForms-DE nicht berücksichtigt werden?
   </summary>
   <br>
     Folgende Formulare sind im eForms-DE Standard nicht vorgesehen:
   
-| Formular    | Typ                           | Beschreibung  | Grund für die Nichtumsetzung in eForms-DE |
-|-------------|----------------------------------|------------|---------------------|
-| 1 | Plannung | Bekanntmachung der Veröffentlichung einer Vorinformation in einem Beschafferprofil – allgemeine Richtlinie  | Informationen sind im Beschafferprofil enthalten |
-| 2 | Plannung | Bekanntmachung der Veröffentlichung einer regelmäßigen nicht verbindlichen Bekanntmachung in einem Beschafferprofil – __Sektorenrichtlinie__ | Informationen sind im Beschafferprofil enthalten |
-| 3 | Plannung | Bekanntmachung der Veröffentlichung einer Vorinformation in einem Beschafferprofil – Richtlinie für Beschaffung im Bereich Verteidigung | Informationen sind im Beschafferprofil enthalten |
-| T01 | Plannung | Vorinformation zu öffentlichen Personenverkehrsdiensten | Grundlage ist die Verordnung (EG) Nr. 1370/2007 diese gilt weiterhin mit Aktualisierungen. Aktuell erfolgt die Datenerfassung für T1 in der Anwendung „eNotices“ direkt bei TED. Die eForms-Verordnung ((EU) 2019/1780) die zentrale Grundlage für die seit 25.10.2023 gültige VgV. Die Verordnung (EG) Nr. 1370/2007 ist nicht Bestandteil der eForms-Verordnung. |
+| Formular    | Typ                       | Beschreibung  | Grund für die Nichtumsetzung in eForms-DE |
+|-------------|------------------------------|------------|---------------------|
+| 1 | Planung | Bekanntmachung der Veröffentlichung einer Vorinformation in einem Beschafferprofil – allgemeine Richtlinie  | Informationen sind im Beschafferprofil enthalten |
+| 2 | Planung | Bekanntmachung der Veröffentlichung einer regelmäßigen nicht verbindlichen Bekanntmachung in einem Beschafferprofil – __Sektorenrichtlinie__ | Informationen sind im Beschafferprofil enthalten |
+| 3 | Planung | Bekanntmachung der Veröffentlichung einer Vorinformation in einem Beschafferprofil – Richtlinie für Beschaffung im Bereich Verteidigung | Informationen sind im Beschafferprofil enthalten |
+| T01 | Planung | Vorinformation zu öffentlichen Personenverkehrsdiensten | Grundlage ist die Verordnung (EG) Nr. 1370/2007 diese gilt weiterhin mit Aktualisierungen. Aktuell erfolgt die Datenerfassung für T1 in der Anwendung „eNotices“ direkt bei TED. Die eForms-Verordnung ((EU) 2019/1780) die zentrale Grundlage für die seit 25.10.2023 gültige VgV. Die Verordnung (EG) Nr. 1370/2007 ist nicht Bestandteil der eForms-Verordnung. |
 | T02 | Result | Bekanntmachung über vergebene Aufträge für öffentliche Personenverkehrsdienste | Grundlage ist die Verordnung (EG) Nr. 1370/2007 diese gilt weiterhin mit Aktualisierungen. Aktuell erfolgt die Datenerfassung für T2 in der Anwendung „eNotices“ direkt bei TED. Die eForms-Verordnung ((EU) 2019/1780) die zentrale Grundlage für die seit 25.10.2023 gültige VgV. Die Verordnung (EG) Nr. 1370/2007 ist nicht Bestandteil der eForms-Verordnung. |
 </details>
 <br>
@@ -288,7 +284,7 @@ Ausführliche Informationen zur Unterstützung der eForms-Versionen stehen hier:
 
 <details>
 <summary>
-Wo ist die neueste Version des vom Datenservice Öffentlicher Einkauf (DÖE) unterstützten und zum deutschen Standard eForms-DE konformen SDK-DE zu finden?</summary>
+Wo ist die neueste Version des vom Datenservice Öffentlicher Einkauf unterstützten und zum deutschen Standard eForms-DE konformen SDK-DE zu finden?</summary>
 <br>
 Die Publikation des SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
 </details>
@@ -297,7 +293,7 @@ Die Publikation des SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155
 ## Allgemein
 [Zum Anfang](#häufig-gestellte-fragen)
 
-### Publikationsplattform der EU (TED)
+### eNotices Portal der EU
 
  <details> 
 <summary>
@@ -310,7 +306,7 @@ Wie erfolgt die Kommunikation mit TED?
 - Bei API-Übermittlungen muss die NoticeAuthorEmail die E-Mail des Beschaffers (Endanwender) sein
 -	Der E-Mail-Autor der Bekanntmachung erhält Benachrichtigungen über Statusänderungen:
 --> Einreichung, gestoppt, nicht veröffentlicht, veröffentlicht
--	Der eSender erhält eine Kopie an die E-Mail-Adresse, die von EU-Login für den API-Schlüssel verwendet wird.
+-	Der eSender erhält eine Kopie der Bekanntmachung an die E-Mail-Adresse, die im EU-Login für den verwendeten API-Schlüssel hinterlegt ist
 </details>
 <br>
 
@@ -319,7 +315,7 @@ Wie erfolgt die Kommunikation mit TED?
 Ist es möglich weiterhin Bekanntmachungen über eNotices2 einzuliefern?
 </summary>
 <br>
-Seit dem 25.10.2023 müssen rechtlich alle oberschwelligen Bekanntmachungen im eForms-DE Format über den Datenservice Öffentlicher Einkauf eingeliefert werden. Eine direkte Einlieferung über eNotices2 ist rechtlich nicht zulässig, da dort die Anpassungen des eForms-DE Standards nicht berücksichtig werden. (Siehe auch VgV § 10a) 
+Seit dem 25.10.2023 müssen alle Bekanntmachungen oberhalb der EU-Schwellenwerte im eForms-DE Format über den Datenservice Öffentlicher Einkauf eingeliefert werden. Eine Einlieferung über eNotices2 ist somit nicht zulässig (Siehe auch VgV § 10a)
 </details>
 <br>
 
@@ -328,14 +324,12 @@ Seit dem 25.10.2023 müssen rechtlich alle oberschwelligen Bekanntmachungen im e
 Existiert ein Mapping von XVergabe auf eForms?
 </summary>
 <br>
-Nein, im Datenservice Öffentlicher Einkauf wird kein Mapping von XVergabe auf eForms zur Verfügung gestellt.
-Der Standard XVergabe wird dauerhaft durch eForms-DE ersetzt und nicht weiterentwickelt. 
+Nein, im Datenservice Öffentlicher Einkauf wird kein Mapping von XVergabe auf eForms zur Verfügung gestellt. Der Standard XVergabe wird aktuell nicht weiterentwickelt und perspektivisch durch eForms-DE ersetzt. 
 </details>
 <br>
 
 ---
 [Zum Anfang](#häufig-gestellte-fragen)
-
 
 
 

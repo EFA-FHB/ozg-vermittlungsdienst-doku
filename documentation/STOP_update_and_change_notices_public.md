@@ -1,5 +1,4 @@
-### Datenservice Öffentlicher Einkauf
-<br>
+
 
 # Change-Notices/Updates & Stop-Publication Funktionalität
 
