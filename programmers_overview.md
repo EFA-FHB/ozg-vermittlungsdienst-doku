@@ -1,4 +1,4 @@
-# Programmierende
+# Informationen für Programmierende
 <br>
 
 ## Verfügbare Bereiche
@@ -10,4 +10,4 @@
 
 ---
 
-*Wählen Sie einen der oben genannten Bereiche, um weitere Informationen zu erhalten.*
+*Wählen Sie eines der oben genannten Themen, um weitere Informationen zu erhalten.*
