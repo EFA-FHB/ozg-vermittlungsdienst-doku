@@ -1,4 +1,4 @@
-### Datenservice Öffentlicher Einkauf
+
 # Dokumentation
 Anbindung:
   - [Anbindung an den Vermittlungsdienst](Connection_to_mediator.md)

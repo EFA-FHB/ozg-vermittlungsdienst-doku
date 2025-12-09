@@ -1,7 +1,6 @@
-### Data service public purchasing
-<br>
 
-# Workflow of an announcement in the public procurement data service
+
+# Workflow of a notice in the Public Procurement Data Service
 
 The following diagram describes the general workflow of an announcement.
 <br><br>

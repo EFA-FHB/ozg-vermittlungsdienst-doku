@@ -1,4 +1,4 @@
-### Data service public procurement
+
 [Table of contents](/documentation/documentation.md)
 <br>
 
@@ -7,8 +7,8 @@
 ## Content
 
 1 [Use of version numbers and notice IDs in the context of passing on notices](#versions-explained)<br>
-    1.1 [Versions and the use of version numbers [Update Notice functionality](#versions-update)<br>
-    1.2 [New notice ID for changes [change notice functionality](#versions-change)<br>
+    1.1 [Versions and the use of version numbers [Update Notice functionality]](#versions-update)<br>
+    1.2 [New notice ID for changes [change notice functionality]](#versions-change)<br>
     1.3 [Changes that follow each other](#versions-changes)<br>
 2 [Adjusting the content of a notice](#stop-or-change)<br>
     2.1 [Update to a notice](#update)<br>

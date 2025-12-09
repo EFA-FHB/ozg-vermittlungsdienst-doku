@@ -108,7 +108,7 @@ Szenario B: Verwendung eines Updates zur Bearbeitung einer eingereichten Bekannt
 
 1. Bekanntmachung A mit der noticeID ABC *Version 01* wird eingereicht und angenommen. Sie ist noch nicht veröffentlicht, z. B. weil das gewünschte Veröffentlichungsdatum in der Zukunft liegt.
 2. Der Fachverfahrenshersteller möchte etwas in dieser Bekanntmachung bearbeiten, z. B. weil sich einige Informationen geändert haben und angepasst werden müssen.
-3. Der Fachverfahrenshersteller stoppt die zuvor eingereichte Bekanntmachung noticeID ABC *Version 01* mit Hilfe des Stop-Endpoints (Dies ist obligatorisch, bevor eine Aktualisierung gesendet wird. TED hat angekündigt, dass dies in Zukunft wahrscheinlich auch in TED so restriktiert wird).
+3. Der Fachverfahrenshersteller stoppt die zuvor eingereichte Bekanntmachung noticeID ABC *Version 01* mit Hilfe des Stop-Endpoints (Dies ist obligatorisch, bevor eine Aktualisierung gesendet wird.)
 4. Der Vermittlungsdienst stoppt die Bekanntmachung in TED und im Bekanntmachungsservice (je nachdem, wohin sie bereits gesendet wurde).
 5. Der Fachverfahrenshersteller reicht eine Aktualisierung mit noticeID ABC *Version 02* ein.
 6. Das Update wird akzeptiert, da sich die Vorgängerversion der Bekanntmachung im Status STOPPED befindet.

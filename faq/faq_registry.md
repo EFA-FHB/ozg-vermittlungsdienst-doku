@@ -1,9 +1,6 @@
 
 
-# Vergabestelle
-
-- [Datenservice Öffentlicher Einkauf](#datenservice-öffentlicher-einkauf)
-- [Standard eForms-DE und SDK-DE](#standard-eForms-DE-und-SDK-DE)
+# Informationen für Vergabestellen
 
 --@include faq/faq_public.md
 

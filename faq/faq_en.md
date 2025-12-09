@@ -1,9 +1,9 @@
-### Public procurement data service
+
 # Frequently asked questions
 
-- Data service public procurement](#datenservice-öffentlicher-einkauf)
-- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- General](#general)
+- [Data service public procurement](#datenservice-öffentlicher-einkauf)
+- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- [General](#general)
 
 ## Data service public purchasing
 

@@ -1,8 +1,6 @@
 
 # Datenservice Öffentlicher Einkauf
 
-### Anbindung
-
 <details>
 <summary>
 Was ist der Datenservice Öffentlicher Einkauf und aus welchen Komponenten besteht er?
@@ -47,8 +45,6 @@ In welchem Zyklus werden Bekanntmachungen bei TED und im Bekanntmachungsservice 
 Grundsätzlich werden alle übermittelten Bekanntmachungen ohne Verzögerung an TED bzw. den Bekanntmachungsservice zugestellt. EU-weite Bekanntmachungen müssen zunächst auf TED veröffentlicht werden. Erst nachdem TED die Veröffentlichung abgeschlossen und den Status „PUBLISHED“ zurückgemeldet hat, erfolgt die Weiterleitung dieser Bekanntmachungen an den Bekanntmachungsservice. Der Datenservice Öffentlicher Einkauf wartet dabei bis zu 48 Stunden auf die Veröffentlichung bei TED. Erfolgt innerhalb dieses Zeitraums keine Rückmeldung über die Publizierung, wird die Bekanntmachung dennoch an den Bekanntmachungsservice weitergeleitet. TED selbst unterliegt internen Veröffentlichungsregeln: Bekanntmachungen, die an einem Tag zugestellt und akzeptiert werden, erscheinen frühestens am folgenden Tag auf der Plattform. Eine Ausnahme bilden Wochenenden, da an Samstagen und Sonntagen üblicherweise keine Publizierungen erfolgen. In diesen Fällen werden die Bekanntmachungen am darauffolgenden Montag veröffentlicht. Eine weitere Ausnahme bilden sogenannte [„lawfulness warnings“](https://info.preview.datenservice-oeffentlicher-einkauf.de/documentation/Status_information#lawfulness). In diesen Fällen behält sich TED vor, eine Bekanntmachung manuell zu prüfen, bevor sie veröffentlicht wird. Diese Prüfung kann bis zu fünf Tage in Anspruch nehmen.
 </details>
 <br>
-
-### Kommunikationskanäle
 
 <details>
 <summary>
