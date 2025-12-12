@@ -51,6 +51,12 @@ Grundsätzlich werden alle übermittelten Bekanntmachungen ohne Verzögerung an 
 Wie kann das Team des Datenservice Öffentlicher Einkauf erreicht werden?
 </summary>
 
-Das Team ist über das folgende [Kontaktformular](https://self-service.datenservice-oeffentlicher-einkauf.de/contact) zu erreichen.
+Das Team ist je nach Komponente über folgende Kontaktformulare zu erreichen: 
+<br>
+Fragen/Anmerkungen zum Vermittlungsdienst/Self-Service Portal auf https://self-service.datenservice-oeffentlicher-einkauf.de/contact 
+<br>
+Fragen/Anmerkungen zum Redaktionssystem auf https://resy.datenservice-oeffentlicher-einkauf.de/kontakt
+<br>
+Fragen/Anmerkungen zum Bekanntmachungsservice auf https://oeffentlichevergabe.de/ui/de/contact 
 </details>
 <br>

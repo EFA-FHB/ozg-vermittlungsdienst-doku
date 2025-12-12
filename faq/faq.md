@@ -11,7 +11,7 @@
 
 <details>
 <summary>
-Aus welchen Komponenten besteht der Datenservice Öffentlicher Einkauf und wo brauche ich einen Account?
+Was ist der Datenservice Öffentlicher Einkauf und aus welchen Komponenten besteht er?
 </summary>
 <br>
 
@@ -81,7 +81,7 @@ Da die Bekanntmachungen bei TED auf Preview und Staging etwas schneller prozessi
 Zur Anforderung von Accounts soll die URL der Vergabeplattform angegeben werden. Wozu dient diese Angabe?
 </summary>
 <br>
-Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden zu können, den korrekten Zugang zum Bekanntmachungsservice zu ermöglichen und um Duplikate zu vermeiden. Mit der URL wird identifiziert, auf welcher Plattform Bekanntmachungen derzeit veröffentlicht und abrufbar sind. Je nach Struktur des Systems der jeweiligen Fachverfahrenshersteller kann es unterschiedliche Vorgehensweisen geben. Prinzipiell gilt, dass pro System, das zukünftig in den Vermittlungsdient einliefern soll ein Account benötigt wird. Bei Unsicherheiten, welche Systeme/ Plattformen an den Vermittlungsdienst anzuschließen sind, kann eine Klärung mit Nutzung des Kontaktformulars herbeigeführt werden https://self-service.datenservice-oeffentlicher-einkauf.de/contact. 
+Die Angabe der URL dient dazu, die genannten Systeme voneinander unterscheiden zu können, den korrekten Zugang zum Bekanntmachungsservice zu ermöglichen und um Duplikate zu vermeiden. Mit der URL wird identifiziert, auf welcher Plattform Bekanntmachungen derzeit veröffentlicht und abrufbar sind. Je nach Struktur des Systems der jeweiligen Fachverfahrenshersteller kann es unterschiedliche Vorgehensweisen geben. Prinzipiell gilt, dass pro System, das zukünftig in den Vermittlungsdient einliefern soll, ein Account benötigt wird. Bei Unsicherheiten, welche Systeme/ Plattformen an den Vermittlungsdienst anzuschließen sind, kann eine Klärung mit Nutzung des Kontaktformulars herbeigeführt werden https://self-service.datenservice-oeffentlicher-einkauf.de/contact. 
 </details>
 <br>
 
@@ -136,7 +136,7 @@ Eine aktuelle Roadmap ist hier zu finden: https://self-service.datenservice-oeff
 Wie kann sichergestellt werden, dass Fachverfahrenshersteller regelmäßig über Neuigkeiten bzgl. des eForms-DE Standard/SDK-eForms-DE informiert bleiben.
 </summary>
 <br>
-Die offizielle Publikation der KoSIT https://xeinkauf.de/eforms-de/zum Standard eForms-DE erfolgt auf https://xeinkauf.de/eforms-de/ 
+Die offizielle Version  des Standards eForms-DE wird im Bundesanzeiger veröffentlicht. Eine Kopie wird auch auf den Web-Seiten der KoSIT zur Standardfamilie XEinkauf auf https://xeinkauf.de/eforms-de/ publiziert.
 <br>
 Auf dieser Seite kann auch Kontakt mit der KoSIT aufgenommen werden.
 Die Publikation des SDK-DE erfolgt auf https://gitlab.opencode.de/OC000008125155/SDK-eforms-de
@@ -312,10 +312,10 @@ Wie erfolgt die Kommunikation mit TED?
 
 <details>
 <summary>
-Ist es möglich weiterhin Bekanntmachungen über eNotices2 einzuliefern?
+Ist es möglich, weiterhin Bekanntmachungen über eNotices2 einzuliefern?
 </summary>
 <br>
-Seit dem 25.10.2023 müssen alle Bekanntmachungen oberhalb der EU-Schwellenwerte im eForms-DE Format über den Datenservice Öffentlicher Einkauf eingeliefert werden. Eine Einlieferung über eNotices2 ist somit nicht zulässig (Siehe auch VgV § 10a)
+§10a VgV schreibt zwingend die Einlieferung von Bekanntmachungen zu Vergabeverfahren oberhalb der EU-Schwellenwerte über den Datenservice Öffentlicher Einkauf vor. Andere Wege sind nicht vorgesehen. 
 </details>
 <br>
 

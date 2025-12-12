@@ -1,7 +1,5 @@
 # Informationen für Programmierende
-<br>
 
-## Verfügbare Bereiche
 <br>
 
 ### [Häufig gestellte Fragen](faq/faq_programmers.md)
