@@ -158,26 +158,26 @@ Der PEPPOL-Zugangspunkt für den Vermittlungsdienst und der Bekanntmachungsservi
 1. Self-Service-Portal der gewünschten Umgebung aufrufen (zu finden unter [Systemumgebungen](/documentation/Development_environments.md) in der Zeile _Self Service Portal_ ).
 
 2. Auf ‚Passwort vergessen?' klicken.<br>
-![Auf Passwort vergessen](images/kc_login.png)
+![Auf Passwort vergessen](/documentation/images/kc_login.png)
 <br>
 
 3. E-Mail-Adresse eintragen und auf ‚Absenden' klicken.<br>
-![E-Mail eintragen](images/kc_passwort_vergessen.png)
+![E-Mail eintragen](/documentation/images/kc_passwort_vergessen.png)
 <br>
 
 4. Die Meldung ‚Sie sollten in Kürze eine E-Mail mit weiteren Instruktionen erhalten' wird angezeigt.<br>
-![Meldung](images/kc_nachricht_best%C3%A4tigungsemail.png)
+![Meldung](/documentation/images/kc_nachricht_best%C3%A4tigungsemail.png)
 <br>
 
 5. Überprüfen der E-Mails: Ein Link zum Zurücksetzen der Anmeldeinformationen ist in der E-Mail erhalten.<br>
-![Bestätigungs-E-Mail](images/e-mail_passwort_zuruecksetzen.png)
+![Bestätigungs-E-Mail](/documentation/images/e-mail_passwort_zuruecksetzen.png)
 <br>
 
 6. Auf ‚Link zum Zurücksetzen von Anmeldeinformationen' klicken.
 <br>
 
 7. Der Benutzer wird auf die Seite ‚Passwort aktualisieren' umgeleitet.<br>
-![PAsswort aktualisieren](images/kc_passwort_aktualisieren.png)
+![PAsswort aktualisieren](/documentation/images/kc_passwort_aktualisieren.png)
 <br>
 
 8. Neues Passwort eintragen und bestätigen und auf ‚Absenden' klicken.<br>

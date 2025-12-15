@@ -21,7 +21,7 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 
 Um die __Verordnung (EG) Nr. 1370/2007 vom Amt für Veröffentlichungen der EU__ zu erfüllen, wurden die Formulare __T01__ (_"Vorinformation zu öffentlichen Personenverkehrsdiensten"_) und __T02__ (_"Bekanntmachung über vergebene Aufträge für öffentliche Personenverkehrsdienste"_) definiert. Diese sind Bestandteil des SDK-EU, werden vom Datenservice Öffentlicher Einkauf unterstützt und von TED akzeptiert.
 
-Die Formulare T01 und T02 können somit auf Basis des SDK-EU von Vergabeplattformen das [Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/) eingeliefert werden.
+Die Formulare T01 und T02 können somit auf Basis des SDK-EU von Vergabeplattformen oder über das [Redaktionssystem](https://resy.datenservice-oeffentlicher-einkauf.de/) eingeliefert werden.
 
 SDK-EU|Akzeptiert ab|Akzeptiert bis|
 |--|--|--|

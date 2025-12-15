@@ -139,19 +139,19 @@ There are some differences in the way notices above and below the EU thresholds 
 **Publication below the EU thresholds: manual stop** <br>
 The publication can only be stopped manually before the preferred publication date specified in the notice (BT-738), so that the notice is not yet published on the notice service.
 
-![nat-flow-stop](images/nat-flow-stop.png)
+![nat-flow-stop](/documentation/images/nat-flow-stop.png)
  <br> <br>
 
 **Publication above the EU thresholds: manual stop** <br>
 Publication can only be stopped manually before the notice is published on TED. It is not relevant whether the notice has already been published in the notice service. A manual stop is only possible if no previous versions intended for publication exist (see examples above).
 
-![eu-manual-stop](images/eu-manual-stop.png)
+![eu-manual-stop](/documentation/images/eu-manual-stop.png)
  <br> <br>
 
 **Procurement above the EU thresholds: automatic stop** <br>
 In the event of manual rejection by TED, the publication is automatically stopped in the Publication Service, even if it has already been published there.
 
-![eu-auto-stop](images/eu-auto-stop.png)
+![eu-auto-stop](/documentation/images/eu-auto-stop.png)
 
 <br>
 

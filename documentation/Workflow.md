@@ -16,7 +16,7 @@ Nach erfolgreicher Transformation in die zur DE-Version passende EU-Version des 
 <br><br>
 Bei erfolgreicher Einlieferung wird der exakte Zeitpunkt der Einlieferung erfasst, um die 48-Stunden-Frist gemäß §40 VgV für eine nationale Veröffentlichung zu berechnen. Ausgenommen sind die Formulare E1 bis E4, die ohne Verzögerung an den Bekanntmachungsservice übermittelt werden. Die Weiterleitung erfolgt, wenn TED die dortige Publikation bestätigt hat, spätestens jedoch nach 48 Stunden, wenn zwischenzeitlich weder eine Ablehnung noch eine „Lawfulness Warning“ (Infragestellung der Rechtmäßigkeit) zurückgemeldet wird. Meldet TED eine „Lawfulness Warning“ zurück, erhöht sich die maximale Wartefrist von 48 Stunden auf 5 Tage, um die Ergebnisse der manuellen Prüfung im Amt für Veröffentlichungen der EU abzuwarten. Der Veröffentlichungszeitpunkt wird ebenfalls gespeichert.
 <br><br>
-Während des gesamten Prozesses werden Statusänderungen z. B. ausgelöst durch eine Rückmeldung von TED sowie aufgetretene Fehler oder Warnungen intern gespeichert. Relevante Statusinformationen können jederzeit durch die FVH über den Vermittlungsdienst abgefragt werden. Details zu Statusmeldungen und Fehlern finden Sie unter [Statusinformationen](documentation\Status_information.md).
+Während des gesamten Prozesses werden Statusänderungen z. B. ausgelöst durch eine Rückmeldung von TED sowie aufgetretene Fehler oder Warnungen intern gespeichert. Relevante Statusinformationen können jederzeit durch die Fachverfahrenshersteller über den Vermittlungsdienst abgefragt werden. Details zu Statusmeldungen und Fehlern finden Sie unter [Statusinformationen](documentation\Status_information.md).
 <br><br>
 
 ![Workflow Diagramm](/documentation/images/workflow_2.png)

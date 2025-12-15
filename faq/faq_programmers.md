@@ -2,7 +2,9 @@
 # Informationen für Programmierende
 
 - [Datenservice Öffentlicher Einkauf](#datenservice-öffentlicher-einkauf)
-- [OpenData-Schnittstelle](#allgemein)
+- [OpenData-Schnittstelle](#opendata-schnittstelle)
+
+### Datenservice Öffentlicher Einkauf
 
 --@include faq/faq_public.md
 

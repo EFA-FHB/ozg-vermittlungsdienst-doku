@@ -142,19 +142,19 @@ Es gibt einige Unterschiede in der Art und Weise, wie Bekanntmachungen oberhalb 
 **Vergabe unterhalb der EU-Schwellenwerte: Manueller Stopp** <br>
 Die Veröffentlichung kann nur vor dem in der Bekanntmachung angegebenen bevorzugten Veröffentlichungsdatum (BT-738) manuell gestoppt werden, sodass die Bekanntmachung noch nicht auf Bekanntmachungsservice veröffentlicht ist.
 
-![nat-flow-stop](images/nat-flow-stop.png)
+![nat-flow-stop](/documentation/images/nat-flow-stop.png)
  <br> <br>
 
 **Vergabe oberhalb der EU-Schwellenwerte: Manueller Stopp** <br>
 Die Veröffentlichung kann nur manuell gestoppt werden, bevor die Bekanntmachung auf TED veröffentlicht wird. Ob die Bekanntmachung in Bekanntmachungsservice bereits veröffentlicht wurde, ist hierbei nicht relevant. Ein manueller Stopp ist nur möglich, wenn keine zur Veröffentlichung vorgesehenen Vorgängerversionen existieren (siehe Beispiele oben).
 
-![eu-manual-stop](images/eu-manual-stop.png)
+![eu-manual-stop](/documentation/images/eu-manual-stop.png)
  <br> <br>
 
 **Vergabe oberhalb der EU-Schwellenwerte: Automatischer Stopp** <br>
 Bei manueller Ablehnung durch TED wird die Veröffentlichung automatisch im Bekanntmachungsservice gestoppt, auch wenn sie dort vorher schon veröffentlicht worden sein sollte. 
 
-![eu-auto-stop](images/eu-auto-stop.png)
+![eu-auto-stop](/documentation/images/eu-auto-stop.png)
 
 <br>
 

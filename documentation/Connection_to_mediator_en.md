@@ -159,26 +159,26 @@ The PEPPOL access point for the Vermittlungsdienst and the announcement service 
 1. call up the self-service portal of the desired environment (can be found under [System environments](/documentation/Development_environments.md) in the _Self Service Portal_ line).
 
 2. click on 'Forgot password?
-![Forgot password](images/kc_login.png)
+![Forgot password](/documentation/images/kc_login.png)
 <br>
 
 3. enter your e-mail address and click on 'Send'.<br>
-![Enter e-mail](images/kc_passwort_vergessen.png)
+![Enter e-mail](/documentation/images/kc_passwort_vergessen.png)
 <br>
 
 4. the message 'You should receive an e-mail with further instructions shortly' is displayed.<br>
-![message](images/kc_nachricht_best%C3%A4tigungsemail.png)
+![message](/documentation/images/kc_nachricht_best%C3%A4tigungsemail.png)
 <br>
 
 5. check the emails: A link to reset the login information is included in the email.<br>
-![Confirmation email](images/e-mail_password_reset.png)
+![Confirmation email](/documentation/images/e-mail_password_reset.png)
 <br>
 
 6. click on 'Link to reset credentials'.
 <br>
 
 7. the user is redirected to the 'Update password' page<br>.
-![Update password](images/kc_password_update.png)
+![Update password](/documentation/images/kc_password_update.png)
 <br>
 
 8. enter and confirm the new password and click on 'Submit'.<br>
