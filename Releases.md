@@ -16,8 +16,8 @@
 | Umgebung   | Zeitraum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 04.11.2025                  | Veröffentlicht |
-| Staging    | 01.12.2025                  | Ausstehend |
-| Produktion | 16.12.2025                  | Ausstehend |
+| Staging    | 01.12.2025                  | Veröffentlicht |
+| Produktion | 23.04.2026                  | Ausstehend |
 
 
 Status: In Arbeit <br>
@@ -988,6 +988,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
