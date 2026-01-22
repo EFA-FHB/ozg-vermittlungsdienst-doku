@@ -29,13 +29,14 @@ Status: In QS <br>
 - Unterstützung der T01/02 Formulare im SDK 1.14 wurde implementiert
 
 ### Vermittlungsdienst
-- Annahme und Verarbeitung der T01/02 Formulare im SDK 1.14 wurde implementiert
+- Annahme und Verarbeitung der T01/02 Formulare im SDK 1.14 wurden implementiert
 
 ### eSender-Hub
 - Unterstützung der T01/02 Formulare im SDK 1.14 wurde implementiert
 
 ### Notice-Viewer
 - Generierung der T01/02 Formulare im SDK 1.14 wurde implementiert
+- SwaggerUI Textanpassungen
 
 ### Validatoren
 - Validierung der T01/02 Formulare im SDK 1.14 wurde implementiert
@@ -1022,6 +1023,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
