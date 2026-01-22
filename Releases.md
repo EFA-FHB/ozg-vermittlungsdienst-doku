@@ -4,7 +4,7 @@
 <br />
 
 - Januar 2026
-  - [Release für alle DÖE Komponenten](#Release-für-alle-DÖE-Komponenten)
+  - [Release für alle DÖE Komponenten - SDK-EU 1.14](#Release-für-alle-döe-komponenten--sdk-eu-114)
 - November 2025
   - [Release fürs SSP-Portal und die neue Info-Seite](#Release-fürs-SSP-Portal-und-die-neue-Info-Seite)
 - August 2025
@@ -12,14 +12,14 @@
 - Juli 2025
   - [Release für Notice-Viewer](#Release-für-Notice-Viewer)
   - [Release für eSender-Hub](#Release-für-eSender-Hub)
- 
-<a id=#Release-für-alle-DÖE-Komponenten></a>
-## Release für alle DÖE Komponenten
+
+<a id=Release-für-alle-döe-komponenten--sdk-eu-114></a>
+## Release für alle DÖE Komponenten - SDK-EU 1.14
 | Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 21.10.2026                  | In Arbeit |
-| Staging    | 26.01.2026                  | Ausstehend |
-| Produktion | 29.01.2026                  | Ausstehend |
+| Preview    | 21.10.2026                  | Veröffentlicht |
+| Staging    | 29.01.2026                  | Ausstehend |
+| Produktion | 05.02.2026                  | Ausstehend |
 
 Status: In QS <br>
 <details>
@@ -39,6 +39,9 @@ Status: In QS <br>
 
 ### Validatoren
 - Validierung der T01/02 Formulare im SDK 1.14 wurde implementiert
+
+### SSP Portal
+- Kleine Textanpassungen
   
 </details>
 
@@ -1019,6 +1022,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
