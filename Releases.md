@@ -17,7 +17,7 @@
 ## Release für alle DÖE Komponenten - SDK-EU 1.14
 | Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 21.10.2026                  | Veröffentlicht |
+| Preview    | 21.01.2026                  | Veröffentlicht |
 | Staging    | 29.01.2026                  | Ausstehend |
 | Produktion | 05.02.2026                  | Ausstehend |
 
@@ -1023,6 +1023,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
