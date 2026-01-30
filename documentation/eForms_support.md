@@ -23,7 +23,7 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 
 Um die __Verordnung (EG) Nr. 1370/2007 vom Amt für Veröffentlichungen der EU__ zu erfüllen, wurden die Formulare __T01__ (_"Vorinformation zu öffentlichen Personenverkehrsdiensten"_) und __T02__ (_"Bekanntmachung über vergebene Aufträge für öffentliche Personenverkehrsdienste"_) definiert. Diese sind Bestandteil des SDK-EU, werden vom Datenservice Öffentlicher Einkauf unterstützt und von TED akzeptiert.
 
-Die Formulare T01 und T02 können somit auf Basis des SDK-EU von Vergabeplattformen oder über Nutzung des [Redaktionssystems](https://resy.datenservice-oeffentlicher-einkauf.de/) eingeliefert werden.
+Die Formulare T01 und T02 können somit auf Basis des SDK-EU von Vergabeplattformen oder über die Nutzung des [Redaktionssystems](https://resy.datenservice-oeffentlicher-einkauf.de/) eingeliefert werden.
 
 SDK-EU|Akzeptiert ab|Akzeptiert bis|
 |--|--|--|
@@ -40,6 +40,8 @@ Wir stellen Ihnen auch einen [Online-Validator](https://validator.ozg-vermittlun
 ### Validierungs-Blacklist
 
 Durch das nationale Tailoring entstehen Unterschiede zwischen EU-weit und national gültigen Werten, wie dieses beispielsweise bei Codelisten und der customizationID der Fall ist. Deshalb müssen bestimmte EU-Regeln übersprungen werden, um nach deutschem Tailoring valide Dokumente zu überprüfen. Die aktuelle Liste der ignorierten Regeln befindet sich hier: [KoSIT-Repository für den deutschen eForms-Standard](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.4/src/main/ted-excluded-rules.txt)
+
+
 
 
 

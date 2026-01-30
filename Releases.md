@@ -3,6 +3,8 @@
 
 <br />
 
+- Januar 2026
+  - [Release für alle DÖE Komponenten - SDK-EU 1.14](#Release-für-alle-döe-komponenten--sdk-eu-114)
 - November 2025
   - [Release fürs SSP-Portal und die neue Info-Seite](#Release-fürs-SSP-Portal-und-die-neue-Info-Seite)
 - August 2025
@@ -11,9 +13,42 @@
   - [Release für Notice-Viewer](#Release-für-Notice-Viewer)
   - [Release für eSender-Hub](#Release-für-eSender-Hub)
 
+<a id=Release-für-alle-döe-komponenten--sdk-eu-114></a>
+## Release für alle DÖE Komponenten - SDK-EU 1.14
+| Umgebung   | Datum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 21.01.2026                  | Veröffentlicht |
+| Staging    | 29.01.2026                  | Ausstehend |
+| Produktion | 05.02.2026                  | Ausstehend |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Bekanntmachungsservice
+- Unterstützung der T01/02 Formulare im SDK 1.14 wurde implementiert
+
+### Vermittlungsdienst
+- Annahme und Verarbeitung der T01/02 Formulare im SDK 1.14 wurden implementiert
+
+### eSender-Hub
+- Unterstützung der T01/02 Formulare im SDK 1.14 wurde implementiert
+
+### Notice-Viewer
+- Generierung der T01/02 Formulare im SDK 1.14 wurde implementiert
+- SwaggerUI Textanpassungen
+
+### Validatoren
+- Validierung der T01/02 Formulare im SDK 1.14 wurde implementiert
+
+### SSP Portal
+- Kleine Textanpassungen
+  
+</details>
+
 <a id=Release-fürs-SSP-Portal-und-die-neue-Info-Seite></a>
 ## Release fürs SSP-Portal und die neue Info-Seite
-| Umgebung   | Zeitraum  | Status         |
+| Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 04.11.2025                  | Veröffentlicht |
 | Staging    | 01.12.2025                  | Veröffentlicht |
@@ -34,7 +69,7 @@ Status: In Arbeit <br>
 
 <a id=Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren></a>
 ## Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren
-| Umgebung   | Zeitraum  | Status         |
+| Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 14.08.2025                  | Veröffentlicht |
 | Staging    | 21.08.2025                  | Veröffentlicht |
@@ -65,7 +100,7 @@ Status: Veröffentlicht am 28.08.2025 <br>
 
 <a id=Release-für-Notice-Viewer></a>
 ## Release für Notice-Viewer
-| Umgebung   | Zeitraum  | Status         |
+| Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview | 07.07.2025 | Veröffentlicht |
 | Staging | 14.07.2025 | Veröffentlicht |
@@ -988,6 +1023,10 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
+
+
+
 
 
 
