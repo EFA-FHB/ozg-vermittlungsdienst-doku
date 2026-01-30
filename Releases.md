@@ -18,7 +18,7 @@
 | Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
 | Preview    | 21.01.2026                  | Veröffentlicht |
-| Staging    | 29.01.2026                  | Ausstehend |
+| Staging    | 29.01.2026                  | Veröffentlicht |
 | Produktion | 05.02.2026                  | Ausstehend |
 
 Status: In QS <br>
@@ -50,12 +50,14 @@ Status: In QS <br>
 ## Release fürs SSP-Portal und die neue Info-Seite
 | Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 04.11.2025                  | Veröffentlicht |
-| Staging    | 01.12.2025                  | Veröffentlicht |
-| Produktion | 23.04.2026                  | Ausstehend |
+| Preview    | 19.03.2026                  | Ausstehend |
+| Staging    | 02.04.2026                  | Ausstehend |
+| Produktion | 07.05.2026                  | Ausstehend |
 
 
 Status: In Arbeit <br>
+_Die Veröffentlichung der „Release fürs SSP-Portal und die neue Info-Seite“ wurde von November/Dezember 2025 auf April/Mai 2026 verschoben._
+
 <details>
 <summary>Release Notes</summary>
 
