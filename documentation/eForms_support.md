@@ -27,6 +27,7 @@ Die Formulare T01 und T02 können somit auf Basis des SDK-EU von Vergabeplattfor
 
 SDK-EU|Akzeptiert ab|Akzeptiert bis|
 |--|--|--|
+[1.14.0](https://github.com/OP-TED/eForms-SDK/tree/1.14.0)|05.02.2026|derzeit keine Frist <br> seitens der EU|
 [1.13.0](https://github.com/OP-TED/eForms-SDK/tree/1.13.0)|28.04.2025|voraussichtlich <br> bis 31.03.2027|
 [1.12.0](https://github.com/OP-TED/eForms-SDK/tree/1.12.0)|01.11.2024|30.06.2026|
 
@@ -40,6 +41,7 @@ Wir stellen Ihnen auch einen [Online-Validator](https://validator.ozg-vermittlun
 ### Validierungs-Blacklist
 
 Durch das nationale Tailoring entstehen Unterschiede zwischen EU-weit und national gültigen Werten, wie dieses beispielsweise bei Codelisten und der customizationID der Fall ist. Deshalb müssen bestimmte EU-Regeln übersprungen werden, um nach deutschem Tailoring valide Dokumente zu überprüfen. Die aktuelle Liste der ignorierten Regeln befindet sich hier: [KoSIT-Repository für den deutschen eForms-Standard](https://projekte.kosit.org/eforms/eforms-de-schematron/-/blob/v0.9.4/src/main/ted-excluded-rules.txt)
+
 
 
 
