@@ -48,23 +48,11 @@ Aktuell stehen eine **Test-, Referenz- und eine Produktionsumgebung** des Vermit
     </tr>
     <tr>
       <td style="text-align: left;">Self-Service-Portal</td>
-      <td style="text-align: left;">
-        <a class="external-link" href="https://portal.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://portal.preview-ozg-vermittlungsdienst.de/</a>
-        <br>
-    <strong>Ab dem 18. September 2025:</strong>  
-    <a href="https://self-service.preview.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.preview.datenservice-oeffentlicher-einkauf.de/</a>
+      <td style="text-align: left;"><a href="https://self-service.preview.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.preview.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
-      <td style="text-align: left;">
-        <a href="https://portal.staging-ozg-vermittlungsdienst.de/">https://portal.staging-ozg-vermittlungsdienst.de/</a>
-        <br>
-    <strong>Ab dem 02. Oktober 2025:</strong>  
-    <a href="https://self-service.staging.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.staging.datenservice-oeffentlicher-einkauf.de/</a>
+      <td style="text-align: left;"><a href="https://self-service.staging.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.staging.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
-      <td style="text-align: left;">
-        <a href="https://portal.ozg-vermittlungsdienst.de/">https://portal.ozg-vermittlungsdienst.de/</a>
-        <br>
-    <strong>Vsl. ab dem 06. Oktober 2025:</strong>  
-    <a href="https://self-service.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.datenservice-oeffentlicher-einkauf.de/</a>
+      <td style="text-align: left;"><a href="https://self-service.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
     </tr>
     <tr>
