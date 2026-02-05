@@ -19,9 +19,9 @@
 |------------|-----------------------------|----------------|
 | Preview    | 21.01.2026                  | Veröffentlicht |
 | Staging    | 29.01.2026                  | Veröffentlicht |
-| Produktion | 05.02.2026                  | Ausstehend |
+| Produktion | 05.02.2026                  | Veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht am 05.02.2026 <br>
 <details>
 <summary>Release Notes</summary>
 
@@ -1025,6 +1025,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
