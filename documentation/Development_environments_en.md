@@ -1,9 +1,8 @@
-
 [Table of contents](/documentation/documentation.md)
 <br>
 
 # Available system environments
-A **test, reference and production environment** of the Vermittlungsdienst is currently available. Each Vermittlungsdienst instance sends the data to the corresponding announcement service within the environment. By connecting the eSender Hub, the public procurement data service is also able to transmit announcements to the corresponding TED environment.
+A **test, reference and production environment** of the Vermittlungsdienst are currently available. Each Vermittlungsdienst instance sends the data to the corresponding announcement service within the environment. By connecting the eSender Hub, the Public Procurement data service is also able to transmit announcements to the corresponding TED environment.
 <br><br>
 
 <br>
@@ -49,23 +48,11 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
     </tr>
     <tr>
       <td style="text-align: left;">Self-service portal</td>
-      <td style="text-align: left;">
-        <a class="external-link" href="https://portal.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://portal.preview-ozg-vermittlungsdienst.de/</a>
-        <br>
-    <strong>From September 18, 2025:</strong>
-    <a href="https://self-service.preview.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.preview.datenservice-oeffentlicher-einkauf.de/</a>
+      <td style="text-align: left;"><a href="https://self-service.preview.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.preview.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
-      <td style="text-align: left;">
-        <a href="https://portal.staging-ozg-vermittlungsdienst.de/">https://portal.staging-ozg-vermittlungsdienst.de/</a>
-        <br>
-    <strong>From October 02, 2025:</strong>
-    <a href="https://self-service.staging.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.staging.datenservice-oeffentlicher-einkauf.de/</a>
+      <td style="text-align: left;"><a href="https://self-service.staging.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.staging.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
-      <td style="text-align: left;">
-        <a href="https://portal.ozg-vermittlungsdienst.de/">https://portal.ozg-vermittlungsdienst.de/</a>
-        <br>
-    <strong>Estimated from October 06, 2025:</strong>
-    <a href="https://self-service.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.datenservice-oeffentlicher-einkauf.de/</a>
+      <td style="text-align: left;"><a href="https://self-service.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">https://self-service.datenservice-oeffentlicher-einkauf.de/</a>
       </td>
     </tr>
     <tr>
@@ -93,7 +80,7 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
       </td>
     </tr>
     <tr>
-  <td style="text-align: left;">BKMS</td>
+  <td style="text-align: left;">Notification service</td>
   <td style="text-align: left;">
     <a href="https://staging.oeffentlichevergabe.de" rel="nofollow">https://staging.oeffentlichevergabe.de</a>
   </td>
@@ -122,10 +109,10 @@ A **test, reference and production environment** of the Vermittlungsdienst is cu
       </td>
       <td style="text-align: left;">
         <p>
-          TED-Portal:
+          TED portal:
           <a class="external-link" href="https://ted.europa.eu/de/" rel="nofollow">https://ted.europa.eu/de/</a>
           <br>
-          TED Swagger-UI:
+          TED Swagger UI:
           <a class="external-link" href="https://api.ted.europa.eu/swagger-ui/index.html" rel="nofollow">https://api.ted.europa.eu/swagger-ui/index.html</a>
         </p>
         <p></p>
