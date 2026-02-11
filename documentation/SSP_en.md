@@ -3,7 +3,7 @@
 [Table of contents](/documentation/documentation.md)
 <br>
 
-# The self-service portal of the Public Purchasing Data Service
+# The self-service portal of the Public Procurement Data Service
 
 The self-service portal of the Public Purchasing Data Service for the production environment is available at the URL https://self-service.datenservice-oeffentlicher-einkauf.de/.
 There is also the portal for the staging environment https://self-service.staging.datenservice-oeffentlicher-einkauf.de/ and the portal for the preview environment https://self-service.preview.datenservice-oeffentlicher-einkauf.de/.
@@ -12,7 +12,7 @@ As an operating and support platform, the self-service portal offers user-friend
 
 ## Roles in the self-service portal
 
-To log in to the portal, a user must be created by clicking on 'Register' to create a new account. If an account for the self-service portal already exists, this can be used. This user can now be verified via a new process. A PDF with a declaration of commitment can also be uploaded in the verification process. However, there is no fixed template for this. This document confirms that the person named there is authorized to manage accounts for their company as a specialist procedure manufacturer.
+To log in to the portal, a user must be created by clicking on 'Register' to create a new account. If an account for the self-service portal already exists, it can be used. This user can now be verified via a new process. A PDF with a declaration of commitment can also be uploaded in the verification process. However, there is no fixed template for this. This document confirms that the person named there is authorized to manage accounts for their company as a specialist procedure manufacturer.
 
 > **WARNING** <br>
 > Please use the e-mail address of a mailbox for the Self-Service Portal admin account, but not a personal one, so that other people from the organization can also manage the Vermittlungsdienst accounts and dashboard accounts. The admin account of the self-service portal is protected by two-factor authentication via e-mail, which is why access to the mailbox is absolutely necessary for authorized persons.
@@ -45,7 +45,7 @@ The portal offers the following main functions:
 
 ## User information
 ### Create account
-To create an account in the self-service portal, simply click on the user icon in the top right-hand corner and then select "Register". You then have the option of creating an account with an e-mail address and password. A confirmation e-mail will be sent shortly afterwards to the e-mail address entered. You can confirm the creation of the account via the link contained therein. It is then possible to log in with the access data and access the registration form for verification as an admin of the self-service portal. The form is sent to Support for verification.
+To create an account in the self-service portal, simply click on the user icon in the top right-hand corner and then select "Register". You then have the option of creating an account with an e-mail address and password. A confirmation e-mail will be sent to the e-mail address entered shortly afterwards. You can confirm the creation of the account via the link contained therein. It is then possible to log in with the access data and access the registration form for verification as an admin of the self-service portal. The form is sent to Support for verification.
 
 ### Create a new technical Vermittlungsdienst account
 Once an admin account has been created in the Self-Service Portal and verified by Support (see above) and the user is logged in, they can fill out the form to create a technical Vermittlungsdienst account. This is done on the start page in the menu at the top left under "VD account registration". An e-mail with the account details will then be sent to the e-mail address entered.
