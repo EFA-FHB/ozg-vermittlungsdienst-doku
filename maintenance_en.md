@@ -14,7 +14,7 @@ Further important information on creating eForms can be found in the FAQ provide
 
 | Environment | System | Date | Time | Comment |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Production | All TED apps and their APIs | November 27, 2025 | 07:00-09:00 | Maintenance work: All TED apps in production environments and their APIs may be affected by disruptions |
+| Production | All TED apps and their APIs | February 19, 2026 | 07:00-09:00 | Maintenance work: All TED apps in production environments and their APIs will be unavailable |
 
 ## Known bugs and malfunctions of the last months
 
@@ -30,8 +30,9 @@ The preview environment is only available between 06:00 and 20:00. The staging e
 
 | Environment | System | Date | Time | Comment |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Production | All TED apps and their APIs | January 30, 2026 | 06:45-09:00 | Maintenance work: All TED apps in production environments and their APIs will become unavailable |
+| Production | All TED apps and their APIs | January 07, 2026 | 07:00-09:00 | Maintenance work: All TED apps in production environments and their APIs may be affected by disruptions |
+| Production | All TED apps and their APIs | November 27, 2025 | 07:00-09:00 | Maintenance work: All TED apps in production environments and their APIs may be affected by disruptions |
 | Production and Staging | DÖE incl. BKMS | October 25/26, 2025 | 07:00-12:00 | Quarterly maintenance (incl. time changeover) |
 | Production and staging | SSP portal | October 22-23, 2025 | -- |The STOP function via the SSP portal is currently not functional. It is recommended to use the direct call of the Vermittlungsdienst https://ozg-vermittlungsdienst.de/q/swagger-ui/#/Lieferungen/stopPublication - Fixed on October 23, 2025 |
 | Staging | SSP portal | October 06-17, 2025| -- | Authentication error - Fixed on October 17, 2025 |
-| Staging | DÖE except BKMS | September 05-11, 2025 | -- | Authentication error - Fixed on September 11, 2025 |
-| Production | All TED apps and their APIs | August 28, 2025 | 07:00-09:00 | Maintenance work: All TED applications in production environments and their APIs may be affected by disruptions |
