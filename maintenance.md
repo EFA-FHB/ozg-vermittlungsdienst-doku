@@ -14,7 +14,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion | Alle TED Apps und deren APIs | 19. Februar 2026 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs werden nicht verfügbar |
+| Produktion | Alle TED Apps und deren APIs | 23. Februar 2026 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs können von Störungen betroffen sein |
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
@@ -30,6 +30,7 @@ Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion | Alle TED Apps und deren APIs | 19. Februar 2026 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs werden nicht verfügbar |
 | Produktion | Alle TED Apps und deren APIs | 30. Januar 2026 | 06:45-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs werden nicht verfügbar |
 | Produktion | Alle TED Apps und deren APIs | 07. Januar 2026 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs können von Störungen betroffen sein |
 | Produktion | Alle TED Apps und deren APIs | 27. November 2025 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs können von Störungen betroffen sein |
