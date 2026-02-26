@@ -19,8 +19,8 @@
 ## Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer, alle Validatoren, sowie den Bekanntmachungsservice - SDK-DE 1.14
 | Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 19.02.2026                  | Veröffentlicht |
-| Staging    | 26.02.2026                  | Ausstehend |
+| Preview    | 26.02.2026                  | Veröffentlicht |
+| Staging    | 04.03.2026                  | Ausstehend |
 | Produktion | 19.02.2026                  | Ausstehend |
 
 Status: In QS <br>
@@ -41,7 +41,7 @@ Status: In QS <br>
 
 ### Validatoren
 - Die Validierung der Bekanntmachung erfolgt nun abhängig von der ProfileID
-- Es wurde ein neuer optionaler Parameter für die ProfileID hinzugefügt.
+- Es wurde ein neuer optionaler Parameter für die ProfileID hinzugefügt
   
 </details>
 
@@ -1057,6 +1057,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
