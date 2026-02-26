@@ -3,7 +3,9 @@
 
 <br />
 
-- Januar 2026
+- Februar - März 2026
+  - [Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer, alle Validatoren, sowie den Bekanntmachungsservice - SDK-DE 1.14](#Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer,-alle-Validatoren,-sowie-den-Bekanntmachungsservice--sdk-de-114)
+- Januar - Februar 2026
   - [Release für alle DÖE Komponenten - SDK-EU 1.14](#Release-für-alle-döe-komponenten--sdk-eu-114)
 - November 2025
   - [Release fürs SSP-Portal und die neue Info-Seite](#Release-fürs-SSP-Portal-und-die-neue-Info-Seite)
@@ -12,6 +14,36 @@
 - Juli 2025
   - [Release für Notice-Viewer](#Release-für-Notice-Viewer)
   - [Release für eSender-Hub](#Release-für-eSender-Hub)
+
+<a id=Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer,-alle-Validatoren,-sowie-den-Bekanntmachungsservice--sdk-de-114></a>
+## Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer, alle Validatoren, sowie den Bekanntmachungsservice - SDK-DE 1.14
+| Umgebung   | Datum  | Status         |
+|------------|-----------------------------|----------------|
+| Preview    | 19.02.2026                  | Veröffentlicht |
+| Staging    | 26.02.2026                  | Ausstehend |
+| Produktion | 19.02.2026                  | Ausstehend |
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Bekanntmachungsservice
+- Unterstützung der ProfileID wurde implementiert. Die Bekanntmachung wird nun abhängig von der ProfileID (SDK-Version) dargestellt.
+
+### Vermittlungsdienst
+- Annahme und Verarbeitung von Bekanntmachungen mit unterschiedlichen ProfileIDs wurde implementiert
+
+### eSender-Hub
+- Die Transformation der Bekanntmachung erfolgt nun abhängig von der ProfileID
+
+### Notice-Viewer
+- Die Generierung der Bekanntmachung erfolgt nun abhängig von der ProfileID
+
+### Validatoren
+- Die Validierung der Bekanntmachung erfolgt nun abhängig von der ProfileID
+- Es wurde ein neuer optionaler Parameter für die ProfileID hinzugefügt.
+  
+</details>
 
 <a id=Release-für-alle-döe-komponenten--sdk-eu-114></a>
 ## Release für alle DÖE Komponenten - SDK-EU 1.14
@@ -1025,6 +1057,7 @@ Preview Umgebung https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
