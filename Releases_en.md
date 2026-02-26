@@ -19,8 +19,8 @@
 ## Release for Vermittlungsdienst, eSender-Hub, Notice-Viewer, all Validators, as well as the Announcement Service - SDK-DE 1.14
 | Environment | Date | Status |
 |------------|-----------------------------|----------------|
-| Preview | 02/19/2026 | Published |
-| Staging | 26.02.2026 | Pending |
+| Preview | 26.02.2026 | Published |
+| Staging | 04.03.2026 | Pending |
 | Production | 19.02.2026 | Pending |
 
 Status: In QA <br>
@@ -41,7 +41,7 @@ Status: In QA <br>
 
 ### Validators
 - The validation of the notice now depends on the ProfileID
-- A new optional parameter for the ProfileID has been added.
+- A new optional parameter for the ProfileID has been added
   
 </details>
 
@@ -128,7 +128,7 @@ Status: Published on 28.08.2025 <br>
 ### Validators
 - The following SDK-DE patches have been applied:
   - SDK-DE 1.12.6
-  - SDK-EN 1.13.2
+  - SDK-DE 1.13.2
   
 </details>
 
@@ -147,7 +147,7 @@ Status: Published on 24.07.2025 <br>
   
 ### Notice viewer
 - Various bugs in HTML generation have been fixed
-- The number format for totals amounts in PDF generation has been corrected
+- The number format for totals in PDF generation has been corrected
 
 </details>
 
@@ -295,7 +295,7 @@ Status: Published on 28.04.2025 <br>
 - Critical vulnerabilities have been fixed
 - Various bugs have been fixed
 
-### Notice viewer
+### Notice Viewer
 - Support for eForms-DE 2.1 has been implemented
 - SDK-DE 1.13.0](https://gitlab.opencode.de/OC000008125155/SDK-eforms-de/-/releases/1.13.0) has been implemented
 - Various bugs have been fixed
@@ -385,7 +385,7 @@ Status: Published on 12.12.2024 <br>
   
 </details>
 
-<a id=release-for-the-Mediation-Service,-eSender-Hub,-notice-viewer-and-the-validator></a>
+<a id=release-for-the-Mediation-Service,-eSender-Hub,-Notice-Viewer-and-the-validator></a>
 ## Release for the Vermittlungsdienst, eSender-Hub, Notice-Viewer and the Validator
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
@@ -457,7 +457,7 @@ Status: Published on 4.07.2024 <br>
 </details>
 
 <a id=release-for-SSP-portal,-eSender-Hub,-notice-viewer-and-all-validators></a>
-## Release for SSP portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
+## Release for SSP Portal, Vermittlungsdienst, eSender Hub, Notice Viewer and all validators
 | Environment | Period | Status |
 |------------|-----------------------------|----------------|
 | Preview | 14.05.2024 | published |
@@ -678,7 +678,7 @@ Status: Published on 31.01.2024<br>
 ### Validator (web service + open source)
 - T01/02 eForms forms are now supported
 
-### Notice-Viewer
+### Notice viewer
 - Various bugs have been fixed
 
 </details>
@@ -747,7 +747,7 @@ It is no longer possible to log in to the self-service portal with a Vermittlung
 - Various performance improvements and bug fixes
 
 ### eSender
-- Retry delivery is now implemented when BKMS does not respond
+- Retry delivery is now implemented if BKMS does not respond
 - BKMS integration has been improved
 - Various performance improvements and bug fixes
 
@@ -1057,6 +1057,7 @@ Preview environment https://eforms-validator-preview.efa-fhb.apps-int.nortal.com
 <br>
 
 </details>
+
 
 
 
