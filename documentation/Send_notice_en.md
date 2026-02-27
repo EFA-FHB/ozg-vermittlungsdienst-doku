@@ -1,3 +1,6 @@
+---
+title: Send Notice
+---
 
 [Table of contents](/documentation/documentation.md)
 <br>
