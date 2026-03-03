@@ -1,3 +1,6 @@
+---
+title: Documentation
+---
 
 # Information for contracting authorities
  

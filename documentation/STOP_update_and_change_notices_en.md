@@ -1,3 +1,6 @@
+---
+title: STOP Update and Change Notices
+---
 
 [Table of contents](/documentation/documentation.md)
 <br>

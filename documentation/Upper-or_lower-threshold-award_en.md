@@ -1,3 +1,6 @@
+---
+title: Upper or Lower Threshold Award
+---
 
 [Table of contents](/documentation/documentation.md)
 <br>
