@@ -3,7 +3,7 @@
 [Table of contents](/documentation/documentation.md)
 <br>
 
-# The self-service portal of the Public Procurement Data Service
+# The self-service portal of the Data Service for Public Procurement in Germany
 
 The self-service portal of the Public Purchasing Data Service for the production environment is available at the URL https://self-service.datenservice-oeffentlicher-einkauf.de/.
 There is also the portal for the staging environment https://self-service.staging.datenservice-oeffentlicher-einkauf.de/ and the portal for the preview environment https://self-service.preview.datenservice-oeffentlicher-einkauf.de/.

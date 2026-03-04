@@ -20,14 +20,14 @@ title: STOP Update and Change Notices
 
 ## 1. use of version numbers and notice IDs in the context of passing on notices <span id='versions-explained'>
 
-When dealing with version numbers and notice IDs in the context of changes to notices that have already been sent to the EU's publication platform (TED), the EU has specified two concepts that must be implemented by the procurement platforms when dealing with the Public Procurement Data Service. As the Public Procurement Data Service does not make any changes to the content of the notices, the operators of the procurement platforms are required to implement these two concepts.<br><br>
-The first concept concerns the use of version numbers in a contract notice. Sending updated notices with new (ascending) version numbers for a (previously sent) notice to the Public Procurement Data Service is possible until the notice is published on TED. No further notices with the same notice ID and incremented version number can then be sent. Now the second concept applies.<br><br>
-The second concept describes the handling of notices already published on TED and in the Public Procurement Data Service, where the concept of change notices is applied. (see https://docs.ted.europa.eu/eforms/latest/schema/change-notice.html and https://github.com/OP-TED/eForms-SDK/discussions/88 ):
+When dealing with version numbers and notice IDs in the context of changes to notices that have already been sent to the EU's publication platform (TED), the EU has specified two concepts that must be implemented by the procurement platforms when dealing with the Data Service for Public Procurement in Germany. As the Data Service for Public Procurement in Germany does not make any changes to the content of the notices, the operators of the procurement platforms are required to implement these two concepts.<br><br>
+The first concept concerns the use of version numbers in a contract notice. Sending updated notices with new (ascending) version numbers for a (previously sent) notice to the Data Service for Public Procurement in Germany is possible until the notice is published on TED. No further notices with the same notice ID and incremented version number can then be sent. Now the second concept applies.<br><br>
+The second concept describes the handling of notices already published on TED and in the Data Service for Public Procurement in Germany, where the concept of change notices is applied. (see https://docs.ted.europa.eu/eforms/latest/schema/change-notice.html and https://github.com/OP-TED/eForms-SDK/discussions/88 ):
 <br><br>
 
 ### 1.1 Versions and the use of version numbers [functionality 'Update Notice']<span id='versions-update'>
 
-The concept of versions in notices is used to indicate changes to a notice to TED that were made after the first notice was sent to TED until the publication of a higher version of this notice (on TED and in the Public Procurement Data Service).<br><br>
+The concept of versions in notices is used to indicate changes to a notice to TED that were made after the first notice was sent to TED until the publication of a higher version of this notice (on TED and in the Data Service for Public Procurement in Germany).<br><br>
 Notices can therefore be changed to a Notice ID via subsequent versions AFTER they have been accepted by TED (status "Accepted") but have not yet been published (status "Published"). Versions may only be incremented to a Notice ID until the announcement has been published by TED.<br><br>
 As soon as the status of a TED notice has reached "published", no new version may be sent. The following graphic illustrates the above.
 

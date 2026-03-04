@@ -8,7 +8,7 @@ Connection:
   - [Available system environments](Development_environments.md)
 
 Functionality of the Vermittlungsdienst and eSender Hub:
-- [Self-Service Portal of the Public Procurement Data Service](SSP.md)
+- [Self-Service Portal of the Data Service for Public Procurement in Germany](SSP.md)
 - [Workflow of an announcement in the Vermittlungsdienst](Workflow.md)
 - [Sending a notice](/documentation/Send_notice.md)
 - [Distinguishing between lower and upper threshold awards](/documentation/Upper-or_lower-threshold-award.md)

@@ -14,7 +14,7 @@ When creating eForms documents, it is important to observe a few rules for certa
 
 Field: *entire section ```<efac:Organization>````*
 
-The Public Procurement Data Service assumes the role of eSender for all notices above the EU thresholds to be transmitted to TED. For the organizations, the type "ted-esen" must therefore NOT be used in the notices, as this information is automatically inserted by the eSender Hub.
+The Data Service for Public Procurement in Germany assumes the role of eSender for all notices above the EU thresholds to be transmitted to TED. For the organizations, the type "ted-esen" must therefore NOT be used in the notices, as this information is automatically inserted by the eSender Hub.
 When a contract notice is created and an organization is specified, the role it plays in the contract notice must be defined for each organization. The roles are defined in the EU code list: https://github.com/OP-TED/eForms-SDK<br>
 One value in the EU code list is "ted-esen". This value may not be used in Germany.
 
