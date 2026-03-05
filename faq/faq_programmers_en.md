@@ -14,7 +14,7 @@
 <summary>
 Is the data contained in the Publication Service freely available via the OpenData interface?
 </summary>
-Yes, the data contained in the announcement service is freely available. It can be accessed via the OpenData interface of the Public Procurement Data Service (DÖE) - either via a REST API or via a PEPPOL query. Both access methods enable open, standardized retrieval of the published announcement data without access restrictions.
+Yes, the data contained in the announcement service is freely available. It can be accessed via the OpenData interface of the Data Service for Public Procurement in Germany (DÖE) - either via a REST API or via a PEPPOL query. Both access methods enable open, standardized retrieval of the published announcement data without access restrictions.
 </details>
 <br>
 

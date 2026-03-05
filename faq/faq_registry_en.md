@@ -1,4 +1,4 @@
-### Public procurement data service
+### Data Service for Public Procurement in Germany
 
 # Information for Procurement Offices
 
