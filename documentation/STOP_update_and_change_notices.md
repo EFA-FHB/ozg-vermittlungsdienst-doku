@@ -1,3 +1,6 @@
+---
+title: Change-Notices und Stop
+---
 
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
