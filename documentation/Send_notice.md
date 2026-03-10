@@ -1,7 +1,3 @@
----
-title: Einsenden einer Bekanntmachung
----
-
 [Inhaltsverzeichnis](/documentation/documentation.md)
 <br>
 
