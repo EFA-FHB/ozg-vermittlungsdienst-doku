@@ -4,7 +4,7 @@
 <br />
 
 - Februar - März 2026
-  - [Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer, alle Validatoren, sowie den Bekanntmachungsservice - SDK-DE 1.14](#Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer,-alle-Validatoren,-sowie-den-Bekanntmachungsservice--sdk-de-114)
+  - [Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer, alle Validatoren, sowie den Bekanntmachungsservice - SDK-DE 1.14.2](#Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer,-alle-Validatoren,-sowie-den-Bekanntmachungsservice--sdk-de-114)
 - Januar - Februar 2026
   - [Release für alle DÖE Komponenten - SDK-EU 1.14](#Release-für-alle-döe-komponenten--sdk-eu-114)
 - November 2025
@@ -16,11 +16,11 @@
   - [Release für eSender-Hub](#Release-für-eSender-Hub)
 
 <a id=Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer,-alle-Validatoren,-sowie-den-Bekanntmachungsservice--sdk-de-114></a>
-## Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer, alle Validatoren, sowie den Bekanntmachungsservice - SDK-DE 1.14
+## Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer, alle Validatoren, sowie den Bekanntmachungsservice - SDK-DE 1.14.2
 | Umgebung   | Datum      | Status         |
 |------------|------------|----------------|
 | Preview    | 26.02.2026 | Veröffentlicht |
-| Staging    | 04.03.2026 | Veröffentlicht |
+| Staging    | 10.03.2026 | Veröffentlicht |
 | Produktion | 19.03.2026 | Ausstehend |
 
 Status: In QS <br>
