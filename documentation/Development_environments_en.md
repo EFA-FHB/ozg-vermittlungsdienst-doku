@@ -1,7 +1,3 @@
----
-title: Development Environments
----
-
 [Table of contents](/documentation/documentation.md)
 <br>
 

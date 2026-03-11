@@ -1,7 +1,3 @@
----
-title: Connection to Mediator
----
-
 [Table of contents](/documentation/documentation.md)
 <br>
 

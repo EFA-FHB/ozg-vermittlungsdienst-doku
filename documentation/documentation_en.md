@@ -1,7 +1,3 @@
----
-title: Documentation
----
-
 # Documentation
 Connection:
   - [Connection to Vermittlungsdienst](Connection_to_mediator.md)
