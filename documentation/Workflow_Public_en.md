@@ -1,6 +1,6 @@
 
 
-# Workflow of a notice in the Public Procurement Data Service
+# Workflow of a notice in the Data Service for Public Procurement in Germany
 
 The following diagram describes the general workflow of an announcement.
 <br><br>

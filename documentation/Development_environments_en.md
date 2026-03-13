@@ -2,7 +2,7 @@
 <br>
 
 # Available system environments
-A **test, reference and production environment** of the Vermittlungsdienst are currently available. Each Vermittlungsdienst instance sends the data to the corresponding announcement service within the environment. By connecting the eSender Hub, the Public Procurement data service is also able to transmit announcements to the corresponding TED environment.
+A **test, reference and production environment** of the Vermittlungsdienst are currently available. Each Vermittlungsdienst instance sends the data to the corresponding announcement service within the environment. By connecting the eSender Hub, the Data Service for Public Procurement in Germany is also able to transmit announcements to the corresponding TED environment.
 <br><br>
 
 <br>

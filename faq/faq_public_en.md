@@ -5,13 +5,13 @@
 
 <details>
 <summary>
-What is the Public Procurement Data Service and what components does it consist of?
+What is the Data Service for Public Procurement in Germany and what components does it consist of?
 </summary>
 
-**[Editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/)**: The editorial system is an offer for contracting authorities and, for example, service providers of contracting authorities or grant recipients who do not use an electronic procurement system. The editing system can be used to record, edit and correct notices of award procedures and publish them on the notice service, which can also be sent to the TED platform of the Publications Office of the EU via the Vermittlungsdienst of the Public Procurement Data Service in compliance with public procurement law in the case of Europe-wide award procedures. It is also possible to withdraw procedures.
+**[Editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/)**: The editorial system is an offer for contracting authorities and, for example, service providers of contracting authorities or grant recipients who do not use an electronic procurement system. The editing system can be used to record, edit and correct notices of award procedures and publish them on the notice service, which can also be sent to the TED platform of the Publications Office of the EU via the Vermittlungsdienst of the Data Service for Public Procurement in Germany in compliance with public procurement law in the case of Europe-wide award procedures. It is also possible to withdraw procedures.
 <br>
 
-**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: As a technical component, the Vermittlungsdienst accepts notices from procurement platforms in eForms-DE format. Notices for award procedures above the EU thresholds are validated and forwarded to the eSender Hub of the Public Procurement Data Service. Notices for award procedures below the EU thresholds are forwarded directly to the notice service after validation.
+**[Vermittlungsdienst](https://ozg-vermittlungsdienst.de/)**: As a technical component, the Vermittlungsdienst accepts notices from procurement platforms in eForms-DE format. Notices for award procedures above the EU thresholds are validated and forwarded to the eSender Hub of the Data Service for Public Procurement in Germany. Notices for award procedures below the EU thresholds are forwarded directly to the notice service after validation.
 <br>
 
 **[Self-Service Portal](https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku/blob/main/documentation/SSP.md)**: The self-service portal offers operators of procurement platforms the opportunity to manage administrative processes themselves to relieve the burden on their own operations and to find out about the processing status of notices in the public procurement process at any time.
@@ -26,17 +26,17 @@ What is the Public Procurement Data Service and what components does it consist 
 
 <details>
 <summary>
-How many procurement platforms are connected to the Public Procurement Data Service?
+How many procurement platforms are connected to the Data Service for Public Procurement in Germany?
 </summary>
-Around 92 (as of 2025) procurement platforms are currently connected to the Public Procurement Data Service.
+Around 92 (as of 2025) procurement platforms are currently connected to the Data Service for Public Procurement in Germany.
 </details>
 <br>
 
 <details>
 <summary>
-What are the service and operating hours of the Public Procurement Data Service?
+What are the service and operating hours of the Data Service for Public Procurement in Germany?
 </summary>
-The productive and staging (test) environments of the Public Procurement Data Service are available around the clock (24/7). The preview environment is also available for testing purposes, but can only be accessed daily from 6:00 to 20:00.
+The productive and staging (test) environments of the Data Service for Public Procurement in Germany are available around the clock (24/7). The preview environment is also available for testing purposes, but can only be accessed daily from 6:00 to 20:00.
 </details>
 <br>
 
@@ -44,7 +44,7 @@ The productive and staging (test) environments of the Public Procurement Data Se
 <summary>
 In which cycle are announcements published on TED and in the announcement service?
 </summary>
-In principle, all submitted notices are sent to TED or the announcement service without delay. EU-wide notices must first be published on TED. Only after TED has completed the publication and reported back the status "PUBLISHED" are these announcements forwarded to the announcement service. The Public Procurement Data Service waits up to 48 hours for publication by TED. If no feedback on the publication is received within this period, the announcement is nevertheless forwarded to the announcement service. TED itself is subject to internal publication rules: Announcements that are delivered and accepted on one day will appear on the platform on the following day at the earliest. Weekends are an exception, as there are usually no publications on Saturdays and Sundays. In these cases, the notices are published on the following Monday. Another exception is so-called ["lawfulness warnings"](https://info.preview.datenservice-oeffentlicher-einkauf.de/documentation/Status_information#lawfulness). In these cases, TED reserves the right to check an announcement manually before it is published. This check can take up to five days.
+In principle, all submitted notices are sent to TED or the announcement service without delay. EU-wide notices must first be published on TED. Only after TED has completed the publication and reported back the status "PUBLISHED" are these announcements forwarded to the announcement service. The Data Service for Public Procurement in Germany waits up to 48 hours for publication by TED. If no feedback on the publication is received within this period, the announcement is nevertheless forwarded to the announcement service. TED itself is subject to internal publication rules: Announcements that are delivered and accepted on one day will appear on the platform on the following day at the earliest. Weekends are an exception, as there are usually no publications on Saturdays and Sundays. In these cases, the notices are published on the following Monday. Another exception is so-called ["lawfulness warnings"](https://info.preview.datenservice-oeffentlicher-einkauf.de/documentation/Status_information#lawfulness). In these cases, TED reserves the right to check an announcement manually before it is published. This check can take up to five days.
 </details>
 <br>
 
@@ -52,7 +52,7 @@ In principle, all submitted notices are sent to TED or the announcement service 
 
 <details>
 <summary>
-How can the Public Procurement Data Service team be contacted?
+How can the Data Service for Public Procurement in Germany team be contacted?
 </summary>
 
 The team can be reached via the following [contact form](https://self-service.datenservice-oeffentlicher-einkauf.de/contact).

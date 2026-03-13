@@ -56,7 +56,7 @@ Further information on the concept of the refresh token and instructions for imp
 
 ## Connection via PEPPOL
 
-Public procurement platforms can also submit notices to the **Public Procurement Data Service** via the **Peppol infrastructure**.
+Public procurement platforms can also submit notices to the **Data Service for Public Procurement in Germany** via the **Peppol infrastructure**.
 
 ### Use of the Peppol infrastructure
 Systems registered in the Peppol infrastructure can send notices to the addressee with the **Peppol ID "0204:994-DOEVD-83" (production)** using the **Peppol profile "P008 - Publish Notices "**.
@@ -187,7 +187,7 @@ The password must consist of at least 8 characters, contain 1 capital letter and
 <br>
 
 ## Delete access
-To delete an access, send an e-mail to the Public Procurement Data Service support team [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
+To delete an access, send an e-mail to the Data Service for Public Procurement in Germany support team [support@datenservice-oeffentlicher-einkauf.de](mailto:support@datenservice-oeffentlicher-einkauf.de).<br>
 The e-mail must contain the following information:
 
 - System environment in which the access data is to be deleted
