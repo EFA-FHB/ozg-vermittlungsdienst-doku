@@ -2,7 +2,7 @@
 [Table of contents](/documentation/documentation.md)
 <br>
 
-# Workflow of an announcement in the public procurement data service
+# Workflow of an announcement in the Data Service for Public Procurement in Germany
 
 The following diagram describes the general workflow of an announcement.
 <br><br>

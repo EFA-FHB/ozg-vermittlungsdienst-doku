@@ -1,4 +1,4 @@
-### Public procurement data service
+### Data Service for Public Procurement in Germany
 # Frequently asked questions
 
 - Data service for public procurement](#datenservice-öffentlicher-einkauf)
@@ -11,7 +11,7 @@
 
 <details>
 <summary>
-What are the components of the Public Procurement Data Service and where do I need an account?
+What are the components of the Data Service for Public Procurement in Germany and where do I need an account?
 </summary>
 <br>
 **[Editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/)**: The editorial system is an offer for contracting authorities and, for example, service providers of contracting authorities or grant recipients who do not use an electronic procurement system.
@@ -96,7 +96,7 @@ The preview environment is only used for testing. Updates are often installed he
 
 <details>
 <summary>
-Is there a roadmap for the further development of the components of the Public Procurement Data Service?
+Is there a roadmap for the further development of the components of the Data Service for Public Procurement in Germany?
 </summary>
 <br>
 Yes, the information is available here: https://self-service.datenservice-oeffentlicher-einkauf.de/roadmap
@@ -107,7 +107,7 @@ Yes, the information is available here: https://self-service.datenservice-oeffen
 
 <details>
 <summary>
-How can the Public Procurement Data Service team be contacted?
+How can the Data Service for Public Procurement in Germany team be contacted?
 </summary>
 The team can be reached via the following contact form:
 <br>
@@ -121,7 +121,7 @@ Questions/comments about the announcement service at https://oeffentlichevergabe
 
 <details>
 <summary>
-How is it ensured that specialist procedure manufacturers are regularly informed about news regarding the Public Procurement Data Service, in particular with regard to new versions of the components (Vermittlungsdienst, eSender Hub, REST API, etc.), new features, an update of the roadmap, etc.?
+How is it ensured that specialist procedure manufacturers are regularly informed about news regarding the Data Service for Public Procurement in Germany, in particular with regard to new versions of the components (Vermittlungsdienst, eSender Hub, REST API, etc.), new features, an update of the roadmap, etc.?
 </summary>
 <br>
 There are regular information events for the specialist procedure manufacturers, which are announced by e-mail.
@@ -146,11 +146,11 @@ Questions about the SDK-DE can be opened via Issues in the repository.
 
 <details>
 <summary>
-Where can I find the current documentation for the Public Procurement data service? To what extent is it planned to keep it up to date? Is this GitHub documentation the official provision of information on this topic?
+Where can I find the current documentation for the Data Service for Public Procurement in Germany? To what extent is it planned to keep it up to date? Is this GitHub documentation the official provision of information on this topic?
 </summary>
 <br>
 
-The Github documentation (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) will continue to be maintained and is the official documentation. This can also be read in the self-service portal of the Public Procurement Data Service.
+The Github documentation (https://github.com/EFA-FHB/ozg-vermittlungsdienst-doku) will continue to be maintained and is the official documentation. This can also be read in the self-service portal of the Data Service for Public Procurement in Germany.
 </details>
 <br>
 
@@ -319,7 +319,7 @@ How do I communicate with TED?
 Is it still possible to submit notices via eNotices2?
 </summary>
 <br>
-Since 25.10.2023, all above-threshold notices must legally be submitted in eForms-DE format via the public procurement data service. Direct submission via eNotices2 is not legally permissible, as the adaptations to the eForms-DE standard are not taken into account there. (See also VgV § 10a)
+Since 25.10.2023, all above-threshold notices must legally be submitted in eForms-DE format via the Data Service for Public Procurement in Germany. Direct submission via eNotices2 is not legally permissible, as the adaptations to the eForms-DE standard are not taken into account there. (See also VgV § 10a)
 </details>
 <br>
 
@@ -328,7 +328,7 @@ Since 25.10.2023, all above-threshold notices must legally be submitted in eForm
 Is there a mapping from XVergabe to eForms?
 </summary>
 <br>
-No, no mapping from XVergabe to eForms is provided in the Public Procurement data service.
+No, no mapping from XVergabe to eForms is provided in the Data Service for Public Procurement in Germany.
 The XVergabe standard will be permanently replaced by eForms-DE and will not be developed further.
 </details>
 <br>

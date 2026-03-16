@@ -98,7 +98,7 @@ The endpoints for querying the status information return the status information 
 </deliveries>
 ```
 
-For notices above and below the EU thresholds, the status information contains the status of the public procurement data service `doeStatus`, the last change date of the doe status `doeStatusUpdate` and a description of the currently set status `statusDescription`.
+For notices above and below the EU thresholds, the status information contains the status of the Data Service for Public Procurement in Germany `doeStatus`, the last change date of the doe status `doeStatusUpdate` and a description of the currently set status `statusDescription`.
 
 For notices above the EU thresholds, the TED status `tedStatus` with the last change date `tedStatusUpdate` is also transmitted. The TED status values are based on the EU status values.
 <br><br>
