@@ -600,7 +600,7 @@ The new release plan is as follows:
 | 27.03.2024 | **Planned support for eForms-DE 1.2 in DÖE production** | Published |
 | **30.09.2024** | Acceptance of eForms-DE v1.1.0 (based on eForms-EU 1.7) expires | Done |
 
-**<u>Important</u>: The Public Procurement Data Service (DÖE) will support both versions 1.2.0 of eForms-DE (or versions 1.2.0_1.10.1 and future patches of the SDK-DE).
+**<u>Important</u>: The Data Service for Public Procurement in Germany (DÖE) will support both versions 1.2.0 of eForms-DE (or versions 1.2.0_1.10.1 and future patches of the SDK-DE).
 
 Written feedback on eForms-DE **v.1.2.0** can be submitted until 23.02.2024 to: eforms@finanzen.bremen.de
 
