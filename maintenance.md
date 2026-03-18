@@ -20,7 +20,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status |
 |--------------|----------------|----------------------------|--------|--------|
-|--------------|----------------|----------------------------|--------|--------|
+|TED Publication API - Produktion|18. März 2026, 13:50 Uhr|k.A|Übermittlung der Bekanntmachungen ist aktuell gestort |In Klärung mit TED|
 
 ## Hinweise
 
