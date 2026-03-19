@@ -21,9 +21,9 @@
 |------------|------------|----------------|
 | Preview    | 26.02.2026 | Veröffentlicht |
 | Staging    | 10.03.2026 | Veröffentlicht |
-| Produktion | 19.03.2026 | Ausstehend |
+| Produktion | 19.03.2026 | Veröffentlicht |
 
-Status: In QS <br>
+Status: Veröffentlicht am 19.03.2026 <br>
 <details>
 <summary>Release Notes</summary>
 
