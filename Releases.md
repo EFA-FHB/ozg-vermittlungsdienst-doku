@@ -83,9 +83,9 @@ Status: Veröffentlicht am 05.02.2026 <br>
 ## Release fürs SSP-Portal und die neue Info-Seite
 | Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 19.03.2026                  | Ausstehend |
-| Staging    | 02.04.2026                  | Ausstehend |
-| Produktion | 07.05.2026                  | Ausstehend |
+| Preview    | 31.03.2026                  | Veröffentlicht |
+| Staging    | 14.04.2026                  | Ausstehend |
+| Produktion | 19.05.2026                  | Ausstehend |
 
 
 Status: In Arbeit <br>
