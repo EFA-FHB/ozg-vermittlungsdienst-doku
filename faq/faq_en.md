@@ -1,11 +1,11 @@
 
 # Frequently asked questions
 
-- [Data service public procurement](#datenservice-öffentlicher-einkauf)
+- [Data Service for Public Procurement in Germany](#datenservice-öffentlicher-einkauf)
 - [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 - [General](#general)
 
-## Data service public purchasing
+## Data Service for Public Procurement in Germany
 
 ### Connection
 

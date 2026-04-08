@@ -1,4 +1,4 @@
-# Data service Public procurement
+# Data Service for Public Procurement in Germany
 
 >**Go-Live 25.10.2023** <br>
 > Important notes and known errors for productive delivery can be found under [Maintenance](/maintenance.md)!
@@ -31,5 +31,5 @@ the eSender Hub to TED and to the
 announcement service
 <br>
 
-## Data service public procurement system architecture
+## Data Service for Public Procurement in Germany system architecture
 ![System architecture](/images/Datenservice_Oeffentlicher_Einkauf-Systemarchitektur.png)
