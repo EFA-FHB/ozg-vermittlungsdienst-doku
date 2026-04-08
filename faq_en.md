@@ -1,9 +1,9 @@
 ### Data Service for Public Procurement in Germany
 # Frequently asked questions
 
-- Data service for public procurement](#datenservice-öffentlicher-einkauf)
-- Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
-- General](#general)
+- [Data Service for Public Procurement in Germany](#datenservice-öffentlicher-einkauf)
+- [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
+- [General](#general)
 
 ## Data service public purchasing
 

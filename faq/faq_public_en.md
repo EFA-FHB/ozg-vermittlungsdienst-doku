@@ -1,5 +1,5 @@
 
-# Data Service Public Procurement
+# Data Service for Public Procurement in Germany
 
 ### Connection
 

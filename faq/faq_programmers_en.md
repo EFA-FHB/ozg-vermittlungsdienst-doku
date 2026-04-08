@@ -1,7 +1,7 @@
 
 # Information for Programmers
 
-- [Data service public purchasing](#datenservice-öffentlicher-einkauf)
+- [Data Service for Public Procurement in Germany](#datenservice-öffentlicher-einkauf)
 - [Standard eForms-DE and SDK-DE](#standard-eForms-DE-and-SDK-DE)
 - [OpenData-Interface](#general)
 

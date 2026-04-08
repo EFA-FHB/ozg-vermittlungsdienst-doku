@@ -1,4 +1,4 @@
-### Data service Public procurement
+### Data Service for Public Procurement in Germany
 # Events
 [Overview](/Readme.md)
 <br>
