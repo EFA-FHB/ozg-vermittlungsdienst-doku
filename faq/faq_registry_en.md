@@ -1,7 +1,6 @@
-### Data Service for Public Procurement in Germany
 
-# Information for Procurement Offices
 
+# Information for Contracting Authorities
 
 --@include faq/faq_public.md
 
