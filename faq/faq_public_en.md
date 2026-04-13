@@ -1,7 +1,5 @@
 
-# Data Service for Public Procurement in Germany
 
-### Connection
 
 <details>
 <summary>
@@ -47,8 +45,6 @@ In which cycle are announcements published on TED and in the announcement servic
 In principle, all submitted notices are sent to TED or the announcement service without delay. EU-wide notices must first be published on TED. Only after TED has completed the publication and reported back the status "PUBLISHED" are these announcements forwarded to the announcement service. The Data Service for Public Procurement in Germany waits up to 48 hours for publication by TED. If no feedback on the publication is received within this period, the announcement is nevertheless forwarded to the announcement service. TED itself is subject to internal publication rules: Announcements that are delivered and accepted on one day will appear on the platform on the following day at the earliest. Weekends are an exception, as there are usually no publications on Saturdays and Sundays. In these cases, the notices are published on the following Monday. Another exception is so-called ["lawfulness warnings"](https://info.preview.datenservice-oeffentlicher-einkauf.de/documentation/Status_information#lawfulness). In these cases, TED reserves the right to check an announcement manually before it is published. This check can take up to five days.
 </details>
 <br>
-
-### Communication channels
 
 <details>
 <summary>
