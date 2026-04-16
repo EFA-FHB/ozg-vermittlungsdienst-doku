@@ -3,17 +3,42 @@
 
 <br />
 
+- Mai 2026
+  - [Release für den Bekanntmachungsservice, Vermittlungsdienst und eSender-Hub](#Release-für-den-Bekanntmachungsservice,-Vermittlungsdienst,-und-den-eSender-Hub)
 - Februar - März 2026
   - [Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer, alle Validatoren, sowie den Bekanntmachungsservice - SDK-DE 1.14.2](#Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer,-alle-Validatoren,-sowie-den-Bekanntmachungsservice--sdk-de-114)
 - Januar - Februar 2026
   - [Release für alle DÖE Komponenten - SDK-EU 1.14](#Release-für-alle-döe-komponenten--sdk-eu-114)
-- November 2025
+- November 2025 (_auf April/Mai 2026 verschoben_)
   - [Release fürs SSP-Portal und die neue Info-Seite](#Release-fürs-SSP-Portal-und-die-neue-Info-Seite)
 - August 2025
   - [Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer und alle Validatoren](#Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer-und-alle-Validatoren)
 - Juli 2025
   - [Release für Notice-Viewer](#Release-für-Notice-Viewer)
   - [Release für eSender-Hub](#Release-für-eSender-Hub)
+
+<a id=Release-für-den-Bekanntmachungsservice,-Vermittlungsdienst,-und-den-eSender-Hub></a>
+## Release für den Bekanntmachungsservice, Vermittlungsdienst und eSender-Hub
+| Umgebung   | Datum      | Status         |
+|------------|------------|----------------|
+| Preview    | 09.04.2026 | Veröffentlicht |
+| Staging    | 14.04.2026 | Veröffentlicht |
+| Produktion | 19.05.2026 | Ausstehend     |    
+
+Status: In QS <br>
+<details>
+<summary>Release Notes</summary>
+
+### Bekanntmachungsservice
+- Ergänzung neuer technischer Details zur Weiterleitung an das Statistische Bundesamt auf der Detailseite der Bekanntmachung
+
+### Vermittlungsdienst
+- Ein neuer Status zur Weiterleitung an das Statistische Bundesamt wurde eingeführt
+
+### eSender-Hub
+- Diverse Fehlerbehebungen wurden vorgenommen
+  
+</details>
 
 <a id=Release-für-Vermittlungsdienst,-eSender-Hub,-Notice-Viewer,-alle-Validatoren,-sowie-den-Bekanntmachungsservice--sdk-de-114></a>
 ## Release für Vermittlungsdienst, eSender-Hub, Notice-Viewer, alle Validatoren, sowie den Bekanntmachungsservice - SDK-DE 1.14.2
@@ -83,12 +108,12 @@ Status: Veröffentlicht am 05.02.2026 <br>
 ## Release fürs SSP-Portal und die neue Info-Seite
 | Umgebung   | Datum  | Status         |
 |------------|-----------------------------|----------------|
-| Preview    | 31.03.2026                  | Veröffentlicht |
-| Staging    | 14.04.2026                  | Ausstehend |
+| Preview    | 09.04.2026                  | Veröffentlicht |
+| Staging    | 14.04.2026                  | Veröffentlicht |
 | Produktion | 19.05.2026                  | Ausstehend |
 
 
-Status: In Arbeit <br>
+Status: In QS <br>
 _Die Veröffentlichung der „Release fürs SSP-Portal und die neue Info-Seite“ wurde von November/Dezember 2025 auf April/Mai 2026 verschoben._
 
 <details>
@@ -96,6 +121,8 @@ _Die Veröffentlichung der „Release fürs SSP-Portal und die neue Info-Seite�
 
 ### SSP-Portal
 - Einige Dokumentationsseiten sind nun nur noch für eingeloggte Benutzer zugänglich
+- Die Darstellung neuer Informationen in der Bekanntmachungstabelle für Dashboard-Nutzer wurde implementiert.
+- Diverse Textänderungen, sowie Fehlerbehebungen wurden vorgenommen
 
 ### Info-Seite
 - Eine neue Info-Seite wurde erstellt, um zentrale Inhalte strukturiert und benutzerfreundlich bereitzustellen
