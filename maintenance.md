@@ -14,13 +14,13 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-|-------------|----------------------------------|------------|-------------------|---------------------|
+| Produktion | TED API | 23. April 2026 | 07:00-09:00 |Wartungsarbeiten: Alle TED-APIs in produktiven Umgebungen können von Störungen betroffen sein |
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
 | System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status |
 |--------------|----------------|----------------------------|--------|--------|
-| Vermittlungsdienst, eSender-Hub und alle Validatoren | 16. April 2026 | KW18 2026 | Aktuell kann es in Einzelfällen zu Ablehnungen bei der Übermittlung an TED kommen. Die Validierung der Regel BR-BT-00720-0048 (BT-720-Tender) weicht derzeit von der TED-Validierung ab | In Arbeit |
+| Vermittlungsdienst, eSender-Hub und alle Validatoren | 16. April 2026 | KW 19 2026 | Aktuell kann es in Einzelfällen zu Ablehnungen bei der Übermittlung an TED kommen. Die Validierung der Regel BR-BT-00720-0048 (BT-720-Tender) weicht derzeit von der TED-Validierung ab | In Arbeit |
 
 ## Hinweise
 
