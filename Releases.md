@@ -34,6 +34,7 @@ Status: In QS <br>
 
 ### Vermittlungsdienst
 - Ein neuer Status zur Weiterleitung an das Statistische Bundesamt wurde eingeführt
+- Das Feld 'tedPublishedTimestamp' wurde in GET- und POST-Responses in 'tedPublishedDate umbenannt', da TED nur ein Datum liefert.
 
 ### eSender-Hub
 - Diverse Fehlerbehebungen wurden vorgenommen
