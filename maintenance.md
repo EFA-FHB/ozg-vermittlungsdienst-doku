@@ -14,13 +14,13 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion | TED API | 28. April 2026 | 07:00-09:00 | Wartungsarbeiten: Alle TED-APIs in den produktiven Umgebungen werden vorübergehend nicht verfügbar sein |
+|-------------|----------------------------------|------------|-------------------|---------------------|
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
-| System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status |
-|--------------|----------------|----------------------------|--------|--------|
-| Vermittlungsdienst, eSender-Hub und alle Validatoren | 16. April 2026 | KW 19 2026 | Aktuell kann es in Einzelfällen zu Ablehnungen bei der Übermittlung an TED kommen. Die Validierung der Regel BR-BT-00720-0048 (BT-720-Tender) weicht derzeit von der TED-Validierung ab | In Arbeit |
+| System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status                  |
+|--------------|----------------|----------------------------|--------|-------------------------|
+| Vermittlungsdienst, eSender-Hub und alle Validatoren | 16. April 2026 | KW 19 2026 | Aktuell kann es in Einzelfällen zu Ablehnungen bei der Übermittlung an TED kommen. Die Validierung der Regel BR-BT-00720-0048 (BT-720-Tender) weicht derzeit von der TED-Validierung ab | Behoben am 07. Mai 2026 |
 
 ## Hinweise
 
@@ -30,6 +30,7 @@ Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion | TED API | 28. April 2026 | 07:00-09:00 | Wartungsarbeiten: Alle TED-APIs in den produktiven Umgebungen werden vorübergehend nicht verfügbar sein |
 | Produktion | TED API | 23. April 2026 | 07:00-09:00 |Wartungsarbeiten: Alle TED-APIs in produktiven Umgebungen können von Störungen betroffen sein |
 | TED Publication API - Produktion | Alle TED Apps und deren APIs | 18. März 2026 | 13:50 Uhr - 16:00 Uhr | Übermittlung der Bekanntmachungen ist aktuell gestört - Behoben seitens TED |
 | Produktion | Alle TED Apps und deren APIs | 23. Februar 2026 | 07:00-09:00 | Wartungsarbeiten: Alle TED-Anwendungen in produktiven Umgebungen sowie deren APIs können von Störungen betroffen sein |
