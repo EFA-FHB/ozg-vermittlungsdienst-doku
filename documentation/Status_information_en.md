@@ -7,13 +7,13 @@ All status and error information of an announcement can be queried using the RES
 <br>
 
 ## Contents
-- Endpoints for querying status and transfer information](#endpoints)
-- Structure of the status information](#info-struktur)
+- [Endpoints for querying status and transfer information](#endpoints)
+- [Structure of the status information](#info-struktur)
     - [Status table: Transmission of a notification](#statustabelle-uebermittlung)
     - [Status table: Notices above the EU thresholds](#statustabelle-oberschwelle)
     - [Status table: Notices below the EU thresholds](#statustabelle-unterschwelle)
 - [Structure of the transfer information](#transfer-info)
-- Lawfulness Warnings](#lawfulness)
+- [Lawfulness Warnings](#lawfulness)
 
 
 <br><br>

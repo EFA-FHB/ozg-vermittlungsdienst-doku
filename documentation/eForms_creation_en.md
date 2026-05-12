@@ -1,7 +1,7 @@
 [Table of contents](/documentation/documentation.md)
 <br>
 
-### Notes on creating eForms-DE documents
+# Notes on creating eForms-DE documents
 
 When creating eForms documents, it is important to observe a few rules for certain fields.
 

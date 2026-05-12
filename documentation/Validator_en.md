@@ -2,7 +2,7 @@
 [Table of contents](/documentation/documentation.md)
 <br>
 
-### eForms validation service
+# eForms validation service
 
 The eForms validation service is available at the URL https://validator.ozg-vermittlungsdienst.de/.<br>
 The validation service can be used to validate eForms-DE documents in the currently supported versions in advance in order to avoid validation errors when transmitting notices to the Vermittlungsdienst.
