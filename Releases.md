@@ -2,7 +2,7 @@
 
 <a id=juengste-release-updates></a>
 ### Jüngste-Release-Updates
-Stand: 06.05.2026
+Stand: 12.05.2026
 
 <style>
 table {
