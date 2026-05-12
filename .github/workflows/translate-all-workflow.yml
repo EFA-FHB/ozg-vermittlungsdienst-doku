@@ -113,7 +113,7 @@ jobs:
         run: ls -la . | grep _en
 
       - name: Auto-Commit translated files 
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           # Optional. Commit message for the created commit.
           # Defaults to "Apply automatic changes"
