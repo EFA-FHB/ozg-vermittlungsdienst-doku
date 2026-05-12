@@ -89,7 +89,7 @@ Das Feld 'tedPublishedTimestamp' wurde in GET- und POST-Responses in 'tedPublish
       <td>- Die Validierung der Bekanntmachung erfolgt nun abhängig von der ProfileID<br>- Es wurde ein neuer optionaler Parameter für die ProfileID hinzugefügt<br>- Obsolete eForms-Versionen wurden aus der Liste der unterstützten Versionen entfernt</td>
     </tr>
     <tr>
-      <td><i><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</i></td>
+      <td><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</td>
       <td>26-4</td>
       <td style="color:#00488b;">31.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
@@ -257,7 +257,7 @@ Diverse Fehlerbehebungen wurden vorgenommen.</td>
 - SDK-DE 1.13.0 wurde impelementiert</td>
     </tr>
     <tr>
-      <td><i><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</i></td>
+      <td><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</td>
       <td></td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;"></td>

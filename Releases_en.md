@@ -89,7 +89,7 @@ The "tedPublishedTimestamp" field has been renamed to "tedPublishedDate" in GET 
       <td>- The validation of the notice is now dependent on the ProfileID.<br>- A new optional parameter has been added for the ProfileID.<br>- Obsolete versions of eForms have been removed from the list of supported versions.</td>
     </tr>
     <tr>
-      <td><i><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</i></td>
+      <td><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</td>
       <td>26-4</td>
       <td style="color:#00488b;">31.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
@@ -257,7 +257,7 @@ Various bug fixes have been implemented.</td>
 - SDK-DE 1.13.0 was introduced.</td>
     </tr>
     <tr>
-      <td><i><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</i></td>
+      <td><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</td>
       <td></td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;"></td>
