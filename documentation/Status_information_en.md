@@ -1,3 +1,7 @@
+---
+title: Status Information
+---
+
 [Table of contents](/documentation/documentation.md)
 <br>
 
