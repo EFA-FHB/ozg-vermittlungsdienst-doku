@@ -14,7 +14,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-|-------------|----------------------------------|------------|-------------------|---------------------|
+| Produktion | DÖE exkl. Bekanntmachungsservice | 20. Mai 2026 | 16:00 - 20:00 | Wartungsarbeiten: Alle produktiven Anwendungen sowie deren APIs sind vorübergehend nicht verfügbar. |
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
