@@ -1,3 +1,7 @@
+---
+title: Documentation
+---
+
 # Information for Contracting Authorities
  
 - [Connection to the Vermittlungsdienst](Connection_to_mediator.md)
