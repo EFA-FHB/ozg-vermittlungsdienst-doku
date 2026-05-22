@@ -5,6 +5,7 @@ title: Documentation
 # Information for Contracting Authorities
  
 - [Connection to the Vermittlungsdienst](Connection_to_mediator.md)
+- [Supported eForms versions](eForms_support_public_en.md)
 
 Further information is available after registration.
 
