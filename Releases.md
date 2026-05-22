@@ -2,7 +2,7 @@
 
 <a id=juengste-release-updates></a>
 ### Jüngste-Release-Updates
-Stand: 12.05.2026
+Stand: 22.05.2026
 
 <style>
 table {
@@ -52,7 +52,7 @@ tr.divider td {
       <td data-field="release-id">26-4</td>
       <td style="color:#00488b;">31.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
-      <td style="color:#07702D;">19.05.2026 (geplant)</td>
+      <td style="color:#07702D;">21.05.2026</td>
       <td>Das SSP wurde umgebaut und die Dokumentation befindet sich hauptsächlich nur hinter der Anmeldung.</td>
     </tr>
     <tr>
@@ -60,7 +60,7 @@ tr.divider td {
       <td data-field="release-id">26-4</td>
       <td style="color:#00488b;">31.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
-      <td style="color:#07702D;">19.05.2026 (geplant)</td>
+      <td style="color:#07702D;">21.05.2026</td>
       <td>Ein neuer Status zur Weiterleitung an das Statistische Bundesamt wurde eingeführt. <br>
 Das Feld 'tedPublishedTimestamp' wurde in GET- und POST-Responses in 'tedPublishedDate umbenannt', da TED nur ein Datum liefert.</td>
     </tr>
@@ -69,7 +69,7 @@ Das Feld 'tedPublishedTimestamp' wurde in GET- und POST-Responses in 'tedPublish
       <td data-field="release-id">26-4</td>
       <td style="color:#00488b;">30.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
-      <td style="color:#07702D;">19.05.2026 (geplant)</td>
+      <td style="color:#07702D;">21.05.2026</td>
       <td>Diverse Fehlerbehebungen wurden vorgenommen.</td>
     </tr>
     <tr>
@@ -93,7 +93,7 @@ Das Feld 'tedPublishedTimestamp' wurde in GET- und POST-Responses in 'tedPublish
       <td>26-4</td>
       <td style="color:#00488b;">31.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
-      <td style="color:#07702D;">19.05.2026 (geplant)</td>
+      <td style="color:#07702D;">21.05.2026</td>
       <td>Eine neue Info-Seite für die öffentlich verfügbare Dokumentation befindet sich jetzt auf die Info-Seite.</td>
     </tr>
     <tr class="divider">
@@ -109,7 +109,7 @@ Das Feld 'tedPublishedTimestamp' wurde in GET- und POST-Responses in 'tedPublish
       <td data-field="release-id">26-4</td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;">14.04.2026</td>
-      <td style="color:#07702D;">19.05.2026 (geplant)</td>
+      <td style="color:#07702D;">21.05.2026</td>
       <td>Ergänzung neuer technischer Details zur Weiterleitung an das Statistische Bundesamt auf der Detailseite der Bekanntmachung.</td>
     </tr>
   </tbody>
