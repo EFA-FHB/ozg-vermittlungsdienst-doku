@@ -23,13 +23,13 @@ Aktuell werden unterschiedliche eForms-Versionen unterstützt und entsprechend d
 
 Um die __Verordnung (EG) Nr. 1370/2007 vom Amt für Veröffentlichungen der EU__ zu erfüllen, wurden die Formulare __T01__ (_"Vorinformation zu öffentlichen Personenverkehrsdiensten"_) und __T02__ (_"Bekanntmachung über vergebene Aufträge für öffentliche Personenverkehrsdienste"_) definiert. Diese sind Bestandteil des SDK-EU, werden vom Datenservice Öffentlicher Einkauf unterstützt und von TED akzeptiert.
 
-Die Formulare T01 und T02 können somit auf Basis des SDK-EU von Vergabeplattformen oder über Nutzung des [Redaktionssystems](https://resy.datenservice-oeffentlicher-einkauf.de/) eingeliefert werden.
+Die Formulare T01 und T02 können somit auf Basis des SDK-EU von Vergabeplattformen oder über die Nutzung des [Redaktionssystems](https://resy.datenservice-oeffentlicher-einkauf.de/) eingeliefert werden.
 
 SDK-EU|Akzeptiert ab|Akzeptiert bis|
 |--|--|--|
-[1.14.0](https://github.com/OP-TED/eForms-SDK/tree/1.14.0)|05.02.2026| voraussichtlich <br> bis 31.03.2027 |
-[1.13.0](https://github.com/OP-TED/eForms-SDK/tree/1.13.0)|28.04.2025|voraussichtlich <br> bis 31.03.2027|
-[1.12.0](https://github.com/OP-TED/eForms-SDK/tree/1.12.0)|01.11.2024|30.06.2026|
+[1.14.0](https://github.com/OP-TED/eForms-SDK/tree/1.14.0)| 05.02.2026| voraussichtlich <br> bis 31.03.2027 |
+[1.13.0](https://github.com/OP-TED/eForms-SDK/tree/1.13.0)| 28.04.2025| voraussichtlich <br> bis 31.03.2027 |
+[1.12.0](https://github.com/OP-TED/eForms-SDK/tree/1.12.0)| 01.11.2024 | 30.06.2026 |
 
 
 ## eForms-Validierung
