@@ -110,7 +110,7 @@ Bei Bekanntmachungen oberhalb der EU-Schwellenwerte wird zusätzlich der TED-Sta
 
 ### Statustabelle: Übermittlung einer Bekanntmachung<span id="statustabelle-uebermittlung">
 
-| DÖE-Status        | Finaler Status?|Statusbeschreibung                                                                                       |
+| DÖE-Status <br> `doeStatus` | Finaler Status?|Statusbeschreibung                                                                                       |
 | ----------------- | -|--------------------------------------------------------------------------------------------------------- |
 | AWAITING_TRANSFER | nein |Die Bekanntmachung wurde vom Vermittlungsdienst angenommen und akzeptiert. Die weitere Versendung wird vorbereitet. |
 
@@ -121,7 +121,7 @@ Nachdem die Übermittlung einer Bekanntmachung erfolgreich abgeschlossen ist, wi
 
 Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmachung oberhalb der EU-Schwellenwerte übermittelt werden.
 
-| TED-Status        | DÖE-Status     |Finaler Status? |Statusbeschreibung                                                                                                  						  |  Auf Vergabeplattform publizieren? | 
+| TED-Status <br> `tedStatus`  | DÖE-Status <br> `doeStatus`     |Finaler Status? |Statusbeschreibung                                                                                                  						  |  Auf Vergabeplattform publizieren? | 
 | ----------------- | -------------- | ---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | - | 
 | PENDING           | PENDING        |nein      |Die Bekanntmachung wurde vom eSender zur weiteren Verarbeitung angenommen. Die Übermittlung der Bekanntmachung an TED und an den Bekanntmachungsservice steht noch aus. | noch abwarten  | 
 | NO_RESPONSE       | PENDING        | nein     |Die Übermittlung an TED wird erneut versucht. Die Übermittlung der Bekanntmachung an den Bekanntmachungsservice steht noch aus.                                          |  noch abwarten | 
@@ -154,7 +154,7 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmac
 
 Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmachung unterhalb der EU-Schwellenwerte übermittelt werden.
 
-| DÖE-Status | Finaler Status?| Statusbeschreibung                                             |
+| DÖE-Status <br> `doeStatus` | Finaler Status?| Statusbeschreibung                                             |
 |------------| ----| --------------------------------------------------------------- |
 | ACCEPTED   | nein | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert. |
 | REJECTED   | ja   | Die Bekanntmachung wurde vom Bekanntmachungsservice abgelehnt.                    |
