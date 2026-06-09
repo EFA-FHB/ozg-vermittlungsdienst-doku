@@ -114,7 +114,7 @@ Die Statusinformationen enthalten bei Bekanntmachungen oberhalb und unterhalb de
 
 Bei Bekanntmachungen oberhalb der EU-Schwellenwerte wird zusätzlich der TED-Status `tedStatus` mit dem letzten Änderungsdatum `tedStatusUpdate` übermittelt. Die TED-Statuswerte orientieren sich an den Statuswerten der EU. 
 
-Für CANs, die für den Service Vergabestatistik (SVS) relevant sind, werden zusätzlich folgende Statusinformationen übermittelt: `svsStatus`, das letzte Änderungsdatum des SVS-Status `svsStatusUpdate`, ein Code `code` sowie eine Beschreibung, die den Status genauer erklärt `descriptionDe` / `descriptionEn`. Unter `svsReportLink` wird die URL zum Report des Services übermittelt.
+Für CANs, die für den Service Vergabestatistik (SVS) relevant sind, werden zusätzlich folgende Statusinformationen übermittelt: `svsStatus`, das letzte Änderungsdatum des SVS-Status `svsStatusUpdate`, ein Code `code` sowie eine Beschreibung, die den Status genauer erklärt `descriptionDe` / `descriptionEn`. Unter `svsReportLink` wird die URL für das SVS übermittelt.
 <br><br>
 
 
