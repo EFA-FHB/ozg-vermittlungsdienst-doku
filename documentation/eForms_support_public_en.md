@@ -23,7 +23,7 @@ In order to comply with __Regulation (EC) No. 1370/2007 of the Publications Offi
 
 Forms T01 and T02 can therefore be submitted on the basis of the SDK-EU by procurement platforms or by using the [editorial system](https://resy.datenservice-oeffentlicher-einkauf.de/).
 
-SDK-EU|Accepted from|Accepted until|
+|SDK-EU|Accepted from|Accepted until|
 |--|--|--|
 |[1.14.0](https://github.com/OP-TED/eForms-SDK/tree/1.14.0)|05.02.2026|expected <br> until 31.03.2027|
 |[1.13.0](https://github.com/OP-TED/eForms-SDK/tree/1.13.0)|28.04.2025|expected <br> until 31.03.2027|
