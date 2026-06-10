@@ -1,12 +1,10 @@
-# Programmers
-<br>
+# Information for Programmers
 
-## Available areas
 <br>
 
 ### [Frequently asked questions](faq/faq_programmers.md)
 
-### [eForms support](documentation/eForms_support_public.md)
+### [Supported eForms versions](documentation/eForms_support_public.md)
 
 ---
 
