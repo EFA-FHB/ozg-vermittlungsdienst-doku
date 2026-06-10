@@ -20,7 +20,8 @@ Further important information on creating eForms can be found in the FAQ provide
 
 | system | available since | expected fix | bug | status |
 |--------------|----------------|----------------------------|--------|--------|
-|--------------|----------------|----------------------------|--------|--------|
+| Vermittlungsdienst, eSender-Hub and all Validators | 16th April 2026 | KW 19 2026 | At present, there may be instances where submissions to TED are rejected. The validation of rule BR-BT-00720-0048 (BT-720-Tender) currently differs from the TED validation. | Resolved on 7th May 2026 |
+
 
 ## Notes
 
