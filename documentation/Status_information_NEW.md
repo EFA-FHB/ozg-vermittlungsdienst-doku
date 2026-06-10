@@ -179,7 +179,7 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmac
 
 Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmachung vom Vermittlungsdienst an den Bekanntmachungsservice und das Self-Service-Portal übermittelt werden.
 
-| SVS-Status | StatusDetailCode | Finaler Status? | Statusbeschreibung / Anzeigetext im BKMS |
+| SVS-Status <br> `doeStatus` | StatusDetailCode <br> `code` | Finaler Status? | Statusbeschreibung / Anzeigetext im BKMS |
 |---|---|---|---|
 | NOT_QUALIFIED | 1000 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da keine BerichteinheitsID vermerkt wurde. |
 | NOT_QUALIFIED | 1010 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da die übermittelte BerichteinheitsID nicht gültig ist. |
