@@ -115,7 +115,7 @@ Die Statusinformationen enthalten bei Bekanntmachungen oberhalb und unterhalb de
 
 Bei Bekanntmachungen oberhalb der EU-Schwellenwerte wird zusätzlich der TED-Status `tedStatus` mit dem letzten Änderungsdatum `tedStatusUpdate` übermittelt. Die TED-Statuswerte orientieren sich an den Statuswerten der EU. 
 
-Für CANs, die für den Service Vergabestatistik (SVS) relevant sind, werden zusätzlich folgende Statusinformationen übermittelt: `svsStatus`, das letzte Änderungsdatum des SVS-Status `svsStatusUpdate`, ein Code `code` sowie eine Beschreibung, die den Status genauer erklärt `descriptionDe` / `descriptionEn`. Unter `svsReportLink` wird die URL für das SVS übermittelt.
+Für CANs, die für den Service Vergabestatistik (SVS) relevant sind, werden zusätzlich folgende Statusinformationen übermittelt: `svsStatus`, das letzte Änderungsdatum des SVS-Status `svsStatusUpdate`, ein Code `svsStatusDetail.code` sowie eine Beschreibung, die den Status genauer erklärt `svsStatusDetail.descriptionDe` / `svsStatusDetail.descriptionEn`. Unter `svsReportLink` wird die URL für das SVS übermittelt.
 <br><br>
 
 
@@ -177,9 +177,9 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmac
 
 ### Statustabelle: Bekanntmachungen, die für den Service Vergabestatistik relevant sind<span id="statustabelle-svs">
 
-Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmachung vom Vermittlungsdienst an den Bekanntmachungsservice und das Self-Service-Portal übermittelt werden.
+Die folgenden Statuskombinationen können bei der Statusabfrage einer Vergabebekanntmachung vom Vermittlungsdienst übermittelt werden.
 
-| SVS-Status <br> `doeStatus` | StatusDetailCode <br> `code` | Finaler Status? | Statusbeschreibung / Anzeigetext im BKMS |
+| SVS-Status <br> `doeStatus` | StatusDetailCode <br> `svsStatusDetail.code` | Finaler Status? | Statusbeschreibung / Anzeigetext im BKMS <br> `svsStatusDetail.descriptionDe` |
 |---|---|---|---|
 | NOT_QUALIFIED | 1000 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da keine BerichteinheitsID vermerkt wurde. |
 | NOT_QUALIFIED | 1010 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da die übermittelte BerichteinheitsID nicht gültig ist. |
