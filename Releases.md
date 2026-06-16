@@ -61,7 +61,7 @@ tr.divider td {
       <td style="color:#00488b;">11.06.2026</td>
       <td style="color:#DAA520;">22.06.2026 (geplant)</td>
       <td style="color:#07702D;">30.06.2026 (geplant)</td>
-      <td>Vermittlungsdienst wurde erweitert, um Informationen über CANs an das SVS zu senden und von diesem zu empfangen.</td>
+      <td>Vermittlungsdienst wurde erweitert, um Informationen über CANs an den SVS zu senden und von diesem zu empfangen.</td>
     </tr>
     <tr>
       <td>eSender-Hub</td>
