@@ -2,7 +2,7 @@
 
 <a id=juengste-release-updates></a>
 ### Latest Release Updates
-Status: 15.06.2026
+Status: 16.06.2026
 
 <style>
 table {
@@ -59,7 +59,7 @@ tr.divider td {
       <td><a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">Vermittlungsdienst</a></td>
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
-      <td style="color:#DAA520;">16.06.2026</td>
+      <td style="color:#DAA520;">22.06.2026 (planned)</td>
       <td style="color:#07702D;">30.06.2026 (planned)</td>
       <td>Mediator is expanded to send and receive information on CANs to/from the SVS.</td>
     </tr>
@@ -107,7 +107,7 @@ tr.divider td {
       <td><a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">Bekanntmachungsservice</a></td>
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;"></td>
-      <td style="color:#DAA520;">16.06.2026</td>
+      <td style="color:#DAA520;">22.06.2026 (planned)</td>
       <td style="color:#07702D;">30.06.2026 (planned)</td>
       <td>- Improved handling of multiple buyers and a new metric, "Active Contract Notices," in the "Facts &amp; Figures" section<br>
 - Update to Spring Boot 4.0 and integration of SDK-DE-1.14.3<br>

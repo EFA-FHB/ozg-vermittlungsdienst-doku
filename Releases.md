@@ -51,7 +51,7 @@ tr.divider td {
       <td><a href="https://self-service.datenservice-oeffentlicher-einkauf.de/" rel="nofollow">Self-Service-Portal</a></td>
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
-      <td style="color:#DAA520;">16.06.2026 (geplant)</td>
+      <td style="color:#DAA520;">16.06.2026</td>
       <td style="color:#07702D;">30.06.2026 (geplant)</td>
       <td>Die Seite „Healthcheck" und die Notice-Tabelle wurden um Informationen zum Service Vergabestatistik erweitert.</td>
     </tr>
@@ -83,7 +83,7 @@ tr.divider td {
       <td><a href="https://validator.ozg-vermittlungsdienst.de">Online-Validator / <br> Offline-Validator</a></td>
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
-      <td style="color:#DAA520;">16.06.2026 (geplant)</td>
+      <td style="color:#DAA520;">16.06.2026</td>
       <td style="color:#07702D;">30.06.2026 (geplant)</td>
       <td>Das Patch des SDK-DE 1.14.3 wurde implementiert.</td>
     </tr>
