@@ -59,7 +59,7 @@ tr.divider td {
       <td><a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">Vermittlungsdienst</a></td>
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
-      <td style="color:#DAA520;">22.06.2026 (geplant)</td>
+      <td style="color:#DAA520;">22.06.2026</td>
       <td style="color:#07702D;">30.06.2026 (geplant)</td>
       <td>Vermittlungsdienst wurde erweitert, um Informationen über CANs an den SVS zu senden und von diesem zu empfangen.</td>
     </tr>
@@ -103,14 +103,14 @@ tr.divider td {
       <td style="color:#07702D;">30.06.2026 (geplant)</td>
       <td>Patch Release zu SDK-DE 1.14.2<br>
 Wesentliche Änderungen:<br>
-&bull; Verbesserungen zum Umsetzung der VergStatVO<br>
-&bull; Umsetzung der Abweichenden Verwaltungsvorschrift für Start-ups</td>
+- Verbesserungen zum Umsetzung der VergStatVO<br>
+- Umsetzung der Abweichenden Verwaltungsvorschrift für Start-ups</td>
     </tr>
     <tr>
       <td><a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">Bekanntmachungsservice</a></td>
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;"></td>
-      <td style="color:#DAA520;">22.06.2026 (geplant)</td>
+      <td style="color:#DAA520;">22.06.2026</td>
       <td style="color:#07702D;">30.06.2026 (geplant)</td>
       <td>- Verbessertes Handhabung von mehrerer Buyers sowie neue Kennzahl "Aktive Auftragsbekanntmachungen" im Bereich "Facts &amp; Figures"<br>
 - Update auf Spring Boot 4.0 sowie Integration von SDK-DE-1.14.3<br>
