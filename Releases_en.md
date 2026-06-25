@@ -2,7 +2,7 @@
 
 <a id=juengste-release-updates></a>
 ### Latest Release Updates
-Status: 16.06.2026
+Status: 25.06.2026
 
 <style>
 table {
@@ -97,11 +97,14 @@ tr.divider td {
     </tr>
     <tr class="divider">
       <td><a class="external-link" href="https://gitlab.opencode.de/OC000008125155/SDK-eforms-de" rel="nofollow">SDK zu eForms-DE</td>
-      <td data-field="release-id">SDK-DE 1.14.2</td>
-      <td style="color:#00488b;">26.02.2026</td>
-      <td style="color:#DAA520;">10.03.2026</td>
-      <td style="color:#07702D;">19.03.2026</td>
-      <td>see https://gitlab.opencode.de/OC000008125155/SDK-eforms-de</td>
+      <td data-field="release-id">SDK-DE 1.14.3</td>
+      <td style="color:#00488b;">19.06.2026</td>
+      <td style="color:#DAA520;">19.06.2026</td>
+      <td style="color:#07702D;">30.06.2026 (planned)</td>
+      <td>Patches for SDK-DE 1.14.2<br>
+Other changes:<br>
+&bull; Improvements to the implementation of VergStatVO<br>
+&bull; Implementation of the new administrative regulation for start-ups</td>
     </tr>
     <tr>
       <td><a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">Bekanntmachungsservice</a></td>
@@ -261,8 +264,15 @@ Various bug fixes have been implemented.</td>
       <td style="color:#07702D;">21.05.2026</td>
       <td>A new information page for the publicly available DÖE documentation can now be found on the info-page.</td>
     </tr>
-    <tr class="divider">
-      <td><a class="external-link" href="https://gitlab.opencode.de/OC000008125155/SDK-eforms-de" rel="nofollow">SDK zu eForms-DE</td>
+    <tr class="divider" data-name="SDK release -1">
+      <td rowspan="2"><a class="external-link" href="https://gitlab.opencode.de/OC000008125155/SDK-eforms-de" rel="nofollow">SDK zu eForms-DE</td>
+      <td>SDK-DE 1.14.2</td>
+      <td style="color:#00488b;">26.02.2026</td>
+      <td style="color:#DAA520;">10.03.2026</td>
+      <td style="color:#07702D;">19.03.2026</td>
+      <td>see https://gitlab.opencode.de/OC000008125155/SDK-eforms-de</td>
+    </tr>
+    <tr data-name="SDK release -2">
       <td>SDK-EU 1.14</td>
       <td style="color:#00488b;">21.01.2026</td>
       <td style="color:#DAA520;">29.01.2026</td>
