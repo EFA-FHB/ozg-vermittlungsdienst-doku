@@ -111,7 +111,7 @@ Wesentliche Änderungen:<br>
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;">22.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (geplant)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>- Verbessertes Handhabung von mehrerer Buyers sowie neue Kennzahl "Aktive Auftragsbekanntmachungen" im Bereich "Facts &amp; Figures"<br>
 - Update auf Spring Boot 4.0 sowie Integration von SDK-DE-1.14.3<br>
 - AVV Bund Start-up – Filtererweiterung in der erweiterten Suche<br>
