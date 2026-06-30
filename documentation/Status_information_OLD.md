@@ -16,7 +16,6 @@ Mit Hilfe der REST-API des Vermittlungsdienstes können alle Status- und Fehleri
     - [Statustabelle: Übermittlung einer Bekanntmachung](#statustabelle-uebermittlung)
     - [Statustabelle: Bekanntmachungen oberhalb der EU-Schwellenwerte](#statustabelle-oberschwelle)
     - [Statustabelle: Bekanntmachungen unterhalb der EU-Schwellenwerte](#statustabelle-unterschwelle)
-	- [Statustabelle: Bekanntmachungen, die für den Service Vergabestatistik relevant sind](#statustabelle-svs)
 - [Struktur der Transferinformationen](#transfer-info)
 - [Lawfulness Warnings](#lawfulness)
 
@@ -47,20 +46,12 @@ Die Endpunkte zur Abfrage der Statusinformationen geben die Statusinformationen 
 		<tedPublicationLink>https://preview.ted.europa.eu/udl?uri=TED:NOTICE:{publicationId}:HTML:DE:HTML</tedPublicationLink>
     		<bkmsPublicationLink>https://alpha.oeffentlichevergabe.de/ui/de/search/details?{noticeId}</bkmsPublicationLink>
 		<tedStatus>PENDING</tedStatus>
-		<tedStatusUpdate>2026-06-09T12:24:04.623Z</tedStatusUpdate>
-		<tedAcceptedTimestamp>2026-06-09T12:24:04.624Z</tedAcceptedTimestamp>
-		<tedPublishedDate>2026-06-09</tedPublishedDate>
+		<tedStatusUpdate>2023-11-03T15:01:38.373Z</tedStatusUpdate>
+		<tedAcceptedTimestamp>2023-11-03T15:01:38.373Z</tedAcceptedTimestamp>
+		<tedPublishedTimestamp>2023-11-03T15:01:38.373Z</tedPublishedTimestamp>
 		<tedPublicationId>string</tedPublicationId>
 		<doeStatus>AWAITING_TRANSFER</doeStatus>
-		<doeStatusUpdate>2026-06-09T12:24:04.624Z</doeStatusUpdate>
-		<svsStatus>string</svsStatus>
-		<svsStatusUpdate>2026-06-09T12:24:04.624Z</svsStatusUpdate>
-		<svsStatusDetail>
-			<code>1000</code>
-			<descriptionEn>SVS processing in progress</descriptionEn>
-			<descriptionDe>string</descriptionDe>
-		</svsStatusDetail>
-		<svsReportLink>string</svsReportLink>
+		<doeStatusUpdate>2023-11-03T15:01:38.373Z</doeStatusUpdate>
 		<statusDescription>string</statusDescription>
 		<transferResponse>
 			<warnings>
@@ -114,8 +105,6 @@ Die Endpunkte zur Abfrage der Statusinformationen geben die Statusinformationen 
 Die Statusinformationen enthalten bei Bekanntmachungen oberhalb und unterhalb der EU-Schwellenwerte den Status des Datenservice Öffentlicher Einkauf `doeStatus`, das letzte Änderungsdatum des doe-Status `doeStatusUpdate` sowie eine Beschreibung des aktuell gesetzten Status `statusDescription`.
 
 Bei Bekanntmachungen oberhalb der EU-Schwellenwerte wird zusätzlich der TED-Status `tedStatus` mit dem letzten Änderungsdatum `tedStatusUpdate` übermittelt. Die TED-Statuswerte orientieren sich an den Statuswerten der EU. 
-
-Für CANs, die für den Service Vergabestatistik (SVS) relevant sind, werden zusätzlich folgende Statusinformationen übermittelt: `svsStatus`, das letzte Änderungsdatum des SVS-Status `svsStatusUpdate`, ein Code `svsStatusDetail.code` sowie eine Beschreibung, die den Status genauer erklärt `svsStatusDetail.descriptionDe` / `svsStatusDetail.descriptionEn`. Unter `svsReportLink` wird die URL für das SVS übermittelt.
 <br><br>
 
 
@@ -173,32 +162,7 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmac
 | PUBLISHED  | ja   | Die Bekanntmachung wurde im Bekanntmachungsservice veröffentlicht.                |
 | STOPPED    | ja   | Die Bekanntmachung wurde  im Bekanntmachungsservice gestoppt.   |
 
-<br>
 
-### Statustabelle: Bekanntmachungen, die für den Service Vergabestatistik relevant sind<span id="statustabelle-svs">
-
-Die folgenden Statuskombinationen können bei der Statusabfrage einer Vergabebekanntmachung vom Vermittlungsdienst übermittelt werden.
-
-| SVS-Status <br> `doeStatus` | StatusDetailCode <br> `svsStatusDetail.code` | Finaler Status? | Statusbeschreibung / Anzeigetext im BKMS <br> `svsStatusDetail.descriptionDe` |
-|---|---|---|---|
-| NOT_QUALIFIED | 1000 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da keine BerichteinheitsID vermerkt wurde. |
-| NOT_QUALIFIED | 1010 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da die übermittelte BerichteinheitsID nicht gültig ist. |
-| NOT_QUALIFIED | 1020 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da das Verfahren noch nicht abgeschlossen ist. |
-| NOT_QUALIFIED | 1030 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da der Auftragswert des Verfahrens kleiner als 1000 € ist und daher in der Vergabestatistik nicht berücksichtigt wird. |
-| NOT_QUALIFIED | 1040 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da die Meldefrist abgelaufen ist. |
-| NOT_QUALIFIED | 1050 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da bereits eine Statistikmeldung versendet wurde und die Meldefrist abgelaufen ist. |
-| NOT_QUALIFIED | 1060 | Ja | Das Verfahren wurde ohne Gewinner abgeschlossen. Eine Statistikmeldung erfolgt nicht. |
-| NOT_QUALIFIED | 1070 | Ja | Das Verfahren ist Teil einer Rahmenvereinbarung, weswegen keine zusätzliche Statistikmeldung erfolgt. |
-| NOT_QUALIFIED | 1080 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da die Verfahrensarten „Sonstiges einstufiges Verfahren" und „Sonstiges zweistufiges Verfahren" in der Vergabestatistikverordnung in Vergabeverfahren oberhalb des EU-Schwellenwertes nicht vorgesehen sind. |
-| PENDING | 2000 | Nein | Die Vergabebekanntmachung wird zum Ende der Meldefrist verarbeitet und versendet. |
-| SUSPENDED | 3000 | Ja | Die Bekanntmachung wurde zurückgezogen. |
-| PROCESSED | 4000 | Nein | Die Vergabebekanntmachung wurde erfolgreich verarbeitet, die Statistikmeldung wird nun versendet. |
-| PROCESSED | 4010 | Nein | Beim Erstellen der Statistikmeldung aus der Vergabebekanntmachung ist ein Fehler aufgetreten. Bitte prüfen und versenden Sie die Vergabebekanntmachung erneut. |
-| DELIVERED | 5000 | Ja | Der Versand wurde erfolgreich quittiert, die Meldepflicht gilt als erfüllt. |
-| DELIVERED | 5010 | Nein | Der Versand ist fehlgeschlagen, es werden weitere Zustellversuche unternommen. |
-| DELIVERED | 5020 | Ja | Der Versand ist trotz mehrmaliger Versuche fehlgeschlagen, bitte melden Sie die Statistik manuell mit der IDEV-Anwendung des StBa. |
-| ACHIEVED | 6000 | Ja | Die Statistikmeldung wurde archiviert. |
-| UNKNOWN | 7000 | ? | Es konnte kein Status ermittelt werden. |
 
 <br>
 
