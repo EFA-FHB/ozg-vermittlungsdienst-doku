@@ -52,7 +52,7 @@ tr.divider td {
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
       <td style="color:#DAA520;">16.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (planned)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>The healthcheck page and notice table are expanded to include information on the Service for Statistical Reporting.</td>
     </tr>
     <tr>
@@ -60,7 +60,7 @@ tr.divider td {
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
       <td style="color:#DAA520;">22.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (planned)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>Mediator is expanded to send and receive information on CANs to/from the SVS.</td>
     </tr>
     <tr>
@@ -84,7 +84,7 @@ tr.divider td {
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
       <td style="color:#DAA520;">16.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (planned)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>The SDK-DE 1.14.3 patch has been implemented.</td>
     </tr>
     <tr>
@@ -100,7 +100,7 @@ tr.divider td {
       <td data-field="release-id">SDK-DE 1.14.3</td>
       <td style="color:#00488b;">19.06.2026</td>
       <td style="color:#DAA520;">19.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (planned)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>Patches for SDK-DE 1.14.2<br>
 Other changes:<br>
 - Improvements to the implementation of VergStatVO<br>
@@ -111,7 +111,7 @@ Other changes:<br>
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;">22.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (planned)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>- Improved handling of multiple buyers and a new metric, "Active Contract Notices," in the "Facts &amp; Figures" section<br>
 - Update to Spring Boot 4.0 and integration of SDK-DE-1.14.3<br>
 - AVV Bund Start-up – Filter extension in the advanced search<br>

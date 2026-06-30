@@ -52,7 +52,7 @@ tr.divider td {
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
       <td style="color:#DAA520;">16.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (geplant)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>Die Seite „Healthcheck" und die Notice-Tabelle wurden um Informationen zum Service Vergabestatistik erweitert.</td>
     </tr>
     <tr>
@@ -60,7 +60,7 @@ tr.divider td {
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
       <td style="color:#DAA520;">22.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (geplant)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>Vermittlungsdienst wurde erweitert, um Informationen über CANs an den SVS zu senden und von diesem zu empfangen.</td>
     </tr>
     <tr>
@@ -84,7 +84,7 @@ tr.divider td {
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
       <td style="color:#DAA520;">16.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (geplant)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>Das Patch des SDK-DE 1.14.3 wurde implementiert.</td>
     </tr>
     <tr>
@@ -100,7 +100,7 @@ tr.divider td {
       <td data-field="release-id">SDK-DE 1.14.3</td>
       <td style="color:#00488b;">19.06.2026</td>
       <td style="color:#DAA520;">19.06.2026</td>
-      <td style="color:#07702D;">30.06.2026 (geplant)</td>
+      <td style="color:#07702D;">30.06.2026</td>
       <td>Patch Release zu SDK-DE 1.14.2<br>
 Wesentliche Änderungen:<br>
 - Verbesserungen zum Umsetzung der VergStatVO<br>
