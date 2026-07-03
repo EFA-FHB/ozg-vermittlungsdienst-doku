@@ -197,7 +197,7 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Vergabebek
 | DELIVERED | 5000 | Ja | Der Versand wurde erfolgreich quittiert, die Meldepflicht gilt als erfüllt. |
 | DELIVERED | 5010 | Nein | Der Versand ist fehlgeschlagen, es werden weitere Zustellversuche unternommen. |
 | DELIVERED | 5020 | Ja | Der Versand ist trotz mehrmaliger Versuche fehlgeschlagen, bitte melden Sie die Statistik manuell mit der IDEV-Anwendung des StBa. |
-| ACHIEVED | 6000 | Ja | Die Statistikmeldung wurde archiviert. |
+| ARCHIVED | 6000 | Ja | Die Statistikmeldung wurde archiviert. |
 | UNKNOWN | 7000 | ? | Es konnte kein Status ermittelt werden. |
 
 <br>
