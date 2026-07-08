@@ -14,7 +14,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
 |-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion | DÖE exkl. Bekanntmachungsservice | 20. Mai 2026 | 16:00 - 20:00 | Wartungsarbeiten: Alle produktiven Anwendungen sowie deren APIs sind vorübergehend nicht verfügbar. |
+| Produktion | TED API | 9. Juli 2026 | 07:00-08:00 | Wartungsarbeiten: Alle TED-APIs in den produktiven Umgebungen werden vorübergehend nicht verfügbar sein |
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
@@ -30,6 +30,7 @@ Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar
 
 | Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
 |--------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion | DÖE exkl. Bekanntmachungsservice | 20. Mai 2026 | 16:00 - 20:00 | Wartungsarbeiten: Alle produktiven Anwendungen sowie deren APIs sind vorübergehend nicht verfügbar. |
 | Produktion | TED API | 28. April 2026 | 07:00-09:00 | Wartungsarbeiten: Alle TED-APIs in den produktiven Umgebungen werden vorübergehend nicht verfügbar sein |
 | Produktion | TED API | 23. April 2026 | 07:00-09:00 |Wartungsarbeiten: Alle TED-APIs in produktiven Umgebungen können von Störungen betroffen sein |
 | TED Publication API - Produktion | Alle TED Apps und deren APIs | 18. März 2026 | 13:50 Uhr - 16:00 Uhr | Übermittlung der Bekanntmachungen ist aktuell gestört - Behoben seitens TED |
