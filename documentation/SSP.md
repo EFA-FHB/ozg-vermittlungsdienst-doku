@@ -28,11 +28,11 @@ Nach Verifizierung des Admin-Accounts des Self-Service-Portals können mit diese
 > Alle Accounts brauchen eine einzigartige E-Mail-Adresse. Es wird empfohlen, für den Admin-Account des Self-Service-Portals KEINE persönlichen E-Mail-Adressen zu nutzen!
 
 Folgende Rollen gibt es im Self-Service-Portal:
-| Rolle im Self-Service-Portal        | Beschreibung | Im Self-Service-Portal verfügbare Aktionen |
+| Rolle im Self-Service-Portal  | Beschreibung | Im Self-Service-Portal verfügbare Aktionen |
 |---------------------|--|--|
-| Admin des Self-Service-Portals | Verantwortlich für alle Nutzeraccounts der Fachverfahrenshersteller ; Admin für den Fachverfahrenshersteller <br> Muss von Support verifiziert sein, um alle Nutzerverwaltungsrechte freizuschalten <br><br> <b>Wichtig: Um alle Funktionen der Nutzerverwaltung freizuschalten, muss dem Support mitgeteilt werden, welcher Vermittlungsdienst -Account mit welchem Admin-Account des Self-Service-Portals verknüpft sein soll.</b> | <ul><li>Anlegen von neuen Accounts für den Vermittlungsdienst </li> <li>Anlegen von neuen Dashboard-Nutzern</li><li> Nutzerverwaltung für Ihre eigene Organisation</li><li>Dokumentation ansehen</li></ul>|
-| Dashboard-User    | Service-Mitarbeiterin/Kundenbetreuungskonto mit Übersicht zu allen Bekanntmachungen der verknüpften Vermittlungsdienst -Accounts | <ul><li>Übersicht über alle Bekanntmachungen der verknüpften Vermittlungsdienst-Accounts</li> <li>Ein Nutzer kann mit mehreren Vermittlungsdienst-Accounts verknüpft sein</li><li>Dokumentation ansehen</li></ul>| |
-| Vermittlungsdienst-Account          | Nur für die technische Anbindung an den Vermittlungsdienst | <ul><li>Dokumentation ansehen</li></ul> |
+| Admin des Self-Service-Portals | Verantwortlich für alle Nutzeraccounts der Fachverfahrenshersteller; Admin für den Fachverfahrenshersteller <br> Muss von Support verifiziert sein, um alle Nutzerverwaltungsrechte freizuschalten | <ul><li>Anlegen von neuen Accounts für den Vermittlungsdienst </li> <li>Anlegen von neuen Dashboard-Nutzern</li><li> Nutzerverwaltung für Ihre eigene Organisation</li><li>Dokumentation ansehen</li></ul>|
+| Dashboard-User | Service-Mitarbeiterin/Kundenbetreuungskonto mit Übersicht zu allen Bekanntmachungen der verknüpften Vermittlungsdienst -Accounts | <ul><li>Übersicht über alle Bekanntmachungen der verknüpften Vermittlungsdienst-Accounts</li> <li>Ein Nutzer kann mit mehreren Vermittlungsdienst-Accounts verknüpft sein</li><li>Dokumentation ansehen</li></ul>| |
+| Vermittlungsdienst-Account | Nur für die technische Anbindung an den Vermittlungsdienst | |
 
 ## Verfügbare Services
 
