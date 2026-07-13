@@ -2,4 +2,3 @@
 title: Impressum
 ---
 
-# Impressum
