@@ -3,19 +3,19 @@ title: Imprint
 ---
 
 # Imprint
-The website is published by the
-Procurement Office of the Federal Ministry of the Interior
-Brühler Straße 3
-53119 Bonn
-Deutschland
+The website is published by the  
+Procurement Office of the Federal Ministry of the Interior  
+Brühler Straße 3  
+53119 Bonn  
+Deutschland  
 E-Mail: support@datenservice-oeffentlicher-einkauf.de
 
 #### Technical operation and implementation:
-Nortal AG
-Knesebeckstr. 59-61/61a
-10719 Berlin
+Nortal AG  
+Knesebeckstr. 59-61/61a  
+10719 Berlin  
 
-info@nortal.com
+info@nortal.com  
 Phone: +49 (0)30-31 80 509-050
 
 ## Legal notice
