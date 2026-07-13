@@ -179,26 +179,24 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmac
 
 Die folgenden Statuskombinationen können bei der Statusabfrage einer Vergabebekanntmachung vom Vermittlungsdienst übermittelt werden.
 
-| SVS-Status <br> `doeStatus` | StatusDetailCode <br> `svsStatusDetail.code` | Finaler Status? | Statusbeschreibung / Anzeigetext im BKMS <br> `svsStatusDetail.descriptionDe` |
+| SVS-Status <br> `svsStatus` | StatusDetailCode <br> `svsStatusDetail.code` | Finaler Status? | Statusbeschreibung / Anzeigetext im BKMS <br> `svsStatusDetail.descriptionDe` |
 |---|---|---|---|
-| NOT_QUALIFIED | 1000 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da keine BerichteinheitsID vermerkt wurde. |
-| NOT_QUALIFIED | 1010 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da die übermittelte BerichteinheitsID nicht gültig ist. |
-| NOT_QUALIFIED | 1020 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da das Verfahren noch nicht abgeschlossen ist. |
-| NOT_QUALIFIED | 1030 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da der Auftragswert des Verfahrens kleiner als 1000 € ist und daher in der Vergabestatistik nicht berücksichtigt wird. |
-| NOT_QUALIFIED | 1040 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da die Meldefrist abgelaufen ist. |
-| NOT_QUALIFIED | 1050 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da bereits eine Statistikmeldung versendet wurde und die Meldefrist abgelaufen ist. |
-| NOT_QUALIFIED | 1060 | Ja | Das Verfahren wurde ohne Gewinner abgeschlossen. Eine Statistikmeldung erfolgt nicht. |
-| NOT_QUALIFIED | 1070 | Ja | Das Verfahren ist Teil einer Rahmenvereinbarung, weswegen keine zusätzliche Statistikmeldung erfolgt. |
-| NOT_QUALIFIED | 1080 | Ja | Diese Vergabebekanntmachung wird im Service Vergabestatistik nicht verarbeitet, da die Verfahrensarten „Sonstiges einstufiges Verfahren" und „Sonstiges zweistufiges Verfahren" in der Vergabestatistikverordnung in Vergabeverfahren oberhalb des EU-Schwellenwertes nicht vorgesehen sind. |
-| PENDING | 2000 | Nein | Die Vergabebekanntmachung wird zum Ende der Meldefrist verarbeitet und versendet. |
-| SUSPENDED | 3000 | Ja | Die Bekanntmachung wurde zurückgezogen. |
-| PROCESSED | 4000 | Nein | Die Vergabebekanntmachung wurde erfolgreich verarbeitet, die Statistikmeldung wird nun versendet. |
-| PROCESSED | 4010 | Nein | Beim Erstellen der Statistikmeldung aus der Vergabebekanntmachung ist ein Fehler aufgetreten. Bitte prüfen und versenden Sie die Vergabebekanntmachung erneut. |
-| DELIVERED | 5000 | Ja | Der Versand wurde erfolgreich quittiert, die Meldepflicht gilt als erfüllt. |
-| DELIVERED | 5010 | Nein | Der Versand ist fehlgeschlagen, es werden weitere Zustellversuche unternommen. |
-| DELIVERED | 5020 | Ja | Der Versand ist trotz mehrmaliger Versuche fehlgeschlagen, bitte melden Sie die Statistik manuell mit der IDEV-Anwendung des StBa. |
-| ARCHIVED | 6000 | Ja | Die Statistikmeldung wurde archiviert. |
-| UNKNOWN | 7000 | ? | Es konnte kein Status ermittelt werden. |
+| NOT_QUALIFIED | 1000 | Ja | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da keine BerichteinheitsID vermerkt wurde. |
+| NOT_QUALIFIED | 1010 | Ja | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da die übermittelte BerichteinheitsID nicht gültig ist. |
+| NOT_QUALIFIED | 1020 | Ja | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da das Verfahren noch nicht für alle Lose abgeschlossen ist. |
+| NOT_QUALIFIED | 1030 | Ja | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da Auftragswerte bis 1.000 EUR in der Vergabestatistik nicht berücksichtigt werden. |
+| NOT_QUALIFIED | 1040 | Ja | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da die Meldefrist abgelaufen ist. |
+| NOT_QUALIFIED | 1050 | Ja | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da bereits eine automatische Statistikmeldung versendet wurde und die Meldefrist mittlerweile abgelaufen ist. |
+| NOT_QUALIFIED | 1060 | Ja | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da kein Zuschlag erteilt wurde. |
+| NOT_QUALIFIED | 1070 | Ja | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da Einzelabrufe aus einer Rahmenvereinbarung nicht in der Vergabestatistik berücksichtigt werden. |
+| PENDING | 2000 | Nein | Für diese Vergabebekanntmachung wird automatisch eine Statistikmeldung erstellt und zum Ende der Meldefrist an das Statistische Bundesamt übermittelt. |
+| SUSPENDED | 3000 | Ja | Die automatisch erstellte Statistikmeldung wurde vor der Übermittlung an das Statistische Bundesamt zurückgezogen. |
+| PROCESSED | 4000 | Nein | Für diese Vergabebekanntmachung wurde automatisch eine Statistikmeldung erstellt, diese wird nun an das Statistische Bundesamt übermittelt. |
+| PROCESSED | 4010 | Nein | Beim Erstellen der Statistikmeldung aus der Vergabebekanntmachung ist ein Fehler aufgetreten. |
+| DELIVERED | 5000 | Ja | Die automatisch erstellte Statistikmeldung wurde erfolgreich an das Statistische Bundesamt übermittelt. Die Meldepflicht gilt als erfüllt. |
+| DELIVERED | 5010 | Nein | Die Übermittlung der automatisch erstellten Statistikmeldung an das Statistische Bundesamt ist fehlgeschlagen, es werden weitere Zustellversuche unternommen. |
+| DELIVERED | 5020 | Ja | Die Übermittlung der automatisch erstellten Statistikmeldung an das Statistische Bundesamt ist fehlgeschlagen. |
+| UNKNOWN | 7000 |  | Aufgrund eines technischen Fehlers kann aktuell kein Status zur automatischen Statistikmeldung ermittelt werden. |
 
 <br>
 

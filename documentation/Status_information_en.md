@@ -7,7 +7,7 @@ title: Status Information
 
 # Status and transfer information
 
-All status and error information of an announcement can be queried using the REST API of the Vermittlungsdienst. The status and error information of the BKMS and TED is regularly queried and stored by the Vermittlungsdienst or eSender Hub, so that the status and further information on an announcement is available for further retrieval at any time.
+All status and error information of a notice can be queried using the REST API of the Vermittlungsdienst. The status and error information of the BKMS and TED is regularly queried and stored by the Vermittlungsdienst or eSender Hub, so that the status and further information on a notice is available for further retrieval at any time.
 <br>
 
 ## Contents
@@ -16,6 +16,7 @@ All status and error information of an announcement can be queried using the RES
     - [Status table: Transmission of a notification](#statustabelle-uebermittlung)
     - [Status table: Notices above the EU thresholds](#statustabelle-oberschwelle)
     - [Status table: Notices below the EU thresholds](#statustabelle-unterschwelle)
+    - [Status table: Notices relevant for the Service Vergabestatistik](#statustabelle-svs)
 - [Structure of the transfer information](#transfer-info)
 - [Lawfulness Warnings](#lawfulness)
 
@@ -25,13 +26,13 @@ All status and error information of an announcement can be queried using the RES
 ## Endpoints for querying status and transfer information<span id="endpoints">
 To query the status and transfer information, the Vermittlungsdienst provides the endpoints `GET /v1/notices` for a list of data deliveries, `GET /v1/notices/status` for a list of data deliveries in a specific period and `GET /v1/notices/{trackingcode}` and `GET /v1/notices/by-notice/{noticeId}/{version}` for a single data delivery.
 
-The Vermittlungsdienst performs status queries to the notification service and TED every three minutes. It therefore makes sense to query the status information of the notices to the Vermittlungsdienst every five minutes at most.
+The Vermittlungsdienst performs status queries to the Publication Service and TED every three minutes. It therefore makes sense to query the status information of the notices to the Vermittlungsdienst every five minutes at most.
 
 The corresponding OpenAPI specification can be found here https://ozg-vermittlungsdienst.de/ and is available for download in JSON format at https://ozg-vermittlungsdienst.de/Vermittlungsdienst_REST-API.json.
 <br><br>
 
 ## Structure of the status information<span id="info-struktur">
-The endpoints for querying the status information return the status information for each announcement within the delivery schema as follows
+The endpoints for querying the status information return the status information for each notice within the delivery schema as follows
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -40,18 +41,26 @@ The endpoints for querying the status information return the status information 
 		<noticeId>3fa85f64-5717-4562-b3fc-2c963f66afa6</noticeId>
 		<noticeType>CN</noticeType>
 		<trackingCode>3446e1ee-5917-4d31-b623-81ddfb038d82</trackingCode>
-		<awardId>string</awardId>
-		<award number>V0505/2021</award number>
+		<vergabeId>string</vergabeId>
+		<vergabenummer>V0505/2021</vergabenummer>
 		<description>string</description>
 		<tedPublicationLink>https://preview.ted.europa.eu/udl?uri=TED:NOTICE:{publicationId}:HTML:DE:HTML</tedPublicationLink>
     		<bkmsPublicationLink>https://alpha.oeffentlichevergabe.de/ui/de/search/details?{noticeId}</bkmsPublicationLink>
 		<tedStatus>PENDING</tedStatus>
-		<tedStatusUpdate>2023-11-03T15:01:38.373Z</tedStatusUpdate>
-		<tedAcceptedTimestamp>2023-11-03T15:01:38.373Z</tedAcceptedTimestamp>
-		<tedPublishedTimestamp>2023-11-03T15:01:38.373Z</tedPublishedTimestamp>
+		<tedStatusUpdate>2026-06-09T12:24:04.623Z</tedStatusUpdate>
+		<tedAcceptedTimestamp>2026-06-09T12:24:04.624Z</tedAcceptedTimestamp>
+		<tedPublishedDate>2026-06-09</tedPublishedDate>
 		<tedPublicationId>string</tedPublicationId>
 		<doeStatus>AWAITING_TRANSFER</doeStatus>
-		<doeStatusUpdate>2023-11-03T15:01:38.373Z</doeStatusUpdate>
+		<doeStatusUpdate>2026-06-09T12:24:04.624Z</doeStatusUpdate>
+		<svsStatus>string</svsStatus>
+		<svsStatusUpdate>2026-06-09T12:24:04.624Z</svsStatusUpdate>
+		<svsStatusDetail>
+			<code>1000</code>
+			<descriptionEn>SVS processing in progress</descriptionEn>
+			<descriptionDe>string</descriptionDe>
+		</svsStatusDetail>
+		<svsReportLink>string</svsReportLink>
 		<statusDescription>string</statusDescription>
 		<transferResponse>
 			<warnings>
@@ -105,6 +114,8 @@ The endpoints for querying the status information return the status information 
 For notices above and below the EU thresholds, the status information contains the status of the Data Service for Public Procurement in Germany `doeStatus`, the last change date of the doe status `doeStatusUpdate` and a description of the currently set status `statusDescription`.
 
 For notices above the EU thresholds, the TED status `tedStatus` with the last change date `tedStatusUpdate` is also transmitted. The TED status values are based on the EU status values.
+
+For CANs that are relevant for the Service Vergabestatistik (SVS), the following status information is also transmitted: `svsStatus`, the last change date of the SVS status `svsStatusUpdate`, a code `svsStatusDetail.code` and a description that explains the status in more detail `svsStatusDetail.descriptionDe` / `svsStatusDetail.descriptionEn`. The URL for the SVS is transmitted under `svsReportLink`.
 <br><br>
 
 
@@ -123,29 +134,29 @@ The following status combinations can be transmitted when requesting the status 
 
 | TED status | DoE status | Final status? | Status description | Publish on procurement platform? |
 | ----------------- | -------------- | ---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | - |
-| PENDING | PENDING | no | The announcement has been accepted by the eSender for further processing. The announcement has not yet been sent to TED and the announcement service. | still waiting |
-| NO_RESPONSE | PENDING | no | Transmission to TED will be attempted again. The transmission of the announcement to the announcement service is still pending.                                          | still waiting |
-| ACCEPTED | PENDING | no | The announcement has been accepted by TED, transmission to the announcement service is still pending.                                                              | 48h after tedAcceptedTimestamp |
-| ACCEPTED | ACCEPTED | no | The announcement has been accepted by TED and the announcement service, but has not yet been published.                                                              | 48h after tedAcceptedTimestamp |
-| ACCEPTED | PUBLISHED | no | The announcement has been accepted by TED but not yet published. The announcement has already been published in the announcement service | 48h after tedAcceptedTimestamp |
-| PUBLISHING | PENDING | no | The announcement is published in TED, the transmission to the announcement service is still pending.                                                            | 48h after tedAcceptedTimestamp |
-| PUBLISHING | ACCEPTED | no | The announcement is published in TED, the announcement has been accepted by the announcement service.                                                           | 48h after tedAcceptedTimestamp |
-| PUBLISHING | PUBLISHED | no | The announcement is published in TED, the announcement has been published in the announcement service.                                                        | 48h after tedAcceptedTimestamp |
-| STOPPED | NOT_SEND | yes | The announcement has been stopped in TED and will not be sent to the announcement service.                                                                             | no |
-| STOPPED | PENDING | no | The announcement has been stopped in TED and will soon be stopped in the announcement service.                                                               | no |
-| STOPPED | ACCEPTED | no | The announcement has been stopped in TED and will also be stopped in the announcement service shortly.                                                               no | |
-| STOPPED | PUBLISHED | no | The announcement has been stopped in TED and will also be stopped in the announcement service shortly.                                                               | no |
-| STOPPED | STOPPED | yes | The announcement has been stopped in TED as well as in the announcement service.                                                                                      | no |
-| PUBLISHED | PENDING | no | The announcement has been published in TED, the transmission to the announcement service is still pending.                                                           yes | |
-| PUBLISHED | ACCEPTED | no | The announcement has been published in TED and accepted by the announcement service, but not yet published.                                                | yes
-| PUBLISHED | PUBLISHED | yes | The announcement has been published in TED and in the announcement service.                                                                                            | yes
-| MANUALLY_REJECTED | NOT_SEND | yes | The announcement was either manually rejected by TED due to a legal check or by the Vermittlungsdienst due to an error and will not be published by TED or the announcement service. This can be distinguished by the error message.     | no
-| MANUALLY_REJECTED | PENDING | no | The announcement was manually rejected by TED due to a legal check and will also be stopped in the announcement service shortly.                        | no |
-| MANUALLY_REJECTED | ACCEPTED | no | The announcement was manually rejected by TED due to a legal check and will also be stopped in the announcement service shortly.                        | no |
-| MANUALLY_REJECTED | PUBLISHED | no | The announcement was manually rejected by TED due to a legal check and will also be stopped in the announcement service shortly.                        | no |
-| MANUALLY_REJECTED | STOPPED | yes | The announcement was manually rejected by TED due to a legal check and has also been stopped in the announcement service.                                | no
-| REJECTED | INTERNAL_ERROR | no | An internal error has occurred. The support team will take a closer look at the announcement, the status will then change.                                 | still waiting |
-| NOT_SEND | INTERNAL_ERROR | no | An internal error has occurred. The support team will take a closer look at the notification, the status will then change.
+| PENDING | PENDING | no | The notice has been accepted by the eSender for further processing. The notice has not yet been sent to TED and the Publication Service. | still waiting |
+| NO_RESPONSE | PENDING | no | Transmission to TED will be attempted again. The transmission of the notice to the Publication Service is still pending. | still waiting |
+| ACCEPTED | PENDING | no | The notice has been accepted by TED, transmission to the Publication Service is still pending. | 48h after tedAcceptedTimestamp |
+| ACCEPTED | ACCEPTED | no | The notice has been accepted by TED and the Publication Service, but has not yet been published. | 48h after tedAcceptedTimestamp |
+| ACCEPTED | PUBLISHED | no | The notice has been accepted by TED but not yet published. The notice has already been published in the Publication Service | 48h after tedAcceptedTimestamp |
+| PUBLISHING | PENDING | no | The notice is published in TED, the transmission to the Publication Service is still pending. | 48h after tedAcceptedTimestamp |
+| PUBLISHING | ACCEPTED | no | The notice is published in TED, the notice has been accepted by the Publication Service. | 48h after tedAcceptedTimestamp |
+| PUBLISHING | PUBLISHED | no | The notice is published in TED, the notice has been published in the Publication Service. | 48h after tedAcceptedTimestamp |
+| STOPPED | NOT_SEND | yes | The notice has been stopped in TED and will not be sent to the Publication Service. | no |
+| STOPPED | PENDING | no | The notice has been stopped in TED and will soon be stopped in the Publication Service. | no |
+| STOPPED | ACCEPTED | no | The notice has been stopped in TED and will also be stopped in the Publication Service shortly. | no |
+| STOPPED | PUBLISHED | no | The notice has been stopped in TED and will also be stopped in the Publication Service shortly. | no |
+| STOPPED | STOPPED | yes | The notice has been stopped in TED as well as in the Publication Service. | no |
+| PUBLISHED | PENDING | no | The notice has been published in TED, the transmission to the Publication Service is still pending. | yes |
+| PUBLISHED | ACCEPTED | no | The notice has been published in TED and accepted by the Publication Service, but not yet published. | yes |
+| PUBLISHED | PUBLISHED | yes | The notice has been published in TED and in the Publication Service. | yes |
+| MANUALLY_REJECTED | NOT_SEND | yes | The notice was either manually rejected by TED due to a legal check or by the Vermittlungsdienst due to an error and will not be published by TED or the Publication Service. This can be distinguished by the error message. | no |
+| MANUALLY_REJECTED | PENDING | no | The notice was manually rejected by TED due to a legal check and will also be stopped in the Publication Service shortly. | no |
+| MANUALLY_REJECTED | ACCEPTED | no | The notice was manually rejected by TED due to a legal check and will also be stopped in the Publication Service shortly. | no |
+| MANUALLY_REJECTED | PUBLISHED | no | The notice was manually rejected by TED due to a legal check and will also be stopped in the Publication Service shortly. | no |
+| MANUALLY_REJECTED | STOPPED | yes | The notice was manually rejected by TED due to a legal check and has also been stopped in the Publication Service. | no |
+| REJECTED | INTERNAL_ERROR | no | An internal error has occurred. The support team will take a closer look at the notice, the status will then change. | still waiting |
+| NOT_SEND | INTERNAL_ERROR | no | An internal error has occurred. The support team will take a closer look at the notification, the status will then change. | still waiting |
 
 
 <br>
@@ -156,18 +167,41 @@ The following status combinations can be transmitted when querying the status of
 
 | DÖE status | Final status | Status description |
 |------------| ----| --------------------------------------------------------------- |
-| ACCEPTED | no | The contract notice has been accepted by the contract notice service. |
-| REJECTED | yes | The announcement has been rejected by the announcement service.                    |
-| PROCESSING | no | The announcement is being processed by the BKBekanntmachungsservice.                   |
-| PUBLISHED | yes | The announcement has been published in the announcement service.                |
-| STOPPED | yes | The announcement has been stopped in the announcement service.   |
+| ACCEPTED | no | The contract notice has been accepted by the Publication Service. |
+| REJECTED | yes | The notice has been rejected by the Publication Service. |
+| PROCESSING | no | The notice is being processed by the Publication Service. |
+| PUBLISHED | yes | The notice has been published in the Publication Service. |
+| STOPPED | yes | The notice has been stopped in the Publication Service. |
 
+<br>
 
+### Status table: Notices relevant for the Service Vergabestatistik<span id="statustabelle-svs">
+
+The following status combinations can be transmitted by the Vermittlungsdienst when querying the status of a procurement notice relevant for the Service Vergabestatistik.
+
+| SVS status <br> `svsStatus` | StatusDetailCode <br> `svsStatusDetail.code` | Final status? | Status description / Display text in BKMS <br> `svsStatusDetail.descriptionEn` |
+|---|---|---|---|
+| NOT_QUALIFIED | 1000 | Yes | No automatic statistics report was created for this procurement notice because no ReportingUnitId was specified. |
+| NOT_QUALIFIED | 1010 | Yes | No automatic statistics report was created for this procurement notice because the submitted ReportingUnitId is not valid. |
+| NOT_QUALIFIED | 1020 | Yes | No automatic statistics report was created for this procurement notice because the procedure has not yet been completed for all lots. |
+| NOT_QUALIFIED | 1030 | Yes | No automatic statistics report was created for this procurement notice because contract values up to EUR 1,000 are not taken into account in the procurement statistics. |
+| NOT_QUALIFIED | 1040 | Yes | No automatic statistics report was created for this procurement notice because the reporting deadline has expired. |
+| NOT_QUALIFIED | 1050 | Yes | No automatic statistics report was created for this procurement notice because an automatic statistics report has already been sent and the reporting deadline has since expired. |
+| NOT_QUALIFIED | 1060 | Yes | No automatic statistics report was created for this procurement notice because no award was made. |
+| NOT_QUALIFIED | 1070 | Yes | No automatic statistics report was created for this procurement notice because individual call-offs from a framework agreement are not taken into account in the procurement statistics. |
+| PENDING | 2000 | No | An automatic statistics report is being created for this procurement notice and will be transmitted to the Federal Statistical Office at the end of the reporting deadline. |
+| SUSPENDED | 3000 | Yes | The automatically created statistics report was withdrawn before transmission to the Federal Statistical Office. |
+| PROCESSED | 4000 | No | An automatic statistics report was created for this procurement notice and is now being transmitted to the Federal Statistical Office. |
+| PROCESSED | 4010 | No | An error occurred while creating the statistics report from the procurement notice. |
+| DELIVERED | 5000 | Yes | The automatically created statistics report was successfully transmitted to the Federal Statistical Office. The reporting obligation is considered fulfilled. |
+| DELIVERED | 5010 | No | The transmission of the automatically created statistics report to the Federal Statistical Office failed; further delivery attempts will be made. |
+| DELIVERED | 5020 | Yes | The transmission of the automatically created statistics report to the Federal Statistical Office failed. |
+| UNKNOWN | 7000 | | Due to a technical error, no status for the automatic statistics report can currently be determined. |
 
 <br>
 
 ## Structure of the transfer information<span id="transfer-info">
-The transfer information is also contained in the delivery schema for each announcement. This information includes warnings and error messages from the Vermittlungsdienst, the announcement service and TED.
+The transfer information is also contained in the delivery schema for each notice. This information includes warnings and error messages from the Vermittlungsdienst, the Publication Service and TED.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <delivery>
@@ -203,16 +237,13 @@ A single warning and a single error message have the same structure. `source` sp
 | values in source | description |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | TED | Errors and warnings that come from TED. This includes both the http codes (5\*\*, 4\*\*), which are returned in the event of an unsuccessful transmission, as well as errors and warnings from the TED validation report. |
-| Announcement service | Errors coming from the announcement service when announcement service returns an http code representing an unsuccessful submission (5\*\*, 4\*\*).                                                                                                |
-| PRE_VALIDATION | Errors and warnings from the internal validation service.                                                                                                                                                                    |
+| Publication Service | Errors coming from the Publication Service when the Publication Service returns an http code representing an unsuccessful submission (5\*\*, 4\*\*). |
+| PRE_VALIDATION | Errors and warnings from the internal validation service. |
 
 The `description` contains the description of the warning or error message. The `path` indicates the position where the error or warning occurred. The `rule` tag contains the name of the rule applied and `ruleContent` contains the rule actually applied.
 
-Warnings and error messages from the announcement service and from TED are passed through unchanged.
+Warnings and error messages from the Publication Service and from TED are passed through unchanged.
 <br><br>
 
 ## Special case lawfulness warnings<span id="lawfulness">
-A lawfulness warning means that a manual check of an announcement at TED is necessary. The content of the announcement is then checked and a decision is made as to whether it will be published or rejected and not published. A decision must be made after a maximum of five days. For this reason, announcements with a lawfulness warning are only forwarded to the announcement service upon publication or at the latest five days after successful submission to TED.
-
-
-
+A lawfulness warning means that a manual check of a notice at TED is necessary. The content of the notice is then checked and a decision is made as to whether it will be published or rejected and not published. A decision must be made after a maximum of five days. For this reason, notices with a lawfulness warning are only forwarded to the Publication Service upon publication or at the latest five days after successful submission to TED.](image.png)
