@@ -192,7 +192,7 @@ The following status combinations can be transmitted by the Vermittlungsdienst w
 | PENDING | 2000 | No | An automatic statistics report is being created for this procurement notice and will be transmitted to the Federal Statistical Office at the end of the reporting deadline. |
 | SUSPENDED | 3000 | Yes | The automatically created statistics report was withdrawn before transmission to the Federal Statistical Office. |
 | PROCESSED | 4000 | No | An automatic statistics report was created for this procurement notice and is now being transmitted to the Federal Statistical Office. |
-| PROCESSED | 4010 | No | An error occurred while creating the statistics report from the procurement notice. |
+| PROCESSED | 4010 | Yes | An error occurred while creating the statistics report from the procurement notice. |
 | DELIVERED | 5000 | Yes | The automatically created statistics report was successfully transmitted to the Federal Statistical Office. The reporting obligation is considered fulfilled. |
 | DELIVERED | 5010 | No | The transmission of the automatically created statistics report to the Federal Statistical Office failed; further delivery attempts will be made. |
 | DELIVERED | 5020 | Yes | The transmission of the automatically created statistics report to the Federal Statistical Office failed. |
