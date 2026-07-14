@@ -7,7 +7,7 @@ title: Status Information
 
 # Status and transfer information
 
-All status and error information of a notice can be queried using the REST API of the Vermittlungsdienst. The status and error information of the BKMS and TED is regularly queried and stored by the Vermittlungsdienst or eSender Hub, so that the status and further information on a notice is available for further retrieval at any time.
+All status and error information related to a notice can be queried using the REST API of the Vermittlungsdienst. The status and error information from the BKMS and TED is regularly queried and stored by the Vermittlungsdienst or eSender Hub, so that the status and further information regarding a notice is available for further retrieval at any time.
 <br>
 
 ## Contents
@@ -26,13 +26,13 @@ All status and error information of a notice can be queried using the REST API o
 ## Endpoints for querying status and transfer information<span id="endpoints">
 To query the status and transfer information, the Vermittlungsdienst provides the endpoints `GET /v1/notices` for a list of data deliveries, `GET /v1/notices/status` for a list of data deliveries in a specific period and `GET /v1/notices/{trackingcode}` and `GET /v1/notices/by-notice/{noticeId}/{version}` for a single data delivery.
 
-The Vermittlungsdienst performs status queries to the Publication Service and TED every three minutes. It therefore makes sense to query the status information of the notices to the Vermittlungsdienst every five minutes at most.
+The Vermittlungsdienst performs status queries to the Publication Service and TED every three minutes. It therefore makes sense to query the status information of the notices to the Vermittlungsdienst at most every five minutes.
 
 The corresponding OpenAPI specification can be found here https://ozg-vermittlungsdienst.de/ and is available for download in JSON format at https://ozg-vermittlungsdienst.de/Vermittlungsdienst_REST-API.json.
 <br><br>
 
 ## Structure of the status information<span id="info-struktur">
-The endpoints for querying the status information return the status information for each notice within the delivery schema as follows
+The endpoints for querying the status information return the status information for each notice within the delivery schema as follows:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -111,11 +111,11 @@ The endpoints for querying the status information return the status information 
 </deliveries>
 ```
 
-For notices above and below the EU thresholds, the status information contains the status of the Data Service for Public Procurement in Germany `doeStatus`, the last change date of the doe status `doeStatusUpdate` and a description of the currently set status `statusDescription`.
+For notices above and below the EU thresholds, the status information contains the status of the Publications Office `doeStatus`, the last change date of the doe status `doeStatusUpdate` and a description of the currently set status `statusDescription`.
 
-For notices above the EU thresholds, the TED status `tedStatus` with the last change date `tedStatusUpdate` is also transmitted. The TED status values are based on the EU status values.
+For notices above the EU thresholds, the TED status `tedStatus` with the latest change date `tedStatusUpdate` is also provided. The TED status values are based on the EU status values.
 
-For CANs that are relevant for the Service Vergabestatistik (SVS), the following status information is also transmitted: `svsStatus`, the last change date of the SVS status `svsStatusUpdate`, a code `svsStatusDetail.code` and a description that explains the status in more detail `svsStatusDetail.descriptionDe` / `svsStatusDetail.descriptionEn`. The URL for the SVS is transmitted under `svsReportLink`.
+For Contract Award Notices that are relevant for the Service Vergabestatistik (SVS), the following status information is also transmitted: `svsStatus`, the last change date of the SVS status `svsStatusUpdate`, a code `svsStatusDetail.code` and a description that explains the status in more detail `svsStatusDetail.descriptionDe` / `svsStatusDetail.descriptionEn`. The URL for the SVS is transmitted under `svsReportLink`.
 <br><br>
 
 
@@ -181,22 +181,22 @@ The following status combinations can be transmitted by the Vermittlungsdienst w
 
 | SVS status <br> `svsStatus` | StatusDetailCode <br> `svsStatusDetail.code` | Final status? | Status description / Display text in BKMS <br> `svsStatusDetail.descriptionEn` |
 |---|---|---|---|
-| NOT_QUALIFIED | 1000 | Yes | No automatic statistics report was created for this procurement notice because no ReportingUnitId was specified. |
-| NOT_QUALIFIED | 1010 | Yes | No automatic statistics report was created for this procurement notice because the submitted ReportingUnitId is not valid. |
-| NOT_QUALIFIED | 1020 | Yes | No automatic statistics report was created for this procurement notice because the procedure has not yet been completed for all lots. |
-| NOT_QUALIFIED | 1030 | Yes | No automatic statistics report was created for this procurement notice because contract values up to EUR 1,000 are not taken into account in the procurement statistics. |
-| NOT_QUALIFIED | 1040 | Yes | No automatic statistics report was created for this procurement notice because the reporting deadline has expired. |
-| NOT_QUALIFIED | 1050 | Yes | No automatic statistics report was created for this procurement notice because an automatic statistics report has already been sent and the reporting deadline has since expired. |
-| NOT_QUALIFIED | 1060 | Yes | No automatic statistics report was created for this procurement notice because no award was made. |
-| NOT_QUALIFIED | 1070 | Yes | No automatic statistics report was created for this procurement notice because individual call-offs from a framework agreement are not taken into account in the procurement statistics. |
-| PENDING | 2000 | No | An automatic statistics report is being created for this procurement notice and will be transmitted to the Federal Statistical Office at the end of the reporting deadline. |
-| SUSPENDED | 3000 | Yes | The automatically created statistics report was withdrawn before transmission to the Federal Statistical Office. |
-| PROCESSED | 4000 | No | An automatic statistics report was created for this procurement notice and is now being transmitted to the Federal Statistical Office. |
-| PROCESSED | 4010 | Yes | An error occurred while creating the statistics report from the procurement notice. |
-| DELIVERED | 5000 | Yes | The automatically created statistics report was successfully transmitted to the Federal Statistical Office. The reporting obligation is considered fulfilled. |
-| DELIVERED | 5010 | No | The transmission of the automatically created statistics report to the Federal Statistical Office failed; further delivery attempts will be made. |
-| DELIVERED | 5020 | Yes | The transmission of the automatically created statistics report to the Federal Statistical Office failed. |
-| UNKNOWN | 7000 | | Due to a technical error, no status for the automatic statistics report can currently be determined. |
+| NOT_QUALIFIED | 1000 | Yes | No automatic statistical report was generated for this contract award notice as no reporting unit ID was provided. |
+| NOT_QUALIFIED | 1010 | Yes | No automatic statistical report was generated for this contract award notice as the submitted report ID is invalid. |
+| NOT_QUALIFIED | 1020 | Yes | No automatic statistical report was generated for this contract award notice as the procedure has not yet been completed for all lots. |
+| NOT_QUALIFIED | 1030 | Yes | No automatic statistical report was generated for this contract award notice as contract values of up to 1.000 EUR are not included in the public procurement statistics. |
+| NOT_QUALIFIED | 1040 | Yes | No automatic statistical report was generated for this contract award notice as the reporting deadline has been exceeded. |
+| NOT_QUALIFIED | 1050 | Yes | No automatic statistical report was generated for this contract award notice as an automatic statistical report had already been sent and the reporting deadline has since expired. |
+| NOT_QUALIFIED | 1060 | Yes | No automatic statistical report was generated for this contract award notice as no contract was assigned. |
+| NOT_QUALIFIED | 1070 | Yes | No automatic statistical report was generated for this contract award notice as individual orders from a framework agreement are not included in the public procurement statistics. |
+| PENDING | 2000 | No | A statistical report will be generated automatically for this contract award notice and submitted to the Federal Statistical Office at the end of the reporting period. |
+| SUSPENDED | 3000 | Yes | The automatically generated statistical report was withdrawn before it was submitted to the Federal Statistical Office. |
+| PROCESSED | 4000 | No | A statistical report was automatically generated for this contract award notice; it will now be submitted to the Federal Statistical Office. |
+| PROCESSED | 4010 | Yes | An error occurred while generating the statistical report from the contract award notice. |
+| DELIVERED | 5000 | Yes | The automatically generated statistical report has been successfully submitted to the Federal Statistical Office. The reporting requirement is considered fulfilled. |
+| DELIVERED | 5010 | No | The transmission of the automatically generated statistical report to the Federal Statistical Office failed; further attempts to send it will be made. |
+| DELIVERED | 5020 | Yes | The transmission of the automatically generated statistical report to the Federal Statistical Office failed. |
+| UNKNOWN | 7000 | | Due to a technical error, it is currently not possible to determine the status of the automatic statistics report. |
 
 <br>
 
