@@ -192,7 +192,7 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Vergabebek
 | PENDING | 2000 | Nein | Für diese Vergabebekanntmachung wird automatisch eine Statistikmeldung erstellt und zum Ende der Meldefrist an das Statistische Bundesamt übermittelt. |
 | SUSPENDED | 3000 | Ja | Die automatisch erstellte Statistikmeldung wurde vor der Übermittlung an das Statistische Bundesamt zurückgezogen. |
 | PROCESSED | 4000 | Nein | Für diese Vergabebekanntmachung wurde automatisch eine Statistikmeldung erstellt, diese wird nun an das Statistische Bundesamt übermittelt. |
-| PROCESSED | 4010 | Nein | Beim Erstellen der Statistikmeldung aus der Vergabebekanntmachung ist ein Fehler aufgetreten. |
+| PROCESSED | 4010 | Ja | Beim Erstellen der Statistikmeldung aus der Vergabebekanntmachung ist ein Fehler aufgetreten. |
 | DELIVERED | 5000 | Ja | Die automatisch erstellte Statistikmeldung wurde erfolgreich an das Statistische Bundesamt übermittelt. Die Meldepflicht gilt als erfüllt. |
 | DELIVERED | 5010 | Nein | Die Übermittlung der automatisch erstellten Statistikmeldung an das Statistische Bundesamt ist fehlgeschlagen, es werden weitere Zustellversuche unternommen. |
 | DELIVERED | 5020 | Ja | Die Übermittlung der automatisch erstellten Statistikmeldung an das Statistische Bundesamt ist fehlgeschlagen. |
