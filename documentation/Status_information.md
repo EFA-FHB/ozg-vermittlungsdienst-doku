@@ -165,12 +165,12 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmac
 
 Die folgenden Statuskombinationen können bei der Statusabfrage einer Bekanntmachung unterhalb der EU-Schwellenwerte übermittelt werden.
 
-| DÖE-Status <br> `doeStatus` | Finaler Status?| Statusbeschreibung                                             |
+| DÖE-Status <br> `doeStatus` | Finaler Status?| Statusbeschreibung            |
 |------------| ----| --------------------------------------------------------------- |
 | ACCEPTED   | nein | Die Bekanntmachung wurde vom Bekanntmachungsservice akzeptiert. |
-| REJECTED   | ja   | Die Bekanntmachung wurde vom Bekanntmachungsservice abgelehnt.                    |
-| PROCESSING | nein | Die Bekanntmachung wird vom BKBekanntmachungsservice verarbeitet.                   |
-| PUBLISHED  | ja   | Die Bekanntmachung wurde im Bekanntmachungsservice veröffentlicht.                |
+| REJECTED   | ja   | Die Bekanntmachung wurde vom Bekanntmachungsservice abgelehnt.       |
+| PROCESSING | nein | Die Bekanntmachung wird vom Bekanntmachungsservice verarbeitet.      |
+| PUBLISHED  | ja   | Die Bekanntmachung wurde im Bekanntmachungsservice veröffentlicht.   |
 | STOPPED    | ja   | Die Bekanntmachung wurde  im Bekanntmachungsservice gestoppt.   |
 
 <br>
