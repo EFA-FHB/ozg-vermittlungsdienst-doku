@@ -58,7 +58,7 @@ tr.divider td {
     <tr>
       <td><a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">Vermittlungsdienst</a></td>
       <td data-field="release-id">26-5-1</td>
-      <td style="color:#00488b;">01.07.2026 (geplant)</td>
+      <td style="color:#00488b;">01.07.2026</td>
       <td style="color:#DAA520;">23.07.2026 (geplant)</td>
       <td style="color:#07702D;">28.07.2026 (geplant)</td>
       <td>Mehrere Updates für den Vermittlungsdienst zur Implementierung des Service Vergabestatistik.</td>
@@ -74,7 +74,7 @@ tr.divider td {
     <tr>
       <td><a href="https://viewer.ozg-vermittlungsdienst.de">Notice-Viewer</a></td>
       <td data-field="release-id">26-5-1</td>
-      <td style="color:#00488b;">01.07.2026 (geplant)</td>
+      <td style="color:#00488b;">01.07.2026</td>
       <td style="color:#DAA520;">23.07.2026 (geplant)</td>
       <td style="color:#07702D;">28.07.2026 (geplant)</td>
       <td>Das Patch des SDK-DE 1.14.4 wurde implementiert.</td>
@@ -82,7 +82,7 @@ tr.divider td {
     <tr>
       <td><a href="https://validator.ozg-vermittlungsdienst.de">Online-Validator / <br> Offline-Validator</a></td>
       <td data-field="release-id">26-5-1</td>
-      <td style="color:#00488b;">01.07.2026 (geplant)</td>
+      <td style="color:#00488b;">01.07.2026</td>
       <td style="color:#DAA520;">23.07.2026 (geplant)</td>
       <td style="color:#07702D;">28.07.2026 (geplant)</td>
       <td>Das Patch des SDK-DE 1.14.4 wurde implementiert.</td>
