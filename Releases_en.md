@@ -2,7 +2,7 @@
 
 <a id=juengste-release-updates></a>
 ### Latest Release Updates
-Status: 25.06.2026
+Status: 20.07.2026
 
 <style>
 table {
@@ -57,11 +57,11 @@ tr.divider td {
     </tr>
     <tr>
       <td><a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">Vermittlungsdienst</a></td>
-      <td data-field="release-id">26-5</td>
-      <td style="color:#00488b;">11.06.2026</td>
-      <td style="color:#DAA520;">22.06.2026</td>
-      <td style="color:#07702D;">30.06.2026</td>
-      <td>Mediator is expanded to send and receive information on CANs to/from the SVS.</td>
+      <td data-field="release-id">26-5-1</td>
+      <td style="color:#00488b;">01.07.2026 (planned)</td>
+      <td style="color:#DAA520;">23.07.2026 (planned)</td>
+      <td style="color:#07702D;">28.07.2026 (planned)</td>
+      <td>Several updates to the Vermittlungsdienst for the implementation of the contract award statistics service (Service Vergabestatistik).</td>
     </tr>
     <tr>
       <td>eSender-Hub</td>
@@ -73,19 +73,19 @@ tr.divider td {
     </tr>
     <tr>
       <td><a href="https://viewer.ozg-vermittlungsdienst.de">Notice-Viewer</a></td>
-      <td data-field="release-id">26-2</td>
-      <td style="color:#00488b;">26.02.2026</td>
-      <td style="color:#DAA520;">10.03.2026</td>
-      <td style="color:#07702D;">19.03.2026</td>
-      <td>The generation of the notice now depends on the ProfileID.</td>
+      <td data-field="release-id">26-5-1</td>
+      <td style="color:#00488b;">01.07.2026 (planned)</td>
+      <td style="color:#DAA520;">23.07.2026 (planned)</td>
+      <td style="color:#07702D;">28.07.2026 (planned)</td>
+      <td>The SDK-DE 1.14.4 patch has been implemented.</td>
     </tr>
     <tr>
       <td><a href="https://validator.ozg-vermittlungsdienst.de">Online-Validator / <br> Offline-Validator</a></td>
-      <td data-field="release-id">26-5</td>
-      <td style="color:#00488b;">11.06.2026</td>
-      <td style="color:#DAA520;">16.06.2026</td>
-      <td style="color:#07702D;">30.06.2026</td>
-      <td>The SDK-DE 1.14.3 patch has been implemented.</td>
+      <td data-field="release-id">26-5-1</td>
+      <td style="color:#00488b;">01.07.2026 (planned)</td>
+      <td style="color:#DAA520;">23.07.2026 (planned)</td>
+      <td style="color:#07702D;">28.07.2026 (planned)</td>
+      <td>The SDK-DE 1.14.4 patch has been implemented.</td>
     </tr>
     <tr>
       <td><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</td>
@@ -108,14 +108,12 @@ Other changes:<br>
     </tr>
     <tr>
       <td><a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">Bekanntmachungsservice</a></td>
-      <td data-field="release-id">26-5</td>
+      <td data-field="release-id">26-5-1</td>
       <td style="color:#00488b;"></td>
-      <td style="color:#DAA520;">22.06.2026</td>
-      <td style="color:#07702D;">30.06.2026</td>
-      <td>- Improved handling of multiple buyers and a new metric, "Active Contract Notices," in the "Facts &amp; Figures" section<br>
-- Update to Spring Boot 4.0 and integration of SDK-DE-1.14.3<br>
-- AVV Bund Start-up – Filter extension in the advanced search<br>
-- Minor bug fixes</td>
+      <td style="color:#DAA520;">23.07.2026 (planned)</td>
+      <td style="color:#07702D;">28.07.2026 (planned)</td>
+      <td>- The SDK-DE 1.14.4 patch has been implemented<br>
+- Small bugfixes</td>
     </tr>
   </tbody>
 </table>
@@ -165,6 +163,13 @@ Other changes:<br>
     </tr>
     <tr data-name="Vermittlungsdienst release -1">
       <td rowspan="3"><a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">Vermittlungsdienst</a></td>
+      <td data-field="release-id">26-5</td>
+      <td style="color:#00488b;">11.06.2026</td>
+      <td style="color:#DAA520;">22.06.2026</td>
+      <td style="color:#07702D;">30.06.2026</td>
+      <td>Mediator is expanded to send and receive information on CANs to/from the SVS.</td>
+    </tr>
+    <tr data-name="Vermittlungsdienst release -2">
       <td data-field="release-id">26-4</td>
       <td style="color:#00488b;">31.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
@@ -172,19 +177,12 @@ Other changes:<br>
       <td>A new status for forwarding to the Federal Statistical Office has been introduced. <br>
 The "tedPublishedTimestamp" field has been renamed to "tedPublishedDate" in GET and POST responses, as TED only provides a date.</td>
     </tr>
-    <tr data-name="Vermittlungsdienst release -2">
+    <tr data-name="Vermittlungsdienst release -3">
       <td data-field="release-id">26-2</td>
       <td style="color:#00488b;">26.02.2026</td>
       <td style="color:#DAA520;">10.03.2026</td>
       <td style="color:#07702D;">19.03.2026</td>
       <td>The ability to accept and process notices with different ProfileIDs has been implemented.</td>
-    </tr>
-    <tr data-name="Vermittlungsdienst release -3">
-      <td data-field="release-id">26-1</td>
-      <td style="color:#00488b;">21.01.2026</td>
-      <td style="color:#DAA520;">29.01.2026</td>
-      <td style="color:#07702D;">05.02.2026</td>
-      <td>Support for T01/02 forms has been implemented for SDK 1.14.</td>
     </tr>
     <tr data-name="eSender release -1">
       <td rowspan="3">eSender-Hub</td>
@@ -210,13 +208,20 @@ The "tedPublishedTimestamp" field has been renamed to "tedPublishedDate" in GET 
     </tr>
     <tr data-name="Viewer release -1">
       <td rowspan="3"><a href="https://viewer.ozg-vermittlungsdienst.de">Notice-Viewer</a></td>
+      <td>26-5</td>
+      <td style="color:#00488b;">11.06.2026</td>
+      <td style="color:#DAA520;">16.06.2026</td>
+      <td style="color:#07702D;">30.06.2026</td>
+      <td>The generation of the notice now depends on the ProfileID.</td>
+    </tr>
+    <tr data-name="Viewer release -2">
       <td>26-2</td>
       <td style="color:#00488b;">26.02.2026</td>
       <td style="color:#DAA520;">10.03.2026</td>
       <td style="color:#07702D;">19.03.2026</td>
       <td>The generation of the notice now depends on the ProfileID.</td>
     </tr>
-    <tr data-name="Viewer release -2">
+    <tr data-name="Viewer release -3">
       <td>26-1</td>
       <td style="color:#00488b;">21.01.2026</td>
       <td style="color:#DAA520;">29.01.2026</td>
@@ -224,23 +229,22 @@ The "tedPublishedTimestamp" field has been renamed to "tedPublishedDate" in GET 
       <td>Generation of T01/02 forms using SDK 1.14 has been implemented.<br>
 SwaggerUI text updates.</td>
     </tr>
-    <tr data-name="Viewer release -3">
-      <td></td>
-      <td style="color:#00488b;">14.08.2025</td>
-      <td style="color:#DAA520;">21.08.2025</td>
-      <td style="color:#07702D;">28.08.2025</td>
-      <td>The SDK-DE Patch 1.13.2 has been integrated.<br>
-Various bug fixes have been implemented.</td>
-    </tr>
     <tr data-name="Validator release -1">
       <td rowspan="3"><a href="https://validator.ozg-vermittlungsdienst.de">Online-Validator / <br> Offline-Validator</a></td>
+      <td data-field="release-id">26-5</td>
+      <td style="color:#00488b;">11.06.2026</td>
+      <td style="color:#DAA520;">16.06.2026</td>
+      <td style="color:#07702D;">30.06.2026</td>
+      <td>The SDK-DE 1.14.3 patch has been implemented.</td>
+    </tr>
+    <tr data-name="Validator release -2">
       <td data-field="release-id">26-2</td>
       <td style="color:#00488b;">26.02.2026</td>
       <td style="color:#DAA520;">10.03.2026</td>
       <td style="color:#07702D;">19.03.2026</td>
       <td>- The validation of the notice is now dependent on the ProfileID.<br>- A new optional parameter has been added for the ProfileID.<br>- Obsolete versions of eForms have been removed from the list of supported versions.</td>
     </tr>
-    <tr data-name="Validator release -2">
+    <tr data-name="Validator release -3">
       <td></td>
       <td style="color:#00488b;">14.08.2025</td>
       <td style="color:#DAA520;">21.08.2025</td>
@@ -248,13 +252,6 @@ Various bug fixes have been implemented.</td>
       <td>The following SDK-DE patches have been applied:<br>
 - SDK-DE 1.12.6<br>
 - SDK-DE 1.13.2<br></td>
-    </tr>
-    <tr data-name="Validator release -3">
-      <td></td>
-      <td style="color:#00488b;">16.05.2025</td>
-      <td style="color:#DAA520;">16.05.2025</td>
-      <td style="color:#07702D;">19.05.2025</td>
-      <td>The patches for SDK-DE 1.12.5 and SDK-DE 1.13.1 were implemented.</td>
     </tr>
     <tr>
       <td><a href="https://info.datenservice-oeffentlicher-einkauf.de/">Info-Seite</td>
@@ -266,40 +263,46 @@ Various bug fixes have been implemented.</td>
     </tr>
     <tr class="divider" data-name="SDK release -1">
       <td rowspan="2"><a class="external-link" href="https://gitlab.opencode.de/OC000008125155/SDK-eforms-de" rel="nofollow">SDK zu eForms-DE</td>
+      <td>SDK-DE 1.14.3</td>
+      <td style="color:#00488b;">19.06.2026</td>
+      <td style="color:#DAA520;">19.06.2026</td>
+      <td style="color:#07702D;">30.06.2026</td>
+      <td>Patches for SDK-DE 1.14.2<br>
+Other changes:<br>
+- Improvements to the implementation of VergStatVO<br>
+- Implementation of the new administrative regulation for start-ups</td>
+    </tr>
+    <tr data-name="SDK release -2">
       <td>SDK-DE 1.14.2</td>
       <td style="color:#00488b;">26.02.2026</td>
       <td style="color:#DAA520;">10.03.2026</td>
       <td style="color:#07702D;">19.03.2026</td>
       <td>see https://gitlab.opencode.de/OC000008125155/SDK-eforms-de</td>
     </tr>
-    <tr data-name="SDK release -2">
-      <td>SDK-EU 1.14</td>
-      <td style="color:#00488b;">21.01.2026</td>
-      <td style="color:#DAA520;">29.01.2026</td>
-      <td style="color:#07702D;">05.02.2026</td>
-      <td>see https://gitlab.opencode.de/OC000008125155/SDK-eforms-de</td>
-    </tr>
     <tr data-name="BKMS release -1">
       <td rowspan="3"><a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">Bekanntmachungsservice</a></td>
+      <td>26-5</td>
+      <td style="color:#00488b;"></td>
+      <td style="color:#DAA520;">22.06.2026</td>
+      <td style="color:#07702D;">30.06.2026</td>
+      <td>- Improved handling of multiple buyers and a new metric, "Active Contract Notices," in the "Facts &amp; Figures" section<br>
+- Update to Spring Boot 4.0 and integration of SDK-DE-1.14.3<br>
+- AVV Bund Start-up – Filter extension in the advanced search<br>
+- Minor bug fixes</td>
+    </tr>
+    <tr data-name="BKMS release -2">
       <td>26-4</td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;">14.04.2026</td>
       <td style="color:#07702D;">21.05.2026</td>
       <td>Additional technical details for submission to the Federal Statistical Office have been added to the details page of the notice.</td>
     </tr>
-    <tr data-name="BKMS release -2">
+    <tr data-name="BKMS release -3">
       <td>26-3</td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;">23.03.2026</td>
       <td style="color:#07702D;">29.04.2026</td>
       <td>Redesign of detail page for contract and results notices.</td>
-    </tr>
-    <tr data-name="BKMS release -3">
-      <td>26-2</td>
-      <td style="color:#00488b;"></td>
-      <td style="color:#DAA520;">10.03.2026</td>
-      <td style="color:#07702D;">19.03.2026</td>
-      <td>Support for ProfileID has been implemented. The notice is now displayed depending on the ProfileID (SDK version).</td>
     </tr>
   </tbody>
 </table>
