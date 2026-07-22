@@ -191,6 +191,7 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Vergabebek
 | NOT_QUALIFIED | 1070 | Ja | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da Einzelabrufe aus einer Rahmenvereinbarung nicht in der Vergabestatistik berücksichtigt werden. |
 | PENDING | 2000 | Nein | Für diese Vergabebekanntmachung wird automatisch eine Statistikmeldung erstellt und zum Ende der Meldefrist an das Statistische Bundesamt übermittelt. |
 | SUSPENDED | 3000 | Ja | Die automatisch erstellte Statistikmeldung wurde vor der Übermittlung an das Statistische Bundesamt zurückgezogen. |
+| SUSPENDED | 3500 | Ja | Die Statistikmeldung wurde vor der Übermittlung an das Statistische Bundesamt zurückgezogen. Eine aktualisierte Version wird zum Ende der Meldefrist automatisch erzeugt und an das Statistische Bundesamt versendet. |
 | PROCESSED | 4000 | Nein | Für diese Vergabebekanntmachung wurde automatisch eine Statistikmeldung erstellt, diese wird nun an das Statistische Bundesamt übermittelt. |
 | PROCESSED | 4010 | Ja | Beim Erstellen der Statistikmeldung aus der Vergabebekanntmachung ist ein Fehler aufgetreten. |
 | DELIVERED | 5000 | Ja | Die automatisch erstellte Statistikmeldung wurde erfolgreich an das Statistische Bundesamt übermittelt. Die Meldepflicht gilt als erfüllt. |

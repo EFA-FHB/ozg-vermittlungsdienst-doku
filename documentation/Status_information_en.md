@@ -191,6 +191,7 @@ The following status combinations can be transmitted by the Vermittlungsdienst w
 | NOT_QUALIFIED | 1070 | Yes | No automatic statistical report was generated for this contract award notice as individual orders from a framework agreement are not included in the public procurement statistics. |
 | PENDING | 2000 | No | A statistical report will be generated automatically for this contract award notice and submitted to the Federal Statistical Office at the end of the reporting period. |
 | SUSPENDED | 3000 | Yes | The automatically generated statistical report was withdrawn before it was submitted to the Federal Statistical Office. |
+| SUSPENDED | 3500 | Yes | The statistical report was withdrawn before it was submitted to the Federal Statistical Office. An updated version will be generated automatically and submitted to the Federal Statistical Office at the end of the reporting period. |
 | PROCESSED | 4000 | No | A statistical report was automatically generated for this contract award notice; it will now be submitted to the Federal Statistical Office. |
 | PROCESSED | 4010 | Yes | An error occurred while generating the statistical report from the contract award notice. |
 | DELIVERED | 5000 | Yes | The automatically generated statistical report has been successfully submitted to the Federal Statistical Office. The reporting requirement is considered fulfilled. |
