@@ -56,10 +56,27 @@ The following personal data are processed in this **Self-Service-Portal**:
   - Name of the contact person
   - First name of contact person
   - business email address
-  - business phone number  
+  - business phone number
+
 As part of the registration process, the user's consent to the processing of this data is obtained.
 
 ### 7. Data Security
 
 Technical and organisational measures are taken to protect your data from unwanted access as comprehensively as possible. An encryption procedure is used on the online service pages. Your data is transferred from your computer to our server and vice versa via the internet using TLS encryption. You can recognise this by the fact that the lock symbol is closed in the status bar of your browser and the address line begins with https://.
 
+### 8. Cookies
+
+Only technically necessary session cookies are collected, processed and stored:
+
+  - Description and scope of data processing
+    When visiting the website and using the Self-Service-Portal, data is collected during an ongoing connection via your internet browser and with the help of technically necessary so-called session cookies.
+  - Legal basis for data processing
+    The legal basis for the processing of personal data using technically necessary cookies is Art. 6 para. 1 lit. f GDPR.
+  - Purpose of the data processing
+    The session cookies used here enable the functionality of the data entered. The user data collected through technically necessary cookies are not used to create user profiles.
+  - Duration of storage, possibility of objection and elimination
+    Cookies that have already been saved can be deleted at any time. This can also be done automatically. Please note that deleting the browser history can also lead to the deletion of the cookies that have been set.
+
+Cookies set by the application are deleted after the browser is closed. After login, it is a persistent cookie that ends when the session expires. Most browsers are set to accept cookies automatically. However, you can deactivate the storage of cookies or set your browser to notify you as soon as cookies are sent.
+
+### 9.

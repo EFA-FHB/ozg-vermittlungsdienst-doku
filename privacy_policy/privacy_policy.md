@@ -57,9 +57,26 @@ Verarbeitet werden im vorliegenden **Self-Service-Portal** folgende personenbezo
   - Vorname der Ansprechperson
   - geschäftliche E-Mail-Adresse
   - geschäftliche Telefonnummer
+
 Im Rahmen des Registrierungsprozesses wird eine Einwilligung des Nutzers zur Verarbeitung dieser Daten eingeholt.
 
 ### 7. Datensicherheit
 
 Um Ihre Daten vor unerwünschten Zugriffen möglichst umfassend zu schützen, werden technische und organisatorische Maßnahmen getroffen. Auf Seiten des Online-Dienstes wird ein Verschlüsselungsverfahren eingesetzt. Ihre Angaben werden von Ihrem Rechner zu unserem Server und umgekehrt über das Internet mittels einer TLS-Verschlüsselung übertragen. Sie erkennen dies daran, dass in der Statusleiste Ihres Browsers das Schloss-Symbol geschlossen ist und die Adresszeile mit https:// beginnt.
+
+### 8. Cookies
+Es werden nur technisch notwendige Sitzungs-Cookies erhoben, verarbeitet und gespeichert:
+
+  - Beschreibung und Umfang der Datenverarbeitung
+    Beim Besuch der Website und bei der Nutzung des Self-Service-Portals werden während einer laufenden Verbindung über Ihren Internetbrowser und mit Hilfe von technisch notwendigen sogenannten Sitzungs-Cookies Daten erhoben.
+  - Rechtsgrundlage für die Datenverarbeitung
+    Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung technisch notweniger Cookies ist Art. 6 Abs. 1 lit. f DSGVO.
+  - Zweck der Datenverarbeitung
+    Die hier verwendeten Sitzungs-Cookies ermöglichen die Funktionalität der eingegebenen Daten. Die durch technisch notwendige Cookies erhobenen Nutzerdaten werden nicht zur Erstellung von Nutzerprofilen verwendet.
+  - Dauer der Speicherung, Widerspruchs- und Beseitigungsmöglichkeit
+    Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert erfolgen. Bitte beachten Sie, dass eine Löschung der Browser-Chronik auch zu einer Löschung der gesetzten Cookies führen kann.
+
+Von der Anwendung gesetzte Cookies werden nach dem Schließen des Browsers gelöscht. Nach der Anmeldung handelt es sich um ein beständiges Cookie, der mit Ablauf der Session endet. Die meisten Browser sind so eingestellt, dass sie Cookies automatisch akzeptieren. Sie können das Speichern von Cookies jedoch deaktivieren oder Ihren Browser so einstellen, dass er Sie benachrichtigt, sobald Cookies gesendet werden.
+
+### 9.
 
