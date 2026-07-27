@@ -68,13 +68,20 @@ Um Ihre Daten vor unerwünschten Zugriffen möglichst umfassend zu schützen, we
 Es werden nur technisch notwendige Sitzungs-Cookies erhoben, verarbeitet und gespeichert:
 
   - Beschreibung und Umfang der Datenverarbeitung  
-    Beim Besuch der Website und bei der Nutzung des **Self-Service-Portals** werden während einer laufenden Verbindung über Ihren Internetbrowser und mit Hilfe von technisch notwendigen sogenannten Sitzungs-Cookies Daten erhoben.
+    
+  Beim Besuch der Website und bei der Nutzung des **Self-Service-Portals** werden während einer laufenden Verbindung über Ihren Internetbrowser und mit Hilfe von technisch notwendigen sogenannten Sitzungs-Cookies Daten erhoben.
+
   - Rechtsgrundlage für die Datenverarbeitung  
-    Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung technisch notweniger Cookies ist Art. 6 Abs. 1 lit. f DSGVO.
+    
+  Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung technisch notweniger Cookies ist Art. 6 Abs. 1 lit. f DSGVO.
+
   - Zweck der Datenverarbeitung  
-    Die hier verwendeten Sitzungs-Cookies ermöglichen die Funktionalität der eingegebenen Daten. Die durch technisch notwendige Cookies erhobenen Nutzerdaten werden nicht zur Erstellung von Nutzerprofilen verwendet.
+    
+  Die hier verwendeten Sitzungs-Cookies ermöglichen die Funktionalität der eingegebenen Daten. Die durch technisch notwendige Cookies erhobenen Nutzerdaten werden nicht zur Erstellung von Nutzerprofilen verwendet.
+  
   - Dauer der Speicherung, Widerspruchs- und Beseitigungsmöglichkeit  
-    Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert erfolgen. Bitte beachten Sie, dass eine Löschung der Browser-Chronik auch zu einer Löschung der gesetzten Cookies führen kann.
+  
+  Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert erfolgen. Bitte beachten Sie, dass eine Löschung der Browser-Chronik auch zu einer Löschung der gesetzten Cookies führen kann.
 
 Von der Anwendung gesetzte Cookies werden nach dem Schließen des Browsers gelöscht. Nach der Anmeldung handelt es sich um ein beständiges Cookie, der mit Ablauf der Session endet. Die meisten Browser sind so eingestellt, dass sie Cookies automatisch akzeptieren. Sie können das Speichern von Cookies jedoch deaktivieren oder Ihren Browser so einstellen, dass er Sie benachrichtigt, sobald Cookies gesendet werden.
 

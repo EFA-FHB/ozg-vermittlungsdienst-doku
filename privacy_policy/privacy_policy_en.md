@@ -69,13 +69,20 @@ Technical and organisational measures are taken to protect your data from unwant
 Only technically necessary session cookies are collected, processed and stored:
 
   - Description and scope of data processing  
-    When visiting the website and using the **Self-Service-Portal**, data is collected during an ongoing connection via your internet browser and with the help of technically necessary so-called session cookies.
+
+When visiting the website and using the **Self-Service-Portal**, data is collected during an ongoing connection via your internet browser and with the help of technically necessary so-called session cookies.
+
   - Legal basis for data processing  
-    The legal basis for the processing of personal data using technically necessary cookies is Art. 6 para. 1 lit. f GDPR.
+
+The legal basis for the processing of personal data using technically necessary cookies is Art. 6 para. 1 lit. f GDPR.
+
   - Purpose of the data processing  
-    The session cookies used here enable the functionality of the data entered. The user data collected through technically necessary cookies are not used to create user profiles.
+
+The session cookies used here enable the functionality of the data entered. The user data collected through technically necessary cookies are not used to create user profiles.
+
   - Duration of storage, possibility of objection and elimination  
-    Cookies that have already been saved can be deleted at any time. This can also be done automatically. Please note that deleting the browser history can also lead to the deletion of the cookies that have been set.
+
+Cookies that have already been saved can be deleted at any time. This can also be done automatically. Please note that deleting the browser history can also lead to the deletion of the cookies that have been set.
 
 Cookies set by the application are deleted after the browser is closed. After login, it is a persistent cookie that ends when the session expires. Most browsers are set to accept cookies automatically. However, you can deactivate the storage of cookies or set your browser to notify you as soon as cookies are sent.
 
@@ -100,7 +107,7 @@ Log files and session cookies are deleted after 30 days at the latest.
 ### 12. Job Processing
 The processing of data in the **Self-Service-Portal** as well as in the online service is currently carried out by Nortal AG, Knesebeckstr. 59-61/61a, 10719 Berlin, with the corresponding agreed security requirements within the framework of commissioned processing in accordance with Art. 28 (3) GDPR. As part of the operation of the self-service portal, the online service and the associated processes, other service providers may support us (e.g. for hosting and web development). These service providers are strictly bound by instructions to us and are contractually obligated in accordance with Article 28 GDPR.
 
-### Rights of the Data Subject
+### 13. Rights of the Data Subject
 According to the EU General Data Protection Regulation (GDPR), data subjects have various rights. Details can be found in particular in Articles 15 to 18 and 21 of the GDPR.
 
   - Right of access (Art. 15 GDPR)
