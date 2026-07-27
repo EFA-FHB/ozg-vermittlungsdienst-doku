@@ -12,7 +12,7 @@ E-Mail: support@datenservice-oeffentlicher-einkauf.de
 
 #### Technischer Betrieb und Realisierung:
 Nortal AG  
-Knesebeckstr. 59-61/61a  
+Knesebeckstr. 59-61/61a   
 10719 Berlin
 
 info@nortal.com  
