@@ -30,7 +30,7 @@ However, since the content of Internet pages is dynamic and can change at any ti
 
 ### 2. Own Contents
 
-nsofar as the contents posted on these pages contain legal commissions, official notices, recommendations or information, they have been prepared to the best of our knowledge and with the greatest possible care. In the event of discrepancies, however, only the current official version as published in the official promulgation organ provided for this purpose shall apply. Any legal references, recommendations and information are non-binding; legal advice is not given.
+Insofar as the contents posted on these pages contain legal commissions, official notices, recommendations or information, they have been prepared to the best of our knowledge and with the greatest possible care. In the event of discrepancies, however, only the current official version as published in the official promulgation organ provided for this purpose shall apply. Any legal references, recommendations and information are non-binding; legal advice is not given.
 
 The following limitation of liability applies to the information provided: The Procurement Office of the Federal Ministry of the Interior is not liable for any damage caused by the use or non-use of the information provided. No liability is accepted for any damage caused by computer viruses or the installation or use of software when calling up or downloading data.
 
