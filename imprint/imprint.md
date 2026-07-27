@@ -5,17 +5,17 @@ title: Impressum
 Das Internetangebot wird herausgegeben vom 
 
 Beschaffungsamt des BMI 
-Brühler Straße 3    
+Brühler Straße 3  
 53119 Bonn  
-Deutschland 
+Deutschland  
 E-Mail: support@datenservice-oeffentlicher-einkauf.de
 
 #### Technischer Betrieb und Realisierung:
 Nortal AG   
 Knesebeckstr. 59-61/61a 
-10719 Berlin    
+10719 Berlin
 
-info@nortal.com 
+info@nortal.com  
 Telefon: +49 (0)30-31 80 509-050
 
 ## Rechtliche Hinweise
