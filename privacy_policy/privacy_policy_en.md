@@ -23,7 +23,7 @@ In connection with the use of the **Self-Service Portal**, personal data are pro
 
 ### 2. User Account
 
-In order to use this online service, a user account must be set up via the Self-Service-Portal. This is a central IT component for identification and communication.
+In order to use this online service, a user account must be set up via the **Self-Service-Portal**. This is a central IT component for identification and communication.
 
 ### 3. Responsible
 
@@ -36,3 +36,30 @@ Brühler Str. 3
 
 Phone: +49 22899 610 -0  
 Email: poststelle@bescha.bund.de
+
+### 4. Data Protection Officer
+In the event of complaints, enquiries and suggestions in connection with data processing by the Procurement Office of the Federal Ministry of the Interior, you can contact its official data protection officer:  
+Procurement Office of the BMI  
+\- Data Protection Officer -  
+Brühler Str. 3  
+53119 Bonn  
+Phone: +49 (0)22899 610-0  
+Email: datenschutz@bescha.bund.de
+
+### 5. Purposes of Data Processing
+As a matter of principle, we only process personal data of our users to the extent that this is necessary to provide a functioning self-service portal. The **Self-Service-Portal** bundles all information for connecting to the Vermittlungsdienst service and provides a registration form to request the data required to create access data for the Vermittlungsdienst service.
+
+### 6. Legal Basis / Data Processed
+
+The legal basis for data collection in the **Self-Service-Portal** is Art. 6 para. 1 lit. a GDPR. Consent is always given voluntarily. If the processing of your personal data is based on your consent, you have the right to revoke your consent at any time for the future. You can send the revocation of your consent by e-mail to the controller.  
+The following personal data are processed in this **Self-Service-Portal**:  
+  - Name of the contact person
+  - First name of contact person
+  - business email address
+  - business phone number  
+As part of the registration process, the user's consent to the processing of this data is obtained.
+
+### 7. Data Security
+
+Technical and organisational measures are taken to protect your data from unwanted access as comprehensively as possible. An encryption procedure is used on the online service pages. Your data is transferred from your computer to our server and vice versa via the internet using TLS encryption. You can recognise this by the fact that the lock symbol is closed in the status bar of your browser and the address line begins with https://.
+

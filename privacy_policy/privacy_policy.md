@@ -26,7 +26,7 @@ Im Zusammenhang mit der Nutzung des **Self-Service-Portals** werden personenbezo
 Zur Nutzung des vorliegenden Online-Dienstes bedarf es der Einrichtung eines Benutzerkontos über das **Self-Service-Portal**. Hierbei handelt es sich um eine zentrale IT-Komponente zur Identifikation und Kommunikation.
 
 ### 3. Verantwortlicher
-Verantwortlicher (im Folgenden „Anbieter“) im Sinne des Art. 4 Nr. 7 DSGVO ist:  
+Verantwortlicher (im Folgenden **„Anbieter“**) im Sinne des Art. 4 Nr. 7 DSGVO ist:  
 Bundesrepublik Deutschland  
 vertreten durch das Bundesministerium des Innern  
 vertreten durch das Beschaffungsamt des BMI  
@@ -35,4 +35,31 @@ Brühler Str. 3
 
 Tel: +49 22899 610 -0  
 E-Mail: poststelle@bescha.bund.de
+
+### 4. Datenschutzbeauftragter
+Bei Beschwerden, Anfragen und Anregungen im Zusammenhang mit der Datenverarbeitung durch das Beschaffungsamt des BMI können Sie sich an dessen behördlichen Datenschutzbeauftragten wenden:  
+Beschaffungsamt des BMI  
+\- Datenschutzbeauftragter -  
+Brühler Str. 3  
+53119 Bonn  
+Telefon: +49 (0)22899 610-0  
+E-Mail: datenschutz@bescha.bund.de
+
+### 5. Zwecke der Datenverarbeitung
+
+Wir verarbeiten personenbezogene Daten unserer Nutzenden grundsätzlich nur, soweit dies zur Bereitstellung eines funktionsfähigen des Self-Service-Portals erforderlich ist. Das **Self-Service-Portal** bündelt alle Informationen zur Anbindung an den Vermittlungsdienst und stellt ein Registrierungsformular zur Abfrage der benötigten Daten zur Erstellung von Zugangsdaten für den Vermittlungsdienst zur Verfügung.
+
+### 6. Rechtsgrundlagen / verarbeitete Daten
+
+Rechtsgrundlage der Datenerhebung im **Self-Service-Portal** ist Art. 6 Abs. 1 lit. a DSGVO. Einwilligungen erfolgen stets freiwillig. Beruht die Verarbeitung Ihrer personenbezogenen Daten auf einer von Ihnen erteilten Einwilligung, steht Ihnen das Recht zu, Ihre Einwilligung jederzeit für die Zukunft zu widerrufen. Den Widerruf Ihrer Einwilligung können Sie per E-Mail an die verantwortliche Stelle senden.  
+Verarbeitet werden im vorliegenden **Self-Service-Portal** folgende personenbezogenen Daten erhoben:  
+  - Name der Ansprechperson
+  - Vorname der Ansprechperson
+  - geschäftliche E-Mail-Adresse
+  - geschäftliche Telefonnummer
+Im Rahmen des Registrierungsprozesses wird eine Einwilligung des Nutzers zur Verarbeitung dieser Daten eingeholt.
+
+### 7. Datensicherheit
+
+Um Ihre Daten vor unerwünschten Zugriffen möglichst umfassend zu schützen, werden technische und organisatorische Maßnahmen getroffen. Auf Seiten des Online-Dienstes wird ein Verschlüsselungsverfahren eingesetzt. Ihre Angaben werden von Ihrem Rechner zu unserem Server und umgekehrt über das Internet mittels einer TLS-Verschlüsselung übertragen. Sie erkennen dies daran, dass in der Statusleiste Ihres Browsers das Schloss-Symbol geschlossen ist und die Adresszeile mit https:// beginnt.
 
