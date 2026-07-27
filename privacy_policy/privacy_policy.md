@@ -67,13 +67,13 @@ Um Ihre Daten vor unerwünschten Zugriffen möglichst umfassend zu schützen, we
 ### 8. Cookies
 Es werden nur technisch notwendige Sitzungs-Cookies erhoben, verarbeitet und gespeichert:
 
-  - Beschreibung und Umfang der Datenverarbeitung
-    Beim Besuch der Website und bei der Nutzung des Self-Service-Portals werden während einer laufenden Verbindung über Ihren Internetbrowser und mit Hilfe von technisch notwendigen sogenannten Sitzungs-Cookies Daten erhoben.
-  - Rechtsgrundlage für die Datenverarbeitung
+  - Beschreibung und Umfang der Datenverarbeitung  
+    Beim Besuch der Website und bei der Nutzung des **Self-Service-Portals** werden während einer laufenden Verbindung über Ihren Internetbrowser und mit Hilfe von technisch notwendigen sogenannten Sitzungs-Cookies Daten erhoben.
+  - Rechtsgrundlage für die Datenverarbeitung  
     Die Rechtsgrundlage für die Verarbeitung personenbezogener Daten unter Verwendung technisch notweniger Cookies ist Art. 6 Abs. 1 lit. f DSGVO.
-  - Zweck der Datenverarbeitung
+  - Zweck der Datenverarbeitung  
     Die hier verwendeten Sitzungs-Cookies ermöglichen die Funktionalität der eingegebenen Daten. Die durch technisch notwendige Cookies erhobenen Nutzerdaten werden nicht zur Erstellung von Nutzerprofilen verwendet.
-  - Dauer der Speicherung, Widerspruchs- und Beseitigungsmöglichkeit
+  - Dauer der Speicherung, Widerspruchs- und Beseitigungsmöglichkeit  
     Bereits gespeicherte Cookies können jederzeit gelöscht werden. Dies kann auch automatisiert erfolgen. Bitte beachten Sie, dass eine Löschung der Browser-Chronik auch zu einer Löschung der gesetzten Cookies führen kann.
 
 Von der Anwendung gesetzte Cookies werden nach dem Schließen des Browsers gelöscht. Nach der Anmeldung handelt es sich um ein beständiges Cookie, der mit Ablauf der Session endet. Die meisten Browser sind so eingestellt, dass sie Cookies automatisch akzeptieren. Sie können das Speichern von Cookies jedoch deaktivieren oder Ihren Browser so einstellen, dass er Sie benachrichtigt, sobald Cookies gesendet werden.
@@ -99,3 +99,31 @@ Log-Files und Sitzungs-Cookies werden nach spätestens 30 Tagen gelöscht.
 ### 12. Auftragsverarbeitung
 Die Verarbeitung der Daten im **Self-Service-Portal** sowie im Online-Dienst erfolgt mit den entsprechend vereinbarten Sicherheitsanforderungen im Rahmen einer Auftragsverarbeitung nach Art. 28 Abs. 3 DSGVO derzeit durch die Nortal AG, Knesebeckstr. 59-61/61a, 10719 Berlin. Im Rahmen des Betriebs des **Self-Service-Portals**, des Online-Dienstes und der damit zusammenhängenden Prozesse können uns weitere Dienstleister unterstützen (z. B. beim Hosting und der Webentwicklung). Diese Dienstleister sind uns gegenüber streng weisungsgebunden und entsprechend Artikel 28 DSGVO vertraglich verpflichtet.
 
+### 13. Rechte der betroffenen Person
+Nach der EU-Datenschutz-Grundverordnung (DSGVO) haben betroffene Personen verschiedene Rechte. Einzelheiten ergeben sich insbesondere aus Artikel 15 bis 18 und 21 der DSGVO.
+  - Recht auf Auskunft (Art. 15 DSGVO)
+
+Betroffene Personen können Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten verlangen. In Ihrem Auskunftsantrag sollten Sie Ihr Anliegen präzisieren, um uns das Zusammenstellen der erforderlichen Daten zu erleichtern. Daher sollten in dem Antrag möglichst konkrete Angaben gemacht werden.
+
+  - Recht auf Berichtigung (Art. 16 DSGVO)
+
+Sollten die betreffenden Angaben nicht (mehr) zutreffend sein, können betroffene Personen eine Berichtigung verlangen. Sollten ihre Daten unvollständig sein, können sie eine Vervollständigung verlangen.
+
+  - Recht auf Löschung (Art. 17 DSGVO)
+
+Jede betroffene Person hat das Recht auf Löschung, sofern einer der in Art. 17 DSGVO genannten Gründe vorliegt (z. B. wenn die Daten für die verfolgten Zwecke nicht mehr benötigt werden).
+
+  - Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)
+
+Es besteht zudem das Recht auf Einschränkung der Verarbeitung, wenn eine der in Art. 18 DSGVO genannten Voraussetzungen vorliegt, und in den Fällen des Art. 20 DSGVO das Recht auf Datenübertragbarkeit.
+
+  - Recht auf Widerspruch (Art. 21 DSGVO)
+
+Werden Daten auf Grundlage von Art. 6 Abs. 1 lit. e (Datenverarbeitung zur behördlichen Aufgabenerfüllung bzw. zum Schutz des öffentlichen Interesses) verarbeitet, steht der betroffenen Person das Recht zu, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Widerspruch einzulegen. Die Daten werden dann nicht mehr verarbeitet, es sei denn, es liegen nachweisbar zwingende schutzwürdige Gründe für die Verarbeitung vor, die die Interessen, Rechte und Freiheiten der betroffenen Person überwiegen, oder die Verarbei¬tung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+
+  - Recht auf Beschwerde (Art. 77 DSGVO)
+
+Die betroffene Person hat darüber hinaus gemäß Art. 77 DSGVO das Recht auf Beschwerde bei einer Aufsichtsbehörde, wenn sie der Ansicht ist, dass die Verarbeitung der sie betreffenden Daten gegen datenschutzrechtliche Bestimmungen verstößt. Das Beschwerderecht kann insbesondere bei einer Aufsichtsbehörde in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes geltend gemacht werden.
+
+### 14. Gültigkeit und Änderung der Datenschutzerklärung
+Die Datenschutzerklärung hat den Stand 12.09.2023. Wir behalten uns das Recht vor, diese Datenschutzbestimmungen jederzeit mit Wirkung für die Zukunft DSGVO-konform zu ändern. Eine jeweils aktuelle Version ist auf der Website des **Self-Service-Portals** verfügbar. Bitte suchen Sie diese Website regelmäßig auf und informieren Sie sich über die geltenden Datenschutzbestimmungen.

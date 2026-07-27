@@ -68,13 +68,13 @@ Technical and organisational measures are taken to protect your data from unwant
 
 Only technically necessary session cookies are collected, processed and stored:
 
-  - Description and scope of data processing
-    When visiting the website and using the Self-Service-Portal, data is collected during an ongoing connection via your internet browser and with the help of technically necessary so-called session cookies.
-  - Legal basis for data processing
+  - Description and scope of data processing  
+    When visiting the website and using the **Self-Service-Portal**, data is collected during an ongoing connection via your internet browser and with the help of technically necessary so-called session cookies.
+  - Legal basis for data processing  
     The legal basis for the processing of personal data using technically necessary cookies is Art. 6 para. 1 lit. f GDPR.
-  - Purpose of the data processing
+  - Purpose of the data processing  
     The session cookies used here enable the functionality of the data entered. The user data collected through technically necessary cookies are not used to create user profiles.
-  - Duration of storage, possibility of objection and elimination
+  - Duration of storage, possibility of objection and elimination  
     Cookies that have already been saved can be deleted at any time. This can also be done automatically. Please note that deleting the browser history can also lead to the deletion of the cookies that have been set.
 
 Cookies set by the application are deleted after the browser is closed. After login, it is a persistent cookie that ends when the session expires. Most browsers are set to accept cookies automatically. However, you can deactivate the storage of cookies or set your browser to notify you as soon as cookies are sent.
@@ -100,3 +100,32 @@ Log files and session cookies are deleted after 30 days at the latest.
 ### 12. Job Processing
 The processing of data in the **Self-Service-Portal** as well as in the online service is currently carried out by Nortal AG, Knesebeckstr. 59-61/61a, 10719 Berlin, with the corresponding agreed security requirements within the framework of commissioned processing in accordance with Art. 28 (3) GDPR. As part of the operation of the self-service portal, the online service and the associated processes, other service providers may support us (e.g. for hosting and web development). These service providers are strictly bound by instructions to us and are contractually obligated in accordance with Article 28 GDPR.
 
+### Rights of the Data Subject
+According to the EU General Data Protection Regulation (GDPR), data subjects have various rights. Details can be found in particular in Articles 15 to 18 and 21 of the GDPR.
+
+  - Right of access (Art. 15 GDPR)
+
+Data subjects can request information about their personal data processed by us. In your request for information, you should specify your request in order to make it easier for us to compile the necessary data. Therefore, the request should be as specific as possible.
+
+  - Right of rectification (Art. 16 GDPR)
+
+If the information concerned is not (or is no longer) accurate, data subjects may request that it be corrected. If their data is incomplete, they can request that it be completed.
+
+  - Right to erasure (Art. 17 GDPR)
+
+Every data subject has the right to erasure if one of the reasons mentioned in Art. 17 GDPR applies (e.g. if the data is no longer needed for the purposes pursued).
+
+  - Right to restriction of processing (Art. 18 GDPR)
+
+There is also the right to restriction of processing if one of the conditions set out in Article 18 of the GDPR applies, and the right to data portability in the cases set out in Article 20 of the GDPR.
+
+  - Right to object (Art. 21 GDPR)
+
+If data is processed on the basis of Art. 6(1)(e) (data processing for the performance of official duties or for the protection of the public interest), the data subject shall have the right to object to the processing at any time on grounds relating to his or her particular situation. The data will then no longer be processed unless there are demonstrably compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject, or the processing serves to assert, exercise or defend legal claims.
+
+  - Right of appeal (Art. 77 GDPR)
+
+The data subject also has the right to lodge a complaint with a supervisory authority pursuant to Article 77 of the GDPR if he or she is of the opinion that the processing of data relating to him or her violates data protection provisions. The right to lodge a complaint may in particular be exercised before a supervisory authority in the Member State of his or her residence, place of work or the place of the alleged infringement.
+
+### 14. Validity and Amendment of the Privacy Policy
+The data protection declaration has the status 12.09.2023. We reserve the right to change this data protection declaration at any time with effect for the future in accordance with the GDPR. An up-to-date version is available on the website of the **Self-Service-Portal**. Please visit this website regularly and inform yourself about the applicable data protection provisions.
