@@ -78,5 +78,24 @@ Es werden nur technisch notwendige Sitzungs-Cookies erhoben, verarbeitet und ges
 
 Von der Anwendung gesetzte Cookies werden nach dem Schließen des Browsers gelöscht. Nach der Anmeldung handelt es sich um ein beständiges Cookie, der mit Ablauf der Session endet. Die meisten Browser sind so eingestellt, dass sie Cookies automatisch akzeptieren. Sie können das Speichern von Cookies jedoch deaktivieren oder Ihren Browser so einstellen, dass er Sie benachrichtigt, sobald Cookies gesendet werden.
 
-### 9.
+### 9.Erstellung von Logfiles
+Bei jedem Zugriff auf diese Website beziehungsweise bei jedem Abruf einer Datei werden Daten über diesen Vorgang vorübergehend in einer Protokolldatei verarbeitet. Im Einzelnen werden folgende Daten gespeichert:  
+  - das Datum und die Uhrzeit des Zugriffs;
+  - der Name und die URL der abgerufenen Datei;
+  - die Webseite, von der aus der Zugriff erfolgt;
+  - das Betriebssystem Ihres Rechners und der von Ihnen verwendete Browser;
+  - die IP-Adresse
+
+Zum Schutz vor Angriffen auf die Internetinfrastruktur des Auftragsdatenverarbeiters ist eine Speicherung dieser Daten über den Zeitpunkt des Besuches hinaus verpflichtend. Dies erfolgt über sogenannte Log-Dateien. Darüber hinaus werden die Log Dateien manuell ausgewertet, um die Benutzerfreundlichkeit unseres Dienstes zu gewährleisten und weiterzuentwickeln.
+
+### 10. Empfänger der Daten
+Empfänger der Daten ist der nationale BKMS sowie im Supportfall der IT-Dienstleister gemäß Ziffer 13. Eine Übermittlung von personenbezogenen Daten an ein Drittland oder eine internationale Organisation ist ausgeschlossen.
+
+### 11. Datenlöschung und Speicherdauer
+Das **Self-Service-Portal** organisiert die technische Registrierung des Unternehmens, um den BKMS nutzen zu können. Ihre Daten werden so lange verarbeitet und gespeichert, wie das zur Erfüllung der gesetzlichen Pflichten bzw. für den jeweiligen Zweck erforderlich ist.
+
+Log-Files und Sitzungs-Cookies werden nach spätestens 30 Tagen gelöscht.
+
+### 12. Auftragsverarbeitung
+Die Verarbeitung der Daten im **Self-Service-Portal** sowie im Online-Dienst erfolgt mit den entsprechend vereinbarten Sicherheitsanforderungen im Rahmen einer Auftragsverarbeitung nach Art. 28 Abs. 3 DSGVO derzeit durch die Nortal AG, Knesebeckstr. 59-61/61a, 10719 Berlin. Im Rahmen des Betriebs des **Self-Service-Portals**, des Online-Dienstes und der damit zusammenhängenden Prozesse können uns weitere Dienstleister unterstützen (z. B. beim Hosting und der Webentwicklung). Diese Dienstleister sind uns gegenüber streng weisungsgebunden und entsprechend Artikel 28 DSGVO vertraglich verpflichtet.
 

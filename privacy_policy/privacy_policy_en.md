@@ -79,4 +79,24 @@ Only technically necessary session cookies are collected, processed and stored:
 
 Cookies set by the application are deleted after the browser is closed. After login, it is a persistent cookie that ends when the session expires. Most browsers are set to accept cookies automatically. However, you can deactivate the storage of cookies or set your browser to notify you as soon as cookies are sent.
 
-### 9.
+### 9. Creation of Log Files
+Every time this website is accessed or every time a file is retrieved, data about this process is temporarily processed in a log file. In detail, the following data is stored:  
+  - the date and time of access;
+  - the name and URL of the retrieved file;
+  - the website from which the access is made;
+  - the operating system of your computer and the browser you are using;
+  - the IP address
+
+To protect against attacks on the internet infrastructure of the commissioned data processor, it is obligatory to store this data beyond the time of the visit. This is done via so-called log files. In addition, the log files are evaluated manually in order to ensure and further develop the user-friendliness of our service.
+
+### 10. Recipient of the Data
+The recipient of the data is the national BKMS and, in the event of support, the IT service provider in accordance with section 13. The transfer of personal data to a third country or an international organisation is excluded.
+
+### 11. Data Deletion and Storage Period
+The **Self-Service-Portal** organises the technical registration of the company to be able to use the BKMS. Your data will be processed and stored for as long as is necessary to fulfil the legal obligations or for the respective purpose.
+
+Log files and session cookies are deleted after 30 days at the latest.
+
+### 12. Job Processing
+The processing of data in the **Self-Service-Portal** as well as in the online service is currently carried out by Nortal AG, Knesebeckstr. 59-61/61a, 10719 Berlin, with the corresponding agreed security requirements within the framework of commissioned processing in accordance with Art. 28 (3) GDPR. As part of the operation of the self-service portal, the online service and the associated processes, other service providers may support us (e.g. for hosting and web development). These service providers are strictly bound by instructions to us and are contractually obligated in accordance with Article 28 GDPR.
+
