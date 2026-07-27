@@ -20,3 +20,19 @@ Im Zusammenhang mit der Nutzung des **Self-Service-Portals** werden personenbezo
   - die Empfänger der Daten,
   - die Dauer, für die die personenbezogenen Daten gespeichert werden,
   - die Rechte der betroffenen Person.
+
+### 2. Benutzerkonto
+
+Zur Nutzung des vorliegenden Online-Dienstes bedarf es der Einrichtung eines Benutzerkontos über das **Self-Service-Portal**. Hierbei handelt es sich um eine zentrale IT-Komponente zur Identifikation und Kommunikation.
+
+### 3. Verantwortlicher
+Verantwortlicher (im Folgenden „Anbieter“) im Sinne des Art. 4 Nr. 7 DSGVO ist:  
+Bundesrepublik Deutschland  
+vertreten durch das Bundesministerium des Innern  
+vertreten durch das Beschaffungsamt des BMI  
+Brühler Str. 3  
+53119 Bonn
+
+Tel: +49 22899 610 -0  
+E-Mail: poststelle@bescha.bund.de
+

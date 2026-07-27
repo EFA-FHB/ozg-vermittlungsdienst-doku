@@ -20,3 +20,19 @@ In connection with the use of the **Self-Service Portal**, personal data are pro
   - the recipients of the data,
   - the period for which the personal data will be stored,
   - the rights of the data subject.
+
+### 2. User Account
+
+In order to use this online service, a user account must be set up via the Self-Service-Portal. This is a central IT component for identification and communication.
+
+### 3. Responsible
+
+Is the responsible party (hereinafter **"Provider"**) within the meaning of Art. 4 No. 7 GDPR:  
+Federal Republic of Germany  
+represented by the Federal Ministry of the Interior  
+represented by the Procurement Office of the BMI  
+Brühler Str. 3  
+53119 Bonn
+
+Phone: +49 22899 610 -0  
+Email: poststelle@bescha.bund.de
