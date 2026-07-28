@@ -40,7 +40,7 @@ Users of this website are requested to report links to unlawful or incorrect thi
 
 ### 4. Data Protection
 
-Learn more about this in the [Privacy Policy](/privacy_policy/privacy_policy_en.md).
+Learn more about this in the [Privacy Policy](/imprint/privacy_policy_en.md).
 
 ### 5. Copyright
 

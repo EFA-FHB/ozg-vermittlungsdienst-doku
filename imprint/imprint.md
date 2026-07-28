@@ -40,7 +40,7 @@ Nutzer dieser Internetpräsenz werden gebeten, über das Kontaktformular Links z
 
 ### 4. Datenschutz
 
-Erfahren Sie mehr hierzu in der [Datenschutzerklärung](/privacy_policy/privacy_policy.md).
+Erfahren Sie mehr hierzu in der [Datenschutzerklärung](/imprint/privacy_policy.md).
 
 ### 5. Urheberrecht
 
