@@ -12,7 +12,6 @@ The Federal Government, represented by the Procurement Office of the Federal Min
 
 ### 2. Details of the Operator and the Technical Service Provider
    - Operator of the **Self-Service Portal**  
-
     Federal Republic of Germany  
     represented by the Federal Ministry of the Interior  
     represented by the Procurement Office of the BMI  
@@ -20,7 +19,6 @@ The Federal Government, represented by the Procurement Office of the Federal Min
     53119 Bonn  
     Email: poststelle@bescha.bund.de
    - Technical service provider of the **Self-Service Portal**  
-
     Name: Nortal AG  
     Address: Knesebeckstr. 59-61/61a, 10719 Berlin  
     Phone: +49 (0)30 318 05 09 - 00  
