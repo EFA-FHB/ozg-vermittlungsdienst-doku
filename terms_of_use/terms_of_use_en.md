@@ -12,23 +12,26 @@ The Federal Government, represented by the Procurement Office of the Federal Min
 
 ### 2. Details of the Operator and the Technical Service Provider
    - Operator of the **Self-Service Portal**  
-    Federal Republic of Germany  
-    represented by the Federal Ministry of the Interior  
-    represented by the Procurement Office of the BMI  
-    Brühler Str. 3  
-    53119 Bonn  
-    Email: poststelle@bescha.bund.de
+
+     Federal Republic of Germany  
+     represented by the Federal Ministry of the Interior  
+     represented by the Procurement Office of the BMI  
+     Brühler Str. 3  
+     53119 Bonn  
+     Email: poststelle@bescha.bund.de
+
    - Technical service provider of the **Self-Service Portal**  
-    Name: Nortal AG  
-    Address: Knesebeckstr. 59-61/61a, 10719 Berlin  
-    Phone: +49 (0)30 318 05 09 - 00  
-    Email: info@nortal.com
+
+     Name: Nortal AG  
+     Address: Knesebeckstr. 59-61/61a, 10719 Berlin  
+     Phone: +49 (0)30 318 05 09 - 00  
+     Email: info@nortal.com
 
 ### 3. Service Hours
 For technical and specialist questions, support is available via the contact form at https://self-service.datenservice-oeffentlicher-einkauf.de/contact. Support is available Monday to Friday from 8 a.m. to 6 p.m., except on public holidays in Berlin.
 
 ### 4. Charges
-The use of the Self-Service Portal is free of charge for the users.
+The use of the **Self-Service Portal** is free of charge for the users.
 
 Any costs incurred by the user in the course of using the **Self-Service Portal**, in particular for the provision, connection and operation of software and hardware as well as for internet use, shall not be reimbursed to the user by the operator or technical service provider of the **Self-Service Portal**.
 
@@ -43,9 +46,13 @@ A registered user has to provide the following information in the template "Decl
 
 ### 7. Duties of Care and Cooperation of the User
   - Responsibility in relation to access data  
+
     The user must ensure that third parties do not gain unauthorised access to his password or **user account**. Transfer of the login data of the user account to third parties is not permitted.
+
   - Virus free documents  
+
     The user has the duty of care to check files for viruses before uploading them to the online service and to upload only virus-free files.
+
   - The user is responsible for reporting any security vulnerabilities or malfunctions to the support team in accordance with section 5.
 
 ### 8. Technical Framework Conditions on the Part of the User
