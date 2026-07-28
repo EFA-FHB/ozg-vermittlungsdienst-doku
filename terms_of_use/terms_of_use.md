@@ -10,3 +10,19 @@ Der Bund, vertreten durch das Beschaffungsamt des BMI, bietet mit dem **Self-Ser
 
 Der Bund, vertreten durch das Beschaffungsamt des BMI, als Betreiber des **Self-Service-Portals** (im Folgenden „Betreiber“) stellt über seinen technischen Dienstleister den Unternehmen (im Folgenden „Nutzer“) das **Self-Service-Portal** zur Verfügung, für welchen die folgenden Nutzungsbedingungen gelten.
 
+### 2. Angaben zum Betreiber und der Technischen Dienstleisterin
+  - Betreiber des Self-Service-Portals  
+
+    Bundesrepublik Deutschland  
+    vertreten durch das Bundesministerium des Innern  
+    vertreten durch das Beschaffungsamt des BMI  
+    Brühler Str. 3  
+    53119 Bonn  
+    E-Mail: poststelle@bescha.bund.de
+
+  - Technische Dienstleisterin des Self-Service-Portals
+
+    Name: Nortal AG  
+    Anschrift: Knesebeckstr. 59-61/61a, 10719 Berlin  
+    Tel.: +49 (0)30 318 05 09 - 00  
+    E-Mail: info@nortal.com
