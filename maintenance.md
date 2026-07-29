@@ -12,15 +12,15 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 ## Anstehende Wartungsfenster
 
-| Umgebung    | System                           | Datum      | Zeit              | Kommentar           |
-|-------------|----------------------------------|------------|-------------------|---------------------|
-| Produktion | TED API | 9. Juli 2026 | 07:00-08:00 | Wartungsarbeiten: Alle TED-APIs in den produktiven Umgebungen werden vorübergehend nicht verfügbar sein |
+| Umgebung    | System                           | Datum          | Zeit              | Kommentar           |
+|-------------|----------------------------------|----------------|-------------------|---------------------|
+| Produktion | TED API | 3. August 2026 | 07:00-08:00 | Wartungsarbeiten: Alle TED-APIs in den produktiven Umgebungen werden vorübergehend nicht verfügbar sein |
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
 | System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status                  |
 |--------------|----------------|----------------------------|--------|-------------------------|
-| Vermittlungsdienst, eSender-Hub und alle Validatoren | 16. April 2026 | KW 19 2026 | Aktuell kann es in Einzelfällen zu Ablehnungen bei der Übermittlung an TED kommen. Die Validierung der Regel BR-BT-00720-0048 (BT-720-Tender) weicht derzeit von der TED-Validierung ab | Behoben am 07. Mai 2026 |
+|--------------|----------------|----------------------------|--------|-------------------------|
 
 ## Hinweise
 
@@ -28,8 +28,9 @@ Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar
 
 ## Vergangene Wartungsfenster oder Störungen der letzten Monate
 
-| Umgebung                 | System              | Datum      | Zeit              | Kommentar           |
-|--------------------------|---------------------|------------|-------------------|---------------------|
+| Umgebung                | System              | Datum      | Zeit              | Kommentar           |
+|-------------------------|---------------------|------------|-------------------|---------------------|
+| Produktion | Vermittlungsdienst, eSender-Hub und alle Validatoren | 16. April 2026 | KW 19 2026 | Aktuell kann es in Einzelfällen zu Ablehnungen bei der Übermittlung an TED kommen. Die Validierung der Regel BR-BT-00720-0048 (BT-720-Tender) weicht derzeit von der TED-Validierung ab |
 | Produktion | DÖE exkl. Bekanntmachungsservice | 20. Mai 2026 | 16:00 - 20:00 | Wartungsarbeiten: Alle produktiven Anwendungen sowie deren APIs sind vorübergehend nicht verfügbar. |
 | Produktion | TED API | 28. April 2026 | 07:00-09:00 | Wartungsarbeiten: Alle TED-APIs in den produktiven Umgebungen werden vorübergehend nicht verfügbar sein |
 | Produktion | TED API | 23. April 2026 | 07:00-09:00 |Wartungsarbeiten: Alle TED-APIs in produktiven Umgebungen können von Störungen betroffen sein |
