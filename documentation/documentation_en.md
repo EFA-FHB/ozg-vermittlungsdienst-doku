@@ -14,6 +14,7 @@ Functionality of the Vermittlungsdienst and eSender Hub:
 - [Distinguishing between lower and upper threshold awards](/documentation/Upper-or_lower-threshold-award.md)
 - [Change Notices/Updates & Stop Publication Functionality](/documentation/STOP_update_and_change_notices.md)
 - [Status and transfer information](Status_information.md)
+- [Service Vergabestatistik Integration](integration_svs.md)
 
 
 eForms:
