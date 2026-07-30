@@ -14,6 +14,7 @@ Funktionsweise des Vermittlungsdienstes und eSender-Hubs:
 - [Unterscheidung von Unter- und Oberschwellenvergabe](/documentation/Upper-or_lower-threshold-award.md)
 - [Change Notices/Updates & Stop-Publication-Funktionalität](/documentation/STOP_update_and_change_notices.md)
 - [Status- und Transferinformationen](Status_information.md)
+- [Integration Service Vergabestatistik](integration_svs.md)
 
 
 eForms: 
