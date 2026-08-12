@@ -2,7 +2,7 @@
 
 <a id=juengste-release-updates></a>
 ### Latest Release Updates
-Status: 20.07.2026
+Status: 12.08.2026
 
 <style>
 table {
@@ -57,34 +57,34 @@ tr.divider td {
     </tr>
     <tr>
       <td><a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">Vermittlungsdienst</a></td>
-      <td data-field="release-id">26-5-1</td>
-      <td style="color:#00488b;">01.07.2026</td>
-      <td style="color:#DAA520;">23.07.2026 (planned)</td>
-      <td style="color:#07702D;">28.07.2026 (planned)</td>
-      <td>Several updates to the Vermittlungsdienst for the implementation of the contract award statistics service (Service Vergabestatistik).</td>
+      <td data-field="release-id">26-5-2</td>
+      <td style="color:#00488b;">29.07.2026</td>
+      <td style="color:#DAA520;">05.08.2026</td>
+      <td style="color:#07702D;">12.08.2026</td>
+      <td>Change notices for notices that have previously been submitted can now be correctly processed regardless of how when the original notice was submitted.</td>
     </tr>
     <tr>
       <td>eSender-Hub</td>
-      <td data-field="release-id">26-4</td>
-      <td style="color:#00488b;">30.03.2026</td>
-      <td style="color:#DAA520;">14.04.2026</td>
-      <td style="color:#07702D;">21.05.2026</td>
-      <td>Various bug fixes have been implemented.</td>
+      <td data-field="release-id">26-5-2</td>
+      <td style="color:#00488b;">29.07.2026</td>
+      <td style="color:#DAA520;">05.08.2026</td>
+      <td style="color:#07702D;">12.08.2026</td>
+      <td>The correct values for publication dates and technical details are provided for notices in BKMS.</td>
     </tr>
     <tr>
       <td><a href="https://viewer.ozg-vermittlungsdienst.de">Notice-Viewer</a></td>
       <td data-field="release-id">26-5-1</td>
       <td style="color:#00488b;">01.07.2026</td>
-      <td style="color:#DAA520;">23.07.2026 (planned)</td>
-      <td style="color:#07702D;">28.07.2026 (planned)</td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
       <td>The SDK-DE 1.14.4 patch has been implemented.</td>
     </tr>
     <tr>
       <td><a href="https://validator.ozg-vermittlungsdienst.de">Online-Validator / <br> Offline-Validator</a></td>
       <td data-field="release-id">26-5-1</td>
       <td style="color:#00488b;">01.07.2026</td>
-      <td style="color:#DAA520;">23.07.2026 (planned)</td>
-      <td style="color:#07702D;">28.07.2026 (planned)</td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
       <td>The SDK-DE 1.14.4 patch has been implemented.</td>
     </tr>
     <tr>
@@ -108,12 +108,12 @@ Other changes:<br>
     </tr>
     <tr>
       <td><a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">Bekanntmachungsservice</a></td>
-      <td data-field="release-id">26-5-1</td>
+      <td data-field="release-id">26-5-2</td>
       <td style="color:#00488b;"></td>
-      <td style="color:#DAA520;">23.07.2026 (planned)</td>
-      <td style="color:#07702D;">28.07.2026 (planned)</td>
-      <td>- The SDK-DE 1.14.4 patch has been implemented<br>
-- Small bugfixes</td>
+      <td style="color:#DAA520;">05.08.2026</td>
+      <td style="color:#07702D;">12.08.2026</td>
+      <td>- Change notices for notices that have previously been submitted can now be correctly processed regardless of how when the original notice was submitted.<br>
+- For historical notices, the correct values for publication dates and technical details are now displayed.</td>
     </tr>
   </tbody>
 </table>
@@ -163,48 +163,48 @@ Other changes:<br>
     </tr>
     <tr data-name="Vermittlungsdienst release -1">
       <td rowspan="3"><a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">Vermittlungsdienst</a></td>
+      <td data-field="release-id">26-5-1</td>
+      <td style="color:#00488b;">01.07.2026</td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
+      <td>Several updates to the Vermittlungsdienst for the implementation of the contract award statistics service (Service Vergabestatistik).</td>
+    </tr>
+    <tr data-name="Vermittlungsdienst release -2">
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
       <td style="color:#DAA520;">22.06.2026</td>
       <td style="color:#07702D;">30.06.2026</td>
       <td>Mediator is expanded to send and receive information on CANs to/from the SVS.</td>
     </tr>
-    <tr data-name="Vermittlungsdienst release -2">
+    <tr data-name="Vermittlungsdienst release -3">
       <td data-field="release-id">26-4</td>
       <td style="color:#00488b;">31.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
       <td style="color:#07702D;">21.05.2026</td>
-      <td>A new status for forwarding to the Federal Statistical Office has been introduced. <br>
+      <td>A new status for forwarding to the Federal Statistical Office has been introduced.<br>
 The "tedPublishedTimestamp" field has been renamed to "tedPublishedDate" in GET and POST responses, as TED only provides a date.</td>
-    </tr>
-    <tr data-name="Vermittlungsdienst release -3">
-      <td data-field="release-id">26-2</td>
-      <td style="color:#00488b;">26.02.2026</td>
-      <td style="color:#DAA520;">10.03.2026</td>
-      <td style="color:#07702D;">19.03.2026</td>
-      <td>The ability to accept and process notices with different ProfileIDs has been implemented.</td>
     </tr>
     <tr data-name="eSender release -1">
       <td rowspan="3">eSender-Hub</td>
+      <td>26-5-1</td>
+      <td style="color:#00488b;">01.07.2026</td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
+      <td>The SDK-DE 1.14.4 patch has been implemented.</td>
+    </tr>
+    <tr data-name="eSender release -2">
       <td>26-4</td>
       <td style="color:#00488b;">30.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
       <td style="color:#07702D;">21.05.2026</td>
       <td>Various bug fixes have been implemented.</td>
     </tr>
-    <tr data-name="eSender release -2">
+    <tr data-name="eSender release -3">
       <td>26-2</td>
       <td style="color:#00488b;">26.02.2026</td>
       <td style="color:#DAA520;">10.03.2026</td>
       <td style="color:#07702D;">19.03.2026</td>
       <td>The transformation of the notice now depends on the ProfileID.</td>
-    </tr>
-    <tr data-name="eSender release -3">
-      <td>26-1</td>
-      <td style="color:#00488b;">21.01.2026</td>
-      <td style="color:#DAA520;">29.01.2026</td>
-      <td style="color:#07702D;">05.02.2026</td>
-      <td>Support for T01/02 forms has been implemented for SDK 1.14.</td>
     </tr>
     <tr data-name="Viewer release -1">
       <td rowspan="3"><a href="https://viewer.ozg-vermittlungsdienst.de">Notice-Viewer</a></td>
@@ -281,6 +281,14 @@ Other changes:<br>
     </tr>
     <tr data-name="BKMS release -1">
       <td rowspan="3"><a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">Bekanntmachungsservice</a></td>
+      <td>26-5-1</td>
+      <td style="color:#00488b;"></td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
+      <td>- The SDK-DE 1.14.4 patch has been implemented<br>
+- Small bugfixes</td>
+    </tr>
+    <tr data-name="BKMS release -2">
       <td>26-5</td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;">22.06.2026</td>
@@ -290,19 +298,12 @@ Other changes:<br>
 - AVV Bund Start-up – Filter extension in the advanced search<br>
 - Minor bug fixes</td>
     </tr>
-    <tr data-name="BKMS release -2">
+    <tr data-name="BKMS release -3">
       <td>26-4</td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;">14.04.2026</td>
       <td style="color:#07702D;">21.05.2026</td>
       <td>Additional technical details for submission to the Federal Statistical Office have been added to the details page of the notice.</td>
-    </tr>
-    <tr data-name="BKMS release -3">
-      <td>26-3</td>
-      <td style="color:#00488b;"></td>
-      <td style="color:#DAA520;">23.03.2026</td>
-      <td style="color:#07702D;">29.04.2026</td>
-      <td>Redesign of detail page for contract and results notices.</td>
     </tr>
   </tbody>
 </table>

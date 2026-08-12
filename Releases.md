@@ -2,7 +2,7 @@
 
 <a id=juengste-release-updates></a>
 ### Jüngste-Release-Updates
-Stand: 20.07.2026
+Stand: 12.08.2026
 
 <style>
 table {
@@ -57,34 +57,34 @@ tr.divider td {
     </tr>
     <tr>
       <td><a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">Vermittlungsdienst</a></td>
-      <td data-field="release-id">26-5-1</td>
-      <td style="color:#00488b;">01.07.2026</td>
-      <td style="color:#DAA520;">23.07.2026 </td>
-      <td style="color:#07702D;">28.07.2026 </td>
-      <td>Mehrere Updates für den Vermittlungsdienst zur Implementierung des Service Vergabestatistik.</td>
+      <td data-field="release-id">26-5-2</td>
+      <td style="color:#00488b;">29.07.2026</td>
+      <td style="color:#DAA520;">05.08.2026</td>
+      <td style="color:#07702D;">12.08.2026</td>
+      <td>Change Notices für bereits eingereichte Bekanntmachungen können jetzt unabhängig von deren Alter eingereicht werden.</td>
     </tr>
     <tr>
       <td>eSender-Hub</td>
-      <td data-field="release-id">26-4</td>
-      <td style="color:#00488b;">30.03.2026</td>
-      <td style="color:#DAA520;">14.04.2026</td>
-      <td style="color:#07702D;">21.05.2026</td>
-      <td>Diverse Fehlerbehebungen wurden vorgenommen.</td>
+      <td data-field="release-id">26-5-2</td>
+      <td style="color:#00488b;">29.07.2026</td>
+      <td style="color:#DAA520;">05.08.2026</td>
+      <td style="color:#07702D;">12.08.2026</td>
+      <td>Die korrekten Werte für Veröffentlichungsdaten/Technischen Details werden für Bekanntmachungen in BKMS bereitgestellt.</td>
     </tr>
     <tr>
       <td><a href="https://viewer.ozg-vermittlungsdienst.de">Notice-Viewer</a></td>
       <td data-field="release-id">26-5-1</td>
       <td style="color:#00488b;">01.07.2026</td>
-      <td style="color:#DAA520;">23.07.2026 </td>
-      <td style="color:#07702D;">28.07.2026 </td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
       <td>Das Patch des SDK-DE 1.14.4 wurde implementiert.</td>
     </tr>
     <tr>
       <td><a href="https://validator.ozg-vermittlungsdienst.de">Online-Validator / <br> Offline-Validator</a></td>
       <td data-field="release-id">26-5-1</td>
       <td style="color:#00488b;">01.07.2026</td>
-      <td style="color:#DAA520;">23.07.2026 </td>
-      <td style="color:#07702D;">28.07.2026 </td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
       <td>Das Patch des SDK-DE 1.14.4 wurde implementiert.</td>
     </tr>
     <tr>
@@ -108,12 +108,12 @@ Wesentliche Änderungen:<br>
     </tr>
     <tr>
       <td><a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">Bekanntmachungsservice</a></td>
-      <td data-field="release-id">26-5-1</td>
+      <td data-field="release-id">26-5-2</td>
       <td style="color:#00488b;"></td>
-      <td style="color:#DAA520;">23.07.2026 </td>
-      <td style="color:#07702D;">28.07.2026 </td>
-      <td>- Das Patch des SDK-DE 1.14.4 wurde implementiert<br>
-- Kleinere Bugfixes</td>
+      <td style="color:#DAA520;">05.08.2026</td>
+      <td style="color:#07702D;">12.08.2026</td>
+      <td>- Change Notices für bereits eingereichte Bekanntmachungen können jetzt unabhängig von deren Alter eingereicht werden.<br>
+- Für historische Bekanntmachungen werden nun die korrekten Werte für Veröffentlichungsdaten/Technischen Details angezeigt.</td>
     </tr>
   </tbody>
 </table>
@@ -163,13 +163,20 @@ Wesentliche Änderungen:<br>
     </tr>
     <tr data-name="Vermittlungsdienst release -1">
       <td rowspan="3"><a class="external-link" href="https://ozg-vermittlungsdienst.de" rel="nofollow">Vermittlungsdienst</a></td>
+      <td data-field="release-id">26-5-1</td>
+      <td style="color:#00488b;">01.07.2026</td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
+      <td>Mehrere Updates für den Vermittlungsdienst zur Implementierung des Service Vergabestatistik.</td>
+    </tr>
+    <tr data-name="Vermittlungsdienst release -2">
       <td data-field="release-id">26-5</td>
       <td style="color:#00488b;">11.06.2026</td>
       <td style="color:#DAA520;">22.06.2026</td>
       <td style="color:#07702D;">30.06.2026</td>
       <td>Vermittlungsdienst wurde erweitert, um Informationen über CANs an den SVS zu senden und von diesem zu empfangen.</td>
     </tr>
-    <tr data-name="Vermittlungsdienst release -2">
+    <tr data-name="Vermittlungsdienst release -3">
       <td data-field="release-id">26-4</td>
       <td style="color:#00488b;">31.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
@@ -177,34 +184,27 @@ Wesentliche Änderungen:<br>
       <td>Ein neuer Status zur Weiterleitung an das Statistische Bundesamt wurde eingeführt. <br>
 Das Feld 'tedPublishedTimestamp' wurde in GET- und POST-Responses in 'tedPublishedDate umbenannt', da TED nur ein Datum liefert.</td>
     </tr>
-    <tr data-name="Vermittlungsdienst release -3">
-      <td data-field="release-id">26-2</td>
-      <td style="color:#00488b;">26.02.2026</td>
-      <td style="color:#DAA520;">10.03.2026</td>
-      <td style="color:#07702D;">19.03.2026</td>
-      <td>Annahme und Verarbeitung von Bekanntmachungen mit unterschiedlichen ProfileIDs wurde implementiert.</td>
-    </tr>
     <tr data-name="eSender release -1">
       <td rowspan="3">eSender-Hub</td>
+      <td>26-5-1</td>
+      <td style="color:#00488b;">01.07.2026</td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
+      <td>Das Patch des SDK-DE 1.14.4 wurde implementiert.</td>
+    </tr>
+    <tr data-name="eSender release -2">
       <td>26-4</td>
       <td style="color:#00488b;">30.03.2026</td>
       <td style="color:#DAA520;">14.04.2026</td>
       <td style="color:#07702D;">21.05.2026</td>
       <td>Diverse Fehlerbehebungen wurden vorgenommen.</td>
     </tr>
-    <tr data-name="eSender release -2">
+    <tr data-name="eSender release -3">
       <td>26-2</td>
       <td style="color:#00488b;">26.02.2026</td>
       <td style="color:#DAA520;">10.03.2026</td>
       <td style="color:#07702D;">19.03.2026</td>
       <td>Die Transformation der Bekanntmachung erfolgt nun abhängig von der ProfileID.</td>
-    </tr>
-    <tr data-name="eSender release -3">
-      <td>26-1</td>
-      <td style="color:#00488b;">21.01.2026</td>
-      <td style="color:#DAA520;">29.01.2026</td>
-      <td style="color:#07702D;">05.02.2026</td>
-      <td>Unterstützung der T01/02 Formulare im SDK 1.14 wurde implementiert.</td>
     </tr>
     <tr data-name="Viewer release -1">
       <td rowspan="3"><a href="https://viewer.ozg-vermittlungsdienst.de">Notice-Viewer</a></td>
@@ -281,6 +281,14 @@ Wesentliche Änderungen:<br>
     </tr>
     <tr data-name="BKMS release -1">
       <td rowspan="3"><a class="external-link" href="https://www.oeffentlichevergabe.de" rel="nofollow">Bekanntmachungsservice</a></td>
+      <td>26-5-1</td>
+      <td style="color:#00488b;"></td>
+      <td style="color:#DAA520;">23.07.2026</td>
+      <td style="color:#07702D;">28.07.2026</td>
+      <td>- Das Patch des SDK-DE 1.14.4 wurde implementiert<br>
+- Kleinere Bugfixes</td>
+    </tr>
+    <tr data-name="BKMS release -2">
       <td>26-5</td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;">22.06.2026</td>
@@ -290,19 +298,12 @@ Wesentliche Änderungen:<br>
 - AVV Bund Start-up – Filtererweiterung in der erweiterten Suche<br>
 - Kleinere Bugfixes</td>
     </tr>
-    <tr data-name="BKMS release -2">
+    <tr data-name="BKMS release -3">
       <td>26-4</td>
       <td style="color:#00488b;"></td>
       <td style="color:#DAA520;">14.04.2026</td>
       <td style="color:#07702D;">21.05.2026</td>
       <td>Ergänzung neuer technischer Details zur Weiterleitung an das Statistische Bundesamt auf der Detailseite der Bekanntmachung.</td>
-    </tr>
-    <tr data-name="BKMS release -3">
-      <td>26-3</td>
-      <td style="color:#00488b;"></td>
-      <td style="color:#DAA520;">23.03.2026</td>
-      <td style="color:#07702D;">29.04.2026</td>
-      <td>Überarbeitung Detailseite für Auftrags- und Ergebnisbekanntmachungen</td>
     </tr>
   </tbody>
 </table>
