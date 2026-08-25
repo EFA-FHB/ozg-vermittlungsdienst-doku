@@ -12,9 +12,9 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 ## Anstehende Wartungsfenster
 
-| Umgebung    | System                           | Datum          | Zeit              | Kommentar           |
-|-------------|----------------------------------|----------------|-------------------|---------------------|
-| Produktion | TED API | 3. August 2026 | 07:00-08:00 | Wartungsarbeiten: Alle TED-APIs in den produktiven Umgebungen werden vorübergehend nicht verfügbar sein |
+| Umgebung    | System              | Datum           | Zeit        | Kommentar                                                                                                     |
+|-------------|---------------------|-----------------|-------------|---------------------------------------------------------------------------------------------------------------|
+| Produktion | TED Publication API | 27. August 2026 | 06:30-09:30 | Wartungsarbeiten bei TED: Publication API in der produktiven Umgebung wird vorübergehend nicht verfügbar sein |
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
