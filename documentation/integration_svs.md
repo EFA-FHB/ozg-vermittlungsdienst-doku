@@ -23,7 +23,7 @@ Nach der erfolgreichen Einlieferung der Bekanntmachung an den Vermittlungsdienst
 
 Im Self-Service-Portal des Datenservice Öffentlicher Einkauf kann für registrierte Nutzer (üblicherweise Support der Vergabeplattformbetreiber) neben des Bearbeitungsstatus zur Publikation auf TED und Bekanntmachungsservice auch der Bearbeitungsstatus bzgl. der Statistikmeldung eingesehen werden.
 
-Darüber hinaus kann der Bearbeitungsstatus auch über die aktuelle Version (1.3.8 oder neuer) des Vermitlungsdienst-Endpunkts: `/v1/notices/status` abgerufen werden. Weitere Informationen finden Sie unter https://ozg-vermittlungsdienst.de/.
+Darüber hinaus kann der Bearbeitungsstatus auch über die aktuelle Version (1.3.8 oder neuer) des Vermittlungsdienst-Endpunkts: `/v1/notices/status` abgerufen werden. Weitere Informationen finden Sie unter https://ozg-vermittlungsdienst.de/.
 
 ## Vorschaufunktion und Anzeige der übermittelten Statistikmeldung
 
