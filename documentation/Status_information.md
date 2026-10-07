@@ -198,6 +198,8 @@ Die folgenden Statuskombinationen können bei der Statusabfrage einer Vergabebek
 | DELIVERED | 5010 | Nein | Die Übermittlung der automatisch erstellten Statistikmeldung an das Statistische Bundesamt ist fehlgeschlagen, es werden weitere Zustellversuche unternommen. |
 | DELIVERED | 5020 | Ja | Die Übermittlung der automatisch erstellten Statistikmeldung an das Statistische Bundesamt ist fehlgeschlagen. |
 | UNKNOWN | 7000 |  | Aufgrund eines technischen Fehlers kann aktuell kein Status zur automatischen Statistikmeldung ermittelt werden. |
+| SVS NOT REQUESTED |  |  | Für diese Vergabebekanntmachung wurde keine automatische Statistikmeldung erstellt, da keine BerichteinheitsID vermerkt wurde.  |
+| NOT INTENDED FOR SVS |  |  | Es geht nicht um eine Vergabebekanntmachung, daher ist die Bekanntmachung für eine Statistikmeldung nicht relevant. |
 
 <br>
 
