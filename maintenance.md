@@ -19,9 +19,9 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
-| System                                        | vorhanden seit | voraussichtliche Behebung | Fehler               | Status  |
-|-----------------------------------------------|----------------|---------------------------|----------------------|---------|
-| Bekanntmachungsservice und Vermittlungsdienst | 19.10.2026     | 20.10.2026                | Infrastrukturstörung | Behoben |
+| System                                        | vorhanden seit   | voraussichtliche Behebung | Fehler               | Status  |
+|-----------------------------------------------|------------------|---------------------------|----------------------|---------|
+| Bekanntmachungsservice und Vermittlungsdienst | 19. Oktober 2026 | 20. Oktober 2026          | Infrastrukturstörung | Behoben |
 
 ## Hinweise
 
