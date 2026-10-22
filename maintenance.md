@@ -21,7 +21,7 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 | System                                        | vorhanden seit | voraussichtliche Behebung | Fehler               | Status  |
 |-----------------------------------------------|----------------|---------------------------|----------------------|---------|
-| Bekanntmachungsservice und Vermittlungsdienst | 19.10.2026     | 20.10.2020                | Infrastrukturstörung | Behoben |
+| Bekanntmachungsservice und Vermittlungsdienst | 19.10.2026     | 20.10.2026                | Infrastrukturstörung | Behoben |
 
 ## Hinweise
 
