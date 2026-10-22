@@ -12,15 +12,16 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 ## Anstehende Wartungsfenster
 
-| Umgebung            | System         | Datum              | Zeit        | Kommentar                                                                                                      |
-|---------------------|----------------|--------------------|-------------|----------------------------------------------------------------------------------------------------------------|
-| Preview und Staging | DÖE exkl. BKMS | 07. September 2026 | 10:00-11:00 | Wartungsarbeiten beim DÖE: Sollte es nach den Wartungsarbeiten zu einem 401 Unauthorized kommen, bitte einen neuen Access Token anfordern bzw. die Anmeldung/Token-Aktualisierung erneut durchführen. |
+| Umgebung               | System | Datum               | Zeit        | Kommentar                              |
+|------------------------|-----|---------------------|-------------|----------------------------------------|
+| Produktion und Staging | DÖE | 24/25. Oktober 2026 | 07:00-12:00 | Quartalswartungen inkl. Zeitumstellung |
+
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
-| System       | vorhanden seit | voraussichtliche Behebung | Fehler | Status                  |
-|--------------|----------------|----------------------------|--------|-------------------------|
-|--------------|----------------|----------------------------|--------|-------------------------|
+| System                                       | vorhanden seit | voraussichtliche Behebung | Fehler               | Status  |
+|----------------------------------------------|----------------|---------------------------|----------------------|---------|
+| Bekannmachungsservice und Vermittlungsdienst | 19.10.2026     | 20.10.2020                | Infrastrukturstörung | Behoben |
 
 ## Hinweise
 
@@ -31,3 +32,5 @@ Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar
 | Umgebung                         | System                                               | Datum            | Zeit                  | Kommentar                                                                                                                                                                               |
 |----------------------------------|------------------------------------------------------|------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Produktion                       | TED Publication API                                  | 27. August 2026  | 06:30-09:30           | Wartungsarbeiten bei TED: Publication API in der produktiven Umgebung wird vorübergehend nicht verfügbar sein                                                                           |
+| Preview und Staging | DÖE exkl. BKMS | 07. September 2026 | 10:00-11:00 | Wartungsarbeiten beim DÖE: Sollte es nach den Wartungsarbeiten zu einem 401 Unauthorized kommen, bitte einen neuen Access Token anfordern bzw. die Anmeldung/Token-Aktualisierung erneut durchführen. |
+
