@@ -60,7 +60,7 @@ Aktuell stehen eine **Test-, Referenz- und eine Produktionsumgebung** des Vermit
       </td>
     </tr>
     <tr>
-      <td style="text-align: left;">eForms-Validator</td>
+      <td style="text-align: left;">eForms-Validierungsservice</td>
       <td style="text-align: left;">
         <a class="external-link" href="https://validator.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://validator.preview-ozg-vermittlungsdienst.de/</a>
       </td>
@@ -72,7 +72,7 @@ Aktuell stehen eine **Test-, Referenz- und eine Produktionsumgebung** des Vermit
       </td>
     </tr>
         <tr>
-      <td style="text-align: left;">Notice-Viewer</td>
+      <td style="text-align: left;">Notice Viewer (Vorschaufunktion)</td>
       <td style="text-align: left;">
         <a class="external-link" href="https://viewer.preview-ozg-vermittlungsdienst.de/" rel="nofollow">https://viewer.preview-ozg-vermittlungsdienst.de/</a>
       </td>
