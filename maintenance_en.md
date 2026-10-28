@@ -1,3 +1,5 @@
+Links to all services in the available environments are available on the page [Available system environments](/documentation/Development_environments).
+
 - [Notes for specialist procedure manufacturers](#hinweise-für-fachverfahrenshersteller)
 - [Upcoming maintenance windows](#upcoming-maintenance-windows)
 - [Known bugs and malfunctions in recent months](#known-bugs-and-malfunctions-in-recent-months)

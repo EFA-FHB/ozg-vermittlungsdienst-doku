@@ -1,5 +1,3 @@
-\* Der Service Vergabestatistik ist erreichbar und funktioniert wie gewohnt. Die Statusanzeige zeigt aufgrund eines Fehlers fälschlicherweise „Offline“ an. Wir beheben dies so bald wie möglich.
-
 Die Links zu allen Services in den verschiedenen Umgebungen finden Sie auf der Seite [Verfügbare Systemumgebungen](/documentation/Development_environments).
 
 - [Hinweise für Fachverfahrenshersteller](#hinweise-für-fachverfahrenshersteller)
