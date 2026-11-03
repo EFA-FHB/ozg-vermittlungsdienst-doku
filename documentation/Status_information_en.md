@@ -190,8 +190,11 @@ The following status combinations can be transmitted by the Vermittlungsdienst w
 | NOT_QUALIFIED | 1060 | Yes | No automatic statistical report was generated for this contract award notice as no contract was assigned. |
 | NOT_QUALIFIED | 1070 | Yes | No automatic statistical report was generated for this contract award notice as individual orders from a framework agreement are not included in the public procurement statistics. |
 | PENDING | 2000 | No | A statistical report will be generated automatically for this contract award notice and submitted to the Federal Statistical Office at the end of the reporting period. |
+| PENDING | 2010 | No | The statistical report for this contract award notice is currently being generated and submitted to the Federal Statistical Office. |
 | SUSPENDED | 3000 | Yes | The automatically generated statistical report was withdrawn before it was submitted to the Federal Statistical Office. |
 | SUSPENDED | 3500 | Yes | The statistical report was withdrawn before it was submitted to the Federal Statistical Office. An updated version will be generated automatically and submitted to the Federal Statistical Office at the end of the reporting period. |
+| SUSPENDED | 3510 | Yes  | No automatic statistical report was generated for this contract award notice as a later dispatched notice exists for the same procedure. |
+| SUSPENDED | 3520 | Yes  | No automatic statistical report was generated for this contract award notice as the statistical report for the same procedure is being or has already been submitted to the Federal Statistical Office. |
 | PROCESSED | 4000 | No | A statistical report was automatically generated for this contract award notice; it will now be submitted to the Federal Statistical Office. |
 | PROCESSED | 4010 | Yes | An error occurred while generating the statistical report from the contract award notice. |
 | DELIVERED | 5000 | Yes | The automatically generated statistical report has been successfully submitted to the Federal Statistical Office. The reporting requirement is considered fulfilled. |
