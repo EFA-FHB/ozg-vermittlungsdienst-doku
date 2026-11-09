@@ -21,9 +21,9 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
-| System                                                    | vorhanden seit   | voraussichtliche Behebung | Fehler               | Status  |
-|-----------------------------------------------------------|------------------|---------------------------|----------------------|---------|
-| Produktion: Bekanntmachungsservice und Vermittlungsdienst | 19. Oktober 2026 | 20. Oktober 2026          | Infrastrukturstörung | Behoben |
+| System                                               | vorhanden seit    | voraussichtliche Behebung | Fehler                                                      | Status     |
+|------------------------------------------------------|-------------------|---------------------------|-------------------------------------------------------------|------------|
+| Produktion: OpenData API des Bekanntmachungsservices | 06. November 2026 | 10. November 2026         | Infrastrukturstörung: Der tägliche Datenexport ist derzeit beeinträchtigt | In Bearbeitung  |
 
 ## Hinweise
 
@@ -31,9 +31,10 @@ Die Preview-Umgebung ist ausschließlich zwischen 06:00 bis 20:00 Uhr erreichbar
 
 ## Vergangene Wartungsfenster oder Störungen der letzten Monate
 
-| Umgebung                         | System                                               | Datum            | Zeit                  | Kommentar                                                                                                                                                                               |
-|----------------------------------|------------------------------------------------------|------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Produktion und Staging | DÖE | 24/25. Oktober 2026 | 07:00-12:00 | Quartalswartungen inkl. Zeitumstellung |
-| Preview und Staging | DÖE exkl. BKMS | 07. September 2026 | 10:00-11:00 | Wartungsarbeiten beim DÖE: Sollte es nach den Wartungsarbeiten zu einem 401 Unauthorized kommen, bitte einen neuen Access Token anfordern bzw. die Anmeldung/Token-Aktualisierung erneut durchführen. |
-| Produktion                       | TED Publication API                                  | 27. August 2026  | 06:30-09:30           | Wartungsarbeiten bei TED: Publication API in der produktiven Umgebung wird vorübergehend nicht verfügbar sein                                                                           |
+| Umgebung                                                 | System                                               | Datum               | Zeit                  | Kommentar                                                                                                                                                                               |
+|----------------------------------------------------------|------------------------------------------------------|---------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Produktion und Staging                                   | DÖE | 24/25. Oktober 2026 | 07:00-12:00 | Quartalswartungen inkl. Zeitumstellung |
+| Produktion | Bekanntmachungsservice und Vermittlungsdienst | 19/20. Oktober 2026 |           | Infrastrukturstörung |
+| Preview und Staging                                      | DÖE exkl. BKMS | 07. September 2026  | 10:00-11:00 | Wartungsarbeiten beim DÖE: Sollte es nach den Wartungsarbeiten zu einem 401 Unauthorized kommen, bitte einen neuen Access Token anfordern bzw. die Anmeldung/Token-Aktualisierung erneut durchführen. |
+| Produktion                                               | TED Publication API                                  | 27. August 2026     | 06:30-09:30           | Wartungsarbeiten bei TED: Publication API in der produktiven Umgebung wird vorübergehend nicht verfügbar sein                                                                           |
 
