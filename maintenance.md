@@ -21,9 +21,9 @@ Weitere wichtige Hinweise zur Erstellung von eForms finden Sie in der von [KoSIT
 
 ## Bekannte Bugs und Störungen der letzten Monate
 
-| System                                               | vorhanden seit    | voraussichtliche Behebung | Fehler                                                      | Status     |
-|------------------------------------------------------|-------------------|---------------------------|-------------------------------------------------------------|------------|
-| Produktion: OpenData API des Bekanntmachungsservices | 06. November 2026 | 10. November 2026         | Infrastrukturstörung: Der tägliche Datenexport ist derzeit beeinträchtigt | In Bearbeitung  |
+| System                                               | vorhanden seit    | voraussichtliche Behebung | Fehler                                                      | Status                       |
+|------------------------------------------------------|-------------------|---------------------------|-------------------------------------------------------------|------------------------------|
+| Produktion: OpenData API des Bekanntmachungsservices | 06. November 2026 | 10. November 2026         | Infrastrukturstörung: Der tägliche Datenexport ist derzeit beeinträchtigt | Behoben am 11. November 2026 |
 
 ## Hinweise
 
